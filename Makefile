@@ -14,6 +14,10 @@
 #    ├── search.d HTMLではない。翻訳対象外。
 #    ├── session
 #    └── syntax
+# exclude
+#Complex regular subexpression recursion limit (65534) exceeded at /usr/share/perl5/Locale/Po4a/Xml.pm line 2369.
+# ^Cmake: *** [Makefile:60: docs/html/doc_keyword_crossref.html] 割り込み
+#
 
 SRC_DIR = sqlite-doc-3410100
 SEDOUT_DIR = sedout
@@ -25,7 +29,12 @@ SYNTAX_DIR = syntax
 HTML_EXT = .html
 PO_EXT = .po
 
-SRC_ROOT = $(notdir $(wildcard $(SRC_DIR)/*$(HTML_EXT)))
+EXCLUDE_HTML = doc_backlink_crossref.html \
+	doc_keyword_crossref.html \
+	doc_pagelink_crossref.html \
+	doc_target_crossref.html
+
+SRC_ROOT = $(filter-out $(EXCLUDE_HTML),$(notdir $(wildcard $(SRC_DIR)/*$(HTML_EXT))))
 SRC_C3REF = $(addprefix $(C3REF_DIR)/,$(notdir $(wildcard $(SRC_DIR)/$(C3REF_DIR)/*$(HTML_EXT))))
 SRC_SESSION = $(addprefix $(SESSION_DIR)/,$(notdir $(wildcard $(SRC_DIR)/$(SESSION_DIR)/*$(HTML_EXT))))
 SRC_SYNTAX = $(addprefix $(SYNTAX_DIR)/,$(notdir $(wildcard $(SRC_DIR)/$(SYNTAX_DIR)/*$(HTML_EXT))))
@@ -66,6 +75,7 @@ $(DST_FILES): $(DST_DIR)/%$(HTML_EXT) : $(PO_DIR)/%$(PO_EXT)
 clean:
 	find $(DST_DIR) -type f | xargs rm -f
 	find $(DST_DIR) -empty | xargs rmdir
-	rsync -av --include "releaselog/*.html" --exclude "*.html" $(SRC_DIR)/ $(DST_DIR)
+	for i each ($(EXCLUDE_HTML)) do cp $(SRC_DIR)$i $(DST_DIR)
+	rsync -av --inlude "releaselog/*.html" --exclude "*.html" $(SRC_DIR)/ $(DST_DIR)
 
 .PHONEY: ja clean
