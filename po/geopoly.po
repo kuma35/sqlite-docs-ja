@@ -1,0 +1,932 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 22:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/geopoly.html:6 sedout/geopoly.html:121
+msgid "The Geopoly Interface To The SQLite R*Tree Module"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/geopoly.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/geopoly.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/geopoly.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/geopoly.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/geopoly.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/geopoly.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/geopoly.html:22 sedout/geopoly.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/geopoly.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/geopoly.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/geopoly.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/geopoly.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/geopoly.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/geopoly.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/geopoly.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/geopoly.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/geopoly.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/geopoly.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/geopoly.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/geopoly.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/geopoly.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/geopoly.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/geopoly.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/geopoly.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:129
+msgid "<a href=\"#geojson\">1.1. GeoJSON</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:130
+msgid "<a href=\"#binary_storage_format\">1.2. Binary storage format</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:131
+msgid "<a href=\"#using_the_geopoly_extension\">2. Using The Geopoly Extension</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:132
+msgid "<a href=\"#queries\">2.1. Queries</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:133
+msgid "<a href=\"#special_functions\">3. Special Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:134
+msgid ""
+"<a href=\"#the_geopoly_overlap_p1_p2_function\">3.1. The "
+"geopoly_overlap(P1,P2) Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:135
+msgid ""
+"<a href=\"#the_geopoly_within_p1_p2_function\">3.2. The "
+"geopoly_within(P1,P2) Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:136
+msgid ""
+"<a href=\"#the_geopoly_area_p_function\">3.3. The geopoly_area(P) "
+"Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:137
+msgid ""
+"<a href=\"#the_geopoly_blob_p_function\">3.4. The geopoly_blob(P) "
+"Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:138
+msgid ""
+"<a href=\"#the_geopoly_json_p_function\">3.5. The geopoly_json(P) "
+"Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:139
+msgid ""
+"<a href=\"#the_geopoly_svg_p_function\">3.6. The geopoly_svg(P,...) "
+"Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:140
+msgid ""
+"<a href=\"#the_geopoly_bbox_p_and_geopoly_group_bbox_p_functions\">3.7. The "
+"geopoly_bbox(P) and geopoly_group_bbox(P) Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:141
+msgid ""
+"<a href=\"#the_geopoly_contains_point_p_x_y_function\">3.8. The "
+"geopoly_contains_point(P,X,Y) Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:142
+msgid ""
+"<a href=\"#the_geopoly_xform_p_a_b_c_d_e_f_function\">3.9. The "
+"geopoly_xform(P,A,B,C,D,E,F) Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:143
+msgid ""
+"<a href=\"#the_geopoly_regular_x_y_r_n_function\">3.10. The "
+"geopoly_regular(X,Y,R,N) Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:144
+msgid ""
+"<a href=\"#the_geopoly_ccw_j_function\">3.11. The geopoly_ccw(J) "
+"Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:145
+msgid "<a href=\"#implementation_details\">4. Implementation Details</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:146
+msgid ""
+"<a href=\"#binary_encoding_of_polygons\">4.1. Binary Encoding of "
+"Polygons</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/geopoly.html:147
+msgid "<a href=\"#shadow_tables\">4.2. Shadow Tables</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/geopoly.html:151
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/geopoly.html:168
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:171
+msgid ""
+"The Geopoly module is an alternative interface to the <a "
+"href=\"rtree.html\">R-Tree extension</a> that uses the <a "
+"href=\"http://geojson.org\">GeoJSON</a> notation (<a "
+"href=\"https://tools.ietf.org/html/rfc7946\">RFC-7946</a>) to describe "
+"two-dimensional polygons.  Geopoly includes functions for detecting when one "
+"polygon is contained within or overlaps with another, for computing the area "
+"enclosed by a polygon, for doing linear transformations of polygons, for "
+"rendering polygons as <a "
+"href=\"https://en.wikipedia.org/wiki/Scalable_Vector_Graphics\">SVG</a>, and "
+"other similar operations."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:182
+msgid ""
+"The source code for Geopoly is included in the <a "
+"href=\"amalgamation.html\">amalgamation</a>.  However, depending on "
+"configuration options and the a particular version of SQLite you are using, "
+"the Geopoly extension may or may not be enabled by default.  To ensure that "
+"Geopoly is enabled for your build, add the <a "
+"href=\"compile.html#enable_geopoly\">-DSQLITE_ENABLE_GEOPOLY=1</a> "
+"compile-time option."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:189
+msgid ""
+"Geopoly operates on \"simple\" polygons - that is, polygons for which the "
+"boundary does not intersect itself.  Geopoly thus extends the capabilities "
+"of the <a href=\"rtree.html\">R-Tree extension</a> which can only deal with "
+"rectangular areas.  On the other hand, the <a href=\"rtree.html\">R-Tree "
+"extension</a> is able to handle between 1 and 5 coordinate dimensions, "
+"whereas Geopoly is restricted to 2-dimensional shapes only."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:197
+msgid ""
+"Each polygon in the Geopoly module can be associated with an arbitrary "
+"number of auxiliary data fields."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:200
+msgid "<span>1.1. </span>GeoJSON"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:202
+msgid ""
+"The <a href=\"https://tools.ietf.org/html/rfc7946\">GeoJSON standard</a> is "
+"syntax for exchanging geospatial information using JSON.  GeoJSON is a rich "
+"standard that can describe nearly any kind of geospatial content."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:206
+msgid ""
+"The Geopoly module only understands a small subset of GeoJSON, but a "
+"critical subset.  In particular, GeoJSON understands the JSON array of "
+"vertexes that describes a simple polygon."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:211
+msgid ""
+"A polygon is defined by its vertexes.  Each vertex is a JSON array of two "
+"numeric values which are the X and Y coordinates of the vertex.  A polygon "
+"is a JSON array of at least four of these vertexes, and hence is an array of "
+"arrays.  The first and last vertex in the array must be the same.  The "
+"polygon follows the right-hand rule: When tracing a line from one vertex to "
+"the next, the area to the right of the line is outside of the polygon and "
+"the area to the left is inside the polygon.  In other words, the net "
+"rotation of the vertexes is counter-clockwise."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:223
+msgid ""
+"For example, the following JSON describes an isosceles triangle, sitting on "
+"the X axis and with an area of 0.5:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:226
+#, no-wrap
+msgid "&#91;&#91;0,0],&#91;1,0],&#91;0.5,1],&#91;0,0]]\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:230
+msgid ""
+"A triangle has three vertexes, but the GeoJSON description of the triangle "
+"has 4 vertexes because the first and last vertex are duplicates."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:233
+msgid "<span>1.2. </span>Binary storage format"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:236
+msgid ""
+"Internally, Geopoly stores polygons in a binary format - an SQL BLOB.  "
+"Details of the binary format are given below.  All of the Geopoly interfaces "
+"are able to accept polygons in either the GeoJSON format or in the binary "
+"format."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/geopoly.html:241
+msgid "<span>2. </span>Using The Geopoly Extension"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:244
+msgid "A geopoly table is created as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:246
+#, no-wrap
+msgid "CREATE VIRTUAL TABLE newtab USING geopoly(a,b,c);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:250
+msgid ""
+"The statement above creates a new geopoly table named \"newtab\".  Every "
+"geopoly table contains a built-in integer \"rowid\" column and a \"_shape\" "
+"column that contains the polygon associated with that row of the table.  The "
+"example above also defines three auxiliary data columns named \"a\", \"b\", "
+"and \"c\" that can store whatever additional information the application "
+"needs to associate with each polygon.  If there is no need to store "
+"auxiliary information, the list of auxiliary columns can be omitted."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:261
+msgid "Store new polygons in the table using ordinary INSERT statements:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:263
+#, no-wrap
+msgid ""
+"INSERT INTO newtab(_shape) "
+"VALUES('&#91;&#91;0,0],&#91;1,0],&#91;0.5,1],&#91;0,0]]');\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:267
+msgid "UPDATE and DELETE statements work similarly."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:269
+msgid "<span>2.1. </span>Queries"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:272
+msgid ""
+"To query the geopoly table using an indexed geospatial search, use one of "
+"the functions geopoly_overlap()  or geopoly_within() as a boolean function "
+"in the WHERE clause, with the \"_shape\" column as the first argument to the "
+"function.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:278
+#, no-wrap
+msgid "SELECT * FROM newtab WHERE geopoly_overlap(_shape, $query_polygon);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:282
+msgid ""
+"The previous example will return every row for which the _shape overlaps the "
+"polygon in the $query_polygon parameter.  The geopoly_within() function "
+"works similarly, but only returns rows for which the _shape is completely "
+"contained within $query_polygon."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:288
+msgid ""
+"Queries (and also DELETE and UPDATE statements) in which the WHERE clause "
+"contains a bare geopoly_overlap() or geopoly_within() function make use of "
+"the underlying R*Tree data structures for a fast lookup that only has to "
+"examine a subset of the rows in the table.  The number of rows examines "
+"depends, of course, on the size of the $query_polygon.  Large "
+"$query_polygons will normally need to look at more rows than small ones."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:297
+msgid ""
+"Queries against the rowid of a geopoly table are also very quick, even for "
+"tables with a vast number of rows.  However, none of the auxiliary data "
+"columns are indexes, and so queries against the auxiliary data columns will "
+"involve a full table scan."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/geopoly.html:302
+msgid "<span>3. </span>Special Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:305
+msgid ""
+"The geopoly module defines several new SQL functions that are useful for "
+"dealing with polygons.  All polygon arguments to these functions can be "
+"either the GeoJSON format or the internal binary format.  <a "
+"name=\"goverlap\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:311
+msgid "<span>3.1. </span>The geopoly_overlap(P1,P2) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:314
+msgid ""
+"If P1 and P2 are both polygons, then the geopoly_overlap(P1,P2) function "
+"returns a non-zero integer if there is any overlap between P1 and P2, or it "
+"returns zero if P1 and P2 completely disjoint.  If either P1 or P2 is not a "
+"polygon, this routine returns NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:320
+msgid ""
+"The geopoly_overlap(P1,P2) function is special in that the geopoly virtual "
+"table knows how to use R*Tree indexes to optimize queries in which the WHERE "
+"clause uses geopoly_overlap() as a boolean function.  Only the "
+"geopoly_overlap(P1,P2) and geopoly_within(P1,P2) functions have this "
+"capability.  <a name=\"gwithin\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:328
+msgid "<span>3.2. </span>The geopoly_within(P1,P2) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:331
+msgid ""
+"If P1 and P2 are both polygons, then the geopoly_within(P1,P2) function "
+"returns a non-zero integer if P1 is completely contained within P2, or it "
+"returns zero if any part of P1 is outside of P2.  If P1 and P2 are the same "
+"polygon, this routine returns non-zero.  If either P1 or P2 is not a "
+"polygon, this routine returns NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:338
+msgid ""
+"The geopoly_within(P1,P2) function is special in that the geopoly virtual "
+"table knows how to use R*Tree indexes to optimize queries in which the WHERE "
+"clause uses geopoly_within() as a boolean function.  Only the "
+"geopoly_within(P1,P2) and geopoly_overlap(P1,P2) functions have this "
+"capability.  <a name=\"garea\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:346
+msgid "<span>3.3. </span>The geopoly_area(P) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:349
+msgid ""
+"If P is a polygon, then geopoly_area(P) returns the area enclosed by that "
+"polygon.  If P is not a polygon, geopoly_area(P) returns NULL.  <a "
+"name=\"gblob\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:354
+msgid "<span>3.4. </span>The geopoly_blob(P) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:357
+msgid ""
+"If P is a polygon, then geopoly_blob(P) returns the binary encoding of that "
+"polygon as a BLOB.  If P is not a polygon, geopoly_blob(P) returns NULL.  <a "
+"name=\"gjson\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:363
+msgid "<span>3.5. </span>The geopoly_json(P) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:366
+msgid ""
+"If P is a polygon, then geopoly_json(P) returns the GeoJSON representation "
+"of that polygon as a TEXT string.  If P is not a polygon, geopoly_json(P) "
+"returns NULL.  <a name=\"gsvg\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:372
+msgid "<span>3.6. </span>The geopoly_svg(P,...) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:375
+msgid ""
+"If P is a polygon, then geopoly_svg(P,...) returns a text string which is a "
+"<a href=\"https://en.wikipedia.org/wiki/Scalable_Vector_Graphics\">Scalable "
+"Vector Graphics (SVG)</a> representation of that polygon.  If there is more "
+"one argument, then second and subsequent arguments are added as attributes "
+"to each SVG glyph.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:380
+#, no-wrap
+msgid "SELECT geopoly_svg($polygon,'class=\"poly\"','style=\"fill:blue;\"');\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:384
+msgid "If P is not a polygon, geopoly_svg(P,...) returns NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:387
+msgid ""
+"Note that geopoly uses a traditional right-handed cartesian coordinate "
+"system with the origin at the lower left, whereas SVG uses a left-handed "
+"coordinate system with the origin at the upper left.  The geopoly_svg() "
+"routine makes no attempt to transform the coordinate system, so the "
+"displayed images are shown in mirror image and rotated.  If that is "
+"undesirable, the geopoly_xform() routine can be used to transform the output "
+"from cartesian to SVG coordinates prior to passing the polygons into "
+"geopoly_svg().  <a name=\"gbbox\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:397
+msgid "<span>3.7. </span>The geopoly_bbox(P) and geopoly_group_bbox(P) Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:400
+msgid ""
+"If P is a polygon, then geopoly_bbox(P) returns a new polygon that is the "
+"smallest (axis-aligned) rectangle completely enclosing P.  If P is not a "
+"polygon, geopoly_bbox(P) returns NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:405
+msgid ""
+"The geopoly_group_bbox(P) function is an aggregate version of "
+"geopoly_bbox(P).  The geopoly_group_bbox(P) function returns the smallest "
+"rectangle that will enclose all P values seen during aggregation.  <a "
+"name=\"gpoint\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:411
+msgid "<span>3.8. </span>The geopoly_contains_point(P,X,Y) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:414
+msgid ""
+"If P is a polygon, then geopoly_contains_point(P,X,Y) returns a non-zero "
+"integer if and only if the coordinate X,Y is inside or on the boundary of "
+"the polygon P.  If P is not a polygon, geopoly_contains_point(P,X,Y) returns "
+"NULL.  <a name=\"xform\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:421
+msgid "<span>3.9. </span>The geopoly_xform(P,A,B,C,D,E,F) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:424
+msgid ""
+"The geopoly_xform(P,A,B,C,D,E,F) function returns a new polygon that is an "
+"affine transformation of the polygon P and where the transformation is "
+"defined by values A,B,C,D,E,F. If P is not a valid polygon, this routine "
+"returns NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:430
+msgid ""
+"The transformation converts each vertex of the polygon according to the "
+"following formula:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:433
+#, no-wrap
+msgid ""
+"x1 = A*x0 + B*y0 + E\n"
+"y1 = C*x0 + D*y0 + F\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:438
+msgid ""
+"So, for example, to move a polygon by some amount DX, DY without changing "
+"its shape, use:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:441
+#, no-wrap
+msgid "geopoly_xform($polygon, 1, 0, 0, 1, $DX, $DY)\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:445
+msgid "To rotate a polygon by R radians around the point 0, 0:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:447
+#, no-wrap
+msgid "geopoly_xform($polygon, cos($R), sin($R), -sin($R), cos($R), 0, 0)\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:451
+msgid ""
+"Note that a transformation that flips the polygon might cause the order of "
+"vertexes to be reversed.  In other words, the transformation might cause the "
+"vertexes to circulate in clockwise order instead of counter-clockwise.  This "
+"can be corrected by sending the result through the <a "
+"href=\"geopoly.html#ccw\">geopoly_ccw()</a> function after transformation.  "
+"<a name=\"regpoly\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:460
+msgid "<span>3.10. </span>The geopoly_regular(X,Y,R,N) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:463
+msgid ""
+"The geopoly_regular(X,Y,R,N) function returns a convex, simple, regular, "
+"equilateral, equiangular polygon with N sides, centered at X,Y, and with a "
+"circumradius of R.  Or, if R is negative or if N is less than 3, the "
+"function returns NULL.  The N value is capped at 1000 so that the routine "
+"will never render a polygon with more than 1000 sides even if the N value is "
+"larger than 1000."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:471
+msgid "As an example, the following graphic:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:477
+msgid "Was generated by this script:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/geopoly.html:479
+#, no-wrap
+msgid ""
+"SELECT '&lt;svg width=\"600\" height=\"300\">';\n"
+"WITH t1(x,y,n,color) AS (VALUES\n"
+"   (100,100,3,'red'),\n"
+"   (200,100,4,'orange'),\n"
+"   (300,100,5,'green'),\n"
+"   (400,100,6,'blue'),\n"
+"   (500,100,7,'purple'),\n"
+"   (100,200,8,'red'),\n"
+"   (200,200,10,'orange'),\n"
+"   (300,200,12,'green'),\n"
+"   (400,200,16,'blue'),\n"
+"   (500,200,20,'purple')\n"
+")\n"
+"SELECT\n"
+"   geopoly_svg(geopoly_regular(x,y,40,n),\n"
+"        printf('style=\"fill:none;stroke:%s;stroke-width:2\"',color))\n"
+"   || printf(' &lt;text x=\"%d\" y=\"%d\" alignment-baseline=\"central\" "
+"text-anchor=\"middle\">%d&lt;/text>',x,y+6,n)\n"
+"  FROM t1;\n"
+"SELECT '&lt;/svg>';\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/geopoly.html:500
+msgid "<a name=\"ccw\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:502
+msgid "<span>3.11. </span>The geopoly_ccw(J) Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:504
+msgid ""
+"The geopoly_ccw(J) function returns the polygon J with counter-clockwise "
+"(CCW) rotation."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:507
+msgid ""
+"<a href=\"https://tools.ietf.org/html/rfc7946\">RFC-7946</a> requires that "
+"polygons use CCW rotation.  But the spec also observes that many legacy "
+"GeoJSON files do not following the spec and contain polygons with clockwise "
+"(CW) rotation.  The geopoly_ccw() function is useful for applications that "
+"are reading legacy GeoJSON scripts.  If the input to geopoly_ccw() is a "
+"correctly-formatted polygon, then no changes are made.  However, if the "
+"circulation of the input polygon is backwards, then geopoly_ccw() reverses "
+"the circulation order so that it conforms to the spec and so that it will "
+"work correctly with the Geopoly module."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/geopoly.html:517
+msgid "<span>4. </span>Implementation Details"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:519
+msgid ""
+"The geopoly module is an extension to the <a href=\"rtree.html\">R-Tree "
+"extension</a>.  Geopoly uses the same underlying logic and shadow tables as "
+"the <a href=\"rtree.html\">R-Tree extension</a>.  Geopoly merely presents a "
+"different interface, and provides some extra logic to compute polygon "
+"decoding, overlap, and containment."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:524
+msgid "<span>4.1. </span>Binary Encoding of Polygons"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:527
+msgid ""
+"Geopoly stores all polygons internally using a binary format.  A binary "
+"polygon consists of a 4-byte header following by an array of coordinate "
+"pairs in which each dimension of each coordinate is a 32-bit floating point "
+"number."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:533
+msgid ""
+"The first byte of the header is a flag byte.  The least significant bit of "
+"the flag byte determines whether the coordinate pairs that follow the header "
+"are stored big-endian or little-endian.  A value of 0 for the least "
+"significant bit means big-endian and a value of 1 means little endian.  "
+"Other bits of the first byte in the header are reserved for future "
+"expansion."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:540
+msgid ""
+"The next three bytes in the header record the number of vertexes in the "
+"polygon as a big-endian integer.  Thus there is an upper bound of about 16 "
+"million vertexes per polygon."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:545
+msgid ""
+"Following the header is the array of coordinate pairs.  Each coordinate is a "
+"32-bit floating point number.  The use of 32-bit floating point values for "
+"coordinates means that any point on the earth's surface can be mapped with a "
+"resolution of approximately 2.5 meters.  Higher resolutions are of course "
+"possible if the map is restricted to a single continent or country.  Note "
+"that the resolution of coordinates in the geopoly module is similar in "
+"magnitude to daily movement of points on the earth's surface due to tidal "
+"forces."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:555
+msgid ""
+"The list of coordinates in the binary format contains no redundancy.  The "
+"last coordinate is not a repeat of the first as it is with GeoJSON.  Hence, "
+"there is always one fewer coordinate pair in the binary representation of a "
+"polygon compared to the GeoJSON representation."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/geopoly.html:560
+msgid "<span>4.2. </span>Shadow Tables"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:563
+msgid ""
+"The geopoly module is built on top of the <a href=\"rtree.html\">R-Tree "
+"extension</a> and uses the same underlying shadow tables and algorithms.  "
+"For indexing purposes, each polygon is represented in the shadow tables as a "
+"rectangular bounding box.  The underlying R-Tree implementation uses "
+"bounding boxes to limit the search space.  Then the geoploy_overlap() and/or "
+"geopoly_within() routines further refine the search to the exact answer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/geopoly.html:569
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/geopoly.in?m=f3580c58ff\">2023-02-20 "
+"00:00:42</a> UTC </i></small>"
+msgstr ""

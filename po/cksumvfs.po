@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/cksumvfs.html:6 sedout/cksumvfs.html:121
+msgid "The Checksum VFS Shim"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/cksumvfs.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/cksumvfs.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/cksumvfs.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/cksumvfs.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/cksumvfs.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/cksumvfs.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/cksumvfs.html:22 sedout/cksumvfs.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/cksumvfs.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/cksumvfs.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/cksumvfs.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/cksumvfs.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/cksumvfs.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/cksumvfs.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/cksumvfs.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/cksumvfs.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/cksumvfs.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/cksumvfs.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/cksumvfs.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/cksumvfs.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/cksumvfs.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/cksumvfs.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/cksumvfs.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/cksumvfs.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cksumvfs.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cksumvfs.html:129
+msgid "<a href=\"#compiling\">2. Compiling</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cksumvfs.html:130
+msgid "<a href=\"#loading\">3. Loading</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cksumvfs.html:131
+msgid "<a href=\"#usage\">4. Usage</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cksumvfs.html:132
+msgid "<a href=\"#verification_of_checksums\">5. Verification Of Checksums</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cksumvfs.html:133
+msgid ""
+"<a href=\"#controlling_checksum_verification\">6. Controlling Checksum "
+"Verification</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/cksumvfs.html:137
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/cksumvfs.html:155
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cksumvfs.html:157
+msgid ""
+"The checksum VFS extension is a <a href=\"vfs.html#shim\">VFS shim</a> that "
+"adds an 8-byte checksum to the end of every page in an SQLite database.  The "
+"checksum is added as each page is written and verified as each page is "
+"read.  The checksum is intended to help detect database corruption caused by "
+"random bit-flips in the mass storage device."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cksumvfs.html:163
+msgid ""
+"The checksum VFS extension requires SQLite version 3.32.0 (2020-05-22) or "
+"later.  It will not work with earlier versions of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/cksumvfs.html:167
+msgid "<span>2. </span>Compiling"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cksumvfs.html:169
+msgid ""
+"The checksum VFS module is a <a href=\"loadext.html\">loadable extension</"
+"a>.  It is not included in the <a href=\"amalgamation.html\">amalgamation</"
+"a>.  It must be added to SQLite either at compile-time or at run-time.  The "
+"source code to the checksum VFS module is in the <a href=\"https://sqlite."
+"org/src/file/ext/misc/cksumvfs.c\">ext/misc/cksumvfs.c</a> source file in "
+"the <a href=\"https://sqlite.org/src\">SQLite source tree</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cksumvfs.html:177
+msgid ""
+"To build the checksum VFS module into a run-time loadable extension, use "
+"commands similar to the following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/cksumvfs.html:181
+msgid "(linux) &rarr; <tt>gcc -fPIC -shared cksumvfs.c -o cksumvfs.so</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/cksumvfs.html:182
+msgid ""
+"(mac) &rarr; <tt>clang -fPIC -dynamiclib cksumvfs.c -o cksumvfs.dylib</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/cksumvfs.html:183
+msgid "(windows) &rarr; <tt>cl cksumvfs.c -link -dll -out:cksumvfs.dll</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:186
+msgid ""
+"You may want to add additional compiler options, of course, according to the "
+"needs of your project."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:189
+msgid ""
+"To statically link this extension with your product, compile it like any "
+"other C-language module but add the \"-DSQLITE_CKSUMVFS_STATIC\" option so "
+"that this module knows that it is being statically linked rather than "
+"dynamically linked."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/cksumvfs.html:194
+msgid "<span>3. </span>Loading"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:196
+msgid ""
+"To load this extension as a shared library, you first have to bring up a "
+"dummy SQLite database connection to use as the argument to the <a "
+"href=\"c3ref/load_extension.html\">sqlite3_load_extension()</a> API call.  "
+"Then you invoke the <a href=\"c3ref/load_extension."
+"html\">sqlite3_load_extension()</a> API and shutdown the dummy database "
+"connection.  All subsequent database connections that are opened will "
+"include this extension.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/cksumvfs.html:203
+#, no-wrap
+msgid ""
+"sqlite3 *db;\n"
+"sqlite3_open(\":memory:\", &db);\n"
+"sqlite3_load_extension(db, \"./cksumvfs\");\n"
+"sqlite3_close(db);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:209
+msgid ""
+"If this extension is compiled with -DSQLITE_CKSUMVFS_STATIC and statically "
+"linked against the application, initialize it using a single API call as "
+"follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/cksumvfs.html:213
+#, no-wrap
+msgid "sqlite3_cksumvfs_init();\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:216
+msgid ""
+"Cksumvfs is a <a href=\"vfs.html#shim\">VFS shim</a>. When loaded, "
+"\"cksmvfs\" becomes the new default VFS, and it uses the prior default VFS "
+"as the next VFS down in the stack.  This is normally what you want.  "
+"However, in complex situations where multiple VFS shims are being loaded, it "
+"might be important to ensure that cksumvfs is loaded in the correct order so "
+"that it sequences itself into the default VFS Shim stack in the right order."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/cksumvfs.html:224
+msgid "<span>4. </span>Usage"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:226
+msgid ""
+"Open database connections using the <a href=\"c3ref/open."
+"html\">sqlite3_open()</a> or <a href=\"c3ref/open.html\">sqlite3_open_v2()</"
+"a> interfaces, as normal.  Ordinary database files (without a checksum) will "
+"operate normally.  Databases with checksums will return an SQLITE_IOERR_DATA "
+"error if a page is encountered that contains an invalid checksum."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:232
+msgid ""
+"Checksumming only works on databases that have a <a href=\"fileformat2."
+"html#resbyte\">reserve bytes</a> value of exactly 8.  The default value for "
+"reserve-bytes is 0.  Hence, newly created database files will omit the "
+"checksum by default.  To create a database that includes a checksum, change "
+"the reserve-bytes value to 8 by running code similar to this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/cksumvfs.html:238
+#, no-wrap
+msgid ""
+"int n = 8;\n"
+"sqlite3_file_control(db, 0, SQLITE_FCNTL_RESERVE_BYTES, &n);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:242
+msgid ""
+"If you do this immediately after creating a new database file, before "
+"anything else has been written into the file, then that might be all that "
+"you need to do.  Otherwise, the API call above should be followed by:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/cksumvfs.html:247
+#, no-wrap
+msgid "sqlite3_exec(db, \"VACUUM\", 0, 0, 0);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:250
+msgid ""
+"It never hurts to run the VACUUM, even if you don't need it.  If the "
+"database is in WAL mode, you should shutdown and reopen all database "
+"connections before continuing."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:254
+msgid ""
+"From the CLI, use the \".filectrl reserve_bytes 8\" command, followed by "
+"\"VACUUM;\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:257
+msgid ""
+"Note that SQLite allows the number of reserve-bytes to be increased but not "
+"decreased.  So if a database file already has a reserve-bytes value greater "
+"than 8, there is no way to activate checksumming on that database, other "
+"than to dump and restore the database file.  Note also that other extensions "
+"might also make use of the reserve-bytes.  Checksumming will be incompatible "
+"with those other extensions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/cksumvfs.html:265
+msgid "<span>5. </span>Verification Of Checksums"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:267
+msgid ""
+"If any checksum is incorrect, the \"PRAGMA quick_check\" command will find "
+"it.  To verify that checksums are actually enabled and running, use SQL like "
+"the following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/cksumvfs.html:271
+#, no-wrap
+msgid ""
+"SELECT count(*), verify_checksum(data)\n"
+"  FROM sqlite_dbpage\n"
+" GROUP BY 2;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:276
+msgid ""
+"There are three possible outputs from the verify_checksum()  function: 1, 0, "
+"and NULL.  1 is returned if the checksum is correct.  0 is returned if the "
+"checksum is incorrect.  NULL is returned if the page is unreadable.  If "
+"checksumming is enabled, the read will fail if the checksum is wrong, so the "
+"usual result from verify_checksum() on a bad checksum is NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:283
+msgid ""
+"If everything is OK, the query above should return a single row where the "
+"second column is 1.  Any other result indicates either that there is a "
+"checksum error, or checksum validation is disabled."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/cksumvfs.html:288
+msgid "<span>6. </span>Controlling Checksum Verification"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:290
+msgid ""
+"The cksumvfs extension implements a new PRAGMA statement that can be used to "
+"disable, re-enable, or query the status of checksum verification:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/cksumvfs.html:294
+#, no-wrap
+msgid ""
+"PRAGMA checksum_verification;          -- query status\n"
+"PRAGMA checksum_verification=OFF;      -- disable verification\n"
+"PRAGMA checksum_verification=ON;       -- re-enable verification\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:299
+msgid ""
+"The \"checksum_verification\" pragma will return \"1\" (true) or "
+"\"0\" (false) if checksum verification is enabled or disabled, "
+"respectively.  \"Verification\" in this context means the feature that "
+"causes SQLITE_IOERR_DATA errors if a checksum mismatch is detected while "
+"reading.  Checksums are always kept up-to-date as long as the <a "
+"href=\"fileformat2.html#resbyte\">reserve bytes</a> value of the database is "
+"8, regardless of the setting of this pragma.  Checksum verification can be "
+"disabled (for example)  to do forensic analysis of a database that has "
+"previously reported a checksum error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:309
+msgid ""
+"The \"checksum_verification\" pragma will always respond with \"0\" if the "
+"database file does not have a <a href=\"fileformat2.html#resbyte\">reserve "
+"bytes</a> value of 8.  The pragma will return no rows at all if the cksumvfs "
+"extension is not loaded."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cksumvfs.html:313
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/cksumvfs.in?m=c9b2514ff0\">2022-01-08 05:02:57</a> UTC </i></small>"
+msgstr ""

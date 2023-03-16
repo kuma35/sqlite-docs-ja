@@ -1,0 +1,666 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/np1queryprob.html:6 sedout/np1queryprob.html:121
+msgid "Many Small Queries Are Efficient In SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/np1queryprob.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/np1queryprob.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/np1queryprob.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/np1queryprob.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/np1queryprob.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/np1queryprob.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/np1queryprob.html:22 sedout/np1queryprob.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/np1queryprob.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/np1queryprob.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/np1queryprob.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/np1queryprob.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/np1queryprob.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/np1queryprob.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/np1queryprob.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/np1queryprob.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/np1queryprob.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/np1queryprob.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/np1queryprob.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/np1queryprob.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/np1queryprob.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/np1queryprob.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/np1queryprob.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/np1queryprob.html:129
+msgid "<span>1. </span>Executive Summary"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/np1queryprob.html:133
+msgid ""
+"200 SQL statements per webpage is excessive for client/server database "
+"engines like MySQL, PostgreSQL, or SQL Server."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/np1queryprob.html:137
+msgid "But with SQLite, 200 or more SQL statement per webpage is not a problem."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/np1queryprob.html:140
+msgid ""
+"SQLite can also do large and complex queries efficiently, just like "
+"client/server databases.  But SQLite can do many smaller queries efficiently "
+"too.  Application developers can use whichever technique works best for the "
+"task at hand."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/np1queryprob.html:147
+msgid "<span>2. </span>The Perceived Problem"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/np1queryprob.html:150
+msgid ""
+"The <a href=\"whentouse.html#website\">Appropriate Uses For SQLite</a> page "
+"says that dynamic pages on the SQLite website typically do about 200 SQL "
+"statements each.  This has provoked criticism from readers.  Examples:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/np1queryprob.html:157
+msgid ""
+"<i>\"200 SQL statements is a ridiculously high number for a single "
+"page\"</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/np1queryprob.html:159
+msgid "<i>\"For most sites, 200 queries is way, way, way too much.\"</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/np1queryprob.html:161
+msgid "<i>\"&#91;This is&#93; bad design\"</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:165
+msgid ""
+"Such criticism would be well-founded for a traditional client/server "
+"database engine, such as MySQL, PostgreSQL, or SQL Server.  In a "
+"client/server database, each SQL statement requires a message round-trip "
+"from the application to the database server and back to the application.  "
+"Doing over 200 round-trip messages, sequentially, can be a serious "
+"performance drag.  This is sometimes called the \"N+1 Query Problem\" or the "
+"\"N+1 Select Problem\" and it is an anti-pattern."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/np1queryprob.html:173
+msgid "<span>3. </span>N+1 Queries Are Not A Problem With SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:176
+msgid ""
+"SQLite is <u>not</u> client/server, however.  The SQLite database runs in "
+"the same process address space as the application.  Queries do not involve "
+"message round-trips, only a function call.  The latency of a single SQL "
+"query is far less in SQLite.  Hence, using a large number of queries with "
+"SQLite is not the problem."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/np1queryprob.html:182
+msgid "<span>4. </span>The Need For Over 200 SQL Statements Per Webpage"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:185
+msgid ""
+"The dynamic webpages on the SQLite website are mostly generated by the <a "
+"href=\"https://www.fossil-scm.org/\">Fossil version control system</a>.  A "
+"typical dynamic page would be a timeline such as <a "
+"href=\"https://www.sqlite.org/src/timeline\">https://www.sqlite.org/src/timeline</a>.  "
+"A log of all SQL used by the timeline is shown below."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:192
+msgid ""
+"The first group of queries in the log are extracting display options from "
+"the \"config\" and \"global_config\" tables of the Fossil database.  Then "
+"there is a single complex query that extracts a list of all elements to be "
+"displayed on the timeline.  This \"timeline\" query demonstrates that SQLite "
+"can easily process complex relational database queries involving multiple "
+"tables, subqueries, and complex WHERE clause constraints, and it can make "
+"effective use of indexes to solve the queries with minimal disk I/O."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:202
+msgid ""
+"Following the single big \"timeline\" query, there are additional queries "
+"for each timeline element.  Fossil is using the \"N+1 Query\" pattern rather "
+"than trying to grab all the information in as few queries as possible.  But "
+"that is ok because there is no unnecessary IPC overhead.  At the bottom of "
+"each timeline page, Fossil shows approximately how long it took to generate "
+"the page.  For a 50-entry timeline, the latency is usually less than 25 "
+"milliseconds.  Profiling shows that few of those milliseconds were spent "
+"inside the database engine."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:214
+msgid ""
+"Using the N+1 Query pattern in Fossil does not harm the application.  But "
+"the N+1 Query pattern does have benefits.  For one, the section of the code "
+"that creates the timeline query can be completely separate from the section "
+"that prepares each timeline entry for display.  This provides a separation "
+"of responsibility that helps keep the code simple and easy to maintain.  "
+"Secondly, the information needed for display, and the queries needed to "
+"extract that information, vary according to what type of objects to be "
+"shown.  Check-ins need one set of queries.  Tickets need another set of "
+"queries.  Wiki pages need a different query.  And so forth.  By implementing "
+"these queries on-demand and in the part of the code dealing with the various "
+"entities, there is further separation of responsibility and simplification "
+"of the overall code base."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:230
+msgid ""
+"So, SQLite is able to do one or two large and complex queries, or it can do "
+"many smaller and simpler queries.  Both are efficient.  An application can "
+"use either or both techniques, depending on what works best for the "
+"situation at hand."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:236
+msgid ""
+"The following is a log of all SQL used to generate one particular timeline "
+"(captured on 2016-09-16):"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/np1queryprob.html:239
+#, no-wrap
+msgid ""
+"-- sqlite3_open: /home/drh/sqlite/sqlite/.fslckout\n"
+"PRAGMA foreign_keys=OFF;\n"
+"SELECT sql FROM localdb.sqlite_schema WHERE name=='vfile';\n"
+"-- sqlite3_open: /home/drh/.fossil\n"
+"PRAGMA foreign_keys=OFF;\n"
+"SELECT value FROM vvar WHERE name='repository';\n"
+"ATTACH DATABASE '/home/drh/www/repos/sqlite.fossil' AS 'repository' KEY "
+"'';\n"
+"SELECT value FROM config WHERE name='allow-symlinks';\n"
+"SELECT value FROM global_config WHERE name='allow-symlinks';\n"
+"SELECT value FROM config WHERE name='aux-schema';\n"
+"SELECT 1 FROM config WHERE name='baseurl:http://';\n"
+"SELECT value FROM config WHERE name='ip-prefix-terms';\n"
+"SELECT value FROM global_config WHERE name='ip-prefix-terms';\n"
+"SELECT value FROM config WHERE name='localauth';\n"
+"SELECT value FROM vvar WHERE name='default-user';\n"
+"SELECT uid FROM user WHERE cap LIKE '%s%';\n"
+"SELECT login FROM user WHERE uid=1;\n"
+"SELECT cap FROM user WHERE login = 'nobody';\n"
+"SELECT cap FROM user WHERE login = 'anonymous';\n"
+"SELECT value FROM config WHERE name='public-pages';\n"
+"SELECT value FROM global_config WHERE name='public-pages';\n"
+"SELECT value FROM config WHERE name='header';\n"
+"SELECT value FROM config WHERE name='project-name';\n"
+"SELECT value FROM config WHERE name='th1-setup';\n"
+"SELECT value FROM global_config WHERE name='th1-setup';\n"
+"SELECT value FROM config WHERE name='redirect-to-https';\n"
+"SELECT value FROM global_config WHERE name='redirect-to-https';\n"
+"SELECT value FROM config WHERE name='index-page';\n"
+"SELECT mtime FROM config WHERE name='css';\n"
+"SELECT mtime FROM config WHERE name='logo-image';\n"
+"SELECT mtime FROM config WHERE name='background-image';\n"
+"CREATE TEMP TABLE IF NOT EXISTS timeline(\n"
+"  rid INTEGER PRIMARY KEY,\n"
+"  uuid TEXT,\n"
+"  timestamp TEXT,\n"
+"  comment TEXT,\n"
+"  user TEXT,\n"
+"  isleaf BOOLEAN,\n"
+"  bgcolor TEXT,\n"
+"  etype TEXT,\n"
+"  taglist TEXT,\n"
+"  tagid INTEGER,\n"
+"  short TEXT,\n"
+"  sortby REAL\n"
+")\n"
+";\n"
+"INSERT OR IGNORE INTO timeline SELECT\n"
+"  blob.rid AS blobRid,\n"
+"  uuid AS uuid,\n"
+"  datetime(event.mtime,toLocal()) AS timestamp,\n"
+"  coalesce(ecomment, comment) AS comment,\n"
+"  coalesce(euser, user) AS user,\n"
+"  blob.rid IN leaf AS leaf,\n"
+"  bgcolor AS bgColor,\n"
+"  event.type AS eventType,\n"
+"  (SELECT group_concat(substr(tagname,5), ', ') FROM tag, tagxref\n"
+"    WHERE tagname GLOB 'sym-*' AND tag.tagid=tagxref.tagid\n"
+"      AND tagxref.rid=blob.rid AND tagxref.tagtype&gt;0) AS tags,\n"
+"  tagid AS tagid,\n"
+"  brief AS brief,\n"
+"  event.mtime AS mtime\n"
+" FROM event CROSS JOIN blob\n"
+"WHERE blob.rid=event.objid\n"
+" AND NOT EXISTS(SELECT 1 FROM tagxref WHERE tagid=5 AND tagtype&gt;0 AND "
+"rid=blob.rid)\n"
+" ORDER BY event.mtime DESC LIMIT 50;\n"
+"-- SELECT value FROM config WHERE name='timeline-utc';\n"
+"SELECT count(*) FROM timeline WHERE etype!='div';\n"
+"SELECT min(timestamp) FROM timeline;\n"
+"SELECT julianday('2016-09-15 14:54:51',fromLocal());\n"
+"SELECT EXISTS (SELECT 1 FROM event CROSS JOIN blob WHERE "
+"blob.rid=event.objid AND mtime&lt;=2457647.121412037);\n"
+"SELECT max(timestamp) FROM timeline;\n"
+"SELECT julianday('2016-09-24 17:42:43',fromLocal());\n"
+"SELECT EXISTS (SELECT 1 FROM event CROSS JOIN blob WHERE "
+"blob.rid=event.objid AND mtime&gt;=2457656.238009259);\n"
+"SELECT value FROM config WHERE name='search-ci';\n"
+"SELECT value FROM vvar WHERE name='checkout';\n"
+"SELECT value FROM config WHERE name='timeline-max-comment';\n"
+"SELECT value FROM global_config WHERE name='timeline-max-comment';\n"
+"SELECT value FROM config WHERE name='timeline-date-format';\n"
+"SELECT value FROM config WHERE name='timeline-truncate-at-blank';\n"
+"SELECT value FROM global_config WHERE name='timeline-truncate-at-blank';\n"
+"SELECT * FROM timeline ORDER BY sortby DESC;\n"
+"SELECT value FROM config WHERE name='hash-digits';\n"
+"SELECT value FROM global_config WHERE name='hash-digits';\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68028;\n"
+"SELECT pid FROM plink WHERE cid=68028 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM tagxref WHERE rid=68028 AND tagid=9 AND tagtype&gt;0;\n"
+"SELECT value FROM config WHERE name='timeline-block-markup';\n"
+"SELECT value FROM config WHERE name='timeline-plaintext';\n"
+"SELECT value FROM config WHERE name='wiki-use-html';\n"
+"SELECT value FROM global_config WHERE name='wiki-use-html';\n"
+"SELECT 1 FROM private WHERE rid=68028;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68026;\n"
+"SELECT pid FROM plink WHERE cid=68026 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68026;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68024;\n"
+"SELECT pid FROM plink WHERE cid=68024 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68024;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68018;\n"
+"SELECT pid FROM plink WHERE cid=68018 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68018;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68012;\n"
+"SELECT pid FROM plink WHERE cid=68012 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68012;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68011;\n"
+"SELECT value FROM config WHERE name='details';\n"
+"SELECT pid FROM plink WHERE cid=68011 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM tagxref WHERE rid=68011 AND tagid=9 AND tagtype&gt;0;\n"
+"SELECT 1 FROM private WHERE rid=68011;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68008;\n"
+"SELECT pid FROM plink WHERE cid=68008 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68008;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68006;\n"
+"SELECT pid FROM plink WHERE cid=68006 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68006;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=68000;\n"
+"SELECT pid FROM plink WHERE cid=68000 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=68000;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67997;\n"
+"SELECT pid FROM plink WHERE cid=67997 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67997;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67992;\n"
+"SELECT pid FROM plink WHERE cid=67992 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67992;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67990;\n"
+"SELECT pid FROM plink WHERE cid=67990 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67990;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67989;\n"
+"SELECT pid FROM plink WHERE cid=67989 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67989;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67984;\n"
+"SELECT pid FROM plink WHERE cid=67984 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67984;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67983;\n"
+"SELECT pid FROM plink WHERE cid=67983 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67983;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67979;\n"
+"SELECT pid FROM plink WHERE cid=67979 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67979;\n"
+"SELECT value FROM config WHERE name='ticket-closed-expr';\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='1ec41379c9c1e400' AND tkt_uuid&lt;'1ec41379c9c1e401';\n"
+"SELECT 1 FROM private WHERE rid=67980;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67977;\n"
+"SELECT pid FROM plink WHERE cid=67977 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='1ec41379c9c1e400' AND tkt_uuid&lt;'1ec41379c9c1e401';\n"
+"SELECT 1 FROM private WHERE rid=67977;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='1ec41379c9c1e400' AND tkt_uuid&lt;'1ec41379c9c1e401';\n"
+"SELECT 1 FROM private WHERE rid=67974;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67971;\n"
+"SELECT pid FROM plink WHERE cid=67971 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67971;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67972;\n"
+"SELECT pid FROM plink WHERE cid=67972 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67972;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67969;\n"
+"SELECT pid FROM plink WHERE cid=67969 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67969;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67966;\n"
+"SELECT pid FROM plink WHERE cid=67966 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67966;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67962;\n"
+"SELECT pid FROM plink WHERE cid=67962 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67962;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67960;\n"
+"SELECT pid FROM plink WHERE cid=67960 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67960;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67957;\n"
+"SELECT pid FROM plink WHERE cid=67957 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67957;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67955;\n"
+"SELECT pid FROM plink WHERE cid=67955 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67955;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67953;\n"
+"SELECT pid FROM plink WHERE cid=67953 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='5990a1bdb4a073' AND tkt_uuid&lt;'5990a1bdb4a074';\n"
+"SELECT 1 FROM blob WHERE uuid&gt;='5990a1bdb4a073' AND "
+"uuid&lt;'5990a1bdb4a074';\n"
+"SELECT 1 FROM private WHERE rid=67953;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67941;\n"
+"SELECT pid FROM plink WHERE cid=67941 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67941;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67940;\n"
+"SELECT pid FROM plink WHERE cid=67940 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67940;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67938;\n"
+"SELECT pid FROM plink WHERE cid=67938 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67938;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67935;\n"
+"SELECT pid FROM plink WHERE cid=67935 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67935;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67934;\n"
+"SELECT pid FROM plink WHERE cid=67934 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67934;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67932;\n"
+"SELECT pid FROM plink WHERE cid=67932 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67932;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67930;\n"
+"SELECT pid FROM plink WHERE cid=67930 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67930;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67928;\n"
+"SELECT pid FROM plink WHERE cid=67928 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM tagxref WHERE rid=67928 AND tagid=9 AND tagtype&gt;0;\n"
+"SELECT 1 FROM private WHERE rid=67928;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='0eab1ac7591f511d' AND tkt_uuid&lt;'0eab1ac7591f511e';\n"
+"SELECT 1 FROM private WHERE rid=67919;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='01874d252ac44861' AND tkt_uuid&lt;'01874d252ac44862';\n"
+"SELECT 1 FROM blob WHERE uuid&gt;='01874d252ac44861' AND "
+"uuid&lt;'01874d252ac44862';\n"
+"SELECT 1 FROM private WHERE rid=67918;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67916;\n"
+"SELECT pid FROM plink WHERE cid=67916 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='0eab1ac759' AND tkt_uuid&lt;'0eab1ac75:';\n"
+"SELECT 1 FROM private WHERE rid=67916;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='a49bc0a8244feb08' AND tkt_uuid&lt;'a49bc0a8244feb09';\n"
+"SELECT 1 FROM blob WHERE uuid&gt;='a49bc0a8244feb08' AND "
+"uuid&lt;'a49bc0a8244feb09';\n"
+"SELECT 1 FROM private WHERE rid=67914;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67913;\n"
+"SELECT pid FROM plink WHERE cid=67913 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='0eab1ac7591f' AND tkt_uuid&lt;'0eab1ac7591g';\n"
+"SELECT 1 FROM private WHERE rid=67913;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67911;\n"
+"SELECT pid FROM plink WHERE cid=67911 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67911;\n"
+"SELECT status='Closed' OR status='Fixed' FROM ticket  WHERE "
+"tkt_uuid&gt;='0eab1ac7591f511d' AND tkt_uuid&lt;'0eab1ac7591f511e';\n"
+"SELECT 1 FROM private WHERE rid=67909;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67907;\n"
+"SELECT pid FROM plink WHERE cid=67907 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67907;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67899;\n"
+"SELECT pid FROM plink WHERE cid=67899 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67899;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67897;\n"
+"SELECT pid FROM plink WHERE cid=67897 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67897;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67895;\n"
+"SELECT pid FROM plink WHERE cid=67895 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67895;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67893;\n"
+"SELECT pid FROM plink WHERE cid=67893 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67893;\n"
+"SELECT value FROM tagxref WHERE tagid=8 AND tagtype&gt;0 AND rid=67891;\n"
+"SELECT pid FROM plink WHERE cid=67891 AND pid NOT IN phantom ORDER BY isprim "
+"DESC;\n"
+"SELECT 1 FROM private WHERE rid=67891;\n"
+"SELECT count(*) FROM plink\n"
+" WHERE pid=67928 AND isprim\n"
+"   AND coalesce((SELECT value FROM tagxref\n"
+"                  WHERE tagid=8 AND rid=plink.pid), 'trunk')\n"
+"      =coalesce((SELECT value FROM tagxref\n"
+"                  WHERE tagid=8 AND rid=plink.cid), 'trunk')\n"
+";\n"
+"SELECT count(*) FROM plink\n"
+" WHERE pid=68011 AND isprim\n"
+"   AND coalesce((SELECT value FROM tagxref\n"
+"                  WHERE tagid=8 AND rid=plink.pid), 'trunk')\n"
+"      =coalesce((SELECT value FROM tagxref\n"
+"                  WHERE tagid=8 AND rid=plink.cid), 'trunk')\n"
+";\n"
+"SELECT count(*) FROM plink\n"
+" WHERE pid=68028 AND isprim\n"
+"   AND coalesce((SELECT value FROM tagxref\n"
+"                  WHERE tagid=8 AND rid=plink.pid), 'trunk')\n"
+"      =coalesce((SELECT value FROM tagxref\n"
+"                  WHERE tagid=8 AND rid=plink.cid), 'trunk')\n"
+";\n"
+"SELECT value FROM config WHERE name='show-version-diffs';\n"
+"SELECT value FROM config WHERE name='adunit-omit-if-admin';\n"
+"SELECT value FROM global_config WHERE name='adunit-omit-if-admin';\n"
+"SELECT value FROM config WHERE name='adunit-omit-if-user';\n"
+"SELECT value FROM global_config WHERE name='adunit-omit-if-user';\n"
+"SELECT value FROM config WHERE name='adunit';\n"
+"SELECT value FROM global_config WHERE name='adunit';\n"
+"SELECT value FROM config WHERE name='auto-hyperlink-delay';\n"
+"SELECT value FROM global_config WHERE name='auto-hyperlink-delay';\n"
+"SELECT value FROM config WHERE name='footer';\n"
+"PRAGMA database_list;\n"
+"PRAGMA database_list;\n"
+"PRAGMA localdb.freelist_count;\n"
+"PRAGMA localdb.page_count;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/np1queryprob.html:515
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/np1queryprob.in?m=930ff1b898\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

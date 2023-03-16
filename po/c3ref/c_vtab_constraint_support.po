@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:06+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/c_vtab_constraint_support.html:6
+#: sedout/c3ref/c_vtab_constraint_support.html:121
+msgid "Virtual Table Configuration Options"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/c_vtab_constraint_support.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/c_vtab_constraint_support.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/c_vtab_constraint_support.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/c_vtab_constraint_support.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:22
+#: sedout/c3ref/c_vtab_constraint_support.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/c_vtab_constraint_support.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/c_vtab_constraint_support.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/c_vtab_constraint_support.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/c_vtab_constraint_support.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/c_vtab_constraint_support.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/c_vtab_constraint_support.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/c_vtab_constraint_support.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/c_vtab_constraint_support.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/c_vtab_constraint_support.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/c_vtab_constraint_support.html:124
+#, no-wrap
+msgid ""
+"#define SQLITE_VTAB_CONSTRAINT_SUPPORT 1\n"
+"#define SQLITE_VTAB_INNOCUOUS          2\n"
+"#define SQLITE_VTAB_DIRECTONLY         3\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_vtab_constraint_support.html:129
+msgid ""
+"These macros define the various options to the <a "
+"href=\"../c3ref/vtab_config.html\">sqlite3_vtab_config()</a> interface that "
+"<a href=\"../vtab.html\">virtual table</a> implementations can use to "
+"customize and optimize their behavior."
+msgstr ""
+
+#. type: Content of: <html><body><dl>
+#: sedout/c3ref/c_vtab_constraint_support.html:134
+msgid "<a name=\"sqlitevtabconstraintsupport\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/c_vtab_constraint_support.html:136
+msgid "SQLITE_VTAB_CONSTRAINT_SUPPORT"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/c_vtab_constraint_support.html:137
+msgid ""
+"Calls of the form <a "
+"href=\"../c3ref/vtab_config.html\">sqlite3_vtab_config</a>(db,SQLITE_VTAB_CONSTRAINT_SUPPORT,X) "
+"are supported, where X is an integer.  If X is zero, then the <a "
+"href=\"../vtab.html\">virtual table</a> whose <a "
+"href=\"../vtab.html#xcreate\">xCreate</a> or <a "
+"href=\"../vtab.html#xconnect\">xConnect</a> method invoked <a "
+"href=\"../c3ref/vtab_config.html\">sqlite3_vtab_config()</a> does not "
+"support constraints.  In this configuration (which is the default) if a call "
+"to the <a href=\"../vtab.html#xupdate\">xUpdate</a> method returns <a "
+"href=\"../rescode.html#constraint\">SQLITE_CONSTRAINT</a>, then the entire "
+"statement is rolled back as if <a href=\"../lang_conflict.html\">OR "
+"ABORT</a> had been specified as part of the users SQL statement, regardless "
+"of the actual ON CONFLICT mode specified.  If X is non-zero, then the "
+"virtual table implementation guarantees that if <a "
+"href=\"../vtab.html#xupdate\">xUpdate</a> returns <a "
+"href=\"../rescode.html#constraint\">SQLITE_CONSTRAINT</a>, it will do so "
+"before any modifications to internal or persistent data structures have been "
+"made.  If the <a href=\"../lang_conflict.html\">ON CONFLICT</a> mode is "
+"ABORT, FAIL, IGNORE or ROLLBACK, SQLite is able to roll back a statement or "
+"database transaction, and abandon or continue processing the current SQL "
+"statement as appropriate.  If the ON CONFLICT mode is REPLACE and the <a "
+"href=\"../vtab.html#xupdate\">xUpdate</a> method returns <a "
+"href=\"../rescode.html#constraint\">SQLITE_CONSTRAINT</a>, SQLite handles "
+"this as if the ON CONFLICT mode had been ABORT.  Virtual table "
+"implementations that are required to handle OR REPLACE must do so within the "
+"<a href=\"../vtab.html#xupdate\">xUpdate</a> method. If a call to the <a "
+"href=\"../c3ref/vtab_on_conflict.html\">sqlite3_vtab_on_conflict()</a> "
+"function indicates that the current ON CONFLICT policy is REPLACE, the "
+"virtual table implementation should silently replace the appropriate rows "
+"within the xUpdate callback and return SQLITE_OK. Or, if this is not "
+"possible, it may return SQLITE_CONSTRAINT, in which case SQLite falls back "
+"to OR ABORT constraint handling."
+msgstr ""
+
+#. type: Content of: <html><body><dl>
+#: sedout/c3ref/c_vtab_constraint_support.html:167
+msgid "<a name=\"sqlitevtabdirectonly\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/c_vtab_constraint_support.html:168
+msgid "SQLITE_VTAB_DIRECTONLY"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/c_vtab_constraint_support.html:169
+msgid ""
+"Calls of the form <a "
+"href=\"../c3ref/vtab_config.html\">sqlite3_vtab_config</a>(db,SQLITE_VTAB_DIRECTONLY) "
+"from within the the <a href=\"../vtab.html#xconnect\">xConnect</a> or <a "
+"href=\"../vtab.html#xcreate\">xCreate</a> methods of a <a "
+"href=\"../vtab.html\">virtual table</a> implmentation prohibits that virtual "
+"table from being used from within triggers and views."
+msgstr ""
+
+#. type: Content of: <html><body><dl>
+#: sedout/c3ref/c_vtab_constraint_support.html:176
+msgid "<a name=\"sqlitevtabinnocuous\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/c_vtab_constraint_support.html:177
+msgid "SQLITE_VTAB_INNOCUOUS"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/c_vtab_constraint_support.html:178
+msgid ""
+"Calls of the form <a "
+"href=\"../c3ref/vtab_config.html\">sqlite3_vtab_config</a>(db,SQLITE_VTAB_INNOCUOUS) "
+"from within the the <a href=\"../vtab.html#xconnect\">xConnect</a> or <a "
+"href=\"../vtab.html#xcreate\">xCreate</a> methods of a <a "
+"href=\"../vtab.html\">virtual table</a> implmentation identify that virtual "
+"table as being safe to use from within triggers and views.  Conceptually, "
+"the SQLITE_VTAB_INNOCUOUS tag means that the virtual table can do no serious "
+"harm even if it is controlled by a malicious hacker.  Developers should "
+"avoid setting the SQLITE_VTAB_INNOCUOUS flag unless absolutely necessary."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_vtab_constraint_support.html:188
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

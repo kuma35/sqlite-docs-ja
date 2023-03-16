@@ -1,0 +1,301 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 19:17+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/versionnumbers.html:6 sedout/versionnumbers.html:121
+msgid "Version Numbers in SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/versionnumbers.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/versionnumbers.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/versionnumbers.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/versionnumbers.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/versionnumbers.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/versionnumbers.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/versionnumbers.html:22 sedout/versionnumbers.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/versionnumbers.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/versionnumbers.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/versionnumbers.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/versionnumbers.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/versionnumbers.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/versionnumbers.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/versionnumbers.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/versionnumbers.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/versionnumbers.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/versionnumbers.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/versionnumbers.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/versionnumbers.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/versionnumbers.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/versionnumbers.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/versionnumbers.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/versionnumbers.html:129
+msgid "<span>1. </span>SQLite Version Numbers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:132
+msgid ""
+"Beginning with <a href=\"releaselog/3_9_0.html\">version 3.9.0</a> "
+"(2015-10-14) SQLite uses <a href=\"http://semver.org\">semantic "
+"versioning</a>.  Prior to that time, SQLite employed a version identifier "
+"that contained between two and four numbers."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/versionnumbers.html:137
+msgid "<span>1.1. </span>The New Version Numbering System (After 2015-10-14)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:140
+msgid ""
+"All SQLite releases starting with 3.9.0 use a three-number \"<a "
+"href=\"http://semver.org\">semantic version</a>\" of the form X.Y.Z.  The "
+"first number X is only increased when there is a change that breaks backward "
+"compatibility.  The current value for X is 3, and the SQLite developers plan "
+"to support the current SQLite database file format, SQL syntax, and C "
+"interface through <a href=\"lts.html\">at least the year 2050</a>.  Hence, "
+"one can expect that all future versions of SQLite for the next several "
+"decades will begin with \"3.\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:151
+msgid ""
+"The second number Y is incremented for any change that breaks forward "
+"compatibility by adding new features.  Most future SQLite releases are "
+"expected to increment the second number Y.  The Z is reset to zero whenever "
+"Y is increased."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:158
+msgid ""
+"The third number Z is incremented for releases consisting of only small "
+"changes that implement performance enhancements and/or bug fixes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:162
+msgid ""
+"The rate of enhancement for SQLite over the previous five years (2010-2015) "
+"is approximately 6 increments of Y per year.  The numbering format used by "
+"for <a href=\"c3ref/c_source_id.html\">SQLITE_VERSION_NUMBER</a> and <a "
+"href=\"c3ref/libversion.html\">sqlite3_libversion_number()</a> allows "
+"versions up to 3.999.999, which is more than enough for the planned "
+"end-of-support date for SQLite in 2050.  However, the current tarball naming "
+"conventions only reserve two digits for the Y and so the naming format for "
+"downloads will need to be revised in about 2030."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/versionnumbers.html:171
+msgid "<span>1.2. </span>The Historical Numbering System (Before 2015-10-14)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:173
+msgid ""
+"This historical version numbering system used a two-, three-, or four-number "
+"version: W.X, W.X.Y, or W.X.Y.Z.  W was the file format: 1 or 2 or 3.  X was "
+"the major version.  Y was the minor version.  Z was used only for patch "
+"releases to fix bugs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:181
+msgid ""
+"There have been three historical file formats for SQLite.  SQLite 1.0 "
+"through 1.0.32 used the <a "
+"href=\"https://www.gnu.org/software/gdbm/gdbm.html\">gdbm</a> library as its "
+"storage engine.  SQLite 2.0.0 through 2.8.17 used a custom b-tree storage "
+"engine that supported only text keys and data.  All modern versions of "
+"SQLite (3.0.0 to present) use a b-tree storage engine that has full support "
+"for binary data and Unicode."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:191
+msgid ""
+"This major version number X was historically incremented only for large and "
+"important changes to the code.  What constituted \"large and important\" was "
+"subjective.  The 3.6.23 to 3.7.0 change was a result of adding support for "
+"<a href=\"wal.html\">WAL mode</a>.  The 3.7.17 to 3.8.0 change was a result "
+"of rewrite known as the <a href=\"queryplanner-ng.html\">next generation "
+"query planner</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:199
+msgid ""
+"The minor version number Y was historically incremented for new features "
+"and/or new interfaces that did not significantly change the structure of the "
+"code.  The addition of <a href=\"lang_with.html\">common table "
+"expressions</a>, <a href=\"partialindex.html\">partial indexes</a>, and <a "
+"href=\"expridx.html\">indexes on expressions</a> are all examples of "
+"\"minor\" changes.  Again, the distinction between \"major\" and \"minor\" "
+"is subjective."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:207
+msgid ""
+"The patch level Z was historically only used for bug-fix releases that "
+"changed only a small number of code lines."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/versionnumbers.html:210
+msgid "<span>1.3. </span>Version History"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/versionnumbers.html:213
+msgid "<a href=\"chronology.html\">Chronology</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/versionnumbers.html:214
+msgid "<a href=\"changes.html\">Change log</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/versionnumbers.html:216
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/versionnumbers.in?m=d046ec30f9\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

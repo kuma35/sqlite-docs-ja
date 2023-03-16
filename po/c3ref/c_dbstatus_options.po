@@ -1,0 +1,454 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:06+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/c_dbstatus_options.html:6
+#: sedout/c3ref/c_dbstatus_options.html:121
+msgid "Status Parameters for database connections"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/c_dbstatus_options.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/c_dbstatus_options.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/c_dbstatus_options.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/c_dbstatus_options.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/c_dbstatus_options.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/c_dbstatus_options.html:22
+#: sedout/c3ref/c_dbstatus_options.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/c_dbstatus_options.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/c_dbstatus_options.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/c_dbstatus_options.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/c_dbstatus_options.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/c_dbstatus_options.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/c_dbstatus_options.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/c_dbstatus_options.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/c_dbstatus_options.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/c_dbstatus_options.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/c_dbstatus_options.html:124
+#, no-wrap
+msgid ""
+"#define SQLITE_DBSTATUS_LOOKASIDE_USED       0\n"
+"#define SQLITE_DBSTATUS_CACHE_USED           1\n"
+"#define SQLITE_DBSTATUS_SCHEMA_USED          2\n"
+"#define SQLITE_DBSTATUS_STMT_USED            3\n"
+"#define SQLITE_DBSTATUS_LOOKASIDE_HIT        4\n"
+"#define SQLITE_DBSTATUS_LOOKASIDE_MISS_SIZE  5\n"
+"#define SQLITE_DBSTATUS_LOOKASIDE_MISS_FULL  6\n"
+"#define SQLITE_DBSTATUS_CACHE_HIT            7\n"
+"#define SQLITE_DBSTATUS_CACHE_MISS           8\n"
+"#define SQLITE_DBSTATUS_CACHE_WRITE          9\n"
+"#define SQLITE_DBSTATUS_DEFERRED_FKS        10\n"
+"#define SQLITE_DBSTATUS_CACHE_USED_SHARED   11\n"
+"#define SQLITE_DBSTATUS_CACHE_SPILL         12\n"
+"#define SQLITE_DBSTATUS_MAX                 12   /* Largest defined DBSTATUS "
+"*/\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_dbstatus_options.html:140
+msgid ""
+"These constants are the available integer \"verbs\" that can be passed as "
+"the second argument to the <a "
+"href=\"../c3ref/db_status.html\">sqlite3_db_status()</a> interface."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_dbstatus_options.html:143
+msgid ""
+"New verbs may be added in future releases of SQLite. Existing verbs might be "
+"discontinued. Applications should check the return code from <a "
+"href=\"../c3ref/db_status.html\">sqlite3_db_status()</a> to make sure that "
+"the call worked.  The <a "
+"href=\"../c3ref/db_status.html\">sqlite3_db_status()</a> interface will "
+"return a non-zero error code if a discontinued or unsupported verb is "
+"invoked."
+msgstr ""
+
+#. type: Content of: <html><body><dl>
+#: sedout/c3ref/c_dbstatus_options.html:150
+msgid "<a name=\"sqlitedbstatuslookasideused\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/c_dbstatus_options.html:151
+msgid "SQLITE_DBSTATUS_LOOKASIDE_USED"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/c_dbstatus_options.html:152
+msgid ""
+"This parameter returns the number of lookaside memory slots currently "
+"checked out."
+msgstr ""
+
+#. type: Content of: <html><body><dl>
+#: sedout/c3ref/c_dbstatus_options.html:155
+msgid "<a name=\"sqlitedbstatuslookasidehit\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/c_dbstatus_options.html:156
+msgid "SQLITE_DBSTATUS_LOOKASIDE_HIT"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/c_dbstatus_options.html:157
+msgid ""
+"This parameter returns the number of malloc attempts that were satisfied "
+"using lookaside memory. Only the high-water value is meaningful; the current "
+"value is always zero.  <a name=\"sqlitedbstatuslookasidemisssize\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:163
+msgid "SQLITE_DBSTATUS_LOOKASIDE_MISS_SIZE"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:164
+msgid ""
+"This parameter returns the number malloc attempts that might have been "
+"satisfied using lookaside memory but failed due to the amount of memory "
+"requested being larger than the lookaside slot size.  Only the high-water "
+"value is meaningful; the current value is always zero.  <a "
+"name=\"sqlitedbstatuslookasidemissfull\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:172
+msgid "SQLITE_DBSTATUS_LOOKASIDE_MISS_FULL"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:173
+msgid ""
+"This parameter returns the number malloc attempts that might have been "
+"satisfied using lookaside memory but failed due to all lookaside memory "
+"already being in use.  Only the high-water value is meaningful; the current "
+"value is always zero.  <a name=\"sqlitedbstatuscacheused\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:180
+msgid "SQLITE_DBSTATUS_CACHE_USED"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:181
+msgid ""
+"This parameter returns the approximate number of bytes of heap memory used "
+"by all pager caches associated with the database connection.  The highwater "
+"mark associated with SQLITE_DBSTATUS_CACHE_USED is always 0.  <a "
+"name=\"sqlitedbstatuscacheusedshared\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:187
+msgid "SQLITE_DBSTATUS_CACHE_USED_SHARED"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:188
+msgid ""
+"This parameter is similar to DBSTATUS_CACHE_USED, except that if a pager "
+"cache is shared between two or more connections the bytes of heap memory "
+"used by that pager cache is divided evenly between the attached "
+"connections.  In other words, if none of the pager caches associated with "
+"the database connection are shared, this request returns the same value as "
+"DBSTATUS_CACHE_USED. Or, if one or more or the pager caches are shared, the "
+"value returned by this call will be smaller than that returned by "
+"DBSTATUS_CACHE_USED. The highwater mark associated with "
+"SQLITE_DBSTATUS_CACHE_USED_SHARED is always 0.  <a "
+"name=\"sqlitedbstatusschemaused\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:199
+msgid "SQLITE_DBSTATUS_SCHEMA_USED"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:200
+msgid ""
+"This parameter returns the approximate number of bytes of heap memory used "
+"to store the schema for all databases associated with the connection - main, "
+"temp, and any <a href=\"../lang_attach.html\">ATTACH</a>-ed databases.  The "
+"full amount of memory used by the schemas is reported, even if the schema "
+"memory is shared with other database connections due to <a "
+"href=\"../sharedcache.html\">shared cache mode</a> being enabled.  The "
+"highwater mark associated with SQLITE_DBSTATUS_SCHEMA_USED is always 0.  <a "
+"name=\"sqlitedbstatusstmtused\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:209
+msgid "SQLITE_DBSTATUS_STMT_USED"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:210
+msgid ""
+"This parameter returns the approximate number of bytes of heap and lookaside "
+"memory used by all prepared statements associated with the database "
+"connection.  The highwater mark associated with SQLITE_DBSTATUS_STMT_USED is "
+"always 0."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:216
+msgid "<a name=\"sqlitedbstatuscachehit\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:217
+msgid "SQLITE_DBSTATUS_CACHE_HIT"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:218
+msgid ""
+"This parameter returns the number of pager cache hits that have "
+"occurred. The highwater mark associated with SQLITE_DBSTATUS_CACHE_HIT is "
+"always 0."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:223
+msgid "<a name=\"sqlitedbstatuscachemiss\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:224
+msgid "SQLITE_DBSTATUS_CACHE_MISS"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:225
+msgid ""
+"This parameter returns the number of pager cache misses that have "
+"occurred. The highwater mark associated with SQLITE_DBSTATUS_CACHE_MISS is "
+"always 0."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:230
+msgid "<a name=\"sqlitedbstatuscachewrite\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:231
+msgid "SQLITE_DBSTATUS_CACHE_WRITE"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:232
+msgid ""
+"This parameter returns the number of dirty cache entries that have been "
+"written to disk. Specifically, the number of pages written to the wal file "
+"in wal mode databases, or the number of pages written to the database file "
+"in rollback mode databases. Any pages written as part of transaction "
+"rollback or database recovery operations are not included.  If an IO or "
+"other error occurs while writing a page to disk, the effect on subsequent "
+"SQLITE_DBSTATUS_CACHE_WRITE requests is undefined. The highwater mark "
+"associated with SQLITE_DBSTATUS_CACHE_WRITE is always 0."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:242
+msgid "<a name=\"sqlitedbstatuscachespill\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:243
+msgid "SQLITE_DBSTATUS_CACHE_SPILL"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:244
+msgid ""
+"This parameter returns the number of dirty cache entries that have been "
+"written to disk in the middle of a transaction due to the page cache "
+"overflowing. Transactions are more efficient if they are written to disk all "
+"at once. When pages spill mid-transaction, that introduces additional "
+"overhead. This parameter can be used help identify inefficiencies that can "
+"be resolved by increasing the cache size."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:252
+msgid "<a name=\"sqlitedbstatusdeferredfks\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dt>
+#: sedout/c3ref/c_dbstatus_options.html:253
+msgid "SQLITE_DBSTATUS_DEFERRED_FKS"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd><dd><dd>
+#: sedout/c3ref/c_dbstatus_options.html:254
+msgid ""
+"This parameter returns zero for the current value if and only if all foreign "
+"key constraints (deferred or immediate) have been resolved.  The highwater "
+"mark is always 0."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_dbstatus_options.html:259
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

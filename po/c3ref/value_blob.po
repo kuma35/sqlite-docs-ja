@@ -1,0 +1,577 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/value_blob.html:6 sedout/c3ref/value_blob.html:121
+msgid "Obtaining SQL Values"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/value_blob.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/value_blob.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/value_blob.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/value_blob.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/value_blob.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/value_blob.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/value_blob.html:22 sedout/c3ref/value_blob.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/value_blob.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/value_blob.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/value_blob.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/value_blob.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/value_blob.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/value_blob.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/value_blob.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/value_blob.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/value_blob.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/value_blob.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/value_blob.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/value_blob.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/value_blob.html:124
+#, no-wrap
+msgid ""
+"const void *sqlite3_value_blob(sqlite3_value*);\n"
+"double sqlite3_value_double(sqlite3_value*);\n"
+"int sqlite3_value_int(sqlite3_value*);\n"
+"sqlite3_int64 sqlite3_value_int64(sqlite3_value*);\n"
+"void *sqlite3_value_pointer(sqlite3_value*, const char*);\n"
+"const unsigned char *sqlite3_value_text(sqlite3_value*);\n"
+"const void *sqlite3_value_text16(sqlite3_value*);\n"
+"const void *sqlite3_value_text16le(sqlite3_value*);\n"
+"const void *sqlite3_value_text16be(sqlite3_value*);\n"
+"int sqlite3_value_bytes(sqlite3_value*);\n"
+"int sqlite3_value_bytes16(sqlite3_value*);\n"
+"int sqlite3_value_type(sqlite3_value*);\n"
+"int sqlite3_value_numeric_type(sqlite3_value*);\n"
+"int sqlite3_value_nochange(sqlite3_value*);\n"
+"int sqlite3_value_frombind(sqlite3_value*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:141
+msgid "<b>Summary:</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td>
+#: sedout/c3ref/value_blob.html:143
+msgid "<b>sqlite3_value_blob</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td>
+#: sedout/c3ref/value_blob.html:143 sedout/c3ref/value_blob.html:144
+#: sedout/c3ref/value_blob.html:145 sedout/c3ref/value_blob.html:146
+#: sedout/c3ref/value_blob.html:147 sedout/c3ref/value_blob.html:148
+#: sedout/c3ref/value_blob.html:149 sedout/c3ref/value_blob.html:151
+#: sedout/c3ref/value_blob.html:152 sedout/c3ref/value_blob.html:154
+#: sedout/c3ref/value_blob.html:159
+msgid "&rarr;"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:143
+msgid "BLOB value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:144
+msgid "<b>sqlite3_value_double</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:144
+msgid "REAL value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:145
+msgid "<b>sqlite3_value_int</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:145
+msgid "32-bit INTEGER value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:146
+msgid "<b>sqlite3_value_int64</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:146
+msgid "64-bit INTEGER value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:147
+msgid "<b>sqlite3_value_pointer</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:147
+msgid "Pointer value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:148
+msgid "<b>sqlite3_value_text</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:148
+msgid "UTF-8 TEXT value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:149
+msgid "<b>sqlite3_value_text16</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:149
+msgid "UTF-16 TEXT value in the native byteorder"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:151
+msgid "<b>sqlite3_value_text16be</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:151
+msgid "UTF-16be TEXT value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:152
+msgid "<b>sqlite3_value_text16le</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:152
+msgid "UTF-16le TEXT value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:153
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:154
+msgid "<b>sqlite3_value_bytes</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:154
+msgid "Size of a BLOB or a UTF-8 TEXT in bytes"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:156
+msgid "<b>sqlite3_value_bytes16&nbsp;&nbsp;</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td>
+#: sedout/c3ref/value_blob.html:157 sedout/c3ref/value_blob.html:162
+#: sedout/c3ref/value_blob.html:164 sedout/c3ref/value_blob.html:167
+msgid "&rarr;&nbsp;&nbsp;"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:157
+msgid "Size of UTF-16 TEXT in bytes"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:159
+msgid "<b>sqlite3_value_type</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:159
+msgid "Default datatype of the value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:161
+msgid "<b>sqlite3_value_numeric_type&nbsp;&nbsp;</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:162
+msgid "Best numeric datatype of the value"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:163
+msgid "<b>sqlite3_value_nochange&nbsp;&nbsp;</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:164
+msgid "True if the column is unchanged in an UPDATE against a virtual table."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td>
+#: sedout/c3ref/value_blob.html:166
+msgid "<b>sqlite3_value_frombind&nbsp;&nbsp;</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><table><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td><tr><td><td><td>
+#: sedout/c3ref/value_blob.html:167
+msgid ""
+"True if value originated from a <a href=\"../lang_expr.html#varparam\">bound "
+"parameter</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:170
+msgid "<b>Details:</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:172
+msgid ""
+"These routines extract type, size, and content information from <a "
+"href=\"../c3ref/value.html\">protected sqlite3_value</a> objects.  Protected "
+"sqlite3_value objects are used to pass parameter information into the "
+"functions that implement <a href=\"../appfunc.html\">application-defined SQL "
+"functions</a> and <a href=\"../vtab.html\">virtual tables</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:177
+msgid ""
+"These routines work only with <a href=\"../c3ref/value.html\">protected "
+"sqlite3_value</a> objects.  Any attempt to use these routines on an <a "
+"href=\"../c3ref/value.html\">unprotected sqlite3_value</a> is not "
+"threadsafe."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:181
+msgid ""
+"These routines work just like the corresponding <a "
+"href=\"../c3ref/column_blob.html\">column access functions</a> except that "
+"these routines take a single <a href=\"../c3ref/value.html\">protected "
+"sqlite3_value</a> object pointer instead of a <a "
+"href=\"../c3ref/stmt.html\">sqlite3_stmt*</a> pointer and an integer column "
+"number."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:185
+msgid ""
+"The sqlite3_value_text16() interface extracts a UTF-16 string in the native "
+"byte-order of the host machine.  The sqlite3_value_text16be() and "
+"sqlite3_value_text16le() interfaces extract UTF-16 strings as big-endian and "
+"little-endian respectively."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:190
+msgid ""
+"If <a href=\"../c3ref/value.html\">sqlite3_value</a> object V was "
+"initialized using <a "
+"href=\"../c3ref/bind_blob.html\">sqlite3_bind_pointer(S,I,P,X,D)</a> or <a "
+"href=\"../c3ref/result_blob.html\">sqlite3_result_pointer(C,P,X,D)</a> and "
+"if X and Y are strings that compare equal according to strcmp(X,Y), then "
+"sqlite3_value_pointer(V,Y) will return the pointer P.  Otherwise, "
+"sqlite3_value_pointer(V,Y) returns a NULL. The sqlite3_bind_pointer()  "
+"routine is part of the <a href=\"../bindptr.html\">pointer passing "
+"interface</a> added for SQLite 3.20.0."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:197
+msgid ""
+"The sqlite3_value_type(V) interface returns the <a "
+"href=\"../c3ref/c_blob.html\">datatype code</a> for the initial datatype of "
+"the <a href=\"../c3ref/value.html\">sqlite3_value</a> object V. The returned "
+"value is one of <a href=\"../c3ref/c_blob.html\">SQLITE_INTEGER</a>, <a "
+"href=\"../c3ref/c_blob.html\">SQLITE_FLOAT</a>, <a "
+"href=\"../c3ref/c_blob.html\">SQLITE_TEXT</a>, <a "
+"href=\"../c3ref/c_blob.html\">SQLITE_BLOB</a>, or <a "
+"href=\"../c3ref/c_blob.html\">SQLITE_NULL</a>.  Other interfaces might "
+"change the datatype for an sqlite3_value object.  For example, if the "
+"datatype is initially SQLITE_INTEGER and sqlite3_value_text(V) is called to "
+"extract a text value for that integer, then subsequent calls to "
+"sqlite3_value_type(V) might return SQLITE_TEXT.  Whether or not a persistent "
+"internal datatype conversion occurs is undefined and may change from one "
+"release of SQLite to the next."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:208
+msgid ""
+"The sqlite3_value_numeric_type() interface attempts to apply numeric "
+"affinity to the value.  This means that an attempt is made to convert the "
+"value to an integer or floating point.  If such a conversion is possible "
+"without loss of information (in other words, if the value is a string that "
+"looks like a number)  then the conversion is performed.  Otherwise no "
+"conversion occurs.  The <a href=\"../c3ref/c_blob.html\">datatype</a> after "
+"conversion is returned."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:216
+msgid ""
+"Within the <a href=\"../vtab.html#xupdate\">xUpdate</a> method of a <a "
+"href=\"../vtab.html\">virtual table</a>, the sqlite3_value_nochange(X) "
+"interface returns true if and only if the column corresponding to X is "
+"unchanged by the UPDATE operation that the xUpdate method call was invoked "
+"to implement and if and the prior <a "
+"href=\"../vtab.html#xcolumn\">xColumn</a> method call that was invoked to "
+"extracted the value for that column returned without setting a result "
+"(probably because it queried <a "
+"href=\"../c3ref/vtab_nochange.html\">sqlite3_vtab_nochange()</a> and found "
+"that the column was unchanging).  Within an <a "
+"href=\"../vtab.html#xupdate\">xUpdate</a> method, any value for which "
+"sqlite3_value_nochange(X) is true will in all other respects appear to be a "
+"NULL value.  If sqlite3_value_nochange(X) is invoked anywhere other than "
+"within an <a href=\"../vtab.html#xupdate\">xUpdate</a> method call for an "
+"UPDATE statement, then the return value is arbitrary and meaningless."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:229
+msgid ""
+"The sqlite3_value_frombind(X) interface returns non-zero if the value X "
+"originated from one of the <a "
+"href=\"../c3ref/bind_blob.html\">sqlite3_bind()</a> interfaces.  If X comes "
+"from an SQL literal value, or a table column, or an expression, then "
+"sqlite3_value_frombind(X) returns zero."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:234
+msgid ""
+"Please pay particular attention to the fact that the pointer returned from "
+"<a href=\"../c3ref/value_blob.html\">sqlite3_value_blob()</a>, <a "
+"href=\"../c3ref/value_blob.html\">sqlite3_value_text()</a>, or <a "
+"href=\"../c3ref/value_blob.html\">sqlite3_value_text16()</a> can be "
+"invalidated by a subsequent call to <a "
+"href=\"../c3ref/value_blob.html\">sqlite3_value_bytes()</a>, <a "
+"href=\"../c3ref/value_blob.html\">sqlite3_value_bytes16()</a>, <a "
+"href=\"../c3ref/value_blob.html\">sqlite3_value_text()</a>, or <a "
+"href=\"../c3ref/value_blob.html\">sqlite3_value_text16()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:240
+msgid ""
+"These routines must be called from the same thread as the SQL function that "
+"supplied the <a href=\"../c3ref/value.html\">sqlite3_value*</a> parameters."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:243
+msgid ""
+"As long as the input parameter is correct, these routines can only fail if "
+"an out-of-memory error occurs during a format conversion.  Only the "
+"following subset of interfaces are subject to out-of-memory errors:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/value_blob.html:249
+msgid "sqlite3_value_blob()"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/c3ref/value_blob.html:250
+msgid "sqlite3_value_text()"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li>
+#: sedout/c3ref/value_blob.html:251
+msgid "sqlite3_value_text16()"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li>
+#: sedout/c3ref/value_blob.html:252
+msgid "sqlite3_value_text16le()"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:253
+msgid "sqlite3_value_text16be()"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:254
+msgid "sqlite3_value_bytes()"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/value_blob.html:255
+msgid "sqlite3_value_bytes16()"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:258
+msgid ""
+"If an out-of-memory error occurs, then the return value from these routines "
+"is the same as if the column had contained an SQL NULL value.  Valid SQL "
+"NULL returns can be distinguished from out-of-memory errors by invoking the "
+"<a href=\"../c3ref/errcode.html\">sqlite3_errcode()</a> immediately after "
+"the suspect return value is obtained and before any other SQLite interface "
+"is called on the same <a href=\"../c3ref/sqlite3.html\">database "
+"connection</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/value_blob.html:264
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

@@ -1,0 +1,500 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:33+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><h2>
+#: sedout/session/sqlite3changegroup_add_strm.html:6
+#: sedout/session/sqlite3changegroup_add_strm.html:118
+msgid "Streaming Versions of API functions."
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/session/sqlite3changegroup_add_strm.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/session/sqlite3changegroup_add_strm.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/session/sqlite3changegroup_add_strm.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/session/sqlite3changegroup_add_strm.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:22
+#: sedout/session/sqlite3changegroup_add_strm.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/session/sqlite3changegroup_add_strm.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/session/sqlite3changegroup_add_strm.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/session/sqlite3changegroup_add_strm.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/session/sqlite3changegroup_add_strm.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/session/sqlite3changegroup_add_strm.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/session/sqlite3changegroup_add_strm.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><a>
+#: sedout/session/sqlite3changegroup_add_strm.html:118
+msgid "<a href=\"../session/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><a><h2>
+#: sedout/session/sqlite3changegroup_add_strm.html:118
+msgid "Session Module C Interface"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/session/sqlite3changegroup_add_strm.html:118
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/session/sqlite3changegroup_add_strm.html:118
+#, no-wrap
+msgid ""
+"int sqlite3changeset_apply_strm(\n"
+"  sqlite3 *db,                    /* Apply change to \"main\" db of this "
+"handle */\n"
+"  int (*xInput)(void *pIn, void *pData, int *pnData), /* Input function */\n"
+"  void *pIn,                                          /* First arg for "
+"xInput */\n"
+"  int(*xFilter)(\n"
+"    void *pCtx,                   /* Copy of sixth arg to _apply() */\n"
+"    const char *zTab              /* Table name */\n"
+"  ),\n"
+"  int(*xConflict)(\n"
+"    void *pCtx,                   /* Copy of sixth arg to _apply() */\n"
+"    int eConflict,                /* DATA, MISSING, CONFLICT, CONSTRAINT "
+"*/\n"
+"    sqlite3_changeset_iter *p     /* Handle describing change and conflict "
+"*/\n"
+"  ),\n"
+"  void *pCtx                      /* First argument passed to xConflict */\n"
+");\n"
+"int sqlite3changeset_apply_v2_strm(\n"
+"  sqlite3 *db,                    /* Apply change to \"main\" db of this "
+"handle */\n"
+"  int (*xInput)(void *pIn, void *pData, int *pnData), /* Input function */\n"
+"  void *pIn,                                          /* First arg for "
+"xInput */\n"
+"  int(*xFilter)(\n"
+"    void *pCtx,                   /* Copy of sixth arg to _apply() */\n"
+"    const char *zTab              /* Table name */\n"
+"  ),\n"
+"  int(*xConflict)(\n"
+"    void *pCtx,                   /* Copy of sixth arg to _apply() */\n"
+"    int eConflict,                /* DATA, MISSING, CONFLICT, CONSTRAINT "
+"*/\n"
+"    sqlite3_changeset_iter *p     /* Handle describing change and conflict "
+"*/\n"
+"  ),\n"
+"  void *pCtx,                     /* First argument passed to xConflict */\n"
+"  void **ppRebase, int *pnRebase,\n"
+"  int flags\n"
+");\n"
+"int sqlite3changeset_concat_strm(\n"
+"  int (*xInputA)(void *pIn, void *pData, int *pnData),\n"
+"  void *pInA,\n"
+"  int (*xInputB)(void *pIn, void *pData, int *pnData),\n"
+"  void *pInB,\n"
+"  int (*xOutput)(void *pOut, const void *pData, int nData),\n"
+"  void *pOut\n"
+");\n"
+"int sqlite3changeset_invert_strm(\n"
+"  int (*xInput)(void *pIn, void *pData, int *pnData),\n"
+"  void *pIn,\n"
+"  int (*xOutput)(void *pOut, const void *pData, int nData),\n"
+"  void *pOut\n"
+");\n"
+"int sqlite3changeset_start_strm(\n"
+"  sqlite3_changeset_iter **pp,\n"
+"  int (*xInput)(void *pIn, void *pData, int *pnData),\n"
+"  void *pIn\n"
+");\n"
+"int sqlite3changeset_start_v2_strm(\n"
+"  sqlite3_changeset_iter **pp,\n"
+"  int (*xInput)(void *pIn, void *pData, int *pnData),\n"
+"  void *pIn,\n"
+"  int flags\n"
+");\n"
+"int sqlite3session_changeset_strm(\n"
+"  sqlite3_session *pSession,\n"
+"  int (*xOutput)(void *pOut, const void *pData, int nData),\n"
+"  void *pOut\n"
+");\n"
+"int sqlite3session_patchset_strm(\n"
+"  sqlite3_session *pSession,\n"
+"  int (*xOutput)(void *pOut, const void *pData, int nData),\n"
+"  void *pOut\n"
+");\n"
+"int sqlite3changegroup_add_strm(sqlite3_changegroup*, \n"
+"    int (*xInput)(void *pIn, void *pData, int *pnData),\n"
+"    void *pIn\n"
+");\n"
+"int sqlite3changegroup_output_strm(sqlite3_changegroup*,\n"
+"    int (*xOutput)(void *pOut, const void *pData, int nData), \n"
+"    void *pOut\n"
+");\n"
+"int sqlite3rebaser_rebase_strm(\n"
+"  sqlite3_rebaser *pRebaser,\n"
+"  int (*xInput)(void *pIn, void *pData, int *pnData),\n"
+"  void *pIn,\n"
+"  int (*xOutput)(void *pOut, const void *pData, int nData),\n"
+"  void *pOut\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:201
+msgid ""
+"The six streaming API xxx_strm() functions serve similar purposes to the "
+"corresponding non-streaming API functions:"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th>
+#: sedout/session/sqlite3changegroup_add_strm.html:205
+msgid "Streaming function"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th>
+#: sedout/session/sqlite3changegroup_add_strm.html:205
+msgid "Non-streaming equivalent"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:206
+msgid "sqlite3changeset_apply_strm"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:206
+msgid ""
+"<a "
+"href=\"../session/sqlite3changeset_apply.html\">sqlite3changeset_apply</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:207
+msgid "sqlite3changeset_apply_strm_v2"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:207
+msgid ""
+"<a "
+"href=\"../session/sqlite3changeset_apply.html\">sqlite3changeset_apply_v2</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:208
+msgid "sqlite3changeset_concat_strm"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:208
+msgid ""
+"<a "
+"href=\"../session/sqlite3changeset_concat.html\">sqlite3changeset_concat</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:209
+msgid "sqlite3changeset_invert_strm"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:209
+msgid ""
+"<a "
+"href=\"../session/sqlite3changeset_invert.html\">sqlite3changeset_invert</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:210
+msgid "sqlite3changeset_start_strm"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:210
+msgid ""
+"<a "
+"href=\"../session/sqlite3changeset_start.html\">sqlite3changeset_start</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:211
+msgid "sqlite3session_changeset_strm"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:211
+msgid ""
+"<a "
+"href=\"../session/sqlite3session_changeset.html\">sqlite3session_changeset</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:212
+msgid "sqlite3session_patchset_strm"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/session/sqlite3changegroup_add_strm.html:212
+msgid ""
+"<a "
+"href=\"../session/sqlite3session_patchset.html\">sqlite3session_patchset</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:215
+msgid ""
+"Non-streaming functions that accept changesets (or patchsets) as input "
+"require that the entire changeset be stored in a single buffer in memory.  "
+"Similarly, those that return a changeset or patchset do so by returning a "
+"pointer to a single large buffer allocated using sqlite3_malloc().  Normally "
+"this is convenient. However, if an application running in a low-memory "
+"environment is required to handle very large changesets, the large "
+"contiguous memory allocations required can become onerous."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:223
+msgid ""
+"In order to avoid this problem, instead of a single large buffer, input is "
+"passed to a streaming API functions by way of a callback function that the "
+"sessions module invokes to incrementally request input data as it is "
+"required. In all cases, a pair of API function parameters such as"
+msgstr ""
+
+#. type: Content of: <html><body><p><pre>
+#: sedout/session/sqlite3changegroup_add_strm.html:229
+#, no-wrap
+msgid ""
+" &nbsp;     int nChangeset,\n"
+" &nbsp;     void *pChangeset,\n"
+" "
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:233
+#: sedout/session/sqlite3changegroup_add_strm.html:267
+msgid "Is replaced by:"
+msgstr ""
+
+#. type: Content of: <html><body><p><pre>
+#: sedout/session/sqlite3changegroup_add_strm.html:236
+#, no-wrap
+msgid ""
+" &nbsp;     int (*xInput)(void *pIn, void *pData, int *pnData),\n"
+" &nbsp;     void *pIn,\n"
+" "
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:240
+msgid ""
+"Each time the xInput callback is invoked by the sessions module, the first "
+"argument passed is a copy of the supplied pIn context pointer. The second "
+"argument, pData, points to a buffer (*pnData) bytes in size. Assuming no "
+"error occurs the xInput method should copy up to (*pnData) bytes of data "
+"into the buffer and set (*pnData) to the actual number of bytes copied "
+"before returning SQLITE_OK. If the input is completely exhausted, (*pnData)  "
+"should be set to zero to indicate this. Or, if an error occurs, an SQLite "
+"error code should be returned. In all cases, if an xInput callback returns "
+"an error, all processing is abandoned and the streaming API function returns "
+"a copy of the error code to the caller."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:251
+msgid ""
+"In the case of sqlite3changeset_start_strm(), the xInput callback may be "
+"invoked by the sessions module at any point during the lifetime of the "
+"iterator. If such an xInput callback returns an error, the iterator enters "
+"an error state, whereby all subsequent calls to iterator functions "
+"immediately fail with the same error code as returned by xInput."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:257
+msgid ""
+"Similarly, streaming API functions that return changesets (or patchsets)  "
+"return them in chunks by way of a callback function instead of via a pointer "
+"to a single large buffer. In this case, a pair of parameters such as:"
+msgstr ""
+
+#. type: Content of: <html><body><p><pre>
+#: sedout/session/sqlite3changegroup_add_strm.html:263
+#, no-wrap
+msgid ""
+" &nbsp;     int *pnChangeset,\n"
+" &nbsp;     void **ppChangeset,\n"
+" "
+msgstr ""
+
+#. type: Content of: <html><body><p><pre>
+#: sedout/session/sqlite3changegroup_add_strm.html:270
+#, no-wrap
+msgid ""
+" &nbsp;     int (*xOutput)(void *pOut, const void *pData, int nData),\n"
+" &nbsp;     void *pOut\n"
+" "
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:274
+msgid ""
+"The xOutput callback is invoked zero or more times to return data to the "
+"application. The first parameter passed to each call is a copy of the pOut "
+"pointer supplied by the application. The second parameter, pData, points to "
+"a buffer nData bytes in size containing the chunk of output data being "
+"returned. If the xOutput callback successfully processes the supplied data, "
+"it should return SQLITE_OK to indicate success. Otherwise, it should return "
+"some other SQLite error code. In this case processing is immediately "
+"abandoned and the streaming API function returns a copy of the xOutput error "
+"code to the application."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:284
+msgid ""
+"The sessions module never invokes an xOutput callback with the third "
+"parameter set to a value less than or equal to zero. Other than this, no "
+"guarantees are made as to the size of the chunks of data returned."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changegroup_add_strm.html:287
+msgid ""
+"See also lists of <a href=\"../session/objlist.html\">Objects</a>, <a "
+"href=\"../session/constlist.html\">Constants</a>, and <a "
+"href=\"../session/funclist.html\">Functions</a>."
+msgstr ""

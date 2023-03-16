@@ -1,0 +1,312 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:13+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/mostdeployed.html:6
+msgid "Most Widely Deployed SQL Database Engine"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/mostdeployed.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/mostdeployed.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/mostdeployed.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/mostdeployed.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/mostdeployed.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/mostdeployed.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/mostdeployed.html:22 sedout/mostdeployed.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/mostdeployed.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/mostdeployed.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/mostdeployed.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/mostdeployed.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/mostdeployed.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/mostdeployed.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/mostdeployed.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/mostdeployed.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/mostdeployed.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/mostdeployed.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/mostdeployed.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/mostdeployed.html:121
+msgid "Most Widely Deployed and Used Database Engine"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/mostdeployed.html:123
+msgid ""
+"SQLite is likely used more than all other database engines combined.  "
+"Billions and billions of copies of SQLite exist in the wild.  SQLite is "
+"found in:"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/mostdeployed.html:128
+msgid "Every Android device"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li>
+#: sedout/mostdeployed.html:129
+msgid "Every iPhone and iOS device"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li>
+#: sedout/mostdeployed.html:130
+msgid "Every Mac"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li>
+#: sedout/mostdeployed.html:131
+msgid "Every Windows10 machine"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li>
+#: sedout/mostdeployed.html:132
+msgid "Every Firefox, Chrome, and Safari web browser"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:133
+msgid "Every instance of Skype"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:134
+msgid "Every instance of iTunes"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:135
+msgid "Every Dropbox client"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:136
+msgid "Every TurboTax and QuickBooks"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:137
+msgid "PHP and Python"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:138
+msgid "Most television sets and set-top cable boxes"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:139
+msgid "Most automotive multimedia systems"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/mostdeployed.html:140
+msgid "Countless millions of other applications"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/mostdeployed.html:143
+msgid ""
+"Since SQLite is used extensively in every smartphone, and there are more "
+"than 4.0 billion (4.0e9) smartphones in active use, each holding hundreds of "
+"SQLite database files, it is seems likely that there are over one trillion "
+"(1e12) SQLite databases in active use."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h2>
+#: sedout/mostdeployed.html:149
+msgid "Most Widely Deployed Software Module of Any Type?"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/mostdeployed.html:151
+msgid ""
+"SQLite is probably one of the top five most deployed software modules of any "
+"description.  Other libraries with similar reach include:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li>
+#: sedout/mostdeployed.html:157
+msgid ""
+"The original <a href=\"http://zlib.net\">zlib</a> implementation by "
+"Jean-loup Gailly and Mark Adler."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li><li>
+#: sedout/mostdeployed.html:160
+msgid ""
+"The original reference implementation for <a "
+"href=\"http://www.libpng.org\">libpng</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li><li><li>
+#: sedout/mostdeployed.html:163
+msgid "Libjpeg from the <a href=\"http://ijg.org\">Independent JPEG Group</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/mostdeployed.html:167
+msgid ""
+"Libc is omitted from the above list even though it is more common than "
+"SQLite because libc is not a single software component but rather several "
+"competing implementations (ex: BSD vs. GNU) with similar interfaces.  There "
+"are also independent implementations of libjpeg and libpng, though in those "
+"cases the canonical implementations are very popular."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/mostdeployed.html:176
+msgid ""
+"Precise numbers are difficult to obtain and so exact rankings are "
+"impossible.  But our best guess is that SQLite is the second mostly widely "
+"deployed software library, after libz.  Some commentators observe that "
+"SQLite tends to be statically linked and thus have multiple instances on "
+"each machine, whereas libz tends to have just a single instance per machine "
+"in the form of a shared library or DLL.  So even though the number of "
+"devices containing libz may be greater than the number of devices that "
+"contain SQLite, the total number of instances per device <em>might</em> be "
+"higher for SQLite and so SQLite <em>might</em> be the single most widely "
+"deployed and used software component."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/mostdeployed.html:189
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/mostdeployed.in?m=e39f595cab\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

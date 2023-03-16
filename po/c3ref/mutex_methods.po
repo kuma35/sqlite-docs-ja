@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/mutex_methods.html:6 sedout/c3ref/mutex_methods.html:121
+msgid "Mutex Methods Object"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/mutex_methods.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/mutex_methods.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/mutex_methods.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/mutex_methods.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/mutex_methods.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/mutex_methods.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/mutex_methods.html:22 sedout/c3ref/mutex_methods.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/mutex_methods.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/mutex_methods.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/mutex_methods.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/mutex_methods.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/mutex_methods.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/mutex_methods.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/mutex_methods.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/mutex_methods.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/mutex_methods.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/mutex_methods.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/mutex_methods.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/mutex_methods.html:124
+#, no-wrap
+msgid ""
+"typedef struct sqlite3_mutex_methods sqlite3_mutex_methods;\n"
+"struct sqlite3_mutex_methods {\n"
+"  int (*xMutexInit)(void);\n"
+"  int (*xMutexEnd)(void);\n"
+"  sqlite3_mutex *(*xMutexAlloc)(int);\n"
+"  void (*xMutexFree)(sqlite3_mutex *);\n"
+"  void (*xMutexEnter)(sqlite3_mutex *);\n"
+"  int (*xMutexTry)(sqlite3_mutex *);\n"
+"  void (*xMutexLeave)(sqlite3_mutex *);\n"
+"  int (*xMutexHeld)(sqlite3_mutex *);\n"
+"  int (*xMutexNotheld)(sqlite3_mutex *);\n"
+"};\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:138
+msgid ""
+"An instance of this structure defines the low-level routines used to "
+"allocate and use mutexes."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:141
+msgid ""
+"Usually, the default mutex implementations provided by SQLite are "
+"sufficient, however the application has the option of substituting a custom "
+"implementation for specialized deployments or systems for which SQLite does "
+"not provide a suitable implementation. In this case, the application creates "
+"and populates an instance of this structure to pass to sqlite3_config() "
+"along with the <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfigmutex\">SQLITE_CONFIG_MUTEX</a> "
+"option.  Additionally, an instance of this structure can be used as an "
+"output variable when querying the system for the current mutex "
+"implementation, using the <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfiggetmutex\">SQLITE_CONFIG_GETMUTEX</a> "
+"option."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:151
+msgid ""
+"The xMutexInit method defined by this structure is invoked as part of system "
+"initialization by the sqlite3_initialize() function.  The xMutexInit routine "
+"is called by SQLite exactly once for each effective call to <a "
+"href=\"../c3ref/initialize.html\">sqlite3_initialize()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:156
+msgid ""
+"The xMutexEnd method defined by this structure is invoked as part of system "
+"shutdown by the sqlite3_shutdown() function. The implementation of this "
+"method is expected to release all outstanding resources obtained by the "
+"mutex methods implementation, especially those obtained by the xMutexInit "
+"method.  The xMutexEnd()  interface is invoked exactly once for each call to "
+"<a href=\"../c3ref/initialize.html\">sqlite3_shutdown()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:163
+msgid ""
+"The remaining seven methods defined by this structure (xMutexAlloc, "
+"xMutexFree, xMutexEnter, xMutexTry, xMutexLeave, xMutexHeld and "
+"xMutexNotheld) implement the following interfaces (respectively):"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:168
+msgid "<a href=\"../c3ref/mutex_alloc.html\">sqlite3_mutex_alloc()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:169
+msgid "<a href=\"../c3ref/mutex_alloc.html\">sqlite3_mutex_free()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:170
+msgid "<a href=\"../c3ref/mutex_alloc.html\">sqlite3_mutex_enter()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:171
+msgid "<a href=\"../c3ref/mutex_alloc.html\">sqlite3_mutex_try()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:172
+msgid "<a href=\"../c3ref/mutex_alloc.html\">sqlite3_mutex_leave()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:173
+msgid "<a href=\"../c3ref/mutex_held.html\">sqlite3_mutex_held()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/mutex_methods.html:174
+msgid "<a href=\"../c3ref/mutex_held.html\">sqlite3_mutex_notheld()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:177
+msgid ""
+"The only difference is that the public sqlite3_XXX functions enumerated "
+"above silently ignore any invocations that pass a NULL pointer instead of a "
+"valid mutex handle. The implementations of the methods defined by this "
+"structure are not required to handle this case. The results of passing a "
+"NULL pointer instead of a valid mutex handle are undefined (i.e. it is "
+"acceptable to provide an implementation that segfaults if it is passed a "
+"NULL pointer)."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:185
+msgid ""
+"The xMutexInit() method must be threadsafe.  It must be harmless to invoke "
+"xMutexInit() multiple times within the same process and without intervening "
+"calls to xMutexEnd().  Second and subsequent calls to xMutexInit() must be "
+"no-ops."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:190
+msgid ""
+"xMutexInit() must not use SQLite memory allocation (<a "
+"href=\"../c3ref/free.html\">sqlite3_malloc()</a> and its associates).  "
+"Similarly, xMutexAlloc() must not use SQLite memory allocation for a static "
+"mutex.  However xMutexAlloc() may use SQLite memory allocation for a fast or "
+"recursive mutex."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:195
+msgid ""
+"SQLite will invoke the xMutexEnd() method when <a "
+"href=\"../c3ref/initialize.html\">sqlite3_shutdown()</a> is called, but only "
+"if the prior call to xMutexInit returned SQLITE_OK.  If xMutexInit fails in "
+"any way, it is expected to clean up after itself prior to returning."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mutex_methods.html:199
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

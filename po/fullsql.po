@@ -1,0 +1,414 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 22:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/fullsql.html:6 sedout/fullsql.html:121
+msgid "Full-Featured SQL"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/fullsql.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/fullsql.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/fullsql.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/fullsql.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/fullsql.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/fullsql.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/fullsql.html:22 sedout/fullsql.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/fullsql.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/fullsql.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/fullsql.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/fullsql.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/fullsql.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/fullsql.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/fullsql.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/fullsql.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/fullsql.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/fullsql.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/fullsql.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/fullsql.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/fullsql.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/fullsql.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/fullsql.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fullsql.html:130
+msgid ""
+"Do not be misled by the \"Lite\" in the name.  SQLite has a full-featured "
+"SQL implementation, including:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:134
+msgid ""
+"<a href=\"lang_createtable.html\">Tables</a>, <a "
+"href=\"lang_createindex.html\">indexes</a>, <a "
+"href=\"lang_createtrigger.html\">triggers</a>, and <a "
+"href=\"lang_createview.html\">views</a> in unlimited quantity"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:137
+msgid "Up to 32K columns in a table and unlimited rows"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:138
+msgid "Multi-column indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:139
+msgid ""
+"Indexes can use <a href=\"lang_createindex.html#descidx\">DESC</a> and <a "
+"href=\"lang_createindex.html#collidx\">COLLATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:140
+msgid "<a href=\"partialindex.html\">Partial indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:141
+msgid "<a href=\"expridx.html\">Indexes On Expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:142
+msgid "<a href=\"withoutrowid.html\">Clustered indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:143
+msgid "<a href=\"queryplanner.html#covidx\">Covering indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:144
+msgid ""
+"<a href=\"lang_createtable.html#ckconst\">CHECK</a>, <a "
+"href=\"lang_createtable.html#uniqueconst\">UNIQUE</a>, <a "
+"href=\"lang_createtable.html#notnullconst\">NOT NULL</a>, and <a "
+"href=\"foreignkeys.html\">FOREIGN KEY constraints</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:145
+msgid ""
+"ACID transactions using <a href=\"lang_transaction.html\">BEGIN</a>, <a "
+"href=\"lang_transaction.html\">COMMIT</a>, and <a "
+"href=\"lang_transaction.html\">ROLLBACK</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:146
+msgid ""
+"Nested transactions using <a href=\"lang_savepoint.html\">SAVEPOINT</a>, <a "
+"href=\"lang_savepoint.html\">RELEASE</a>, and <a "
+"href=\"lang_transaction.html\">ROLLBACK TO</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:148
+msgid ""
+"<a href=\"lang_expr.html#subq\">Subqueries</a>, including <a "
+"href=\"lang_expr.html#cosub\">correlated subqueries</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:149
+msgid "Up to 64-way joins"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:150
+msgid "LEFT, RIGHT, and FULL OUTER JOINs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:151
+msgid "DISTINCT, ORDER BY, GROUP BY, HAVING, LIMIT, and OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:152
+msgid "UNION, UNION ALL, INTERSECT, and EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:153
+msgid "A rich library of <a href=\"lang_corefunc.html\">standard SQL functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:154
+msgid ""
+"<a href=\"lang_aggfunc.html\">Aggregate functions</a> including DISTINCT "
+"aggregates"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:155
+msgid "<a href=\"windowfunctions.html\">Window functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:156
+msgid ""
+"<a href=\"lang_update.html\">UPDATE</a>, <a "
+"href=\"lang_delete.html\">DELETE</a>, and <a "
+"href=\"lang_insert.html\">INSERT</a> (of course)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:157
+msgid ""
+"<a href=\"lang_with.html\">Common table expressions</a> including <a "
+"href=\"lang_with.html#recursivecte\">recursive common table expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:159
+msgid "<a href=\"rowvalue.html\">Row values</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:160
+msgid "<a href=\"lang_upsert.html\">UPSERT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:161
+msgid "An advanced <a href=\"optoverview.html\">query planner</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:162
+msgid "<a href=\"fts5.html\">Full-text search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:163
+msgid "<a href=\"rtree.html\">R-tree indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:164
+msgid "<a href=\"json1.html\">JSON support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:165
+msgid "The <a href=\"lang_expr.html#isisnot\">IS operator</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:166
+msgid "<a href=\"vtab.html#tabfunc2\">Table-valued functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:167
+msgid "<a href=\"lang_replace.html\">REPLACE INTO</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:168
+msgid "<a href=\"lang_vacuum.html\">VACUUM</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:169
+msgid "<a href=\"lang_reindex.html\">REINDEX</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:170
+msgid "The <a href=\"lang_expr.html#glob\">GLOB</a> operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:171
+msgid "<a href=\"lang_expr.html#hexint\">Hexadecimal integer literals</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:172
+msgid "The <a href=\"lang_conflict.html\">ON CONFLICT</a> clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:173
+msgid "The <a href=\"lang_indexedby.html\">INDEXED BY</a> clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:174
+msgid "<a href=\"vtab.html\">Virtual tables</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:175
+msgid ""
+"Multiple databases on the same <a href=\"c3ref/sqlite3.html\">database "
+"connection</a> using <a href=\"lang_attach.html\">ATTACH DATABASE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:177
+msgid ""
+"The ability to add <a href=\"appfunc.html\">application-defined SQL "
+"functions</a>, including aggregate and table-valued functions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fullsql.html:179
+msgid ""
+"<a href=\"c3ref/create_collation.html\">Application-defined collating "
+"functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fullsql.html:183
+msgid ""
+"There are many more features not listed above.  SQLite may be small in size "
+"and have \"Lite\" in its name, but it is not lacking in capability."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fullsql.html:186
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/fullsql.in?m=629b1f592b\">2022-05-10 "
+"17:29:14</a> UTC </i></small>"
+msgstr ""

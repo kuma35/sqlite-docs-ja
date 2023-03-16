@@ -1,0 +1,708 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/prosupport.html:6
+msgid "SQLite Pro Support"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/prosupport.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/prosupport.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/prosupport.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/prosupport.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/prosupport.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/prosupport.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/prosupport.html:22 sedout/prosupport.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/prosupport.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/prosupport.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/prosupport.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/prosupport.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/prosupport.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/prosupport.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/prosupport.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/prosupport.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/prosupport.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/prosupport.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/prosupport.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/prosupport.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/prosupport.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/prosupport.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/prosupport.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h1>
+#: sedout/prosupport.html:122
+msgid "Professional Support &amp; Extension Products"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:127
+msgid "Support"
+msgstr ""
+
+#. type: Content of: <html><body><h2><font>
+#: sedout/prosupport.html:128
+msgid "(<a href=\"#detail\">details below</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:132
+msgid "<b>1.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:132
+msgid "<b>Public Forum.</b> Help and advice from a world-wide community of experts."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:135
+msgid "Free"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:136
+msgid "<a class='button' href='https://sqlite.org/forum/about'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:137
+msgid "<a class='button' href='https://sqlite.org/forum/forummain'>Recent Posts</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:139
+msgid "<b>2.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:139
+msgid ""
+"<b>Annual Maintenance Subscription.</b> Private, expert email advice from "
+"the developers of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:142
+msgid "$1500/year"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:143
+msgid "<a class='button' href='https://sqlite.org/com/ams.html'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:144
+msgid "<a class='button' href='https://sqlite.org/purchase/ams'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:146
+msgid "<b>3.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:146
+msgid ""
+"<b>Technical Support.</b> High-priority email and phone support directly "
+"from the SQLite developers.  Guaranteed response time available as an "
+"option."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:150
+msgid "$8K-85K/year"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:151
+msgid "<a class='button' href='https://sqlite.org/com/tech.html'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:152 sedout/prosupport.html:160
+#: sedout/prosupport.html:298
+msgid ""
+"<a class='button' href='https://sqlite.org/com/contact.html'>Request A "
+"Quote</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:154
+msgid "<b>4.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:154
+msgid ""
+"<b>SQLite Consortium Membership.</b> Premium enterprise support including "
+"on-site visits and access to all proprietary extensions and test suites."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:158
+msgid "$120K/year"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:159
+msgid "<a class='button' href='https://sqlite.org/com/member.html'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:166
+msgid ""
+"<b>Public Forum.</b> Help and advice from a world-wide community of "
+"experts.  Cost: Free <a class='button' "
+"href='https://sqlite.org/forum/about'>More Info</a> <a class='button' "
+"href='https://sqlite.org/forum/forummain'>Recent Posts</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:174
+msgid ""
+"<b>Annual Maintenance Subscription.</b> Private, expert email advice from "
+"the developers of SQLite.  Cost: $1500/year <a class='button' "
+"href='https://sqlite.org/com/ams.html'>More Info</a> <a class='button' "
+"href='https://sqlite.org/purchase/ams'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:182
+msgid ""
+"<b>Technical Support.</b> High-priority email and phone support directly "
+"from the SQLite developers.  Guaranteed response time available as an "
+"option.  Cost: $8K-85K/year <a class='button' "
+"href='https://sqlite.org/com/tech.html'>More Info</a> <a class='button' "
+"href='https://sqlite.org/com/contact.html'>Request A Quote</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:191
+msgid ""
+"<b>SQLite Consortium Membership.</b> Premium enterprise support including "
+"on-site visits and access to all proprietary extensions and test suites.  "
+"Cost: $120K/year <a class='button' "
+"href='https://sqlite.org/com/member.html'>More Info</a> <a class='button' "
+"href='https://sqlite.org/com/contact.html'>Request A Quote</a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:202
+msgid "Licenses"
+msgstr ""
+
+#. type: Content of: <html><body><h2><font>
+#: sedout/prosupport.html:203
+msgid "(<a href=\"#ext\">details below</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:207
+msgid "<b>5.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:207
+msgid ""
+"<b>SQLite License.</b> Warranty of title and perpetual right-to-use for the "
+"SQLite source code."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:210
+msgid "$6000 one time fee"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:211
+msgid "<a class='button' href='https://sqlite.org/copyright.html'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:212
+msgid "<a class='button' href='https://sqlite.org/purchase/license'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:214
+msgid "<b>6.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:214
+msgid ""
+"<b>SQLite Encryption Extension (SEE).</b> A drop-in replacement for "
+"public-domain SQLite source code that has the added ability to read/write "
+"AES-encrypted databases."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:218 sedout/prosupport.html:227
+msgid "$2000 one time fee"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:219
+msgid ""
+"<a class='button' "
+"href='https://sqlite.org/see/doc/release/www/readme.wiki'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:220
+msgid "<a class='button' href='https://sqlite.org/purchase/see'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:222
+msgid "<b>7.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:222
+msgid ""
+"<b>Compressed And Encrypted Read-Only Database (CEROD).</b> A drop-in "
+"replacement for public-domain SQLite source code that has the added ability "
+"to read database that has been both compressed and encrypted."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:228
+msgid ""
+"<a class='button' "
+"href='https://sqlite.org/cerod/doc/release/www/readme.wiki'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:229
+msgid "<a class='button' href='https://sqlite.org/purchase/cerod'>Buy Now!</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:231
+msgid "<b>8.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:231
+msgid ""
+"<b>The ZIPVFS Read/Write Compressed Database Extension.</b> The ZIPVFS "
+"extension automatically compresses and encrypts your data as it is written "
+"to disk, and decompressed and decrypts it while reading."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:236
+msgid "$4000 one time fee"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:237
+msgid ""
+"<a class='button' "
+"href='https://sqlite.org/zipvfs/doc/release/www/readme.wiki'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/prosupport.html:238
+msgid "<a class='button' href='https://sqlite.org/purchase/zipvfs'>Buy Now!</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:244
+msgid ""
+"<b>SQLite License.</b> Warranty of title and perpetual right-to-use for the "
+"SQLite source code.  Cost: $6000 one time fee <a class='button' "
+"href='https://sqlite.org/copyright.html'>More Info</a> <a class='button' "
+"href='https://sqlite.org/purchase/license'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:252
+msgid ""
+"<b>SQLite Encryption Extension (SEE).</b> A drop-in replacement for "
+"public-domain SQLite source code that has the added ability to read/write "
+"AES-encrypted databases.  Cost: $2000 one time fee <a class='button' "
+"href='https://sqlite.org/see/doc/release/www/readme.wiki'>More Info</a> <a "
+"class='button' href='https://sqlite.org/purchase/see'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:261
+msgid ""
+"<b>Compressed And Encrypted Read-Only Database (CEROD).</b> A drop-in "
+"replacement for public-domain SQLite source code that has the added ability "
+"to read database that has been both compressed and encrypted.  Cost: $2000 "
+"one time fee <a class='button' "
+"href='https://sqlite.org/cerod/doc/release/www/readme.wiki'>More Info</a> <a "
+"class='button' href='https://sqlite.org/purchase/cerod'>Buy Now!</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:271
+msgid ""
+"<b>The ZIPVFS Read/Write Compressed Database Extension.</b> The ZIPVFS "
+"extension automatically compresses and encrypts your data as it is written "
+"to disk, and decompressed and decrypts it while reading.  Cost: $4000 one "
+"time fee <a class='button' "
+"href='https://sqlite.org/zipvfs/doc/release/www/readme.wiki'>More Info</a> "
+"<a class='button' href='https://sqlite.org/purchase/zipvfs'>Buy Now!</a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:283
+msgid "Special Services"
+msgstr ""
+
+#. type: Content of: <html><body><h2><font>
+#: sedout/prosupport.html:284
+msgid "(<a href=\"#th3\">details below</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:288
+msgid "<b>9.</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:288
+msgid ""
+"<b>TH3 Testing Support.</b> The <a href=\"https://sqlite.org/th3.html\">TH3 "
+"test harness</a> is an aviation-grade test suite for SQLite. SQLite "
+"developers can run TH3 on specialized hardware and/or using specialized "
+"compile-time options, according to customer specification, either remotely "
+"or on customer premises. Pricing for this services is on a case-by-case "
+"basis depending on requirements."
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:296
+msgid "call"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/prosupport.html:297
+msgid "<a class='button' href='https://sqlite.org/th3.html'>More Info</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/prosupport.html:304
+msgid ""
+"<b>TH3 Testing Support.</b> The <a href=\"https://sqlite.org/th3.html\">TH3 "
+"test harness</a> is an aviation-grade test suite for SQLite. SQLite "
+"developers can run TH3 on specialized hardware and/or using specialized "
+"compile-time options, according to customer specification, either remotely "
+"or on customer premises. Pricing for this services is on a case-by-case "
+"basis depending on requirements.  Cost: call <a class='button' "
+"href='https://sqlite.org/th3.html'>More Info</a> <a class='button' "
+"href='https://sqlite.org/com/contact.html'>Request A Quote</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/prosupport.html:319
+msgid "<a name=\"detail\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:320
+msgid "Further Information"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:322
+msgid ""
+"SQLite is free and works great.  Most people use SQLite without any kind of "
+"license or support."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:326
+msgid ""
+"Free support for SQLite is available on the public <a "
+"href=\"https://sqlite.org/forum/forummain\">SQLite Forum</a>.  The forum is "
+"monitored by a large community of experts, including the core SQLite "
+"development team, who are able to resolve just about any problems with "
+"SQLite that you are likely to have."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:333
+msgid ""
+"If you do not want to discuss your issues on a public and open forum, an <a "
+"href=\"https://sqlite.org/com/ams.html\">Annual Maintenance Subscription</a> "
+"or \"AMS\" might serve your needs better.  An AMS entitles you to private "
+"email support directly from the developers of SQLite.  The level of support "
+"with an AMS is similar to the support one gets from the public forum except "
+"that an AMS includes a unilateral promise of non-disclosure, so with an AMS "
+"you can discuss your issues with the SQLite developers in private, without "
+"the whole world watching.  An AMS costs $1500 per year."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:344
+msgid ""
+"Users with more advanced support needs can opt for a <a "
+"href=\"https://sqlite.org/com/tech.html\">Technical Support Agreement</a>.  "
+"Technical support agreements are customized to the needs of each individual "
+"client, but generally include direct telephone support and priority handling "
+"of issues and bugs.  Guaranteed response time is available as an option.  "
+"The cost of technical support varies but is generally in the range of $8000 "
+"to $35000 per year."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:354
+msgid ""
+"If SQLite is \"mission critical\" to your company, then you may want to "
+"become an <a href=\"https://sqlite.org/com/member.html\">SQLite Consortium "
+"Member</a>.  The SQLite Consortium is a collaboration of companies who "
+"sponsor ongoing development of SQLite in exchange for enterprise-level "
+"technical support, on-site visits from the SQLite developers, unlimited "
+"access to all licensed products, and strong guarantees that SQLite will "
+"remain in the public domain, free and independent, and will not come under "
+"the control of a competitor."
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/prosupport.html:365
+msgid "<a name=\"ext\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:366
+msgid "Software Licenses"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:368
+msgid ""
+"The SQLite source code is in the <a "
+"href=\"https://sqlite.org/copyright.html\">public domain</a>, and is free "
+"for use by anyone and for any purpose.  No license is required.  However, "
+"some users desire a license so that they can have warranty of title, or just "
+"because their company lawyers say they need one.  A <a "
+"href=\"https://sqlite.org/purchase/license\">perpetual license and warranty "
+"of title</a> for the core SQLite source code is available for this purpose."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:378
+msgid ""
+"The <a href=\"https://sqlite.org/purchase/see\">SQLite Encryption Extension "
+"(SEE)</a>, the <a href=\"https://sqlite.org/purchase/zipvfs\">ZIPVFS "
+"Extension</a>, and the <a "
+"href=\"https://sqlite.org/purchase/cerod\">Compressed and Encrypted ReadOnly "
+"Database (CEROD)</a> extension are enhanced versions of SQLite that handle "
+"encrypted and/or compressed databases.  SEE can read and write encrypted "
+"databases.  SEE encrypts all database content, including metadata, so that "
+"the database file appears as white noise.  ZIPVFS compresses the database "
+"on-the-fly using application-supplied compression and decompression "
+"functions.  CEROD reads a compressed database that is also optionally "
+"encrypted.  All of SEE, ZIPVFS, and CEROD are supplied in source code form "
+"only; the licensee is responsible for compiling the products for their "
+"chosen platform.  It is not difficult to compile any of these extension.  "
+"All products come in the form of an <a "
+"href=\"amalgamation.html\">{amalgamated source file}</a> named "
+"\"sqlite3.c\".  So compiling SEE, ZIPVFS, or CEROD into an application is "
+"simply a matter of substituting the SEE-, ZIPVFS-, or CEROD-enabled "
+"sqlite3.c source file in place of the public-domain sqlite3.c source file "
+"and recompiling.  Licenses for SEE, ZIPVFS, and CEROD are perpetual.  All "
+"three extension can read and write ordinary, uncompressed and unencrypted "
+"database files."
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/prosupport.html:403
+msgid "<a name=\"th3\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:404
+msgid "Testing Services"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:406
+msgid ""
+"The <a href=\"https://sqlite.org/th3.html\">Test Harness #3 (TH3)</a> is a "
+"suite of test cases for SQLite that provide 100% branch test coverage (and "
+"100% modified condition/decision coverage) for the core SQLite in an "
+"as-deployed configuration using only published and documented interfaces.  "
+"TH3 is designed for use with embedded devices, and is compatible with "
+"DO-178B.  Every release of the public-domain SQLite is tested using TH3, and "
+"so all users benefit from the TH3 tests.  But the TH3 tests are not "
+"themselves public.  Hardware or system manufactures who want to have TH3 "
+"test run on their systems can negotiate a service agreement to have the "
+"SQLite Developers run those tests."
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/prosupport.html:417
+msgid "About The SQLite Team"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:419
+msgid ""
+"Paid support options and products are provided by Hipp, Wyrick &amp; "
+"Company, Inc., (Hwaci), a <a "
+"href=\"http://en.wikipedia.org/wiki/Georgia_(U.S._state)\">Georgia</a> "
+"corporation with headquarters in <a "
+"href=\"http://en.wikipedia.org/wiki/Charlotte,_North_Carolina\"> Charlotte, "
+"North Carolina</a> and has been in business since 1992.  Hwaci has an "
+"international team of employees and associates representing the best "
+"available talent.  We are a 100% engineering company.  There is no sales "
+"staff.  Our goal is to provide outstanding service and honest advice without "
+"spin or sales-talk."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/prosupport.html:434
+msgid ""
+"Hwaci is a small company but it is also closely held and debt-free and has "
+"low fixed costs, which means that it is largely immune to buy-outs, "
+"take-overs, and market down-turns.  Hwaci intends to continue operating in "
+"its current form, and at roughly its current size until at least the year "
+"2050.  We expect to be here when you need us, even if that need is many "
+"years in the future."
+msgstr ""
+
+#. type: Content of: <p>
+#: sedout/prosupport.html:443
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/prosupport.in?m=de97e64200\">2023-01-02 "
+"14:22:42</a> UTC </i></small>"
+msgstr ""

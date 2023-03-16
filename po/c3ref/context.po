@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/context.html:6 sedout/c3ref/context.html:121
+msgid "SQL Function Context Object"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/context.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/context.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/context.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/context.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/context.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/context.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/context.html:22 sedout/c3ref/context.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/context.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/context.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/context.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/context.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/context.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/context.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/context.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/context.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/context.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/context.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/context.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/context.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/context.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/context.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/context.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/context.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/context.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/context.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/context.html:124
+#, no-wrap
+msgid "typedef struct sqlite3_context sqlite3_context;\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/context.html:127
+msgid ""
+"The context in which an SQL function executes is stored in an "
+"sqlite3_context object.  A pointer to an sqlite3_context object is always "
+"first parameter to <a href=\"../appfunc.html\">application-defined SQL "
+"functions</a>.  The application-defined SQL function implementation will "
+"pass this pointer through into calls to <a "
+"href=\"../c3ref/result_blob.html\">sqlite3_result()</a>, <a "
+"href=\"../c3ref/aggregate_context.html\">sqlite3_aggregate_context()</a>, <a "
+"href=\"../c3ref/user_data.html\">sqlite3_user_data()</a>, <a "
+"href=\"../c3ref/context_db_handle.html\">sqlite3_context_db_handle()</a>, <a "
+"href=\"../c3ref/get_auxdata.html\">sqlite3_get_auxdata()</a>, and/or <a "
+"href=\"../c3ref/get_auxdata.html\">sqlite3_set_auxdata()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/context.html:135
+msgid "26 Methods using this object:"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:138
+msgid "<a href='../c3ref/aggregate_context.html'>sqlite3_aggregate_context</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:139
+msgid "<a href='../c3ref/context_db_handle.html'>sqlite3_context_db_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:140
+msgid "<a href='../c3ref/get_auxdata.html'>sqlite3_get_auxdata</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:141
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_blob</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:142
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_blob64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:143
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_double</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:144
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_error</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:145
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_error16</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:146
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_error_code</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:147
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_error_nomem</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:148
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_error_toobig</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:149
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_int</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:150
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_int64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:151
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_null</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:152
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_pointer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:153
+msgid "<a href='../c3ref/result_subtype.html'>sqlite3_result_subtype</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:154
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_text</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:155
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_text16</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:156
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_text16be</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:157
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_text16le</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:158
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_text64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:159
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_value</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:160
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_zeroblob</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:161
+msgid "<a href='../c3ref/result_blob.html'>sqlite3_result_zeroblob64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:162
+msgid "<a href='../c3ref/get_auxdata.html'>sqlite3_set_auxdata</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><ul><li>
+#: sedout/c3ref/context.html:163
+msgid "<a href='../c3ref/user_data.html'>sqlite3_user_data</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/context.html:167
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

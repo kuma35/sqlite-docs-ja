@@ -1,0 +1,1571 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/queryplanner.html:6 sedout/queryplanner.html:121
+msgid "Query Planning"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/queryplanner.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/queryplanner.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/queryplanner.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/queryplanner.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/queryplanner.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/queryplanner.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/queryplanner.html:22 sedout/queryplanner.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/queryplanner.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/queryplanner.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/queryplanner.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/queryplanner.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/queryplanner.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/queryplanner.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/queryplanner.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/queryplanner.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/queryplanner.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/queryplanner.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/queryplanner.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/queryplanner.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/queryplanner.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/queryplanner.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/queryplanner.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/queryplanner.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:128
+msgid "<a href=\"#_searching\">1.  Searching</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:129
+msgid "<a href=\"#_tables_without_indices\">1.1.  Tables Without Indices</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:130
+msgid "<a href=\"#_lookup_by_rowid\">1.2.  Lookup By Rowid</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:131
+msgid "<a href=\"#_lookup_by_index\">1.3.  Lookup By Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:132
+msgid "<a href=\"#_multiple_result_rows\">1.4.  Multiple Result Rows</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:133
+msgid ""
+"<a href=\"#_multiple_and_connected_where_clause_terms\">1.5.  Multiple "
+"AND-Connected WHERE-Clause Terms</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:134
+msgid "<a href=\"#_multi_column_indices\">1.6.  Multi-Column Indices</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:135
+msgid "<a href=\"#_covering_indexes\">1.7.  Covering Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:136
+msgid ""
+"<a href=\"#_or_connected_terms_in_the_where_clause\">1.8.  OR-Connected "
+"Terms In The WHERE Clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:137
+msgid "<a href=\"#_sorting\">2.  Sorting</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:138
+msgid "<a href=\"#_sorting_by_rowid\">2.1.  Sorting By Rowid</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:139
+msgid "<a href=\"#_sorting_by_index\">2.2.  Sorting By Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:140
+msgid "<a href=\"#_sorting_by_covering_index\">2.3.  Sorting By Covering Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:141
+msgid ""
+"<a href=\"#_searching_and_sorting_at_the_same_time\">3.  Searching And "
+"Sorting At The Same Time</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:142
+msgid ""
+"<a href=\"#_searching_and_sorting_with_a_multi_column_index\">3.1.  "
+"Searching And Sorting With A Multi-Column Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:143
+msgid ""
+"<a href=\"#_searching_and_sorting_with_a_covering_index\">3.2.  Searching "
+"And Sorting With A Covering Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:144
+msgid ""
+"<a href=\"#_partial_sorting_using_an_index_a_k_a_block_sorting_\">3.3.  "
+"Partial Sorting Using An Index (a.k.a. Block Sorting)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/queryplanner.html:145
+msgid "<a href=\"#_without_rowid_tables\">4.  WITHOUT ROWID tables</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/queryplanner.html:149
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:168
+msgid "Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:171
+msgid ""
+"The best feature of SQL (in <u>all</u> its implementations, not just SQLite)  "
+"is that it is a <i>declarative</i> language, not a <i>procedural</i> "
+"language.  When programming in SQL you tell the system <i>what</i> you want "
+"to compute, not <i>how</i> to compute it.  The task of figuring out the "
+"<i>how</i> is delegated to the <i>query planner</i> subsystem within the SQL "
+"database engine."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:178
+msgid ""
+"For any given SQL statement, there might be hundreds or thousands or even "
+"millions of different algorithms of performing the operation.  All of these "
+"algorithms will get the correct answer, though some will run faster than "
+"others.  The query planner is an <a "
+"href=\"https://en.wikipedia.org/wiki/Artificial_intelligence\">AI</a> that "
+"tries to pick the fastest and most efficient algorithm for each SQL "
+"statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:189
+msgid ""
+"Most of the time, the query planner in SQLite does a good job.  However, the "
+"query planner needs indices to work with.  These indices must normally be "
+"added by programmers.  Rarely, the query planner AI will make a suboptimal "
+"algorithm choice.  In those cases, programmers may want to provide "
+"additional hints to help the query planner do a better job."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:200
+msgid ""
+"This document provides background information about how the SQLite query "
+"planner and query engine work.  Programmers can use this information to help "
+"create better indexes, and provide hints to help the query planner when "
+"needed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:208
+msgid ""
+"Additional information is provided in the <a "
+"href=\"optoverview.html\">SQLite query planner</a> and <a "
+"href=\"queryplanner-ng.html\">next generation query planner</a> documents."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:213
+msgid "<a name=\"searching\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/queryplanner.html:215
+msgid "<span>1. </span> Searching"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:217
+msgid "<span>1.1. </span> Tables Without Indices"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:220
+msgid ""
+"Most tables in SQLite consist of zero or more rows with a unique integer key "
+"(the <a href=\"lang_createtable.html#rowid\">rowid</a> or <a "
+"href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a>) followed by "
+"content.  (The exception is <a href=\"withoutrowid.html\">WITHOUT ROWID</a> "
+"tables.)  The rows are logically stored in order of increasing rowid.  As an "
+"example, this article uses a table named \"FruitsForSale\" which relates "
+"various fruits to the state where they are grown and their unit price at "
+"market.  The schema is this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:231
+#, no-wrap
+msgid ""
+"CREATE TABLE FruitsForSale(\n"
+"  Fruit TEXT,\n"
+"  State TEXT,\n"
+"  Price REAL\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:240
+msgid ""
+"With some (arbitrary) data, such a table might be logically stored on disk "
+"as shown in figure 1:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:244
+msgid "<a name='fig1'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:246 sedout/queryplanner.html:538
+msgid "figure 1"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:247
+msgid "Figure 1: Logical Layout Of Table \"FruitsForSale\""
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:252
+msgid ""
+"In this example, the rowids are not consecutive but they are ordered.  "
+"SQLite usually creates rowids beginning with one and increasing by one with "
+"each added row.  But if rows are deleted, gaps can appear in the sequence.  "
+"And the application can control the rowid assigned if desired, so that rows "
+"are not necessarily inserted at the bottom.  But regardless of what happens, "
+"the rowids are always unique and in strictly ascending order."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:262
+msgid ""
+"Suppose you want to look up the price of peaches.  The query would be as "
+"follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:267 sedout/queryplanner.html:366
+#, no-wrap
+msgid "SELECT price FROM fruitsforsale WHERE fruit='Peach';\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:272
+msgid ""
+"To satisfy this query, SQLite reads every row out of the table, checks to "
+"see if the \"fruit\" column has the value of \"Peach\" and if so, outputs "
+"the \"price\" column from that row.  The process is illustrated by <a "
+"href=\"#fig2\">figure 2</a> below.  This is algorithm is called a <i>full "
+"table scan</i> since the entire content of the table must be read and "
+"examined in order to find the one row of interest.  With a table of only 7 "
+"rows, a full table scan is acceptable, but if the table contained 7 million "
+"rows, a full table scan might read megabytes of content in order to find a "
+"single 8-byte number.  For that reason, one normally tries to avoid full "
+"table scans."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:285
+msgid "<a name='fig2'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:287
+msgid "figure 2"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:288
+msgid "Figure 2: Full Table Scan"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:292
+msgid "<span>1.2. </span> Lookup By Rowid"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:295
+msgid ""
+"One technique for avoiding a full table scan is to do lookups by rowid (or "
+"by the equivalent <a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY "
+"KEY</a>).  To lookup the price of peaches, one would query for the entry "
+"with a rowid of 4:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:301
+#, no-wrap
+msgid "SELECT price FROM fruitsforsale WHERE rowid=4;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:306
+msgid ""
+"Since the information is stored in the table in rowid order, SQLite can find "
+"the correct row using a binary search.  If the table contains N elements, "
+"the time required to look up the desired row is proportional to logN rather "
+"than being proportional to N as in a full table scan.  If the table contains "
+"10 million elements, that means the query will be on the order of N/logN or "
+"about 1 million times faster."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:315
+msgid "<a name='fig3'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:317
+msgid "figure 3"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:318
+msgid "Figure 3: Lookup By Rowid"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:322
+msgid "<span>1.3. </span> Lookup By Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:324
+msgid ""
+"The problem with looking up information by rowid is that you probably do not "
+"care what the price of \"item 4\" is - you want to know the price of "
+"peaches.  And so a rowid lookup is not helpful."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:330
+msgid ""
+"To make the original query more efficient, we can add an index on the "
+"\"fruit\" column of the \"fruitsforsale\" table like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:335
+#, no-wrap
+msgid "CREATE INDEX Idx1 ON fruitsforsale(fruit);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:340
+msgid ""
+"An index is another table similar to the original \"fruitsforsale\" table "
+"but with the content (the fruit column in this case) stored in front of the "
+"rowid and with all rows in content order.  <a href=\"#fig4\">Figure 4</a> "
+"gives a logical view of the Idx1 index.  The \"fruit\" column is the primary "
+"key used to order the elements of the table and the \"rowid\" is the "
+"secondary key used to break the tie when two or more rows have the same "
+"\"fruit\".  In the example, the rowid has to be used as a tie-breaker for "
+"the \"Orange\" rows.  Notice that since the rowid is always unique over all "
+"elements of the original table, the composite key of \"fruit\" followed by "
+"\"rowid\" will be unique over all elements of the index."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:353
+msgid "<a name='fig4'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:355
+msgid "figure 4"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:356
+msgid "Figure 4: An Index On The Fruit Column"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:361
+msgid ""
+"This new index can be used to implement a faster algorithm for the original "
+"\"Price of Peaches\" query."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:371
+msgid ""
+"The query starts by doing a binary search on the Idx1 index for entries that "
+"have fruit='Peach'.  SQLite can do this binary search on the Idx1 index but "
+"not on the original FruitsForSale table because the rows in Idx1 are sorted "
+"by the \"fruit\" column.  Having found a row in the Idx1 index that has "
+"fruit='Peach', the database engine can extract the rowid for that row.  Then "
+"the database engines does a second binary search on the original "
+"FruitsForSale table to find the original row that contains fruit='Peach'.  "
+"From the row in the FruitsForSale table, SQLite can then extract the value "
+"of the price column.  This procedure is illustrated by <a "
+"href=\"#fig5\">figure 5</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:384
+msgid "<a name='fig5'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:386
+msgid "figure 5"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:387
+msgid "Figure 5: Indexed Lookup For The Price Of Peaches"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:392
+msgid ""
+"SQLite has to do two binary searches to find the price of peaches using the "
+"method show above.  But for a table with a large number of rows, this is "
+"still much faster than doing a full table scan."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:397
+msgid "<span>1.4. </span> Multiple Result Rows"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:400
+msgid ""
+"In the previous query the fruit='Peach' constraint narrowed the result down "
+"to a single row.  But the same technique works even if multiple rows are "
+"obtained.  Suppose we looked up the price of Oranges instead of Peaches:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:407
+#, no-wrap
+msgid "SELECT price FROM fruitsforsale WHERE fruit='Orange'\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:409
+msgid "<a name='fig6'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:411
+msgid "figure 6"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:412
+msgid "Figure 6: Indexed Lookup For The Price Of Oranges"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:417
+msgid ""
+"In this case, SQLite still does a single binary search to find the first "
+"entry of the index where fruit='Orange'.  Then it extracts the rowid from "
+"the index and uses that rowid to lookup the original table entry via binary "
+"search and output the price from the original table.  But instead of "
+"quitting, the database engine then advances to the next row of index to "
+"repeat the process for next fruit='Orange' entry.  Advancing to the next row "
+"of an index (or table) is much less costly than doing a binary search since "
+"the next row is often located on the same database page as the current row.  "
+"In fact, the cost of advancing to the next row is so cheap in comparison to "
+"a binary search that we usually ignore it.  So our estimate for the total "
+"cost of this query is 3 binary searches.  If the number of rows of output is "
+"K and the number of rows in the table is N, then in general the cost of "
+"doing the query is proportional to (K+1)*logN."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:433
+msgid "<span>1.5. </span> Multiple AND-Connected WHERE-Clause Terms"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:436
+msgid ""
+"Next, suppose that you want to look up the price of not just any orange, but "
+"specifically California-grown oranges.  The appropriate query would be as "
+"follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:442 sedout/queryplanner.html:563
+#, no-wrap
+msgid "SELECT price FROM fruitsforsale WHERE fruit='Orange' AND state='CA'\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:444
+msgid "<a name='fig7'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:446
+msgid "figure 7"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:447
+msgid "Figure 7: Indexed Lookup Of California Oranges"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:452
+msgid ""
+"One approach to this query is to use the fruit='Orange' term of the WHERE "
+"clause to find all rows dealing with oranges, then filter those rows by "
+"rejecting any that are from states other than California.  This process is "
+"shown by <a href=\"#fig7\">figure 7</a> above.  This is a perfectly "
+"reasonable approach in most cases.  Yes, the database engine did have to do "
+"an extra binary search for the Florida orange row that was later rejected, "
+"so it was not as efficient as we might hope, though for many applications it "
+"is efficient enough."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:463
+msgid ""
+"Suppose that in addition to the index on \"fruit\" there was also an index "
+"on \"state\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:468
+#, no-wrap
+msgid "CREATE INDEX Idx2 ON fruitsforsale(state);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:470
+msgid "<a name='fig8'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:472
+msgid "figure 8"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:473
+msgid "Figure 8: Index On The State Column"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:478
+msgid ""
+"The \"state\" index works just like the \"fruit\" index in that it is a new "
+"table with an extra column in front of the rowid and sorted by that extra "
+"column as the primary key.  The only difference is that in Idx2, the first "
+"column is \"state\" instead of \"fruit\" as it is with Idx1.  In our example "
+"data set, there is more redundancy in the \"state\" column and so they are "
+"more duplicate entries.  The ties are still resolved using the rowid."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:488
+msgid ""
+"Using the new Idx2 index on \"state\", SQLite has another option for lookup "
+"up the price of California oranges: it can look up every row that contains "
+"fruit from California and filter out those rows that are not oranges."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:494
+msgid "<a name='fig9'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:496
+msgid "figure 9"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:497
+msgid "Figure 9: Indexed Lookup Of California Oranges"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:502
+msgid ""
+"Using Idx2 instead of Idx1 causes SQLite to examine a different set of rows, "
+"but it gets the same answer in the end (which is very important - remember "
+"that indices should never change the answer, only help SQLite to get to the "
+"answer more quickly) and it does the same amount of work.  So the Idx2 index "
+"did not help performance in this case."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:510
+msgid ""
+"The last two queries take the same amount of time, in our example.  So which "
+"index, Idx1 or Idx2, will SQLite choose? If the <a "
+"href=\"lang_analyze.html\">ANALYZE</a> command has been run on the database, "
+"so that SQLite has had an opportunity to gather statistics about the "
+"available indices, then SQLite will know that the Idx1 index usually narrows "
+"the search down to a single item (our example of fruit='Orange' is the "
+"exception to this rule) whereas the Idx2 index will normally only narrow the "
+"search down to two rows.  So, if all else is equal, SQLite will choose Idx1 "
+"with the hope of narrowing the search to as small a number of rows as "
+"possible.  This choice is only possible because of the statistics provided "
+"by <a href=\"lang_analyze.html\">ANALYZE</a>.  If <a "
+"href=\"lang_analyze.html\">ANALYZE</a> has not been run then the choice of "
+"which index to use is arbitrary."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:524
+msgid "<span>1.6. </span> Multi-Column Indices"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:527
+msgid ""
+"To get the maximum performance out of a query with multiple AND-connected "
+"terms in the WHERE clause, you really want a multi-column index with columns "
+"for each of the AND terms.  In this case we create a new index on the "
+"\"fruit\" and \"state\" columns of FruitsForSale:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:534
+#, no-wrap
+msgid "CREATE INDEX Idx3 ON FruitsForSale(fruit, state);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:536
+msgid "<a name='fig10'></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:539
+msgid "Figure 1: A Two-Column Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:544
+msgid ""
+"A multi-column index follows the same pattern as a single-column index; the "
+"indexed columns are added in front of the rowid.  The only difference is "
+"that now multiple columns are added.  The left-most column is the primary "
+"key used for ordering the rows in the index.  The second column is used to "
+"break ties in the left-most column.  If there were a third column, it would "
+"be used to break ties for the first two columns.  And so forth for all "
+"columns in the index.  Because rowid is guaranteed to be unique, every row "
+"of the index will be unique even if all of the content columns for two rows "
+"are the same.  That case does not happen in our sample data, but there is "
+"one case (fruit='Orange') where there is a tie on the first column which "
+"must be broken by the second column."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:558
+msgid ""
+"Given the new multi-column Idx3 index, it is now possible for SQLite to find "
+"the price of California oranges using only 2 binary searches:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:565
+msgid "<a name='fig11'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:567
+msgid "figure 11"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:568
+msgid "Figure 11: Lookup Using A Two-Column Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:573
+msgid ""
+"With the Idx3 index on both columns that are constrained by the WHERE "
+"clause, SQLite can do a single binary search against Idx3 to find the one "
+"rowid for California oranges, then do a single binary search to find the "
+"price for that item in the original table.  There are no dead-ends and no "
+"wasted binary searches.  This is a more efficient query."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:581
+msgid ""
+"Note that Idx3 contains all the same information as the original <a "
+"href=\"#fig3\">Idx1</a>.  And so if we have Idx3, we do not really need Idx1 "
+"any more.  The \"price of peaches\" query can be satisfied using Idx3 by "
+"simply ignoring the \"state\" column of Idx3:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:588
+#, no-wrap
+msgid "SELECT price FROM fruitsforsale WHERE fruit='Peach'\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:590
+msgid "<a name='fig12'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:592
+msgid "figure 12"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:593
+msgid "Figure 12: Single-Column Lookup On A Multi-Column Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:598
+msgid ""
+"Hence, a good rule of thumb is that your database schema should never "
+"contain two indices where one index is a prefix of the other.  Drop the "
+"index with fewer columns.  SQLite will still be able to do efficient lookups "
+"with the longer index."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:604
+msgid "<a name=\"covidx\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:606
+msgid "<span>1.7. </span> Covering Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:609
+msgid ""
+"The \"price of California oranges\" query was made more efficient through "
+"the use of a two-column index.  But SQLite can do even better with a "
+"three-column index that also includes the \"price\" column:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:615
+#, no-wrap
+msgid "CREATE INDEX Idx4 ON FruitsForSale(fruit, state, price);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:617
+msgid "<a name='fig13'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:619
+msgid "figure 13"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:620
+msgid "Figure 13: A Covering Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:625
+msgid ""
+"This new index contains all the columns of the original FruitsForSale table "
+"that are used by the query - both the search terms and the output.  We call "
+"this a \"covering index\".  Because all of the information needed is in the "
+"covering index, SQLite never needs to consult the original table in order to "
+"find the price."
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:633
+#, no-wrap
+msgid "SELECT price FROM fruitsforsale WHERE fruit='Orange' AND state='CA';\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:635
+msgid "<a name='fig14'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:637
+msgid "figure 14"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:638
+msgid "Figure 14: Query Using A Covering Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:643
+msgid ""
+"Hence, by adding extra \"output\" columns onto the end of an index, one can "
+"avoid having to reference the original table and thereby cut the number of "
+"binary searches for a query in half.  This is a constant-factor improvement "
+"in performance (roughly a doubling of the speed).  But on the other hand, it "
+"is also just a refinement; A two-fold performance increase is not nearly as "
+"dramatic as the one-million-fold increase seen when the table was first "
+"indexed.  And for most queries, the difference between 1 microsecond and 2 "
+"microseconds is unlikely to be noticed."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:654
+msgid "<a name=\"or_in_where\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:656
+msgid "<span>1.8. </span> OR-Connected Terms In The WHERE Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:659
+msgid ""
+"Multi-column indices only work if the constraint terms in the WHERE clause "
+"of the query are connected by AND.  So Idx3 and Idx4 are helpful when the "
+"search is for items that are both Oranges and grown in California, but "
+"neither index would be that useful if we wanted all items that were either "
+"oranges <i>or</i> are grown in California."
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:668
+#, no-wrap
+msgid "SELECT price FROM FruitsForSale WHERE fruit='Orange' OR state='CA';\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:673
+msgid ""
+"When confronted with OR-connected terms in a WHERE clause, SQLite examines "
+"each OR term separately and tries to use an index to find the rowids "
+"associated with each term.  It then takes the union of the resulting rowid "
+"sets to find the end result.  The following figure illustrates this process:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:680
+msgid "<a name='fig15'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:682
+msgid "figure 15"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:683
+msgid "Figure 15: Query With OR Constraints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:688
+msgid ""
+"The diagram above implies that SQLite computes all of the rowids first and "
+"then combines them with a union operation before starting to do rowid "
+"lookups on the original table.  In reality, the rowid lookups are "
+"interspersed with rowid computations.  SQLite uses one index at a time to "
+"find rowids while remembering which rowids it has seen before so as to avoid "
+"duplicates.  That is just an implementation detail, though.  The diagram, "
+"while not 100% accurate, provides a good overview of what is happening."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:699
+msgid ""
+"In order for the OR-by-UNION technique shown above to be useful, there must "
+"be an index available that helps resolve every OR-connected term in the "
+"WHERE clause.  If even a single OR-connected term is not indexed, then a "
+"full table scan would have to be done in order to find the rowids generated "
+"by the one term, and if SQLite has to do a full table scan, it might as well "
+"do it on the original table and get all of the results in a single pass "
+"without having to mess with union operations and follow-on binary searches."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:710
+msgid ""
+"One can see how the OR-by-UNION technique could also be leveraged to use "
+"multiple indices on queries where the WHERE clause has terms connected by "
+"AND, by using an intersect operator in place of union.  Many SQL database "
+"engines will do just that.  But the performance gain over using just a "
+"single index is slight and so SQLite does not implement that technique at "
+"this time.  However, a future version SQLite might be enhanced to support "
+"AND-by-INTERSECT."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:719
+msgid "<a name=\"sorting\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/queryplanner.html:721
+msgid "<span>2. </span> Sorting"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:724
+msgid ""
+"SQLite (like all other SQL database engines) can also use indices to satisfy "
+"the ORDER BY clauses in a query, in addition to expediting lookup.  In other "
+"words, indices can be used to speed up sorting as well as searching."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:731
+msgid ""
+"When no appropriate indices are available, a query with an ORDER BY clause "
+"must be sorted as a separate step.  Consider this query:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:736 sedout/queryplanner.html:814
+#, no-wrap
+msgid "SELECT * FROM fruitsforsale ORDER BY fruit;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:741
+msgid ""
+"SQLite processes this by gathering all the output of query and then running "
+"that output through a sorter."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:745
+msgid "<a name='fig16'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:747
+msgid "figure 16"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:748
+msgid "Figure 16: Sorting Without An Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:753
+msgid ""
+"If the number of output rows is K, then the time needed to sort is "
+"proportional to KlogK.  If K is small, the sorting time is usually not a "
+"factor, but in a query such as the above where K==N, the time needed to sort "
+"can be much greater than the time needed to do a full table scan.  "
+"Furthermore, the entire output is accumulated in temporary storage (which "
+"might be either in main memory or on disk, depending on various compile-time "
+"and run-time settings)  which can mean that a lot of temporary storage is "
+"required to complete the query."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:764
+msgid "<span>2.1. </span> Sorting By Rowid"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:767
+msgid ""
+"Because sorting can be expensive, SQLite works hard to convert ORDER BY "
+"clauses into no-ops.  If SQLite determines that output will naturally appear "
+"in the order specified, then no sorting is done.  So, for example, if you "
+"request the output in rowid order, no sorting will be done:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:775
+#, no-wrap
+msgid "SELECT * FROM fruitsforsale ORDER BY rowid;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:777
+msgid "<a name='fig17'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:779
+msgid "figure 17"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:780
+msgid "Figure 17: Sorting By Rowid"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:785
+msgid "You can also request a reverse-order sort like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:789
+#, no-wrap
+msgid "SELECT * FROM fruitsforsale ORDER BY rowid DESC;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:794
+msgid ""
+"SQLite will still omit the sorting step.  But in order for output to appear "
+"in the correct order, SQLite will do the table scan starting at the end and "
+"working toward the beginning, rather than starting at the beginning and "
+"working toward the end as shown in <a href=\"#fig17\">figure 17</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:801
+msgid "<span>2.2. </span> Sorting By Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:804
+msgid ""
+"Of course, ordering the output of a query by rowid is seldom useful.  "
+"Usually one wants to order the output by some other column."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:809
+msgid ""
+"If an index is available on the ORDER BY column, that index can be used for "
+"sorting.  Consider the request for all items sorted by \"fruit\":"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:818
+msgid "<a name='fig18'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:820
+msgid "figure 18"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:821
+msgid "Figure 18: Sorting With An Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:826
+msgid ""
+"The Idx1 index is scanned from top to bottom (or from bottom to top if "
+"\"ORDER BY fruit DESC\" is used) in order to find the rowids for each item "
+"in order by fruit.  Then for each rowid, a binary search is done to lookup "
+"and output that row.  In this way, the output appears in the requested order "
+"without the need to gather the entire output and sort it using a separate "
+"step."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:834
+msgid ""
+"But does this really save time? The number of steps in the <a "
+"href=\"#fig16\">original indexless sort</a> is proportional to NlogN since "
+"that is how much time it takes to sort N rows.  But when we use Idx1 as "
+"shown here, we have to do N rowid lookups which take logN time each, so the "
+"total time of NlogN is the same!"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:842
+msgid ""
+"SQLite uses a cost-based query planner.  When there are two or more ways of "
+"solving the same query, SQLite tries to estimate the total amount of time "
+"needed to run the query using each plan, and then uses the plan with the "
+"lowest estimated cost.  A cost is computed mostly from the estimated time, "
+"and so this case could go either way depending on the table size and what "
+"WHERE clause constraints were available, and so forth.  But generally "
+"speaking, the indexed sort would probably be chosen, if for no other reason, "
+"because it does not need to accumulate the entire result set in temporary "
+"storage before sorting and thus uses much less temporary storage."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:853
+msgid "<span>2.3. </span> Sorting By Covering Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:856
+msgid ""
+"If a covering index can be used for a query, then the multiple rowid lookups "
+"can be avoided and the cost of the query drops dramatically."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:860
+msgid "<a name='fig19'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:862
+msgid "figure 19"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:863
+msgid "Figure 19: Sorting With A Covering Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:868
+msgid ""
+"With a covering index, SQLite can simply walk the index from one end to the "
+"other and deliver the output in time proportional to N and without having "
+"allocate a large buffer to hold the result set."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/queryplanner.html:873
+msgid "<span>3. </span> Searching And Sorting At The Same Time"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:876
+msgid ""
+"The previous discussion has treated searching and sorting as separate "
+"topics.  But in practice, it is often the case that one wants to search and "
+"sort at the same time.  Fortunately, it is possible to do this using a "
+"single index."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:882
+msgid "<span>3.1. </span> Searching And Sorting With A Multi-Column Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:885
+msgid ""
+"Suppose we want to find the prices of all kinds of oranges sorted in order "
+"of the state where they are grown.  The query is this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:890
+#, no-wrap
+msgid "SELECT price FROM fruitforsale WHERE fruit='Orange' ORDER BY state\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:895
+msgid ""
+"The query contains both a search restriction in the WHERE clause and a sort "
+"order in the ORDER BY clause.  Both the search and the sort can be "
+"accomplished at the same time using the two-column index Idx3."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:900
+msgid "<a name='fig20'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:902
+msgid "figure 20"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:903
+msgid "Figure 20: Search And Sort By Multi-Column Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:908
+msgid ""
+"The query does a binary search on the index to find the subset of rows that "
+"have fruit='Orange'.  (Because the fruit column is the left-most column of "
+"the index and the rows of the index are in sorted order, all such rows will "
+"be adjacent.)  Then it scans the matching index rows from top to bottom to "
+"get the rowids for the original table, and for each rowid does a binary "
+"search on the original table to find the price."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:917
+msgid ""
+"You will notice that there is no \"sort\" box anywhere in the above "
+"diagram.  The ORDER BY clause of the query has become a no-op.  No sorting "
+"has to be done here because the output order is by the state column and the "
+"state column also happens to be the first column after the fruit column in "
+"the index.  So, if we scan entries of the index that have the same value for "
+"the fruit column from top to bottom, those index entries are guaranteed to "
+"be ordered by the state column."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:926
+msgid "<a name=\"srchsortcovidx\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:928
+msgid "<span>3.2. </span> Searching And Sorting With A Covering Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:931
+msgid ""
+"A <a href=\"queryplanner.html#covidx\">covering index</a> can also be used "
+"to search and sort at the same time.  Consider the following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:936
+#, no-wrap
+msgid "SELECT * FROM fruitforsale WHERE fruit='Orange' ORDER BY state\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:938
+msgid "<a name='fig21'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:940
+msgid "figure 21"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:941
+msgid "Figure 21: Search And Sort By Covering Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:946
+msgid ""
+"As before, SQLite does single binary search for the range of rows in the "
+"covering index that satisfy the WHERE clause, the scans that range from top "
+"to bottom to get the desired results.  The rows that satisfy the WHERE "
+"clause are guaranteed to be adjacent since the WHERE clause is an equality "
+"constraint on the left-most column of the index.  And by scanning the "
+"matching index rows from top to bottom, the output is guaranteed to be "
+"ordered by state since the state column is the very next column to the right "
+"of the fruit column.  And so the resulting query is very efficient."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:959
+msgid "SQLite can pull a similar trick for a descending ORDER BY:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:963
+#, no-wrap
+msgid "SELECT * FROM fruitforsale WHERE fruit='Orange' ORDER BY state DESC\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:968
+msgid ""
+"The same basic algorithm is followed, except this time the matching rows of "
+"the index are scanned from bottom to top instead of from top to bottom, so "
+"that the states will appear in descending order."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:973
+msgid "<a name=\"partialsort\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/queryplanner.html:975
+msgid "<span>3.3. </span> Partial Sorting Using An Index (a.k.a. Block Sorting)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:978
+msgid ""
+"Sometimes only part of an ORDER BY clause can be satisfied using indexes.  "
+"Consider, for example, the following query:"
+msgstr ""
+
+#. type: Content of: <html><body><div><center><table><tr><td><pre>
+#: sedout/queryplanner.html:983
+#, no-wrap
+msgid "SELECT * FROM fruitforsale ORDER BY fruit, price\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:988
+msgid ""
+"If the covering index is used for the scan, the \"fruit\" column will appear "
+"naturally in the correct order, but when there are two or more rows with the "
+"same fruit, the price might be out of order.  When this occurs, SQLite does "
+"many small sorts, one sort for each distinct value of fruit, rather than one "
+"large sort.  Figure 22 below illustrates the concept."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/queryplanner.html:995
+msgid "<a name='fig22'></a>"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><p><center><img>
+#: sedout/queryplanner.html:997
+msgid "figure 22"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><img><br>
+#: sedout/queryplanner.html:998
+msgid "Figure 22: Partial Sort By Index"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:1003
+msgid ""
+"In the example, instead of a single sort of 7 elements, there are 5 sorts of "
+"one-element each and 1 sort of 2 elements for the case of fruit=='Orange'."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/queryplanner.html:1008
+msgid ""
+"The advantages of doing many smaller sorts instead of a single large sort "
+"are:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/queryplanner.html:1011
+msgid ""
+"Multiple small sorts collectively use fewer CPU cycles than a single large "
+"sort."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/queryplanner.html:1013
+msgid ""
+"Each small sort is run independently, meaning that much less information "
+"needs to be kept in temporary storage at any one time."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/queryplanner.html:1015
+msgid ""
+"Those columns of the ORDER BY that are already in the correct order due to "
+"indexes can be omitted from the sort key, further reducing storage "
+"requirements and CPU time."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/queryplanner.html:1018
+msgid ""
+"Output rows can be returned to the application as each small sort completes, "
+"and well before the table scan is complete."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/queryplanner.html:1020
+msgid ""
+"If a LIMIT clause is present, it might be possible to avoid scanning the "
+"entire table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/queryplanner.html:1024
+msgid ""
+"Because of these advantages, SQLite always tries to do a partial sort using "
+"an index even if a complete sort by index is not possible."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/queryplanner.html:1027
+msgid "<span>4. </span> WITHOUT ROWID tables"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/queryplanner.html:1030
+msgid ""
+"The basic principals described above apply to both ordinary rowid tables and "
+"<a href=\"withoutrowid.html\">WITHOUT ROWID</a> tables.  The only difference "
+"is that the rowid column that serves as the key for tables and that appears "
+"as the right-most term in indexes is replaced by the PRIMARY KEY."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/queryplanner.html:1036
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/queryplanner.in?m=baee8e6b0d\">2022-10-26 "
+"13:30:36</a> UTC </i></small>"
+msgstr ""

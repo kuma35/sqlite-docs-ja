@@ -1,0 +1,305 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/mem_methods.html:6 sedout/c3ref/mem_methods.html:121
+msgid "Memory Allocation Routines"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/mem_methods.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/mem_methods.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/mem_methods.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/mem_methods.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/mem_methods.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/mem_methods.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/mem_methods.html:22 sedout/c3ref/mem_methods.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/mem_methods.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/mem_methods.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/mem_methods.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/mem_methods.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/mem_methods.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/mem_methods.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/mem_methods.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/mem_methods.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/mem_methods.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/mem_methods.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/mem_methods.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/mem_methods.html:124
+#, no-wrap
+msgid ""
+"typedef struct sqlite3_mem_methods sqlite3_mem_methods;\n"
+"struct sqlite3_mem_methods {\n"
+"  void *(*xMalloc)(int);         /* Memory allocation function */\n"
+"  void (*xFree)(void*);          /* Free a prior allocation */\n"
+"  void *(*xRealloc)(void*,int);  /* Resize an allocation */\n"
+"  int (*xSize)(void*);           /* Return the size of an allocation */\n"
+"  int (*xRoundup)(int);          /* Round up request size to allocation size "
+"*/\n"
+"  int (*xInit)(void*);           /* Initialize the memory allocator */\n"
+"  void (*xShutdown)(void*);      /* Deinitialize the memory allocator */\n"
+"  void *pAppData;                /* Argument to xInit() and xShutdown() */\n"
+"};\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:137
+msgid ""
+"An instance of this object defines the interface between SQLite and "
+"low-level memory allocation routines."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:140
+msgid ""
+"This object is used in only one place in the SQLite interface.  A pointer to "
+"an instance of this object is the argument to <a "
+"href=\"../c3ref/config.html\">sqlite3_config()</a> when the configuration "
+"option is <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfigmalloc\">SQLITE_CONFIG_MALLOC</a> "
+"or <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfiggetmalloc\">SQLITE_CONFIG_GETMALLOC</a>.  "
+"By creating an instance of this object and passing it to <a "
+"href=\"../c3ref/config.html\">sqlite3_config</a>(<a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfigmalloc\">SQLITE_CONFIG_MALLOC</a>)  "
+"during configuration, an application can specify an alternative memory "
+"allocation subsystem for SQLite to use for all of its dynamic memory needs."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:150
+msgid ""
+"Note that SQLite comes with several <a "
+"href=\"../malloc.html#altalloc\">built-in memory allocators</a> that are "
+"perfectly adequate for the overwhelming majority of applications and that "
+"this object is only useful to a tiny minority of applications with "
+"specialized memory allocation requirements.  This object is also used during "
+"testing of SQLite in order to specify an alternative memory allocator that "
+"simulates memory out-of-memory conditions in order to verify that SQLite "
+"recovers gracefully from such conditions."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:159
+msgid ""
+"The xMalloc, xRealloc, and xFree methods must work like the malloc(), "
+"realloc() and free() functions from the standard C library.  SQLite "
+"guarantees that the second argument to xRealloc is always a value returned "
+"by a prior call to xRoundup."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:164
+msgid ""
+"xSize should return the allocated size of a memory allocation previously "
+"obtained from xMalloc or xRealloc.  The allocated size is always at least as "
+"big as the requested size but may be larger."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:168
+msgid ""
+"The xRoundup method returns what would be the allocated size of a memory "
+"allocation given a particular requested size.  Most memory allocators round "
+"up memory allocations at least to the next multiple of 8.  Some allocators "
+"round up to a larger multiple or to a power of 2.  Every memory allocation "
+"request coming in through <a "
+"href=\"../c3ref/free.html\">sqlite3_malloc()</a> or <a "
+"href=\"../c3ref/free.html\">sqlite3_realloc()</a> first calls xRoundup.  If "
+"xRoundup returns 0, that causes the corresponding memory allocation to fail."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:176
+msgid ""
+"The xInit method initializes the memory allocator.  For example, it might "
+"allocate any required mutexes or initialize internal data structures.  The "
+"xShutdown method is invoked (indirectly) by <a "
+"href=\"../c3ref/initialize.html\">sqlite3_shutdown()</a> and should "
+"deallocate any resources acquired by xInit.  The pAppData pointer is used as "
+"the only parameter to xInit and xShutdown."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:183
+msgid ""
+"SQLite holds the <a "
+"href=\"../c3ref/c_mutex_fast.html\">SQLITE_MUTEX_STATIC_MAIN</a> mutex when "
+"it invokes the xInit method, so the xInit method need not be threadsafe.  "
+"The xShutdown method is only called from <a "
+"href=\"../c3ref/initialize.html\">sqlite3_shutdown()</a> so it does not need "
+"to be threadsafe either.  For all other methods, SQLite holds the <a "
+"href=\"../c3ref/c_mutex_fast.html\">SQLITE_MUTEX_STATIC_MEM</a> mutex as "
+"long as the <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfigmemstatus\">SQLITE_CONFIG_MEMSTATUS</a> "
+"configuration option is turned on (which it is by default) and so the "
+"methods are automatically serialized.  However, if <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfigmemstatus\">SQLITE_CONFIG_MEMSTATUS</a> "
+"is disabled, then the other methods must be threadsafe or else make their "
+"own arrangements for serialization."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:194
+msgid ""
+"SQLite will never invoke xInit() more than once without an intervening call "
+"to xShutdown()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/mem_methods.html:196
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

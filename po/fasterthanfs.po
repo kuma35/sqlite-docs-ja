@@ -1,0 +1,989 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 22:17+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/fasterthanfs.html:6 sedout/fasterthanfs.html:121
+msgid "35% Faster Than The Filesystem"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/fasterthanfs.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/fasterthanfs.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/fasterthanfs.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/fasterthanfs.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/fasterthanfs.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/fasterthanfs.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/fasterthanfs.html:22 sedout/fasterthanfs.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/fasterthanfs.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/fasterthanfs.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/fasterthanfs.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/fasterthanfs.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/fasterthanfs.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/fasterthanfs.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/fasterthanfs.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/fasterthanfs.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/fasterthanfs.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/fasterthanfs.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/fasterthanfs.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/fasterthanfs.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/fasterthanfs.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/fasterthanfs.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/fasterthanfs.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/fasterthanfs.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:128
+msgid "<a href=\"#summary\">1. Summary</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:129
+msgid "<a href=\"#caveats\">1.1. Caveats</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:130
+msgid "<a href=\"#related_studies\">1.2. Related Studies</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:131
+msgid ""
+"<a href=\"#how_these_measurements_are_made\">2. How These Measurements Are "
+"Made</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:132
+msgid ""
+"<a href=\"#read_performance_measurements\">2.1. Read Performance "
+"Measurements</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:133
+msgid ""
+"<a href=\"#write_performance_measurements\">2.2. Write Performance "
+"Measurements</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:134
+msgid "<a href=\"#variations\">2.3. Variations</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:135
+msgid "<a href=\"#general_findings\">3. General Findings</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:136
+msgid "<a href=\"#additional_notes\">4. Additional Notes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/fasterthanfs.html:137
+msgid ""
+"<a href=\"#compiling_and_testing_on_android\">4.1. Compiling And Testing on "
+"Android</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/fasterthanfs.html:141
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/fasterthanfs.html:159
+msgid "<span>1. </span>Summary"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:161
+msgid ""
+"SQLite reads and writes small blobs (for example, thumbnail images)  <a "
+"href=\"#approx\">35% faster&sup1;</a> than the same blobs can be read from "
+"or written to individual files on disk using fread() or fwrite()."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:166
+msgid ""
+"Furthermore, a single SQLite database holding 10-kilobyte blobs uses about "
+"20% less disk space than storing the blobs in individual files."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:170
+msgid ""
+"The performance difference arises (we believe) because when working from an "
+"SQLite database, the open() and close() system calls are invoked only once, "
+"whereas open() and close() are invoked once for each blob when using blobs "
+"stored in individual files.  It appears that the overhead of calling open() "
+"and close() is greater than the overhead of using the database.  The size "
+"reduction arises from the fact that individual files are padded out to the "
+"next multiple of the filesystem block size, whereas the blobs are packed "
+"more tightly into an SQLite database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:182
+msgid ""
+"The measurements in this article were made during the week of 2017-06-05 "
+"using a version of SQLite in between 3.19.2 and 3.20.0.  You may expect "
+"future versions of SQLite to perform even better."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/fasterthanfs.html:186
+msgid "<span>1.1. </span>Caveats"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/fasterthanfs.html:188
+msgid "<a name=\"approx\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:190
+msgid ""
+"&sup1;The 35% figure above is approximate.  Actual timings vary depending on "
+"hardware, operating system, and the details of the experiment, and due to "
+"random performance fluctuations on real-world hardware.  See the text below "
+"for more detail.  Try the experiments yourself.  Report significant "
+"deviations on the <a href=\"support.html#fx\">SQLite forum</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:199
+msgid ""
+"The 35% figure is based on running tests on every machine that the author "
+"has easily at hand.  Some reviewers of this article report that SQLite has "
+"higher latency than direct I/O on their systems.  We do not yet understand "
+"the difference.  We also see indications that SQLite does not perform as "
+"well as direct I/O when experiments are run using a cold filesystem cache."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:208
+msgid ""
+"So let your take-away be this: read/write latency for SQLite is competitive "
+"with read/write latency of individual files on disk.  Often SQLite is "
+"faster.  Sometimes SQLite is almost as fast.  Either way, this article "
+"disproves the common assumption that a relational database must be slower "
+"than direct filesystem I/O."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/fasterthanfs.html:215
+msgid "<span>1.2. </span>Related Studies"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:218
+msgid ""
+"<a href=\"https://www.microsoft.com/en-us/research/people/gray/\">Jim "
+"Gray</a> and others studied the read performance of BLOBs versus file I/O "
+"for Microsoft SQL Server and found that reading BLOBs out of the database "
+"was faster for BLOB sizes less than between 250KiB and 1MiB.  (<a "
+"href=\"https://www.microsoft.com/en-us/research/publication/to-blob-or-not-to-blob-large-object-storage-in-a-database-or-a-filesystem/\">Paper</a>).  "
+"In that study, the database still stores the filename of the content even if "
+"the content is held in a separate file.  So the database is consulted for "
+"every BLOB, even if it is only to extract the filename.  In this article, "
+"the key for the BLOB is the filename, so no preliminary database access is "
+"required.  Because the database is never used at all when reading content "
+"from individual files in this article, the threshold at which direct file "
+"I/O becomes faster is smaller than it is in Gray's paper."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:234
+msgid ""
+"The <a href=\"intern-v-extern-blob.html\">Internal Versus External BLOBs</a> "
+"article on this website is an earlier investigation (circa 2011) that uses "
+"the same approach as the Jim Gray paper &mdash; storing the blob filenames "
+"as entries in the database &mdash; but for SQLite instead of SQL Server."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/fasterthanfs.html:241
+msgid "<span>2. </span>How These Measurements Are Made"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:243
+msgid ""
+"I/O performance is measured using the <a "
+"href=\"https://www.sqlite.org/src/file/test/kvtest.c\">kvtest.c</a> program "
+"from the SQLite source tree.  To compile this test program, first gather the "
+"kvtest.c source file into a directory with the <a "
+"href=\"amalgamation.html\">SQLite amalgamation</a> source files "
+"\"sqlite3.c\" and \"sqlite3.h\".  Then on unix, run a command like the "
+"following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:251
+#, no-wrap
+msgid ""
+"gcc -Os -I. -DSQLITE_DIRECT_OVERFLOW_READ &#92;\n"
+"  kvtest.c sqlite3.c -o kvtest -ldl -lpthread\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:255
+msgid "Or on Windows with MSVC:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:257
+#, no-wrap
+msgid "cl -I. -DSQLITE_DIRECT_OVERFLOW_READ kvtest.c sqlite3.c\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:260
+msgid ""
+"Instructions for compiling for Android are <a "
+"href=\"#compile-android\">shown below</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:264
+msgid ""
+"Use the resulting \"kvtest\" program to generate a test database with "
+"100,000 random uncompressible blobs, each with a random size between 8,000 "
+"and 12,000 bytes using a command like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:270
+#, no-wrap
+msgid "./kvtest init test1.db --count 100k --size 10k --variance 2k\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:274
+msgid "If desired, you can verify the new database by running this command:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:276
+#, no-wrap
+msgid "./kvtest stat test1.db\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:280
+msgid ""
+"Next, make copies of all the blobs into individual files in a directory "
+"using a command like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:283
+#, no-wrap
+msgid "./kvtest export test1.db test1.dir\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:287
+msgid ""
+"At this point, you can measure the amount of disk space used by the test1.db "
+"database and the space used by the test1.dir directory and all of its "
+"content.  On a standard Ubuntu Linux desktop, the database file will be "
+"1,024,512,000 bytes in size and the test1.dir directory will use "
+"1,228,800,000 bytes of space (according to \"du -k\"), about 20% more than "
+"the database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:295
+msgid ""
+"The \"test1.dir\" directory created above puts all the blobs into a single "
+"folder.  It was conjectured that some operating systems would perform poorly "
+"when a single directory contains 100,000 objects.  To test this, the kvtest "
+"program can also store the blobs in a hierarchy of folders with no more than "
+"100 files and/or subdirectories per folder.  The alternative on-disk "
+"representation of the blobs can be created using the --tree command-line "
+"option to the \"export\" command, like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:303
+#, no-wrap
+msgid "./kvtest export test1.db test1.tree --tree\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:307
+msgid ""
+"The test1.dir directory will contain 100,000 files with names like "
+"\"000000\", \"000001\", \"000002\" and so forth but the test1.tree directory "
+"will contain the same files in subdirectories like \"00/00/00\", "
+"\"00/00/01\", and so on.  The test1.dir and test1.test directories take up "
+"approximately the same amount of space, though test1.test is very slightly "
+"larger due to the extra directory entries."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:315
+msgid ""
+"All of the experiments that follow operate the same with either "
+"\"test1.dir\" or \"test1.tree\".  Very little performance difference is "
+"measured in either case, regardless of operating system."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:320
+msgid ""
+"Measure the performance for reading blobs from the database and from "
+"individual files using these commands:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:323
+#, no-wrap
+msgid ""
+"./kvtest run test1.db --count 100k --blob-api\n"
+"./kvtest run test1.dir --count 100k --blob-api\n"
+"./kvtest run test1.tree --count 100k --blob-api\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:329
+msgid ""
+"Depending on your hardware and operating system, you should see that reads "
+"from the test1.db database file are about 35% faster than reads from "
+"individual files in the test1.dir or test1.tree folders.  Results can vary "
+"significantly from one run to the next due to caching, so it is advisable to "
+"run tests multiple times and take an average or a worst case or a best case, "
+"depending on your requirements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:336
+msgid ""
+"The --blob-api option on the database read test causes kvtest to use the <a "
+"href=\"c3ref/blob_read.html\">sqlite3_blob_read()</a> feature of SQLite to "
+"load the content of the blobs, rather than running pure SQL statements.  "
+"This helps SQLite to run a little faster on read tests.  You can omit that "
+"option to compare the performance of SQLite running SQL statements.  In that "
+"case, the SQLite still out-performs direct reads, though by not as much as "
+"when using <a href=\"c3ref/blob_read.html\">sqlite3_blob_read()</a>.  The "
+"--blob-api option is ignored for tests that read from individual disk files."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:347
+msgid ""
+"Measure write performance by adding the --update option.  This causes the "
+"blobs are overwritten in place with another random blob of exactly the same "
+"size."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:351
+#, no-wrap
+msgid ""
+"./kvtest run test1.db --count 100k --update\n"
+"./kvtest run test1.dir --count 100k --update\n"
+"./kvtest run test1.tree --count 100k --update\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:357
+msgid ""
+"The writing test above is not completely fair, since SQLite is doing <a "
+"href=\"transactional.html\">power-safe transactions</a> whereas the "
+"direct-to-disk writing is not.  To put the tests on a more equal footing, "
+"add either the --nosync option to the SQLite writes to disable calling "
+"fsync() or FlushFileBuffers() to force content to disk, or using the --fsync "
+"option for the direct-to-disk tests to force them to invoke fsync() or "
+"FlushFileBuffers() when updating disk files."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:366
+msgid ""
+"By default, kvtest runs the database I/O measurements all within a single "
+"transaction.  Use the --multitrans option to run each blob read or write in "
+"a separate transaction.  The --multitrans option makes SQLite much slower, "
+"and uncompetitive with direct disk I/O.  This option proves, yet again, that "
+"to get the most performance out of SQLite, you should group as much database "
+"interaction as possible within a single transaction."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:375
+msgid ""
+"There are many other testing options, which can be seen by running the "
+"command:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/fasterthanfs.html:378
+#, no-wrap
+msgid "./kvtest help\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/fasterthanfs.html:381
+msgid "<span>2.1. </span>Read Performance Measurements"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:383
+msgid ""
+"The chart below shows data collected using <a "
+"href=\"https://www.sqlite.org/src/file/test/kvtest.c\">kvtest.c</a> on five "
+"different systems:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fasterthanfs.html:388
+msgid ""
+"<b>Win7</b>: A circa-2009 Dell Inspiron laptop, Pentium dual-core at "
+"2.30GHz, 4GiB RAM, Windows7."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fasterthanfs.html:390
+msgid ""
+"<b>Win10</b>: A 2016 Lenovo YOGA 910, Intel i7-7500 at 2.70GHz, 16GiB RAM, "
+"Windows10."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fasterthanfs.html:392
+msgid ""
+"<b>Mac</b>: A 2015 MacBook Pro, 3.1GHz intel Core i7, 16GiB RAM, MacOS "
+"10.12.5"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fasterthanfs.html:394
+msgid ""
+"<b>Ubuntu</b>: Desktop built from Intel i7-4770K at 3.50GHz, 32GiB RAM, "
+"Ubuntu 16.04.2 LTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/fasterthanfs.html:396
+msgid "<b>Android</b>: Galaxy S3, ARMv7, 2GiB RAM"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:399
+msgid ""
+"All machines use SSD except Win7 which has a hard-drive. The test database "
+"is 100K blobs with sizes uniformly distributed between 8K and 12K, for a "
+"total of about 1 gigabyte of content.  The database page size is 4KiB.  The "
+"-DSQLITE_DIRECT_OVERFLOW_READ compile-time option was used for all of these "
+"tests.  Tests were run multiple times.  The first run was used to warm up "
+"the cache and its timings were discarded."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:409
+msgid ""
+"The chart below shows average time to read a blob directly from the "
+"filesystem versus the time needed to read the same blob from the SQLite "
+"database.  The actual timings vary considerably from one system to another "
+"(the Ubuntu desktop is much faster than the Galaxy S3 phone, for example).  "
+"This chart shows the ratio of the times needed to read blobs from a file "
+"divided by the time needed to from the database.  The left-most column in "
+"the chart is the normalized time to read from the database, for reference."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:421
+msgid ""
+"In this chart, an SQL statement (\"SELECT v FROM kv WHERE k=?1\")  is "
+"prepared once.  Then for each blob, the blob key value is bound to the ?1 "
+"parameter and the statement is evaluated to extract the blob content."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:427
+msgid ""
+"The chart shows that on Windows10, content can be read from the SQLite "
+"database about 5 times faster than it can be read directly from disk.  On "
+"Android, SQLite is only about 35% faster than reading from disk."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br>
+#: sedout/fasterthanfs.html:436
+msgid "Chart 1: SQLite read latency relative to direct filesystem reads."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br>
+#: sedout/fasterthanfs.html:437
+msgid "100K blobs, avg 10KB each, random order using SQL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:441
+msgid ""
+"The performance can be improved slightly by bypassing the SQL layer and "
+"reading the blob content directly using the <a "
+"href=\"c3ref/blob_read.html\">sqlite3_blob_read()</a> interface, as shown in "
+"the next chart:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br>
+#: sedout/fasterthanfs.html:450
+msgid "Chart 2: SQLite read latency relative to direct filesystem reads."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br>
+#: sedout/fasterthanfs.html:451 sedout/fasterthanfs.html:469
+msgid "100K blobs, avg size 10KB, random order"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br><br>
+#: sedout/fasterthanfs.html:452
+msgid "using sqlite3_blob_read()."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:456
+msgid ""
+"Further performance improves can be made by using the <a "
+"href=\"mmap.html\">memory-mapped I/O</a> feature of SQLite.  In the next "
+"chart, the entire 1GB database file is memory mapped and blobs are read (in "
+"random order) using the <a "
+"href=\"c3ref/blob_read.html\">sqlite3_blob_read()</a> interface.  With these "
+"optimizations, SQLite is twice as fast as Android or MacOS-X and over 10 "
+"times faster than Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br>
+#: sedout/fasterthanfs.html:468
+msgid "Chart 3: SQLite read latency relative to direct filesystem reads."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br><br>
+#: sedout/fasterthanfs.html:470
+msgid "using sqlite3_blob_read() from a memory-mapped database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:474
+msgid ""
+"The third chart shows that reading blob content out of SQLite can be twice "
+"as fast as reading from individual files on disk for Mac and Android, and an "
+"amazing ten times faster for Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/fasterthanfs.html:478
+msgid "<span>2.2. </span>Write Performance Measurements"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:481
+msgid ""
+"Writes are slower.  On all systems, using both direct I/O and SQLite, write "
+"performance is between 5 and 15 times slower than reads."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:486
+msgid ""
+"Write performance measurements were made by replacing (overwriting)  an "
+"entire blob with a different blob.  All of the blobs in these experiment are "
+"random and incompressible.  Because writes are so much slower than reads, "
+"only 10,000 of the 100,000 blobs in the database are replaced.  The blobs to "
+"be replaced are selected at random and are in no particular order."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:494
+msgid ""
+"The direct-to-disk writes are accomplished using fopen()/fwrite()/fclose().  "
+"By default, and in all the results shown below, the OS filesystem buffers "
+"are never flushed to persistent storage using fsync() or "
+"FlushFileBuffers().  In other words, there is no attempt to make the "
+"direct-to-disk writes transactional or power-safe.  We found that invoking "
+"fsync() or FlushFileBuffers() on each file written causes direct-to-disk "
+"storage to be about 10 times or more slower than writes to SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:504
+msgid ""
+"The next chart compares SQLite database updates in <a href=\"wal.html\">WAL "
+"mode</a> against raw direct-to-disk overwrites of separate files on disk.  "
+"The <a href=\"pragma.html#pragma_synchronous\">PRAGMA synchronous</a> "
+"setting is NORMAL.  All database writes are in a single transaction.  The "
+"timer for the database writes is stopped after the transaction commits, but "
+"before a <a href=\"wal.html#ckpt\">checkpoint</a> is run.  Note that the "
+"SQLite writes, unlike the direct-to-disk writes, are <a "
+"href=\"transactional.html\">transactional</a> and <a "
+"href=\"transactional.html\">power-safe</a>, though because the synchronous "
+"setting is NORMAL instead of FULL, the transactions are not durable."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br>
+#: sedout/fasterthanfs.html:519
+msgid "Chart 4: SQLite write latency relative to direct filesystem writes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br>
+#: sedout/fasterthanfs.html:520 sedout/fasterthanfs.html:545
+msgid "10K blobs, avg size 10KB, random order,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br><br>
+#: sedout/fasterthanfs.html:521
+msgid "WAL mode with synchronous NORMAL,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br><br><br>
+#: sedout/fasterthanfs.html:522
+msgid "exclusive of checkpoint time"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:526
+msgid ""
+"The android performance numbers for the write experiments are omitted "
+"because the performance tests on the Galaxy S3 are so random.  Two "
+"consecutive runs of the exact same experiment would give wildly different "
+"times.  And, to be fair, the performance of SQLite on android is slightly "
+"slower than writing directly to disk."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:533
+msgid ""
+"The next chart shows the performance of SQLite versus direct-to-disk when "
+"transactions are disabled (<a "
+"href=\"pragma.html#pragma_journal_mode\">PRAGMA journal_mode=OFF</a>)  and "
+"<a href=\"pragma.html#pragma_synchronous\">PRAGMA synchronous</a> is set to "
+"OFF.  These settings put SQLite on an equal footing with direct-to-disk "
+"writes, which is to say they make the data prone to corruption due to system "
+"crashes and power failures."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br>
+#: sedout/fasterthanfs.html:544
+msgid "Chart 5: SQLite write latency relative to direct filesystem writes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><br><br><br>
+#: sedout/fasterthanfs.html:546
+msgid "journaling disabled, synchronous OFF."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:550
+msgid ""
+"In all of the write tests, it is important to disable anti-virus software "
+"prior to running the direct-to-disk performance tests.  We found that "
+"anti-virus software slows down direct-to-disk by an order of magnitude "
+"whereas it impacts SQLite writes very little.  This is probably due to the "
+"fact that direct-to-disk changes thousands of separate files which all need "
+"to be checked by anti-virus, whereas SQLite writes only changes the single "
+"database file."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/fasterthanfs.html:558
+msgid "<span>2.3. </span>Variations"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:560
+msgid ""
+"The <a "
+"href=\"compile.html#direct_overflow_read\">-DSQLITE_DIRECT_OVERFLOW_READ</a> "
+"compile-time option causes SQLite to bypass its page cache when reading "
+"content from overflow pages.  This helps database reads of 10K blobs run a "
+"little faster, but not all that much faster.  SQLite still holds a speed "
+"advantage over direct filesystem reads without the "
+"SQLITE_DIRECT_OVERFLOW_READ compile-time option."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:566
+msgid ""
+"Other compile-time options such as using -O3 instead of -Os or using <a "
+"href=\"compile.html#threadsafe\">-DSQLITE_THREADSAFE=0</a> and/or some of "
+"the other <a href=\"compile.html#rcmd\">recommended compile-time options</a> "
+"might help SQLite to run even faster relative to direct filesystem reads."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:571
+msgid ""
+"The size of the blobs in the test data affects performance.  The filesystem "
+"will generally be faster for larger blobs, since the overhead of open() and "
+"close() is amortized over more bytes of I/O, whereas the database will be "
+"more efficient in both speed and space as the average blob size decreases."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/fasterthanfs.html:578
+msgid "<span>3. </span>General Findings"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><p>
+#: sedout/fasterthanfs.html:582
+msgid ""
+"SQLite is competitive with, and usually faster than, blobs stored in "
+"separate files on disk, for both reading and writing."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><p>
+#: sedout/fasterthanfs.html:586
+msgid ""
+"SQLite is much faster than direct writes to disk on Windows when anti-virus "
+"protection is turned on.  Since anti-virus software is and should be on by "
+"default in Windows, that means that SQLite is generally much faster than "
+"direct disk writes on Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><p>
+#: sedout/fasterthanfs.html:592
+msgid ""
+"Reading is about an order of magnitude faster than writing, for all systems "
+"and for both SQLite and direct-to-disk I/O."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><p>
+#: sedout/fasterthanfs.html:596
+msgid ""
+"I/O performance varies widely depending on operating system and hardware.  "
+"Make your own measurements before drawing conclusions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><p>
+#: sedout/fasterthanfs.html:600
+msgid ""
+"Some other SQL database engines advise developers to store blobs in separate "
+"files and then store the filename in the database.  In that case, where the "
+"database must first be consulted to find the filename before opening and "
+"reading the file, simply storing the entire blob in the database gives much "
+"faster read and write performance with SQLite.  See the <a "
+"href=\"intern-v-extern-blob.html\">Internal Versus External BLOBs</a> "
+"article for more information."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/fasterthanfs.html:609
+msgid "<span>4. </span>Additional Notes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/fasterthanfs.html:611
+msgid "<a name=\"compile-android\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/fasterthanfs.html:612
+msgid "<span>4.1. </span>Compiling And Testing on Android"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:615
+msgid ""
+"The kvtest program is compiled and run on Android as follows.  First install "
+"the Android SDK and NDK.  Then prepare a script named \"android-gcc\" that "
+"looks approximately like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/fasterthanfs.html:619
+#, no-wrap
+msgid ""
+"#!/bin/sh\n"
+"#\n"
+"NDK=/home/drh/Android/Sdk/ndk-bundle\n"
+"SYSROOT=$NDK/platforms/android-16/arch-arm\n"
+"ABIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin\n"
+"GCC=$ABIN/arm-linux-androideabi-gcc\n"
+"$GCC --sysroot=$SYSROOT -fPIC -pie $*\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:628
+msgid ""
+"Make that script executable and put it on your $PATH.  Then compile the "
+"kvtest program as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/fasterthanfs.html:631
+#, no-wrap
+msgid "android-gcc -Os -I. kvtest.c sqlite3.c -o kvtest-android\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:634
+msgid "Next, move the resulting kvtest-android executable to the Android device:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/fasterthanfs.html:637
+#, no-wrap
+msgid "adb push kvtest-android /data/local/tmp\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:640
+msgid ""
+"Finally use \"adb shell\" to get a shell prompt on the Android device, cd "
+"into the /data/local/tmp directory, and begin running the tests as with any "
+"other unix host."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/fasterthanfs.html:643
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/fasterthanfs.in?m=8db5c86b5b\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

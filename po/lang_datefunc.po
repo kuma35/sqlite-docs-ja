@@ -1,0 +1,1037 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_datefunc.html:6 sedout/lang_datefunc.html:121
+msgid "Date And Time Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_datefunc.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_datefunc.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_datefunc.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_datefunc.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_datefunc.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_datefunc.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_datefunc.html:22 sedout/lang_datefunc.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_datefunc.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_datefunc.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_datefunc.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_datefunc.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_datefunc.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_datefunc.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_datefunc.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_datefunc.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_datefunc.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_datefunc.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_datefunc.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_datefunc.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_datefunc.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_datefunc.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_datefunc.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_datefunc.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_datefunc.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_datefunc.html:129
+msgid "<a href=\"#time_values\">2. Time Values</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_datefunc.html:130
+msgid "<a href=\"#modifiers\">3. Modifiers</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_datefunc.html:131
+msgid "<a href=\"#examples\">4. Examples</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_datefunc.html:132
+msgid "<a href=\"#caveats_and_bugs\">5. Caveats And Bugs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_datefunc.html:136
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_datefunc.html:153
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_datefunc.html:156
+msgid "SQLite supports six date and time functions as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_datefunc.html:161
+msgid "<b>date(</b><i>time-value, modifier, modifier, ...</i><b>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_datefunc.html:162
+msgid "<b>time(</b><i>time-value, modifier, modifier, ...</i><b>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_datefunc.html:163
+msgid "<b>datetime(</b><i>time-value, modifier, modifier, ...</i><b>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_datefunc.html:164
+msgid "<b>julianday(</b><i>time-value, modifier, modifier, ...</i><b>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_datefunc.html:165
+msgid "<b>unixepoch(</b><i>time-value, modifier, modifier, ...</i><b>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_datefunc.html:166
+msgid "<b>strftime(</b><i>format, time-value, modifier, modifier, ...</i><b>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_datefunc.html:170
+msgid ""
+"All six date and time functions take an optional time value as an argument, "
+"followed by zero or more modifiers.  The strftime() function also takes a "
+"format string as its first argument."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_datefunc.html:176
+msgid "Date and time values can be stored as"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/lang_datefunc.html:178
+msgid ""
+"text in a subset of the <a "
+"href=\"http://en.wikipedia.org/wiki/ISO_8601\">ISO-8601</a> format,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/lang_datefunc.html:179
+msgid ""
+"numbers representing the <a "
+"href=\"http://en.wikipedia.org/wiki/Julian_day\">Julian day</a>, or"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/lang_datefunc.html:180
+msgid ""
+"numbers representing the number of seconds since (or before) 1970-01-01 "
+"00:00:00 UTC (the unix timestamp)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:185
+msgid ""
+"All of the date time functions access time-values in any of the above time "
+"formats."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:188
+msgid "The date() function returns the date as text in this format: YYYY-MM-DD."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:191
+msgid "The time() function returns the time as text in this format: HH:MM:SS."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:194
+msgid ""
+"The datetime() function returns the date and time as text in their same "
+"formats: YYYY-MM-DD HH:MM:SS."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:197
+msgid ""
+"The julianday() function returns the <a "
+"href=\"http://en.wikipedia.org/wiki/Julian_day\">Julian day</a> - the "
+"fractional number of days since noon in Greenwich on November 24, 4714 B.C.  "
+"(<a "
+"href=\"http://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar\">Proleptic "
+"Gregorian calendar</a>).  <a name=\"uepch\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:205
+msgid ""
+"The unixepoch() function returns a unix timestamp - the number of seconds "
+"since 1970-01-01 00:00:00 UTC.  The unixepoch() always returns an integer, "
+"even if the input time-value has millisecond precision."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:210
+msgid ""
+"The strftime() routine returns the date formatted according to the format "
+"string specified as the first argument.  The format string supports the most "
+"common substitutions found in the <a "
+"href=\"http://opengroup.org/onlinepubs/007908799/xsh/strftime.html\">strftime() "
+"function</a> from the standard C library plus two new substitutions, %f and "
+"%J.  The following is a complete list of valid strftime() substitutions:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:222
+msgid "%d"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:222
+msgid "day of month: 00"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:223
+msgid "%f"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:223
+msgid "fractional seconds: SS.SSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:224
+msgid "%H"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:224
+msgid "hour: 00-24"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:225
+msgid "%j"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:225
+msgid "day of year: 001-366"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:226
+msgid "%J"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:226
+msgid "Julian day number (fractional)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:227
+msgid "%m"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:227
+msgid "month: 01-12"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:228
+msgid "%M"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:228
+msgid "minute: 00-59"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:229
+msgid "%s"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:229
+msgid "seconds since 1970-01-01"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:230
+msgid "%S"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:230
+msgid "seconds: 00-59"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:231
+msgid "%w"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:231
+msgid "day of week 0-6 with Sunday==0"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:232
+msgid "%W"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:232
+msgid "week of year: 00-53"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:233
+msgid "%Y"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:233
+msgid "year: 0000-9999"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:234
+msgid "%%"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:234
+msgid "%"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:239
+msgid "All other date and time functions can be expressed in terms of strftime():"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:245
+msgid "<b>Function</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:245
+msgid "<b>Equivalent (or nearly) strftime()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:246
+msgid "date(...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:246
+msgid "strftime('%Y-%m-%d', ...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:247
+msgid "time(...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:247
+msgid "strftime('%H:%M:%S', ...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:248
+msgid "datetime(...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:248
+msgid "strftime('%Y-%m-%d %H:%M:%S', ...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:249
+msgid "julianday(...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td><nobr>
+#: sedout/lang_datefunc.html:249
+msgid "strftime('%J', ...) -- (numeric return)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_datefunc.html:250
+msgid "unixepoch(...)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td><nobr>
+#: sedout/lang_datefunc.html:250
+msgid "strftime('%s', ...) -- (numeric return)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:255
+msgid ""
+"The date(), time(), and datetime() functions all return text, and so their "
+"strftime() equivalents are exact.  However, the julianday()  and unixepoch() "
+"functions return numeric values.  Their strftime() equivalents return a "
+"string that is the text representation of the corresponding number."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:262
+msgid ""
+"The main reasons for providing functions other than strftime() are for "
+"convenience and for efficiency. The julianday() and unixepoch()  functions "
+"return real and integer values respectively, and do not incur the format "
+"conversion costs or inexactitude resulting from use of the '%J' or '%s' "
+"format specifiers with the strftime() function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/lang_datefunc.html:269
+msgid "<span>2. </span>Time Values"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:271
+msgid ""
+"A time value can be in any of the following formats shown below.  The value "
+"is usually a string, though it can be an integer or floating point number in "
+"the case of format 12."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:276
+msgid "<i>YYYY-MM-DD</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:277
+msgid "<i>YYYY-MM-DD HH:MM</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:278
+msgid "<i>YYYY-MM-DD HH:MM:SS</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:279
+msgid "<i>YYYY-MM-DD HH:MM:SS.SSS</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:280
+msgid "<i>YYYY-MM-DD</i><b>T</b><i>HH:MM</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:281
+msgid "<i>YYYY-MM-DD</i><b>T</b><i>HH:MM:SS</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:282
+msgid "<i>YYYY-MM-DD</i><b>T</b><i>HH:MM:SS.SSS</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:283
+msgid "<i>HH:MM</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:284
+msgid "<i>HH:MM:SS</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:285
+msgid "<i>HH:MM:SS.SSS</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:286
+msgid "<b>now</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:287
+msgid "<i>DDDDDDDDDD</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:291
+msgid ""
+"In formats 5 through 7, the \"T\" is a literal character separating the date "
+"and the time, as required by <a "
+"href=\"http://www.w3c.org/TR/NOTE-datetime\">ISO-8601</a>.  Formats 8 "
+"through 10 that specify only a time assume a date of 2000-01-01. Format 11, "
+"the string 'now', is converted into the current date and time as obtained "
+"from the xCurrentTime method of the <a "
+"href=\"c3ref/vfs.html\">sqlite3_vfs</a> object in use.  The 'now' argument "
+"to date and time functions always returns exactly the same value for "
+"multiple invocations within the same <a "
+"href=\"c3ref/step.html\">sqlite3_step()</a> call.  <a "
+"href=\"http://en.wikipedia.org/wiki/Coordinated_Universal_Time\">Universal "
+"Coordinated Time (UTC)</a> is used.  Format 12 is the <a "
+"href=\"http://en.wikipedia.org/wiki/Julian_day\">Julian day number</a> "
+"expressed as an integer or floating point value.  Format 12 might also be "
+"interpreted as a unix timestamp if it is immediately followed either the "
+"'auto' or 'unixepoch' modifier."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:309
+msgid ""
+"Formats 2 through 10 may be optionally followed by a timezone indicator of "
+"the form \"<i>&#91;+-&#93;HH:MM</i>\" or just \"<i>Z</i>\".  The date and "
+"time functions use UTC or \"zulu\" time internally, and so the \"Z\" suffix "
+"is a no-op.  Any non-zero \"HH:MM\" suffix is subtracted from the indicated "
+"date and time in order to compute zulu time.  For example, all of the "
+"following time values are equivalent:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:317
+msgid "2013-10-07 08:23:19.120"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><br>
+#: sedout/lang_datefunc.html:318
+msgid "2013-10-07T08:23:19.120Z"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><br><br>
+#: sedout/lang_datefunc.html:319
+msgid "2013-10-07 04:23:19.120-04:00"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><br><br><br>
+#: sedout/lang_datefunc.html:320
+msgid "2456572.84952685"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:324
+msgid ""
+"In formats 4, 7, and 10, the fractional seconds value SS.SSS can have one or "
+"more digits following the decimal point.  Exactly three digits are shown in "
+"the examples because only the first three digits are significant to the "
+"result, but the input string can have fewer or more than three digits and "
+"the date/time functions will still operate correctly.  Similarly, format 12 "
+"is shown with 10 significant digits, but the date/time functions will really "
+"accept as many or as few digits as are necessary to represent the Julian day "
+"number."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:335
+msgid ""
+"The time-value (and all modifiers) may be omitted, in which case a time "
+"value of 'now' is assumed.  <a name=\"dtmods\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_datefunc.html:340
+msgid "<span>3. </span>Modifiers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:342
+msgid ""
+"The time value can be followed by zero or more modifiers that alter date "
+"and/or time. Each modifier is a transformation that is applied to the time "
+"value to its left.  Modifiers are applied from left to right; order is "
+"important.  The available modifiers are as follows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:349
+msgid "NNN days"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:350
+msgid "NNN hours"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:351
+msgid "NNN minutes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:352
+msgid "NNN.NNNN seconds"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:353
+msgid "NNN months"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:354
+msgid "NNN years"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:355
+msgid "start of month"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:356
+msgid "start of year"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:357
+msgid "start of day"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:358
+msgid "weekday N"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:359
+msgid "unixepoch"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:360
+msgid "julianday"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:361
+msgid "auto"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:362
+msgid "localtime"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_datefunc.html:363
+msgid "utc"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:366
+msgid ""
+"The first six modifiers (1 through 6)  simply add the specified amount of "
+"time to the date and time specified by the arguments to the left.  The 's' "
+"character at the end of the modifier names is optional.  Note that "
+"\"&plusmn;NNN months\" works by rendering the original date into the "
+"YYYY-MM-DD format, adding the &plusmn;NNN to the MM month value, then "
+"normalizing the result.  Thus, for example, the date 2001-03-31 modified by "
+"'+1 month' initially yields 2001-04-31, but April only has 30 days so the "
+"date is normalized to 2001-05-01.  A similar effect occurs when the original "
+"date is February 29 of a leapyear and the modifier is &plusmn;N years where "
+"N is not a multiple of four."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:378
+msgid ""
+"The \"start of\" modifiers (7 through 9) shift the date backwards to the "
+"beginning of the subject month, year or day."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:381
+msgid ""
+"The \"weekday\" modifier advances the date forward, if necessary, to the "
+"next date where the weekday number is N. Sunday is 0, Monday is 1, and so "
+"forth.  If the date is already on the desired weekday, the \"weekday\" "
+"modifier leaves the date unchanged."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:387
+msgid ""
+"The \"unixepoch\" modifier (11) only works if it immediately follows a time "
+"value in the DDDDDDDDDD format.  This modifier causes the DDDDDDDDDD to be "
+"interpreted not as a Julian day number as it normally would be, but as <a "
+"href=\"http://en.wikipedia.org/wiki/Unix_time\">Unix Time</a> - the number "
+"of seconds since 1970.  If the \"unixepoch\" modifier does not follow a time "
+"value of the form DDDDDDDDDD which expresses the number of seconds since "
+"1970 or if other modifiers separate the \"unixepoch\" modifier from prior "
+"DDDDDDDDDD then the behavior is undefined.  For SQLite versions before "
+"3.16.0 (2017-01-02), the \"unixepoch\" modifier only works for dates between "
+"0000-01-01 00:00:00 and 5352-11-01 10:52:47 (unix times of -62167219200 "
+"through 106751991167)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_datefunc.html:402
+msgid "<a name=\"jdmod\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:404
+msgid ""
+"The \"julianday\" modifier must immediately follow the initial time-value "
+"which must be of the form DDDDDDDDD.  Any other use of the 'julianday' "
+"modifier is an error and causes the function to return NULL.  The "
+"'julianday' modifier forces the time-value number to be interpreted as a "
+"julian-day number.  As this is the default behavior, the 'julianday' "
+"modifier is scarcely more than a no-op.  The only difference is that adding "
+"'julianday' forces the DDDDDDDDD time-value format, and causes a NULL to be "
+"returned if any other time-value format is used.  <a name=\"automod\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:415
+msgid ""
+"The \"auto\" modifier must immediately follow the initial time-value.  If "
+"the time-value is numeric (the DDDDDDDDDD format) then the 'auto' modifier "
+"causes the time-value to interpreted as either a julian day number or a unix "
+"timestamp, depending on its magnitude.  If the value is between 0.0 and "
+"5373484.499999, then it is interpreted as a julian day number (corresponding "
+"to dates between -4713-11-24 12:00:00 and 9999-12-31 23:59:59, inclusive).  "
+"For numeric values outside of the range of valid julian day numbers, but "
+"within the range of -210866760000 to 253402300799, the 'auto' modifier "
+"causes the value to be interpreted as a unix timestamp.  Other numeric "
+"values are out of range and cause a NULL return.  The 'auto' modifier is a "
+"no-op for text time-values."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:428
+msgid ""
+"The 'auto' modifier can be used to work with date/time values even in cases "
+"where it is not known if the julian day number or unix timestamp formats are "
+"in use.  The 'auto' modifier will automatically select the appropriate "
+"format.  However, there is a region of ambiguity.  Unix timestamps for the "
+"first 63 days of 1970 will be interpreted as julian day numbers.  The 'auto' "
+"modifier is very useful when the dataset is guaranteed to not contain any "
+"dates within that region, but should be avoided for applications that might "
+"make use of dates in the opening months of 1970.  <a name=\"localtime\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:440
+msgid ""
+"The \"localtime\" modifier (14) assumes the time value to its left is in "
+"Universal Coordinated Time (UTC) and adjusts that time value so that it is "
+"in localtime.  If \"localtime\" follows a time that is not UTC, then the "
+"behavior is undefined.  The \"utc\" modifier is the opposite of "
+"\"localtime\".  \"utc\" assumes that the time value to its left is in the "
+"local timezone and adjusts that time value to be in UTC.  If the time to the "
+"left is not in localtime, then the result of \"utc\" is undefined."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_datefunc.html:450
+msgid "<span>4. </span>Examples"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:452
+msgid "Compute the current date."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:454
+msgid "SELECT date();"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:456
+msgid "Compute the last day of the current month."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:458
+msgid "SELECT date('now','start of month','+1 month','-1 day');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:461
+msgid "Compute the date and time given a unix timestamp 1092941466."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:464
+msgid "SELECT datetime(1092941466, 'unixepoch');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><br>
+#: sedout/lang_datefunc.html:465
+msgid "SELECT datetime(1092941466, 'auto'); -- Does not work for early 1970!"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:468
+msgid ""
+"Compute the date and time given a unix timestamp 1092941466, and compensate "
+"for your local timezone."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:472
+msgid "SELECT datetime(1092941466, 'unixepoch', 'localtime');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:475
+msgid "Compute the current unix timestamp."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:478
+msgid "SELECT unixepoch();"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><br>
+#: sedout/lang_datefunc.html:479
+msgid "SELECT strftime('%s');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:482
+msgid ""
+"Compute the number of days since the signing of the US Declaration of "
+"Independence."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:486
+msgid "SELECT julianday('now') - julianday('1776-07-04');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:489
+msgid "Compute the number of seconds since a particular moment in 2004:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:492
+msgid "SELECT unixepoch() - unixepoch('2004-01-01 02:34:56');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:496
+msgid "Compute the date of the first Tuesday in October for the current year."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:501
+msgid "SELECT date('now','start of year','+9 months','weekday 2');"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:504
+msgid "Compute the time since the unix epoch in seconds with millisecond precision:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_datefunc.html:508
+msgid "SELECT (julianday('now') - 2440587.5)*86400.0;"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_datefunc.html:511
+msgid "<span>5. </span>Caveats And Bugs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:513
+msgid ""
+"The computation of local time depends heavily on the whim of politicians and "
+"is thus difficult to get correct for all locales. In this implementation, "
+"the standard C library function localtime_r() is used to assist in the "
+"calculation of local time.  The localtime_r() C function normally only works "
+"for years between 1970 and 2037. For dates outside this range, SQLite "
+"attempts to map the year into an equivalent year within this range, do the "
+"calculation, then map the year back."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:523
+msgid ""
+"These functions only work for dates between 0000-01-01 00:00:00 and "
+"9999-12-31 23:59:59 (julian day numbers 1721059.5 through 5373484.5).  For "
+"dates outside that range, the results of these functions are undefined."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:528
+msgid ""
+"Non-Vista Windows platforms only support one set of DST rules.  Vista only "
+"supports two. Therefore, on these platforms, historical DST calculations "
+"will be incorrect.  For example, in the US, in 2007 the DST rules changed.  "
+"Non-Vista Windows platforms apply the new 2007 DST rules to all previous "
+"years as well. Vista does somewhat better getting results correct back to "
+"1986, when the rules were also changed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_datefunc.html:536
+msgid ""
+"All internal computations assume the <a "
+"href=\"http://en.wikipedia.org/wiki/Gregorian_calendar\">Gregorian "
+"calendar</a> system.  They also assume that every day is exactly 86400 "
+"seconds in duration; no leap seconds are incorporated."
+msgstr ""

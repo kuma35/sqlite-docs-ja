@@ -1,0 +1,1475 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 10:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/partialindex.html:6 sedout/partialindex.html:121
+msgid "Partial Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/partialindex.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/partialindex.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/partialindex.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/partialindex.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/partialindex.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/partialindex.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/partialindex.html:22 sedout/partialindex.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/partialindex.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/partialindex.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/partialindex.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/partialindex.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/partialindex.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/partialindex.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/partialindex.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/partialindex.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/partialindex.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/partialindex.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/partialindex.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/partialindex.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/partialindex.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/partialindex.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/partialindex.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/partialindex.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/partialindex.html:128
+msgid "<a href=\"#introduction\">1. Introduction</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/partialindex.html:129
+msgid "<a href=\"#creating_partial_indexes\">2. Creating Partial Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/partialindex.html:130
+msgid "<a href=\"#unique_partial_indexes\">2.1. Unique Partial Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/partialindex.html:131
+msgid ""
+"<a href=\"#queries_using_partial_indexes\">3. Queries Using Partial "
+"Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/partialindex.html:132
+msgid "<a href=\"#supported_versions\">4. Supported Versions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/partialindex.html:136
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/partialindex.html:153
+msgid "<span>1. </span>Introduction"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:156
+msgid "A partial index is an index over a subset of the rows of a table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:160
+msgid ""
+"In ordinary indexes, there is exactly one entry in the index for every row "
+"in the table.  In partial indexes, only some subset of the rows in the table "
+"have corresponding index entries.  For example, a partial index might omit "
+"entries for which the column being indexed is NULL.  When used judiciously, "
+"partial indexes can result in smaller database files and improvements in "
+"both query and write performance."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/partialindex.html:168
+msgid "<span>2. </span>Creating Partial Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:171
+msgid ""
+"Create a partial index by adding a WHERE clause to the end of an ordinary <a "
+"href=\"lang_createindex.html\">CREATE INDEX</a> statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:175
+msgid ""
+"<b><a href=\"syntax/create-index-stmt.html\">create-index-stmt:</a></b> "
+"<button id='x0e673a8f' "
+"onclick='hideorshow(\"x0e673a8f\",\"x0411d097\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/partialindex.html:183
+msgid "CREATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/partialindex.html:185
+msgid "UNIQUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/partialindex.html:187
+msgid "INDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/partialindex.html:198
+msgid "IF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:202 sedout/partialindex.html:471
+#: sedout/partialindex.html:540 sedout/partialindex.html:565
+#: sedout/partialindex.html:592 sedout/partialindex.html:620
+#: sedout/partialindex.html:698 sedout/partialindex.html:1608
+#: sedout/partialindex.html:1994
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:206 sedout/partialindex.html:702
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:215 sedout/partialindex.html:290
+#: sedout/partialindex.html:655 sedout/partialindex.html:1961
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:219 sedout/partialindex.html:294
+#: sedout/partialindex.html:302 sedout/partialindex.html:659
+#: sedout/partialindex.html:1942 sedout/partialindex.html:1965
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:223 sedout/partialindex.html:1992
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:227 sedout/partialindex.html:1757
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:231 sedout/partialindex.html:298
+#: sedout/partialindex.html:680 sedout/partialindex.html:1586
+#: sedout/partialindex.html:1938 sedout/partialindex.html:1969
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:235 sedout/partialindex.html:349
+#: sedout/partialindex.html:405 sedout/partialindex.html:429
+#: sedout/partialindex.html:628 sedout/partialindex.html:667
+#: sedout/partialindex.html:706 sedout/partialindex.html:789
+#: sedout/partialindex.html:895 sedout/partialindex.html:1255
+#: sedout/partialindex.html:1478 sedout/partialindex.html:1592
+#: sedout/partialindex.html:1613 sedout/partialindex.html:1735
+#: sedout/partialindex.html:2012 sedout/partialindex.html:2053
+#: sedout/partialindex.html:2071 sedout/partialindex.html:2106
+#: sedout/partialindex.html:2403 sedout/partialindex.html:2426
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/partialindex.html:239
+msgid "indexed-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:243 sedout/partialindex.html:361
+#: sedout/partialindex.html:413 sedout/partialindex.html:445
+#: sedout/partialindex.html:636 sedout/partialindex.html:675
+#: sedout/partialindex.html:714 sedout/partialindex.html:801
+#: sedout/partialindex.html:951 sedout/partialindex.html:1271
+#: sedout/partialindex.html:1486 sedout/partialindex.html:1602
+#: sedout/partialindex.html:1621 sedout/partialindex.html:1743
+#: sedout/partialindex.html:2020 sedout/partialindex.html:2061
+#: sedout/partialindex.html:2079 sedout/partialindex.html:2162
+#: sedout/partialindex.html:2419 sedout/partialindex.html:2434
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:245 sedout/partialindex.html:384
+#: sedout/partialindex.html:420 sedout/partialindex.html:650
+#: sedout/partialindex.html:687 sedout/partialindex.html:911
+#: sedout/partialindex.html:935 sedout/partialindex.html:1263
+#: sedout/partialindex.html:1323 sedout/partialindex.html:1347
+#: sedout/partialindex.html:1370 sedout/partialindex.html:1421
+#: sedout/partialindex.html:1454 sedout/partialindex.html:1491
+#: sedout/partialindex.html:1493 sedout/partialindex.html:1527
+#: sedout/partialindex.html:1553 sedout/partialindex.html:1626
+#: sedout/partialindex.html:1750 sedout/partialindex.html:1800
+#: sedout/partialindex.html:2024 sedout/partialindex.html:2086
+#: sedout/partialindex.html:2122 sedout/partialindex.html:2146
+#: sedout/partialindex.html:2411
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:253 sedout/partialindex.html:793
+#: sedout/partialindex.html:1388
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:257 sedout/partialindex.html:323
+#: sedout/partialindex.html:330 sedout/partialindex.html:338
+#: sedout/partialindex.html:357 sedout/partialindex.html:409
+#: sedout/partialindex.html:433 sedout/partialindex.html:452
+#: sedout/partialindex.html:467 sedout/partialindex.html:483
+#: sedout/partialindex.html:485 sedout/partialindex.html:493
+#: sedout/partialindex.html:527 sedout/partialindex.html:557
+#: sedout/partialindex.html:579 sedout/partialindex.html:588
+#: sedout/partialindex.html:600 sedout/partialindex.html:608
+#: sedout/partialindex.html:616 sedout/partialindex.html:645
+#: sedout/partialindex.html:671 sedout/partialindex.html:729
+#: sedout/partialindex.html:737 sedout/partialindex.html:745
+#: sedout/partialindex.html:753 sedout/partialindex.html:797
+#: sedout/partialindex.html:909 sedout/partialindex.html:1032
+#: sedout/partialindex.html:1054 sedout/partialindex.html:1076
+#: sedout/partialindex.html:1089 sedout/partialindex.html:1109
+#: sedout/partialindex.html:1189 sedout/partialindex.html:1392
+#: sedout/partialindex.html:1411 sedout/partialindex.html:1419
+#: sedout/partialindex.html:1482 sedout/partialindex.html:1521
+#: sedout/partialindex.html:1549 sedout/partialindex.html:1557
+#: sedout/partialindex.html:1761 sedout/partialindex.html:1847
+#: sedout/partialindex.html:1908 sedout/partialindex.html:2016
+#: sedout/partialindex.html:2120 sedout/partialindex.html:2240
+#: sedout/partialindex.html:2262 sedout/partialindex.html:2284
+#: sedout/partialindex.html:2297 sedout/partialindex.html:2317
+#: sedout/partialindex.html:2506
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/partialindex.html:270
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xfe09f3f7' "
+"onclick='hideorshow(\"xfe09f3f7\",\"xd404748b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:278
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:283
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:306 sedout/partialindex.html:1598
+#: sedout/partialindex.html:1739 sedout/partialindex.html:2483
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:319
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:334
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:345
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:353 sedout/partialindex.html:571
+#: sedout/partialindex.html:1341
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:365
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:371
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:393 sedout/partialindex.html:1931
+#: sedout/partialindex.html:1946
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:425
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:437 sedout/partialindex.html:1448
+#: sedout/partialindex.html:1606 sedout/partialindex.html:1912
+#: sedout/partialindex.html:1973 sedout/partialindex.html:2037
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:441
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:456 sedout/partialindex.html:1193
+#: sedout/partialindex.html:1851 sedout/partialindex.html:2487
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:460 sedout/partialindex.html:1197
+#: sedout/partialindex.html:1855 sedout/partialindex.html:2491
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:475
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:477
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:479
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:481
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:489
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:531
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:538
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:544 sedout/partialindex.html:842
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:561
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:575 sedout/partialindex.html:1362
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:596 sedout/partialindex.html:984
+#: sedout/partialindex.html:2192
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:604 sedout/partialindex.html:996
+#: sedout/partialindex.html:2204
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:624
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:632 sedout/partialindex.html:710
+#: sedout/partialindex.html:1617 sedout/partialindex.html:2057
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:663
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:725
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:733
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:741
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:749
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:757
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:769
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/partialindex.html:777
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x3a1da0cd' "
+"onclick='hideorshow(\"x3a1da0cd\",\"xdf32691d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:785
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/partialindex.html:808
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x81bc41cb' "
+"onclick='hideorshow(\"x81bc41cb\",\"xb8f1f387\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:816
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:823 sedout/partialindex.html:2458
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:828
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:835
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:849
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:856
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:863
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:870
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/partialindex.html:879
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x7e898534' "
+"onclick='hideorshow(\"x7e898534\",\"x2900a610\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:887
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:891 sedout/partialindex.html:1444
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:899 sedout/partialindex.html:2110
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:901 sedout/partialindex.html:2112
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:905 sedout/partialindex.html:929
+#: sedout/partialindex.html:1407 sedout/partialindex.html:1515
+#: sedout/partialindex.html:1988 sedout/partialindex.html:2116
+#: sedout/partialindex.html:2140
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:925 sedout/partialindex.html:1511
+#: sedout/partialindex.html:2136
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:933 sedout/partialindex.html:1525
+#: sedout/partialindex.html:2144
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:947 sedout/partialindex.html:2158
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:971
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x781ba2a4' "
+"onclick='hideorshow(\"x781ba2a4\",\"x2e5abe94\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:979 sedout/partialindex.html:2187
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:988 sedout/partialindex.html:1000
+#: sedout/partialindex.html:1023 sedout/partialindex.html:2196
+#: sedout/partialindex.html:2208 sedout/partialindex.html:2231
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:992 sedout/partialindex.html:1027
+#: sedout/partialindex.html:1036 sedout/partialindex.html:1058
+#: sedout/partialindex.html:1093 sedout/partialindex.html:2200
+#: sedout/partialindex.html:2235 sedout/partialindex.html:2244
+#: sedout/partialindex.html:2266 sedout/partialindex.html:2301
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1004 sedout/partialindex.html:1080
+#: sedout/partialindex.html:1113 sedout/partialindex.html:2212
+#: sedout/partialindex.html:2288 sedout/partialindex.html:2321
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1009 sedout/partialindex.html:2217
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1016 sedout/partialindex.html:2224
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1043 sedout/partialindex.html:1065
+#: sedout/partialindex.html:1098 sedout/partialindex.html:1124
+#: sedout/partialindex.html:2251 sedout/partialindex.html:2273
+#: sedout/partialindex.html:2306 sedout/partialindex.html:2332
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1047 sedout/partialindex.html:1069
+#: sedout/partialindex.html:1102 sedout/partialindex.html:1128
+#: sedout/partialindex.html:2255 sedout/partialindex.html:2277
+#: sedout/partialindex.html:2310 sedout/partialindex.html:2336
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1120 sedout/partialindex.html:1133
+#: sedout/partialindex.html:1142 sedout/partialindex.html:1151
+#: sedout/partialindex.html:2328 sedout/partialindex.html:2341
+#: sedout/partialindex.html:2350 sedout/partialindex.html:2359
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1137 sedout/partialindex.html:1403
+#: sedout/partialindex.html:2345
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1146 sedout/partialindex.html:2354
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1155 sedout/partialindex.html:2363
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1159 sedout/partialindex.html:2367
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1181
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xd50df63c' "
+"onclick='hideorshow(\"xd50df63c\",\"xced2d847\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1206 sedout/partialindex.html:1864
+#: sedout/partialindex.html:2497
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1210 sedout/partialindex.html:1868
+#: sedout/partialindex.html:2516
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1220 sedout/partialindex.html:1228
+#: sedout/partialindex.html:1878 sedout/partialindex.html:1886
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1224 sedout/partialindex.html:1882
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1232 sedout/partialindex.html:1890
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/partialindex.html:1243
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='xf1020491' "
+"onclick='hideorshow(\"xf1020491\",\"xbabf6575\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1251
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1259
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1267
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1278
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1283
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1288
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/partialindex.html:1299
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xc2e9080f' "
+"onclick='hideorshow(\"xc2e9080f\",\"x4f81d2a8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1308
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1310
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1316
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1337
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1345
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1355 sedout/partialindex.html:1669
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1366 sedout/partialindex.html:1699
+#: sedout/partialindex.html:1707 sedout/partialindex.html:2075
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1368 sedout/partialindex.html:2093
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1415
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1440
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1452
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1474
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1503
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1509
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1517
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1545
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1578
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x77ca29b0' "
+"onclick='hideorshow(\"x77ca29b0\",\"x86bce0fe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1610
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1649
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x614bf0e4' "
+"onclick='hideorshow(\"x614bf0e4\",\"x19fe07e3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1659 sedout/partialindex.html:1661
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1663
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1665
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1691
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xed020248' "
+"onclick='hideorshow(\"xed020248\",\"x8d186611\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1703
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1711
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/partialindex.html:1723
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x6044a522' "
+"onclick='hideorshow(\"x6044a522\",\"xba1eac29\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1731
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/partialindex.html:1771
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x1c466371' "
+"onclick='hideorshow(\"x1c466371\",\"x61037950\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1779
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1785
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1789
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1795
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1813
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1819
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1824
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1831
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1839
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x3e63c270' "
+"onclick='hideorshow(\"x3e63c270\",\"x9cd71951\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1900
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x14e27900' "
+"onclick='hideorshow(\"x14e27900\",\"x0cbe210c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1916
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:1953
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xc5f45ea3' "
+"onclick='hideorshow(\"xc5f45ea3\",\"x5b638037\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1977 sedout/partialindex.html:2041
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:1984 sedout/partialindex.html:1998
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:2008
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:2098
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xd5843fee' "
+"onclick='hideorshow(\"xd5843fee\",\"x831507a2\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/partialindex.html:2179
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xb502127b' "
+"onclick='hideorshow(\"xb502127b\",\"x42ffd7c5\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/partialindex.html:2391
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='xac75a194' "
+"onclick='hideorshow(\"xac75a194\",\"xa479813b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:2399
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:2407 sedout/partialindex.html:2415
+#: sedout/partialindex.html:2430
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/partialindex.html:2446
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x5cb10e73' "
+"onclick='hideorshow(\"x5cb10e73\",\"x7d2e41eb\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:2454
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/partialindex.html:2465
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/partialindex.html:2475
+msgid ""
+"<b><a href=\"syntax/indexed-column.html\">indexed-column:</a></b> <button "
+"id='xee0d67b2' "
+"onclick='hideorshow(\"xee0d67b2\",\"x23e5ea96\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2529
+msgid ""
+"Any index that includes the WHERE clause at the end is considered to be a "
+"partial index.  Indexes that omit the WHERE clause (or indexes that are "
+"created by UNIQUE or PRIMARY KEY constraints inside of CREATE TABLE "
+"statements) are ordinary full indexes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2536
+msgid ""
+"The expression following the WHERE clause may contain operators, literal "
+"values, and names of columns in the table being indexed.  The WHERE clause "
+"may <em>not</em> contain subqueries, references to other tables, <a "
+"href=\"deterministic.html\">non-deterministic functions</a>, or <a "
+"href=\"lang_expr.html#varparam\">bound parameters</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2542
+msgid ""
+"Only rows of the table for which the WHERE clause evaluates to true are "
+"included in the index.  If the WHERE clause expression evaluates to NULL or "
+"to false for some rows of the table, then those rows are omitted from the "
+"index."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2549
+msgid ""
+"The columns referenced in the WHERE clause of a partial index can be any of "
+"the columns in the table, not just columns that happen to be indexed.  "
+"However, it is very common for the WHERE clause expression of a partial "
+"index to be a simple expression on the column being indexed.  The following "
+"is a typical example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/partialindex.html:2555
+#, no-wrap
+msgid ""
+"CREATE INDEX po_parent ON purchaseorder(parent_po) WHERE parent_po IS NOT "
+"NULL;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2558
+msgid ""
+"In the example above, if most purchase orders do not have a \"parent\" "
+"purchase order, then most parent_po values will be NULL.  That means only a "
+"small subset of the rows in the purchaseorder table will be indexed.  Hence "
+"the index will take up much less space.  And changes to the original "
+"purchaseorder table will run faster since the po_parent index only needs to "
+"be updated for those exceptional rows where parent_po is not NULL.  But the "
+"index is still useful for querying.  In particular, if one wants to know all "
+"\"children\" of a particular purchase order \"?1\", the query would be:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/partialindex.html:2568
+#, no-wrap
+msgid "SELECT po_num FROM purchaseorder WHERE parent_po=?1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2571
+msgid ""
+"The query above will use the po_parent index to help find the answer, since "
+"the po_parent index contains entries for all rows of interest.  Note that "
+"since po_parent is smaller than a full index, the query will likely run "
+"faster too."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/partialindex.html:2576
+msgid "<span>2.1. </span>Unique Partial Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2578
+msgid ""
+"A partial index definition may include the UNIQUE keyword.  If it does, then "
+"SQLite requires every entry <em>in the index</em> to be unique.  This "
+"provides a mechanism for enforcing uniqueness across some subset of the rows "
+"in a table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2583
+msgid ""
+"For example, suppose you have a database of the members of a large "
+"organization where each person is assigned to a particular \"team\".  Each "
+"team has a \"leader\" who is also a member of that team.  The table might "
+"look something like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/partialindex.html:2588
+#, no-wrap
+msgid ""
+"CREATE TABLE person(\n"
+"  person_id       INTEGER PRIMARY KEY,\n"
+"  team_id         INTEGER REFERENCES team,\n"
+"  is_team_leader  BOOLEAN,\n"
+"  -- other fields elided\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2596
+msgid ""
+"The team_id field cannot be unique because there are usually multiple people "
+"on the same team.  One cannot make the combination of team_id and "
+"is_team_leader unique since there are usually multiple non-leaders on each "
+"team.  The solution to enforcing one leader per team is to create a unique "
+"index on team_id but restricted to those entries for which is_team_leader is "
+"true:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/partialindex.html:2603
+#, no-wrap
+msgid "CREATE UNIQUE INDEX team_leader ON person(team_id) WHERE is_team_leader;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2606
+msgid ""
+"Coincidentally, that same index is useful for locating the team leader of a "
+"particular team:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/partialindex.html:2609
+#, no-wrap
+msgid "SELECT person_id FROM person WHERE is_team_leader AND team_id=?1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/partialindex.html:2612
+msgid "<span>3. </span>Queries Using Partial Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2614
+msgid ""
+"Let X be the expression in the WHERE clause of a partial index, and let W be "
+"the WHERE clause of a query that uses the table that is indexed.  Then, the "
+"query is permitted to use the partial index if W&#x21d2;X, where the "
+"&#x21d2; operator (usually pronounced \"implies\") is the logic operator "
+"equivalent to \"X or not W\".  Hence, determining whether or not a partial "
+"index is usable in a particular query reduces to proving a theorem in "
+"first-order logic."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/partialindex.html:2624
+msgid ""
+"SQLite does <u>not</u> have a sophisticated theorem prover with which to "
+"determine W&#x21d2;X.  Instead, SQLite uses two simple rules to find the "
+"common cases where W&#x21d2;X is true, and it assumes all the other cases "
+"are false.  The rules used by SQLite are these:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2631
+msgid ""
+"If W is AND-connected terms and X is OR-connected terms and if any term of W "
+"appears as a term of X, then the partial index is usable.  For example, let "
+"the index be"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><div><pre>
+#: sedout/partialindex.html:2636
+#, no-wrap
+msgid "CREATE INDEX ex1 ON tab1(a,b) WHERE a=5 OR b=6;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2638
+msgid "And let the query be:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><div><pre>
+#: sedout/partialindex.html:2639
+#, no-wrap
+msgid "SELECT * FROM tab1 WHERE b=6 AND a=7; <i>-- uses partial index</i>\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2641
+msgid ""
+"Then the index is usable by the query because the \"b=6\" term appears in "
+"both the index definition and in the query.  Remember: terms in the index "
+"should be OR-connected and terms in the query should be AND-connected.  The "
+"terms in W and X must match exactly.  SQLite does not do algebra to try to "
+"get them to look the same.  The term \"b=6\" does not match \"b=3+3\" or "
+"\"b-6=0\" or \"b BETWEEN 6 AND 6\".  \"b=6\" will match to \"6=b\" as long "
+"as \"b=6\" is on the index and \"6=b\" is in the query.  If a term of the "
+"form \"6=b\" appears in the index, it will never match anything."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2652
+msgid ""
+"If a term in X is of the form \"z IS NOT NULL\" and if a term in W is a "
+"comparison operator on \"z\" other than \"IS\", then those terms match.  "
+"Example: Let the index be"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><div><pre>
+#: sedout/partialindex.html:2657
+#, no-wrap
+msgid "CREATE INDEX ex2 ON tab2(b,c) WHERE c IS NOT NULL;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2659
+msgid ""
+"Then any query that uses operators =, &lt;, &gt;, &lt;=, &gt;=, &lt;&gt;, "
+"IN, LIKE, or GLOB on column \"c\" would be usable with the partial index "
+"because those comparison operators are only true if \"c\" is not NULL.  So "
+"the following query could use the partial index:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><div><pre>
+#: sedout/partialindex.html:2664
+#, no-wrap
+msgid ""
+"SELECT * FROM tab2 WHERE b=456 AND c&lt;&gt;0;  <i>-- uses partial "
+"index</i>\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2666
+msgid "But the next query can not use the partial index:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><div><pre>
+#: sedout/partialindex.html:2667
+#, no-wrap
+msgid "SELECT * FROM tab2 WHERE b=456;  <i>-- cannot use partial index</i>\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/partialindex.html:2669
+msgid ""
+"The latter query can not use the partial index because there might be rows "
+"in the table with b=456 and where c is NULL.  But those rows would not be in "
+"the partial index."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/partialindex.html:2674
+msgid ""
+"These two rules describe how the query planner for SQLite works as of this "
+"writing (2013-08-01).  And the rules above will always be honored.  However, "
+"future versions of SQLite might incorporate a better theorem prover that can "
+"find other cases where W&#x21d2;X is true and thus may find more instances "
+"where partial indexes are useful."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/partialindex.html:2680
+msgid "<span>4. </span>Supported Versions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/partialindex.html:2683
+msgid ""
+"Partial indexes have been supported in SQLite since <a "
+"href=\"releaselog/3_8_0.html\">version 3.8.0</a> (2013-08-26)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/partialindex.html:2687
+msgid ""
+"Database files that contain partial indices are not readable or writable by "
+"versions of SQLite prior to 3.8.0.  However, a database file created by "
+"SQLite 3.8.0 is still readable and writable by prior versions as long as its "
+"schema contains no partial indexes.  A database that is unreadable by legacy "
+"versions of SQLite can be made readable simply by running <a "
+"href=\"lang_dropindex.html\">DROP INDEX</a> on the partial indexes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/partialindex.html:2693
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/partialindex.in?m=ffe857a745\">2022-04-18 "
+"02:55:50</a> UTC </i></small>"
+msgstr ""

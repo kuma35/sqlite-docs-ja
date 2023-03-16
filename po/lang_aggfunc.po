@@ -1,0 +1,1317 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_aggfunc.html:6 sedout/lang_aggfunc.html:121
+msgid "Built-in Aggregate Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_aggfunc.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_aggfunc.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_aggfunc.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_aggfunc.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_aggfunc.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:22 sedout/lang_aggfunc.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_aggfunc.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_aggfunc.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_aggfunc.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_aggfunc.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_aggfunc.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_aggfunc.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_aggfunc.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_aggfunc.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_aggfunc.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_aggfunc.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_aggfunc.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_aggfunc.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_aggfunc.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_aggfunc.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_aggfunc.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_aggfunc.html:129
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_aggfunc.html:130
+msgid ""
+"<b><a "
+"href=\"syntax/aggregate-function-invocation.html\">aggregate-function-invocation:</a></b> "
+"<button id='x3ae6d027' "
+"onclick='hideorshow(\"x3ae6d027\",\"xda8d92a2\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:138
+msgid "aggregate-func"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:142 sedout/lang_aggfunc.html:273
+#: sedout/lang_aggfunc.html:329 sedout/lang_aggfunc.html:353
+#: sedout/lang_aggfunc.html:552 sedout/lang_aggfunc.html:591
+#: sedout/lang_aggfunc.html:630 sedout/lang_aggfunc.html:788
+#: sedout/lang_aggfunc.html:1148 sedout/lang_aggfunc.html:1371
+#: sedout/lang_aggfunc.html:1485 sedout/lang_aggfunc.html:1506
+#: sedout/lang_aggfunc.html:1628 sedout/lang_aggfunc.html:1905
+#: sedout/lang_aggfunc.html:1946 sedout/lang_aggfunc.html:1964
+#: sedout/lang_aggfunc.html:1999 sedout/lang_aggfunc.html:2296
+#: sedout/lang_aggfunc.html:2319 sedout/lang_aggfunc.html:2380
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:148 sedout/lang_aggfunc.html:277
+#: sedout/lang_aggfunc.html:495 sedout/lang_aggfunc.html:1234
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:156 sedout/lang_aggfunc.html:247
+#: sedout/lang_aggfunc.html:254 sedout/lang_aggfunc.html:262
+#: sedout/lang_aggfunc.html:281 sedout/lang_aggfunc.html:333
+#: sedout/lang_aggfunc.html:357 sedout/lang_aggfunc.html:376
+#: sedout/lang_aggfunc.html:391 sedout/lang_aggfunc.html:407
+#: sedout/lang_aggfunc.html:409 sedout/lang_aggfunc.html:417
+#: sedout/lang_aggfunc.html:451 sedout/lang_aggfunc.html:481
+#: sedout/lang_aggfunc.html:503 sedout/lang_aggfunc.html:512
+#: sedout/lang_aggfunc.html:524 sedout/lang_aggfunc.html:532
+#: sedout/lang_aggfunc.html:540 sedout/lang_aggfunc.html:569
+#: sedout/lang_aggfunc.html:595 sedout/lang_aggfunc.html:653
+#: sedout/lang_aggfunc.html:661 sedout/lang_aggfunc.html:669
+#: sedout/lang_aggfunc.html:677 sedout/lang_aggfunc.html:802
+#: sedout/lang_aggfunc.html:925 sedout/lang_aggfunc.html:947
+#: sedout/lang_aggfunc.html:969 sedout/lang_aggfunc.html:982
+#: sedout/lang_aggfunc.html:1002 sedout/lang_aggfunc.html:1082
+#: sedout/lang_aggfunc.html:1285 sedout/lang_aggfunc.html:1304
+#: sedout/lang_aggfunc.html:1312 sedout/lang_aggfunc.html:1375
+#: sedout/lang_aggfunc.html:1414 sedout/lang_aggfunc.html:1442
+#: sedout/lang_aggfunc.html:1450 sedout/lang_aggfunc.html:1654
+#: sedout/lang_aggfunc.html:1740 sedout/lang_aggfunc.html:1801
+#: sedout/lang_aggfunc.html:1909 sedout/lang_aggfunc.html:2013
+#: sedout/lang_aggfunc.html:2133 sedout/lang_aggfunc.html:2155
+#: sedout/lang_aggfunc.html:2177 sedout/lang_aggfunc.html:2190
+#: sedout/lang_aggfunc.html:2210 sedout/lang_aggfunc.html:2388
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:160 sedout/lang_aggfunc.html:285
+#: sedout/lang_aggfunc.html:337 sedout/lang_aggfunc.html:369
+#: sedout/lang_aggfunc.html:560 sedout/lang_aggfunc.html:599
+#: sedout/lang_aggfunc.html:638 sedout/lang_aggfunc.html:844
+#: sedout/lang_aggfunc.html:1164 sedout/lang_aggfunc.html:1379
+#: sedout/lang_aggfunc.html:1495 sedout/lang_aggfunc.html:1514
+#: sedout/lang_aggfunc.html:1636 sedout/lang_aggfunc.html:1913
+#: sedout/lang_aggfunc.html:1954 sedout/lang_aggfunc.html:1972
+#: sedout/lang_aggfunc.html:2055 sedout/lang_aggfunc.html:2312
+#: sedout/lang_aggfunc.html:2327 sedout/lang_aggfunc.html:2392
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:164 sedout/lang_aggfunc.html:289
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:177 sedout/lang_aggfunc.html:308
+#: sedout/lang_aggfunc.html:344 sedout/lang_aggfunc.html:574
+#: sedout/lang_aggfunc.html:611 sedout/lang_aggfunc.html:804
+#: sedout/lang_aggfunc.html:828 sedout/lang_aggfunc.html:1156
+#: sedout/lang_aggfunc.html:1216 sedout/lang_aggfunc.html:1240
+#: sedout/lang_aggfunc.html:1263 sedout/lang_aggfunc.html:1314
+#: sedout/lang_aggfunc.html:1347 sedout/lang_aggfunc.html:1384
+#: sedout/lang_aggfunc.html:1386 sedout/lang_aggfunc.html:1420
+#: sedout/lang_aggfunc.html:1446 sedout/lang_aggfunc.html:1519
+#: sedout/lang_aggfunc.html:1643 sedout/lang_aggfunc.html:1693
+#: sedout/lang_aggfunc.html:1917 sedout/lang_aggfunc.html:1979
+#: sedout/lang_aggfunc.html:2015 sedout/lang_aggfunc.html:2039
+#: sedout/lang_aggfunc.html:2304
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:183 sedout/lang_aggfunc.html:317
+#: sedout/lang_aggfunc.html:1824 sedout/lang_aggfunc.html:1839
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_aggfunc.html:194
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xca5ac14b' "
+"onclick='hideorshow(\"xca5ac14b\",\"xe81fa943\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:202
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:207
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:214 sedout/lang_aggfunc.html:579
+#: sedout/lang_aggfunc.html:1854
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:218 sedout/lang_aggfunc.html:226
+#: sedout/lang_aggfunc.html:583 sedout/lang_aggfunc.html:1835
+#: sedout/lang_aggfunc.html:1858
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:222 sedout/lang_aggfunc.html:604
+#: sedout/lang_aggfunc.html:1479 sedout/lang_aggfunc.html:1831
+#: sedout/lang_aggfunc.html:1862
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:230 sedout/lang_aggfunc.html:1491
+#: sedout/lang_aggfunc.html:1632
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:243
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:258
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:269
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:295
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:349
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:361 sedout/lang_aggfunc.html:1341
+#: sedout/lang_aggfunc.html:1499 sedout/lang_aggfunc.html:1805
+#: sedout/lang_aggfunc.html:1866 sedout/lang_aggfunc.html:1930
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:365
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:380 sedout/lang_aggfunc.html:1086
+#: sedout/lang_aggfunc.html:1744
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:384 sedout/lang_aggfunc.html:1090
+#: sedout/lang_aggfunc.html:1748
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:395 sedout/lang_aggfunc.html:464
+#: sedout/lang_aggfunc.html:489 sedout/lang_aggfunc.html:516
+#: sedout/lang_aggfunc.html:544 sedout/lang_aggfunc.html:622
+#: sedout/lang_aggfunc.html:1501 sedout/lang_aggfunc.html:1887
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:399
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:401
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:403
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:405
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:413
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:455
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:462
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:468 sedout/lang_aggfunc.html:735
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:485
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:499 sedout/lang_aggfunc.html:1255
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:520 sedout/lang_aggfunc.html:877
+#: sedout/lang_aggfunc.html:2085
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:528 sedout/lang_aggfunc.html:889
+#: sedout/lang_aggfunc.html:2097
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:548
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:556 sedout/lang_aggfunc.html:634
+#: sedout/lang_aggfunc.html:1510 sedout/lang_aggfunc.html:1950
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:587
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:626
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:649
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:657
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:665
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:673
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:681
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:693
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_aggfunc.html:701
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x1c5f56a1' "
+"onclick='hideorshow(\"x1c5f56a1\",\"x96cefb06\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:709
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:716 sedout/lang_aggfunc.html:2351
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:721
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:728
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:742
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:749
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:756
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:763
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_aggfunc.html:772
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x9ef02ab3' "
+"onclick='hideorshow(\"x9ef02ab3\",\"x57dfaa34\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:780
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:784 sedout/lang_aggfunc.html:1337
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:792 sedout/lang_aggfunc.html:2003
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:794 sedout/lang_aggfunc.html:2005
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:798 sedout/lang_aggfunc.html:822
+#: sedout/lang_aggfunc.html:1300 sedout/lang_aggfunc.html:1408
+#: sedout/lang_aggfunc.html:1881 sedout/lang_aggfunc.html:2009
+#: sedout/lang_aggfunc.html:2033
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:818 sedout/lang_aggfunc.html:1404
+#: sedout/lang_aggfunc.html:2029
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:826 sedout/lang_aggfunc.html:1418
+#: sedout/lang_aggfunc.html:2037
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:840 sedout/lang_aggfunc.html:2051
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:864
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x2a63ed9c' "
+"onclick='hideorshow(\"x2a63ed9c\",\"x4af98f73\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:872 sedout/lang_aggfunc.html:2080
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:881 sedout/lang_aggfunc.html:893
+#: sedout/lang_aggfunc.html:916 sedout/lang_aggfunc.html:2089
+#: sedout/lang_aggfunc.html:2101 sedout/lang_aggfunc.html:2124
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:885 sedout/lang_aggfunc.html:920
+#: sedout/lang_aggfunc.html:929 sedout/lang_aggfunc.html:951
+#: sedout/lang_aggfunc.html:986 sedout/lang_aggfunc.html:2093
+#: sedout/lang_aggfunc.html:2128 sedout/lang_aggfunc.html:2137
+#: sedout/lang_aggfunc.html:2159 sedout/lang_aggfunc.html:2194
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:897 sedout/lang_aggfunc.html:973
+#: sedout/lang_aggfunc.html:1006 sedout/lang_aggfunc.html:2105
+#: sedout/lang_aggfunc.html:2181 sedout/lang_aggfunc.html:2214
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:902 sedout/lang_aggfunc.html:2110
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:909 sedout/lang_aggfunc.html:2117
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:936 sedout/lang_aggfunc.html:958
+#: sedout/lang_aggfunc.html:991 sedout/lang_aggfunc.html:1017
+#: sedout/lang_aggfunc.html:2144 sedout/lang_aggfunc.html:2166
+#: sedout/lang_aggfunc.html:2199 sedout/lang_aggfunc.html:2225
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:940 sedout/lang_aggfunc.html:962
+#: sedout/lang_aggfunc.html:995 sedout/lang_aggfunc.html:1021
+#: sedout/lang_aggfunc.html:2148 sedout/lang_aggfunc.html:2170
+#: sedout/lang_aggfunc.html:2203 sedout/lang_aggfunc.html:2229
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1013 sedout/lang_aggfunc.html:1026
+#: sedout/lang_aggfunc.html:1035 sedout/lang_aggfunc.html:1044
+#: sedout/lang_aggfunc.html:2221 sedout/lang_aggfunc.html:2234
+#: sedout/lang_aggfunc.html:2243 sedout/lang_aggfunc.html:2252
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1030 sedout/lang_aggfunc.html:1296
+#: sedout/lang_aggfunc.html:2238
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1039 sedout/lang_aggfunc.html:2247
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1048 sedout/lang_aggfunc.html:2256
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1052 sedout/lang_aggfunc.html:2260
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1074
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x6f7aef77' "
+"onclick='hideorshow(\"x6f7aef77\",\"x4601b749\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1099 sedout/lang_aggfunc.html:1757
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1103 sedout/lang_aggfunc.html:1761
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1113 sedout/lang_aggfunc.html:1121
+#: sedout/lang_aggfunc.html:1771 sedout/lang_aggfunc.html:1779
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1117 sedout/lang_aggfunc.html:1775
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1125 sedout/lang_aggfunc.html:1783
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_aggfunc.html:1136
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x590a3f0a' "
+"onclick='hideorshow(\"x590a3f0a\",\"x04bdafdd\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1144
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1152
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1160
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1171
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1176
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1181
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_aggfunc.html:1192
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x3ac482f4' "
+"onclick='hideorshow(\"x3ac482f4\",\"x8b5d94b9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1201
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1203
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1209
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1230
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1238
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1248 sedout/lang_aggfunc.html:1562
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1259 sedout/lang_aggfunc.html:1592
+#: sedout/lang_aggfunc.html:1600 sedout/lang_aggfunc.html:1968
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1261 sedout/lang_aggfunc.html:1986
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1281 sedout/lang_aggfunc.html:2384
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1308
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1333
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1345
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1367
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1396
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1402
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1410
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1438
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1471
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='xf7b5b510' "
+"onclick='hideorshow(\"xf7b5b510\",\"x099a31f1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1503
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1542
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x2e05bc40' "
+"onclick='hideorshow(\"x2e05bc40\",\"xb261a549\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1552 sedout/lang_aggfunc.html:1554
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1556
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1558
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1584
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x6bc59fce' "
+"onclick='hideorshow(\"x6bc59fce\",\"xc3bd7d71\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1596
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1604
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1616
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x31c7c42d' "
+"onclick='hideorshow(\"x31c7c42d\",\"xb2ad0255\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1624
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1650
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1664
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x03caefa5' "
+"onclick='hideorshow(\"x03caefa5\",\"xcc911669\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1672
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1678
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1682
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1688
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1706
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1712
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1717
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1724
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1732
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x01a85d2b' "
+"onclick='hideorshow(\"x01a85d2b\",\"x6dfc65a3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1793
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x69269e0d' "
+"onclick='hideorshow(\"x69269e0d\",\"x19ba94ce\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1809
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1846
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x2ece1822' "
+"onclick='hideorshow(\"x2ece1822\",\"xbeddeb39\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1870 sedout/lang_aggfunc.html:1934
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1877 sedout/lang_aggfunc.html:1891
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1885
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:1901
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:1991
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x5f5deb07' "
+"onclick='hideorshow(\"x5f5deb07\",\"x4889b8e3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:2072
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xc4379bba' "
+"onclick='hideorshow(\"xc4379bba\",\"x8e05e242\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_aggfunc.html:2284
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x3326e825' "
+"onclick='hideorshow(\"x3326e825\",\"xfcd08ed7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:2292
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:2300 sedout/lang_aggfunc.html:2308
+#: sedout/lang_aggfunc.html:2323
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_aggfunc.html:2339
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x906d957a' "
+"onclick='hideorshow(\"x906d957a\",\"x68a36b74\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:2347
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:2358
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_aggfunc.html:2368
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x3e2bb5e6' "
+"onclick='hideorshow(\"x3e2bb5e6\",\"x281e6749\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_aggfunc.html:2376
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_aggfunc.html:2403
+msgid ""
+"The aggregate functions shown below are available by default.  Additional "
+"aggregate functions written in C may be added using the <a "
+"href=\"c3ref/create_function.html\">sqlite3_create_function()</a> API."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_aggfunc.html:2409
+msgid ""
+"In any aggregate function that takes a single argument, that argument can be "
+"preceded by the keyword DISTINCT.  In such cases, duplicate elements are "
+"filtered before being passed into the aggregate function.  For example, the "
+"function \"count(distinct X)\" will return the number of distinct values of "
+"column X instead of the total number of non-null values in column X."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_aggfunc.html:2417
+msgid "<a name=\"aggfilter\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_aggfunc.html:2420
+msgid ""
+"If a FILTER clause is provided, then only rows for which the <i>expr</i> is "
+"true are included in the aggregate."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_aggfunc.html:2424
+msgid "<a name=\"aggfunclist\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_aggfunc.html:2426
+msgid "<span>2. </span>List of built-in aggregate functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2430
+msgid "<a href='lang_aggfunc.html#avg'>avg(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2431
+msgid "<a href='lang_aggfunc.html#count'>count(*)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2432
+msgid "<a href='lang_aggfunc.html#count'>count(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2433
+msgid "<a href='lang_aggfunc.html#group_concat'>group_concat(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2434
+msgid "<a href='lang_aggfunc.html#group_concat'>group_concat(X,Y)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2435
+msgid "<a href='lang_aggfunc.html#max_agg'>max(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2436
+msgid "<a href='lang_aggfunc.html#min_agg'>min(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2437
+msgid "<a href='lang_aggfunc.html#sumunc'>sum(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_aggfunc.html:2438
+msgid "<a href='lang_aggfunc.html#sumunc'>total(X)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_aggfunc.html:2443
+msgid "<span>3. </span>Descriptions of built-in aggregate functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl>
+#: sedout/lang_aggfunc.html:2446
+msgid "<a name=\"avg\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: sedout/lang_aggfunc.html:2447
+msgid "<b>avg(<i>X</i>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: sedout/lang_aggfunc.html:2448
+msgid ""
+"The avg() function returns the average value of all non-NULL <i>X</i> within "
+"a group.  String and BLOB values that do not look like numbers are "
+"interpreted as 0.  The result of avg() is always a floating point value "
+"whenever there is at least one non-NULL input even if all inputs are "
+"integers.  The result of avg() is NULL if and only if there are no non-NULL "
+"inputs."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl>
+#: sedout/lang_aggfunc.html:2457
+msgid "<a name=\"count\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt><b>
+#: sedout/lang_aggfunc.html:2458
+msgid "<b>count(<i>X</i>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: sedout/lang_aggfunc.html:2458
+msgid "count(*)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: sedout/lang_aggfunc.html:2459
+msgid ""
+"The count(X) function returns a count of the number of times that <i>X</i> "
+"is not NULL in a group.  The count(*) function (with no arguments) returns "
+"the total number of rows in the group."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl>
+#: sedout/lang_aggfunc.html:2464
+msgid "<a name=\"group_concat\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt><b>
+#: sedout/lang_aggfunc.html:2465
+msgid "<b>group_concat(<i>X</i>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: sedout/lang_aggfunc.html:2465
+msgid "group_concat(<i>X</i>,<i>Y</i>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: sedout/lang_aggfunc.html:2466
+msgid ""
+"The group_concat() function returns a string which is the concatenation of "
+"all non-NULL values of <i>X</i>.  If parameter <i>Y</i> is present then it "
+"is used as the separator between instances of <i>X</i>.  A comma (\",\") is "
+"used as the separator if <i>Y</i> is omitted.  The order of the concatenated "
+"elements is arbitrary."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl>
+#: sedout/lang_aggfunc.html:2474
+msgid "<a name=\"max_agg\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: sedout/lang_aggfunc.html:2475
+msgid "<b>max(<i>X</i>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: sedout/lang_aggfunc.html:2476
+msgid ""
+"The max() aggregate function returns the maximum value of all values in the "
+"group.  The maximum value is the value that would be returned last in an "
+"ORDER BY on the same column.  Aggregate max() returns NULL if and only if "
+"there are no non-NULL values in the group."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl>
+#: sedout/lang_aggfunc.html:2482
+msgid "<a name=\"min_agg\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: sedout/lang_aggfunc.html:2483
+msgid "<b>min(<i>X</i>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: sedout/lang_aggfunc.html:2484
+msgid ""
+"The min() aggregate function returns the minimum non-NULL value of all "
+"values in the group.  The minimum value is the first non-NULL value that "
+"would appear in an ORDER BY of the column.  Aggregate min() returns NULL if "
+"and only if there are no non-NULL values in the group."
+msgstr ""
+
+#. type: Content of: <html><body><div><dl>
+#: sedout/lang_aggfunc.html:2491
+msgid "<a name=\"sumunc\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt><b>
+#: sedout/lang_aggfunc.html:2492
+msgid "<b>sum(<i>X</i>)"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dt>
+#: sedout/lang_aggfunc.html:2492
+msgid "total(<i>X</i>)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><dl><dd>
+#: sedout/lang_aggfunc.html:2493
+msgid ""
+"The sum() and total() aggregate functions return the sum of all non-NULL "
+"values in the group.  If there are no non-NULL input rows then sum() returns "
+"NULL but total() returns 0.0.  NULL is not normally a helpful result for the "
+"sum of no rows but the SQL standard requires it and most other SQL database "
+"engines implement sum() that way so SQLite does it in the same way in order "
+"to be compatible.  The non-standard total() function is provided as a "
+"convenient way to work around this design problem in the SQL language.  The "
+"result of total() is always a floating point value.  The result of sum() is "
+"an integer value if all non-NULL inputs are integers.  If any input to sum() "
+"is neither an integer nor a NULL, then sum() returns a floating point value "
+"which is an approximation of the mathematical sum.  Sum() will throw an "
+"\"integer overflow\" exception if all inputs are integers or NULL and an "
+"integer overflow occurs at any point during the computation.  Total() never "
+"throws an integer overflow."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_aggfunc.html:2517
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_aggfunc.in?m=fc47888e50\">2022-04-18 "
+"02:55:50</a> UTC </i></small>"
+msgstr ""

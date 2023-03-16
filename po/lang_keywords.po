@@ -1,0 +1,1028 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:12+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_keywords.html:6 sedout/lang_keywords.html:121
+msgid "SQLite Keywords"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_keywords.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_keywords.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_keywords.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_keywords.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_keywords.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:22 sedout/lang_keywords.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_keywords.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_keywords.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_keywords.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_keywords.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_keywords.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_keywords.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_keywords.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_keywords.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_keywords.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_keywords.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_keywords.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_keywords.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_keywords.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_keywords.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_keywords.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_keywords.html:129
+msgid ""
+"The SQL standard specifies a large number of keywords which may not be used "
+"as the names of tables, indices, columns, databases, user-defined functions, "
+"collations, virtual table modules, or any other named object.  The list of "
+"keywords is so long that few people can remember them all.  For most SQL "
+"code, your safest bet is to never use any English language word as the name "
+"of a user-defined object."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_keywords.html:136
+msgid ""
+"If you want to use a keyword as a name, you need to quote it.  There are "
+"four ways of quoting keywords in SQLite:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:142
+msgid "<b>'keyword'</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:143
+msgid "A keyword in single quotes is a string literal."
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:145
+msgid "<b>\"keyword\"</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:146
+msgid "A keyword in double-quotes is an identifier."
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:148
+msgid "<b>&#91;keyword&#93;</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:149
+msgid ""
+"A keyword enclosed in square brackets is an identifier.  This is not "
+"standard SQL.  This quoting mechanism is used by MS Access and SQL Server "
+"and is included in SQLite for compatibility."
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:154
+msgid "<b>&#96;keyword&#96;</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><table><tr><td>
+#: sedout/lang_keywords.html:155
+msgid ""
+"A keyword enclosed in grave accents (ASCII code 96) is an identifier.  This "
+"is not standard SQL.  This quoting mechanism is used by MySQL and is "
+"included in SQLite for compatibility."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_keywords.html:163
+msgid ""
+"For resilience when confronted with historical SQL statements, SQLite will "
+"sometimes bend the quoting rules above:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_keywords.html:167
+msgid ""
+"If a keyword in single quotes (ex: <b>'key'</b> or <b>'glob'</b>) is used in "
+"a context where an identifier is allowed but where a string literal is not "
+"allowed, then the token is understood to be an identifier instead of a "
+"string literal."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_keywords.html:173
+msgid ""
+"If a keyword in double quotes (ex: <b>\"key\"</b> or <b>\"glob\"</b>) is "
+"used in a context where it cannot be resolved to an identifier but where a "
+"string literal is allowed, then the token is understood to be a string "
+"literal instead of an identifier."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_keywords.html:180
+msgid ""
+"Programmers are cautioned not to use the two exceptions described in the "
+"previous bullets.  We emphasize that they exist only so that old and "
+"ill-formed SQL statements will run correctly.  Future versions of SQLite "
+"might raise errors instead of accepting the malformed statements covered by "
+"the exceptions above."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_keywords.html:187
+msgid ""
+"SQLite adds new keywords from time to time when it takes on new features.  "
+"So to prevent your code from being broken by future enhancements, you should "
+"normally quote any identifier that is an English language word, even if you "
+"do not have to."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_keywords.html:194
+msgid ""
+"The list below shows all possible keywords used by any build of SQLite "
+"regardless of <a href=\"compile.html\">compile-time options</a>.  Most "
+"reasonable configurations use most or all of these keywords, but some "
+"keywords may be omitted when SQL language features are disabled.  "
+"Applications can use the <a "
+"href=\"c3ref/keyword_check.html\">sqlite3_keyword_count()</a>, <a "
+"href=\"c3ref/keyword_check.html\">sqlite3_keyword_name()</a>, and <a "
+"href=\"c3ref/keyword_check.html\">sqlite3_keyword_check()</a> interfaces to "
+"determine the keywords recognized by SQLite at run-time.  Regardless of the "
+"compile-time configuration, any identifier that is not on the following "
+"147-element list is not a keyword to the SQL parser in SQLite:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:211
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:212
+msgid "ACTION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:213
+msgid "ADD"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:214
+msgid "AFTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:215
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:216
+msgid "ALTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:217
+msgid "ALWAYS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:218
+msgid "ANALYZE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:219
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:220
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:221
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:222
+msgid "ATTACH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:223
+msgid "AUTOINCREMENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:224
+msgid "BEFORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:225
+msgid "BEGIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:226
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:227
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:228
+msgid "CASCADE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:229
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:230
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:231
+msgid "CHECK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:232
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:233
+msgid "COLUMN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:234
+msgid "COMMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:235
+msgid "CONFLICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:236
+msgid "CONSTRAINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:237
+msgid "CREATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:238
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:239
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:240
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:241
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:242
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:243
+msgid "DATABASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:244
+msgid "DEFAULT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:245
+msgid "DEFERRABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:246
+msgid "DEFERRED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:247
+msgid "DELETE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:248
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:249
+msgid "DETACH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:250
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:251
+msgid "DO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:252
+msgid "DROP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:253
+msgid "EACH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:254
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:255
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:256
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:257
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:258
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:259
+msgid "EXCLUSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:260
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:261
+msgid "EXPLAIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:262
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:263
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:264
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:265
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:266
+msgid "FOR"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:267
+msgid "FOREIGN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:268
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:269
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:270
+msgid "GENERATED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:271
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:272
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:273
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:274
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:275
+msgid "IF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:276
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:277
+msgid "IMMEDIATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:278
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:279
+msgid "INDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:280
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:281
+msgid "INITIALLY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:282
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:283
+msgid "INSERT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:284
+msgid "INSTEAD"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:285
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:286
+msgid "INTO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:287
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:288
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:289
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:290
+msgid "KEY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:291
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:292
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:293
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:294
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:295
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:296
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:297
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:298
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:299
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:300
+msgid "NOTHING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:301
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:302
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:303
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:304
+msgid "OF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:305
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:306
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:307
+msgid "OR"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:308
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:309
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:310
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:311
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:312
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:313
+msgid "PLAN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:314
+msgid "PRAGMA"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:315
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:316
+msgid "PRIMARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:317
+msgid "QUERY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:318
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:319
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:320
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:321
+msgid "REFERENCES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:322
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:323
+msgid "REINDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:324
+msgid "RELEASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:325
+msgid "RENAME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:326
+msgid "REPLACE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:327
+msgid "RESTRICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:328
+msgid "RETURNING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:329
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:330
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:331
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:332
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:333
+msgid "SAVEPOINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:334
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:335
+msgid "SET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:336
+msgid "TABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:337
+msgid "TEMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:338
+msgid "TEMPORARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:339
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:340
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:341
+msgid "TO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:342
+msgid "TRANSACTION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:343
+msgid "TRIGGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:344
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:345
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:346
+msgid "UNIQUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:347
+msgid "UPDATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:348
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:349
+msgid "VACUUM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:350
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:351
+msgid "VIEW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:352
+msgid "VIRTUAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:353
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:354
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:355
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:356
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_keywords.html:357
+msgid "WITHOUT"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/lang_keywords.html:360
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_keywords.in?m=0e6afea91e\">2022-11-26 "
+"14:56:19</a> UTC </i></small>"
+msgstr ""

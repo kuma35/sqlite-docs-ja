@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 22:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/getthecode.html:6 sedout/getthecode.html:121
+msgid "How To Download Canonical SQLite Source Code"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/getthecode.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/getthecode.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/getthecode.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/getthecode.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/getthecode.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/getthecode.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/getthecode.html:22 sedout/getthecode.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/getthecode.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/getthecode.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/getthecode.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/getthecode.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/getthecode.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/getthecode.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/getthecode.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/getthecode.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/getthecode.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/getthecode.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/getthecode.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/getthecode.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/getthecode.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/getthecode.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/getthecode.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/getthecode.html:129
+msgid "<span>1. </span>Introduction"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:131
+msgid ""
+"Most programmers compile SQLite into their applications using the <a "
+"href=\"amalgamation.html\">amalgamation</a>.  The <a "
+"href=\"amalgamation.html\">amalgamation</a> is C-code but it is not \"source "
+"code\".  The <a href=\"amalgamation.html\">amalgamation</a> is generated "
+"from source code by scripts."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:136
+msgid ""
+"This document describes how to obtain the canonical source code for SQLite - "
+"the raw source files from which the amalgamation is built.  See the <a "
+"href=\"howtocompile.html\">How To Compile SQLite</a> page for additional "
+"information on what to do with the canonical source code once it is "
+"obtained."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/getthecode.html:141
+msgid "<span>2. </span>Direct Downloads"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:143
+msgid ""
+"Snapshots of official releases of SQLite source code can often be obtained "
+"directly from the <a href=\"download.html\">download page</a> of the SQLite "
+"website.  Even if the specific version desired is not listed on the download "
+"page, the naming conventions are fairly clear and so programmers can often "
+"guess the name of an historical release and download it that way."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/getthecode.html:149
+msgid "<span>3. </span>Obtaining Code Directly From the Version Control System"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:151
+msgid ""
+"For any historical version of SQLite, the source tree can be obtained from "
+"the <a href=\"https://www.fossil-scm.org/\">Fossil</a> version control "
+"system, either downloading a tarball or ZIP archive for a specific version, "
+"or by cloning the entire project history."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:156
+msgid "SQLite sources are maintained on three geographically dispersed servers:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote>
+#: sedout/getthecode.html:160
+msgid ""
+"<a href=\"https://www.sqlite.org/src\">https://www.sqlite.org/src</a> "
+"(Dallas)"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><br>
+#: sedout/getthecode.html:161
+msgid ""
+"<a href=\"https://www2.sqlite.org/src\">https://www2.sqlite.org/src</a> "
+"(Newark)"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><br><br>
+#: sedout/getthecode.html:162
+msgid ""
+"<a href=\"https://www3.sqlite.org/src\">https://www3.sqlite.org/src</a> (San "
+"Francisco)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:165
+msgid ""
+"The documentation is maintained in separate source repositories on those "
+"same servers:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote>
+#: sedout/getthecode.html:169
+msgid ""
+"<a href=\"https://www.sqlite.org/docsrc\">https://www.sqlite.org/docsrc</a> "
+"(Dallas)"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><br>
+#: sedout/getthecode.html:170
+msgid ""
+"<a "
+"href=\"https://www2.sqlite.org/docsrc\">https://www2.sqlite.org/docsrc</a> "
+"(Newark)"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><br><br>
+#: sedout/getthecode.html:171
+msgid ""
+"<a "
+"href=\"https://www3.sqlite.org/docsrc\">https://www3.sqlite.org/docsrc</a> "
+"(San Francisco)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:174
+msgid ""
+"To download a specific historical version, first locate the specific version "
+"desired by visiting the timeline page on one of these servers (for example: "
+"<a "
+"href=\"https://www.sqlite.org/src/timeline\">https://www.sqlite.org/src/timeline</a>).  "
+"If you know the approximate date of the version you want to download, you "
+"can add a query parameter like \"c=YYYY-MM-DD\" to the \"timeline\" URL to "
+"see a timeline centered on that date.  For example, to see all the check-ins "
+"that occurred around August 26, 2013, visit <a "
+"href=\"https://www.sqlite.org/src/timeline?c=2013-08-26\">https://www.sqlite.org/src/timeline?c=2013-08-26</a>.  "
+"If you are looking for an official release, visit the <a "
+"href=\"chronology.html\">chronology</a> page, click on the date to the left "
+"of the release you are looking for, and that will take you immediately to "
+"the check-in corresponding to the release."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:187
+msgid ""
+"Once you locate a specific version, click on the hyperlink for that version "
+"to see the \"Check-in Information Page\".  Then click on either the "
+"\"Tarball\" link or the \"ZIP archive\" link to download the complete source "
+"tree.  <a name=\"clone\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/getthecode.html:194
+msgid "<span>4. </span>Cloning The Complete Development History"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:196
+msgid ""
+"To clone the entire history of SQLite, first go to the <a "
+"href=\"https://www.fossil-scm.org/download.html\">https://www.fossil-scm.org/download.html</a> "
+"page and grab a precompiled binary for the Fossil version control program.  "
+"Or get the source code on the same page and compile it yourself."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:201
+msgid ""
+"As of 2017-03-12, you must use Fossil version 2.0 or later for the following "
+"instructions to work.  The SQLite repository started using artifacts named "
+"using SHA3 hashes instead of SHA1 hashes on that date, and Fossil 2.0 or "
+"later is needed in order to understand the new SHA3 hashes.  To find out "
+"what version of Fossil you are running, type \"fossil -v\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:209
+msgid ""
+"Fossil is a completely stand-alone program, so install it simply by putting "
+"the \"fossil\" or \"fossil.exe\" executable someplace on your $PATH or "
+"%PATH%.  After you have Fossil installed, do this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/getthecode.html:214
+#, no-wrap
+msgid "fossil clone https://www.sqlite.org/src sqlite.fossil\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:217
+msgid ""
+"The command above will make a copy of the complete development history of "
+"SQLite into the \"sqlite.fossil\" file on your computer.  Making this copy "
+"takes about a minute and uses about 32 megabytes of transfer.  After making "
+"the copy, \"open\" the repository by typing:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/getthecode.html:223
+#, no-wrap
+msgid "fossil open sqlite.fossil\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:226
+msgid ""
+"This second command will \"checkout\" the latest check-in from the SQLite "
+"source tree into your current directory.  Subsequently, you can easily "
+"switch to a different version by typing:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/getthecode.html:230
+#, no-wrap
+msgid "fossil update VERSION\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:233
+msgid ""
+"Where VERSION can be a branch name (like \"trunk\" or \"session\") to get "
+"the latest check-in on a specific branch, or VERSION can be a SHA1 hash or a "
+"prefix of a SHA1 hash for a specific check-in, or VERSION can be a tag such "
+"as \"version-3.8.8\".  Every time you run \"fossil update\" it will "
+"automatically reach out to the original repository at "
+"https://www.sqlite.org/src to obtain new check-ins that might have been made "
+"by others since your previous update."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/getthecode.html:240
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/getthecode.in?m=911345504d\">2022-04-18 "
+"02:55:50</a> UTC </i></small>"
+msgstr ""

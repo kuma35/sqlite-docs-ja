@@ -1,0 +1,1033 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/printf.html:6 sedout/printf.html:121
+msgid "SQLite's Built-in printf()"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/printf.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/printf.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/printf.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/printf.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/printf.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/printf.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/printf.html:22 sedout/printf.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/printf.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/printf.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/printf.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/printf.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/printf.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/printf.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/printf.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/printf.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/printf.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/printf.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/printf.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/printf.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/printf.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/printf.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/printf.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/printf.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:129
+msgid "<a href=\"#advantages\">1.1. Advantages</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:130
+msgid "<a href=\"#disadvantages\">1.2. Disadvantages</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:131
+msgid "<a href=\"#formatting_details\">2. Formatting Details</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:132
+msgid "<a href=\"#substitution_types\">2.1. Substitution Types</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:133
+msgid "<a href=\"#the_optional_length_field\">2.2. The Optional Length Field</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:134
+msgid "<a href=\"#the_optional_width_field\">2.3. The Optional Width Field</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:135
+msgid ""
+"<a href=\"#the_optional_precision_field\">2.4. The Optional Precision "
+"Field</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:136
+msgid "<a href=\"#the_options_flags_field\">2.5. The Options Flags Field</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/printf.html:137
+msgid "<a href=\"#implementation_and_history\">3. Implementation And History</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/printf.html:141
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/printf.html:158
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/printf.html:160
+msgid ""
+"SQLite contains its own implementation of the string formatting routine "
+"\"printf()\", accessible via the following interfaces:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:164
+msgid ""
+"<a href=\"lang_corefunc.html#format\">format()</a> &rarr; an SQL function "
+"returning the formatted string"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:165
+msgid ""
+"<a href=\"c3ref/mprintf.html\">sqlite3_mprintf()</a> &rarr; Store the "
+"formatted string in memory obtained <a "
+"href=\"c3ref/free.html\">sqlite3_malloc64()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:167
+msgid ""
+"<a href=\"c3ref/mprintf.html\">sqlite3_snprintf()</a> &rarr; Store the "
+"formatted string in a static buffer"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:168
+msgid ""
+"<a href=\"c3ref/str_append.html\">sqlite3_str_appendf()</a> &rarr; Append "
+"formatted text to a dynamic string"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:169
+msgid ""
+"<a href=\"c3ref/mprintf.html\">sqlite3_vmprintf()</a> &rarr; Varargs version "
+"of sqlite3_mprintf()"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:170
+msgid ""
+"<a href=\"c3ref/mprintf.html\">sqlite3_vsnprintf()</a> &rarr; Varargs "
+"version of sqlite3_snprintf()"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/printf.html:171
+msgid ""
+"<a href=\"c3ref/str_append.html\">sqlite3_str_vappendf()</a> &rarr; Varargs "
+"version of sqlite3_str_appendf()"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/printf.html:174
+msgid "The same core string formatter is also used internally by SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/printf.html:176
+msgid "<span>1.1. </span>Advantages"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/printf.html:178
+msgid ""
+"Why does SQLite have its own private built-in printf() implementation? Why "
+"not use the printf() implementation from the standard C library? Several "
+"reasons:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:185
+msgid ""
+"By using its own built-in implementation, SQLite guarantees that the output "
+"will be the same on all platforms and in all LOCALEs.  This is important for "
+"consistency and for testing.  It would be problematic if one machine gave an "
+"answer of \"5.25e+08\" and another gave an answer of \"5.250e+008\".  Both "
+"answers are correct, but it is better when SQLite always gives the same "
+"answer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:193
+msgid ""
+"We know of no way to use the standard library printf() C interface to "
+"implement the <a href=\"lang_corefunc.html#format\">format() SQL "
+"function</a> feature of SQLite.  The built-in printf() implementation can be "
+"easily adapted to that task, however."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:198
+msgid ""
+"The printf() in SQLite supports new non-standard substitution types (<a "
+"href=\"printf.html#percentq\">%q</a>, <a "
+"href=\"printf.html#percentq\">%Q</a>, <a "
+"href=\"printf.html#percentw\">%w</a>, and <a "
+"href=\"printf.html#percentz\">%z</a>), and enhanced substitution behavior "
+"(%s and <a href=\"printf.html#percentz\">%z</a>) that are useful both "
+"internally to SQLite and to applications using SQLite.  Standard library "
+"printf()s cannot normally be extended in this way."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:205
+msgid ""
+"Via the <a href=\"c3ref/mprintf.html\">sqlite3_mprintf()</a> and <a "
+"href=\"c3ref/mprintf.html\">sqlite3_vmprintf()</a> interfaces, the built-in "
+"printf() implementation supports the ability to render an arbitrary-length "
+"string into a memory buffer obtained from <a "
+"href=\"c3ref/free.html\">sqlite3_malloc64()</a>.  This is safer and less "
+"error prone than trying to precompute an upper size limit on the result "
+"string, allocate an appropriately sized buffer, and then calling snprintf()."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:213
+msgid ""
+"The SQLite-specific printf() supports a new flag (!) called the "
+"\"alternate-form-2\" flag.  The alternate-form-2 flag changes the processing "
+"of floating-point conversions in subtle ways so that the output is always an "
+"SQL-compatible text representation of a floating-point number - something "
+"that is not possible to achieve with standard-library printf().  For string "
+"substitutions, the alternate-form-2 flag causes the width and precision to "
+"be measured in characters instead of bytes, which simplifies processing of "
+"strings containing multi-byte UTF8 characters."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:223
+msgid ""
+"The built-in SQLite has compile-time options such as "
+"SQLITE_PRINTF_PRECISION_LIMIT that provide defense against denial-of-service "
+"attacks for application that expose the printf() functionality to untrusted "
+"users."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/printf.html:229
+msgid ""
+"Using a built-in printf() implementation means that SQLite has one fewer "
+"dependency on the host environment, making it more portable."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/printf.html:233
+msgid "<span>1.2. </span>Disadvantages"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/printf.html:236
+msgid ""
+"In fairness, having a built-in implementation of printf() also comes with "
+"some disadvantages.  To wit:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/printf.html:241
+msgid ""
+"The built-in printf() implementation uses extra code space (about 7800 bytes "
+"on GCC 5.4 with -Os)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/printf.html:245
+msgid ""
+"The floating-point to text conversion subfunction for the built-in printf()  "
+"is limited in precision to 16 significant digits or 26 significant digits if "
+"the \"!\" alternate-form-2 flag is used.  Every IEEE-754 double can be "
+"represented exactly as a decimal floating-point value, but some doubles "
+"require more than 16 or 26 significant digits."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/printf.html:252
+msgid ""
+"The order of the buffer pointer and buffer size parameters in the built-in "
+"snprintf() implementation is reversed from the order used in "
+"standard-library implementations."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/printf.html:257
+msgid ""
+"The built-in printf() implementation does not handle posix positional "
+"referencing modifiers that allow the order of arguments to printf() to be "
+"different from the order of the %-substitutions.  In the built-in printf(), "
+"the order of the arguments must exactly match the order of the "
+"%-substitutions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:264
+msgid ""
+"In spite of the disadvantages, the developers believe that having a built-in "
+"printf() implementation inside of SQLite is a net positive."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/printf.html:267
+msgid "<span>2. </span>Formatting Details"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:269
+msgid ""
+"The format string for printf() is a template for the generated string.  "
+"Substitutions are made whenever a \"%\" character appears in the format "
+"string.  The \"%\" is followed by one or more additional characters that "
+"describe the substitution.  Each substitution has the following format:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/printf.html:276
+msgid "<b>%</b><i>&#91;flags&#93;&#91;width&#93;&#91;</i><b>.</b><i>precision&#93;&#91;length&#93;type</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:279
+msgid ""
+"All substitutions begin with a single \"%\" and end with a single type "
+"character.  The other elements of the substitution are optional."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:282
+msgid ""
+"To include a single \"%\" character in the output, put two consecutive \"%\" "
+"characters in the template."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/printf.html:285
+msgid "<span>2.1. </span>Substitution Types"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:287
+msgid "The following chart shows the substitution types supported by SQLite:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><th>
+#: sedout/printf.html:292
+msgid "Substitution Type"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><th>
+#: sedout/printf.html:292 sedout/printf.html:400 sedout/printf.html:476
+msgid "Meaning"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:294
+msgid "%"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:295
+msgid ""
+"Two \"%\" characters in a row are translated into a single \"%\" in the "
+"output, without substituting any values."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:298
+msgid "d, i"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:299
+msgid "The argument is a signed integer which is displayed in decimal."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:301
+msgid "u"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:302
+msgid "The argument is an unsigned integer which is displayed in decimal."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:304
+msgid "f"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:305
+msgid "The argument is a double which is displayed in decimal."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:307
+msgid "e, E"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:308
+msgid ""
+"The argument is a double which is displayed in exponential notation.  The "
+"exponent character is 'e' or 'E' depending on the type."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:311
+msgid "g, G"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:312
+msgid ""
+"The argument is a double which is displayed in either normal decimal "
+"notation or if the exponent is not close to zero, in exponential notation."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:316
+msgid "x, X"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:317
+msgid ""
+"The argument is an integer which is displayed in hexadecimal.  Lower-case "
+"hexadecimal is used for %x and upper-case is used for %X"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:321
+msgid "o"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:322
+msgid "The argument is an integer which is displayed in octal."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:324
+msgid "s, z"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:326
+msgid ""
+"<a name=\"percentz\"></a> The argument is either a zero-terminated string "
+"that is displayed, or a null pointer which is treated as an empty string.  "
+"For the %z type in C-language interfaces, <a "
+"href=\"c3ref/free.html\">sqlite3_free()</a> is invoked on the string after "
+"it has been copied into the output. The %s and %z substitutions are "
+"identical for the SQL printf() function, with a NULL argument treated as an "
+"empty string."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td><br><br>
+#: sedout/printf.html:334
+msgid ""
+"The %s substitution is universal among printf functions, but the %z "
+"substitution and safe treatment of null pointers are SQLite enhancements, "
+"not found in other printf() implementations."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:339
+msgid "c"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:340
+msgid ""
+"For the C-language interfaces, the argument is an integer which is "
+"interpreted as a character.  For the <a "
+"href=\"lang_corefunc.html#format\">format() SQL function</a> the argument is "
+"a string from which the first character is extracted and displayed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:345
+msgid "p"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:346
+msgid ""
+"The argument is a pointer which is displayed as a hexadecimal address.  "
+"Since the SQL language has no concept of a pointer, the %p substitution for "
+"the <a href=\"lang_corefunc.html#format\">format() SQL function</a> works "
+"like %x."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:350
+msgid "n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:351
+msgid ""
+"The argument is a pointer to an integer.  Nothing is displayed for this "
+"substitution type.  Instead, the integer to which the argument points is "
+"overwritten with the number of characters in the generated string that "
+"result from all format symbols to the left of the %n."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:356
+msgid "q, Q"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:357
+msgid ""
+"<a name=\"percentq\"></a> The argument is a zero-terminated string.  The "
+"string is printed with all single quote (') characters doubled so that the "
+"string can safely appear inside an SQL string literal.  The %Q substitution "
+"type also puts single-quotes on both ends of the substituted string."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td><br><br>
+#: sedout/printf.html:363
+msgid ""
+"If the argument to %Q is a null pointer then the output is an unquoted "
+"\"NULL\".  In other words, a null pointer generates an SQL NULL, and a "
+"non-null pointer generates a valid SQL string literal.  If the argument to "
+"%q is a null pointer then no output is generated.  Thus a null-pointer to %q "
+"is the same as an empty string."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td><br><br><br><br>
+#: sedout/printf.html:369
+msgid ""
+"For these substitutions, the precision is the number of bytes or characters "
+"taken from the argument, not the number of bytes or characters that are "
+"written into the output."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td><br><br><br><br><br><br>
+#: sedout/printf.html:373
+msgid ""
+"The %q and %Q substitutions are SQLite enhancements, not found in most other "
+"printf() implementations."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:376
+msgid "w"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:377
+msgid ""
+"<a name=\"percentw\"></a> This substitution works like %q except that it "
+"doubles all double-quote characters (\") instead of single-quotes, making "
+"the result suitable for using with a double-quoted identifier name in an SQL "
+"statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td><br><br>
+#: sedout/printf.html:383
+msgid ""
+"The %w substitution is an SQLite enhancements, not found in most other "
+"printf() implementations."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/printf.html:388
+msgid "<span>2.2. </span>The Optional Length Field"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:390
+msgid ""
+"The length of the argument value can be specified by one or more letters "
+"that occur just prior to the substitution type letter.  In SQLite, the "
+"length only matter for integer types.  The length is ignored for the <a "
+"href=\"lang_corefunc.html#format\">format() SQL function</a> which always "
+"uses 64-bit values.  The following table shows the length specifiers allowed "
+"by SQLite:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><th>
+#: sedout/printf.html:399
+msgid "Length Specifier"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:402
+msgid "<i>(default)</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:403
+msgid "An \"int\" or \"unsigned int\".  32-bits on all modern systems."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:405
+msgid "l"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:406
+msgid ""
+"A \"long int\" or \"long unsigned int\".  Also 32-bits on all modern "
+"systems."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:408
+msgid "ll"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:409
+msgid ""
+"A \"long long int\" or \"long long unsigned\" or an \"sqlite3_int64\" or "
+"\"sqlite3_uint64\" value.  These are 64-bit integers on all modern systems."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:414
+msgid ""
+"Only the \"ll\" length modifier ever makes a difference for SQLite.  And it "
+"only makes a difference when using the C-language interfaces."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/printf.html:417
+msgid "<span>2.3. </span>The Optional Width Field"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:419
+msgid ""
+"The width field specifies the minimum width of the substituted value in the "
+"output.  If the string or number that is written into the output is shorter "
+"than the width, then the value is padded.  Padding is on the left (the value "
+"is right-justified) by default.  If the \"-\" flag is used, then the padding "
+"is on the right and the value is left-justified."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:425
+msgid ""
+"The width is measured in bytes by default.  However, if the \"!\" flag is "
+"present then the width is in characters.  This only makes a difference for "
+"multi-byte utf-8 characters, and those only occur on string substitutions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:429
+msgid ""
+"If the width is a single \"*\" character instead of a number, then the "
+"actual width value is read as an integer from the argument list.  If the "
+"value read is negative, then the absolute value is used for the width and "
+"the value is left-justified as if the \"-\" flag were present."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:434
+msgid ""
+"If the value being substituted is larger than the width, then full value is "
+"added to the output.  In other words, the width is the minimum width of the "
+"value as it is rendered in the output."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/printf.html:438
+msgid "<span>2.4. </span>The Optional Precision Field"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:440
+msgid ""
+"The precision field, if it is present, must follow the width separated by a "
+"single \".\" character.  If there is no width, then the \".\" that "
+"introduces the precision immediately follows either the flags (if there are "
+"any) or the initial \"%\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:445
+msgid ""
+"For string substitutions (%s, %z, %q, %Q, or %w) the precision is the number "
+"of byte or character used from the argument.  The number is bytes by default "
+"but is characters if the \"!\" flag is present.  If there is no precision, "
+"then the entire string is substituted.  Examples: \"%.3s\" substitutes the "
+"first 3 bytes of the argument string.  \"%!.3s\" substitutes the first three "
+"characters of the argument string."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:452
+msgid ""
+"For integer substitutions (%d, %i, %x, %X, %o, and %p) the precision "
+"specifies minimum number of digits to display.  Leading zeros are added if "
+"necessary, to expand the output to the minimum number of digits."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:456
+msgid ""
+"For floating-point substitutions (%e, %E, %f, %g, %G) the precision "
+"specifies the number of digits to display to the right of the decimal point."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:459
+msgid ""
+"For the character substitution (%c) a precision N greater than 1 causes the "
+"character to be repeated N times.  This is a non-standard extension found "
+"only in SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:463
+msgid ""
+"If the precision is a single \"*\" character instead of a number, then the "
+"actual precision value is read as an integer from the argument list."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/printf.html:466
+msgid "<span>2.5. </span>The Options Flags Field"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:468
+msgid ""
+"Flags consist of zero or more characters that immediately follow the \"%\" "
+"that introduces the substitution.  The various flags and their meanings are "
+"as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><th>
+#: sedout/printf.html:475
+msgid "Flag"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:478
+msgid "<b>-</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:479
+msgid ""
+"Left-justify the value in the output.  The default is to right-justify.  If "
+"the width is zero or is otherwise less than the length of the value being "
+"substituted, then there is no padding and the \"-\" flag is a no-op."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:483
+msgid "<b>+</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:484
+msgid ""
+"For signed numeric substitutions, include a \"+\" sign before positive "
+"numbers.  A \"-\" sign always appears before negative numbers regardless of "
+"flag settings."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:487
+msgid "<i>(space)</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:488
+msgid ""
+"For signed numeric substitutions, prepend a single space before positive "
+"numbers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:491
+msgid "<b>0</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:492
+msgid ""
+"Prepend as many \"0\" characters to numeric substitutions as necessary to "
+"expand the value out to the specified width.  If the width field is omitted, "
+"then this flag is a no-op."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:496
+msgid "<b>#</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:497
+msgid ""
+"This is the \"alternate-form-1\" flag.  For %g and %G substitutions, this "
+"causes trailing zeros to be removed.  This flag forces a decimal point to "
+"appear for all floating-point substitutions.  For %o, %x, and %X "
+"substitutions, the alternate-form-1 flag cause the value to be prepended "
+"with \"0\", \"0x\", or \"0X\", respectively."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:503
+msgid "<b>,</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:504
+msgid ""
+"This flag causes comma-separators to be added to the output of %d and %i "
+"substitutions, between every 3 digits from the left.  This can help humans "
+"to more easily discern the magnitude of large integer values.  For example, "
+"the value 2147483647 would be rendered as \"2147483647\" using \"%d\" but "
+"would appear as \"2,147,483,647\" with \"%,d\".  This flag is a non-standard "
+"extension."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:510
+msgid "<b>!</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td>
+#: sedout/printf.html:511
+msgid ""
+"This is the \"alternate-form-2 flag.  For string substitutions, this flag "
+"causes the width and precision to be understand in terms of characters "
+"rather than bytes.  For floating point substitutions, the alternate-form-2 "
+"flag increases the maximum number of significant digits displayed from 16 to "
+"26, forces the display of the decimal point and causes at least one digit to "
+"appear after the decimal point."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><center><table><tr><td><br><br>
+#: sedout/printf.html:518
+msgid ""
+"The alternate-form-2 flag is a non-standard extension that appears in no "
+"other printf() implementations, as far as we know."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/printf.html:523
+msgid "<span>3. </span>Implementation And History"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:526
+msgid ""
+"The core string formatting routine is the sqlite3VXPrintf() function found "
+"in the <a href=\"https://sqlite.org/src/file/src/printf.c\">printf.c</a> "
+"source file.  All the various interfaces invoke (sometimes indirectly) this "
+"one core function.  The sqlite3VXPrintf() function began as code written by "
+"the first author of SQLite (<a href=\"crew.html\">Hipp</a>) when he was a "
+"graduate student at Duke University in the late 1980s.  Hipp kept this "
+"printf() implementation in his personal toolbox until he started working on "
+"SQLite in 2000.  The code was incorporated into the SQLite source tree on <a "
+"href=\"https://sqlite.org/src/timeline?c=f9372072a6\">2000-10-08</a> for "
+"SQLite version 1.0.9."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:537
+msgid ""
+"The <a href=\"https://www.fossil-scm.org/\">Fossil Version Control "
+"System</a> uses its own printf() implementation that is derived from an "
+"early version of the SQLite printf() implementation, but those two "
+"implementations have since diverged."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:542
+msgid ""
+"The <a href=\"c3ref/mprintf.html\">sqlite3_snprintf()</a> function has its "
+"buffer pointer and buffer size arguments reversed from what is found in the "
+"standard C library snprintf()  routine. This is because there was no "
+"snprintf() routine in the standard C library when Hipp was first "
+"implementing his version, and he chose a different order than the designers "
+"of the standard C library."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/printf.html:548
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/printf.in?m=dbe7254b32\">2022-04-18 "
+"02:55:50</a> UTC </i></small>"
+msgstr ""

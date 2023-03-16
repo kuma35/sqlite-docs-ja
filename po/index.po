@@ -1,0 +1,325 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
+"POT-Creation-Date: 2023-03-15 23:04+0900\n"
+"PO-Revision-Date: 2023-03-16 10:30+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/index.html:6
+msgid "SQLite Home Page"
+msgstr "SQLite Home Page"
+
+#. type: Content of: <html><body><div><a>
+#: sedout/index.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/index.html:12
+msgid "SQLite"
+msgstr "SQLite"
+
+#. type: Content of: <html><body><div><div>
+#: sedout/index.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/index.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/index.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/index.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/index.html:22 sedout/index.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/index.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/index.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/index.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/index.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/index.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/index.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/index.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/index.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/index.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/index.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/index.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/index.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/index.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/index.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><h3>
+#: sedout/index.html:123 sedout/index.html:199
+msgid "Common Links"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li>
+#: sedout/index.html:125 sedout/index.html:201
+msgid "<a href=\"features.html\">Features</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li>
+#: sedout/index.html:126 sedout/index.html:202
+msgid "<a href=\"whentouse.html\">When to use SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li>
+#: sedout/index.html:127 sedout/index.html:203
+msgid "<a href=\"quickstart.html\">Getting Started</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li>
+#: sedout/index.html:128 sedout/index.html:204
+msgid "<a href=\"https://sqlite.org/fiddle\">Try it live!</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li>
+#: sedout/index.html:129 sedout/index.html:205
+msgid "<a href=\"chronology.html\">Prior Releases</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li>
+#: sedout/index.html:130 sedout/index.html:206
+msgid "<a href=\"lang.html\">SQL Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li>
+#: sedout/index.html:132 sedout/index.html:208
+msgid "<a href=\"pragma.html#toc\">Pragmas</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li>
+#: sedout/index.html:133 sedout/index.html:209
+msgid "<a href=\"lang_corefunc.html\">SQL functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li>
+#: sedout/index.html:134 sedout/index.html:210
+msgid "<a href=\"lang_datefunc.html\">Date &amp; time functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li>
+#: sedout/index.html:135 sedout/index.html:211
+msgid "<a href=\"lang_aggfunc.html#aggfunclist\">Aggregate functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li><li>
+#: sedout/index.html:136 sedout/index.html:212
+msgid "<a href=\"windowfunctions.html#biwinfunc\">Window functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li><li><li>
+#: sedout/index.html:137 sedout/index.html:213
+msgid "<a href=\"lang_mathfunc.html\">Math functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/index.html:138 sedout/index.html:214
+msgid "<a href=\"json1.html\">JSON functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li>
+#: sedout/index.html:141 sedout/index.html:217
+msgid "<a href=\"c3ref/intro.html\">C/C++ Interface Spec</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li>
+#: sedout/index.html:143 sedout/index.html:219
+msgid "<a href=\"cintro.html\">Introduction</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li>
+#: sedout/index.html:144 sedout/index.html:220
+msgid "<a href=\"c3ref/funclist.html\">List of C-language APIs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li>
+#: sedout/index.html:147 sedout/index.html:223
+msgid "<a href=\"tclsqlite.html\">The TCL Interface Spec</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
+#: sedout/index.html:148 sedout/index.html:224
+msgid "<a href=\"quirks.html\">Quirks and Gotchas</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
+#: sedout/index.html:149 sedout/index.html:225
+msgid "<a href=\"faq.html\">Frequently Asked Questions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
+#: sedout/index.html:150 sedout/index.html:226
+msgid ""
+"<a href=\"http://www.sqlite.org/src/timeline?n=100&y=ci\">Commit History</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
+#: sedout/index.html:151 sedout/index.html:227
+msgid "<a href=\"http://www.sqlite.org/src/wiki?name=Bug+Reports\">Bugs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
+#: sedout/index.html:152 sedout/index.html:228
+msgid "<a href=\"news.html\">News</a>"
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/index.html:157
+msgid "What Is SQLite?"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/index.html:159
+msgid ""
+"SQLite is a C-language library that implements a <a href=\"footprint."
+"html\">small</a>, <a href=\"fasterthanfs.html\">fast</a>, <a "
+"href=\"selfcontained.html\">self-contained</a>, <a href=\"hirely.html\">high-"
+"reliability</a>, <a href=\"fullsql.html\">full-featured</a>, SQL database "
+"engine.  SQLite is the <a href=\"mostdeployed.html\">most used</a> database "
+"engine in the world.  SQLite is built into all mobile phones and most "
+"computers and comes bundled inside countless other applications that people "
+"use every day.  <a href=\"about.html\">More Information...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/index.html:173
+msgid ""
+"The SQLite <a href=\"fileformat2.html\">file format</a> is stable, cross-"
+"platform, and backwards compatible and the developers pledge to keep it that "
+"way <a href=\"lts.html\">through the year 2050</a>.  SQLite database files "
+"are commonly used as containers to transfer rich content between systems <a "
+"href=\"aff_short.html\">&#91;1&#93;</a> <a href=\"sqlar.html\">&#91;2&#93;</"
+"a> <a href=\"appfileformat.html\">&#91;3&#93;</a> and as a long-term "
+"archival format for data <a href=\"locrsf.html\">&#91;4&#93;</a>.  There are "
+"over 1 trillion (1e12)  SQLite databases in active use <a "
+"href=\"mostdeployed.html\">&#91;5&#93;</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/index.html:189
+msgid ""
+"SQLite <a href=\"https://sqlite.org/src\">source code</a> is in the <a "
+"href=\"copyright.html\">public-domain</a> and is free to everyone to use for "
+"any purpose."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><h3>
+#: sedout/index.html:193
+msgid "Latest Release"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/index.html:194
+msgid ""
+"<a href=\"releaselog/3_41_1.html\">Version 3.41.1</a> (2023-03-10).  <a "
+"class=\"button\" href=\"download.html\">Download</a> <a class=\"button\" "
+"href=\"chronology.html\">Prior Releases</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><br><hr><p>
+#: sedout/index.html:235
+msgid ""
+"Ongoing development and support of SQLite is made possible in part by <a "
+"href=\"consortium.html\">SQLite Consortium</a> members, including:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><br><hr>
+#: sedout/index.html:237
+msgid "<a name=\"consortium_members\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><br><hr><style>
+#: sedout/index.html:239
+msgid ""
+"#sponsors { margin:auto; width:80%; } .onesponsor a img { width:200px; max-"
+"width:200px; padding:1ex; }"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><br><hr><br><hr><p>
+#: sedout/index.html:291
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/index.in?m=c6a3d10c19\">2023-03-10 11:42:23</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,578 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/cpu.html:6 sedout/cpu.html:121
+msgid "Measuring and Reducing CPU Usage in SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/cpu.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/cpu.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/cpu.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/cpu.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/cpu.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/cpu.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/cpu.html:22 sedout/cpu.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/cpu.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/cpu.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/cpu.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/cpu.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/cpu.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/cpu.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/cpu.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/cpu.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/cpu.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/cpu.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/cpu.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/cpu.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/cpu.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/cpu.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/cpu.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/cpu.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:129
+msgid "<a href=\"#measuring_performance\">2. Measuring Performance</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:130
+msgid "<a href=\"#compile_options\">2.1. Compile Options</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:131
+msgid "<a href=\"#workload\">2.2. Workload</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:132
+msgid "<a href=\"#performance_measurement\">2.3. Performance Measurement</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:133
+msgid "<a href=\"#microoptimizations\">2.4. Microoptimizations</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:134
+msgid ""
+"<a href=\"#performance_measurement_workflow\">3. Performance Measurement "
+"Workflow</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cpu.html:135
+msgid "<a href=\"#limitations\">4. Limitations</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/cpu.html:139
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/cpu.html:157
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cpu.html:159
+msgid ""
+"The graph below shows the number of CPU cycles used by SQLite on a standard "
+"workload, for versions of SQLite going back about 10 years.  Recent versions "
+"of SQLite use about one third as many the CPU cycles compared to older "
+"versions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cpu.html:165
+msgid ""
+"This article describes how the SQLite developers measure CPU usage, what "
+"those measurements actually mean, and the techniques used by SQLite "
+"developers on their continuing quest to further reduce the CPU usage of the "
+"SQLite library."
+msgstr ""
+
+#. type: Content of: <html><body><div><center><hr><br>
+#: sedout/cpu.html:175
+msgid ""
+"Measured using cachegrind on Ubuntu 16.04 on x64 with gcc 5.4.0 and -Os."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/cpu.html:179
+msgid "<span>2. </span>Measuring Performance"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cpu.html:181
+msgid "In brief, the CPU performance of SQLite is measured as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cpu.html:184
+msgid ""
+"Compile SQLite in an as-delivered configuration, without any special "
+"telemetry or debugging options."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cpu.html:186
+msgid ""
+"Link SQLite against a test program that runs approximately 30,000 SQL "
+"statements representing a typical workload."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cpu.html:188
+msgid ""
+"Count the number of CPU cycles consumed using <a href=\"http://valgrind.org/"
+"docs/manual/cg-manual.html\">cachegrind</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/cpu.html:192
+msgid "<span>2.1. </span>Compile Options"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cpu.html:194
+msgid ""
+"For performance measurement, SQLite is compiled in approximately the same "
+"way as it would be for use in production systems.  The compile-time "
+"configuration is \"approximate\" in the sense that every production use of "
+"SQLite is different. Compile-time options used by one system are not "
+"necessarily the same as those used by others.  The key point is that options "
+"that significantly impact the generated machine code are avoided.  For "
+"example, the -DSQLITE_DEBUG option is omitted because that option inserts "
+"thousands of assert() statements in the middle of performance critical "
+"sections of the SQLite library.  The -pg option (on GCC) is omitted because "
+"it causes the compiler to emit extra probabilistic performance measuring "
+"code which interferes with actual performance measurements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cpu.html:207
+msgid ""
+"For performance measurements, the -Os option is used (optimize for size) "
+"rather than -O2 because the -O2 option creates so much code movement that it "
+"is difficult to associate specific CPU instructions to C source code lines."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/cpu.html:212
+msgid "<span>2.2. </span>Workload"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cpu.html:215
+msgid ""
+"The \"typical\" workload is generated by the <a href=\"https://sqlite.org/"
+"src/file/test/speedtest1.c\">speedtest1.c</a> program in the canonical "
+"SQLite source tree.  This program strives to exercise the SQLite library in "
+"a way that is typical of real-world applications.  Of course, every "
+"application is different, and so no test program can exactly mirror the "
+"behavior of all applications."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cpu.html:223
+msgid ""
+"The speedtest1.c program is updated from time to time as the SQLite "
+"developers' understanding of what constitutes \"typical\" usage evolves."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cpu.html:227
+msgid ""
+"The <a href=\"https://sqlite.org/src/file/tool/speed-check.sh\">speed-check."
+"sh</a> shell script, also in the canonical source tree, is used to run the "
+"speedtest1.c program.  To replicate the performance measurements, collect "
+"the following files into a single directory:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/cpu.html:233
+msgid "the \"speed-check.sh\" script,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/cpu.html:234
+msgid "the \"speedtest1.c\" test program, and"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/cpu.html:235
+msgid ""
+"the <a href=\"amalgamation.html\">SQLite amalgamation</a> source files "
+"\"sqlite3.c\" and \"sqlite3.h\""
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:239
+msgid "Then run \"sh speed-check.sh trunk\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/cpu.html:242
+msgid "<span>2.3. </span>Performance Measurement"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:245
+msgid ""
+"<a href=\"http://valgrind.org/docs/manual/cg-manual.html\">Cachegrind</a> is "
+"used to measure performance because it gives answers that are repeatable to "
+"7 or more significant digits.  In comparison, actual (wall-clock)  run times "
+"are scarcely repeatable beyond one significant digit.  <a "
+"name=\"microopt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/cpu.html:252
+msgid "<span>2.4. </span>Microoptimizations"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:255
+msgid ""
+"The high repeatability of cachegrind allows the SQLite developers to "
+"implement and measure \"microoptimizations\".  A microoptimization is a "
+"change to the code that results in a very small performance increase.  "
+"Typical micro-optimizations reduce the number of CPU cycles by 0.1% or 0.05% "
+"or even less.  Such improvements are impossible to measure with real-world "
+"timings.  But hundreds or thousands of microoptimizations add up, resulting "
+"in measurable real-world performance gains."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/cpu.html:263
+msgid "<span>3. </span>Performance Measurement Workflow"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:266
+msgid ""
+"As SQLite developers edit the SQLite source code, they run the <a "
+"href=\"https://sqlite.org/src/file/tool/speed-check.sh\">speed-check.sh</a> "
+"shell script to track the performance impact of changes.  This script "
+"compiles the speedtest1.c program, runs it under cachegrind, processes the "
+"cachegrind output using the <a href=\"https://sqlite.org/src/file/tool/"
+"cg_anno.tcl\">cg_anno.tcl</a> TCL script, then saves the results in a series "
+"of text files.  Typical output from the speed-check.sh script looks like "
+"this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><pre>
+#: sedout/cpu.html:276
+#, no-wrap
+msgid ""
+"==8683== \n"
+"==8683== I   refs:      "
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><pre><font>
+#: sedout/cpu.html:277
+msgid "1,060,925,768"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><pre>
+#: sedout/cpu.html:278
+#, no-wrap
+msgid ""
+"==8683== I1  misses:       23,731,246\n"
+"==8683== LLi misses:            5,176\n"
+"==8683== I1  miss rate:          2.24%\n"
+"==8683== LLi miss rate:          0.00%\n"
+"==8683== \n"
+"==8683== D   refs:        557,686,925  (361,828,925 rd   + 195,858,000 wr)\n"
+"==8683== D1  misses:        5,067,063  (  3,544,278 rd   +   1,522,785 wr)\n"
+"==8683== LLd misses:           57,958  (     16,067 rd   +      41,891 wr)\n"
+"==8683== D1  miss rate:           0.9% (        1.0%     +         0.8%  )\n"
+"==8683== LLd miss rate:           0.0% (        0.0%     +         0.0%  )\n"
+"==8683== \n"
+"==8683== LL refs:          28,798,309  ( 27,275,524 rd   +   1,522,785 wr)\n"
+"==8683== LL misses:            63,134  (     21,243 rd   +      41,891 wr)\n"
+"==8683== LL miss rate:            0.0% (        0.0%     +         0.0%  )\n"
+"   text\t   data\t    bss\t    dec\t    hex\tfilename\n"
+" 523044\t   8240\t   1976\t "
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><pre><font>
+#: sedout/cpu.html:293
+msgid "533260"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><pre>
+#: sedout/cpu.html:293
+#, no-wrap
+msgid ""
+"\t  8230c\tsqlite3.o\n"
+" 220507 1007870 7769352 sqlite3.c\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:297
+msgid ""
+"The important parts of the output (the parts that the developers pay the "
+"most attention to) are shown in red.  Basically, the developers want to know "
+"the size of the compiled SQLite library and how many CPU cycles were needed "
+"to run the performance test."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:302
+msgid ""
+"The output from the <a href=\"https://sqlite.org/src/file/tool/cg_anno."
+"tcl\">cg_anno.tcl</a> script shows the number of CPU cycles spent on each "
+"line of code.  The report is approximately 80,000 lines long.  The following "
+"is a brief snippet taken from the middle of the report to show what it looks "
+"like:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><pre>
+#: sedout/cpu.html:309
+#, no-wrap
+msgid ""
+"         .  SQLITE_PRIVATE int sqlite3BtreeNext(BtCursor *pCur, int *pRes){\n"
+"         .    MemPage *pPage;\n"
+"         .    assert( cursorOwnsBtShared(pCur) );\n"
+"         .    assert( pRes!=0 );\n"
+"         .    assert( *pRes==0 || *pRes==1 );\n"
+"         .    assert( pCur-&gt;skipNext==0 || pCur-&gt;eState!=CURSOR_VALID );\n"
+"   369,648    pCur-&gt;info.nSize = 0;\n"
+"   369,648    pCur-&gt;curFlags &amp;= ~(BTCF_ValidNKey|BTCF_ValidOvfl);\n"
+"   369,648    *pRes = 0;\n"
+"   739,296    if( pCur-&gt;eState!=CURSOR_VALID ) return btreeNext(pCur, pRes);\n"
+" 1,473,580    pPage = pCur-&gt;apPage&#91;pCur-&gt;iPage&#93;;\n"
+" 1,841,975    if( (++pCur-&gt;aiIdx&#91;pCur-&gt;iPage&#93;)&gt;=pPage-&gt;nCell ){\n"
+"     4,340      pCur-&gt;aiIdx&#91;pCur-&gt;iPage&#93;--;\n"
+"     5,593      return btreeNext(pCur, pRes);\n"
+"         .    }\n"
+"   728,110    if( pPage-&gt;leaf ){\n"
+"         .      return SQLITE_OK;\n"
+"         .    }else{\n"
+"     3,117      return moveToLeftmost(pCur);\n"
+"         .    }\n"
+"   721,876  }\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:333
+msgid ""
+"The numbers on the left are the CPU cycle counts for that line of code, of "
+"course."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:337
+msgid ""
+"The cg_anno.tcl script removes extraneous details from the default "
+"cachegrind annotation output so that before-and-after reports can be "
+"compared using a side-by-side diff to view specific details of how a micro-"
+"optimization attempt affected performance."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/cpu.html:344
+msgid "<span>4. </span>Limitations"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/cpu.html:346
+msgid ""
+"The use of the standardized speedtest1.c workload and cachegrind has enabled "
+"significant performance improvement.  However, it is important to recognize "
+"the limitations of this approach:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/cpu.html:352
+msgid ""
+"Performance measurements are done with a single compiler (gcc 5.4.0), "
+"optimization setting (-Os), and on a single platform (Ubuntu 16.04 LTS on "
+"x64).  The performance of other compilers and processors may vary."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/cpu.html:358
+msgid ""
+"The speedtest1.c workload that is being measured tries to be representative "
+"of a wide range of typical uses of SQLite.  But every application is "
+"different.  The speedtest1.c workload might not be a good proxy for the "
+"kinds of activities performed by some applications.  The SQLite developers "
+"are constantly working to improve the speedtest1.c program, to make it a "
+"better proxy for actual SQLite usage.  Community feedback is welcomed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/cpu.html:366
+msgid ""
+"The cycle counts provided by cachegrind are a good proxy for actual "
+"performance, but they are not 100% accurate."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/cpu.html:370
+msgid ""
+"Only CPU cycle counts are being measured here.  CPU cycle counts are a good "
+"proxy for energy consumption, but do not necessary correlate well with real-"
+"world timings.  Time spent doing I/O is not reflected in the CPU cycle "
+"counts, and I/O time predominates in many SQLite usage scenarios."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/cpu.html:376
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/cpu.in?m=30de04a5bf\">2022-01-08 05:02:57</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/open.html:6 sedout/c3ref/open.html:121
+msgid "Opening A New Database Connection"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/open.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/open.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/open.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/open.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/open.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/open.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/open.html:22 sedout/c3ref/open.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/open.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/open.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/open.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/open.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/open.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/open.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/open.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/open.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/open.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/open.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/open.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/open.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/open.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/open.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/open.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/open.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/open.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/open.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/open.html:124
+#, no-wrap
+msgid ""
+"int sqlite3_open(\n"
+"  const char *filename,   /* Database filename (UTF-8) */\n"
+"  sqlite3 **ppDb          /* OUT: SQLite db handle */\n"
+");\n"
+"int sqlite3_open16(\n"
+"  const void *filename,   /* Database filename (UTF-16) */\n"
+"  sqlite3 **ppDb          /* OUT: SQLite db handle */\n"
+");\n"
+"int sqlite3_open_v2(\n"
+"  const char *filename,   /* Database filename (UTF-8) */\n"
+"  sqlite3 **ppDb,         /* OUT: SQLite db handle */\n"
+"  int flags,              /* Flags */\n"
+"  const char *zVfs        /* Name of VFS module to use */\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:140
+msgid ""
+"These routines open an SQLite database file as specified by the filename "
+"argument. The filename argument is interpreted as UTF-8 for sqlite3_open() "
+"and sqlite3_open_v2() and as UTF-16 in the native byte order for "
+"sqlite3_open16(). A <a href=\"../c3ref/sqlite3.html\">database "
+"connection</a> handle is usually returned in *ppDb, even if an error "
+"occurs.  The only exception is that if SQLite is unable to allocate memory "
+"to hold the <a href=\"../c3ref/sqlite3.html\">sqlite3</a> object, a NULL "
+"will be written into *ppDb instead of a pointer to the <a "
+"href=\"../c3ref/sqlite3.html\">sqlite3</a> object. If the database is opened "
+"(and/or created) successfully, then <a "
+"href=\"../rescode.html#ok\">SQLITE_OK</a> is returned.  Otherwise an <a "
+"href=\"../rescode.html\">error code</a> is returned. The <a "
+"href=\"../c3ref/errcode.html\">sqlite3_errmsg()</a> or <a "
+"href=\"../c3ref/errcode.html\">sqlite3_errmsg16()</a> routines can be used "
+"to obtain an English language description of the error following a failure "
+"of any of the sqlite3_open() routines."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:153
+msgid ""
+"The default encoding will be UTF-8 for databases created using "
+"sqlite3_open() or sqlite3_open_v2().  The default encoding for databases "
+"created using sqlite3_open16() will be UTF-16 in the native byte order."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:157
+msgid ""
+"Whether or not an error occurs when it is opened, resources associated with "
+"the <a href=\"../c3ref/sqlite3.html\">database connection</a> handle should "
+"be released by passing it to <a "
+"href=\"../c3ref/close.html\">sqlite3_close()</a> when it is no longer "
+"required."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:161
+msgid ""
+"The sqlite3_open_v2() interface works like sqlite3_open()  except that it "
+"accepts two additional parameters for additional control over the new "
+"database connection.  The flags parameter to sqlite3_open_v2() must include, "
+"at a minimum, one of the following three flag combinations:"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/open.html:168
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_READONLY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/open.html:169
+msgid ""
+"The database is opened in read-only mode.  If the database does not already "
+"exist, an error is returned."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/open.html:172
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_READWRITE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/open.html:173
+msgid ""
+"The database is opened for reading and writing if possible, or reading only "
+"if the file is write protected by the operating system.  In either case the "
+"database must already exist, otherwise an error is returned.  For historical "
+"reasons, if opening in read-write mode fails due to OS-level permissions, an "
+"attempt is made to open it in read-only mode. <a "
+"href=\"../c3ref/db_readonly.html\">sqlite3_db_readonly()</a> can be used to "
+"determine whether the database is actually read-write."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/open.html:182
+msgid ""
+"<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_READWRITE</a> | <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_CREATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/open.html:183
+msgid ""
+"The database is opened for reading and writing, and is created if it does "
+"not already exist. This is the behavior that is always used for "
+"sqlite3_open() and sqlite3_open16()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:188
+msgid ""
+"In addition to the required flags, the following optional flags are also "
+"supported:"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/open.html:192
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_URI</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/open.html:193
+msgid "The filename can be interpreted as a URI if this flag is set."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/open.html:195
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_MEMORY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/open.html:196
+msgid ""
+"The database will be opened as an in-memory database.  The database is named "
+"by the \"filename\" argument for the purposes of cache-sharing, if shared "
+"cache mode is enabled, but the \"filename\" is otherwise ignored."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/c3ref/open.html:201
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_NOMUTEX</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd>
+#: sedout/c3ref/open.html:202
+msgid ""
+"The new database connection will use the \"multi-thread\" <a "
+"href=\"../threadsafe.html\">threading mode</a>.  This means that separate "
+"threads are allowed to use SQLite at the same time, as long as each thread "
+"is using a different <a href=\"../c3ref/sqlite3.html\">database "
+"connection</a>."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dt>
+#: sedout/c3ref/open.html:207
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_FULLMUTEX</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd>
+#: sedout/c3ref/open.html:208
+msgid ""
+"The new database connection will use the \"serialized\" <a "
+"href=\"../threadsafe.html\">threading mode</a>.  This means the multiple "
+"threads can safely attempt to use the same database connection at the same "
+"time.  (Mutexes will block any actual concurrency, but in this mode there is "
+"no harm in trying.)"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dt>
+#: sedout/c3ref/open.html:214
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_SHAREDCACHE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd>
+#: sedout/c3ref/open.html:215
+msgid ""
+"The database is opened <a href=\"../sharedcache.html\">shared cache</a> "
+"enabled, overriding the default shared cache setting provided by <a "
+"href=\"../c3ref/enable_shared_cache.html\">sqlite3_enable_shared_cache()</a>.  "
+"The <a href=\"../sharedcache.html#dontuse\">use of shared cache mode is "
+"discouraged</a> and hence shared cache capabilities may be omitted from many "
+"builds of SQLite.  In such cases, this option is a no-op."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dt>
+#: sedout/c3ref/open.html:222
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_PRIVATECACHE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd>
+#: sedout/c3ref/open.html:223
+msgid ""
+"The database is opened <a href=\"../sharedcache.html\">shared cache</a> "
+"disabled, overriding the default shared cache setting provided by <a "
+"href=\"../c3ref/enable_shared_cache.html\">sqlite3_enable_shared_cache()</a>.  "
+"<a name=\"openexrescode\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dt>
+#: sedout/c3ref/open.html:228
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_EXRESCODE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd>
+#: sedout/c3ref/open.html:229
+msgid ""
+"The database connection comes up in \"extended result code mode\".  In other "
+"words, the database behaves has if <a "
+"href=\"../c3ref/extended_result_codes.html\">sqlite3_extended_result_codes(db,1)</a> "
+"where called on the database connection as soon as the connection is "
+"created. In addition to setting the extended result code mode, this flag "
+"also causes <a href=\"../c3ref/open.html\">sqlite3_open_v2()</a> to return "
+"an extended result code."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd>
+#: sedout/c3ref/open.html:236
+msgid "<a name=\"opennofollow\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dt>
+#: sedout/c3ref/open.html:237
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_NOFOLLOW</a>"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dd><dd><dd><dd><dd>
+#: sedout/c3ref/open.html:238
+msgid "The database filename is not allowed to contain a symbolic link"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:241
+msgid ""
+"If the 3rd parameter to sqlite3_open_v2() is not one of the required "
+"combinations shown above optionally combined with other <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_* bits</a> then the "
+"behavior is undefined.  Historic versions of SQLite have silently ignored "
+"surplus bits in the flags parameter to sqlite3_open_v2(), however that "
+"behavior might not be carried through into future versions of SQLite and so "
+"applications should not rely upon it.  Note in particular that the "
+"SQLITE_OPEN_EXCLUSIVE flag is a no-op for sqlite3_open_v2().  The "
+"SQLITE_OPEN_EXCLUSIVE does *not* cause the open to fail if the database "
+"already exists.  The SQLITE_OPEN_EXCLUSIVE flag is intended for use by the "
+"<a href=\"../c3ref/vfs.html\">VFS interface</a> only, and not by "
+"sqlite3_open_v2()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:254
+msgid ""
+"The fourth parameter to sqlite3_open_v2() is the name of the <a "
+"href=\"../c3ref/vfs.html\">sqlite3_vfs</a> object that defines the operating "
+"system interface that the new database connection should use.  If the fourth "
+"parameter is a NULL pointer then the default <a "
+"href=\"../c3ref/vfs.html\">sqlite3_vfs</a> object is used."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:259
+msgid ""
+"If the filename is \":memory:\", then a private, temporary in-memory "
+"database is created for the connection.  This in-memory database will vanish "
+"when the database connection is closed.  Future versions of SQLite might "
+"make use of additional special filenames that begin with the \":\" "
+"character.  It is recommended that when a database filename actually does "
+"begin with a \":\" character you should prefix the filename with a pathname "
+"such as \"./\" to avoid ambiguity."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:267
+msgid ""
+"If the filename is an empty string, then a private, temporary on-disk "
+"database will be created.  This private database will be automatically "
+"deleted as soon as the database connection is closed."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:271
+msgid "<a name=\"urifilenamesinsqlite3open\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><h3>
+#: sedout/c3ref/open.html:272
+msgid "URI Filenames"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:274
+msgid ""
+"If <a href=\"../uri.html\">URI filename</a> interpretation is enabled, and "
+"the filename argument begins with \"file:\", then the filename is "
+"interpreted as a URI. URI filename interpretation is enabled if the <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_URI</a> flag is set in "
+"the third argument to sqlite3_open_v2(), or if it has been enabled globally "
+"using the <a "
+"href=\"../c3ref/c_config_covering_index_scan.html#sqliteconfiguri\">SQLITE_CONFIG_URI</a> "
+"option with the <a href=\"../c3ref/config.html\">sqlite3_config()</a> method "
+"or by the <a href=\"../compile.html#use_uri\">SQLITE_USE_URI</a> "
+"compile-time option.  URI filename interpretation is turned off by default, "
+"but future releases of SQLite might enable URI filename interpretation by "
+"default.  See \"<a href=\"../uri.html\">URI filenames</a>\" for additional "
+"information."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:285
+msgid ""
+"URI filenames are parsed according to RFC 3986. If the URI contains an "
+"authority, then it must be either an empty string or the string "
+"\"localhost\". If the authority is not an empty string or \"localhost\", an "
+"error is returned to the caller. The fragment component of a URI, if "
+"present, is ignored."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:291
+msgid ""
+"SQLite uses the path component of the URI as the name of the disk file which "
+"contains the database. If the path begins with a '/' character, then it is "
+"interpreted as an absolute path. If the path does not begin with a '/' "
+"(meaning that the authority section is omitted from the URI)  then the path "
+"is interpreted as a relative path.  On windows, the first component of an "
+"absolute path is a drive specification (e.g. \"C:\")."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:299
+msgid ""
+"<a name=\"coreuriqueryparameters\"></a> The query component of a URI may "
+"contain parameters that are interpreted either by SQLite itself, or by a <a "
+"href=\"../vfs.html\">custom VFS implementation</a>.  SQLite and its built-in "
+"<a href=\"../vfs.html\">VFSes</a> interpret the following query parameters:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/open.html:307
+msgid ""
+"<b>vfs</b>: The \"vfs\" parameter may be used to specify the name of a VFS "
+"object that provides the operating system interface that should be used to "
+"access the database file on disk. If this option is set to an empty string "
+"the default VFS object is used. Specifying an unknown VFS is an error. If "
+"sqlite3_open_v2() is used and the vfs option is present, then the VFS "
+"specified by the option takes precedence over the value passed as the fourth "
+"parameter to sqlite3_open_v2()."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/c3ref/open.html:315
+msgid ""
+"<b>mode</b>: The mode parameter may be set to either \"ro\", \"rw\", "
+"\"rwc\", or \"memory\". Attempting to set it to any other value is an "
+"error.  If \"ro\" is specified, then the database is opened for read-only "
+"access, just as if the <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_READONLY</a> flag had "
+"been set in the third argument to sqlite3_open_v2(). If the mode option is "
+"set to \"rw\", then the database is opened for read-write (but not create)  "
+"access, as if SQLITE_OPEN_READWRITE (but not SQLITE_OPEN_CREATE) had been "
+"set. Value \"rwc\" is equivalent to setting both SQLITE_OPEN_READWRITE and "
+"SQLITE_OPEN_CREATE.  If the mode option is set to \"memory\" then a pure <a "
+"href=\"../inmemorydb.html\">in-memory database</a> that never reads or "
+"writes from disk is used. It is an error to specify a value for the mode "
+"parameter that is less restrictive than that specified by the flags passed "
+"in the third parameter to sqlite3_open_v2()."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li>
+#: sedout/c3ref/open.html:330
+msgid ""
+"<b>cache</b>: The cache parameter may be set to either \"shared\" or "
+"\"private\". Setting it to \"shared\" is equivalent to setting the "
+"SQLITE_OPEN_SHAREDCACHE bit in the flags argument passed to "
+"sqlite3_open_v2(). Setting the cache parameter to \"private\" is equivalent "
+"to setting the SQLITE_OPEN_PRIVATECACHE bit.  If sqlite3_open_v2() is used "
+"and the \"cache\" parameter is present in a URI filename, its value "
+"overrides any behavior requested by setting SQLITE_OPEN_PRIVATECACHE or "
+"SQLITE_OPEN_SHAREDCACHE flag."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li>
+#: sedout/c3ref/open.html:339
+msgid ""
+"<b>psow</b>: The psow parameter indicates whether or not the <a "
+"href=\"../psow.html\">powersafe overwrite</a> property does or does not "
+"apply to the storage media on which the database file resides."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li>
+#: sedout/c3ref/open.html:343
+msgid ""
+"<b>nolock</b>: The nolock parameter is a boolean query parameter which if "
+"set disables file locking in rollback journal modes.  This is useful for "
+"accessing a database on a filesystem that does not support locking.  "
+"Caution: Database corruption might result if two or more processes write to "
+"the same database and any one of those processes uses nolock=1."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li>
+#: sedout/c3ref/open.html:350
+msgid ""
+"<b>immutable</b>: The immutable parameter is a boolean query parameter that "
+"indicates that the database file is stored on read-only media.  When "
+"immutable is set, SQLite assumes that the database file cannot be changed, "
+"even by a process with higher privilege, and so the database is opened "
+"read-only and all locking and change detection is disabled.  Caution: "
+"Setting the immutable property on a database file that does in fact change "
+"can result in incorrect query results and/or <a "
+"href=\"../rescode.html#corrupt\">SQLITE_CORRUPT</a> errors.  See also: <a "
+"href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_IMMUTABLE</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:362
+msgid ""
+"Specifying an unknown parameter in the query component of a URI is not an "
+"error.  Future versions of SQLite might understand additional query "
+"parameters.  See \"<a href=\"../uri.html#coreqp\">query parameters with "
+"special meaning to SQLite</a>\" for additional information."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:367
+msgid "<a name=\"urifilenameexamples\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><h3>
+#: sedout/c3ref/open.html:368
+msgid "URI filename examples"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th>
+#: sedout/c3ref/open.html:371
+msgid "URI filenames"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th>
+#: sedout/c3ref/open.html:371
+msgid "Results"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td>
+#: sedout/c3ref/open.html:372
+msgid "file:data.db"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td>
+#: sedout/c3ref/open.html:373
+msgid "Open the file \"data.db\" in the current directory."
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td>
+#: sedout/c3ref/open.html:374
+msgid "file:/home/fred/data.db"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br>
+#: sedout/c3ref/open.html:375
+msgid "file:///home/fred/data.db"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br>
+#: sedout/c3ref/open.html:376
+msgid "file://localhost/home/fred/data.db"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td>
+#: sedout/c3ref/open.html:377
+msgid "Open the database file \"/home/fred/data.db\"."
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td>
+#: sedout/c3ref/open.html:378
+msgid "file://darkstar/home/fred/data.db"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td>
+#: sedout/c3ref/open.html:379
+msgid "An error. \"darkstar\" is not a recognized authority."
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td>
+#: sedout/c3ref/open.html:381
+msgid "file:///C:/Documents%20and%20Settings/fred/Desktop/data.db"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td>
+#: sedout/c3ref/open.html:382
+msgid ""
+"Windows only: Open the file \"data.db\" on fred's desktop on drive C:. Note "
+"that the %20 escaping in this example is not strictly necessary - space "
+"characters can be used literally in URI filenames."
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/c3ref/open.html:386
+msgid "file:data.db?mode=ro&cache=private"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/c3ref/open.html:387
+msgid ""
+"Open file \"data.db\" in the current directory for read-only access.  "
+"Regardless of whether or not shared-cache mode is enabled by default, use a "
+"private cache."
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/c3ref/open.html:390
+msgid "file:/home/fred/data.db?vfs=unix-dotfile"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/c3ref/open.html:391
+msgid ""
+"Open file \"/home/fred/data.db\". Use the special VFS \"unix-dotfile\" that "
+"uses dot-files in place of posix advisory locking."
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td>
+#: sedout/c3ref/open.html:393
+msgid "file:data.db?mode=readonly"
+msgstr ""
+
+#. type: Content of: <html><body><p><table><tr><th><th><tr><td><td><tr><td><br><br><br><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td><tr><td><td>
+#: sedout/c3ref/open.html:394
+msgid ""
+"An error. \"readonly\" is not a valid option for the \"mode\" parameter.  "
+"Use \"ro\" instead: \"file:data.db?mode=ro\"."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:398
+msgid ""
+"URI hexadecimal escape sequences (%HH) are supported within the path and "
+"query components of a URI. A hexadecimal escape sequence consists of a "
+"percent sign - \"%\" - followed by exactly two hexadecimal digits specifying "
+"an octet value. Before the path or query components of a URI filename are "
+"interpreted, they are encoded using UTF-8 and all hexadecimal escape "
+"sequences replaced by a single byte containing the corresponding octet. If "
+"this process generates an invalid UTF-8 encoding, the results are undefined."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:407
+msgid ""
+"<b>Note to Windows users:</b> The encoding used for the filename argument of "
+"sqlite3_open() and sqlite3_open_v2() must be UTF-8, not whatever codepage is "
+"currently defined.  Filenames containing international characters must be "
+"converted to UTF-8 prior to passing them into sqlite3_open() or "
+"sqlite3_open_v2()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:413
+msgid ""
+"<b>Note to Windows Runtime users:</b> The temporary directory must be set "
+"prior to calling sqlite3_open() or sqlite3_open_v2().  Otherwise, various "
+"features that require the use of temporary files may fail."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:417
+msgid ""
+"See also: <a "
+"href=\"../c3ref/temp_directory.html\">sqlite3_temp_directory</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/open.html:418
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

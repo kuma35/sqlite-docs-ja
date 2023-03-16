@@ -1,0 +1,643 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-14 21:17+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><h1>
+#: sedout/books.html:6 sedout/books.html:121
+msgid "Books About SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/books.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/books.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/books.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/books.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/books.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/books.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/books.html:22 sedout/books.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/books.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/books.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/books.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/books.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/books.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/books.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/books.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/books.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/books.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/books.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/books.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/books.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/books.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/books.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/books.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:126
+msgid "SQLite Forensics (2018)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><table><tr><td><img><td><p>
+#: sedout/books.html:129
+msgid "Author: Paul Sanderson"
+msgstr ""
+
+#. type: Content of: <html><body><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:130
+msgid ""
+"Publisher: <a href=\"https://www.amazon.com/product/dp/1980293074\">Amazon</"
+"a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><table><tr><td><img><td><p><br><p>
+#: sedout/books.html:133
+msgid ""
+"This text by noted digital forensics expert, Paul Sanderson, provides "
+"investigators with low-level technical details useful in analysing SQLite "
+"database files."
+msgstr ""
+
+#. type: Content of: <html><body><hr><table><tr><td><img><td><p><br><p><p>
+#: sedout/books.html:138
+msgid ""
+"Every computer and phone uses hundreds of SQLite databases and there are "
+"over one trillion SQLite databases in active use. Hence, the importance of "
+"examining the data held in these databases in an investigation, including "
+"deleted data when possible, is paramount. This book fully explains the "
+"format of the SQLite database file. It shows how records are encoded, how to "
+"decode them manually and how to decode records that are partially "
+"overwritten. It also describe how the workings of SQLite, and in particular "
+"the journal and WAL, can be used to ascertain what has happened in a manner "
+"that cannot be determined from the data alone. The book covers basic SQL "
+"queries and how they can be used to create a custom report that includes "
+"data from different tables, and shows how one can use SQL queries to test "
+"hypotheses about the relationships of data in different tables."
+msgstr ""
+
+#. type: Content of: <html><body><hr><table><tr><td><img><td><p><br><p><p><p>
+#: sedout/books.html:152
+msgid ""
+"This book is aimed mainly at forensic practitioners, and it is assumed that "
+"the reader has some basic knowledge of computer forensics; it will also be "
+"of interest to computer professionals in general particularly those who have "
+"an interest in the SQLite file format."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:163
+msgid "Learning SQLite for iOS (2016)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:166
+msgid "Author: Gene&nbsp;Da&nbsp;Rocha"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:167
+msgid ""
+"Publisher: <a href=\"https://www.packtpub.com/application-development/"
+"learning-sqlite-ios\">Packt Publishing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><table><tr><td><img><td><p><br><p>
+#: sedout/books.html:170
+msgid ""
+"This book starts with the architecture of SQLite database and introduces you "
+"to concepts in SQL. You will find yourself equipped to design your own "
+"database system, administer it, and maintain it. Further, you will learn how "
+"to operate your SQLite databases smoothly using SQL commands."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><table><tr><td><img><td><p><br><p><p>
+#: sedout/books.html:176
+msgid ""
+"You will be able to extend the functionality of SQLite by using its vast "
+"arsenal of C API calls to build some interesting, exciting, new, and "
+"intelligent data-driven applications. Understand how Xcode, HTML5, and "
+"Phonegap can be used to build a cross-platform modern app which can benefit "
+"from all these technologies - all through creating a complete, customizable "
+"application skeleton that you can build on for your own apps. This book "
+"provides a comprehensive description of SQLite database system. It describes "
+"design principles, engineering trade-offs, implementation issues, and "
+"operations of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:190
+msgid "SQLite Database System Design and Implementation (2015)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p>
+#: sedout/books.html:193 sedout/books.html:399
+msgid "Author: Sibsankar Haldar"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:194
+msgid ""
+"Publisher: <a href=\"https://books.google.com/books?"
+"id=OEJ1CQAAQBAJ\">https://books.google.com/</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><table><tr><td><img><td><p><br><br><p>
+#: sedout/books.html:197
+msgid ""
+"This book provides a comprehensive description of SQLite database system.  "
+"It describes design principles, engineering trade-offs, implementation "
+"issues, and operations of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:205
+msgid "Android SQLite Essentials (2014)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:208
+msgid "Authors: Sunny Kumar Aditya and Vikash Kumar Karn"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:209
+msgid ""
+"Publisher: <a href=\"https://www.packtpub.com/application-development/"
+"android-sqlite-essentials\"> Packt Publishing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><table><tr><td><img><td><p><br><br><p>
+#: sedout/books.html:213
+msgid ""
+"Android SQLite Essentials focuses on the core concepts behind building "
+"database-driven applications. This book covers the basic and advanced topics "
+"with equivalent simplicity and detail, in order to enable readers to quickly "
+"grasp and implement the concepts to build an application database."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><table><tr><td><img><td><p><br><br><p><p>
+#: sedout/books.html:219
+msgid ""
+"This book takes a hands-on, example-based approach to help readers "
+"understand the core topics of SQLite and Android database-driven "
+"applications. This book focuses on providing you with latent as well as "
+"widespread knowledge about practices and approaches towards development in "
+"an easily understandable manner."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:229
+msgid "SQLite for Mobile Apps Simplified (2014)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:232
+msgid "Author: Sribatsa Das"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:233
+msgid "Publisher: Amazon"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br>
+#: sedout/books.html:234
+msgid "<a href=\"https://www.amazon.com/dp/product/B00M3OVSRK\">Amazon</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br><p>
+#: sedout/books.html:237
+msgid ""
+"SQLite for Mobile Apps Simplified is devoted to presenting approach and "
+"implementation methodology for using SQLite database in mobile apps.  It "
+"presents step-by-step examples to create schema, execute transactions and "
+"access data from Android, BlackBerry and iOS applications.  In addition, it "
+"presents ADB Shell and SQLite command-line shell from ADB Shell to access "
+"the SQLite Database created by the Android apps.  For BlackBerry and iOS "
+"application, the book presents ways to access the data using the command "
+"line shell."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:250
+msgid "The Definitive Guide to SQLite (2nd edition, 2010)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:253
+msgid "Authors: Mike Owens and Grant Allen"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:254
+msgid "Publisher: Apress"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br>
+#: sedout/books.html:255
+msgid "<a href=\"http://www.amazon.com/gp/product/1430232250\">Amazon</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:258
+msgid ""
+"Outside of the world of enterprise computing, there is one database that "
+"enables a huge range of software and hardware to flex relational database "
+"capabilities, without the baggage and cost of traditional database "
+"management systems. That database is SQLite - an embeddable database with an "
+"amazingly small footprint, yet able to handle databases of enormous size. "
+"SQLite comes equipped with an array of powerful features available through a "
+"host of programming and development environments. It is supported by "
+"languages such as C, Java, Perl, PHP, Python, Ruby, TCL, and more."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:268
+msgid ""
+"<i>The Definitive Guide to SQLite, Second Edition</i> is devoted to complete "
+"coverage of the latest version of this powerful database. It offers a "
+"thorough overview of SQLite's capabilities and APIs. The book also uses "
+"SQLite as the basis for helping newcomers make their first foray into "
+"database development. In only a short time you can be writing programs as "
+"diverse as a server-side browser plug-in or the next great iPhone or Android "
+"application!"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><h2>
+#: sedout/books.html:281
+msgid "Using SQLite (2010)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p>
+#: sedout/books.html:284
+msgid "Author: Jay A. Kreibich"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p><br>
+#: sedout/books.html:285 sedout/books.html:400
+msgid "Publisher: O'Reilly Media"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p><br><br>
+#: sedout/books.html:286
+msgid "<a href=\"http://oreilly.com/catalog/9780596521196/\">O'Reilly</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p>
+#: sedout/books.html:288
+msgid ""
+"Developers, take note: databases aren't just for the IS group any more.  You "
+"can build database-backed applications for the desktop, Web, embedded "
+"systems, or operating systems without linking to heavy-duty client-server "
+"databases such as Oracle and MySQL.  This book shows how you to use SQLite, "
+"a small and lightweight database that you can build right into your "
+"application during development.  Applications that handle data have an "
+"enormous advantage today, and with SQLite, you'll discover how to develop a "
+"database-backed application that remains manageable in size and complexity. "
+"This book guides you every step of the way. You'll get a crash course in "
+"data modeling, become familiar with SQLite's dialect of the SQL database "
+"language, and learn how you to work with SQLite using either a scripting "
+"language or a C-based language, such as C# or Objective C.Now, even "
+"relatively small and nimble applications can be a part of the data "
+"revolution. Using SQLite shows you how."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><h2>
+#: sedout/books.html:309
+msgid "SQLite 3 - Einstieg in die Datenbankwelt (2010)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p>
+#: sedout/books.html:312
+msgid "Author: Kay Droessler"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:313 sedout/books.html:364
+msgid "Publisher: Lulu.com"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p><br><br>
+#: sedout/books.html:314
+msgid "<a href=\"https://www.amazon.com/product/dp/1445741075\">Amazon</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p>
+#: sedout/books.html:316
+msgid ""
+"Die Datenbanksprache SQL ( Structured Query Language ) wird in Datenbanken "
+"zur Definition, Manipulation, Sicherung, aber hauptsaechlich zur Abfrage von "
+"Daten aus der Datenbank eingesetzt. Unabhaengig vom Betriebssystem oder "
+"aufwendigen, benutzerfreundlichen, graphischen Oberflaechen bleibt die Logik "
+"aber immer gleich.SQLite ist eine freie Desktop-Datenbank, sie kostet "
+"nichts, ist fuer viele Betriebssysteme verfuegbar, schnell heruntergeladen "
+"und installiert und auf das Notwendigste reduziert. Fuer den Einsteiger sind "
+"das die besten Voraussetzungen, ohne viel Aufwand schnell in die Welt der "
+"Datenbanken und Datenbanksprache reinzuschnuppern.Wer nach den Uebungen aber "
+"auf den Geschmack gekommen ist, hat schon den groessten Teil an Datenbanken "
+"und SQL gelernt, denn alles Besprochene ist Wissen, welches auch auf jedes "
+"andere der vielen Datenbanken grundlegend anwendbar ist. Nun koennen Sie auf "
+"die richtig Grossen zugehen, vom grossen Fachbuch bis zum riesigen "
+"Datenbanksystem."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:336
+msgid "Inside Symbian SQL (2010)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:338
+msgid "Authors: Ivan Litovski &amp; Richard Maynard"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:339
+msgid "Publisher: Wiley"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br>
+#: sedout/books.html:340
+msgid ""
+"<a href=\"http://www.wiley.com/WileyCDA/WileyTitle/productCd-0470744022."
+"html\">wiley.com</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:343
+msgid ""
+"This is the definitive reference book on the Symbian SQL database which is "
+"based on SQLite. The authors (both members of the Symbian engineering team "
+"responsible for the implementation of the code)  show you how to design code "
+"and ease migration from an internal and external point of view, plus they "
+"reveal the dos and don'ts of writing high-performance database applications. "
+"Packed with resources and sample code, this timely book reveals how to "
+"design and tune applications that use the Symbian SQL framework to "
+"ultimately improve performance."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:353
+msgid ""
+"With its sample code and insider expertise, this text has everything you "
+"need to keep you ahead of the curve."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:361
+msgid "The SQL Guide to SQLite (2009)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:363
+msgid "Author: Rick F. van der Lans"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br>
+#: sedout/books.html:365
+msgid "<a href=\"https://www.amazon.com/product/dp/0557076765\">Amazon</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:367
+msgid ""
+"SQLite is a small, fast, embeddable, SQL-based database server.  It is easy "
+"to install, needs no management, and is open source.  This book describes "
+"SQLite in detail. With hundreds of examples, plus a proven approach and "
+"structure, the book teaches you how to use SQLite efficiently and "
+"effectively. It contains a complete description of the SQL dialect as "
+"implemented in SQLite version 3.6. The book can be seen as a tutorial and a "
+"reference book. Source code for the numerous SQL examples and exercises "
+"included in this book can be downloaded from www.r20.nl."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:381
+msgid "An Introduction to SQLite - 2nd Edition (2009)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:383
+msgid "Author: Naoki Nishizawa"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:384
+msgid "Publisher: Shoeisha"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br>
+#: sedout/books.html:385
+msgid ""
+"<a href=\"https://www.amazon.co.jp/product/dp/479811944X\">Amazon.jp</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:387
+msgid ""
+"This text is written in fluent Japanese specifically for a Japanese "
+"audience.  This is the second edition of the book - the first edition was "
+"published in 2005."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><h2>
+#: sedout/books.html:396
+msgid "Inside SQLite (2007)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p><br><br>
+#: sedout/books.html:401
+msgid "<a href=\"http://oreilly.com/catalog/9780596550066\">O'Reilly</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><p><img><td><p>
+#: sedout/books.html:403
+msgid ""
+"SQLite is a small, zero-configuration, custom-tailored, embeddable, thread-"
+"safe, easily maintainable, transaction-oriented, SQL-based, relational "
+"database management system. There is no separate install or setup procedure "
+"to initialize SQLite before using it.  There is no configuration file.  "
+"SQLite is open source, and is available in the public domain (for more "
+"information on open source, visit http://opensource.org).  You can download "
+"SQLite source code from its homepage http://www.sqlite.org, compile it using "
+"your favorite C compiler, and start using the compiled library. SQLite runs "
+"on Linux, Windows, Mac OS X, and a few other operating systems. It has been "
+"widely used in low-to-medium tier database applications.  This Short Cut "
+"discusses design principles, engineering trade-offs, implementation issues, "
+"and operations of SQLite. It presents a comprehensive description of all "
+"important components of the SQLite engine."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><h2>
+#: sedout/books.html:422
+msgid "SQLite (2004)"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:424
+msgid "Author: Chris Newman"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br>
+#: sedout/books.html:425
+msgid "Publisher: Sams"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p><br><br>
+#: sedout/books.html:426
+msgid "<a href=\"https://www.amazon.com/product/dp/067232685X\">Amazon</a>"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:429
+msgid ""
+"SQLite is a small, fast, embeddable database. What makes it popular is the "
+"combination of the database engine and interface into a single library as "
+"well as the ability to store all the data in a single file.  Its "
+"functionality lies between MySQL and PostgreSQL, however it is faster than "
+"both databases."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><table><tr><td><img><td><p>
+#: sedout/books.html:435
+msgid ""
+"In <i>SQLite</i>, author Chris Newman provides a thorough, practical guide "
+"to using, administering and programming this up-and-coming database.  If you "
+"want to learn about SQLite or about its use in conjunction with PHP this is "
+"the book for you."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><hr><p>
+#: sedout/books.html:441
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/books.in?m=f0b1c450cb\">2023-02-27 02:07:35</a> UTC </i></small>"
+msgstr ""

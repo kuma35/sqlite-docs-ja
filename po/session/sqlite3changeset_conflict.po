@@ -1,0 +1,236 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:33+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><h2>
+#: sedout/session/sqlite3changeset_conflict.html:6
+#: sedout/session/sqlite3changeset_conflict.html:118
+msgid "Obtain Conflicting Row Values From A Changeset Iterator"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/session/sqlite3changeset_conflict.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/session/sqlite3changeset_conflict.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/session/sqlite3changeset_conflict.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/session/sqlite3changeset_conflict.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/session/sqlite3changeset_conflict.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/session/sqlite3changeset_conflict.html:22
+#: sedout/session/sqlite3changeset_conflict.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/session/sqlite3changeset_conflict.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/session/sqlite3changeset_conflict.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/session/sqlite3changeset_conflict.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/session/sqlite3changeset_conflict.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/session/sqlite3changeset_conflict.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/session/sqlite3changeset_conflict.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><a>
+#: sedout/session/sqlite3changeset_conflict.html:118
+msgid "<a href=\"../session/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><a><h2>
+#: sedout/session/sqlite3changeset_conflict.html:118
+msgid "Session Module C Interface"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/session/sqlite3changeset_conflict.html:118
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/session/sqlite3changeset_conflict.html:118
+#, no-wrap
+msgid ""
+"int sqlite3changeset_conflict(\n"
+"  sqlite3_changeset_iter *pIter,  /* Changeset iterator */\n"
+"  int iVal,                       /* Column number */\n"
+"  sqlite3_value **ppValue         /* OUT: Value from conflicting row */\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changeset_conflict.html:124
+msgid ""
+"This function should only be used with iterator objects passed to a "
+"conflict-handler callback by <a "
+"href=\"../session/sqlite3changeset_apply.html\">sqlite3changeset_apply()</a> "
+"with either <a "
+"href=\"../session/c_changeset_conflict.html\">SQLITE_CHANGESET_DATA</a> or "
+"<a "
+"href=\"../session/c_changeset_conflict.html\">SQLITE_CHANGESET_CONFLICT</a>. "
+"If this function is called on any other iterator, <a "
+"href=\"../rescode.html#misuse\">SQLITE_MISUSE</a> is returned and *ppValue "
+"is set to NULL."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changeset_conflict.html:130
+msgid ""
+"Argument iVal must be greater than or equal to 0, and less than the number "
+"of columns in the table affected by the current change. Otherwise, <a "
+"href=\"../rescode.html#range\">SQLITE_RANGE</a> is returned and *ppValue is "
+"set to NULL."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changeset_conflict.html:134
+msgid ""
+"If successful, this function sets *ppValue to point to a protected "
+"sqlite3_value object containing the iVal'th value from the \"conflicting "
+"row\" associated with the current conflict-handler callback and returns "
+"SQLITE_OK."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changeset_conflict.html:139
+msgid ""
+"If some other error occurs (e.g. an OOM condition), an SQLite error code is "
+"returned and *ppValue is set to NULL."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/sqlite3changeset_conflict.html:141
+msgid ""
+"See also lists of <a href=\"../session/objlist.html\">Objects</a>, <a "
+"href=\"../session/constlist.html\">Constants</a>, and <a "
+"href=\"../session/funclist.html\">Functions</a>."
+msgstr ""

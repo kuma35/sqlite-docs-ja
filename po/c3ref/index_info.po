@@ -1,0 +1,390 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/index_info.html:6 sedout/c3ref/index_info.html:121
+msgid "Virtual Table Indexing Information"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/index_info.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/index_info.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/index_info.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/index_info.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/index_info.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/index_info.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/index_info.html:22 sedout/c3ref/index_info.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/index_info.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/index_info.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/index_info.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/index_info.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/index_info.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/index_info.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/index_info.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/index_info.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/index_info.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/index_info.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/index_info.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/index_info.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/index_info.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/index_info.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/index_info.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/index_info.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/index_info.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/index_info.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/index_info.html:124
+#, no-wrap
+msgid ""
+"struct sqlite3_index_info {\n"
+"  /* Inputs */\n"
+"  int nConstraint;           /* Number of entries in aConstraint */\n"
+"  struct sqlite3_index_constraint {\n"
+"     int iColumn;              /* Column constrained.  -1 for ROWID */\n"
+"     unsigned char op;         /* Constraint operator */\n"
+"     unsigned char usable;     /* True if this constraint is usable */\n"
+"     int iTermOffset;          /* Used internally - xBestIndex should ignore "
+"*/\n"
+"  } *aConstraint;            /* Table of WHERE clause constraints */\n"
+"  int nOrderBy;              /* Number of terms in the ORDER BY clause */\n"
+"  struct sqlite3_index_orderby {\n"
+"     int iColumn;              /* Column number */\n"
+"     unsigned char desc;       /* True for DESC.  False for ASC. */\n"
+"  } *aOrderBy;               /* The ORDER BY clause */\n"
+"  /* Outputs */\n"
+"  struct sqlite3_index_constraint_usage {\n"
+"    int argvIndex;           /* if &gt;0, constraint is part of argv to "
+"xFilter */\n"
+"    unsigned char omit;      /* Do not code a test for this constraint */\n"
+"  } *aConstraintUsage;\n"
+"  int idxNum;                /* Number used to identify the index */\n"
+"  char *idxStr;              /* String, possibly obtained from "
+"sqlite3_malloc */\n"
+"  int needToFreeIdxStr;      /* Free idxStr using sqlite3_free() if true "
+"*/\n"
+"  int orderByConsumed;       /* True if output is already ordered */\n"
+"  double estimatedCost;           /* Estimated cost of using this index */\n"
+"  /* Fields below are only available in SQLite 3.8.2 and later */\n"
+"  sqlite3_int64 estimatedRows;    /* Estimated number of rows returned */\n"
+"  /* Fields below are only available in SQLite 3.9.0 and later */\n"
+"  int idxFlags;              /* Mask of SQLITE_INDEX_SCAN_* flags */\n"
+"  /* Fields below are only available in SQLite 3.10.0 and later */\n"
+"  sqlite3_uint64 colUsed;    /* Input: Mask of columns used by statement "
+"*/\n"
+"};\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:157
+msgid ""
+"The sqlite3_index_info structure and its substructures is used as part of "
+"the <a href=\"../vtab.html\">virtual table</a> interface to pass information "
+"into and receive the reply from the <a "
+"href=\"../vtab.html#xbestindex\">xBestIndex</a> method of a <a "
+"href=\"../c3ref/module.html\">virtual table module</a>.  The fields under "
+"**Inputs** are the inputs to xBestIndex and are read-only.  xBestIndex "
+"inserts its results into the **Outputs** fields."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:164
+msgid "The aConstraint[] array records WHERE clause constraints of the form:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote>
+#: sedout/c3ref/index_info.html:166
+msgid "column OP expr"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:168
+msgid ""
+"where OP is =, &lt;, &lt;=, &gt;, or &gt;=.  The particular operator is "
+"stored in aConstraint[].op using one of the <a "
+"href=\"../c3ref/c_index_constraint_eq.html\">SQLITE_INDEX_CONSTRAINT_ "
+"values</a>.  The index of the column is stored in aConstraint[].iColumn.  "
+"aConstraint[].usable is TRUE if the expr on the right-hand side can be "
+"evaluated (and thus the constraint is usable) and false if it cannot."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:176
+msgid ""
+"The optimizer automatically inverts terms of the form \"expr OP column\" and "
+"makes other simplifications to the WHERE clause in an attempt to get as many "
+"WHERE clause terms into the form shown above as possible.  The aConstraint[] "
+"array only reports WHERE clause terms that are relevant to the particular "
+"virtual table being queried."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:182
+msgid ""
+"Information about the ORDER BY clause is stored in aOrderBy[].  Each term of "
+"aOrderBy records a column of the ORDER BY clause."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:185
+msgid ""
+"The colUsed field indicates which columns of the virtual table may be "
+"required by the current scan. Virtual table columns are numbered from zero "
+"in the order in which they appear within the CREATE TABLE statement passed "
+"to sqlite3_declare_vtab(). For the first 63 columns (columns 0-62), the "
+"corresponding bit is set within the colUsed mask if the column may be "
+"required by SQLite. If the table has at least 64 columns and any column to "
+"the right of the first 63 is required, then bit 63 of colUsed is also "
+"set. In other words, column iCol may be required if the expression (colUsed "
+"& ((sqlite3_uint64)1 &lt;&lt; (iCol&gt;=63 ? 63 : iCol))) evaluates to "
+"non-zero."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:196
+msgid ""
+"The <a href=\"../vtab.html#xbestindex\">xBestIndex</a> method must fill "
+"aConstraintUsage[] with information about what parameters to pass to "
+"xFilter.  If argvIndex>0 then the right-hand side of the corresponding "
+"aConstraint[] is evaluated and becomes the argvIndex-th entry in argv.  If "
+"aConstraintUsage[].omit is true, then the constraint is assumed to be fully "
+"handled by the virtual table and might not be checked again by the byte "
+"code. The aConstraintUsage[].omit flag is an optimization hint. When the "
+"omit flag is left in its default setting of false, the constraint will "
+"always be checked separately in byte code.  If the omit flag is change to "
+"true, then the constraint may or may not be checked in byte code.  In other "
+"words, when the omit flag is true there is no guarantee that the constraint "
+"will not be checked again using byte code."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:209
+msgid ""
+"The idxNum and idxStr values are recorded and passed into the <a "
+"href=\"../vtab.html#xfilter\">xFilter</a> method.  <a "
+"href=\"../c3ref/free.html\">sqlite3_free()</a> is used to free idxStr if and "
+"only if needToFreeIdxStr is true."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:214
+msgid ""
+"The orderByConsumed means that output from <a "
+"href=\"../vtab.html#xfilter\">xFilter</a>/<a "
+"href=\"../vtab.html#xnext\">xNext</a> will occur in the correct order to "
+"satisfy the ORDER BY clause so that no separate sorting step is required."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:218
+msgid ""
+"The estimatedCost value is an estimate of the cost of a particular "
+"strategy. A cost of N indicates that the cost of the strategy is similar to "
+"a linear scan of an SQLite table with N rows. A cost of log(N)  indicates "
+"that the expense of the operation is similar to that of a binary search on a "
+"unique indexed field of an SQLite table with N rows."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:224
+msgid ""
+"The estimatedRows value is an estimate of the number of rows that will be "
+"returned by the strategy."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:227
+msgid ""
+"The xBestIndex method may optionally populate the idxFlags field with a mask "
+"of SQLITE_INDEX_SCAN_* flags. Currently there is only one such flag - "
+"SQLITE_INDEX_SCAN_UNIQUE. If the xBestIndex method sets this flag, SQLite "
+"assumes that the strategy may visit at most one row."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:232
+msgid ""
+"Additionally, if xBestIndex sets the SQLITE_INDEX_SCAN_UNIQUE flag, then "
+"SQLite also assumes that if a call to the xUpdate() method is made as part "
+"of the same statement to delete or update a virtual table row and the "
+"implementation returns SQLITE_CONSTRAINT, then there is no need to rollback "
+"any database changes. In other words, if the xUpdate() returns "
+"SQLITE_CONSTRAINT, the database contents must be exactly as they were before "
+"xUpdate was called. By contrast, if SQLITE_INDEX_SCAN_UNIQUE is not set and "
+"xUpdate returns SQLITE_CONSTRAINT, any database changes made by the xUpdate "
+"method are automatically rolled back by SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:242
+msgid ""
+"IMPORTANT: The estimatedRows field was added to the sqlite3_index_info "
+"structure for SQLite <a href=\"../releaselog/3_8_2.html\">version 3.8.2</a> "
+"(2013-12-06).  If a virtual table extension is used with an SQLite version "
+"earlier than 3.8.2, the results of attempting to read or write the "
+"estimatedRows field are undefined (but are likely to include crashing the "
+"application). The estimatedRows field should therefore only be used if <a "
+"href=\"../c3ref/libversion.html\">sqlite3_libversion_number()</a> returns a "
+"value greater than or equal to 3008002. Similarly, the idxFlags field was "
+"added for <a href=\"../releaselog/3_9_0.html\">version 3.9.0</a> "
+"(2015-10-14).  It may therefore only be used if sqlite3_libversion_number() "
+"returns a value greater than or equal to 3009000."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:254
+msgid ""
+"3 Methods using this object: <a "
+"href=\"../c3ref/vtab_collation.html\">sqlite3_vtab_collation()</a>, <a "
+"href=\"../c3ref/vtab_distinct.html\">sqlite3_vtab_distinct()</a>, <a "
+"href=\"../c3ref/vtab_rhs_value.html\">sqlite3_vtab_rhs_value()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/index_info.html:258
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

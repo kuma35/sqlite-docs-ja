@@ -1,0 +1,3634 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><h1>
+#: sedout/syntaxdiagrams.html:6 sedout/syntaxdiagrams.html:121
+msgid "Syntax Diagrams For SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/syntaxdiagrams.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/syntaxdiagrams.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/syntaxdiagrams.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/syntaxdiagrams.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/syntaxdiagrams.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/syntaxdiagrams.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/syntaxdiagrams.html:22 sedout/syntaxdiagrams.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/syntaxdiagrams.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/syntaxdiagrams.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/syntaxdiagrams.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/syntaxdiagrams.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/syntaxdiagrams.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/syntaxdiagrams.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/syntaxdiagrams.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/syntaxdiagrams.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/syntaxdiagrams.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/syntaxdiagrams.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/syntaxdiagrams.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/syntaxdiagrams.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/syntaxdiagrams.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/syntaxdiagrams.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/syntaxdiagrams.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:123
+msgid "<a name=\"aggregate-function-invocation\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:123
+msgid "aggregate-function-invocation:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:129
+msgid "aggregate-func"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:133 sedout/syntaxdiagrams.html:550
+#: sedout/syntaxdiagrams.html:571 sedout/syntaxdiagrams.html:630
+#: sedout/syntaxdiagrams.html:710 sedout/syntaxdiagrams.html:841
+#: sedout/syntaxdiagrams.html:862 sedout/syntaxdiagrams.html:1208
+#: sedout/syntaxdiagrams.html:1309 sedout/syntaxdiagrams.html:1626
+#: sedout/syntaxdiagrams.html:1711 sedout/syntaxdiagrams.html:1762
+#: sedout/syntaxdiagrams.html:2283 sedout/syntaxdiagrams.html:2339
+#: sedout/syntaxdiagrams.html:2363 sedout/syntaxdiagrams.html:2562
+#: sedout/syntaxdiagrams.html:2601 sedout/syntaxdiagrams.html:2640
+#: sedout/syntaxdiagrams.html:2837 sedout/syntaxdiagrams.html:2875
+#: sedout/syntaxdiagrams.html:3386 sedout/syntaxdiagrams.html:3415
+#: sedout/syntaxdiagrams.html:3533 sedout/syntaxdiagrams.html:3894
+#: sedout/syntaxdiagrams.html:3998 sedout/syntaxdiagrams.html:4148
+#: sedout/syntaxdiagrams.html:4210 sedout/syntaxdiagrams.html:4647
+#: sedout/syntaxdiagrams.html:4858 sedout/syntaxdiagrams.html:5003
+#: sedout/syntaxdiagrams.html:5405 sedout/syntaxdiagrams.html:5443
+#: sedout/syntaxdiagrams.html:5466 sedout/syntaxdiagrams.html:5587
+#: sedout/syntaxdiagrams.html:5628 sedout/syntaxdiagrams.html:5646
+#: sedout/syntaxdiagrams.html:5688 sedout/syntaxdiagrams.html:5711
+#: sedout/syntaxdiagrams.html:6159 sedout/syntaxdiagrams.html:6295
+#: sedout/syntaxdiagrams.html:6384 sedout/syntaxdiagrams.html:6465
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:139 sedout/syntaxdiagrams.html:2287
+#: sedout/syntaxdiagrams.html:2505 sedout/syntaxdiagrams.html:4509
+#: sedout/syntaxdiagrams.html:4721
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:147 sedout/syntaxdiagrams.html:385
+#: sedout/syntaxdiagrams.html:554 sedout/syntaxdiagrams.html:575
+#: sedout/syntaxdiagrams.html:634 sedout/syntaxdiagrams.html:987
+#: sedout/syntaxdiagrams.html:1056 sedout/syntaxdiagrams.html:1064
+#: sedout/syntaxdiagrams.html:1230 sedout/syntaxdiagrams.html:1507
+#: sedout/syntaxdiagrams.html:1835 sedout/syntaxdiagrams.html:1906
+#: sedout/syntaxdiagrams.html:1926 sedout/syntaxdiagrams.html:1934
+#: sedout/syntaxdiagrams.html:1940 sedout/syntaxdiagrams.html:2257
+#: sedout/syntaxdiagrams.html:2264 sedout/syntaxdiagrams.html:2272
+#: sedout/syntaxdiagrams.html:2291 sedout/syntaxdiagrams.html:2343
+#: sedout/syntaxdiagrams.html:2367 sedout/syntaxdiagrams.html:2386
+#: sedout/syntaxdiagrams.html:2401 sedout/syntaxdiagrams.html:2417
+#: sedout/syntaxdiagrams.html:2419 sedout/syntaxdiagrams.html:2427
+#: sedout/syntaxdiagrams.html:2461 sedout/syntaxdiagrams.html:2491
+#: sedout/syntaxdiagrams.html:2513 sedout/syntaxdiagrams.html:2522
+#: sedout/syntaxdiagrams.html:2534 sedout/syntaxdiagrams.html:2542
+#: sedout/syntaxdiagrams.html:2550 sedout/syntaxdiagrams.html:2579
+#: sedout/syntaxdiagrams.html:2605 sedout/syntaxdiagrams.html:2663
+#: sedout/syntaxdiagrams.html:2671 sedout/syntaxdiagrams.html:2679
+#: sedout/syntaxdiagrams.html:2687 sedout/syntaxdiagrams.html:2755
+#: sedout/syntaxdiagrams.html:2793 sedout/syntaxdiagrams.html:2801
+#: sedout/syntaxdiagrams.html:2845 sedout/syntaxdiagrams.html:3067
+#: sedout/syntaxdiagrams.html:3089 sedout/syntaxdiagrams.html:3111
+#: sedout/syntaxdiagrams.html:3124 sedout/syntaxdiagrams.html:3144
+#: sedout/syntaxdiagrams.html:3250 sedout/syntaxdiagrams.html:3419
+#: sedout/syntaxdiagrams.html:3559 sedout/syntaxdiagrams.html:3822
+#: sedout/syntaxdiagrams.html:3908 sedout/syntaxdiagrams.html:4333
+#: sedout/syntaxdiagrams.html:4393 sedout/syntaxdiagrams.html:4560
+#: sedout/syntaxdiagrams.html:4579 sedout/syntaxdiagrams.html:4587
+#: sedout/syntaxdiagrams.html:4651 sedout/syntaxdiagrams.html:4772
+#: sedout/syntaxdiagrams.html:4791 sedout/syntaxdiagrams.html:4799
+#: sedout/syntaxdiagrams.html:4862 sedout/syntaxdiagrams.html:4901
+#: sedout/syntaxdiagrams.html:4929 sedout/syntaxdiagrams.html:4937
+#: sedout/syntaxdiagrams.html:5007 sedout/syntaxdiagrams.html:5073
+#: sedout/syntaxdiagrams.html:5104 sedout/syntaxdiagrams.html:5112
+#: sedout/syntaxdiagrams.html:5447 sedout/syntaxdiagrams.html:5591
+#: sedout/syntaxdiagrams.html:5847 sedout/syntaxdiagrams.html:5888
+#: sedout/syntaxdiagrams.html:6021 sedout/syntaxdiagrams.html:6062
+#: sedout/syntaxdiagrams.html:6096 sedout/syntaxdiagrams.html:6104
+#: sedout/syntaxdiagrams.html:6110 sedout/syntaxdiagrams.html:6175
+#: sedout/syntaxdiagrams.html:6213 sedout/syntaxdiagrams.html:6221
+#: sedout/syntaxdiagrams.html:6309 sedout/syntaxdiagrams.html:6388
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:151 sedout/syntaxdiagrams.html:558
+#: sedout/syntaxdiagrams.html:579 sedout/syntaxdiagrams.html:638
+#: sedout/syntaxdiagrams.html:720 sedout/syntaxdiagrams.html:851
+#: sedout/syntaxdiagrams.html:870 sedout/syntaxdiagrams.html:1216
+#: sedout/syntaxdiagrams.html:1321 sedout/syntaxdiagrams.html:1634
+#: sedout/syntaxdiagrams.html:1719 sedout/syntaxdiagrams.html:1770
+#: sedout/syntaxdiagrams.html:2295 sedout/syntaxdiagrams.html:2347
+#: sedout/syntaxdiagrams.html:2379 sedout/syntaxdiagrams.html:2570
+#: sedout/syntaxdiagrams.html:2609 sedout/syntaxdiagrams.html:2648
+#: sedout/syntaxdiagrams.html:2849 sedout/syntaxdiagrams.html:2883
+#: sedout/syntaxdiagrams.html:3394 sedout/syntaxdiagrams.html:3423
+#: sedout/syntaxdiagrams.html:3541 sedout/syntaxdiagrams.html:3950
+#: sedout/syntaxdiagrams.html:4006 sedout/syntaxdiagrams.html:4164
+#: sedout/syntaxdiagrams.html:4230 sedout/syntaxdiagrams.html:4655
+#: sedout/syntaxdiagrams.html:4866 sedout/syntaxdiagrams.html:5011
+#: sedout/syntaxdiagrams.html:5413 sedout/syntaxdiagrams.html:5451
+#: sedout/syntaxdiagrams.html:5474 sedout/syntaxdiagrams.html:5595
+#: sedout/syntaxdiagrams.html:5636 sedout/syntaxdiagrams.html:5654
+#: sedout/syntaxdiagrams.html:5704 sedout/syntaxdiagrams.html:5719
+#: sedout/syntaxdiagrams.html:6167 sedout/syntaxdiagrams.html:6351
+#: sedout/syntaxdiagrams.html:6392 sedout/syntaxdiagrams.html:6473
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:155 sedout/syntaxdiagrams.html:2299
+#: sedout/syntaxdiagrams.html:6396
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:168 sedout/syntaxdiagrams.html:725
+#: sedout/syntaxdiagrams.html:875 sedout/syntaxdiagrams.html:970
+#: sedout/syntaxdiagrams.html:1038 sedout/syntaxdiagrams.html:1060
+#: sedout/syntaxdiagrams.html:1218 sedout/syntaxdiagrams.html:1319
+#: sedout/syntaxdiagrams.html:1327 sedout/syntaxdiagrams.html:1467
+#: sedout/syntaxdiagrams.html:1653 sedout/syntaxdiagrams.html:1724
+#: sedout/syntaxdiagrams.html:1775 sedout/syntaxdiagrams.html:1812
+#: sedout/syntaxdiagrams.html:1882 sedout/syntaxdiagrams.html:1920
+#: sedout/syntaxdiagrams.html:1936 sedout/syntaxdiagrams.html:2318
+#: sedout/syntaxdiagrams.html:2354 sedout/syntaxdiagrams.html:2584
+#: sedout/syntaxdiagrams.html:2621 sedout/syntaxdiagrams.html:2738
+#: sedout/syntaxdiagrams.html:2775 sedout/syntaxdiagrams.html:2797
+#: sedout/syntaxdiagrams.html:2885 sedout/syntaxdiagrams.html:3295
+#: sedout/syntaxdiagrams.html:3396 sedout/syntaxdiagrams.html:3427
+#: sedout/syntaxdiagrams.html:3432 sedout/syntaxdiagrams.html:3548
+#: sedout/syntaxdiagrams.html:3601 sedout/syntaxdiagrams.html:3910
+#: sedout/syntaxdiagrams.html:3934 sedout/syntaxdiagrams.html:4156
+#: sedout/syntaxdiagrams.html:4423 sedout/syntaxdiagrams.html:4515
+#: sedout/syntaxdiagrams.html:4538 sedout/syntaxdiagrams.html:4589
+#: sedout/syntaxdiagrams.html:4622 sedout/syntaxdiagrams.html:4662
+#: sedout/syntaxdiagrams.html:4664 sedout/syntaxdiagrams.html:4703
+#: sedout/syntaxdiagrams.html:4727 sedout/syntaxdiagrams.html:4750
+#: sedout/syntaxdiagrams.html:4801 sedout/syntaxdiagrams.html:4834
+#: sedout/syntaxdiagrams.html:4871 sedout/syntaxdiagrams.html:4873
+#: sedout/syntaxdiagrams.html:4907 sedout/syntaxdiagrams.html:4933
+#: sedout/syntaxdiagrams.html:5016 sedout/syntaxdiagrams.html:5056
+#: sedout/syntaxdiagrams.html:5084 sedout/syntaxdiagrams.html:5108
+#: sedout/syntaxdiagrams.html:5429 sedout/syntaxdiagrams.html:5485
+#: sedout/syntaxdiagrams.html:5519 sedout/syntaxdiagrams.html:5599
+#: sedout/syntaxdiagrams.html:5661 sedout/syntaxdiagrams.html:5696
+#: sedout/syntaxdiagrams.html:5758 sedout/syntaxdiagrams.html:5854
+#: sedout/syntaxdiagrams.html:5868 sedout/syntaxdiagrams.html:5932
+#: sedout/syntaxdiagrams.html:6028 sedout/syntaxdiagrams.html:6042
+#: sedout/syntaxdiagrams.html:6090 sedout/syntaxdiagrams.html:6106
+#: sedout/syntaxdiagrams.html:6187 sedout/syntaxdiagrams.html:6233
+#: sedout/syntaxdiagrams.html:6311 sedout/syntaxdiagrams.html:6335
+#: sedout/syntaxdiagrams.html:6415 sedout/syntaxdiagrams.html:6488
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:174 sedout/syntaxdiagrams.html:2327
+#: sedout/syntaxdiagrams.html:4356 sedout/syntaxdiagrams.html:4371
+#: sedout/syntaxdiagrams.html:4416 sedout/syntaxdiagrams.html:5024
+#: sedout/syntaxdiagrams.html:6423
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:186
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#filter-clause\">filter-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:187
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html#booleanexpr\">lang_expr.html#booleanexpr</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:190
+msgid "<a name=\"alter-table-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:190
+msgid "alter-table-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:197
+msgid "ALTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:201 sedout/syntaxdiagrams.html:1261
+#: sedout/syntaxdiagrams.html:1679 sedout/syntaxdiagrams.html:2075
+msgid "TABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:207 sedout/syntaxdiagrams.html:331
+#: sedout/syntaxdiagrams.html:351 sedout/syntaxdiagrams.html:393
+#: sedout/syntaxdiagrams.html:1188 sedout/syntaxdiagrams.html:1292
+#: sedout/syntaxdiagrams.html:1407 sedout/syntaxdiagrams.html:1614
+#: sedout/syntaxdiagrams.html:1693 sedout/syntaxdiagrams.html:2004
+#: sedout/syntaxdiagrams.html:2040 sedout/syntaxdiagrams.html:2087
+#: sedout/syntaxdiagrams.html:2134 sedout/syntaxdiagrams.html:2181
+#: sedout/syntaxdiagrams.html:2224 sedout/syntaxdiagrams.html:2589
+#: sedout/syntaxdiagrams.html:3359 sedout/syntaxdiagrams.html:3986
+#: sedout/syntaxdiagrams.html:4073 sedout/syntaxdiagrams.html:4256
+#: sedout/syntaxdiagrams.html:5536 sedout/syntaxdiagrams.html:6267
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:211 sedout/syntaxdiagrams.html:335
+#: sedout/syntaxdiagrams.html:1192 sedout/syntaxdiagrams.html:1296
+#: sedout/syntaxdiagrams.html:1411 sedout/syntaxdiagrams.html:1618
+#: sedout/syntaxdiagrams.html:1697 sedout/syntaxdiagrams.html:2044
+#: sedout/syntaxdiagrams.html:2091 sedout/syntaxdiagrams.html:2138
+#: sedout/syntaxdiagrams.html:2185 sedout/syntaxdiagrams.html:2228
+#: sedout/syntaxdiagrams.html:2236 sedout/syntaxdiagrams.html:2593
+#: sedout/syntaxdiagrams.html:3363 sedout/syntaxdiagrams.html:3729
+#: sedout/syntaxdiagrams.html:3758 sedout/syntaxdiagrams.html:3990
+#: sedout/syntaxdiagrams.html:4077 sedout/syntaxdiagrams.html:4260
+#: sedout/syntaxdiagrams.html:4367 sedout/syntaxdiagrams.html:5540
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:215 sedout/syntaxdiagrams.html:835
+#: sedout/syntaxdiagrams.html:1204 sedout/syntaxdiagrams.html:1300
+#: sedout/syntaxdiagrams.html:1477 sedout/syntaxdiagrams.html:1701
+#: sedout/syntaxdiagrams.html:1758 sedout/syntaxdiagrams.html:2095
+#: sedout/syntaxdiagrams.html:2232 sedout/syntaxdiagrams.html:2614
+#: sedout/syntaxdiagrams.html:3367 sedout/syntaxdiagrams.html:4081
+#: sedout/syntaxdiagrams.html:4275 sedout/syntaxdiagrams.html:4363
+#: sedout/syntaxdiagrams.html:5544
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:227 sedout/syntaxdiagrams.html:239
+msgid "RENAME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:231 sedout/syntaxdiagrams.html:253
+#: sedout/syntaxdiagrams.html:4450
+msgid "TO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:235
+msgid "new-table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:245 sedout/syntaxdiagrams.html:278
+#: sedout/syntaxdiagrams.html:300
+msgid "COLUMN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:249 sedout/syntaxdiagrams.html:304
+#: sedout/syntaxdiagrams.html:673 sedout/syntaxdiagrams.html:716
+#: sedout/syntaxdiagrams.html:847 sedout/syntaxdiagrams.html:1465
+#: sedout/syntaxdiagrams.html:1630 sedout/syntaxdiagrams.html:1766
+#: sedout/syntaxdiagrams.html:2240 sedout/syntaxdiagrams.html:2879
+#: sedout/syntaxdiagrams.html:3227 sedout/syntaxdiagrams.html:3390
+#: sedout/syntaxdiagrams.html:3537 sedout/syntaxdiagrams.html:5470
+#: sedout/syntaxdiagrams.html:5851 sedout/syntaxdiagrams.html:6025
+#: sedout/syntaxdiagrams.html:6242
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:257
+msgid "new-column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:272
+msgid "ADD"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:282 sedout/syntaxdiagrams.html:1313
+msgid "column-def"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:294 sedout/syntaxdiagrams.html:2024
+#: sedout/syntaxdiagrams.html:2071 sedout/syntaxdiagrams.html:2118
+#: sedout/syntaxdiagrams.html:2165
+msgid "DROP"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:314 sedout/syntaxdiagrams.html:365
+#: sedout/syntaxdiagrams.html:403 sedout/syntaxdiagrams.html:453
+#: sedout/syntaxdiagrams.html:825 sedout/syntaxdiagrams.html:1244
+#: sedout/syntaxdiagrams.html:1359 sedout/syntaxdiagrams.html:1566
+#: sedout/syntaxdiagrams.html:1660 sedout/syntaxdiagrams.html:1748
+#: sedout/syntaxdiagrams.html:1985 sedout/syntaxdiagrams.html:2014
+#: sedout/syntaxdiagrams.html:2061 sedout/syntaxdiagrams.html:2108
+#: sedout/syntaxdiagrams.html:2155 sedout/syntaxdiagrams.html:2202
+#: sedout/syntaxdiagrams.html:4030 sedout/syntaxdiagrams.html:4295
+#: sedout/syntaxdiagrams.html:4323 sedout/syntaxdiagrams.html:4474
+#: sedout/syntaxdiagrams.html:4495 sedout/syntaxdiagrams.html:6139
+#: sedout/syntaxdiagrams.html:6285
+msgid "Used by:&nbsp;&nbsp; <a href=\"#sql-stmt\">sql-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:315
+msgid "References:&nbsp;&nbsp; <a href=\"#column-def\">column-def</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:316
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:319
+msgid "<a name=\"analyze-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:319
+msgid "analyze-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:325
+msgid "ANALYZE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:339
+msgid "table-or-index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:358
+msgid "index-or-table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:366
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_analyze.html\">lang_analyze.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:369
+msgid "<a name=\"attach-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:369
+msgid "attach-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:375
+msgid "ATTACH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:381 sedout/syntaxdiagrams.html:2000
+msgid "DATABASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:389 sedout/syntaxdiagrams.html:626
+#: sedout/syntaxdiagrams.html:855 sedout/syntaxdiagrams.html:1348
+#: sedout/syntaxdiagrams.html:1638 sedout/syntaxdiagrams.html:2371
+#: sedout/syntaxdiagrams.html:3371 sedout/syntaxdiagrams.html:4085
+#: sedout/syntaxdiagrams.html:4206 sedout/syntaxdiagrams.html:4337
+#: sedout/syntaxdiagrams.html:4397 sedout/syntaxdiagrams.html:4616
+#: sedout/syntaxdiagrams.html:4828 sedout/syntaxdiagrams.html:5548
+#: sedout/syntaxdiagrams.html:5612 sedout/syntaxdiagrams.html:6453
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:404 sedout/syntaxdiagrams.html:2857
+#: sedout/syntaxdiagrams.html:3217 sedout/syntaxdiagrams.html:3270
+#: sedout/syntaxdiagrams.html:3570 sedout/syntaxdiagrams.html:3876
+#: sedout/syntaxdiagrams.html:4379 sedout/syntaxdiagrams.html:4432
+#: sedout/syntaxdiagrams.html:5031
+msgid "References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:405
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_attach.html\">lang_attach.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:408
+msgid "<a name=\"begin-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:408
+msgid "begin-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:414 sedout/syntaxdiagrams.html:1509
+msgid "BEGIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:420
+msgid "EXCLUSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:428 sedout/syntaxdiagrams.html:808
+#: sedout/syntaxdiagrams.html:4446
+msgid "TRANSACTION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:439 sedout/syntaxdiagrams.html:2977
+msgid "DEFERRED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:446 sedout/syntaxdiagrams.html:2983
+msgid "IMMEDIATE"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:454 sedout/syntaxdiagrams.html:826
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_transaction.html\">lang_transaction.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:457
+msgid "<a name=\"column-constraint\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:457
+msgid "column-constraint:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:467 sedout/syntaxdiagrams.html:5391
+msgid "CONSTRAINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:471 sedout/syntaxdiagrams.html:2941
+#: sedout/syntaxdiagrams.html:4046 sedout/syntaxdiagrams.html:5395
+#: sedout/syntaxdiagrams.html:5684
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:478 sedout/syntaxdiagrams.html:5397
+msgid "PRIMARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:482 sedout/syntaxdiagrams.html:5401
+#: sedout/syntaxdiagrams.html:5462
+msgid "KEY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:486 sedout/syntaxdiagrams.html:3241
+#: sedout/syntaxdiagrams.html:3839
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:492 sedout/syntaxdiagrams.html:528
+#: sedout/syntaxdiagrams.html:539 sedout/syntaxdiagrams.html:5417
+msgid "conflict-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:498
+msgid "AUTOINCREMENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:513 sedout/syntaxdiagrams.html:3260
+#: sedout/syntaxdiagrams.html:3843
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:520 sedout/syntaxdiagrams.html:857
+#: sedout/syntaxdiagrams.html:1175 sedout/syntaxdiagrams.html:1279
+#: sedout/syntaxdiagrams.html:1394 sedout/syntaxdiagrams.html:1601
+#: sedout/syntaxdiagrams.html:1687 sedout/syntaxdiagrams.html:2405
+#: sedout/syntaxdiagrams.html:2474 sedout/syntaxdiagrams.html:2499
+#: sedout/syntaxdiagrams.html:2526 sedout/syntaxdiagrams.html:2554
+#: sedout/syntaxdiagrams.html:2632 sedout/syntaxdiagrams.html:2965
+#: sedout/syntaxdiagrams.html:4109 sedout/syntaxdiagrams.html:5569
+#: sedout/syntaxdiagrams.html:6457
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:524 sedout/syntaxdiagrams.html:2478
+#: sedout/syntaxdiagrams.html:2902 sedout/syntaxdiagrams.html:3675
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:535 sedout/syntaxdiagrams.html:1158
+#: sedout/syntaxdiagrams.html:5434
+msgid "UNIQUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:546 sedout/syntaxdiagrams.html:5439
+msgid "CHECK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:565 sedout/syntaxdiagrams.html:2913
+#: sedout/syntaxdiagrams.html:3460
+msgid "DEFAULT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:586 sedout/syntaxdiagrams.html:2212
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:593 sedout/syntaxdiagrams.html:4041
+#: sedout/syntaxdiagrams.html:5692 sedout/syntaxdiagrams.html:5700
+#: sedout/syntaxdiagrams.html:5715
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:600 sedout/syntaxdiagrams.html:2390
+#: sedout/syntaxdiagrams.html:3231 sedout/syntaxdiagrams.html:3826
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:604 sedout/syntaxdiagrams.html:2394
+#: sedout/syntaxdiagrams.html:3235 sedout/syntaxdiagrams.html:3830
+#: sedout/syntaxdiagrams.html:4285
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:611 sedout/syntaxdiagrams.html:5478
+msgid "foreign-key-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:618
+msgid "GENERATED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:622
+msgid "ALWAYS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:648 sedout/syntaxdiagrams.html:1675
+msgid "VIRTUAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:655
+msgid "STORED"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:662
+msgid "Used by:&nbsp;&nbsp; <a href=\"#column-def\">column-def</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:663
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#conflict-clause\">conflict-clause</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#foreign-key-clause\">foreign-key-clause</a>&nbsp;&nbsp; <a "
+"href=\"#literal-value\">literal-value</a>&nbsp;&nbsp; <a "
+"href=\"#signed-number\">signed-number</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:664
+msgid ""
+"See also:&nbsp;&nbsp; <a href=\"gencol.html\">gencol.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html#tablecoldef\">lang_createtable.html#tablecoldef</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:667
+msgid "<a name=\"column-def\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:667
+msgid "column-def:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:679 sedout/syntaxdiagrams.html:2375
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:683
+msgid "column-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:699
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#alter-table-stmt\">alter-table-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-table-stmt\">create-table-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:700
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#column-constraint\">column-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#type-name\">type-name</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:701
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html#altertabaddcol\">lang_altertable.html#altertabaddcol</a>&nbsp;&nbsp; "
+"<a href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html#tablecoldef\">lang_createtable.html#tablecoldef</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:704
+msgid "<a name=\"column-name-list\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:704
+msgid "column-name-list:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:733
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#upsert-clause\">upsert-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:734
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:737
+msgid "<a name=\"comment-syntax\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:737
+msgid "comment-syntax:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:745
+msgid "--"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:749
+msgid "anything-except-newline"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:759
+msgid "newline"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:761
+msgid "end-of-input"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:771
+msgid "/*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:778
+msgid "anything-except-*/"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:780
+msgid "*/"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:792
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_comment.html\">lang_comment.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:795
+msgid "<a name=\"commit-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:795
+msgid "commit-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:803
+msgid "COMMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:813 sedout/syntaxdiagrams.html:1521
+#: sedout/syntaxdiagrams.html:2691
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:829
+msgid "<a name=\"common-table-expression\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:829
+msgid "common-table-expression:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:859 sedout/syntaxdiagrams.html:6461
+#: sedout/syntaxdiagrams.html:6480
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:866 sedout/syntaxdiagrams.html:1352
+#: sedout/syntaxdiagrams.html:1530 sedout/syntaxdiagrams.html:1642
+#: sedout/syntaxdiagrams.html:2566 sedout/syntaxdiagrams.html:2644
+#: sedout/syntaxdiagrams.html:3446 sedout/syntaxdiagrams.html:5323
+#: sedout/syntaxdiagrams.html:5632 sedout/syntaxdiagrams.html:6469
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:898
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#compound-select-stmt\">compound-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt\">delete-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt-limited\">delete-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#factored-select-stmt\">factored-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#insert-stmt\">insert-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#simple-select-stmt\">simple-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:899 sedout/syntaxdiagrams.html:1661
+msgid "References:&nbsp;&nbsp; <a href=\"#select-stmt\">select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:900 sedout/syntaxdiagrams.html:944
+#: sedout/syntaxdiagrams.html:2714 sedout/syntaxdiagrams.html:2858
+#: sedout/syntaxdiagrams.html:3218 sedout/syntaxdiagrams.html:3520
+#: sedout/syntaxdiagrams.html:3713 sedout/syntaxdiagrams.html:3877
+#: sedout/syntaxdiagrams.html:3973 sedout/syntaxdiagrams.html:4380
+#: sedout/syntaxdiagrams.html:5675 sedout/syntaxdiagrams.html:5734
+#: sedout/syntaxdiagrams.html:6371
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_attach.html\">lang_attach.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createview.html\">lang_createview.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html\">lang_expr.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>&nbsp;&nbsp; "
+"<a href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:903
+msgid "<a name=\"compound-operator\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:903
+msgid "compound-operator:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:911 sedout/syntaxdiagrams.html:913
+#: sedout/syntaxdiagrams.html:996 sedout/syntaxdiagrams.html:998
+#: sedout/syntaxdiagrams.html:4218 sedout/syntaxdiagrams.html:4237
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:915 sedout/syntaxdiagrams.html:1010
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:917 sedout/syntaxdiagrams.html:1012
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:921 sedout/syntaxdiagrams.html:1002
+#: sedout/syntaxdiagrams.html:4222 sedout/syntaxdiagrams.html:4523
+#: sedout/syntaxdiagrams.html:4735
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:943
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#factored-select-stmt\">factored-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:947
+msgid "<a name=\"compound-select-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:947
+msgid "compound-select-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:955 sedout/syntaxdiagrams.html:1797
+#: sedout/syntaxdiagrams.html:1867 sedout/syntaxdiagrams.html:2723
+#: sedout/syntaxdiagrams.html:3280 sedout/syntaxdiagrams.html:4688
+#: sedout/syntaxdiagrams.html:5041 sedout/syntaxdiagrams.html:5743
+#: sedout/syntaxdiagrams.html:5917 sedout/syntaxdiagrams.html:6440
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:957 sedout/syntaxdiagrams.html:1799
+#: sedout/syntaxdiagrams.html:1869 sedout/syntaxdiagrams.html:2725
+#: sedout/syntaxdiagrams.html:3282 sedout/syntaxdiagrams.html:4690
+#: sedout/syntaxdiagrams.html:5043 sedout/syntaxdiagrams.html:5745
+#: sedout/syntaxdiagrams.html:5919 sedout/syntaxdiagrams.html:6444
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:963 sedout/syntaxdiagrams.html:1805
+#: sedout/syntaxdiagrams.html:1875 sedout/syntaxdiagrams.html:2731
+#: sedout/syntaxdiagrams.html:3288 sedout/syntaxdiagrams.html:4696
+#: sedout/syntaxdiagrams.html:5049 sedout/syntaxdiagrams.html:5751
+#: sedout/syntaxdiagrams.html:5925
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:975 sedout/syntaxdiagrams.html:1008
+#: sedout/syntaxdiagrams.html:2743 sedout/syntaxdiagrams.html:4889
+#: sedout/syntaxdiagrams.html:5061
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:977 sedout/syntaxdiagrams.html:1910
+#: sedout/syntaxdiagrams.html:2745 sedout/syntaxdiagrams.html:3924
+#: sedout/syntaxdiagrams.html:4891 sedout/syntaxdiagrams.html:5063
+#: sedout/syntaxdiagrams.html:6080 sedout/syntaxdiagrams.html:6325
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:981 sedout/syntaxdiagrams.html:1914
+#: sedout/syntaxdiagrams.html:2749 sedout/syntaxdiagrams.html:3904
+#: sedout/syntaxdiagrams.html:3928 sedout/syntaxdiagrams.html:4103
+#: sedout/syntaxdiagrams.html:4575 sedout/syntaxdiagrams.html:4787
+#: sedout/syntaxdiagrams.html:4895 sedout/syntaxdiagrams.html:5067
+#: sedout/syntaxdiagrams.html:5563 sedout/syntaxdiagrams.html:6084
+#: sedout/syntaxdiagrams.html:6305 sedout/syntaxdiagrams.html:6329
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:983 sedout/syntaxdiagrams.html:1922
+#: sedout/syntaxdiagrams.html:2751 sedout/syntaxdiagrams.html:4897
+#: sedout/syntaxdiagrams.html:5069 sedout/syntaxdiagrams.html:6092
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1036 sedout/syntaxdiagrams.html:1918
+#: sedout/syntaxdiagrams.html:2773 sedout/syntaxdiagrams.html:3932
+#: sedout/syntaxdiagrams.html:4905 sedout/syntaxdiagrams.html:5082
+#: sedout/syntaxdiagrams.html:6088 sedout/syntaxdiagrams.html:6333
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:1052 sedout/syntaxdiagrams.html:1930
+#: sedout/syntaxdiagrams.html:2789 sedout/syntaxdiagrams.html:4925
+#: sedout/syntaxdiagrams.html:5100 sedout/syntaxdiagrams.html:6100
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1086 sedout/syntaxdiagrams.html:5134
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>&nbsp;&nbsp; <a "
+"href=\"#select-core\">select-core</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1087
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1090
+msgid "<a name=\"conflict-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1090
+msgid "conflict-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1098 sedout/syntaxdiagrams.html:1200
+#: sedout/syntaxdiagrams.html:1473 sedout/syntaxdiagrams.html:2890
+#: sedout/syntaxdiagrams.html:3555 sedout/syntaxdiagrams.html:6151
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1102 sedout/syntaxdiagrams.html:6155
+msgid "CONFLICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1106 sedout/syntaxdiagrams.html:3314
+#: sedout/syntaxdiagrams.html:4152 sedout/syntaxdiagrams.html:4442
+#: sedout/syntaxdiagrams.html:5778 sedout/syntaxdiagrams.html:5952
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1108 sedout/syntaxdiagrams.html:3331
+#: sedout/syntaxdiagrams.html:4176 sedout/syntaxdiagrams.html:5823
+#: sedout/syntaxdiagrams.html:5997
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1110 sedout/syntaxdiagrams.html:3338
+#: sedout/syntaxdiagrams.html:4181 sedout/syntaxdiagrams.html:5812
+#: sedout/syntaxdiagrams.html:5986
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1112 sedout/syntaxdiagrams.html:3345
+#: sedout/syntaxdiagrams.html:4171 sedout/syntaxdiagrams.html:5801
+#: sedout/syntaxdiagrams.html:5975
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1114 sedout/syntaxdiagrams.html:3304
+#: sedout/syntaxdiagrams.html:3352 sedout/syntaxdiagrams.html:5790
+#: sedout/syntaxdiagrams.html:5964
+msgid "REPLACE"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1146 sedout/syntaxdiagrams.html:3004
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#column-constraint\">column-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#table-constraint\">table-constraint</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1147
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_conflict.html\">lang_conflict.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html#notnullconst\">lang_createtable.html#notnullconst</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1150
+msgid "<a name=\"create-index-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1150
+msgid "create-index-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1156 sedout/syntaxdiagrams.html:1255
+#: sedout/syntaxdiagrams.html:1370 sedout/syntaxdiagrams.html:1577
+#: sedout/syntaxdiagrams.html:1671
+msgid "CREATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1160 sedout/syntaxdiagrams.html:2028
+msgid "INDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1171 sedout/syntaxdiagrams.html:1275
+#: sedout/syntaxdiagrams.html:1390 sedout/syntaxdiagrams.html:1597
+#: sedout/syntaxdiagrams.html:1683 sedout/syntaxdiagrams.html:2032
+#: sedout/syntaxdiagrams.html:2079 sedout/syntaxdiagrams.html:2126
+#: sedout/syntaxdiagrams.html:2173
+msgid "IF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1179 sedout/syntaxdiagrams.html:1283
+#: sedout/syntaxdiagrams.html:1398 sedout/syntaxdiagrams.html:1605
+#: sedout/syntaxdiagrams.html:1691 sedout/syntaxdiagrams.html:2036
+#: sedout/syntaxdiagrams.html:2083 sedout/syntaxdiagrams.html:2130
+#: sedout/syntaxdiagrams.html:2177 sedout/syntaxdiagrams.html:2636
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1196 sedout/syntaxdiagrams.html:2048
+#: sedout/syntaxdiagrams.html:4107 sedout/syntaxdiagrams.html:4266
+#: sedout/syntaxdiagrams.html:5567
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1212 sedout/syntaxdiagrams.html:5409
+#: sedout/syntaxdiagrams.html:6163
+msgid "indexed-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:1226 sedout/syntaxdiagrams.html:1839
+#: sedout/syntaxdiagrams.html:1902 sedout/syntaxdiagrams.html:2841
+#: sedout/syntaxdiagrams.html:4556 sedout/syntaxdiagrams.html:4768
+#: sedout/syntaxdiagrams.html:5884 sedout/syntaxdiagrams.html:6058
+#: sedout/syntaxdiagrams.html:6171 sedout/syntaxdiagrams.html:6217
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1245
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#indexed-column\">indexed-column</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1246
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1249
+msgid "<a name=\"create-table-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1249
+msgid "create-table-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1257 sedout/syntaxdiagrams.html:1372
+#: sedout/syntaxdiagrams.html:1579
+msgid "TEMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1259 sedout/syntaxdiagrams.html:1374
+#: sedout/syntaxdiagrams.html:1581
+msgid "TEMPORARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1315
+msgid "table-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1325
+msgid "table-options"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1360
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#column-def\">column-def</a>&nbsp;&nbsp; "
+"<a href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#table-constraint\">table-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#table-options\">table-options</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1361 sedout/syntaxdiagrams.html:5527
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1364
+msgid "<a name=\"create-trigger-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1364
+msgid "create-trigger-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1376 sedout/syntaxdiagrams.html:2122
+msgid "TRIGGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1415 sedout/syntaxdiagrams.html:2142
+msgid "trigger-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1419
+msgid "BEFORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1421
+msgid "AFTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1423
+msgid "INSTEAD"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1427 sedout/syntaxdiagrams.html:1461
+msgid "OF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1449 sedout/syntaxdiagrams.html:1817
+#: sedout/syntaxdiagrams.html:1887 sedout/syntaxdiagrams.html:2894
+msgid "DELETE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1451 sedout/syntaxdiagrams.html:3306
+msgid "INSERT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1453 sedout/syntaxdiagrams.html:2904
+#: sedout/syntaxdiagrams.html:5767 sedout/syntaxdiagrams.html:5941
+#: sedout/syntaxdiagrams.html:6197
+msgid "UPDATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1491
+msgid "FOR"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1495
+msgid "EACH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1499 sedout/syntaxdiagrams.html:3082
+#: sedout/syntaxdiagrams.html:3104 sedout/syntaxdiagrams.html:3137
+#: sedout/syntaxdiagrams.html:3163
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1503 sedout/syntaxdiagrams.html:2667
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1513 sedout/syntaxdiagrams.html:5330
+msgid "update-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1517 sedout/syntaxdiagrams.html:5374
+msgid ";"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1526 sedout/syntaxdiagrams.html:5281
+msgid "insert-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1528 sedout/syntaxdiagrams.html:5232
+msgid "delete-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1567
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#delete-stmt\">delete-stmt</a>&nbsp;&nbsp; "
+"<a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#insert-stmt\">insert-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1568
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1571
+msgid "<a name=\"create-view-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1571
+msgid "create-view-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1583 sedout/syntaxdiagrams.html:2169
+msgid "VIEW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1622 sedout/syntaxdiagrams.html:2189
+msgid "view-name"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1662
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createview.html\">lang_createview.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1665
+msgid "<a name=\"create-virtual-table-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1665
+msgid "create-virtual-table-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1703 sedout/syntaxdiagrams.html:3529
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1707
+msgid "module-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1715
+msgid "module-argument"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1749
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createvtab.html\">lang_createvtab.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1752
+msgid "<a name=\"cte-table-name\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1752
+msgid "cte-table-name:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1785
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#recursive-cte\">recursive-cte</a>&nbsp;&nbsp; <a "
+"href=\"#with-clause\">with-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1786
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html#recursivecte\">lang_with.html#recursivecte</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1789
+msgid "<a name=\"delete-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1789
+msgid "delete-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:1821 sedout/syntaxdiagrams.html:1891
+#: sedout/syntaxdiagrams.html:2509 sedout/syntaxdiagrams.html:4530
+#: sedout/syntaxdiagrams.html:4742 sedout/syntaxdiagrams.html:5862
+#: sedout/syntaxdiagrams.html:6036
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1825 sedout/syntaxdiagrams.html:1895
+#: sedout/syntaxdiagrams.html:5784 sedout/syntaxdiagrams.html:5958
+msgid "qualified-table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:1829 sedout/syntaxdiagrams.html:1908
+#: sedout/syntaxdiagrams.html:3470 sedout/syntaxdiagrams.html:5900
+#: sedout/syntaxdiagrams.html:6066
+msgid "returning-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1856 sedout/syntaxdiagrams.html:3482
+#: sedout/syntaxdiagrams.html:5906
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#create-trigger-stmt\">create-trigger-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#sql-stmt\">sql-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1857
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#qualified-table-name\">qualified-table-name</a>&nbsp;&nbsp; <a "
+"href=\"#returning-clause\">returning-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1858
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1861
+msgid "<a name=\"delete-stmt-limited\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1861
+msgid "delete-stmt-limited:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1986
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>&nbsp;&nbsp; <a "
+"href=\"#qualified-table-name\">qualified-table-name</a>&nbsp;&nbsp; <a "
+"href=\"#returning-clause\">returning-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:1987
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_delete.html\">lang_delete.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:1990
+msgid "<a name=\"detach-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:1990
+msgid "detach-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:1996
+msgid "DETACH"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2015
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_detach.html\">lang_detach.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2018
+msgid "<a name=\"drop-index-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2018
+msgid "drop-index-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2062
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_dropindex.html\">lang_dropindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2065
+msgid "<a name=\"drop-table-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2065
+msgid "drop-table-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2109
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_droptable.html\">lang_droptable.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2112
+msgid "<a name=\"drop-trigger-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2112
+msgid "drop-trigger-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2156
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_droptrigger.html\">lang_droptrigger.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2159
+msgid "<a name=\"drop-view-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2159
+msgid "drop-view-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2203
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_dropview.html\">lang_dropview.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2206
+msgid "<a name=\"expr\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2206
+msgid "expr:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2217
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2253
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2268
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2279
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2305
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2359
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2409
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2411
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2413
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2415 sedout/syntaxdiagrams.html:2937
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2423
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2465
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2472
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2495
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2530 sedout/syntaxdiagrams.html:3019
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2538 sedout/syntaxdiagrams.html:3031
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2558
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2597
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2659
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2675
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2683
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2703
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2712
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#aggregate-function-invocation\">aggregate-function-invocation</a>&nbsp;&nbsp; "
+"<a href=\"#attach-stmt\">attach-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#column-constraint\">column-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#compound-select-stmt\">compound-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-index-stmt\">create-index-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-trigger-stmt\">create-trigger-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt\">delete-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt-limited\">delete-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#factored-select-stmt\">factored-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#filter-clause\">filter-clause</a>&nbsp;&nbsp; <a "
+"href=\"#frame-spec\">frame-spec</a>&nbsp;&nbsp; <a "
+"href=\"#indexed-column\">indexed-column</a>&nbsp;&nbsp; <a "
+"href=\"#insert-stmt\">insert-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#join-constraint\">join-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>&nbsp;&nbsp; <a "
+"href=\"#over-clause\">over-clause</a>&nbsp;&nbsp; <a "
+"href=\"#result-column\">result-column</a>&nbsp;&nbsp; <a "
+"href=\"#returning-clause\">returning-clause</a>&nbsp;&nbsp; <a "
+"href=\"#select-core\">select-core</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#simple-function-invocation\">simple-function-invocation</a>&nbsp;&nbsp; "
+"<a href=\"#simple-select-stmt\">simple-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#table-constraint\">table-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#upsert-clause\">upsert-clause</a>&nbsp;&nbsp; <a "
+"href=\"#window-defn\">window-defn</a>&nbsp;&nbsp; <a "
+"href=\"#window-function-invocation\">window-function-invocation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2713
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#filter-clause\">filter-clause</a>&nbsp;&nbsp; <a "
+"href=\"#literal-value\">literal-value</a>&nbsp;&nbsp; <a "
+"href=\"#over-clause\">over-clause</a>&nbsp;&nbsp; <a "
+"href=\"#raise-function\">raise-function</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#type-name\">type-name</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2717
+msgid "<a name=\"factored-select-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2717
+msgid "factored-select-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2762 sedout/syntaxdiagrams.html:4883
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2823
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#compound-operator\">compound-operator</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>&nbsp;&nbsp; <a "
+"href=\"#select-core\">select-core</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2824
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_select.html\">lang_select.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2827
+msgid "<a name=\"filter-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2827
+msgid "filter-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2833
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:2856
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#aggregate-function-invocation\">aggregate-function-invocation</a>&nbsp;&nbsp; "
+"<a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#window-function-invocation\">window-function-invocation</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:2861
+msgid "<a name=\"foreign-key-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:2861
+msgid "foreign-key-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2867
+msgid "REFERENCES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2871
+msgid "foreign-table"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2898 sedout/syntaxdiagrams.html:2909
+#: sedout/syntaxdiagrams.html:5835 sedout/syntaxdiagrams.html:6009
+#: sedout/syntaxdiagrams.html:6201
+msgid "SET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2918
+msgid "CASCADE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2923
+msgid "RESTRICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2928 sedout/syntaxdiagrams.html:3190
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2932
+msgid "ACTION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2969
+msgid "DEFERRABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:2973 sedout/syntaxdiagrams.html:2979
+msgid "INITIALLY"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3005
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html#altertabaddcol\">lang_altertable.html#altertabaddcol</a>&nbsp;&nbsp; "
+"<a href=\"lang_createtable.html\">lang_createtable.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3008
+msgid "<a name=\"frame-spec\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3008
+msgid "frame-spec:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3014
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3023 sedout/syntaxdiagrams.html:3035
+#: sedout/syntaxdiagrams.html:3058
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3027 sedout/syntaxdiagrams.html:3062
+#: sedout/syntaxdiagrams.html:3071 sedout/syntaxdiagrams.html:3093
+#: sedout/syntaxdiagrams.html:3128
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3039 sedout/syntaxdiagrams.html:3115
+#: sedout/syntaxdiagrams.html:3148
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3044
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3051
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3078 sedout/syntaxdiagrams.html:3100
+#: sedout/syntaxdiagrams.html:3133 sedout/syntaxdiagrams.html:3159
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3155 sedout/syntaxdiagrams.html:3168
+#: sedout/syntaxdiagrams.html:3177 sedout/syntaxdiagrams.html:3186
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3172 sedout/syntaxdiagrams.html:4571
+#: sedout/syntaxdiagrams.html:4783
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3181
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3194
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3216
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#over-clause\">over-clause</a>&nbsp;&nbsp; <a "
+"href=\"#window-defn\">window-defn</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3221
+msgid "<a name=\"indexed-column\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3221
+msgid "indexed-column:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3269
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#create-index-stmt\">create-index-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#table-constraint\">table-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#upsert-clause\">upsert-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3271
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html#primkeyconst\">lang_createtable.html#primkeyconst</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_createtable.html#uniqueconst\">lang_createtable.html#uniqueconst</a>&nbsp;&nbsp; "
+"<a href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; "
+"<a href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3274
+msgid "<a name=\"insert-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3274
+msgid "insert-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3310 sedout/syntaxdiagrams.html:5774
+#: sedout/syntaxdiagrams.html:5786 sedout/syntaxdiagrams.html:5797
+#: sedout/syntaxdiagrams.html:5808 sedout/syntaxdiagrams.html:5819
+#: sedout/syntaxdiagrams.html:5948 sedout/syntaxdiagrams.html:5960
+#: sedout/syntaxdiagrams.html:5971 sedout/syntaxdiagrams.html:5982
+#: sedout/syntaxdiagrams.html:5993
+msgid "OR"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3320 sedout/syntaxdiagrams.html:6273
+msgid "INTO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3375 sedout/syntaxdiagrams.html:4089
+msgid "alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3411 sedout/syntaxdiagrams.html:3464
+#: sedout/syntaxdiagrams.html:4643 sedout/syntaxdiagrams.html:4854
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3439 sedout/syntaxdiagrams.html:3453
+msgid "upsert-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3483
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#returning-clause\">returning-clause</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#upsert-clause\">upsert-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3484
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3487
+msgid "<a name=\"join-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3487
+msgid "join-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:3493 sedout/syntaxdiagrams.html:3501
+#: sedout/syntaxdiagrams.html:4534 sedout/syntaxdiagrams.html:4746
+#: sedout/syntaxdiagrams.html:5650 sedout/syntaxdiagrams.html:5866
+#: sedout/syntaxdiagrams.html:6040
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3497
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3505
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3518
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#select-core\">select-core</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3519
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#join-constraint\">join-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#join-operator\">join-operator</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3523
+msgid "<a name=\"join-constraint\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3523
+msgid "join-constraint:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3569 sedout/syntaxdiagrams.html:3639
+msgid "Used by:&nbsp;&nbsp; <a href=\"#join-clause\">join-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3571
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_attach.html\">lang_attach.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createview.html\">lang_createview.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html\">lang_expr.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#fromclause\">lang_select.html#fromclause</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>&nbsp;&nbsp; "
+"<a href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3574
+msgid "<a name=\"join-operator\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3574
+msgid "join-operator:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3580
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3586
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3590
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3596
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3614
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3620
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3625
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3632
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3640
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_attach.html\">lang_attach.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createview.html\">lang_createview.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html\">lang_expr.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#fromclause\">lang_select.html#fromclause</a>&nbsp;&nbsp; "
+"<a href=\"lang_select.html#nonstd\">lang_select.html#nonstd</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>&nbsp;&nbsp; "
+"<a href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3643
+msgid "<a name=\"literal-value\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3643
+msgid "literal-value:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3649
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3656 sedout/syntaxdiagrams.html:4974
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3661
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3668
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3682
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3689
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3696
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3703
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3712
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#column-constraint\">column-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3716
+msgid "<a name=\"numeric-literal\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3716
+msgid "numeric-literal:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3722 sedout/syntaxdiagrams.html:3748
+#: sedout/syntaxdiagrams.html:3762 sedout/syntaxdiagrams.html:3776
+msgid "digit"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3739
+msgid "E"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3745
+msgid "e"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3772 sedout/syntaxdiagrams.html:4981
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3785 sedout/syntaxdiagrams.html:4970
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3799
+msgid "0x"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3803
+msgid "hexdigit"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3813
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_expr.html#litvalue\">lang_expr.html#litvalue</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3816
+msgid "<a name=\"ordering-term\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3816
+msgid "ordering-term:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3853 sedout/syntaxdiagrams.html:3861
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3857
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3865
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3875
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#compound-select-stmt\">compound-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt-limited\">delete-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#factored-select-stmt\">factored-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#over-clause\">over-clause</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#simple-select-stmt\">simple-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#window-defn\">window-defn</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3880
+msgid "<a name=\"over-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3880
+msgid "over-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3886 sedout/syntaxdiagrams.html:6400
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3890 sedout/syntaxdiagrams.html:4612
+#: sedout/syntaxdiagrams.html:4824 sedout/syntaxdiagrams.html:6404
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3898 sedout/syntaxdiagrams.html:6299
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3900 sedout/syntaxdiagrams.html:6301
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3946 sedout/syntaxdiagrams.html:6347
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3971 sedout/syntaxdiagrams.html:4192
+msgid "Used by:&nbsp;&nbsp; <a href=\"#expr\">expr</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:3972 sedout/syntaxdiagrams.html:6370
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#frame-spec\">frame-spec</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:3976
+msgid "<a name=\"pragma-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:3976
+msgid "pragma-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3982
+msgid "PRAGMA"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:3994
+msgid "pragma-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:4002 sedout/syntaxdiagrams.html:4017
+msgid "pragma-value"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4031
+msgid "References:&nbsp;&nbsp; <a href=\"#pragma-value\">pragma-value</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4032 sedout/syntaxdiagrams.html:4064
+msgid "See also:&nbsp;&nbsp; <a href=\"pragma.html#syntax\">pragma.html#syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4035
+msgid "<a name=\"pragma-value\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4035
+msgid "pragma-value:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4048
+msgid "signed-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4062
+msgid "Used by:&nbsp;&nbsp; <a href=\"#pragma-stmt\">pragma-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4063 sedout/syntaxdiagrams.html:5733
+msgid "References:&nbsp;&nbsp; <a href=\"#signed-number\">signed-number</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4067
+msgid "<a name=\"qualified-table-name\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4067
+msgid "qualified-table-name:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4099 sedout/syntaxdiagrams.html:4113
+#: sedout/syntaxdiagrams.html:5559 sedout/syntaxdiagrams.html:5573
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4134
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#delete-stmt\">delete-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt-limited\">delete-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4135
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_indexedby.html\">lang_indexedby.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_update.html\">lang_update.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4138
+msgid "<a name=\"raise-function\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4138
+msgid "raise-function:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4144
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4160
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4193
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_attach.html\">lang_attach.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html#raise\">lang_createtrigger.html#raise</a>&nbsp;&nbsp; "
+"<a href=\"lang_createview.html\">lang_createview.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html\">lang_expr.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>&nbsp;&nbsp; "
+"<a href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4196
+msgid "<a name=\"recursive-cte\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4196
+msgid "recursive-cte:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4202 sedout/syntaxdiagrams.html:6449
+msgid "cte-table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4214
+msgid "initial-select"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4226
+msgid "recursive-select"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4242
+msgid "References:&nbsp;&nbsp; <a href=\"#cte-table-name\">cte-table-name</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4243
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_with.html#recursivecte\">lang_with.html#recursivecte</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4246
+msgid "<a name=\"reindex-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4246
+msgid "reindex-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4252
+msgid "REINDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4296
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_reindex.html\">lang_reindex.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4299
+msgid "<a name=\"release-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4299
+msgid "release-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4305
+msgid "RELEASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4309 sedout/syntaxdiagrams.html:4454
+#: sedout/syntaxdiagrams.html:4484
+msgid "SAVEPOINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4313 sedout/syntaxdiagrams.html:4458
+#: sedout/syntaxdiagrams.html:4488
+msgid "savepoint-name"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4324 sedout/syntaxdiagrams.html:4496
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_savepoint.html\">lang_savepoint.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4327
+msgid "<a name=\"result-column\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4327
+msgid "result-column:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4341 sedout/syntaxdiagrams.html:4401
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4378
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#select-core\">select-core</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4383
+msgid "<a name=\"returning-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4383
+msgid "returning-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4389
+msgid "RETURNING"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4431
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#delete-stmt\">delete-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt-limited\">delete-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#insert-stmt\">insert-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4433
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_update.html\">lang_update.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4436
+msgid "<a name=\"rollback-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4436
+msgid "rollback-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4475
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_savepoint.html\">lang_savepoint.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_transaction.html\">lang_transaction.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4478
+msgid "<a name=\"savepoint-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4478
+msgid "savepoint-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4499
+msgid "<a name=\"select-core\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4499
+msgid "select-core:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4505 sedout/syntaxdiagrams.html:4717
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4513 sedout/syntaxdiagrams.html:4725
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:4536 sedout/syntaxdiagrams.html:4748
+#: sedout/syntaxdiagrams.html:5668 sedout/syntaxdiagrams.html:5875
+#: sedout/syntaxdiagrams.html:6049
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4583 sedout/syntaxdiagrams.html:4795
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4608 sedout/syntaxdiagrams.html:4820
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4620 sedout/syntaxdiagrams.html:4832
+#: sedout/syntaxdiagrams.html:6412
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4676
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#compound-select-stmt\">compound-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#factored-select-stmt\">factored-select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#simple-select-stmt\">simple-select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4677
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#join-clause\">join-clause</a>&nbsp;&nbsp; <a "
+"href=\"#result-column\">result-column</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>&nbsp;&nbsp; <a "
+"href=\"#window-defn\">window-defn</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4678
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4681
+msgid "<a name=\"select-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4681
+msgid "select-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4959
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#create-table-stmt\">create-table-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-trigger-stmt\">create-trigger-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-view-stmt\">create-view-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#insert-stmt\">insert-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#sql-stmt\">sql-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>&nbsp;&nbsp; <a "
+"href=\"#with-clause\">with-clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4960
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#compound-operator\">compound-operator</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#join-clause\">join-clause</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>&nbsp;&nbsp; <a "
+"href=\"#result-column\">result-column</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>&nbsp;&nbsp; <a "
+"href=\"#window-defn\">window-defn</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4961
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"changes.html#version_3_35_3\">changes.html#version_3_35_3</a>&nbsp;&nbsp; "
+"<a href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_attach.html\">lang_attach.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createview.html\">lang_createview.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html\">lang_expr.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>&nbsp;&nbsp; "
+"<a href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html#recursivecte\">lang_with.html#recursivecte</a>&nbsp;&nbsp; "
+"<a href=\"partialindex.html\">partialindex.html</a>&nbsp;&nbsp; <a "
+"href=\"releaselog/3_35_3.html\">releaselog/3_35_3.html</a>&nbsp;&nbsp; <a "
+"href=\"releaselog/3_35_4.html\">releaselog/3_35_4.html</a>&nbsp;&nbsp; <a "
+"href=\"releaselog/3_35_5.html\">releaselog/3_35_5.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4964
+msgid "<a name=\"signed-number\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4964
+msgid "signed-number:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4989
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href=\"#column-constraint\">column-constraint</a>&nbsp;&nbsp; <a "
+"href=\"#pragma-value\">pragma-value</a>&nbsp;&nbsp; <a "
+"href=\"#type-name\">type-name</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:4990
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_aggfunc.html\">lang_aggfunc.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_altertable.html\">lang_altertable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_attach.html\">lang_attach.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createindex.html\">lang_createindex.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createview.html\">lang_createview.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_delete.html\">lang_delete.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_expr.html\">lang_expr.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_returning.html\">lang_returning.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html\">lang_select.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_select.html#compound\">lang_select.html#compound</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>&nbsp;&nbsp; "
+"<a href=\"lang_update.html\">lang_update.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_with.html\">lang_with.html</a>&nbsp;&nbsp; <a "
+"href=\"partialindex.html\">partialindex.html</a>&nbsp;&nbsp; <a "
+"href=\"pragma.html#syntax\">pragma.html#syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:4993
+msgid "<a name=\"simple-function-invocation\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:4993
+msgid "simple-function-invocation:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:4999
+msgid "simple-func"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5032 sedout/syntaxdiagrams.html:6431
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_expr.html#booleanexpr\">lang_expr.html#booleanexpr</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5035
+msgid "<a name=\"simple-select-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5035
+msgid "simple-select-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5135
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_select.html#simpleselect\">lang_select.html#simpleselect</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5138
+msgid "<a name=\"sql-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5138
+msgid "sql-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5144
+msgid "EXPLAIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5148
+msgid "QUERY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5152
+msgid "PLAN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5162
+msgid "alter-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5169
+msgid "analyze-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5176
+msgid "attach-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5183
+msgid "begin-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5190
+msgid "commit-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5197
+msgid "create-index-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5204
+msgid "create-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5211
+msgid "create-trigger-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5218
+msgid "create-view-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5225
+msgid "create-virtual-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5239
+msgid "delete-stmt-limited"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5246
+msgid "detach-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5253
+msgid "drop-index-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5260
+msgid "drop-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5267
+msgid "drop-trigger-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5274
+msgid "drop-view-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5288
+msgid "pragma-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5295
+msgid "reindex-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5302
+msgid "release-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5309
+msgid "rollback-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5316
+msgid "savepoint-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5337
+msgid "update-stmt-limited"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5344
+msgid "vacuum-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5353
+msgid "Used by:&nbsp;&nbsp; <a href=\"#sql-stmt-list\">sql-stmt-list</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5354
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#alter-table-stmt\">alter-table-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#analyze-stmt\">analyze-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#attach-stmt\">attach-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#begin-stmt\">begin-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#commit-stmt\">commit-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-index-stmt\">create-index-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-table-stmt\">create-table-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-trigger-stmt\">create-trigger-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-view-stmt\">create-view-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#create-virtual-table-stmt\">create-virtual-table-stmt</a>&nbsp;&nbsp; "
+"<a href=\"#delete-stmt\">delete-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#delete-stmt-limited\">delete-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#detach-stmt\">detach-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#drop-index-stmt\">drop-index-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#drop-table-stmt\">drop-table-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#drop-trigger-stmt\">drop-trigger-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#drop-view-stmt\">drop-view-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#insert-stmt\">insert-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#pragma-stmt\">pragma-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#reindex-stmt\">reindex-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#release-stmt\">release-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#rollback-stmt\">rollback-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#savepoint-stmt\">savepoint-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>&nbsp;&nbsp; <a "
+"href=\"#vacuum-stmt\">vacuum-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5355
+msgid ""
+"See also:&nbsp;&nbsp; <a href=\"lang.html\">lang.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_explain.html\">lang_explain.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5358
+msgid "<a name=\"sql-stmt-list\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5358
+msgid "sql-stmt-list:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5365
+msgid "sql-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5381
+msgid "References:&nbsp;&nbsp; <a href=\"#sql-stmt\">sql-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5382
+msgid "See also:&nbsp;&nbsp; <a href=\"lang.html\">lang.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5385
+msgid "<a name=\"table-constraint\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5385
+msgid "table-constraint:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5458
+msgid "FOREIGN"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5492 sedout/syntaxdiagrams.html:5526
+msgid "Used by:&nbsp;&nbsp; <a href=\"#create-table-stmt\">create-table-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5493
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#conflict-clause\">conflict-clause</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#foreign-key-clause\">foreign-key-clause</a>&nbsp;&nbsp; <a "
+"href=\"#indexed-column\">indexed-column</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5494
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html\">lang_createtable.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_createtable.html#primkeyconst\">lang_createtable.html#primkeyconst</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_createtable.html#tablecoldef\">lang_createtable.html#tablecoldef</a>&nbsp;&nbsp; "
+"<a "
+"href=\"lang_createtable.html#uniqueconst\">lang_createtable.html#uniqueconst</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5497
+msgid "<a name=\"table-options\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5497
+msgid "table-options:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5503
+msgid "WITHOUT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5507
+msgid "ROWID"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5513
+msgid "STRICT"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5530
+msgid "<a name=\"table-or-subquery\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5530
+msgid "table-or-subquery:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5552 sedout/syntaxdiagrams.html:5616
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5583
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5673
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#join-clause\">join-clause</a>&nbsp;&nbsp; <a "
+"href=\"#select-core\">select-core</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt\">update-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#update-stmt-limited\">update-stmt-limited</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5674
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#join-clause\">join-clause</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5678
+msgid "<a name=\"type-name\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5678
+msgid "type-name:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5732
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#column-def\">column-def</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5737
+msgid "<a name=\"update-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5737
+msgid "update-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:5839 sedout/syntaxdiagrams.html:6013
+#: sedout/syntaxdiagrams.html:6205
+msgid "column-name-list"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5907
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#column-name-list\">column-name-list</a>&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#join-clause\">join-clause</a>&nbsp;&nbsp; <a "
+"href=\"#qualified-table-name\">qualified-table-name</a>&nbsp;&nbsp; <a "
+"href=\"#returning-clause\">returning-clause</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:5908
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_update.html\">lang_update.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:5911
+msgid "<a name=\"update-stmt-limited\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:5911
+msgid "update-stmt-limited:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6140
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#column-name-list\">column-name-list</a>&nbsp;&nbsp; <a "
+"href=\"#common-table-expression\">common-table-expression</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#join-clause\">join-clause</a>&nbsp;&nbsp; <a "
+"href=\"#ordering-term\">ordering-term</a>&nbsp;&nbsp; <a "
+"href=\"#qualified-table-name\">qualified-table-name</a>&nbsp;&nbsp; <a "
+"href=\"#returning-clause\">returning-clause</a>&nbsp;&nbsp; <a "
+"href=\"#table-or-subquery\">table-or-subquery</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6141
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_update.html#upfrom\">lang_update.html#upfrom</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:6144
+msgid "<a name=\"upsert-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:6144
+msgid "upsert-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:6181
+msgid "DO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:6191
+msgid "conflict target"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text><text>
+#: sedout/syntaxdiagrams.html:6226
+msgid "NOTHING"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6252
+msgid "Used by:&nbsp;&nbsp; <a href=\"#insert-stmt\">insert-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6253
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#column-name-list\">column-name-list</a>&nbsp;&nbsp; <a "
+"href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#indexed-column\">indexed-column</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6254
+msgid ""
+"See also:&nbsp;&nbsp; <a "
+"href=\"lang_createtrigger.html\">lang_createtrigger.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_insert.html\">lang_insert.html</a>&nbsp;&nbsp; <a "
+"href=\"lang_upsert.html\">lang_upsert.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:6257
+msgid "<a name=\"vacuum-stmt\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:6257
+msgid "vacuum-stmt:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:6263
+msgid "VACUUM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:6277
+msgid "filename"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6286
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_vacuum.html\">lang_vacuum.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:6289
+msgid "<a name=\"window-defn\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:6289
+msgid "window-defn:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6369
+msgid ""
+"Used by:&nbsp;&nbsp; <a href=\"#select-core\">select-core</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>&nbsp;&nbsp; <a "
+"href=\"#window-function-invocation\">window-function-invocation</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:6374
+msgid "<a name=\"window-function-invocation\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:6374
+msgid "window-function-invocation:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntaxdiagrams.html:6380
+msgid "window-func"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6430
+msgid ""
+"References:&nbsp;&nbsp; <a href=\"#expr\">expr</a>&nbsp;&nbsp; <a "
+"href=\"#filter-clause\">filter-clause</a>&nbsp;&nbsp; <a "
+"href=\"#window-defn\">window-defn</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/syntaxdiagrams.html:6434
+msgid "<a name=\"with-clause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/syntaxdiagrams.html:6434
+msgid "with-clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6496
+msgid ""
+"References:&nbsp;&nbsp; <a "
+"href=\"#cte-table-name\">cte-table-name</a>&nbsp;&nbsp; <a "
+"href=\"#select-stmt\">select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/syntaxdiagrams.html:6497
+msgid "See also:&nbsp;&nbsp; <a href=\"lang_with.html\">lang_with.html</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/syntaxdiagrams.html:6500
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/syntaxdiagrams.in?m=4eaf2fca2d\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

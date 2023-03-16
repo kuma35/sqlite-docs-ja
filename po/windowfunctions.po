@@ -1,0 +1,3397 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 19:17+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/windowfunctions.html:6 sedout/windowfunctions.html:121
+msgid "Window Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/windowfunctions.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/windowfunctions.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/windowfunctions.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/windowfunctions.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/windowfunctions.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/windowfunctions.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/windowfunctions.html:22 sedout/windowfunctions.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/windowfunctions.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/windowfunctions.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/windowfunctions.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/windowfunctions.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/windowfunctions.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/windowfunctions.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/windowfunctions.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/windowfunctions.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/windowfunctions.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/windowfunctions.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/windowfunctions.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/windowfunctions.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/windowfunctions.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/windowfunctions.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/windowfunctions.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/windowfunctions.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:128
+msgid ""
+"<a href=\"#introduction_to_window_functions\">1. Introduction to Window "
+"Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:129
+msgid "<a href=\"#aggregate_window_functions\">2. Aggregate Window Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:130
+msgid "<a href=\"#the_partition_by_clause\">2.1. The PARTITION BY Clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:131
+msgid "<a href=\"#frame_specifications\">2.2. Frame Specifications</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:132
+msgid "<a href=\"#frame_type\">2.2.1. Frame Type</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:133
+msgid "<a href=\"#frame_boundaries\">2.2.2. Frame Boundaries</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:134
+msgid "<a href=\"#the_exclude_clause\">2.2.3. The EXCLUDE Clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:135
+msgid "<a href=\"#the_filter_clause\">2.3. The FILTER Clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:136
+msgid "<a href=\"#built_in_window_functions\">3. Built-in Window Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:137
+msgid "<a href=\"#window_chaining\">4. Window Chaining</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:138
+msgid ""
+"<a href=\"#user_defined_aggregate_window_functions\">5. User-Defined "
+"Aggregate Window Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/windowfunctions.html:139
+msgid "<a href=\"#history\">6. History</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/windowfunctions.html:143
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/windowfunctions.html:161
+msgid "<span>1. </span>Introduction to Window Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:163
+msgid ""
+"A window function is an SQL function where the input values are taken from a "
+"\"window\" of one or more rows in the results set of a SELECT statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:167
+msgid ""
+"Window functions are distinguished from other SQL functions by the presence "
+"of an OVER clause. If a function has an OVER clause, then it is a window "
+"function. If it lacks an OVER clause, then it is an ordinary aggregate or "
+"scalar function. Window functions might also have a FILTER clause in between "
+"the function and the OVER clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:173
+msgid "The syntax for a window function is like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:176
+msgid ""
+"<b><a "
+"href=\"syntax/window-function-invocation.html\">window-function-invocation:</a></b> "
+"<button id='x6935c3a8' "
+"onclick='hideorshow(\"x6935c3a8\",\"x046eca25\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><svg><text>
+#: sedout/windowfunctions.html:184
+msgid "window-func"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:188 sedout/windowfunctions.html:312
+#: sedout/windowfunctions.html:368 sedout/windowfunctions.html:392
+#: sedout/windowfunctions.html:591 sedout/windowfunctions.html:630
+#: sedout/windowfunctions.html:669 sedout/windowfunctions.html:827
+#: sedout/windowfunctions.html:1187 sedout/windowfunctions.html:1410
+#: sedout/windowfunctions.html:1524 sedout/windowfunctions.html:1545
+#: sedout/windowfunctions.html:1667 sedout/windowfunctions.html:1944
+#: sedout/windowfunctions.html:1985 sedout/windowfunctions.html:2003
+#: sedout/windowfunctions.html:2043 sedout/windowfunctions.html:2066
+#: sedout/windowfunctions.html:2127 sedout/windowfunctions.html:2154
+#: sedout/windowfunctions.html:2986 sedout/windowfunctions.html:3042
+#: sedout/windowfunctions.html:3066 sedout/windowfunctions.html:3265
+#: sedout/windowfunctions.html:3304 sedout/windowfunctions.html:3343
+#: sedout/windowfunctions.html:3426 sedout/windowfunctions.html:3532
+#: sedout/windowfunctions.html:3682 sedout/windowfunctions.html:3905
+#: sedout/windowfunctions.html:4019 sedout/windowfunctions.html:4040
+#: sedout/windowfunctions.html:4162 sedout/windowfunctions.html:4439
+#: sedout/windowfunctions.html:4480 sedout/windowfunctions.html:4498
+#: sedout/windowfunctions.html:4533 sedout/windowfunctions.html:4620
+#: sedout/windowfunctions.html:4643 sedout/windowfunctions.html:4958
+#: sedout/windowfunctions.html:5055 sedout/windowfunctions.html:5111
+#: sedout/windowfunctions.html:5135 sedout/windowfunctions.html:5334
+#: sedout/windowfunctions.html:5373 sedout/windowfunctions.html:5412
+#: sedout/windowfunctions.html:5570 sedout/windowfunctions.html:5930
+#: sedout/windowfunctions.html:6153 sedout/windowfunctions.html:6267
+#: sedout/windowfunctions.html:6288 sedout/windowfunctions.html:6410
+#: sedout/windowfunctions.html:6687 sedout/windowfunctions.html:6728
+#: sedout/windowfunctions.html:6746 sedout/windowfunctions.html:6781
+#: sedout/windowfunctions.html:7078 sedout/windowfunctions.html:7101
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:192 sedout/windowfunctions.html:286
+#: sedout/windowfunctions.html:293 sedout/windowfunctions.html:301
+#: sedout/windowfunctions.html:320 sedout/windowfunctions.html:372
+#: sedout/windowfunctions.html:396 sedout/windowfunctions.html:415
+#: sedout/windowfunctions.html:430 sedout/windowfunctions.html:446
+#: sedout/windowfunctions.html:448 sedout/windowfunctions.html:456
+#: sedout/windowfunctions.html:490 sedout/windowfunctions.html:520
+#: sedout/windowfunctions.html:542 sedout/windowfunctions.html:551
+#: sedout/windowfunctions.html:563 sedout/windowfunctions.html:571
+#: sedout/windowfunctions.html:579 sedout/windowfunctions.html:608
+#: sedout/windowfunctions.html:634 sedout/windowfunctions.html:692
+#: sedout/windowfunctions.html:700 sedout/windowfunctions.html:708
+#: sedout/windowfunctions.html:716 sedout/windowfunctions.html:841
+#: sedout/windowfunctions.html:964 sedout/windowfunctions.html:986
+#: sedout/windowfunctions.html:1008 sedout/windowfunctions.html:1021
+#: sedout/windowfunctions.html:1041 sedout/windowfunctions.html:1121
+#: sedout/windowfunctions.html:1324 sedout/windowfunctions.html:1343
+#: sedout/windowfunctions.html:1351 sedout/windowfunctions.html:1414
+#: sedout/windowfunctions.html:1453 sedout/windowfunctions.html:1481
+#: sedout/windowfunctions.html:1489 sedout/windowfunctions.html:1693
+#: sedout/windowfunctions.html:1779 sedout/windowfunctions.html:1840
+#: sedout/windowfunctions.html:1948 sedout/windowfunctions.html:2135
+#: sedout/windowfunctions.html:2168 sedout/windowfunctions.html:2288
+#: sedout/windowfunctions.html:2310 sedout/windowfunctions.html:2332
+#: sedout/windowfunctions.html:2345 sedout/windowfunctions.html:2365
+#: sedout/windowfunctions.html:2445 sedout/windowfunctions.html:2759
+#: sedout/windowfunctions.html:2781 sedout/windowfunctions.html:2803
+#: sedout/windowfunctions.html:2816 sedout/windowfunctions.html:2836
+#: sedout/windowfunctions.html:2960 sedout/windowfunctions.html:2967
+#: sedout/windowfunctions.html:2975 sedout/windowfunctions.html:2994
+#: sedout/windowfunctions.html:3046 sedout/windowfunctions.html:3070
+#: sedout/windowfunctions.html:3089 sedout/windowfunctions.html:3104
+#: sedout/windowfunctions.html:3120 sedout/windowfunctions.html:3122
+#: sedout/windowfunctions.html:3130 sedout/windowfunctions.html:3164
+#: sedout/windowfunctions.html:3194 sedout/windowfunctions.html:3216
+#: sedout/windowfunctions.html:3225 sedout/windowfunctions.html:3237
+#: sedout/windowfunctions.html:3245 sedout/windowfunctions.html:3253
+#: sedout/windowfunctions.html:3282 sedout/windowfunctions.html:3308
+#: sedout/windowfunctions.html:3366 sedout/windowfunctions.html:3374
+#: sedout/windowfunctions.html:3382 sedout/windowfunctions.html:3390
+#: sedout/windowfunctions.html:3434 sedout/windowfunctions.html:3546
+#: sedout/windowfunctions.html:3616 sedout/windowfunctions.html:3819
+#: sedout/windowfunctions.html:3838 sedout/windowfunctions.html:3846
+#: sedout/windowfunctions.html:3909 sedout/windowfunctions.html:3948
+#: sedout/windowfunctions.html:3976 sedout/windowfunctions.html:3984
+#: sedout/windowfunctions.html:4188 sedout/windowfunctions.html:4274
+#: sedout/windowfunctions.html:4335 sedout/windowfunctions.html:4443
+#: sedout/windowfunctions.html:4547 sedout/windowfunctions.html:4966
+#: sedout/windowfunctions.html:5029 sedout/windowfunctions.html:5036
+#: sedout/windowfunctions.html:5044 sedout/windowfunctions.html:5063
+#: sedout/windowfunctions.html:5115 sedout/windowfunctions.html:5139
+#: sedout/windowfunctions.html:5158 sedout/windowfunctions.html:5173
+#: sedout/windowfunctions.html:5189 sedout/windowfunctions.html:5191
+#: sedout/windowfunctions.html:5199 sedout/windowfunctions.html:5233
+#: sedout/windowfunctions.html:5263 sedout/windowfunctions.html:5285
+#: sedout/windowfunctions.html:5294 sedout/windowfunctions.html:5306
+#: sedout/windowfunctions.html:5314 sedout/windowfunctions.html:5322
+#: sedout/windowfunctions.html:5351 sedout/windowfunctions.html:5377
+#: sedout/windowfunctions.html:5435 sedout/windowfunctions.html:5443
+#: sedout/windowfunctions.html:5451 sedout/windowfunctions.html:5459
+#: sedout/windowfunctions.html:5584 sedout/windowfunctions.html:5707
+#: sedout/windowfunctions.html:5729 sedout/windowfunctions.html:5751
+#: sedout/windowfunctions.html:5764 sedout/windowfunctions.html:5784
+#: sedout/windowfunctions.html:5864 sedout/windowfunctions.html:6067
+#: sedout/windowfunctions.html:6086 sedout/windowfunctions.html:6094
+#: sedout/windowfunctions.html:6157 sedout/windowfunctions.html:6196
+#: sedout/windowfunctions.html:6224 sedout/windowfunctions.html:6232
+#: sedout/windowfunctions.html:6436 sedout/windowfunctions.html:6522
+#: sedout/windowfunctions.html:6583 sedout/windowfunctions.html:6691
+#: sedout/windowfunctions.html:6795 sedout/windowfunctions.html:6915
+#: sedout/windowfunctions.html:6937 sedout/windowfunctions.html:6959
+#: sedout/windowfunctions.html:6972 sedout/windowfunctions.html:6992
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:196 sedout/windowfunctions.html:324
+#: sedout/windowfunctions.html:376 sedout/windowfunctions.html:408
+#: sedout/windowfunctions.html:599 sedout/windowfunctions.html:638
+#: sedout/windowfunctions.html:677 sedout/windowfunctions.html:883
+#: sedout/windowfunctions.html:1203 sedout/windowfunctions.html:1418
+#: sedout/windowfunctions.html:1534 sedout/windowfunctions.html:1553
+#: sedout/windowfunctions.html:1675 sedout/windowfunctions.html:1952
+#: sedout/windowfunctions.html:1993 sedout/windowfunctions.html:2011
+#: sedout/windowfunctions.html:2059 sedout/windowfunctions.html:2074
+#: sedout/windowfunctions.html:2139 sedout/windowfunctions.html:2210
+#: sedout/windowfunctions.html:2998 sedout/windowfunctions.html:3050
+#: sedout/windowfunctions.html:3082 sedout/windowfunctions.html:3273
+#: sedout/windowfunctions.html:3312 sedout/windowfunctions.html:3351
+#: sedout/windowfunctions.html:3438 sedout/windowfunctions.html:3588
+#: sedout/windowfunctions.html:3698 sedout/windowfunctions.html:3913
+#: sedout/windowfunctions.html:4029 sedout/windowfunctions.html:4048
+#: sedout/windowfunctions.html:4170 sedout/windowfunctions.html:4447
+#: sedout/windowfunctions.html:4488 sedout/windowfunctions.html:4506
+#: sedout/windowfunctions.html:4589 sedout/windowfunctions.html:4636
+#: sedout/windowfunctions.html:4651 sedout/windowfunctions.html:4970
+#: sedout/windowfunctions.html:5067 sedout/windowfunctions.html:5119
+#: sedout/windowfunctions.html:5151 sedout/windowfunctions.html:5342
+#: sedout/windowfunctions.html:5381 sedout/windowfunctions.html:5420
+#: sedout/windowfunctions.html:5626 sedout/windowfunctions.html:5946
+#: sedout/windowfunctions.html:6161 sedout/windowfunctions.html:6277
+#: sedout/windowfunctions.html:6296 sedout/windowfunctions.html:6418
+#: sedout/windowfunctions.html:6695 sedout/windowfunctions.html:6736
+#: sedout/windowfunctions.html:6754 sedout/windowfunctions.html:6837
+#: sedout/windowfunctions.html:7094 sedout/windowfunctions.html:7109
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:200 sedout/windowfunctions.html:328
+#: sedout/windowfunctions.html:3002 sedout/windowfunctions.html:5071
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:204 sedout/windowfunctions.html:819
+#: sedout/windowfunctions.html:3524 sedout/windowfunctions.html:5562
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:208 sedout/windowfunctions.html:823
+#: sedout/windowfunctions.html:1376 sedout/windowfunctions.html:3528
+#: sedout/windowfunctions.html:3871 sedout/windowfunctions.html:5566
+#: sedout/windowfunctions.html:6119
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:216 sedout/windowfunctions.html:1384
+#: sedout/windowfunctions.html:3879 sedout/windowfunctions.html:6127
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:219 sedout/windowfunctions.html:347
+#: sedout/windowfunctions.html:383 sedout/windowfunctions.html:613
+#: sedout/windowfunctions.html:650 sedout/windowfunctions.html:843
+#: sedout/windowfunctions.html:867 sedout/windowfunctions.html:1195
+#: sedout/windowfunctions.html:1255 sedout/windowfunctions.html:1279
+#: sedout/windowfunctions.html:1302 sedout/windowfunctions.html:1353
+#: sedout/windowfunctions.html:1386 sedout/windowfunctions.html:1423
+#: sedout/windowfunctions.html:1425 sedout/windowfunctions.html:1459
+#: sedout/windowfunctions.html:1485 sedout/windowfunctions.html:1558
+#: sedout/windowfunctions.html:1682 sedout/windowfunctions.html:1732
+#: sedout/windowfunctions.html:1956 sedout/windowfunctions.html:2018
+#: sedout/windowfunctions.html:2051 sedout/windowfunctions.html:2170
+#: sedout/windowfunctions.html:2194 sedout/windowfunctions.html:3021
+#: sedout/windowfunctions.html:3057 sedout/windowfunctions.html:3287
+#: sedout/windowfunctions.html:3324 sedout/windowfunctions.html:3548
+#: sedout/windowfunctions.html:3572 sedout/windowfunctions.html:3690
+#: sedout/windowfunctions.html:3750 sedout/windowfunctions.html:3774
+#: sedout/windowfunctions.html:3797 sedout/windowfunctions.html:3848
+#: sedout/windowfunctions.html:3881 sedout/windowfunctions.html:3918
+#: sedout/windowfunctions.html:3920 sedout/windowfunctions.html:3954
+#: sedout/windowfunctions.html:3980 sedout/windowfunctions.html:4053
+#: sedout/windowfunctions.html:4177 sedout/windowfunctions.html:4227
+#: sedout/windowfunctions.html:4451 sedout/windowfunctions.html:4513
+#: sedout/windowfunctions.html:4549 sedout/windowfunctions.html:4573
+#: sedout/windowfunctions.html:4628 sedout/windowfunctions.html:5090
+#: sedout/windowfunctions.html:5126 sedout/windowfunctions.html:5356
+#: sedout/windowfunctions.html:5393 sedout/windowfunctions.html:5586
+#: sedout/windowfunctions.html:5610 sedout/windowfunctions.html:5938
+#: sedout/windowfunctions.html:5998 sedout/windowfunctions.html:6022
+#: sedout/windowfunctions.html:6045 sedout/windowfunctions.html:6096
+#: sedout/windowfunctions.html:6129 sedout/windowfunctions.html:6166
+#: sedout/windowfunctions.html:6168 sedout/windowfunctions.html:6202
+#: sedout/windowfunctions.html:6228 sedout/windowfunctions.html:6301
+#: sedout/windowfunctions.html:6425 sedout/windowfunctions.html:6475
+#: sedout/windowfunctions.html:6699 sedout/windowfunctions.html:6761
+#: sedout/windowfunctions.html:6797 sedout/windowfunctions.html:6821
+#: sedout/windowfunctions.html:7086
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:227 sedout/windowfunctions.html:356
+#: sedout/windowfunctions.html:1863 sedout/windowfunctions.html:1878
+#: sedout/windowfunctions.html:3030 sedout/windowfunctions.html:4358
+#: sedout/windowfunctions.html:4373 sedout/windowfunctions.html:5099
+#: sedout/windowfunctions.html:6606 sedout/windowfunctions.html:6621
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/windowfunctions.html:233
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x3ebe074b' "
+"onclick='hideorshow(\"x3ebe074b\",\"x37bf6efe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:241 sedout/windowfunctions.html:2915
+#: sedout/windowfunctions.html:4984
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:246 sedout/windowfunctions.html:2920
+#: sedout/windowfunctions.html:4989
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:253 sedout/windowfunctions.html:618
+#: sedout/windowfunctions.html:1893 sedout/windowfunctions.html:2927
+#: sedout/windowfunctions.html:3292 sedout/windowfunctions.html:4388
+#: sedout/windowfunctions.html:4996 sedout/windowfunctions.html:5361
+#: sedout/windowfunctions.html:6636
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:257 sedout/windowfunctions.html:265
+#: sedout/windowfunctions.html:622 sedout/windowfunctions.html:1874
+#: sedout/windowfunctions.html:1897 sedout/windowfunctions.html:2931
+#: sedout/windowfunctions.html:2939 sedout/windowfunctions.html:3296
+#: sedout/windowfunctions.html:4369 sedout/windowfunctions.html:4392
+#: sedout/windowfunctions.html:5000 sedout/windowfunctions.html:5008
+#: sedout/windowfunctions.html:5365 sedout/windowfunctions.html:6617
+#: sedout/windowfunctions.html:6640
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:261 sedout/windowfunctions.html:643
+#: sedout/windowfunctions.html:1518 sedout/windowfunctions.html:1870
+#: sedout/windowfunctions.html:1901 sedout/windowfunctions.html:2935
+#: sedout/windowfunctions.html:3317 sedout/windowfunctions.html:4013
+#: sedout/windowfunctions.html:4365 sedout/windowfunctions.html:4396
+#: sedout/windowfunctions.html:5004 sedout/windowfunctions.html:5386
+#: sedout/windowfunctions.html:6261 sedout/windowfunctions.html:6613
+#: sedout/windowfunctions.html:6644
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:269 sedout/windowfunctions.html:1530
+#: sedout/windowfunctions.html:1671 sedout/windowfunctions.html:2943
+#: sedout/windowfunctions.html:4025 sedout/windowfunctions.html:4166
+#: sedout/windowfunctions.html:5012 sedout/windowfunctions.html:6273
+#: sedout/windowfunctions.html:6414
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:282 sedout/windowfunctions.html:2956
+#: sedout/windowfunctions.html:5025
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:297 sedout/windowfunctions.html:2971
+#: sedout/windowfunctions.html:5040
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:308 sedout/windowfunctions.html:2982
+#: sedout/windowfunctions.html:5051
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:316 sedout/windowfunctions.html:534
+#: sedout/windowfunctions.html:1273 sedout/windowfunctions.html:2990
+#: sedout/windowfunctions.html:3208 sedout/windowfunctions.html:3768
+#: sedout/windowfunctions.html:5059 sedout/windowfunctions.html:5277
+#: sedout/windowfunctions.html:6016
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:334 sedout/windowfunctions.html:3008
+#: sedout/windowfunctions.html:5077
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:388 sedout/windowfunctions.html:3062
+#: sedout/windowfunctions.html:5131
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:400 sedout/windowfunctions.html:1380
+#: sedout/windowfunctions.html:1538 sedout/windowfunctions.html:1844
+#: sedout/windowfunctions.html:1905 sedout/windowfunctions.html:1969
+#: sedout/windowfunctions.html:3074 sedout/windowfunctions.html:3875
+#: sedout/windowfunctions.html:4033 sedout/windowfunctions.html:4339
+#: sedout/windowfunctions.html:4400 sedout/windowfunctions.html:4464
+#: sedout/windowfunctions.html:5143 sedout/windowfunctions.html:6123
+#: sedout/windowfunctions.html:6281 sedout/windowfunctions.html:6587
+#: sedout/windowfunctions.html:6648 sedout/windowfunctions.html:6712
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:404 sedout/windowfunctions.html:3078
+#: sedout/windowfunctions.html:5147
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:419 sedout/windowfunctions.html:1125
+#: sedout/windowfunctions.html:1783 sedout/windowfunctions.html:2449
+#: sedout/windowfunctions.html:3093 sedout/windowfunctions.html:3620
+#: sedout/windowfunctions.html:4278 sedout/windowfunctions.html:5162
+#: sedout/windowfunctions.html:5868 sedout/windowfunctions.html:6526
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:423 sedout/windowfunctions.html:1129
+#: sedout/windowfunctions.html:1787 sedout/windowfunctions.html:2453
+#: sedout/windowfunctions.html:3097 sedout/windowfunctions.html:3624
+#: sedout/windowfunctions.html:4282 sedout/windowfunctions.html:5166
+#: sedout/windowfunctions.html:5872 sedout/windowfunctions.html:6530
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:434 sedout/windowfunctions.html:503
+#: sedout/windowfunctions.html:528 sedout/windowfunctions.html:555
+#: sedout/windowfunctions.html:583 sedout/windowfunctions.html:661
+#: sedout/windowfunctions.html:1540 sedout/windowfunctions.html:1926
+#: sedout/windowfunctions.html:3108 sedout/windowfunctions.html:3177
+#: sedout/windowfunctions.html:3202 sedout/windowfunctions.html:3229
+#: sedout/windowfunctions.html:3257 sedout/windowfunctions.html:3335
+#: sedout/windowfunctions.html:4035 sedout/windowfunctions.html:4421
+#: sedout/windowfunctions.html:5177 sedout/windowfunctions.html:5246
+#: sedout/windowfunctions.html:5271 sedout/windowfunctions.html:5298
+#: sedout/windowfunctions.html:5326 sedout/windowfunctions.html:5404
+#: sedout/windowfunctions.html:6283 sedout/windowfunctions.html:6669
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:438 sedout/windowfunctions.html:3112
+#: sedout/windowfunctions.html:5181
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:440 sedout/windowfunctions.html:3114
+#: sedout/windowfunctions.html:5183
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:442 sedout/windowfunctions.html:3116
+#: sedout/windowfunctions.html:5185
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:444 sedout/windowfunctions.html:3118
+#: sedout/windowfunctions.html:5187
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:452 sedout/windowfunctions.html:3126
+#: sedout/windowfunctions.html:5195
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:494 sedout/windowfunctions.html:3168
+#: sedout/windowfunctions.html:5237
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:501 sedout/windowfunctions.html:3175
+#: sedout/windowfunctions.html:5244
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:507 sedout/windowfunctions.html:774
+#: sedout/windowfunctions.html:3181 sedout/windowfunctions.html:3479
+#: sedout/windowfunctions.html:5250 sedout/windowfunctions.html:5517
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:524 sedout/windowfunctions.html:3198
+#: sedout/windowfunctions.html:5267
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:538 sedout/windowfunctions.html:1294
+#: sedout/windowfunctions.html:3212 sedout/windowfunctions.html:3789
+#: sedout/windowfunctions.html:5281 sedout/windowfunctions.html:6037
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:559 sedout/windowfunctions.html:916
+#: sedout/windowfunctions.html:2240 sedout/windowfunctions.html:2711
+#: sedout/windowfunctions.html:3233 sedout/windowfunctions.html:5302
+#: sedout/windowfunctions.html:5659 sedout/windowfunctions.html:6867
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:567 sedout/windowfunctions.html:928
+#: sedout/windowfunctions.html:2252 sedout/windowfunctions.html:2723
+#: sedout/windowfunctions.html:3241 sedout/windowfunctions.html:5310
+#: sedout/windowfunctions.html:5671 sedout/windowfunctions.html:6879
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:587 sedout/windowfunctions.html:3261
+#: sedout/windowfunctions.html:5330
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:595 sedout/windowfunctions.html:673
+#: sedout/windowfunctions.html:1549 sedout/windowfunctions.html:1989
+#: sedout/windowfunctions.html:3269 sedout/windowfunctions.html:3347
+#: sedout/windowfunctions.html:4044 sedout/windowfunctions.html:4484
+#: sedout/windowfunctions.html:5338 sedout/windowfunctions.html:5416
+#: sedout/windowfunctions.html:6292 sedout/windowfunctions.html:6732
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:626 sedout/windowfunctions.html:3300
+#: sedout/windowfunctions.html:5369
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:665 sedout/windowfunctions.html:3339
+#: sedout/windowfunctions.html:5408
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:688 sedout/windowfunctions.html:3362
+#: sedout/windowfunctions.html:5431
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:696 sedout/windowfunctions.html:3370
+#: sedout/windowfunctions.html:5439
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:704 sedout/windowfunctions.html:3378
+#: sedout/windowfunctions.html:5447
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:712 sedout/windowfunctions.html:3386
+#: sedout/windowfunctions.html:5455
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:720 sedout/windowfunctions.html:3394
+#: sedout/windowfunctions.html:5463
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><svg><text>
+#: sedout/windowfunctions.html:732 sedout/windowfunctions.html:3406
+#: sedout/windowfunctions.html:5475
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:740
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='xe1b5ba3b' "
+"onclick='hideorshow(\"xe1b5ba3b\",\"x46110663\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:748 sedout/windowfunctions.html:3453
+#: sedout/windowfunctions.html:5491
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:755 sedout/windowfunctions.html:2098
+#: sedout/windowfunctions.html:3460 sedout/windowfunctions.html:4675
+#: sedout/windowfunctions.html:5498 sedout/windowfunctions.html:7133
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:760 sedout/windowfunctions.html:3465
+#: sedout/windowfunctions.html:5503
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:767 sedout/windowfunctions.html:3472
+#: sedout/windowfunctions.html:5510
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:781 sedout/windowfunctions.html:3486
+#: sedout/windowfunctions.html:5524
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:788 sedout/windowfunctions.html:3493
+#: sedout/windowfunctions.html:5531
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:795 sedout/windowfunctions.html:3500
+#: sedout/windowfunctions.html:5538
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:802 sedout/windowfunctions.html:3507
+#: sedout/windowfunctions.html:5545
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:811
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x0fad1c51' "
+"onclick='hideorshow(\"x0fad1c51\",\"xe28f0de0\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:831 sedout/windowfunctions.html:2158
+#: sedout/windowfunctions.html:3536 sedout/windowfunctions.html:4537
+#: sedout/windowfunctions.html:5574 sedout/windowfunctions.html:6785
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:833 sedout/windowfunctions.html:2160
+#: sedout/windowfunctions.html:3538 sedout/windowfunctions.html:4539
+#: sedout/windowfunctions.html:5576 sedout/windowfunctions.html:6787
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:837 sedout/windowfunctions.html:861
+#: sedout/windowfunctions.html:1339 sedout/windowfunctions.html:1447
+#: sedout/windowfunctions.html:1920 sedout/windowfunctions.html:2164
+#: sedout/windowfunctions.html:2188 sedout/windowfunctions.html:3542
+#: sedout/windowfunctions.html:3566 sedout/windowfunctions.html:3834
+#: sedout/windowfunctions.html:3942 sedout/windowfunctions.html:4415
+#: sedout/windowfunctions.html:4543 sedout/windowfunctions.html:4567
+#: sedout/windowfunctions.html:5580 sedout/windowfunctions.html:5604
+#: sedout/windowfunctions.html:6082 sedout/windowfunctions.html:6190
+#: sedout/windowfunctions.html:6663 sedout/windowfunctions.html:6791
+#: sedout/windowfunctions.html:6815
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:857 sedout/windowfunctions.html:1443
+#: sedout/windowfunctions.html:2184 sedout/windowfunctions.html:3562
+#: sedout/windowfunctions.html:3938 sedout/windowfunctions.html:4563
+#: sedout/windowfunctions.html:5600 sedout/windowfunctions.html:6186
+#: sedout/windowfunctions.html:6811
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:865 sedout/windowfunctions.html:1457
+#: sedout/windowfunctions.html:2192 sedout/windowfunctions.html:3570
+#: sedout/windowfunctions.html:3952 sedout/windowfunctions.html:4571
+#: sedout/windowfunctions.html:5608 sedout/windowfunctions.html:6200
+#: sedout/windowfunctions.html:6819
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:879 sedout/windowfunctions.html:2206
+#: sedout/windowfunctions.html:3584 sedout/windowfunctions.html:4585
+#: sedout/windowfunctions.html:5622 sedout/windowfunctions.html:6833
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:903
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xe93caa87' "
+"onclick='hideorshow(\"xe93caa87\",\"x7553cfaa\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:911 sedout/windowfunctions.html:2235
+#: sedout/windowfunctions.html:2706 sedout/windowfunctions.html:5654
+#: sedout/windowfunctions.html:6862
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:920 sedout/windowfunctions.html:932
+#: sedout/windowfunctions.html:955 sedout/windowfunctions.html:2244
+#: sedout/windowfunctions.html:2256 sedout/windowfunctions.html:2279
+#: sedout/windowfunctions.html:2715 sedout/windowfunctions.html:2727
+#: sedout/windowfunctions.html:2750 sedout/windowfunctions.html:5663
+#: sedout/windowfunctions.html:5675 sedout/windowfunctions.html:5698
+#: sedout/windowfunctions.html:6871 sedout/windowfunctions.html:6883
+#: sedout/windowfunctions.html:6906
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:924 sedout/windowfunctions.html:959
+#: sedout/windowfunctions.html:968 sedout/windowfunctions.html:990
+#: sedout/windowfunctions.html:1025 sedout/windowfunctions.html:2248
+#: sedout/windowfunctions.html:2283 sedout/windowfunctions.html:2292
+#: sedout/windowfunctions.html:2314 sedout/windowfunctions.html:2349
+#: sedout/windowfunctions.html:2719 sedout/windowfunctions.html:2754
+#: sedout/windowfunctions.html:2763 sedout/windowfunctions.html:2785
+#: sedout/windowfunctions.html:2820 sedout/windowfunctions.html:5667
+#: sedout/windowfunctions.html:5702 sedout/windowfunctions.html:5711
+#: sedout/windowfunctions.html:5733 sedout/windowfunctions.html:5768
+#: sedout/windowfunctions.html:6875 sedout/windowfunctions.html:6910
+#: sedout/windowfunctions.html:6919 sedout/windowfunctions.html:6941
+#: sedout/windowfunctions.html:6976
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:936 sedout/windowfunctions.html:1012
+#: sedout/windowfunctions.html:1045 sedout/windowfunctions.html:2260
+#: sedout/windowfunctions.html:2336 sedout/windowfunctions.html:2369
+#: sedout/windowfunctions.html:2731 sedout/windowfunctions.html:2807
+#: sedout/windowfunctions.html:2840 sedout/windowfunctions.html:5679
+#: sedout/windowfunctions.html:5755 sedout/windowfunctions.html:5788
+#: sedout/windowfunctions.html:6887 sedout/windowfunctions.html:6963
+#: sedout/windowfunctions.html:6996
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:941 sedout/windowfunctions.html:2265
+#: sedout/windowfunctions.html:2736 sedout/windowfunctions.html:5684
+#: sedout/windowfunctions.html:6892
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:948 sedout/windowfunctions.html:2272
+#: sedout/windowfunctions.html:2743 sedout/windowfunctions.html:5691
+#: sedout/windowfunctions.html:6899
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:975 sedout/windowfunctions.html:997
+#: sedout/windowfunctions.html:1030 sedout/windowfunctions.html:1056
+#: sedout/windowfunctions.html:2299 sedout/windowfunctions.html:2321
+#: sedout/windowfunctions.html:2354 sedout/windowfunctions.html:2380
+#: sedout/windowfunctions.html:2770 sedout/windowfunctions.html:2792
+#: sedout/windowfunctions.html:2825 sedout/windowfunctions.html:2851
+#: sedout/windowfunctions.html:5718 sedout/windowfunctions.html:5740
+#: sedout/windowfunctions.html:5773 sedout/windowfunctions.html:5799
+#: sedout/windowfunctions.html:6926 sedout/windowfunctions.html:6948
+#: sedout/windowfunctions.html:6981 sedout/windowfunctions.html:7007
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:979 sedout/windowfunctions.html:1001
+#: sedout/windowfunctions.html:1034 sedout/windowfunctions.html:1060
+#: sedout/windowfunctions.html:2303 sedout/windowfunctions.html:2325
+#: sedout/windowfunctions.html:2358 sedout/windowfunctions.html:2384
+#: sedout/windowfunctions.html:2774 sedout/windowfunctions.html:2796
+#: sedout/windowfunctions.html:2829 sedout/windowfunctions.html:2855
+#: sedout/windowfunctions.html:5722 sedout/windowfunctions.html:5744
+#: sedout/windowfunctions.html:5777 sedout/windowfunctions.html:5803
+#: sedout/windowfunctions.html:6930 sedout/windowfunctions.html:6952
+#: sedout/windowfunctions.html:6985 sedout/windowfunctions.html:7011
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1052 sedout/windowfunctions.html:1065
+#: sedout/windowfunctions.html:1074 sedout/windowfunctions.html:1083
+#: sedout/windowfunctions.html:2376 sedout/windowfunctions.html:2389
+#: sedout/windowfunctions.html:2398 sedout/windowfunctions.html:2407
+#: sedout/windowfunctions.html:2847 sedout/windowfunctions.html:2860
+#: sedout/windowfunctions.html:2869 sedout/windowfunctions.html:2878
+#: sedout/windowfunctions.html:5795 sedout/windowfunctions.html:5808
+#: sedout/windowfunctions.html:5817 sedout/windowfunctions.html:5826
+#: sedout/windowfunctions.html:7003 sedout/windowfunctions.html:7016
+#: sedout/windowfunctions.html:7025 sedout/windowfunctions.html:7034
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1069 sedout/windowfunctions.html:1335
+#: sedout/windowfunctions.html:2393 sedout/windowfunctions.html:2864
+#: sedout/windowfunctions.html:3830 sedout/windowfunctions.html:5812
+#: sedout/windowfunctions.html:6078 sedout/windowfunctions.html:7020
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1078 sedout/windowfunctions.html:2402
+#: sedout/windowfunctions.html:2873 sedout/windowfunctions.html:5821
+#: sedout/windowfunctions.html:7029
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1087 sedout/windowfunctions.html:2411
+#: sedout/windowfunctions.html:2882 sedout/windowfunctions.html:5830
+#: sedout/windowfunctions.html:7038
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1091 sedout/windowfunctions.html:2415
+#: sedout/windowfunctions.html:2886 sedout/windowfunctions.html:5834
+#: sedout/windowfunctions.html:7042
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1113
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xa6fed33e' "
+"onclick='hideorshow(\"xa6fed33e\",\"xdce56232\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1138 sedout/windowfunctions.html:1796
+#: sedout/windowfunctions.html:2462 sedout/windowfunctions.html:3633
+#: sedout/windowfunctions.html:4291 sedout/windowfunctions.html:5881
+#: sedout/windowfunctions.html:6539
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1142 sedout/windowfunctions.html:1800
+#: sedout/windowfunctions.html:2466 sedout/windowfunctions.html:3637
+#: sedout/windowfunctions.html:4295 sedout/windowfunctions.html:5885
+#: sedout/windowfunctions.html:6543
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1152 sedout/windowfunctions.html:1160
+#: sedout/windowfunctions.html:1810 sedout/windowfunctions.html:1818
+#: sedout/windowfunctions.html:2476 sedout/windowfunctions.html:2484
+#: sedout/windowfunctions.html:3647 sedout/windowfunctions.html:3655
+#: sedout/windowfunctions.html:4305 sedout/windowfunctions.html:4313
+#: sedout/windowfunctions.html:5895 sedout/windowfunctions.html:5903
+#: sedout/windowfunctions.html:6553 sedout/windowfunctions.html:6561
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1156 sedout/windowfunctions.html:1814
+#: sedout/windowfunctions.html:2480 sedout/windowfunctions.html:3651
+#: sedout/windowfunctions.html:4309 sedout/windowfunctions.html:5899
+#: sedout/windowfunctions.html:6557
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1164 sedout/windowfunctions.html:1822
+#: sedout/windowfunctions.html:2488 sedout/windowfunctions.html:3659
+#: sedout/windowfunctions.html:4317 sedout/windowfunctions.html:5907
+#: sedout/windowfunctions.html:6565
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:1175
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='xb0a38a9d' "
+"onclick='hideorshow(\"xb0a38a9d\",\"x1575af49\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1183 sedout/windowfunctions.html:3678
+#: sedout/windowfunctions.html:5926
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1191 sedout/windowfunctions.html:3686
+#: sedout/windowfunctions.html:5934
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1199 sedout/windowfunctions.html:3694
+#: sedout/windowfunctions.html:5942
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1210 sedout/windowfunctions.html:3705
+#: sedout/windowfunctions.html:5953
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1215 sedout/windowfunctions.html:3710
+#: sedout/windowfunctions.html:5958
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1220 sedout/windowfunctions.html:3715
+#: sedout/windowfunctions.html:5963
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:1231
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x93b24110' "
+"onclick='hideorshow(\"x93b24110\",\"xf23a782d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1240 sedout/windowfunctions.html:3735
+#: sedout/windowfunctions.html:5983
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1242 sedout/windowfunctions.html:3737
+#: sedout/windowfunctions.html:5985
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1248 sedout/windowfunctions.html:3743
+#: sedout/windowfunctions.html:5991
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1269 sedout/windowfunctions.html:3764
+#: sedout/windowfunctions.html:6012
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1277 sedout/windowfunctions.html:3772
+#: sedout/windowfunctions.html:6020
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1287 sedout/windowfunctions.html:1601
+#: sedout/windowfunctions.html:3782 sedout/windowfunctions.html:4096
+#: sedout/windowfunctions.html:6030 sedout/windowfunctions.html:6344
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1298 sedout/windowfunctions.html:1631
+#: sedout/windowfunctions.html:1639 sedout/windowfunctions.html:2007
+#: sedout/windowfunctions.html:3793 sedout/windowfunctions.html:4126
+#: sedout/windowfunctions.html:4134 sedout/windowfunctions.html:4502
+#: sedout/windowfunctions.html:6041 sedout/windowfunctions.html:6374
+#: sedout/windowfunctions.html:6382 sedout/windowfunctions.html:6750
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1300 sedout/windowfunctions.html:2025
+#: sedout/windowfunctions.html:3795 sedout/windowfunctions.html:4520
+#: sedout/windowfunctions.html:6043 sedout/windowfunctions.html:6768
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1320 sedout/windowfunctions.html:2131
+#: sedout/windowfunctions.html:3430 sedout/windowfunctions.html:3815
+#: sedout/windowfunctions.html:4962 sedout/windowfunctions.html:6063
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1347 sedout/windowfunctions.html:3842
+#: sedout/windowfunctions.html:6090
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1372 sedout/windowfunctions.html:3867
+#: sedout/windowfunctions.html:6115
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1406 sedout/windowfunctions.html:3901
+#: sedout/windowfunctions.html:6149
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1435 sedout/windowfunctions.html:3930
+#: sedout/windowfunctions.html:6178
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1441 sedout/windowfunctions.html:3936
+#: sedout/windowfunctions.html:6184
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1449 sedout/windowfunctions.html:3944
+#: sedout/windowfunctions.html:6192
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1477 sedout/windowfunctions.html:3972
+#: sedout/windowfunctions.html:6220
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1510
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x4265eb1e' "
+"onclick='hideorshow(\"x4265eb1e\",\"x7690e9e1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1542 sedout/windowfunctions.html:4037
+#: sedout/windowfunctions.html:6285
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1581
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x2d5ed935' "
+"onclick='hideorshow(\"x2d5ed935\",\"xd3873636\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1591 sedout/windowfunctions.html:1593
+#: sedout/windowfunctions.html:4086 sedout/windowfunctions.html:4088
+#: sedout/windowfunctions.html:6334 sedout/windowfunctions.html:6336
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1595 sedout/windowfunctions.html:4090
+#: sedout/windowfunctions.html:6338
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1597 sedout/windowfunctions.html:4092
+#: sedout/windowfunctions.html:6340
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1623
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xbc7a9423' "
+"onclick='hideorshow(\"xbc7a9423\",\"x1fb01bf6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1635 sedout/windowfunctions.html:4130
+#: sedout/windowfunctions.html:6378
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1643 sedout/windowfunctions.html:4138
+#: sedout/windowfunctions.html:6386
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:1655
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x26738aa1' "
+"onclick='hideorshow(\"x26738aa1\",\"x88c25961\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1663 sedout/windowfunctions.html:4158
+#: sedout/windowfunctions.html:6406
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1689 sedout/windowfunctions.html:4184
+#: sedout/windowfunctions.html:6432
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:1703
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x6b0f15c9' "
+"onclick='hideorshow(\"x6b0f15c9\",\"x76511961\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1711 sedout/windowfunctions.html:4206
+#: sedout/windowfunctions.html:6454
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1717 sedout/windowfunctions.html:4212
+#: sedout/windowfunctions.html:6460
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1721 sedout/windowfunctions.html:4216
+#: sedout/windowfunctions.html:6464
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1727 sedout/windowfunctions.html:4222
+#: sedout/windowfunctions.html:6470
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1745 sedout/windowfunctions.html:4240
+#: sedout/windowfunctions.html:6488
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1751 sedout/windowfunctions.html:4246
+#: sedout/windowfunctions.html:6494
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1756 sedout/windowfunctions.html:4251
+#: sedout/windowfunctions.html:6499
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1763 sedout/windowfunctions.html:4258
+#: sedout/windowfunctions.html:6506
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1771
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x838acd1d' "
+"onclick='hideorshow(\"x838acd1d\",\"x4b4c3739\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1832
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x921ff222' "
+"onclick='hideorshow(\"x921ff222\",\"x1a45fd35\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1848 sedout/windowfunctions.html:4343
+#: sedout/windowfunctions.html:6591
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:1885
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x90d23c6b' "
+"onclick='hideorshow(\"x90d23c6b\",\"x2bcc997c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1909 sedout/windowfunctions.html:1973
+#: sedout/windowfunctions.html:4404 sedout/windowfunctions.html:4468
+#: sedout/windowfunctions.html:6652 sedout/windowfunctions.html:6716
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1916 sedout/windowfunctions.html:1930
+#: sedout/windowfunctions.html:4411 sedout/windowfunctions.html:4425
+#: sedout/windowfunctions.html:6659 sedout/windowfunctions.html:6673
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1924 sedout/windowfunctions.html:4419
+#: sedout/windowfunctions.html:6667
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:1940 sedout/windowfunctions.html:4435
+#: sedout/windowfunctions.html:6683
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:2031
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x6a3eda4f' "
+"onclick='hideorshow(\"x6a3eda4f\",\"xeef71286\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:2039 sedout/windowfunctions.html:4616
+#: sedout/windowfunctions.html:7074
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:2047 sedout/windowfunctions.html:2055
+#: sedout/windowfunctions.html:2070 sedout/windowfunctions.html:4624
+#: sedout/windowfunctions.html:4632 sedout/windowfunctions.html:4647
+#: sedout/windowfunctions.html:7082 sedout/windowfunctions.html:7090
+#: sedout/windowfunctions.html:7105
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/windowfunctions.html:2086
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='xa9f7b2ca' "
+"onclick='hideorshow(\"xa9f7b2ca\",\"x4cf4c2a0\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:2094 sedout/windowfunctions.html:4671
+#: sedout/windowfunctions.html:7129
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/windowfunctions.html:2105 sedout/windowfunctions.html:4682
+#: sedout/windowfunctions.html:7140
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/windowfunctions.html:2115
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='xce4cd9d4' "
+"onclick='hideorshow(\"xce4cd9d4\",\"x8314b640\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><svg><text>
+#: sedout/windowfunctions.html:2123 sedout/windowfunctions.html:3422
+#: sedout/windowfunctions.html:4954
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/windowfunctions.html:2146
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xc612bc46' "
+"onclick='hideorshow(\"xc612bc46\",\"x1d6fcadb\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:2227
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x00903f2b' "
+"onclick='hideorshow(\"x00903f2b\",\"x25afa0ee\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/windowfunctions.html:2437
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xf2f591da' "
+"onclick='hideorshow(\"xf2f591da\",\"x2179aefa\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2503
+msgid ""
+"Unlike ordinary functions, window functions cannot use the DISTINCT "
+"keyword.  Also, Window functions may only appear in the result set and in "
+"the ORDER BY clause of a SELECT statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2508
+msgid ""
+"Window functions come in two varieties: <a "
+"href=\"windowfunctions.html#aggwinfunc\">aggregate window functions</a> and "
+"<a href=\"windowfunctions.html#builtins\">built-in window functions</a>.  "
+"Every aggregate window function can also work as a ordinary aggregate "
+"function, simply by omitting the OVER and FILTER clauses.  Furthermore, all "
+"of the built-in <a href=\"lang_aggfunc.html\">aggregate functions</a> of "
+"SQLite can be used as an aggregate window function by adding an appropriate "
+"OVER clause.  Applications can register new aggregate window functions using "
+"the <a "
+"href=\"c3ref/create_function.html\">sqlite3_create_window_function()</a> "
+"interface.  The built-in window functions, however, require special-case "
+"handling in the query planner and hence new window functions that exhibit "
+"the exceptional properties found in the built-in window functions cannot be "
+"added by the application."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2522
+msgid "Here is an example using the built-in row_number()  window function:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/windowfunctions.html:2525
+#, no-wrap
+msgid ""
+"CREATE TABLE t0(x INTEGER PRIMARY KEY, y TEXT);\n"
+"INSERT INTO t0 VALUES (1, 'aaa'), (2, 'ccc'), (3, 'bbb');\n"
+"\n"
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   x | y | row_number</i>\n"
+"-----------------------\n"
+"<i>--   1 | aaa | 1         </i>\n"
+"<i>--   2 | ccc | 3         </i>\n"
+"<i>--   3 | bbb | 2         </i>\n"
+"<i>-- </i>\n"
+"SELECT x, y, row_number() OVER (ORDER BY y) AS row_number FROM t0 ORDER BY "
+"x;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2540
+msgid ""
+"The row_number() window function assigns consecutive integers to each row in "
+"order of the \"ORDER BY\" clause within the <span "
+"class='yynonterm'>window-defn</span> (in this case \"ORDER BY y\"). Note "
+"that this does not affect the order in which results are returned from the "
+"overall query.  The order of the final output is still governed by the ORDER "
+"BY clause attached to the SELECT statement (in this case \"ORDER BY x\")."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2549
+msgid ""
+"Named <span class='yynonterm'>window-defn</span> clauses may also be added "
+"to a SELECT statement using a WINDOW clause and then referred to by name "
+"within window function invocations. For example, the following SELECT "
+"statement contains two named <span class='yynonterm'>window-defs</span> "
+"clauses, \"win1\" and \"win2\":"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/windowfunctions.html:2554
+#, no-wrap
+msgid ""
+"SELECT x, y, row_number() OVER <b>win1</b>, rank() OVER <b>win2</b>\n"
+"FROM t0\n"
+"WINDOW <b>win1</b> AS (ORDER BY y RANGE BETWEEN UNBOUNDED PRECEDING AND "
+"CURRENT ROW),\n"
+"       <b>win2</b> AS (PARTITION BY y ORDER BY x)\n"
+"ORDER BY x;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2561
+msgid ""
+"The WINDOW clause, when one is present, comes after any HAVING clause and "
+"before any ORDER BY.  <a name=\"aggwinfunc\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/windowfunctions.html:2566
+msgid "<span>2. </span>Aggregate Window Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2568
+msgid ""
+"The examples in this section all assume that the database is populated as "
+"follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/windowfunctions.html:2571
+#, no-wrap
+msgid ""
+"CREATE TABLE t1(a INTEGER PRIMARY KEY, b, c);\n"
+"INSERT INTO t1 VALUES   (1, 'A', 'one'  ),\n"
+"                        (2, 'B', 'two'  ),\n"
+"                        (3, 'C', 'three'),\n"
+"                        (4, 'D', 'one'  ),\n"
+"                        (5, 'E', 'two'  ),\n"
+"                        (6, 'F', 'three'),\n"
+"                        (7, 'G', 'one'  );\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2581
+msgid ""
+"An aggregate window function is similar to an <a "
+"href=\"lang_aggfunc.html\">ordinary aggregate function</a>, except adding it "
+"to a query does not change the number of rows returned. Instead, for each "
+"row the result of the aggregate window function is as if the corresponding "
+"aggregate were run over all rows in the \"window frame\" specified by the "
+"OVER clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/windowfunctions.html:2589
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   a | b | group_concat</i>\n"
+"-------------------------\n"
+"<i>--   1 | A | A.B         </i>\n"
+"<i>--   2 | B | A.B.C       </i>\n"
+"<i>--   3 | C | B.C.D       </i>\n"
+"<i>--   4 | D | C.D.E       </i>\n"
+"<i>--   5 | E | D.E.F       </i>\n"
+"<i>--   6 | F | E.F.G       </i>\n"
+"<i>--   7 | G | F.G         </i>\n"
+"<i>-- </i>\n"
+"SELECT a, b, group_concat(b, '.') OVER (\n"
+"  ORDER BY a ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING\n"
+") AS group_concat FROM t1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2606
+msgid ""
+"In the example above, the window frame consists of all rows between the "
+"previous row (\"1 PRECEDING\") and the following row (\"1 FOLLOWING\"), "
+"inclusive, where rows are sorted according to the ORDER BY clause in the "
+"<span class='yynonterm'>window-defn</span> (in this case \"ORDER BY a\").  "
+"For example, the frame for the row with (a=3) consists of rows (2, 'B', "
+"'two'), (3, 'C', 'three') and (4, 'D', 'one'). The result of group_concat(b, "
+"'.')  for that row is therefore 'B.C.D'."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2614
+msgid ""
+"All of SQLite's <a href=\"lang_aggfunc.html\">aggregate functions</a> may be "
+"used as aggregate window functions. It is also possible to <a "
+"href=\"windowfunctions.html#udfwinfunc\">create user-defined aggregate "
+"window functions</a>.  <a name=\"ptxn\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/windowfunctions.html:2621
+msgid "<span>2.1. </span>The PARTITION BY Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2623
+msgid ""
+"For the purpose of computing window functions, the result set of a query is "
+"divided into one or more \"partitions\".  A partition consists of all rows "
+"that have the same value for all terms of the PARTITION BY clause in the "
+"<span class='yynonterm'>window-defn</span>.  If there is no PARTITION BY "
+"clause, then the entire result set of the query is a single partition.  "
+"Window-function processing is performed separately for each partition."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2630
+msgid "For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/windowfunctions.html:2632
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   c     | a | b | group_concat</i>\n"
+"---------------------------------\n"
+"<i>--   one   | 1 | A | A.D.G       </i>\n"
+"<i>--   one   | 4 | D | D.G         </i>\n"
+"<i>--   one   | 7 | G | G           </i>\n"
+"<i>--   three | 3 | C | C.F         </i>\n"
+"<i>--   three | 6 | F | F           </i>\n"
+"<i>--   two   | 2 | B | B.E         </i>\n"
+"<i>--   two   | 5 | E | E           </i>\n"
+"<i>-- </i>\n"
+"SELECT c, a, b, group_concat(b, '.') OVER (\n"
+"  PARTITION BY c ORDER BY a RANGE BETWEEN CURRENT ROW AND UNBOUNDED "
+"FOLLOWING\n"
+") AS group_concat\n"
+"FROM t1 ORDER BY c, a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2650
+msgid ""
+"In the query above, the \"PARTITION BY c\" clause breaks the result set up "
+"into three partitions. The first partition has three rows with c=='one'.  "
+"The second partition has two rows with c=='three' and the third partition "
+"has two rows with c=='two'."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2655
+msgid ""
+"In the example above, all the rows for each partition are grouped together "
+"in the final output.  This is because the PARTITION BY clause is a prefix of "
+"the ORDER BY clause on the overall query.  But that does not have to be the "
+"case.  A partition can be composed of rows scattered about haphazardly "
+"within the result set.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/windowfunctions.html:2662
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   c     | a | b | group_concat</i>\n"
+"---------------------------------\n"
+"<i>--   one   | 1 | A | A.D.G       </i>\n"
+"<i>--   two   | 2 | B | B.E         </i>\n"
+"<i>--   three | 3 | C | C.F         </i>\n"
+"<i>--   one   | 4 | D | D.G         </i>\n"
+"<i>--   two   | 5 | E | E           </i>\n"
+"<i>--   three | 6 | F | F           </i>\n"
+"<i>--   one   | 7 | G | G           </i>\n"
+"<i>-- </i>\n"
+"SELECT c, a, b, group_concat(b, '.') OVER (\n"
+"  PARTITION BY c ORDER BY a RANGE BETWEEN CURRENT ROW AND UNBOUNDED "
+"FOLLOWING\n"
+") AS group_concat\n"
+"FROM t1 ORDER BY a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/windowfunctions.html:2681
+msgid "<a name=\"framespec\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/windowfunctions.html:2683
+msgid "<span>2.2. </span>Frame Specifications"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:2685
+msgid ""
+"The <span class='yynonterm'>frame-spec</span> determines which output rows "
+"are read by an aggregate window function.  The <span "
+"class='yynonterm'>frame-spec</span> consists of four parts:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/windowfunctions.html:2690
+msgid "A frame type - either ROWS, RANGE or GROUPS,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/windowfunctions.html:2691
+msgid "A starting frame boundary,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/windowfunctions.html:2692
+msgid "An ending frame boundary,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/windowfunctions.html:2693
+msgid "An EXCLUDE clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:2696
+msgid "Here are the syntax details:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/windowfunctions.html:2698
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x0d73486e' "
+"onclick='hideorshow(\"x0d73486e\",\"x86a01c74\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><p>
+#: sedout/windowfunctions.html:2907
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xf8e4971c' "
+"onclick='hideorshow(\"xf8e4971c\",\"xedd20433\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/windowfunctions.html:3414
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x0f4079c1' "
+"onclick='hideorshow(\"x0f4079c1\",\"xad54fff3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/windowfunctions.html:3445
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x6bd149e8' "
+"onclick='hideorshow(\"x6bd149e8\",\"xa447fa6e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/windowfunctions.html:3516
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='xc0e14264' "
+"onclick='hideorshow(\"xc0e14264\",\"x5ddbe18e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:3608
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x2efcf146' "
+"onclick='hideorshow(\"x2efcf146\",\"xd528da00\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/windowfunctions.html:3670
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='xb1ff79ec' "
+"onclick='hideorshow(\"xb1ff79ec\",\"x97db0f13\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/windowfunctions.html:3726
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x997aa6b1' "
+"onclick='hideorshow(\"x997aa6b1\",\"xd46597fc\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4005
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x6b2fd9de' "
+"onclick='hideorshow(\"x6b2fd9de\",\"xb9314676\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4076
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x6c9c3435' "
+"onclick='hideorshow(\"x6c9c3435\",\"xaa882cf4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4118
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x54d29113' "
+"onclick='hideorshow(\"x54d29113\",\"xb31ea291\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:4150
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x15cd6d25' "
+"onclick='hideorshow(\"x15cd6d25\",\"xfa302937\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:4198
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x62b106a2' "
+"onclick='hideorshow(\"x62b106a2\",\"x83031065\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4266
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xc5c6ab6f' "
+"onclick='hideorshow(\"xc5c6ab6f\",\"x3522b88d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4327
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x495eef8b' "
+"onclick='hideorshow(\"x495eef8b\",\"xca5fd918\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4380
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x57bd41aa' "
+"onclick='hideorshow(\"x57bd41aa\",\"x3fbe49c6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4525
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x26f5469c' "
+"onclick='hideorshow(\"x26f5469c\",\"xa03de5d1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/windowfunctions.html:4608
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x0e0b3410' "
+"onclick='hideorshow(\"x0e0b3410\",\"x7829072d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:4663
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x4866dd2a' "
+"onclick='hideorshow(\"x4866dd2a\",\"xd4b05a9c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:4696
+msgid ""
+"The ending frame boundary can be omitted (if the BETWEEN and&nbsp;AND "
+"keywords that surround the starting frame boundary are also omitted), in "
+"which case the ending frame boundary defaults to CURRENT ROW."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:4701
+msgid ""
+"If the frame type is RANGE or GROUPS, then rows with the same values for all "
+"ORDER BY expressions are considered \"peers\". Or, if there are no ORDER BY "
+"terms, all rows are peers. Peers are always within the same frame."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:4705
+msgid "The default <span class='yynonterm'>frame-spec</span> is:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/windowfunctions.html:4707
+#, no-wrap
+msgid "RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW EXCLUDE NO OTHERS\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:4710
+msgid ""
+"The default means that aggregate window functions read all rows from the "
+"beginning of the partition up to and including the current row and its "
+"peers. This implies that rows that have the same values for all ORDER BY "
+"expressions will also have the same value for the result of the window "
+"function (as the window frame is the same). For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/windowfunctions.html:4716
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   a | b | c | group_concat</i>\n"
+"-----------------------------\n"
+"<i>--   1 | A | one   | A.D.G       </i>\n"
+"<i>--   2 | B | two   | A.D.G.C.F.B.E</i>\n"
+"<i>--   3 | C | three | A.D.G.C.F   </i>\n"
+"<i>--   4 | D | one   | A.D.G       </i>\n"
+"<i>--   5 | E | two   | A.D.G.C.F.B.E</i>\n"
+"<i>--   6 | F | three | A.D.G.C.F   </i>\n"
+"<i>--   7 | G | one   | A.D.G       </i>\n"
+"<i>-- </i>\n"
+"SELECT a, b, c,\n"
+"       group_concat(b, '.') OVER (ORDER BY c) AS group_concat\n"
+"FROM t1 ORDER BY a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/windowfunctions.html:4733
+msgid "<a name=\"frametype\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h3>
+#: sedout/windowfunctions.html:4735
+msgid "<span>2.2.1. </span>Frame Type"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/windowfunctions.html:4738
+msgid ""
+"There are three frame types: ROWS, GROUPS, and RANGE.  The frame type "
+"determines how the starting and ending boundaries of the frame are measured."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/windowfunctions.html:4743
+msgid ""
+"<b>ROWS</b>: The ROWS frame type means that the starting and ending "
+"boundaries for the frame are determined by counting individual rows relative "
+"to the current row.  <a name=\"grouptype\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/windowfunctions.html:4750
+msgid ""
+"<b>GROUPS</b>: The GROUPS frame type means that the starting and ending "
+"boundaries are determine by counting \"groups\" relative to the current "
+"group.  A \"group\" is a set of rows that all have equivalent values for all "
+"all terms of the window ORDER BY clause.  (\"Equivalent\" means that the <a "
+"href=\"lang_expr.html#isisnot\">IS operator</a> is true when comparing the "
+"two values.)  In other words, a group consists of all peers of a row.  <a "
+"name=\"rangetype\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/windowfunctions.html:4760
+msgid ""
+"<b>RANGE</b>: The RANGE frame type requires that the ORDER BY clause of the "
+"window have exactly one term.  Call that term \"X\".  With the RANGE frame "
+"type, the elements of the frame are determined by computing the value of "
+"expression X for all rows in the partition and framing those rows for which "
+"the value of X is within a certain range of the value of X for the current "
+"row.  See the description in the \"<a "
+"href=\"windowfunctions.html#exprrange\">&lt;expr&gt; PRECEDING</a>\" "
+"boundary specification below for details."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/windowfunctions.html:4771
+msgid ""
+"The ROWS and GROUPS frame types are similar in that they both determine the "
+"extent of a frame by counting relative to the current row.  The difference "
+"is that ROWS counts individual rows and GROUPS counts peer groups.  The "
+"RANGE frame type is different.  The RANGE frame type determines the extent "
+"of a frame by looking for expression values that are within some band of "
+"values relative to the current row.  <a name=\"frameboundary\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h3>
+#: sedout/windowfunctions.html:4782
+msgid "<span>2.2.2. </span>Frame Boundaries"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/windowfunctions.html:4784
+msgid "There are five ways to describe starting and ending frame boundaries:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/windowfunctions.html:4787
+msgid "<b>UNBOUNDED PRECEDING</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br>
+#: sedout/windowfunctions.html:4788
+msgid ""
+"The frame boundary is the first row in the <a "
+"href=\"windowfunctions.html#ptxn\">partition</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/windowfunctions.html:4791
+msgid "<b>&lt;expr&gt; PRECEDING</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br>
+#: sedout/windowfunctions.html:4792
+msgid ""
+"&lt;expr&gt; must be a non-negative constant numeric expression.  The "
+"boundary is a row that is &lt;expr&gt; \"units\" prior to the current row.  "
+"The meaning of \"units\" here depends on the frame type:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li>
+#: sedout/windowfunctions.html:4797
+msgid ""
+"<b>ROWS &rarr;</b> The frame boundary is the row that is &lt;expr&gt; rows "
+"before the current row, or the first row of the partition if there are fewer "
+"than &lt;expr&gt; rows before the current row.  &lt;expr&gt; must be an "
+"integer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li>
+#: sedout/windowfunctions.html:4802
+msgid ""
+"<b>GROUPS &rarr;</b> A \"group\" is a set of peer rows - rows that all have "
+"the same values for every term in the ORDER BY clause.  The frame boundary "
+"is the group that is &lt;expr&gt; groups before the group containing the "
+"current row, or the first group of the partition if there are fewer than "
+"&lt;expr&gt; groups before the current row.  For the starting boundary of a "
+"frame, the first row of the group is used and for the ending boundary of a "
+"frame, the last row of the group is used.  &lt;expr&gt; must be an integer.  "
+"<a name=\"exprrange\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li>
+#: sedout/windowfunctions.html:4815
+msgid ""
+"<b>RANGE &rarr;</b> For this form, the ORDER BY clause of the <span "
+"class='yynonterm'>window-defn</span> must have a single term.  Call that "
+"ORDER BY term \"X\".  Let X<sub><small>i</small></sub> be the value of the X "
+"expression for the i-th row in the partition and let "
+"X<sub><small>c</small></sub> be the value of X for the current row.  "
+"Informally, a RANGE bound is the first row for which "
+"X<sub><small>i</small></sub> is within the &lt;expr&gt; of "
+"X<sub><small>c</small></sub>.  More precisely:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li><ol><li>
+#: sedout/windowfunctions.html:4827
+msgid ""
+"If either X<sub><small>i</small></sub> or X<sub><small>c</small></sub> are "
+"non-numeric, then the boundary is the first row for which the expression "
+"\"X<sub><small>i</small></sub> IS X<sub><small>c</small></sub>\" is true."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li><ol><li>
+#: sedout/windowfunctions.html:4832
+msgid ""
+"Else if the ORDER BY is ASC then the boundary is the first row for which "
+"X<sub><small>i</small></sub>&gt;=X<sub><small>c</small></sub>-&lt;expr&gt;."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li><ol><li>
+#: sedout/windowfunctions.html:4835
+msgid ""
+"Else if the ORDER BY is DESC then the boundary is the first row for which "
+"X<sub><small>i</small></sub>&lt;=X<sub><small>c</small></sub>+&lt;expr&gt;."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br><ul><li>
+#: sedout/windowfunctions.html:4839
+msgid ""
+"For this form, the &lt;expr&gt; does not have to be an integer. It can "
+"evaluate to a real number as long as it is constant and non-negative."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br>
+#: sedout/windowfunctions.html:4843
+msgid ""
+"The boundary description \"0 PRECEDING\" always means the same thing as "
+"\"CURRENT ROW\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><p>
+#: sedout/windowfunctions.html:4846
+msgid "<b>CURRENT ROW</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><p><br>
+#: sedout/windowfunctions.html:4847
+msgid ""
+"The current row. For RANGE and GROUPS frame types, peers of the current row "
+"are also included in the frame, unless specifically excluded by the EXCLUDE "
+"clause.  This is true regardless of whether CURRENT ROW is used as the "
+"starting or ending frame boundary."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><p>
+#: sedout/windowfunctions.html:4853
+msgid "<b>&lt;expr&gt; FOLLOWING</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><p><br>
+#: sedout/windowfunctions.html:4854
+msgid ""
+"This is the same as \"&lt;expr&gt; PRECEDING\" except that the boundary is "
+"&lt;expr&gt; units after the current rather than before the current row."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><p>
+#: sedout/windowfunctions.html:4858
+msgid "<b>UNBOUNDED FOLLOWING</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><p><br>
+#: sedout/windowfunctions.html:4859
+msgid ""
+"The frame boundary is the last row in the <a "
+"href=\"windowfunctions.html#ptxn\">partition</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/windowfunctions.html:4864
+msgid ""
+"The ending frame boundary may not take a form that appears higher in the "
+"above list than the starting frame boundary."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/windowfunctions.html:4867
+msgid ""
+"In the following example, the window frame for each row consists of all rows "
+"from the current row to the end of the set, where rows are sorted according "
+"to \"ORDER BY a\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><pre>
+#: sedout/windowfunctions.html:4871
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   c     | a | b | group_concat</i>\n"
+"---------------------------------\n"
+"<i>--   one   | 1 | A | A.D.G.C.F.B.E</i>\n"
+"<i>--   one   | 4 | D | D.G.C.F.B.E </i>\n"
+"<i>--   one   | 7 | G | G.C.F.B.E   </i>\n"
+"<i>--   three | 3 | C | C.F.B.E     </i>\n"
+"<i>--   three | 6 | F | F.B.E       </i>\n"
+"<i>--   two   | 2 | B | B.E         </i>\n"
+"<i>--   two   | 5 | E | E           </i>\n"
+"<i>-- </i>\n"
+"SELECT c, a, b, group_concat(b, '.') OVER (\n"
+"  ORDER BY c, a ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING\n"
+") AS group_concat\n"
+"FROM t1 ORDER BY c, a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/windowfunctions.html:4889
+msgid "<a name=\"wexcls\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h3>
+#: sedout/windowfunctions.html:4891
+msgid "<span>2.2.3. </span>The EXCLUDE Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/windowfunctions.html:4893
+msgid "The optional EXCLUDE clause may take any of the following four forms:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:4896
+msgid ""
+"<b> EXCLUDE NO OTHERS</b>: This is the default. In this case no rows are "
+"excluded from the window frame as defined by its starting and ending frame "
+"boundaries."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:4900
+msgid ""
+"<b> EXCLUDE CURRENT ROW</b>: In this case the current row is excluded from "
+"the window frame.  Peers of the current row remain in the frame for the "
+"GROUPS and RANGE frame types."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:4904
+msgid ""
+"<b> EXCLUDE GROUP</b>: In this case the current row and all other rows that "
+"are peers of the current row are excluded from the frame. When processing an "
+"EXCLUDE clause, all rows with the same ORDER BY values, or all rows in the "
+"partition if there is no ORDER BY clause, are considered peers, even if the "
+"frame type is ROWS."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:4910
+msgid ""
+"<b> EXCLUDE TIES</b>: In this case the current row is part of the frame, but "
+"peers of the current row are excluded."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:4914
+msgid ""
+"The following example demonstrates the effect of the various forms of the "
+"EXCLUDE clause:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:4917
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   c    | a | b | no_others     | current_row | grp       | ties</i>\n"
+"<i>--  one   | 1 | A | A.D.G         | D.G         |           | A</i>\n"
+"<i>--  one   | 4 | D | A.D.G         | A.G         |           | D</i>\n"
+"<i>--  one   | 7 | G | A.D.G         | A.D         |           | G</i>\n"
+"<i>--  three | 3 | C | A.D.G.C.F     | A.D.G.F     | A.D.G     | "
+"A.D.G.C</i>\n"
+"<i>--  three | 6 | F | A.D.G.C.F     | A.D.G.C     | A.D.G     | "
+"A.D.G.F</i>\n"
+"<i>--  two   | 2 | B | A.D.G.C.F.B.E | A.D.G.C.F.E | A.D.G.C.F | "
+"A.D.G.C.F.B</i>\n"
+"<i>--  two   | 5 | E | A.D.G.C.F.B.E | A.D.G.C.F.B | A.D.G.C.F | "
+"A.D.G.C.F.E</i>\n"
+"<i>-- </i>\n"
+"SELECT c, a, b,\n"
+"  group_concat(b, '.') OVER (\n"
+"    ORDER BY c GROUPS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW EXCLUDE NO "
+"OTHERS\n"
+"  ) AS no_others,\n"
+"  group_concat(b, '.') OVER (\n"
+"    ORDER BY c GROUPS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW EXCLUDE "
+"CURRENT ROW\n"
+"  ) AS current_row,\n"
+"  group_concat(b, '.') OVER (\n"
+"    ORDER BY c GROUPS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW EXCLUDE "
+"GROUP\n"
+"  ) AS grp,\n"
+"  group_concat(b, '.') OVER (\n"
+"    ORDER BY c GROUPS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW EXCLUDE "
+"TIES\n"
+"  ) AS ties\n"
+"FROM t1 ORDER BY c, a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h2>
+#: sedout/windowfunctions.html:4944
+msgid "<span>2.3. </span>The FILTER Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:4946
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x4b951082' "
+"onclick='hideorshow(\"x4b951082\",\"xdf150a79\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><p>
+#: sedout/windowfunctions.html:4976
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xfd823142' "
+"onclick='hideorshow(\"xfd823142\",\"x4fbe49a6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><p>
+#: sedout/windowfunctions.html:5483
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x1b9eff7e' "
+"onclick='hideorshow(\"x1b9eff7e\",\"xe2aec28c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><p>
+#: sedout/windowfunctions.html:5554
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x1a262820' "
+"onclick='hideorshow(\"x1a262820\",\"xc2bc8ec3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:5646
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x00ac2f59' "
+"onclick='hideorshow(\"x00ac2f59\",\"x0c3b58e1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:5856
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x1b7d505b' "
+"onclick='hideorshow(\"x1b7d505b\",\"x0b315e54\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><p>
+#: sedout/windowfunctions.html:5918
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x5f404965' "
+"onclick='hideorshow(\"x5f404965\",\"x6a6c78f2\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><p>
+#: sedout/windowfunctions.html:5974
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x7b3edb8a' "
+"onclick='hideorshow(\"x7b3edb8a\",\"x83b3e1de\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6253
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x1a66a2e6' "
+"onclick='hideorshow(\"x1a66a2e6\",\"x0262f7c5\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6324
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x4cbeae98' "
+"onclick='hideorshow(\"x4cbeae98\",\"x2e4d081c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6366
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x84d9b4fc' "
+"onclick='hideorshow(\"x84d9b4fc\",\"x11eb272f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:6398
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x33482c63' "
+"onclick='hideorshow(\"x33482c63\",\"xc3ac9eb8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:6446
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x5589c9f4' "
+"onclick='hideorshow(\"x5589c9f4\",\"xdff6e619\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6514
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x5ea37163' "
+"onclick='hideorshow(\"x5ea37163\",\"xf27d2076\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6575
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xfe1b441c' "
+"onclick='hideorshow(\"xfe1b441c\",\"x2b51218e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6628
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xaba9044b' "
+"onclick='hideorshow(\"xaba9044b\",\"x2f1e1420\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:6773
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xd654af24' "
+"onclick='hideorshow(\"xd654af24\",\"xa55415fe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><div><p>
+#: sedout/windowfunctions.html:6854
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x54561006' "
+"onclick='hideorshow(\"x54561006\",\"xc87b3f23\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><p>
+#: sedout/windowfunctions.html:7066
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x668bfb70' "
+"onclick='hideorshow(\"x668bfb70\",\"x2b13feea\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><div><div><p>
+#: sedout/windowfunctions.html:7121
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x97a7a612' "
+"onclick='hideorshow(\"x97a7a612\",\"x62aba68d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:7153
+msgid ""
+"If a FILTER clause is provided, then only rows for which the <i>expr</i> is "
+"true are included in the window frame. The aggregate window still returns a "
+"value for every row, but those for which the FILTER expression evaluates to "
+"other than true are not included in the window frame for any row. For "
+"example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7158
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   c     | a | b | group_concat</i>\n"
+"---------------------------------\n"
+"<i>--   one   | 1 | A | A           </i>\n"
+"<i>--   two   | 2 | B | A           </i>\n"
+"<i>--   three | 3 | C | A.C         </i>\n"
+"<i>--   one   | 4 | D | A.C.D       </i>\n"
+"<i>--   two   | 5 | E | A.C.D       </i>\n"
+"<i>--   three | 6 | F | A.C.D.F     </i>\n"
+"<i>--   one   | 7 | G | A.C.D.F.G   </i>\n"
+"<i>-- </i>\n"
+"SELECT c, a, b, group_concat(b, '.') FILTER (WHERE c!='two') OVER (\n"
+"  ORDER BY a\n"
+") AS group_concat\n"
+"FROM t1 ORDER BY a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/windowfunctions.html:7177
+msgid "<a name=\"builtins\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h1>
+#: sedout/windowfunctions.html:7179
+msgid "<span>3. </span>Built-in Window Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:7181
+msgid ""
+"As well as aggregate window functions, SQLite features a set of built-in "
+"window functions based on <a "
+"href=\"https://www.postgresql.org/docs/10/static/functions-window.html\"> "
+"those supported by PostgreSQL</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:7186
+msgid ""
+"Built-in window functions honor any PARTITION BY clause in the same way as "
+"aggregate window functions - each selected row is assigned to a partition "
+"and each partition is processed separately. The ways in which any ORDER BY "
+"clause affects each built-in window function is described below. Some of the "
+"window functions (rank(), dense_rank(), percent_rank() and ntile()) use the "
+"concept of \"peer groups\" (rows within the same partition that have the "
+"same values for all ORDER BY expressions). In these cases, it does not "
+"matter whether the <span class='yynonterm'>frame-spec</span> specifies ROWS, "
+"GROUPS, or RANGE.  For the purposes of built-in window function processing, "
+"rows with the same values for all ORDER BY expressions are considered peers "
+"regardless of the frame type."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:7197
+msgid ""
+"Most built-in window functions ignore the <span "
+"class='yynonterm'>frame-spec</span>, the exceptions being first_value(), "
+"last_value() and nth_value(). It is a syntax error to specify a FILTER "
+"clause as part of a built-in window function invocation.  <a "
+"name=\"biwinfunc\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:7204
+msgid "SQLite supports the following 11 built-in window functions:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7207
+msgid "<b>row_number()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7208
+msgid ""
+"The number of the row within the current partition. Rows are numbered "
+"starting from 1 in the order defined by the ORDER BY clause in the window "
+"definition, or in arbitrary order otherwise."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7211
+msgid "<b>rank()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7212
+msgid ""
+"The row_number() of the first peer in each group - the rank of the current "
+"row with gaps. If there is no ORDER BY clause, then all rows are considered "
+"peers and this function always returns 1."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7215
+msgid "<b>dense_rank()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7216
+msgid ""
+"The number of the current row's peer group within its partition - the rank "
+"of the current row without gaps. Rows are numbered starting from 1 in the "
+"order defined by the ORDER BY clause in the window definition. If there is "
+"no ORDER BY clause, then all rows are considered peers and this function "
+"always returns 1."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7221
+msgid "<b>percent_rank()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7222
+msgid ""
+"Despite the name, this function always returns a value between 0.0 and 1.0 "
+"equal to (<i>rank</i> - 1)/(<i>partition-rows</i> - 1), where <i>rank</i> is "
+"the value returned by built-in window function rank()  and "
+"<i>partition-rows</i> is the total number of rows in the partition. If the "
+"partition contains only one row, this function returns 0.0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7228
+msgid "<b>cume_dist()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7229
+msgid ""
+"The cumulative distribution. Calculated as "
+"<i>row-number</i>/<i>partition-rows</i>, where <i>row-number</i> is the "
+"value returned by row_number() for the last peer in the group and "
+"<i>partition-rows</i> the number of rows in the partition."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7233
+msgid "<b>ntile(N)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7234
+msgid ""
+"Argument <i>N</i> is handled as an integer. This function divides the "
+"partition into N groups as evenly as possible and assigns an integer between "
+"1 and <i>N</i> to each group, in the order defined by the ORDER BY clause, "
+"or in arbitrary order otherwise. If necessary, larger groups occur "
+"first. This function returns the integer value assigned to the group that "
+"the current row is a part of."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt><b>
+#: sedout/windowfunctions.html:7241
+msgid "<b>lag(expr)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt><b><br>
+#: sedout/windowfunctions.html:7241
+msgid "lag(expr, offset)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt><b><br><br>
+#: sedout/windowfunctions.html:7241
+msgid "lag(expr, offset, default)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7242
+msgid ""
+"The first form of the lag() function returns the result of evaluating "
+"expression <i>expr</i> against the previous row in the partition. Or, if "
+"there is no previous row (because the current row is the first), NULL.  If "
+"the <i>offset</i> argument is provided, then it must be a non-negative "
+"integer. In this case the value returned is the result of evaluating "
+"<i>expr</i> against the row <i>offset</i> rows before the current row within "
+"the partition. If <i>offset</i> is 0, then <i>expr</i> is evaluated against "
+"the current row. If there is no row <i>offset</i> rows before the current "
+"row, NULL is returned.  If <i>default</i> is also provided, then it is "
+"returned instead of NULL if the row identified by <i>offset</i> does not "
+"exist."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt><b>
+#: sedout/windowfunctions.html:7256
+msgid "<b>lead(expr)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt><b><br>
+#: sedout/windowfunctions.html:7256
+msgid "lead(expr, offset)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt><b><br><br>
+#: sedout/windowfunctions.html:7256
+msgid "lead(expr, offset, default)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7257
+msgid ""
+"The first form of the lead() function returns the result of evaluating "
+"expression <i>expr</i> against the next row in the partition. Or, if there "
+"is no next row (because the current row is the last), NULL.  If the "
+"<i>offset</i> argument is provided, then it must be a non-negative "
+"integer. In this case the value returned is the result of evaluating "
+"<i>expr</i> against the row <i>offset</i> rows after the current row within "
+"the partition. If <i>offset</i> is 0, then <i>expr</i> is evaluated against "
+"the current row. If there is no row <i>offset</i> rows after the current "
+"row, NULL is returned.  If <i>default</i> is also provided, then it is "
+"returned instead of NULL if the row identified by <i>offset</i> does not "
+"exist."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7270
+msgid "<b>first_value(expr)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7271
+msgid ""
+"This built-in window function calculates the window frame for each row in "
+"the same way as an aggregate window function. It returns the value of "
+"<i>expr</i> evaluated against the first row in the window frame for each "
+"row."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7275
+msgid "<b>last_value(expr)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7276
+msgid ""
+"This built-in window function calculates the window frame for each row in "
+"the same way as an aggregate window function. It returns the value of "
+"<i>expr</i> evaluated against the last row in the window frame for each row."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dt>
+#: sedout/windowfunctions.html:7280
+msgid "<b>nth_value(expr, N)</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><dl><dd>
+#: sedout/windowfunctions.html:7281
+msgid ""
+"This built-in window function calculates the window frame for each row in "
+"the same way as an aggregate window function. It returns the value of "
+"<i>expr</i> evaluated against the row <i>N</i> of the window frame. Rows are "
+"numbered within the window frame starting from 1 in the order defined by the "
+"ORDER BY clause if one is present, or in arbitrary order otherwise. If there "
+"is no <i>N</i>th row in the partition, then NULL is returned."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7291
+msgid ""
+"The examples in this section use the <a "
+"href=\"windowfunctions.html#aggwinfunc\">previously defined T1 table</a> as "
+"well as the following T2 table:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7295
+#, no-wrap
+msgid ""
+"CREATE TABLE t2(a, b);\n"
+"INSERT INTO t2 VALUES('a', 'one'),\n"
+"                     ('a', 'two'),\n"
+"                     ('a', 'three'),\n"
+"                     ('b', 'four'),\n"
+"                     ('c', 'five'),\n"
+"                     ('c', 'six');\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7304
+msgid ""
+"The following example illustrates the behaviour of the five ranking "
+"functions - row_number(), rank(), dense_rank(), percent_rank() and "
+"cume_dist()."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7308
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   a | row_number | rank | dense_rank | percent_rank | cume_dist</i>\n"
+"------------------------------------------------------------------\n"
+"<i>--   a |          1 |    1 |          1 |          0.0 |       0.5</i>\n"
+"<i>--   a |          2 |    1 |          1 |          0.0 |       0.5</i>\n"
+"<i>--   a |          3 |    1 |          1 |          0.0 |       0.5</i>\n"
+"<i>--   b |          4 |    4 |          2 |          0.6 |       0.66</i>\n"
+"<i>--   c |          5 |    5 |          3 |          0.8 |       1.0</i>\n"
+"<i>--   c |          6 |    5 |          3 |          0.8 |       1.0</i>\n"
+"<i>-- </i>\n"
+"SELECT a                        AS a,\n"
+"       row_number() OVER win    AS row_number,\n"
+"       rank() OVER win          AS rank,\n"
+"       dense_rank() OVER win    AS dense_rank,\n"
+"       percent_rank() OVER win  AS percent_rank,\n"
+"       cume_dist() OVER win     AS cume_dist\n"
+"FROM t2\n"
+"WINDOW win AS (ORDER BY a);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7329
+msgid ""
+"The example below uses ntile() to divide the six rows into two groups (the "
+"ntile(2) call) and into four groups (the ntile(4) call). For ntile(2), there "
+"are three rows assigned to each group. For ntile(4), there are two groups of "
+"two and two groups of one. The larger groups of two appear first."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7334
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   a | b     | ntile_2 | ntile_4</i>\n"
+"----------------------------------\n"
+"<i>--   a | one   |       1 |       1</i>\n"
+"<i>--   a | two   |       1 |       1</i>\n"
+"<i>--   a | three |       1 |       2</i>\n"
+"<i>--   b | four  |       2 |       2</i>\n"
+"<i>--   c | five  |       2 |       3</i>\n"
+"<i>--   c | six   |       2 |       4</i>\n"
+"<i>-- </i>\n"
+"SELECT a                        AS a,\n"
+"       b                        AS b,\n"
+"       ntile(2) OVER win        AS ntile_2,\n"
+"       ntile(4) OVER win        AS ntile_4\n"
+"FROM t2\n"
+"WINDOW win AS (ORDER BY a);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7353
+msgid ""
+"The next example demonstrates lag(), lead(), first_value(), last_value()  "
+"and nth_value(). The <span class='yynonterm'>frame-spec</span> is ignored by "
+"both lag() and lead(), but respected by first_value(), last_value()  and "
+"nth_value()."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7358
+#, no-wrap
+msgid ""
+"<i>-- The following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   b | lead | lag  | first_value | last_value | nth_value_3</i>\n"
+"-------------------------------------------------------------\n"
+"<i>--   A | C    | NULL | A           | A          | NULL       </i>\n"
+"<i>--   B | D    | A    | A           | B          | NULL       </i>\n"
+"<i>--   C | E    | B    | A           | C          | C          </i>\n"
+"<i>--   D | F    | C    | A           | D          | C          </i>\n"
+"<i>--   E | G    | D    | A           | E          | C          </i>\n"
+"<i>--   F | n/a  | E    | A           | F          | C          </i>\n"
+"<i>--   G | n/a  | F    | A           | G          | C          </i>\n"
+"<i>-- </i>\n"
+"SELECT b                          AS b,\n"
+"       lead(b, 2, 'n/a') OVER win AS lead,\n"
+"       lag(b) OVER win            AS lag,\n"
+"       first_value(b) OVER win    AS first_value,\n"
+"       last_value(b) OVER win     AS last_value,\n"
+"       nth_value(b, 3) OVER win   AS nth_value_3\n"
+"FROM t1\n"
+"WINDOW win AS (ORDER BY b ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT "
+"ROW)\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/windowfunctions.html:7381
+msgid "<a name=\"wchaining\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h1>
+#: sedout/windowfunctions.html:7383
+msgid "<span>4. </span>Window Chaining"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7386
+msgid ""
+"Window chaining is a shorthand that allows one window to be defined in terms "
+"of another. Specifically, the shorthand allows the new window to implicitly "
+"copy the PARTITION BY and optionally ORDER BY clauses of the base "
+"window. For example, in the following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7391
+#, no-wrap
+msgid ""
+"SELECT group_concat(b, '.') OVER (\n"
+"  win ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\n"
+")\n"
+"FROM t1\n"
+"WINDOW win AS (PARTITION BY a ORDER BY c)\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7399
+msgid ""
+"the window used by the group_concat() function is equivalent to \"PARTITION "
+"BY a ORDER BY c ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW\". In order "
+"to use window chaining, all of the following must be true:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:7405
+msgid ""
+"The new window definition must not include a PARTITION BY clause. The "
+"PARTITION BY clause, if there is one, must be supplied by the base window "
+"specification."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:7409
+msgid ""
+"If the base window has an ORDER BY clause, it is copied into the new "
+"window. In this case the new window must not specify an ORDER BY clause.  If "
+"the base window has no ORDER BY clause, one may be specified as part of the "
+"new window definition."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ul><li>
+#: sedout/windowfunctions.html:7414
+msgid ""
+"The base window may not specify a frame specification.  The frame "
+"specification can only be given in the new window specification."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7418
+msgid ""
+"The two fragments of SQL below are similar, but not entirely equivalent, as "
+"the latter will fail if the definition of window \"win\" contains a frame "
+"specification."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7422
+#, no-wrap
+msgid ""
+"SELECT group_concat(b, '.') OVER win ...\n"
+"SELECT group_concat(b, '.') OVER (win) ...\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7426
+msgid "<a name=\"udfwinfunc\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><h1>
+#: sedout/windowfunctions.html:7428
+msgid "<span>5. </span>User-Defined Aggregate Window Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7430
+msgid ""
+"User-defined aggregate window functions may be created using the <a "
+"href=\"c3ref/create_function.html\">sqlite3_create_window_function</a>() "
+"API. Implementing an aggregate window function is very similar to an "
+"ordinary aggregate function. Any user-defined aggregate window function may "
+"also be used as an ordinary aggregate. To implement a user-defined aggregate "
+"window function the application must supply four callback functions:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><th>
+#: sedout/windowfunctions.html:7438
+msgid "Callback"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><th>
+#: sedout/windowfunctions.html:7438
+msgid "Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7439
+msgid "xStep"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7440
+msgid ""
+"This method is required by both window aggregate and legacy aggregate "
+"function implementations. It is invoked to add a row to the current "
+"window. The function arguments, if any, corresponding to the row being added "
+"are passed to the implementation of xStep."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7445
+msgid "xFinal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7446
+msgid ""
+"This method is required by both window aggregate and legacy aggregate "
+"function implementations. It is invoked to return the current value of the "
+"aggregate (determined by the contents of the current window), and to free "
+"any resources allocated by earlier calls to xStep."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7451
+msgid "xValue"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7452
+msgid ""
+"This method is only required for window aggregate functions.  The presence "
+"of this method is what distinguishes a window aggregate function from a "
+"legacy aggregate function.  This method is invoked to return the current "
+"value of the aggregate. Unlike xFinal, the implementation should not delete "
+"any context."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7458
+msgid "xInverse"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><table><tr><td>
+#: sedout/windowfunctions.html:7459
+msgid ""
+"This method is only required for window aggregate functions, not legacy "
+"aggregate function implementations. It is invoked to remove the oldest "
+"presently aggregated result of xStep from the current window.  The function "
+"arguments, if any, are those passed to xStep for the row being removed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7466
+msgid ""
+"The C code below implements a simple window aggregate function named "
+"sumint(). This works in the same way as the built-in sum() function, except "
+"that it throws an exception if passed an argument that is not an integer "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><pre><pre>
+#: sedout/windowfunctions.html:7472
+#, no-wrap
+msgid ""
+"<i>/*</i>\n"
+"<i>** xStep for sumint().</i>\n"
+"<i>**</i>\n"
+"<i>** Add the value of the argument to the aggregate context (an "
+"integer).</i>\n"
+"<i>*/</i>\n"
+"static void sumintStep(\n"
+"  <a href=\"c3ref/context.html\">sqlite3_context</a> *ctx,\n"
+"  int nArg,\n"
+"  <a href=\"c3ref/value.html\">sqlite3_value</a> *apArg[]\n"
+"){\n"
+"  <a href=\"c3ref/int64.html\">sqlite3_int64</a> *pInt;\n"
+"\n"
+"  assert( nArg==1 );\n"
+"  if( <a "
+"href=\"c3ref/value_blob.html\">sqlite3_value_type</a>(apArg[0])!=SQLITE_INTEGER "
+"){\n"
+"    <a href=\"c3ref/result_blob.html\">sqlite3_result_error</a>(ctx, "
+"\"invalid argument\", -1);\n"
+"    return;\n"
+"  }\n"
+"  pInt = (sqlite3_int64*)sqlite3_aggregate_context(ctx, sizeof(<a "
+"href=\"c3ref/int64.html\">sqlite3_int64</a>));\n"
+"  if( pInt ){\n"
+"    *pInt += <a "
+"href=\"c3ref/value_blob.html\">sqlite3_value_int64</a>(apArg[0]);\n"
+"  }\n"
+"}\n"
+"\n"
+"<i>/*</i>\n"
+"<i>** xInverse for sumint().</i>\n"
+"<i>**</i>\n"
+"<i>** This does the opposite of xStep() - subtracts the value of the "
+"argument</i>\n"
+"<i>** from the current context value. The error checking can be omitted "
+"from</i>\n"
+"<i>** this function, as it is only ever called after xStep() (so the "
+"aggregate</i>\n"
+"<i>** context has already been allocated) and with a value that has "
+"already</i>\n"
+"<i>** been passed to xStep() without error (so it must be an integer).</i>\n"
+"<i>*/</i>\n"
+"static void sumintInverse(\n"
+"  <a href=\"c3ref/context.html\">sqlite3_context</a> *ctx,\n"
+"  int nArg,\n"
+"  <a href=\"c3ref/value.html\">sqlite3_value</a> *apArg[]\n"
+"){\n"
+"  <a href=\"c3ref/int64.html\">sqlite3_int64</a> *pInt;\n"
+"  assert( <a "
+"href=\"c3ref/value_blob.html\">sqlite3_value_type</a>(apArg[0])==SQLITE_INTEGER "
+");\n"
+"  pInt = (sqlite3_int64*)sqlite3_aggregate_context(ctx, sizeof(<a "
+"href=\"c3ref/int64.html\">sqlite3_int64</a>));\n"
+"  *pInt -= <a "
+"href=\"c3ref/value_blob.html\">sqlite3_value_int64</a>(apArg[0]);\n"
+"}\n"
+"\n"
+"<i>/*</i>\n"
+"<i>** xFinal for sumint().</i>\n"
+"<i>**</i>\n"
+"<i>** Return the current value of the aggregate window "
+"function. Because</i>\n"
+"<i>** this implementation does not allocate any resources beyond the "
+"buffer</i>\n"
+"<i>** returned by <a "
+"href=\"c3ref/aggregate_context.html\">sqlite3_aggregate_context</a>, which "
+"is automatically freed</i>\n"
+"<i>** by the system, there are no resources to free. And so this method "
+"is</i>\n"
+"<i>** identical to xValue().</i>\n"
+"<i>*/</i>\n"
+"static void sumintFinal(<a href=\"c3ref/context.html\">sqlite3_context</a> "
+"*ctx){\n"
+"  <a href=\"c3ref/int64.html\">sqlite3_int64</a> res = 0;\n"
+"  <a href=\"c3ref/int64.html\">sqlite3_int64</a> *pInt;\n"
+"  pInt = (sqlite3_int64*)<a "
+"href=\"c3ref/aggregate_context.html\">sqlite3_aggregate_context</a>(ctx, "
+"0);\n"
+"  if( pInt ) res = *pInt;\n"
+"  <a href=\"c3ref/result_blob.html\">sqlite3_result_int64</a>(ctx, res);\n"
+"}\n"
+"\n"
+"<i>/*</i>\n"
+"<i>** xValue for sumint().</i>\n"
+"<i>**</i>\n"
+"<i>** Return the current value of the aggregate window function.</i>\n"
+"<i>*/</i>\n"
+"static void sumintValue(<a href=\"c3ref/context.html\">sqlite3_context</a> "
+"*ctx){\n"
+"  <a href=\"c3ref/int64.html\">sqlite3_int64</a> res = 0;\n"
+"  <a href=\"c3ref/int64.html\">sqlite3_int64</a> *pInt;\n"
+"  pInt = (sqlite3_int64*)<a "
+"href=\"c3ref/aggregate_context.html\">sqlite3_aggregate_context</a>(ctx, "
+"0);\n"
+"  if( pInt ) res = *pInt;\n"
+"  <a href=\"c3ref/result_blob.html\">sqlite3_result_int64</a>(ctx, res);\n"
+"}\n"
+"\n"
+"<i>/*</i>\n"
+"<i>** Register sumint() window aggregate with database handle db.</i>\n"
+"<i>*/</i>\n"
+"int register_sumint(<a href=\"c3ref/sqlite3.html\">sqlite3</a> *db){\n"
+"  return <a "
+"href=\"c3ref/create_function.html\">sqlite3_create_window_function</a>(db, "
+"\"sumint\", 1, SQLITE_UTF8, 0,\n"
+"      sumintStep, sumintFinal, sumintValue, sumintInverse, 0\n"
+"  );\n"
+"}\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7557
+msgid ""
+"The following example uses the sumint() function implemented by the above C "
+"code. For each row, the window consists of the preceding row (if any), the "
+"current row and the following row (again, if any):"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><pre>
+#: sedout/windowfunctions.html:7560
+#, no-wrap
+msgid ""
+"CREATE TABLE t3(x, y);\n"
+"INSERT INTO t3 VALUES('a', 4),\n"
+"                     ('b', 5),\n"
+"                     ('c', 3),\n"
+"                     ('d', 8),\n"
+"                     ('e', 1);\n"
+"\n"
+"<i>-- Assuming the database is populated using the above script, the </i>\n"
+"<i>-- following SELECT statement returns:</i>\n"
+"<i>-- </i>\n"
+"<i>--   x | sum_y</i>\n"
+"--------------\n"
+"<i>--   a | 9    </i>\n"
+"<i>--   b | 12   </i>\n"
+"<i>--   c | 16   </i>\n"
+"<i>--   d | 12   </i>\n"
+"<i>--   e | 9    </i>\n"
+"<i>-- </i>\n"
+"SELECT x, sumint(y) OVER (\n"
+"  ORDER BY x ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING\n"
+") AS sum_y\n"
+"FROM t3 ORDER BY x;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7584
+msgid ""
+"In processing the query above, SQLite invokes the sumint callbacks as "
+"follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7589
+msgid "<b>xStep(4)</b> - add \"4\" to the current window."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7590
+msgid "<b>xStep(5)</b> - add \"5\" to the current window."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7591
+msgid ""
+"<b>xValue()</b> - invoke xValue() to obtain the value of sumint() for the "
+"row with (x='a'). The window currently consists of values 4 and 5, and so "
+"the result is 9."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7594
+msgid "<b>xStep(3)</b> - add \"3\" to the current window."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7595
+msgid ""
+"<b>xValue()</b> - invoke xValue() to obtain the value of sumint() for the "
+"row with (x='b'). The window currently consists of values 4, 5 and 3, and so "
+"the result is 12."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7598
+msgid "<b>xInverse(4)</b> - remove \"4\" from the window."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7599
+msgid ""
+"<b>xStep(8)</b> - add \"8\" to the current window. The window now consists "
+"of values 5, 3 and 8."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7601
+msgid ""
+"<b>xValue()</b> - invoked to obtain the value for the row with (x='c').  In "
+"this case, 16."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7603
+msgid "<b>xInverse(5)</b> - remove value \"5\" from the window."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7604
+msgid "<b>xStep(1)</b> - add value \"1\" to the window."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7605
+msgid "<b>xValue()</b> - invoked to obtain the value for row (x='d')."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7606
+msgid ""
+"<b>xInverse(3)</b> - remove value \"3\" from the window. The window now "
+"contains values 8 and 1 only."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ol><li>
+#: sedout/windowfunctions.html:7608
+msgid ""
+"<b>xFinal()</b> - invoked to reclaim any allocated resources and to obtain "
+"the value for row (x='e'). 9.  ."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7612
+msgid ""
+"If the user were to abandon query execution by calling sqlite3_reset() or "
+"sqlite3_finalize() on the statement handle before SQLite has called "
+"xFinal(), then xFinal() is called automatically from within the "
+"sqlite3_reset() or sqlite3_finalize() call in order to reclaim any allocated "
+"resources, even though the value is not required. In this case any error "
+"returned by the xFinal implementation is silently discarded."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><h1>
+#: sedout/windowfunctions.html:7619
+msgid "<span>6. </span>History"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7621
+msgid ""
+"Window function support was first added to SQLite with release <a "
+"href=\"releaselog/3_25_0.html\">version 3.25.0</a> (2018-09-15). The SQLite "
+"developers used the <a href=\"http://www.postgresql.org\">PostgreSQL</a> "
+"window function documentation as their primary reference for how window "
+"functions ought to behave.  Many test cases have been run against PostgreSQL "
+"to ensure that window functions operate the same way in both SQLite and "
+"PostgreSQL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7629
+msgid ""
+"In SQLite <a href=\"releaselog/3_28_0.html\">version 3.28.0</a> "
+"(2019-04-16), windows function support was extended to include the EXCLUDE "
+"clause, GROUPS frame types, window chaining, and support for \"&lt;expr&gt; "
+"PRECEDING\" and \"&lt;expr&gt; FOLLOWING\" boundaries in RANGE frames."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/windowfunctions.html:7634
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/windowfunctions.in?m=5c2a39cc6e\">2023-02-27 "
+"02:07:35</a> UTC </i></small>"
+msgstr ""

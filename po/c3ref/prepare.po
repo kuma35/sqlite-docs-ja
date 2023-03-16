@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/prepare.html:6 sedout/c3ref/prepare.html:121
+msgid "Compiling An SQL Statement"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/prepare.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/prepare.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/prepare.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/prepare.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/prepare.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/prepare.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/prepare.html:22 sedout/c3ref/prepare.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/prepare.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/prepare.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/prepare.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/prepare.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/prepare.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/prepare.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/prepare.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/prepare.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/prepare.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/prepare.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/prepare.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/prepare.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/prepare.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/prepare.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/prepare.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/prepare.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/prepare.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/prepare.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/prepare.html:124
+#, no-wrap
+msgid ""
+"int sqlite3_prepare(\n"
+"  sqlite3 *db,            /* Database handle */\n"
+"  const char *zSql,       /* SQL statement, UTF-8 encoded */\n"
+"  int nByte,              /* Maximum length of zSql in bytes. */\n"
+"  sqlite3_stmt **ppStmt,  /* OUT: Statement handle */\n"
+"  const char **pzTail     /* OUT: Pointer to unused portion of zSql */\n"
+");\n"
+"int sqlite3_prepare_v2(\n"
+"  sqlite3 *db,            /* Database handle */\n"
+"  const char *zSql,       /* SQL statement, UTF-8 encoded */\n"
+"  int nByte,              /* Maximum length of zSql in bytes. */\n"
+"  sqlite3_stmt **ppStmt,  /* OUT: Statement handle */\n"
+"  const char **pzTail     /* OUT: Pointer to unused portion of zSql */\n"
+");\n"
+"int sqlite3_prepare_v3(\n"
+"  sqlite3 *db,            /* Database handle */\n"
+"  const char *zSql,       /* SQL statement, UTF-8 encoded */\n"
+"  int nByte,              /* Maximum length of zSql in bytes. */\n"
+"  unsigned int prepFlags, /* Zero or more SQLITE_PREPARE_ flags */\n"
+"  sqlite3_stmt **ppStmt,  /* OUT: Statement handle */\n"
+"  const char **pzTail     /* OUT: Pointer to unused portion of zSql */\n"
+");\n"
+"int sqlite3_prepare16(\n"
+"  sqlite3 *db,            /* Database handle */\n"
+"  const void *zSql,       /* SQL statement, UTF-16 encoded */\n"
+"  int nByte,              /* Maximum length of zSql in bytes. */\n"
+"  sqlite3_stmt **ppStmt,  /* OUT: Statement handle */\n"
+"  const void **pzTail     /* OUT: Pointer to unused portion of zSql */\n"
+");\n"
+"int sqlite3_prepare16_v2(\n"
+"  sqlite3 *db,            /* Database handle */\n"
+"  const void *zSql,       /* SQL statement, UTF-16 encoded */\n"
+"  int nByte,              /* Maximum length of zSql in bytes. */\n"
+"  sqlite3_stmt **ppStmt,  /* OUT: Statement handle */\n"
+"  const void **pzTail     /* OUT: Pointer to unused portion of zSql */\n"
+");\n"
+"int sqlite3_prepare16_v3(\n"
+"  sqlite3 *db,            /* Database handle */\n"
+"  const void *zSql,       /* SQL statement, UTF-16 encoded */\n"
+"  int nByte,              /* Maximum length of zSql in bytes. */\n"
+"  unsigned int prepFlags, /* Zero or more SQLITE_PREPARE_ flags */\n"
+"  sqlite3_stmt **ppStmt,  /* OUT: Statement handle */\n"
+"  const void **pzTail     /* OUT: Pointer to unused portion of zSql */\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:170
+msgid ""
+"To execute an SQL statement, it must first be compiled into a byte-code "
+"program using one of these routines.  Or, in other words, these routines are "
+"constructors for the <a href=\"../c3ref/stmt.html\">prepared statement</a> "
+"object."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:174
+msgid ""
+"The preferred routine to use is <a "
+"href=\"../c3ref/prepare.html\">sqlite3_prepare_v2()</a>.  The <a "
+"href=\"../c3ref/prepare.html\">sqlite3_prepare()</a> interface is legacy and "
+"should be avoided.  <a "
+"href=\"../c3ref/prepare.html\">sqlite3_prepare_v3()</a> has an extra "
+"\"prepFlags\" option that is used for special purposes."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:179
+msgid ""
+"The use of the UTF-8 interfaces is preferred, as SQLite currently does all "
+"parsing using UTF-8.  The UTF-16 interfaces are provided as a convenience.  "
+"The UTF-16 interfaces work by converting the input text into UTF-8, then "
+"invoking the corresponding UTF-8 interface."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:184
+msgid ""
+"The first argument, \"db\", is a <a href=\"../c3ref/sqlite3.html\">database "
+"connection</a> obtained from a prior successful call to <a "
+"href=\"../c3ref/open.html\">sqlite3_open()</a>, <a "
+"href=\"../c3ref/open.html\">sqlite3_open_v2()</a> or <a "
+"href=\"../c3ref/open.html\">sqlite3_open16()</a>.  The database connection "
+"must not have been closed."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:188
+msgid ""
+"The second argument, \"zSql\", is the statement to be compiled, encoded as "
+"either UTF-8 or UTF-16.  The sqlite3_prepare(), sqlite3_prepare_v2(), and "
+"sqlite3_prepare_v3()  interfaces use UTF-8, and sqlite3_prepare16(), "
+"sqlite3_prepare16_v2(), and sqlite3_prepare16_v3() use UTF-16."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:194
+msgid ""
+"If the nByte argument is negative, then zSql is read up to the first zero "
+"terminator. If nByte is positive, then it is the number of bytes read from "
+"zSql.  If nByte is zero, then no prepared statement is generated.  If the "
+"caller knows that the supplied string is nul-terminated, then there is a "
+"small performance advantage to passing an nByte parameter that is the number "
+"of bytes in the input string <i>including</i> the nul-terminator."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:203
+msgid ""
+"If pzTail is not NULL then *pzTail is made to point to the first byte past "
+"the end of the first SQL statement in zSql.  These routines only compile the "
+"first statement in zSql, so *pzTail is left pointing to what remains "
+"uncompiled."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:208
+msgid ""
+"*ppStmt is left pointing to a compiled <a "
+"href=\"../c3ref/stmt.html\">prepared statement</a> that can be executed "
+"using <a href=\"../c3ref/step.html\">sqlite3_step()</a>.  If there is an "
+"error, *ppStmt is set to NULL.  If the input text contains no SQL (if the "
+"input is an empty string or a comment) then *ppStmt is set to NULL.  The "
+"calling procedure is responsible for deleting the compiled SQL statement "
+"using <a href=\"../c3ref/finalize.html\">sqlite3_finalize()</a> after it has "
+"finished with it.  ppStmt may not be NULL."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:216
+msgid ""
+"On success, the sqlite3_prepare() family of routines return <a "
+"href=\"../rescode.html#ok\">SQLITE_OK</a>; otherwise an <a "
+"href=\"../rescode.html\">error code</a> is returned."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/prepare.html:219
+msgid ""
+"The sqlite3_prepare_v2(), sqlite3_prepare_v3(), sqlite3_prepare16_v2(), and "
+"sqlite3_prepare16_v3() interfaces are recommended for all new programs.  The "
+"older interfaces (sqlite3_prepare() and sqlite3_prepare16())  are retained "
+"for backwards compatibility, but their use is discouraged.  In the \"vX\" "
+"interfaces, the prepared statement that is returned (the <a "
+"href=\"../c3ref/stmt.html\">sqlite3_stmt</a> object) contains a copy of the "
+"original SQL text. This causes the <a "
+"href=\"../c3ref/step.html\">sqlite3_step()</a> interface to behave "
+"differently in three ways:"
+msgstr ""
+
+#. type: Content of: <html><body><ol><li>
+#: sedout/c3ref/prepare.html:230
+msgid ""
+"If the database schema changes, instead of returning <a "
+"href=\"../rescode.html#schema\">SQLITE_SCHEMA</a> as it always used to do, "
+"<a href=\"../c3ref/step.html\">sqlite3_step()</a> will automatically "
+"recompile the SQL statement and try to run it again. As many as <a "
+"href=\"../compile.html#max_schema_retry\">SQLITE_MAX_SCHEMA_RETRY</a> "
+"retries will occur before sqlite3_step() gives up and returns an error."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li>
+#: sedout/c3ref/prepare.html:237
+msgid ""
+"When an error occurs, <a href=\"../c3ref/step.html\">sqlite3_step()</a> will "
+"return one of the detailed <a href=\"../rescode.html\">error codes</a> or <a "
+"href=\"../rescode.html#extrc\">extended error codes</a>.  The legacy "
+"behavior was that <a href=\"../c3ref/step.html\">sqlite3_step()</a> would "
+"only return a generic <a href=\"../rescode.html#error\">SQLITE_ERROR</a> "
+"result code and the application would have to make a second call to <a "
+"href=\"../c3ref/reset.html\">sqlite3_reset()</a> in order to find the "
+"underlying cause of the problem. With the \"v2\" prepare interfaces, the "
+"underlying reason for the error is returned immediately."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li>
+#: sedout/c3ref/prepare.html:246
+msgid ""
+"If the specific value bound to a <a href=\"../lang_expr.html#varparam\">host "
+"parameter</a> in the WHERE clause might influence the choice of query plan "
+"for a statement, then the statement will be automatically recompiled, as if "
+"there had been a schema change, on the first <a "
+"href=\"../c3ref/step.html\">sqlite3_step()</a> call following any change to "
+"the <a href=\"../c3ref/bind_blob.html\">bindings</a> of that <a "
+"href=\"../lang_expr.html#varparam\">parameter</a>.  The specific value of a "
+"WHERE-clause <a href=\"../lang_expr.html#varparam\">parameter</a> might "
+"influence the choice of query plan if the parameter is the left-hand side of "
+"a <a href=\"../lang_expr.html#like\">LIKE</a> or <a "
+"href=\"../lang_expr.html#glob\">GLOB</a> operator or if the parameter is "
+"compared to an indexed column and the <a "
+"href=\"../compile.html#enable_stat4\">SQLITE_ENABLE_STAT4</a> compile-time "
+"option is enabled."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/prepare.html:258
+msgid ""
+"sqlite3_prepare_v3() differs from sqlite3_prepare_v2() only in having the "
+"extra prepFlags parameter, which is a bit array consisting of zero or more "
+"of the <a "
+"href=\"../c3ref/c_prepare_normalize.html#sqlitepreparepersistent\">SQLITE_PREPARE_*</a> "
+"flags.  The sqlite3_prepare_v2() interface works exactly the same as "
+"sqlite3_prepare_v3() with a zero prepFlags parameter."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/prepare.html:263
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

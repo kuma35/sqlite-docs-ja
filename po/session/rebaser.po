@@ -1,0 +1,356 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:22+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><h2>
+#: sedout/session/rebaser.html:6 sedout/session/rebaser.html:118
+msgid "Rebasing changesets"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/session/rebaser.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/session/rebaser.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/session/rebaser.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/session/rebaser.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/session/rebaser.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/session/rebaser.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/session/rebaser.html:22 sedout/session/rebaser.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/session/rebaser.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/session/rebaser.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/session/rebaser.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/session/rebaser.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/session/rebaser.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/session/rebaser.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/session/rebaser.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/session/rebaser.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/session/rebaser.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/session/rebaser.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/session/rebaser.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/session/rebaser.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/session/rebaser.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/session/rebaser.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/session/rebaser.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><a>
+#: sedout/session/rebaser.html:118
+msgid "<a href=\"../session/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><a><h2>
+#: sedout/session/rebaser.html:118
+msgid "Session Module C Interface"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/session/rebaser.html:118
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/session/rebaser.html:118
+#, no-wrap
+msgid "typedef struct sqlite3_rebaser sqlite3_rebaser;\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:119
+msgid ""
+"<b>Important:</b> This interface is <a "
+"href=\"../c3ref/experimental.html\">experimental</a> and is subject to "
+"change without notice."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:120
+msgid ""
+"Suppose there is a site hosting a database in state S0. And that "
+"modifications are made that move that database to state S1 and a changeset "
+"recorded (the \"local\" changeset). Then, a changeset based on S0 is "
+"received from another site (the \"remote\" changeset) and applied to the "
+"database. The database is then in state (S1+\"remote\"), where the exact "
+"state depends on any conflict resolution decisions (OMIT or REPLACE) made "
+"while applying \"remote\".  Rebasing a changeset is to update it to take "
+"those conflict resolution decisions into account, so that the same conflicts "
+"do not have to be resolved elsewhere in the network."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:131
+msgid ""
+"For example, if both the local and remote changesets contain an INSERT of "
+"the same key on \"CREATE TABLE t1(a PRIMARY KEY, b)\":"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:134
+msgid ""
+"local: INSERT INTO t1 VALUES(1, 'v1'); remote: INSERT INTO t1 VALUES(1, "
+"'v2');"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:137
+msgid ""
+"and the conflict resolution is REPLACE, then the INSERT change is removed "
+"from the local changeset (it was overridden). Or, if the conflict resolution "
+"was \"OMIT\", then the local changeset is modified to instead contain:"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:142
+msgid "UPDATE t1 SET b = 'v2' WHERE a=1;"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:144
+msgid "Changes within the local changeset are rebased as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt>
+#: sedout/session/rebaser.html:147
+msgid "Local INSERT"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt><dd>
+#: sedout/session/rebaser.html:148
+msgid ""
+"This may only conflict with a remote INSERT. If the conflict resolution was "
+"OMIT, then add an UPDATE change to the rebased changeset. Or, if the "
+"conflict resolution was REPLACE, add nothing to the rebased changeset."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt><dd><dt>
+#: sedout/session/rebaser.html:153
+msgid "Local DELETE"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt><dd><dt><dd>
+#: sedout/session/rebaser.html:154
+msgid ""
+"This may conflict with a remote UPDATE or DELETE. In both cases the only "
+"possible resolution is OMIT. If the remote operation was a DELETE, then add "
+"no change to the rebased changeset. If the remote operation was an UPDATE, "
+"then the old.* fields of change are updated to reflect the new.* values in "
+"the UPDATE."
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt><dd><dt><dd><dt>
+#: sedout/session/rebaser.html:160
+msgid "Local UPDATE"
+msgstr ""
+
+#. type: Content of: <html><body><dl><dt><dd><dt><dd><dt><dd>
+#: sedout/session/rebaser.html:161
+msgid ""
+"This may conflict with a remote UPDATE or DELETE. If it conflicts with a "
+"DELETE, and the conflict resolution was OMIT, then the update is changed "
+"into an INSERT. Any undefined values in the new.* record from the update "
+"change are filled in using the old.* values from the conflicting DELETE. Or, "
+"if the conflict resolution was REPLACE, the UPDATE change is simply omitted "
+"from the rebased changeset.  If conflict is with a remote UPDATE and the "
+"resolution is OMIT, then the old.* values are rebased using the new.* values "
+"in the remote change. Or, if the resolution is REPLACE, then the change is "
+"copied into the rebased changeset with updates to columns also updated by "
+"the conflicting remote UPDATE removed. If this means no columns would be "
+"updated, the change is omitted."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:176
+msgid ""
+"A local change may be rebased against multiple remote changes "
+"simultaneously. If a single key is modified by multiple remote changesets, "
+"they are combined as follows before the local changeset is rebased:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/session/rebaser.html:182
+msgid ""
+"If there has been one or more REPLACE resolutions on a key, it is rebased "
+"according to a REPLACE."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/session/rebaser.html:185
+msgid ""
+"If there have been no REPLACE resolutions on a key, then the local changeset "
+"is rebased according to the most recent of the OMIT resolutions."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:190
+msgid ""
+"Note that conflict resolutions from multiple remote changesets are combined "
+"on a per-field basis, not per-row. This means that in the case of multiple "
+"remote UPDATE operations, some fields of a single local change may be "
+"rebased for REPLACE while others are rebased for OMIT."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:196
+msgid ""
+"In order to rebase a local changeset, the remote changeset must first be "
+"applied to the local database using sqlite3changeset_apply_v2() and the "
+"buffer of rebase information captured. Then:"
+msgstr ""
+
+#. type: Content of: <html><body><ol><li>
+#: sedout/session/rebaser.html:201
+msgid "An sqlite3_rebaser object is created by calling sqlite3rebaser_create()."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li><li>
+#: sedout/session/rebaser.html:203
+msgid ""
+"The new object is configured with the rebase buffer obtained from "
+"sqlite3changeset_apply_v2() by calling sqlite3rebaser_configure().  If the "
+"local changeset is to be rebased against multiple remote changesets, then "
+"sqlite3rebaser_configure() should be called multiple times, in the same "
+"order that the multiple sqlite3changeset_apply_v2() calls were made."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li><li><li>
+#: sedout/session/rebaser.html:209
+msgid "Each local changeset is rebased by calling sqlite3rebaser_rebase()."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li><li><li><li>
+#: sedout/session/rebaser.html:210
+msgid "The sqlite3_rebaser object is deleted by calling sqlite3rebaser_delete()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/session/rebaser.html:213
+msgid ""
+"See also lists of <a href=\"../session/objlist.html\">Objects</a>, <a "
+"href=\"../session/constlist.html\">Constants</a>, and <a "
+"href=\"../session/funclist.html\">Functions</a>."
+msgstr ""

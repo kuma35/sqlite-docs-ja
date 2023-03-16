@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_indexedby.html:6 sedout/lang_indexedby.html:121
+msgid "The INDEXED BY Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_indexedby.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_indexedby.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_indexedby.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_indexedby.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_indexedby.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_indexedby.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_indexedby.html:22 sedout/lang_indexedby.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_indexedby.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_indexedby.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_indexedby.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_indexedby.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_indexedby.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_indexedby.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_indexedby.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_indexedby.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_indexedby.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_indexedby.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_indexedby.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_indexedby.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_indexedby.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_indexedby.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_indexedby.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_indexedby.html:128
+msgid "<span>1. </span>How INDEXED BY Works"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_indexedby.html:130
+msgid ""
+"The INDEXED BY phrase forces the <a href=\"optoverview.html\">SQLite query "
+"planner</a> to use a particular named index on a <a "
+"href=\"lang_delete.html\">DELETE</a>, <a "
+"href=\"lang_select.html\">SELECT</a>, or <a "
+"href=\"lang_update.html\">UPDATE</a> statement.  The INDEXED BY phrase is an "
+"SQLite extension and is not portable to other SQL database engines."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_indexedby.html:135
+msgid ""
+"<b><a "
+"href=\"syntax/qualified-table-name.html\">qualified-table-name:</a></b> "
+"<button id='x5aa9a11d' "
+"onclick='hideorshow(\"x5aa9a11d\",\"x7055a075\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:143
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:147
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:151
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:155
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:159
+msgid "alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:169 sedout/lang_indexedby.html:183
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:173
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:177
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_indexedby.html:179
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_indexedby.html:206
+msgid ""
+"The \"INDEXED BY <span class='yyterm'>index-name</span>\" phrase specifies "
+"that the named index must be used in order to look up values on the "
+"preceding table.  If <span class='yyterm'>index-name</span> does not exist "
+"or cannot be used for the query, then the preparation of the SQL statement "
+"fails.  The \"NOT INDEXED\" clause specifies that no index shall be used "
+"when accessing the preceding table, including implied indices create by "
+"UNIQUE and PRIMARY KEY constraints.  However, the <a "
+"href=\"lang_createtable.html#rowid\">rowid</a> can still be used to look up "
+"entries even when \"NOT INDEXED\" is specified."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_indexedby.html:216
+msgid ""
+"Some SQL database engines provide non-standard \"hint\" mechanisms which can "
+"be used to give the query optimizer clues about what indices it should use "
+"for a particular statement.  The INDEXED BY clause of SQLite is <em>not</em> "
+"a hinting mechanism and it should not be used as such.  The INDEXED BY "
+"clause does not give the optimizer hints about which index to use; it gives "
+"the optimizer a requirement of which index to use.  If the query optimizer "
+"is unable to use the index specified by the INDEXED BY clause, then the "
+"query will fail with an error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_indexedby.html:225
+msgid ""
+"The INDEXED BY clause is <em>not</em> intended for use in tuning the "
+"performance of a query.  The intent of the INDEXED BY clause is to raise a "
+"run-time error if a schema change, such as dropping or creating an index, "
+"causes the query plan for a time-sensitive query to change.  The INDEXED BY "
+"clause is designed to help detect undesirable query plan changes during "
+"regression testing.  Application developers are admonished to omit all use "
+"of INDEXED BY during application design, implementation, testing, and "
+"tuning.  If INDEXED BY is to be used at all, it should be inserted at the "
+"very end of the development process when \"locking down\" a design."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_indexedby.html:237
+msgid "<span>2. </span>See Also"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/lang_indexedby.html:240
+msgid ""
+"The <a href=\"queryplanner-ng.html#howtofix\">query planner checklist</a> "
+"describes steps that application developers should following to help resolve "
+"query planner problems.  Notice the that the use of INDEXED BY is a last "
+"resort, to be used only when all other measures fail."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/lang_indexedby.html:245
+msgid ""
+"<a href=\"optoverview.html#uplus\">The unary \"+\" operator</a> can be used "
+"to disqualify terms in the WHERE clause from use by indices.  Careful use of "
+"unary + can sometimes help prevent the query planner from choosing a poor "
+"index without restricting it to using one specific index.  Careful placement "
+"of unary + operators is a better method for controlling which indices are "
+"used by a query."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/lang_indexedby.html:252
+msgid ""
+"The <a href=\"c3ref/stmt_status.html\">sqlite3_stmt_status()</a> C/C++ "
+"interface together with the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusfullscanstep\">SQLITE_STMTSTATUS_FULLSCAN_STEP</a> "
+"and <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatussort\">SQLITE_STMTSTATUS_SORT</a> "
+"verbs can be used to detect at run-time when an SQL statement is not making "
+"effective use of indices.  Many applications may prefer to use the <a "
+"href=\"c3ref/stmt_status.html\">sqlite3_stmt_status()</a> interface to "
+"detect index misuse rather than the INDEXED BY phrase described here."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_indexedby.html:259
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_indexedby.in?m=f9785fa831\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,2259 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:12+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_with.html:6 sedout/lang_with.html:121
+msgid "The WITH Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_with.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_with.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_with.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_with.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_with.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_with.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_with.html:22 sedout/lang_with.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_with.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_with.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_with.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_with.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_with.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_with.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_with.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_with.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_with.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_with.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_with.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_with.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_with.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_with.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_with.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_with.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:129
+msgid ""
+"<a href=\"#ordinary_common_table_expressions\">2. Ordinary Common Table "
+"Expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:130
+msgid ""
+"<a href=\"#recursive_common_table_expressions\">3. Recursive Common Table "
+"Expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:131
+msgid "<a href=\"#recursive_query_examples\">3.1. Recursive Query Examples</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:132
+msgid ""
+"<a href=\"#hierarchical_query_examples\">3.2. Hierarchical Query "
+"Examples</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:133
+msgid "<a href=\"#queries_against_a_graph\">3.3. Queries Against A Graph</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:134
+msgid ""
+"<a "
+"href=\"#controlling_depth_first_versus_breadth_first_search_of_a_tree_using_order_by\">3.4. "
+"Controlling Depth-First Versus Breadth-First Search Of a Tree Using ORDER "
+"BY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:136
+msgid ""
+"<a href=\"#outlandish_recursive_query_examples\">3.5. Outlandish Recursive "
+"Query Examples</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:137
+msgid "<a href=\"#materialization_hints\">4. Materialization Hints</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_with.html:138
+msgid "<a href=\"#limitations_and_caveats\">5. Limitations And Caveats</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_with.html:142
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_with.html:159
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_with.html:160
+msgid ""
+"<b><a href=\"syntax/with-clause.html\">with-clause:</a></b> <button "
+"id='x53d40345' "
+"onclick='hideorshow(\"x53d40345\",\"x61fa943c\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:168 sedout/lang_with.html:267
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:172 sedout/lang_with.html:269
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_with.html:177 sedout/lang_with.html:2480
+msgid "cte-table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_with.html:181 sedout/lang_with.html:407
+#: sedout/lang_with.html:565 sedout/lang_with.html:817
+#: sedout/lang_with.html:1923 sedout/lang_with.html:1984
+#: sedout/lang_with.html:2048 sedout/lang_with.html:2484
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:185 sedout/lang_with.html:567
+#: sedout/lang_with.html:851 sedout/lang_with.html:920
+#: sedout/lang_with.html:945 sedout/lang_with.html:972
+#: sedout/lang_with.html:1000 sedout/lang_with.html:1078
+#: sedout/lang_with.html:2005
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:189 sedout/lang_with.html:208
+#: sedout/lang_with.html:569
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><svg><text>
+#: sedout/lang_with.html:193 sedout/lang_with.html:235
+#: sedout/lang_with.html:437 sedout/lang_with.html:551
+#: sedout/lang_with.html:572 sedout/lang_with.html:729
+#: sedout/lang_with.html:785 sedout/lang_with.html:809
+#: sedout/lang_with.html:1008 sedout/lang_with.html:1047
+#: sedout/lang_with.html:1086 sedout/lang_with.html:1169
+#: sedout/lang_with.html:1275 sedout/lang_with.html:1574
+#: sedout/lang_with.html:1630 sedout/lang_with.html:1653
+#: sedout/lang_with.html:1746 sedout/lang_with.html:2023
+#: sedout/lang_with.html:2064 sedout/lang_with.html:2082
+#: sedout/lang_with.html:2117 sedout/lang_with.html:2488
+#: sedout/lang_with.html:2531
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:197 sedout/lang_with.html:576
+#: sedout/lang_with.html:1012 sedout/lang_with.html:1090
+#: sedout/lang_with.html:2068
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><svg><text>
+#: sedout/lang_with.html:201 sedout/lang_with.html:243
+#: sedout/lang_with.html:445 sedout/lang_with.html:561
+#: sedout/lang_with.html:580 sedout/lang_with.html:741
+#: sedout/lang_with.html:793 sedout/lang_with.html:825
+#: sedout/lang_with.html:1016 sedout/lang_with.html:1055
+#: sedout/lang_with.html:1094 sedout/lang_with.html:1181
+#: sedout/lang_with.html:1331 sedout/lang_with.html:1590
+#: sedout/lang_with.html:1646 sedout/lang_with.html:1661
+#: sedout/lang_with.html:1754 sedout/lang_with.html:2031
+#: sedout/lang_with.html:2072 sedout/lang_with.html:2090
+#: sedout/lang_with.html:2173 sedout/lang_with.html:2508
+#: sedout/lang_with.html:2539
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><svg><text>
+#: sedout/lang_with.html:216 sedout/lang_with.html:248
+#: sedout/lang_with.html:282 sedout/lang_with.html:306
+#: sedout/lang_with.html:329 sedout/lang_with.html:380
+#: sedout/lang_with.html:413 sedout/lang_with.html:450
+#: sedout/lang_with.html:452 sedout/lang_with.html:486
+#: sedout/lang_with.html:512 sedout/lang_with.html:585
+#: sedout/lang_with.html:764 sedout/lang_with.html:800
+#: sedout/lang_with.html:1030 sedout/lang_with.html:1067
+#: sedout/lang_with.html:1291 sedout/lang_with.html:1315
+#: sedout/lang_with.html:1582 sedout/lang_with.html:1638
+#: sedout/lang_with.html:1761 sedout/lang_with.html:1811
+#: sedout/lang_with.html:2035 sedout/lang_with.html:2097
+#: sedout/lang_with.html:2133 sedout/lang_with.html:2157
+#: sedout/lang_with.html:2544
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_with.html:223
+msgid ""
+"<b><a href=\"syntax/cte-table-name.html\">cte-table-name:</a></b> <button "
+"id='x2aa84ac4' "
+"onclick='hideorshow(\"x2aa84ac4\",\"xb0c4c901\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><svg><text>
+#: sedout/lang_with.html:231 sedout/lang_with.html:545
+#: sedout/lang_with.html:678 sedout/lang_with.html:1060
+#: sedout/lang_with.html:1949 sedout/lang_with.html:1980
+#: sedout/lang_with.html:2527
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><svg><text>
+#: sedout/lang_with.html:239 sedout/lang_with.html:557
+#: sedout/lang_with.html:686 sedout/lang_with.html:1750
+#: sedout/lang_with.html:2535
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_with.html:258
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x5b140eb4' "
+"onclick='hideorshow(\"x5b140eb4\",\"xf18ec58e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:275
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:296
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:300 sedout/lang_with.html:733
+#: sedout/lang_with.html:951
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:304
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_with.html:314 sedout/lang_with.html:628
+#: sedout/lang_with.html:2500
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:321 sedout/lang_with.html:955
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:325 sedout/lang_with.html:1710
+#: sedout/lang_with.html:1718 sedout/lang_with.html:2086
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:327 sedout/lang_with.html:2104
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:347 sedout/lang_with.html:1173
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:351 sedout/lang_with.html:370
+#: sedout/lang_with.html:378 sedout/lang_with.html:441
+#: sedout/lang_with.html:480 sedout/lang_with.html:508
+#: sedout/lang_with.html:516 sedout/lang_with.html:703
+#: sedout/lang_with.html:710 sedout/lang_with.html:718
+#: sedout/lang_with.html:737 sedout/lang_with.html:789
+#: sedout/lang_with.html:813 sedout/lang_with.html:832
+#: sedout/lang_with.html:847 sedout/lang_with.html:863
+#: sedout/lang_with.html:865 sedout/lang_with.html:873
+#: sedout/lang_with.html:907 sedout/lang_with.html:937
+#: sedout/lang_with.html:959 sedout/lang_with.html:968
+#: sedout/lang_with.html:980 sedout/lang_with.html:988
+#: sedout/lang_with.html:996 sedout/lang_with.html:1025
+#: sedout/lang_with.html:1051 sedout/lang_with.html:1109
+#: sedout/lang_with.html:1117 sedout/lang_with.html:1125
+#: sedout/lang_with.html:1133 sedout/lang_with.html:1177
+#: sedout/lang_with.html:1289 sedout/lang_with.html:1412
+#: sedout/lang_with.html:1434 sedout/lang_with.html:1456
+#: sedout/lang_with.html:1469 sedout/lang_with.html:1489
+#: sedout/lang_with.html:1772 sedout/lang_with.html:1858
+#: sedout/lang_with.html:1919 sedout/lang_with.html:2027
+#: sedout/lang_with.html:2131 sedout/lang_with.html:2251
+#: sedout/lang_with.html:2273 sedout/lang_with.html:2295
+#: sedout/lang_with.html:2308 sedout/lang_with.html:2328
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:362 sedout/lang_with.html:1517
+#: sedout/lang_with.html:2356
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:366 sedout/lang_with.html:474
+#: sedout/lang_with.html:1285 sedout/lang_with.html:1309
+#: sedout/lang_with.html:1999 sedout/lang_with.html:2127
+#: sedout/lang_with.html:2151
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:374
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:399
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:403 sedout/lang_with.html:1271
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:411
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:433
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:462
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:468
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:470 sedout/lang_with.html:1305
+#: sedout/lang_with.html:2147
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:476
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:484 sedout/lang_with.html:1313
+#: sedout/lang_with.html:2155
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_with.html:504
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:537
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x3e7c7aba' "
+"onclick='hideorshow(\"x3e7c7aba\",\"xe3d20a54\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:608
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x4f0fd257' "
+"onclick='hideorshow(\"x4f0fd257\",\"x8576fe82\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_with.html:618 sedout/lang_with.html:620
+#: sedout/lang_with.html:2496 sedout/lang_with.html:2515
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:622
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:624
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:650
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x3270f5da' "
+"onclick='hideorshow(\"x3270f5da\",\"x08ba2f5b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:658
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:663
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:670 sedout/lang_with.html:1035
+#: sedout/lang_with.html:1972
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:674 sedout/lang_with.html:682
+#: sedout/lang_with.html:1039 sedout/lang_with.html:1953
+#: sedout/lang_with.html:1976
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:699
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:714
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:725
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:745
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:751
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:773 sedout/lang_with.html:1942
+#: sedout/lang_with.html:1957
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:805
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:821
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:836 sedout/lang_with.html:1862
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:840 sedout/lang_with.html:1866
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:855
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:857
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:859
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:861
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:869
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:911
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:918
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:924 sedout/lang_with.html:1222
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:941
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:976 sedout/lang_with.html:1364
+#: sedout/lang_with.html:2203
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:984 sedout/lang_with.html:1376
+#: sedout/lang_with.html:2215
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1004
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1043
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1082
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1105
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1113
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1121
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1129
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1137
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1149
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1157
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='xbf0bd6bd' "
+"onclick='hideorshow(\"xbf0bd6bd\",\"x0ffa6705\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1165
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1188
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='xfc6ab182' "
+"onclick='hideorshow(\"xfc6ab182\",\"x4e30fe09\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1196
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1203 sedout/lang_with.html:1685
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1208
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1215
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1229
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1236
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1243
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1250
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1259
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x5a8e5978' "
+"onclick='hideorshow(\"x5a8e5978\",\"xb898325e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1267
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1279 sedout/lang_with.html:2121
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1281 sedout/lang_with.html:2123
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1327 sedout/lang_with.html:2169
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_with.html:1351
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x9ae50766' "
+"onclick='hideorshow(\"x9ae50766\",\"x6f5781bb\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1359 sedout/lang_with.html:2198
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1368 sedout/lang_with.html:1380
+#: sedout/lang_with.html:1403 sedout/lang_with.html:2207
+#: sedout/lang_with.html:2219 sedout/lang_with.html:2242
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1372 sedout/lang_with.html:1407
+#: sedout/lang_with.html:1416 sedout/lang_with.html:1438
+#: sedout/lang_with.html:1473 sedout/lang_with.html:2211
+#: sedout/lang_with.html:2246 sedout/lang_with.html:2255
+#: sedout/lang_with.html:2277 sedout/lang_with.html:2312
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1384 sedout/lang_with.html:1460
+#: sedout/lang_with.html:1493 sedout/lang_with.html:2223
+#: sedout/lang_with.html:2299 sedout/lang_with.html:2332
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1389 sedout/lang_with.html:2228
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1396 sedout/lang_with.html:2235
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1423 sedout/lang_with.html:1445
+#: sedout/lang_with.html:1478 sedout/lang_with.html:1504
+#: sedout/lang_with.html:2262 sedout/lang_with.html:2284
+#: sedout/lang_with.html:2317 sedout/lang_with.html:2343
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1427 sedout/lang_with.html:1449
+#: sedout/lang_with.html:1482 sedout/lang_with.html:1508
+#: sedout/lang_with.html:2266 sedout/lang_with.html:2288
+#: sedout/lang_with.html:2321 sedout/lang_with.html:2347
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1500 sedout/lang_with.html:1513
+#: sedout/lang_with.html:1522 sedout/lang_with.html:1531
+#: sedout/lang_with.html:2339 sedout/lang_with.html:2352
+#: sedout/lang_with.html:2361 sedout/lang_with.html:2370
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1526 sedout/lang_with.html:2365
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1535 sedout/lang_with.html:2374
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1539 sedout/lang_with.html:2378
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1562
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x32b44387' "
+"onclick='hideorshow(\"x32b44387\",\"x6702993f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1570
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1578
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1586
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1597
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1602
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1607
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1618
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x693c68d8' "
+"onclick='hideorshow(\"x693c68d8\",\"x0be6653b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1626
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1634 sedout/lang_with.html:1642
+#: sedout/lang_with.html:1657
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_with.html:1673
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x5ee19bf5' "
+"onclick='hideorshow(\"x5ee19bf5\",\"xd633a327\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1681
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1692
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:1702
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xa4b74506' "
+"onclick='hideorshow(\"xa4b74506\",\"xb3a041d9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1714
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1722
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1734
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x4e70b282' "
+"onclick='hideorshow(\"x4e70b282\",\"x5ca7c10f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1742
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1768
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:1782
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x5474cc79' "
+"onclick='hideorshow(\"x5474cc79\",\"xc24b82bd\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1790
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1796
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1800
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1806
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1824
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1830
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1835
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1842
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:1850
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xeea32d85' "
+"onclick='hideorshow(\"xeea32d85\",\"xd737b1a8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1875
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1879
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1889 sedout/lang_with.html:1897
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1893
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1901
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:1911
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x952a7897' "
+"onclick='hideorshow(\"x952a7897\",\"x9861574b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1927
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:1964
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x01cccc83' "
+"onclick='hideorshow(\"x01cccc83\",\"x85d5f8b1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1988 sedout/lang_with.html:2052
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:1995 sedout/lang_with.html:2009
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:2003
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_with.html:2019
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_with.html:2109
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xbc2cffff' "
+"onclick='hideorshow(\"xbc2cffff\",\"x616aeee0\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_with.html:2190
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x0fcc8b61' "
+"onclick='hideorshow(\"x0fcc8b61\",\"xfb86aabd\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_with.html:2405
+msgid ""
+"Common Table Expressions or CTEs act like temporary <a "
+"href=\"lang_createview.html\">views</a> that exist only for the duration of "
+"a single SQL statement.  There are two kinds of common table expressions: "
+"\"ordinary\" and \"recursive\". Ordinary common table expressions are "
+"helpful for making queries easier to understand by factoring subqueries out "
+"of the main SQL statement.  Recursive common table expressions provide the "
+"ability to do hierarchical or recursive queries of trees and graphs, a "
+"capability that is not otherwise available in the SQL language."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_with.html:2416
+msgid ""
+"All common table expressions (ordinary and recursive) are created by "
+"prepending a WITH clause in front of a <a "
+"href=\"lang_select.html\">SELECT</a>, <a "
+"href=\"lang_insert.html\">INSERT</a>, <a "
+"href=\"lang_delete.html\">DELETE</a>, or <a "
+"href=\"lang_update.html\">UPDATE</a> statement.  A single WITH clause can "
+"specify one or more common table expressions, some of which are ordinary and "
+"some of which are recursive.  <a name=\"ordinarycte\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_with.html:2424
+msgid "<span>2. </span>Ordinary Common Table Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_with.html:2426
+msgid ""
+"An ordinary common table expression works as if it were a <a "
+"href=\"lang_createview.html\">view</a> that exists for the duration of a "
+"single statement.  Ordinary common table expressions are useful for "
+"factoring out subqueries and making the overall SQL statement easier to read "
+"and understand."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_with.html:2431
+msgid ""
+"A WITH clause can contain ordinary common table expressions even if it "
+"includes the RECURSIVE keyword.  The use of RECURSIVE does not force common "
+"table expressions to be recursive.  <a name=\"recursivecte\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_with.html:2437
+msgid "<span>3. </span>Recursive Common Table Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_with.html:2439
+msgid ""
+"A recursive common table expression can be used to write a query that walks "
+"a tree or graph.  A recursive common table expression has the same basic "
+"syntax as an ordinary common table expression, but with the following "
+"additional attributes:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_with.html:2445
+msgid ""
+"The \"<a href=\"syntax/select-stmt.html\">select-stmt</a>\" must be a <a "
+"href=\"lang_select.html#compound\">compound select</a>.  That is to say, the "
+"CTE body must be two or more individual SELECT statements separated by "
+"compound operators like UNION, UNION ALL, INTERSECT, or EXCEPT."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_with.html:2449
+msgid ""
+"One or more of the individual SELECT statements that make up the compound "
+"must be \"recursive\".  A SELECT statement is a recursive if its FROM clause "
+"contains exactly one reference to the the CTE table (the table named on the "
+"left-hand side of the AS clause)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_with.html:2455
+msgid "One or more of the SELECT statements in the compound must be non-recursive."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_with.html:2457
+msgid ""
+"All non-recursive SELECT statements must occur before any recursive SELECT "
+"statements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_with.html:2459
+msgid ""
+"The recursive SELECT statements must be separated from the non-recursive "
+"SELECT statements and from each other by the UNION or UNION ALL operators.  "
+"If there are two or more recursive SELECT statements, they all must be "
+"separated from each other using the same operator that separates the first "
+"recursive SELECT from the last non-recursive SELECT statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_with.html:2465
+msgid ""
+"Recursive SELECT statements may not use <a "
+"href=\"lang_aggfunc.html\">aggregate functions</a> or <a "
+"href=\"windowfunctions.html\">window functions</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_with.html:2469
+msgid ""
+"To put it another way, a recursive common table expression must look "
+"something like the following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_with.html:2472
+msgid ""
+"<b><a href=\"syntax/recursive-cte.html\">recursive-cte:</a></b> <button "
+"id='xfb21015f' "
+"onclick='hideorshow(\"xfb21015f\",\"x1644cd0b\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_with.html:2492
+msgid "initial-select"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_with.html:2504
+msgid "recursive-select"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><p>
+#: sedout/lang_with.html:2519
+msgid ""
+"<b><a href=\"syntax/cte-table-name.html\">cte-table-name:</a></b> <button "
+"id='xaa79701a' "
+"onclick='hideorshow(\"xaa79701a\",\"x318ae16b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_with.html:2557
+msgid ""
+"In the diagram above, <span class='yyterm'>initial-select</span> means one "
+"or more non-recursive SELECT statements and <span "
+"class='yyterm'>recursive-select</span> means one or more recursive SELECT "
+"statements.  The most common case is for there to be exactly one <span "
+"class='yyterm'>initial-select</span> and exactly one <span "
+"class='yyterm'>recursive-select</span> but more than one of each is allowed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_with.html:2563
+msgid ""
+"Call the table named by the <a "
+"href=\"syntax/cte-table-name.html\">cte-table-name</a> in a recursive common "
+"table expression the \"recursive table\".  In the <a "
+"href=\"syntax/recursive-cte.html\">recursive-cte</a> bubble diagram above, "
+"the recursive table must appear exactly once in the FROM clause of each "
+"top-level SELECT statement in the <span "
+"class='yyterm'>recursive-select</span> and must not appear anywhere else in "
+"either the <span class='yyterm'>initial-select</span> or the <span "
+"class='yyterm'>recursive-select</span>, including subqueries.  The <span "
+"class='yyterm'>initial-select</span> may be a <a "
+"href=\"lang_select.html#compound\">compound select</a>, but it may not "
+"include an ORDER BY, LIMIT, or OFFSET.  The <span "
+"class='yyterm'>recursive-select</span> may also be a <a "
+"href=\"lang_select.html#compound\">compound select</a> with the restriction "
+"that all elements of that compound must be separated by the same UNION or "
+"UNION ALL operator that separates <span class='yyterm'>initial-select</span> "
+"from <span class='yyterm'>recursive-select</span>.  The <span "
+"class='yyterm'>recursive-select</span> is allowed to include an ORDER BY, "
+"LIMIT, and/or OFFSET but may not use <a href=\"lang_aggfunc.html\">aggregate "
+"functions</a> or <a href=\"windowfunctions.html\">window functions</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_with.html:2581
+msgid ""
+"The ability for the <span class='yyterm'>recursive-select</span> to be a "
+"compound was added in <a href=\"releaselog/3_34_0.html\">version 3.34.0</a> "
+"(2020-12-01).  In earlier versions of SQLite, the <span "
+"class='yyterm'>recursive-select</span> could only be a single simple SELECT "
+"statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_with.html:2586
+msgid ""
+"The basic algorithm for computing the content of the recursive table is as "
+"follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/lang_with.html:2590
+msgid ""
+"Run the <span class='yyterm'>initial-select</span> and add the results to a "
+"queue."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/lang_with.html:2591
+msgid "While the queue is not empty:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ol><li>
+#: sedout/lang_with.html:2593
+msgid "Extract a single row from the queue."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ol><li>
+#: sedout/lang_with.html:2594
+msgid "Insert that single row into the recursive table"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ol><li>
+#: sedout/lang_with.html:2595
+msgid ""
+"Pretend that the single row just extracted is the only row in the recursive "
+"table and run the recursive-select, adding all results to the queue."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_with.html:2601
+msgid "The basic procedure above may modified by the following additional rules:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:2605
+msgid ""
+"If a UNION operator connects the <span class='yyterm'>initial-select</span> "
+"with the <span class='yyterm'>recursive-select</span>, then only add rows to "
+"the queue if no identical row has been previously added to the queue.  "
+"Repeated rows are discarded before being added to the queue even if the "
+"repeated rows have already been extracted from the queue by the recursion "
+"step.  If the operator is UNION ALL, then all rows generated by both the "
+"<span class='yyterm'>initial-select</span> and the <span "
+"class='yyterm'>recursive-select</span> are always added to the queue even if "
+"they are repeats.  When determining if a row is repeated, NULL values "
+"compare equal to one another and not equal to any other value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:2617
+msgid ""
+"The LIMIT clause, if present, determines the maximum number of rows that "
+"will ever be added to the recursive table in step 2b.  Once the limit is "
+"reached, the recursion stops.  A limit of zero means that no rows are ever "
+"added to the recursive table, and a negative limit means an unlimited number "
+"of rows may be added to the recursive table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:2624
+msgid ""
+"The OFFSET clause, if it is present and has a positive value N, prevents the "
+"first N rows from being added to the recursive table.  The first N rows are "
+"still processed by the <span class='yyterm'>recursive-select</span> &mdash; "
+"they just are not added to the recursive table.  Rows are not counted toward "
+"fulfilling the LIMIT until all OFFSET rows have been skipped."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:2631
+msgid ""
+"If an ORDER BY clause is present, it determines the order in which rows are "
+"extracted from the queue in step 2a.  If there is no ORDER BY clause, then "
+"the order in which rows are extracted is undefined.  (In the current "
+"implementation, the queue becomes a FIFO if the ORDER BY clause is omitted, "
+"but applications should not depend on that fact since it might change.)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_with.html:2638
+msgid "<a name=\"rcex1\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_with.html:2640
+msgid "<span>3.1. </span>Recursive Query Examples"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2642
+msgid "The following query returns all integers between 1 and 1000000:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2645
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  cnt(x) AS (VALUES(1) UNION ALL SELECT x+1 FROM cnt WHERE x&lt;1000000)\n"
+"SELECT x FROM cnt;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2650
+msgid ""
+"Consider how this query works.  The initial-select runs first and returns a "
+"single row with a single column \"1\".  This one row is added to the queue.  "
+"In step 2a, that one row is extracted from the queue and added to \"cnt\".  "
+"Then the recursive-select is run in accordance with step 2c generating a "
+"single new row with value \"2\" to add to the queue.  The queue still has "
+"one row, so step 2 repeats.  The \"2\" row is extracted and added to the "
+"recursive table by steps 2a and 2b.  Then the row containing 2 is used as if "
+"it were the complete content of the recursive table and the recursive-select "
+"is run again, resulting in a row with value \"3\" being added to the queue.  "
+"This repeats 999999 times until finally at step 2a the only value on the "
+"queue is a row containing 1000000.  That row is extracted and added to the "
+"recursive table.  But this time, the WHERE clause causes the "
+"recursive-select to return no rows, so the queue remains empty and the "
+"recursion stops."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2666
+msgid ""
+"<b>Optimization note:</b> In the discussion above, statements like \"insert "
+"the row into the recursive table\" should be understood conceptually, not "
+"literally.  It sounds as if SQLite is accumulating a huge table containing "
+"one million rows, then going back and scanning that table from top to bottom "
+"to generate the result.  What really happens is that the query optimizer "
+"sees that values in the \"cnt\" recursive table are only used once.  So as "
+"each row is added to the recursive table, that row is immediately returned "
+"as a result of the main SELECT statement and then discarded.  SQLite does "
+"<em>not</em> accumulate a temporary table containing a million rows.  Very "
+"little memory is needed to run the above example.  However, if the example "
+"had used UNION instead of UNION ALL, then SQLite would have had to keep "
+"around all previously generated content in order to check for duplicates.  "
+"For this reason, programmers should strive to use UNION ALL instead of UNION "
+"when feasible."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2683
+msgid "Here is a variation on the previous example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2686
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  cnt(x) AS (\n"
+"     SELECT 1\n"
+"     UNION ALL\n"
+"     SELECT x+1 FROM cnt\n"
+"      LIMIT 1000000\n"
+"  )\n"
+"SELECT x FROM cnt;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2696
+msgid ""
+"There are two differences in this variation.  The initial-select is \"SELECT "
+"1\" instead of \"VALUES(1)\".  But those are just different syntaxes for "
+"saying exactly the same thing.  The other change is that the recursion is "
+"stopped by a LIMIT rather than a WHERE clause.  The use of LIMIT means that "
+"when the one-millionth row is added to the \"cnt\" table (and returned by "
+"the main SELECT, thanks to the query optimizer)  then the recursion stops "
+"immediately regardless of how many rows might be left in the queue.  On more "
+"complex queries, it can sometimes be difficult to ensure that the WHERE "
+"clause will eventually cause the queue to drain and the recursion to "
+"terminate.  But the LIMIT clause will always stop the recursion.  So it is "
+"good practice to always include a LIMIT clause as a safety if an upper bound "
+"on the size of the recursion is known.  <a name=\"rcex2\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_with.html:2712
+msgid "<span>3.2. </span>Hierarchical Query Examples"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2714
+msgid ""
+"Consider a table that describes the members of an organization as well as "
+"the chain-of-command within that organization:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2718
+#, no-wrap
+msgid ""
+"CREATE TABLE org(\n"
+"  name TEXT PRIMARY KEY,\n"
+"  boss TEXT REFERENCES org,\n"
+"  height INT,\n"
+"  -- other content omitted\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2726
+msgid ""
+"Every member in the organization has a name, and most members have a single "
+"boss.  (The head of the whole organization has a NULL \"boss\" field.) The "
+"rows of the \"org\" table form a tree."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2730
+msgid ""
+"Here is a query that computes the average height over everyone in Alice's "
+"organization, including Alice:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2734
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  works_for_alice(n) AS (\n"
+"    VALUES('Alice')\n"
+"    UNION\n"
+"    SELECT name FROM org, works_for_alice\n"
+"     WHERE org.boss=works_for_alice.n\n"
+"  )\n"
+"SELECT avg(height) FROM org\n"
+" WHERE org.name IN works_for_alice;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2745
+msgid ""
+"The next example uses two common table expressions in a single WITH clause.  "
+"The following table records a family tree:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2750
+#, no-wrap
+msgid ""
+"CREATE TABLE family(\n"
+"  name TEXT PRIMARY KEY,\n"
+"  mom TEXT REFERENCES family,\n"
+"  dad TEXT REFERENCES family,\n"
+"  born DATETIME,\n"
+"  died DATETIME -- NULL if still alive\n"
+"  -- other content\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2760
+msgid ""
+"The \"family\" table is similar to the earlier \"org\" table except that now "
+"there are two parents to each member.  We want to know all living ancestors "
+"of Alice, from oldest to youngest.  An ordinary common table expression, "
+"\"parent_of\", is defined first.  That ordinary CTE is a view that can be "
+"used to find all parents of any individual.  That ordinary CTE is then used "
+"in the \"ancestor_of_alice\" recursive CTE.  The recursive CTE is then used "
+"in the final query:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2769
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  parent_of(name, parent) AS\n"
+"    (SELECT name, mom FROM family UNION SELECT name, dad FROM family),\n"
+"  ancestor_of_alice(name) AS\n"
+"    (SELECT parent FROM parent_of WHERE name='Alice'\n"
+"     UNION ALL\n"
+"     SELECT parent FROM parent_of JOIN ancestor_of_alice USING(name))\n"
+"SELECT family.name FROM ancestor_of_alice, family\n"
+" WHERE ancestor_of_alice.name=family.name\n"
+"   AND died IS NULL\n"
+" ORDER BY born;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_with.html:2782
+msgid "<a name=\"rcex3\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_with.html:2784
+msgid "<span>3.3. </span>Queries Against A Graph"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2786
+msgid ""
+"Suppose you have an undirected graph where each node is identified by an "
+"integer and edges are defined by a table like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2791
+#, no-wrap
+msgid ""
+"CREATE TABLE edge(aa INT, bb INT);\n"
+"CREATE INDEX edge_aa ON edge(aa);\n"
+"CREATE INDEX edge_bb ON edge(bb);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2796
+msgid ""
+"The indexes are not required, but they do help performance for large "
+"graphs.  To find all nodes of the graph that are connected to node 59, use a "
+"query similar to the following:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2802
+#, no-wrap
+msgid ""
+"WITH RECURSIVE nodes(x) AS (\n"
+"   SELECT 59\n"
+"   UNION\n"
+"   SELECT aa FROM edge JOIN nodes ON bb=x\n"
+"   UNION\n"
+"   SELECT bb FROM edge JOIN nodes ON aa=x\n"
+")\n"
+"SELECT x FROM nodes;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2813
+msgid ""
+"The <span class='yyterm'>initial-select</span> in this case is the simple "
+"query \"SELECT 59\".  This establishes the base case.  The <span "
+"class='yyterm'>recursive-select</span> consists of the other two SELECT "
+"statements.  The first recursive SELECT follows edges in the bb-to-aa "
+"direction and the second recursive SELECT follows edges in the aa-to-bb "
+"direction.  UNION is used instead of UNION ALL to prevent the recursion from "
+"entering an infinite loop if the graph contains cycles."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2823
+msgid ""
+"Here is a real-world example of using a graph query against a directed "
+"graph: A version control system (VCS) will typically store the evolving "
+"versions of a project as a directed acyclic graph (DAG).  Call each version "
+"of the project a \"checkin\".  A single checkin can have zero or more "
+"parents.  Most checkins (except the first) have a single parent, but in the "
+"case of a merge, a checkin might have two or three or more parents.  A "
+"schema to keep track of checkins and the order in which they occur might "
+"look something like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2835
+#, no-wrap
+msgid ""
+"CREATE TABLE checkin(\n"
+"  id INTEGER PRIMARY KEY,\n"
+"  mtime INTEGER -- timestamp when this checkin occurred\n"
+");\n"
+"CREATE TABLE derivedfrom(\n"
+"  xfrom INTEGER NOT NULL REFERENCES checkin, -- parent checkin\n"
+"  xto INTEGER NOT NULL REFERENCES checkin,   -- derived checkin\n"
+"  PRIMARY KEY(xfrom,xto)\n"
+");\n"
+"CREATE INDEX derivedfrom_back ON derivedfrom(xto,xfrom);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2847
+msgid ""
+"This graph is acyclic.  And we assume that the mtime of every child checkin "
+"is no less than the mtime of all its parents.  But unlike the earlier "
+"examples, this graph might have multiple paths of differing lengths between "
+"any two checkins."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2852
+msgid ""
+"We want to know the twenty most recent ancestors in time (out of the "
+"thousands and thousands of ancestors in the whole DAG) for checkin "
+"\"@BASELINE\".  (A query similar to this is used by the <a "
+"href=\"http://www.fossil-scm.org/\">Fossil</a> VCS to show the N most recent "
+"ancestors of a checkin.  For example: <a "
+"href=\"http://www.sqlite.org/src/timeline?p=trunk&n=30\">http://www.sqlite.org/src/timeline?p=trunk&n=30</a>.)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2860
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  ancestor(id,mtime) AS (\n"
+"    SELECT id, mtime FROM checkin WHERE id=@BASELINE\n"
+"    UNION\n"
+"    SELECT derivedfrom.xfrom, checkin.mtime\n"
+"      FROM ancestor, derivedfrom, checkin\n"
+"     WHERE ancestor.id=derivedfrom.xto\n"
+"       AND checkin.id=derivedfrom.xfrom\n"
+"     ORDER BY checkin.mtime DESC\n"
+"     LIMIT 20\n"
+"  )\n"
+"SELECT * FROM checkin JOIN ancestor USING(id);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2875
+msgid ""
+"The \"ORDER BY checkin.mtime DESC\" term in the recursive-select makes the "
+"query run much faster by preventing it from following branches that merge "
+"checkins from long ago.  The ORDER BY forces the recursive-select to focus "
+"on the most recent checkins, the ones we want.  Without the ORDER BY on the "
+"recursive-select, one would be forced to compute the complete set of "
+"thousands of ancestors, sort them all by mtime, then take the top twenty.  "
+"The ORDER BY essentially sets up a priority queue that forces the recursive "
+"query to look at the most recent ancestors first, allowing the use of a "
+"LIMIT clause to restrict the scope of the query to just the checkins of "
+"interest.  <a name=\"withorderby\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_with.html:2889
+msgid ""
+"<span>3.4. </span>Controlling Depth-First Versus Breadth-First Search Of a "
+"Tree Using ORDER BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2892
+msgid ""
+"An ORDER BY clause on the recursive-select can be used to control whether "
+"the search of a tree is depth-first or breadth-first.  To illustrate, we "
+"will use a variation on the \"org\" table from an example above, without the "
+"\"height\" column, and with some real data inserted:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2898
+#, no-wrap
+msgid ""
+"CREATE TABLE org(\n"
+"  name TEXT PRIMARY KEY,\n"
+"  boss TEXT REFERENCES org\n"
+") WITHOUT ROWID;\n"
+"INSERT INTO org VALUES('Alice',NULL);\n"
+"INSERT INTO org VALUES('Bob','Alice');\n"
+"INSERT INTO org VALUES('Cindy','Alice');\n"
+"INSERT INTO org VALUES('Dave','Bob');\n"
+"INSERT INTO org VALUES('Emma','Bob');\n"
+"INSERT INTO org VALUES('Fred','Cindy');\n"
+"INSERT INTO org VALUES('Gail','Cindy');\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2911
+msgid "Here is a query to show the tree structure in a breadth-first pattern:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2914
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  under_alice(name,level) AS (\n"
+"    VALUES('Alice',0)\n"
+"    UNION ALL\n"
+"    SELECT org.name, under_alice.level+1\n"
+"      FROM org JOIN under_alice ON org.boss=under_alice.name\n"
+"     ORDER BY 2\n"
+"  )\n"
+"SELECT substr('..........',1,level*3) || name FROM under_alice;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2925
+msgid ""
+"The \"ORDER BY 2\" (which means the same as \"ORDER BY "
+"under_alice.level+1\")  causes higher levels in the organization chart (with "
+"smaller \"level\" values)  to be processed first, resulting in a "
+"breadth-first search.  The output is:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2930
+#, no-wrap
+msgid ""
+"Alice\n"
+"...Bob\n"
+"...Cindy\n"
+"......Dave\n"
+"......Emma\n"
+"......Fred\n"
+"......Gail\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2939
+msgid ""
+"But if we change the ORDER BY clause to add the \"DESC\" modifier, that will "
+"cause lower levels in the organization (with larger \"level\" values) to be "
+"processed first by the recursive-select, resulting in a depth-first search:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2944
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  under_alice(name,level) AS (\n"
+"    VALUES('Alice',0)\n"
+"    UNION ALL\n"
+"    SELECT org.name, under_alice.level+1\n"
+"      FROM org JOIN under_alice ON org.boss=under_alice.name\n"
+"     ORDER BY 2 <b>DESC</b>\n"
+"  )\n"
+"SELECT substr('..........',1,level*3) || name FROM under_alice;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2955
+msgid "The output of this revised query is:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2958
+#, no-wrap
+msgid ""
+"Alice\n"
+"...Bob\n"
+"......Dave\n"
+"......Emma\n"
+"...Cindy\n"
+"......Fred\n"
+"......Gail\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2967
+msgid ""
+"When the ORDER BY clause is omitted from the recursive-select, the queue "
+"behaves as a FIFO, which results in a breadth-first search.  <a "
+"name=\"mandelbrot\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_with.html:2973
+msgid "<span>3.5. </span>Outlandish Recursive Query Examples"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2975
+msgid ""
+"The following query computes an approximation of the Mandelbrot Set and "
+"outputs the result as ASCII-art:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:2979
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  xaxis(x) AS (VALUES(-2.0) UNION ALL SELECT x+0.05 FROM xaxis WHERE "
+"x&lt;1.2),\n"
+"  yaxis(y) AS (VALUES(-1.0) UNION ALL SELECT y+0.1 FROM yaxis WHERE "
+"y&lt;1.0),\n"
+"  m(iter, cx, cy, x, y) AS (\n"
+"    SELECT 0, x, y, 0.0, 0.0 FROM xaxis, yaxis\n"
+"    UNION ALL\n"
+"    SELECT iter+1, cx, cy, x*x-y*y + cx, 2.0*x*y + cy FROM m \n"
+"     WHERE (x*x + y*y) &lt; 4.0 AND iter&lt;28\n"
+"  ),\n"
+"  m2(iter, cx, cy) AS (\n"
+"    SELECT max(iter), cx, cy FROM m GROUP BY cx, cy\n"
+"  ),\n"
+"  a(t) AS (\n"
+"    SELECT group_concat( substr(' .+*#', 1+min(iter/7,4), 1), '') \n"
+"    FROM m2 GROUP BY cy\n"
+"  )\n"
+"SELECT group_concat(rtrim(t),x'0a') FROM a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:2998
+msgid ""
+"In this query, the \"xaxis\" and \"yaxis\" CTEs define the grid of points "
+"for which the Mandelbrot Set will be approximated.  Each row in the "
+"\"m(iter,cx,cy,x,y)\" CTE means that after \"iter\" iterations, the "
+"Mandelbrot iteration starting at cx,cy has reached point x,y.  The number of "
+"iterations in this example is limited to 28 (which severely limits the "
+"resolution of the computation, but is sufficient for low-resolution "
+"ASCII-art output).  The \"m2(iter,cx,cy)\" CTE holds the maximum number of "
+"iterations reached when starting at point cx,cy.  Finally, each row in the "
+"\"a(t)\" CTE holds a string which is a single line of the output ASCII-art.  "
+"The SELECT statement at the end just queries the \"a\" CTE to retrieve all "
+"lines of ASCII-art, one by one."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3011
+msgid ""
+"Running the query above in an SQLite <a href=\"cli.html\">command-line "
+"shell</a> results in the following output:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:3015
+#, no-wrap
+msgid ""
+"                                    ....#\n"
+"                                   ..#*..\n"
+"                                 ..+####+.\n"
+"                            .......+####....   +\n"
+"                           ..##+*##########+.++++\n"
+"                          .+.##################+.\n"
+"              .............+###################+.+\n"
+"              ..++..#.....*#####################+.\n"
+"             ...+#######++#######################.\n"
+"          ....+*################################.\n"
+" #############################################...\n"
+"          ....+*################################.\n"
+"             ...+#######++#######################.\n"
+"              ..++..#.....*#####################+.\n"
+"              .............+###################+.+\n"
+"                          .+.##################+.\n"
+"                           ..##+*##########+.++++\n"
+"                            .......+####....   +\n"
+"                                 ..+####+.\n"
+"                                   ..#*..\n"
+"                                    ....#\n"
+"                                    +.\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_with.html:3039
+msgid "<a name=\"sudoku\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3041
+msgid ""
+"This next query solves a Sudoku puzzle.  The state of the puzzle is defined "
+"by an 81-character string formed by reading entries from the puzzle box row "
+"by row from left to right and then from top to bottom.  Blank squares in the "
+"puzzle are denoted by a \".\" character.  Thus the input string:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_with.html:3048
+msgid "53..7....6..195....98....6.8...6...34..8.3..17...2...6.6....28....419..5....8..79"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3051
+msgid "Corresponds to a puzzle like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3055 sedout/lang_with.html:3056
+#: sedout/lang_with.html:3062
+msgid "5"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3055 sedout/lang_with.html:3058
+#: sedout/lang_with.html:3059
+msgid "3"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3055 sedout/lang_with.html:3060
+#: sedout/lang_with.html:3063
+msgid "7"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3056 sedout/lang_with.html:3057
+#: sedout/lang_with.html:3058 sedout/lang_with.html:3060
+#: sedout/lang_with.html:3061
+msgid "6"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3056 sedout/lang_with.html:3059
+#: sedout/lang_with.html:3062
+msgid "1"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3056 sedout/lang_with.html:3057
+#: sedout/lang_with.html:3062 sedout/lang_with.html:3063
+msgid "9"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3057 sedout/lang_with.html:3058
+#: sedout/lang_with.html:3059 sedout/lang_with.html:3061
+#: sedout/lang_with.html:3063
+msgid "8"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3059 sedout/lang_with.html:3062
+msgid "4"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_with.html:3060 sedout/lang_with.html:3061
+msgid "2"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3067
+msgid "This is the query that solves the puzzle:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><pre>
+#: sedout/lang_with.html:3070
+#, no-wrap
+msgid ""
+"WITH RECURSIVE\n"
+"  input(sud) AS (\n"
+"    "
+"VALUES('53..7....6..195....98....6.8...6...34..8.3..17...2...6.6....28....419..5....8..79')\n"
+"  ),\n"
+"  digits(z, lp) AS (\n"
+"    VALUES('1', 1)\n"
+"    UNION ALL SELECT\n"
+"    CAST(lp+1 AS TEXT), lp+1 FROM digits WHERE lp&lt;9\n"
+"  ),\n"
+"  x(s, ind) AS (\n"
+"    SELECT sud, instr(sud, '.') FROM input\n"
+"    UNION ALL\n"
+"    SELECT\n"
+"      substr(s, 1, ind-1) || z || substr(s, ind+1),\n"
+"      instr( substr(s, 1, ind-1) || z || substr(s, ind+1), '.' )\n"
+"     FROM x, digits AS z\n"
+"    WHERE ind>0\n"
+"      AND NOT EXISTS (\n"
+"            SELECT 1\n"
+"              FROM digits AS lp\n"
+"             WHERE z.z = substr(s, ((ind-1)/9)*9 + lp, 1)\n"
+"                OR z.z = substr(s, ((ind-1)%9) + (lp-1)*9 + 1, 1)\n"
+"                OR z.z = substr(s, (((ind-1)/3) % 3) * 3\n"
+"                        + ((ind-1)/27) * 27 + lp\n"
+"                        + ((lp-1) / 3) * 6, 1)\n"
+"         )\n"
+"  )\n"
+"SELECT s FROM x WHERE ind=0;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3100
+msgid ""
+"The \"input\" CTE defines the input puzzle.  The \"digits\" CTE defines a "
+"table that holds all digits between 1 and 9.  The work of solving the puzzle "
+"is undertaken by the \"x\" CTE.  An entry in x(s,ind) means that the "
+"81-character string \"s\" is a valid sudoku puzzle (it has no conflicts) and "
+"that the first unknown character is at position \"ind\", or ind==0 if all "
+"character positions are filled in.  The goal, then, is to compute entries "
+"for \"x\" with an \"ind\" of 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3108
+msgid ""
+"The solver works by adding new entries to the \"x\" recursive table.  Given "
+"prior entries, the recursive-select tries to fill in a single new position "
+"with all values between 1 and 9 that actually work in that position.  The "
+"complicated \"NOT EXISTS\" subquery is the magic that figures out whether or "
+"not each candidate \"s\" string is a valid sudoku puzzle or not."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3115
+msgid ""
+"The final answer is found by looking for a string with ind==0.  If the "
+"original sudoku problem did not have a unique solution, then the query will "
+"return all possible solutions.  If the original problem was unsolvable, then "
+"no rows will be returned.  In this case, the unique answer is:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote>
+#: sedout/lang_with.html:3122
+msgid "534678912672195348198342567859761423426853791713924856961537284287419635345286179"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3125
+msgid ""
+"The solution was computed in less than 300 milliseconds on a modern "
+"workstation.  <a name=\"mathint\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_with.html:3130
+msgid "<span>4. </span>Materialization Hints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3133
+msgid ""
+"The \"AS MATERIALIZED\" and \"AS NOT MATERIALIZED\" forms of a common table "
+"expression are non-standard SQL syntax copied from PostgreSQL.  Using "
+"MATERIALIZED or NOT MATERIALIZED after the AS keyword provides non-binding "
+"hints to the query planner about how the CTE should be implemented."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3139
+msgid ""
+"If the MATERIALIZED phrase is used, then <span "
+"class='yynonterm'>select-stmt</span> is likely evaluated to generate an "
+"ephemeral table that is held in memory or a temporary disk file, to be used "
+"in place of the CTE table name whenever that table name appears in the "
+"subsequent SQL.  Because the <span class='yynonterm'>select-stmt</span> is "
+"evaluated immediately, the opportunity to apply optimizations such as <a "
+"href=\"optoverview.html#flattening\">query flattening</a> or the <a "
+"href=\"optoverview.html#pushdown\">push-down optimization</a>, is lost.  "
+"(The CTE then acts as an \"optimization fence\".)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3149
+msgid ""
+"If the NOT MATERIALIZED phrase is used, then <span "
+"class='yynonterm'>select-stmt</span> is substituted as a subquery in place "
+"of every occurrence of the CTE table name.  Optimizations such as <a "
+"href=\"optoverview.html#flattening\">flattening</a> and <a "
+"href=\"optoverview.html#pushdown\">push-down</a> are then applied to the "
+"subquery as if the subquery had by used in directly.  In spite of its name, "
+"the NOT MATERIALIZED phrase does not prohibit the use of materialization.  "
+"The query planner is still free to implement the subquery using "
+"materialization if it feels that is the best solution.  The true meaning of "
+"NOT MATERIALIZED is closer to \"TREAT LIKE ANY ORDINARY VIEW OR SUBQUERY\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3160
+msgid ""
+"If neither hint is present, then SQLite 3.35.0 (2021-03-12) and later "
+"process the CTE as if the MATERIALIZED phrase were present if the CTE is "
+"used more than once, or as if the NOT MATERIALIZED phrase were present if "
+"the CTE is used only once.  Prior to SQLite 3.35.0, all CTEs where treated "
+"as if the NOT MATERIALIZED phrase was present.  The decision of whether to "
+"treat a specific CTE as MATERIALIZED or as NOT MATERIALIZED based on the "
+"number of uses is a heuristic that is subject to change in future releases, "
+"if we come up with a better query planning strategy.  The difference is "
+"purely a matter of performance.  Equivalent answers should be computed "
+"either way."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3172
+msgid ""
+"Applications should not depend upon the semantic effects of this hint with "
+"respect to when or how often user-defined functions are called.  Future "
+"versions of the query planner may disregard this hint."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_with.html:3177
+msgid ""
+"The MATERIALIZED and NOT MATERIALIZED hints are only available in SQLite "
+"version 3.35.0 (2021-03-12) and later."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_with.html:3180
+msgid "<span>5. </span>Limitations And Caveats"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:3184
+msgid ""
+"The WITH clause cannot be used within a <a "
+"href=\"lang_createtrigger.html\">CREATE TRIGGER</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:3186
+msgid ""
+"The WITH clause must appear at the beginning of a top-level <a "
+"href=\"lang_select.html\">SELECT</a> statement or at the beginning of a "
+"subquery.  The WITH clause cannot be prepended to the second or subsequent "
+"SELECT statement of a <a href=\"lang_select.html#compound\">compound "
+"select</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_with.html:3190
+msgid ""
+"The SQL:1999 spec requires that the RECURSIVE keyword follow WITH in any "
+"WITH clause that includes a recursive common table expression.  However, for "
+"compatibility with SqlServer and Oracle, SQLite does not enforce this rule."
+msgstr ""

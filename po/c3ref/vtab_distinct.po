@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/vtab_distinct.html:6 sedout/c3ref/vtab_distinct.html:121
+msgid "Determine if a virtual table query is DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/vtab_distinct.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/vtab_distinct.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/vtab_distinct.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/vtab_distinct.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/vtab_distinct.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/vtab_distinct.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/vtab_distinct.html:22 sedout/c3ref/vtab_distinct.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/vtab_distinct.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/vtab_distinct.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/vtab_distinct.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/vtab_distinct.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/vtab_distinct.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/vtab_distinct.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/vtab_distinct.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/vtab_distinct.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/vtab_distinct.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/vtab_distinct.html:124
+#, no-wrap
+msgid "int sqlite3_vtab_distinct(sqlite3_index_info*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vtab_distinct.html:127
+msgid ""
+"This API may only be used from within an <a "
+"href=\"../vtab.html#xbestindex\">xBestIndex method</a> of a <a "
+"href=\"../vtab.html\">virtual table</a> implementation. The result of "
+"calling this interface from outside of xBestIndex() is undefined and "
+"probably harmful."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vtab_distinct.html:131
+msgid ""
+"The sqlite3_vtab_distinct() interface returns an integer between 0 and 3.  "
+"The integer returned by sqlite3_vtab_distinct()  gives the virtual table "
+"additional information about how the query planner wants the output to be "
+"ordered. As long as the virtual table can meet the ordering requirements of "
+"the query planner, it may set the \"orderByConsumed\" flag."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li>
+#: sedout/c3ref/vtab_distinct.html:139
+msgid ""
+"If the sqlite3_vtab_distinct() interface returns 0, that means that the "
+"query planner needs the virtual table to return all rows in the sort order "
+"defined by the \"nOrderBy\" and \"aOrderBy\" fields of the <a "
+"href=\"../c3ref/index_info.html\">sqlite3_index_info</a> object.  This is "
+"the default expectation.  If the virtual table outputs all rows in sorted "
+"order, then it is always safe for the xBestIndex method to set the "
+"\"orderByConsumed\" flag, regardless of the return value from "
+"sqlite3_vtab_distinct()."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li><li>
+#: sedout/c3ref/vtab_distinct.html:147
+msgid ""
+"If the sqlite3_vtab_distinct() interface returns 1, that means that the "
+"query planner does not need the rows to be returned in sorted order as long "
+"as all rows with the same values in all columns identified by the "
+"\"aOrderBy\" field are adjacent.  This mode is used when the query planner "
+"is doing a GROUP BY."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:153
+msgid ""
+"If the sqlite3_vtab_distinct() interface returns 2, that means that the "
+"query planner does not need the rows returned in any particular order, as "
+"long as rows with the same values in all \"aOrderBy\" columns are adjacent.  "
+"Furthermore, only a single row for each particular combination of values in "
+"the columns identified by the \"aOrderBy\" field needs to be returned.  It "
+"is always ok for two or more rows with the same values in all \"aOrderBy\" "
+"columns to be returned, as long as all such rows are adjacent.  The virtual "
+"table may, if it chooses, omit extra rows that have the same value for all "
+"columns identified by \"aOrderBy\".  However omitting the extra rows is "
+"optional.  This mode is used for a DISTINCT query."
+msgstr ""
+
+#. type: Content of: <html><body><ol><li><li><li><li>
+#: sedout/c3ref/vtab_distinct.html:165
+msgid ""
+"If the sqlite3_vtab_distinct() interface returns 3, that means that the "
+"query planner needs only distinct rows but it does need the rows to be "
+"sorted. The virtual table implementation is free to omit rows that are "
+"identical in all aOrderBy columns, if it wants to, but it is not required to "
+"omit any rows.  This mode is used for queries that have both DISTINCT and "
+"ORDER BY clauses."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vtab_distinct.html:173
+msgid ""
+"For the purposes of comparing virtual table output values to see if the "
+"values are same value for sorting purposes, two NULL values are considered "
+"to be the same.  In other words, the comparison operator is \"IS\" (or \"IS "
+"NOT DISTINCT FROM\") and not \"==\"."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vtab_distinct.html:178
+msgid ""
+"If a virtual table implementation is unable to meet the requirements "
+"specified above, then it must not set the \"orderByConsumed\" flag in the <a "
+"href=\"../c3ref/index_info.html\">sqlite3_index_info</a> object or an "
+"incorrect answer may result."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vtab_distinct.html:182
+msgid ""
+"A virtual table implementation is always free to return rows in any order it "
+"wants, as long as the \"orderByConsumed\" flag is not set.  When the the "
+"\"orderByConsumed\" flag is unset, the query planner will add extra <a "
+"href=\"../opcode.html\">bytecode</a> to ensure that the final results "
+"returned by the SQL query are ordered correctly.  The use of the "
+"\"orderByConsumed\" flag and the sqlite3_vtab_distinct() interface is merely "
+"an optimization.  Careful use of the sqlite3_vtab_distinct() interface and "
+"the \"orderByConsumed\" flag might help queries against a virtual table to "
+"run faster.  Being overly aggressive and setting the \"orderByConsumed\" "
+"flag when it is not valid to do so, on the other hand, might cause SQLite to "
+"return incorrect results."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vtab_distinct.html:193
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

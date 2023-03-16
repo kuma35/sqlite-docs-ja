@@ -1,0 +1,292 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:33+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/syntax/select-core.html:6
+msgid "SQLite Syntax: select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/syntax/select-core.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/syntax/select-core.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/syntax/select-core.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/syntax/select-core.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/syntax/select-core.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/syntax/select-core.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/syntax/select-core.html:22 sedout/syntax/select-core.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/syntax/select-core.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/syntax/select-core.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/syntax/select-core.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/syntax/select-core.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/syntax/select-core.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/syntax/select-core.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/syntax/select-core.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/syntax/select-core.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/syntax/select-core.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/syntax/select-core.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/syntax/select-core.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/syntax/select-core.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/syntax/select-core.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/syntax/select-core.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/syntax/select-core.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h1>
+#: sedout/syntax/select-core.html:118
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:125
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:129
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:133
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:135 sedout/syntax/select-core.html:158
+#: sedout/syntax/select-core.html:209 sedout/syntax/select-core.html:242
+#: sedout/syntax/select-core.html:282 sedout/syntax/select-core.html:284
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:143
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:150
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:154
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:156
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:176
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:180 sedout/syntax/select-core.html:199
+#: sedout/syntax/select-core.html:207 sedout/syntax/select-core.html:271
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:191
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:195
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:203
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:228
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:232
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:236
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:240
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:263
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:267
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><svg><text>
+#: sedout/syntax/select-core.html:275
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><br>
+#: sedout/syntax/select-core.html:296
+msgid ""
+"Used by:&nbsp;&nbsp; <a "
+"href='./compound-select-stmt.html'>compound-select-stmt</a>&nbsp;&nbsp; <a "
+"href='./factored-select-stmt.html'>factored-select-stmt</a>&nbsp;&nbsp; <a "
+"href='./simple-select-stmt.html'>simple-select-stmt</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><br>
+#: sedout/syntax/select-core.html:297
+msgid ""
+"References:&nbsp;&nbsp; <a href='./expr.html'>expr</a>&nbsp;&nbsp; <a "
+"href='./join-clause.html'>join-clause</a>&nbsp;&nbsp; <a "
+"href='./result-column.html'>result-column</a>&nbsp;&nbsp; <a "
+"href='./table-or-subquery.html'>table-or-subquery</a>&nbsp;&nbsp; <a "
+"href='./window-defn.html'>window-defn</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><br>
+#: sedout/syntax/select-core.html:298
+msgid "See also:&nbsp;&nbsp; <a href='../lang_select.html'>lang_select.html</a>"
+msgstr ""

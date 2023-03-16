@@ -1,0 +1,4210 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:12+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:6 sedout/lang_select.html:121
+#: sedout/lang_select.html:204 sedout/lang_select.html:2539
+#: sedout/lang_select.html:4468 sedout/lang_select.html:5501
+#: sedout/lang_select.html:6054 sedout/lang_select.html:6828
+#: sedout/lang_select.html:8757 sedout/lang_select.html:9832
+#: sedout/lang_select.html:10385 sedout/lang_select.html:11571
+#: sedout/lang_select.html:13500 sedout/lang_select.html:14575
+#: sedout/lang_select.html:15128
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_select.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_select.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_select.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_select.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_select.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_select.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_select.html:22 sedout/lang_select.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_select.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_select.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_select.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_select.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_select.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_select.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_select.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_select.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_select.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_select.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_select.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_select.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_select.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_select.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_select.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_select.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:129
+msgid "<a href=\"#simple_select_processing\">2. Simple Select Processing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:130
+msgid ""
+"<a "
+"href=\"#determination_of_input_data_from_clause_processing_\">2.1. "
+"Determination of input data (FROM clause processing)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:131
+msgid ""
+"<a href=\"#special_handling_of_cross_join_\">2.2. Special handling of CROSS "
+"JOIN.</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:132
+msgid "<a href=\"#where_clause_filtering_\">2.3. WHERE clause filtering.</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:133
+msgid ""
+"<a href=\"#generation_of_the_set_of_result_rows\">2.4. Generation of the set "
+"of result rows</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:134
+msgid ""
+"<a href=\"#bare_columns_in_an_aggregate_query\">2.5. Bare columns in an "
+"aggregate query</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:135
+msgid ""
+"<a href=\"#removal_of_duplicate_rows_distinct_processing_\">2.6. Removal of "
+"duplicate rows (DISTINCT processing)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:136
+msgid "<a href=\"#compound_select_statements\">3. Compound Select Statements</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:137
+msgid "<a href=\"#the_order_by_clause\">4. The ORDER BY clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:138
+msgid "<a href=\"#the_limit_clause\">5. The LIMIT clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:139
+msgid "<a href=\"#the_values_clause\">6. The VALUES clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:140
+msgid "<a href=\"#the_with_clause\">7. The WITH Clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:141
+msgid ""
+"<a href=\"#table_valued_functions_in_the_from_clause\">8. Table-valued "
+"Functions In The FROM Clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:142
+msgid ""
+"<a href=\"#deviations_from_standard_sql\">9. Deviations From Standard "
+"SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:143
+msgid "<a href=\"#strange_join_names\">9.1. Strange JOIN names</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_select.html:144
+msgid ""
+"<a href=\"#precedence_of_comma_joins_and_cross_join\">9.2. Precedence of "
+"comma-joins and CROSS JOIN</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_select.html:148
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_select.html:165
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_select.html:166
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xfd14e5b8' "
+"onclick='hideorshow(\"xfd14e5b8\",\"xa6210e6a\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:175 sedout/lang_select.html:2332
+#: sedout/lang_select.html:2510 sedout/lang_select.html:4439
+#: sedout/lang_select.html:6025 sedout/lang_select.html:6628
+#: sedout/lang_select.html:6799 sedout/lang_select.html:8728
+#: sedout/lang_select.html:10356 sedout/lang_select.html:11333
+#: sedout/lang_select.html:11542 sedout/lang_select.html:13471
+#: sedout/lang_select.html:15099
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:177 sedout/lang_select.html:2334
+#: sedout/lang_select.html:2512 sedout/lang_select.html:4441
+#: sedout/lang_select.html:6027 sedout/lang_select.html:6630
+#: sedout/lang_select.html:6801 sedout/lang_select.html:8730
+#: sedout/lang_select.html:10358 sedout/lang_select.html:11335
+#: sedout/lang_select.html:11544 sedout/lang_select.html:13473
+#: sedout/lang_select.html:15101
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:183 sedout/lang_select.html:2340
+#: sedout/lang_select.html:2518 sedout/lang_select.html:4447
+#: sedout/lang_select.html:6033 sedout/lang_select.html:6636
+#: sedout/lang_select.html:6807 sedout/lang_select.html:8736
+#: sedout/lang_select.html:10364 sedout/lang_select.html:11341
+#: sedout/lang_select.html:11550 sedout/lang_select.html:13479
+#: sedout/lang_select.html:15107
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:190 sedout/lang_select.html:214
+#: sedout/lang_select.html:237 sedout/lang_select.html:288
+#: sedout/lang_select.html:321 sedout/lang_select.html:358
+#: sedout/lang_select.html:360 sedout/lang_select.html:394
+#: sedout/lang_select.html:420 sedout/lang_select.html:493
+#: sedout/lang_select.html:672 sedout/lang_select.html:708
+#: sedout/lang_select.html:938 sedout/lang_select.html:975
+#: sedout/lang_select.html:1199 sedout/lang_select.html:1223
+#: sedout/lang_select.html:1490 sedout/lang_select.html:1546
+#: sedout/lang_select.html:1669 sedout/lang_select.html:1719
+#: sedout/lang_select.html:1943 sedout/lang_select.html:2005
+#: sedout/lang_select.html:2041 sedout/lang_select.html:2065
+#: sedout/lang_select.html:2347 sedout/lang_select.html:2384
+#: sedout/lang_select.html:2406 sedout/lang_select.html:2479
+#: sedout/lang_select.html:2525 sedout/lang_select.html:2549
+#: sedout/lang_select.html:2572 sedout/lang_select.html:2623
+#: sedout/lang_select.html:2656 sedout/lang_select.html:2693
+#: sedout/lang_select.html:2695 sedout/lang_select.html:2729
+#: sedout/lang_select.html:2755 sedout/lang_select.html:2839
+#: sedout/lang_select.html:2889 sedout/lang_select.html:3052
+#: sedout/lang_select.html:3114 sedout/lang_select.html:3150
+#: sedout/lang_select.html:3174 sedout/lang_select.html:3576
+#: sedout/lang_select.html:3612 sedout/lang_select.html:3842
+#: sedout/lang_select.html:3879 sedout/lang_select.html:4103
+#: sedout/lang_select.html:4127 sedout/lang_select.html:4394
+#: sedout/lang_select.html:4454 sedout/lang_select.html:4478
+#: sedout/lang_select.html:4501 sedout/lang_select.html:4552
+#: sedout/lang_select.html:4585 sedout/lang_select.html:4622
+#: sedout/lang_select.html:4624 sedout/lang_select.html:4658
+#: sedout/lang_select.html:4684 sedout/lang_select.html:4768
+#: sedout/lang_select.html:4818 sedout/lang_select.html:4981
+#: sedout/lang_select.html:5043 sedout/lang_select.html:5079
+#: sedout/lang_select.html:5103 sedout/lang_select.html:5368
+#: sedout/lang_select.html:5511 sedout/lang_select.html:5534
+#: sedout/lang_select.html:5585 sedout/lang_select.html:5618
+#: sedout/lang_select.html:5658 sedout/lang_select.html:5660
+#: sedout/lang_select.html:5730 sedout/lang_select.html:5780
+#: sedout/lang_select.html:5943 sedout/lang_select.html:6005
+#: sedout/lang_select.html:6040 sedout/lang_select.html:6064
+#: sedout/lang_select.html:6087 sedout/lang_select.html:6138
+#: sedout/lang_select.html:6171 sedout/lang_select.html:6208
+#: sedout/lang_select.html:6210 sedout/lang_select.html:6244
+#: sedout/lang_select.html:6270 sedout/lang_select.html:6321
+#: sedout/lang_select.html:6345 sedout/lang_select.html:6643
+#: sedout/lang_select.html:6671 sedout/lang_select.html:6695
+#: sedout/lang_select.html:6768 sedout/lang_select.html:6814
+#: sedout/lang_select.html:6838 sedout/lang_select.html:6861
+#: sedout/lang_select.html:6912 sedout/lang_select.html:6945
+#: sedout/lang_select.html:6982 sedout/lang_select.html:6984
+#: sedout/lang_select.html:7018 sedout/lang_select.html:7044
+#: sedout/lang_select.html:7170 sedout/lang_select.html:7220
+#: sedout/lang_select.html:7383 sedout/lang_select.html:7445
+#: sedout/lang_select.html:7481 sedout/lang_select.html:7505
+#: sedout/lang_select.html:7865 sedout/lang_select.html:7901
+#: sedout/lang_select.html:8131 sedout/lang_select.html:8168
+#: sedout/lang_select.html:8392 sedout/lang_select.html:8416
+#: sedout/lang_select.html:8683 sedout/lang_select.html:8743
+#: sedout/lang_select.html:8767 sedout/lang_select.html:8790
+#: sedout/lang_select.html:8841 sedout/lang_select.html:8874
+#: sedout/lang_select.html:8911 sedout/lang_select.html:8913
+#: sedout/lang_select.html:8947 sedout/lang_select.html:8973
+#: sedout/lang_select.html:9099 sedout/lang_select.html:9149
+#: sedout/lang_select.html:9312 sedout/lang_select.html:9374
+#: sedout/lang_select.html:9410 sedout/lang_select.html:9434
+#: sedout/lang_select.html:9699 sedout/lang_select.html:9842
+#: sedout/lang_select.html:9865 sedout/lang_select.html:9916
+#: sedout/lang_select.html:9949 sedout/lang_select.html:9989
+#: sedout/lang_select.html:9991 sedout/lang_select.html:10061
+#: sedout/lang_select.html:10111 sedout/lang_select.html:10274
+#: sedout/lang_select.html:10336 sedout/lang_select.html:10371
+#: sedout/lang_select.html:10395 sedout/lang_select.html:10418
+#: sedout/lang_select.html:10469 sedout/lang_select.html:10502
+#: sedout/lang_select.html:10539 sedout/lang_select.html:10541
+#: sedout/lang_select.html:10575 sedout/lang_select.html:10601
+#: sedout/lang_select.html:10694 sedout/lang_select.html:10718
+#: sedout/lang_select.html:11348 sedout/lang_select.html:11416
+#: sedout/lang_select.html:11438 sedout/lang_select.html:11511
+#: sedout/lang_select.html:11557 sedout/lang_select.html:11581
+#: sedout/lang_select.html:11604 sedout/lang_select.html:11655
+#: sedout/lang_select.html:11688 sedout/lang_select.html:11725
+#: sedout/lang_select.html:11727 sedout/lang_select.html:11761
+#: sedout/lang_select.html:11787 sedout/lang_select.html:11913
+#: sedout/lang_select.html:11963 sedout/lang_select.html:12126
+#: sedout/lang_select.html:12188 sedout/lang_select.html:12224
+#: sedout/lang_select.html:12248 sedout/lang_select.html:12608
+#: sedout/lang_select.html:12644 sedout/lang_select.html:12874
+#: sedout/lang_select.html:12911 sedout/lang_select.html:13135
+#: sedout/lang_select.html:13159 sedout/lang_select.html:13426
+#: sedout/lang_select.html:13486 sedout/lang_select.html:13510
+#: sedout/lang_select.html:13533 sedout/lang_select.html:13584
+#: sedout/lang_select.html:13617 sedout/lang_select.html:13654
+#: sedout/lang_select.html:13656 sedout/lang_select.html:13690
+#: sedout/lang_select.html:13716 sedout/lang_select.html:13842
+#: sedout/lang_select.html:13892 sedout/lang_select.html:14055
+#: sedout/lang_select.html:14117 sedout/lang_select.html:14153
+#: sedout/lang_select.html:14177 sedout/lang_select.html:14442
+#: sedout/lang_select.html:14585 sedout/lang_select.html:14608
+#: sedout/lang_select.html:14659 sedout/lang_select.html:14692
+#: sedout/lang_select.html:14732 sedout/lang_select.html:14734
+#: sedout/lang_select.html:14804 sedout/lang_select.html:14854
+#: sedout/lang_select.html:15017 sedout/lang_select.html:15079
+#: sedout/lang_select.html:15114 sedout/lang_select.html:15138
+#: sedout/lang_select.html:15161 sedout/lang_select.html:15212
+#: sedout/lang_select.html:15245 sedout/lang_select.html:15282
+#: sedout/lang_select.html:15284 sedout/lang_select.html:15318
+#: sedout/lang_select.html:15344 sedout/lang_select.html:15437
+#: sedout/lang_select.html:15461 sedout/lang_select.html:15973
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:208 sedout/lang_select.html:641
+#: sedout/lang_select.html:859 sedout/lang_select.html:2543
+#: sedout/lang_select.html:3545 sedout/lang_select.html:3763
+#: sedout/lang_select.html:4472 sedout/lang_select.html:5505
+#: sedout/lang_select.html:6058 sedout/lang_select.html:6832
+#: sedout/lang_select.html:7834 sedout/lang_select.html:8052
+#: sedout/lang_select.html:8761 sedout/lang_select.html:9836
+#: sedout/lang_select.html:10389 sedout/lang_select.html:11575
+#: sedout/lang_select.html:12577 sedout/lang_select.html:12795
+#: sedout/lang_select.html:13504 sedout/lang_select.html:14579
+#: sedout/lang_select.html:15132
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:212 sedout/lang_select.html:2547
+#: sedout/lang_select.html:4476 sedout/lang_select.html:5509
+#: sedout/lang_select.html:6062 sedout/lang_select.html:6836
+#: sedout/lang_select.html:8765 sedout/lang_select.html:9840
+#: sedout/lang_select.html:10393 sedout/lang_select.html:11579
+#: sedout/lang_select.html:13508 sedout/lang_select.html:14583
+#: sedout/lang_select.html:15136
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:222 sedout/lang_select.html:536
+#: sedout/lang_select.html:2557 sedout/lang_select.html:3440
+#: sedout/lang_select.html:4486 sedout/lang_select.html:5519
+#: sedout/lang_select.html:6072 sedout/lang_select.html:6846
+#: sedout/lang_select.html:7089 sedout/lang_select.html:8775
+#: sedout/lang_select.html:9018 sedout/lang_select.html:9850
+#: sedout/lang_select.html:10403 sedout/lang_select.html:10646
+#: sedout/lang_select.html:11380 sedout/lang_select.html:11589
+#: sedout/lang_select.html:11832 sedout/lang_select.html:13518
+#: sedout/lang_select.html:13761 sedout/lang_select.html:14593
+#: sedout/lang_select.html:15146 sedout/lang_select.html:15389
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:229 sedout/lang_select.html:863
+#: sedout/lang_select.html:2564 sedout/lang_select.html:3767
+#: sedout/lang_select.html:4493 sedout/lang_select.html:5526
+#: sedout/lang_select.html:6079 sedout/lang_select.html:6853
+#: sedout/lang_select.html:8056 sedout/lang_select.html:8782
+#: sedout/lang_select.html:9857 sedout/lang_select.html:10410
+#: sedout/lang_select.html:11596 sedout/lang_select.html:12799
+#: sedout/lang_select.html:13525 sedout/lang_select.html:14600
+#: sedout/lang_select.html:15153
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:233 sedout/lang_select.html:1618
+#: sedout/lang_select.html:1626 sedout/lang_select.html:1994
+#: sedout/lang_select.html:2568 sedout/lang_select.html:2788
+#: sedout/lang_select.html:2796 sedout/lang_select.html:3103
+#: sedout/lang_select.html:4497 sedout/lang_select.html:4717
+#: sedout/lang_select.html:4725 sedout/lang_select.html:5032
+#: sedout/lang_select.html:5530 sedout/lang_select.html:5679
+#: sedout/lang_select.html:5687 sedout/lang_select.html:5994
+#: sedout/lang_select.html:6083 sedout/lang_select.html:6857
+#: sedout/lang_select.html:7119 sedout/lang_select.html:7127
+#: sedout/lang_select.html:7434 sedout/lang_select.html:8786
+#: sedout/lang_select.html:9048 sedout/lang_select.html:9056
+#: sedout/lang_select.html:9363 sedout/lang_select.html:9861
+#: sedout/lang_select.html:10010 sedout/lang_select.html:10018
+#: sedout/lang_select.html:10325 sedout/lang_select.html:10414
+#: sedout/lang_select.html:11600 sedout/lang_select.html:11862
+#: sedout/lang_select.html:11870 sedout/lang_select.html:12177
+#: sedout/lang_select.html:13529 sedout/lang_select.html:13791
+#: sedout/lang_select.html:13799 sedout/lang_select.html:14106
+#: sedout/lang_select.html:14604 sedout/lang_select.html:14753
+#: sedout/lang_select.html:14761 sedout/lang_select.html:15068
+#: sedout/lang_select.html:15157
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:235 sedout/lang_select.html:2012
+#: sedout/lang_select.html:2570 sedout/lang_select.html:3121
+#: sedout/lang_select.html:4499 sedout/lang_select.html:5050
+#: sedout/lang_select.html:5532 sedout/lang_select.html:6012
+#: sedout/lang_select.html:6085 sedout/lang_select.html:6859
+#: sedout/lang_select.html:7452 sedout/lang_select.html:8788
+#: sedout/lang_select.html:9381 sedout/lang_select.html:9863
+#: sedout/lang_select.html:10343 sedout/lang_select.html:10416
+#: sedout/lang_select.html:11602 sedout/lang_select.html:12195
+#: sedout/lang_select.html:13531 sedout/lang_select.html:14124
+#: sedout/lang_select.html:14606 sedout/lang_select.html:15086
+#: sedout/lang_select.html:15159
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:255 sedout/lang_select.html:1081
+#: sedout/lang_select.html:2590 sedout/lang_select.html:3985
+#: sedout/lang_select.html:4519 sedout/lang_select.html:5552
+#: sedout/lang_select.html:6105 sedout/lang_select.html:6879
+#: sedout/lang_select.html:8274 sedout/lang_select.html:8808
+#: sedout/lang_select.html:9883 sedout/lang_select.html:10436
+#: sedout/lang_select.html:11622 sedout/lang_select.html:13017
+#: sedout/lang_select.html:13551 sedout/lang_select.html:14626
+#: sedout/lang_select.html:15179
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:259 sedout/lang_select.html:278
+#: sedout/lang_select.html:286 sedout/lang_select.html:349
+#: sedout/lang_select.html:388 sedout/lang_select.html:416
+#: sedout/lang_select.html:424 sedout/lang_select.html:611
+#: sedout/lang_select.html:618 sedout/lang_select.html:626
+#: sedout/lang_select.html:645 sedout/lang_select.html:697
+#: sedout/lang_select.html:721 sedout/lang_select.html:740
+#: sedout/lang_select.html:755 sedout/lang_select.html:771
+#: sedout/lang_select.html:773 sedout/lang_select.html:781
+#: sedout/lang_select.html:815 sedout/lang_select.html:845
+#: sedout/lang_select.html:867 sedout/lang_select.html:876
+#: sedout/lang_select.html:888 sedout/lang_select.html:896
+#: sedout/lang_select.html:904 sedout/lang_select.html:933
+#: sedout/lang_select.html:959 sedout/lang_select.html:1017
+#: sedout/lang_select.html:1025 sedout/lang_select.html:1033
+#: sedout/lang_select.html:1041 sedout/lang_select.html:1085
+#: sedout/lang_select.html:1197 sedout/lang_select.html:1320
+#: sedout/lang_select.html:1342 sedout/lang_select.html:1364
+#: sedout/lang_select.html:1377 sedout/lang_select.html:1397
+#: sedout/lang_select.html:1680 sedout/lang_select.html:1766
+#: sedout/lang_select.html:1827 sedout/lang_select.html:1935
+#: sedout/lang_select.html:2039 sedout/lang_select.html:2159
+#: sedout/lang_select.html:2181 sedout/lang_select.html:2203
+#: sedout/lang_select.html:2216 sedout/lang_select.html:2236
+#: sedout/lang_select.html:2364 sedout/lang_select.html:2402
+#: sedout/lang_select.html:2410 sedout/lang_select.html:2594
+#: sedout/lang_select.html:2613 sedout/lang_select.html:2621
+#: sedout/lang_select.html:2684 sedout/lang_select.html:2723
+#: sedout/lang_select.html:2751 sedout/lang_select.html:2759
+#: sedout/lang_select.html:2850 sedout/lang_select.html:2936
+#: sedout/lang_select.html:3044 sedout/lang_select.html:3148
+#: sedout/lang_select.html:3268 sedout/lang_select.html:3290
+#: sedout/lang_select.html:3312 sedout/lang_select.html:3325
+#: sedout/lang_select.html:3345 sedout/lang_select.html:3515
+#: sedout/lang_select.html:3522 sedout/lang_select.html:3530
+#: sedout/lang_select.html:3549 sedout/lang_select.html:3601
+#: sedout/lang_select.html:3625 sedout/lang_select.html:3644
+#: sedout/lang_select.html:3659 sedout/lang_select.html:3675
+#: sedout/lang_select.html:3677 sedout/lang_select.html:3685
+#: sedout/lang_select.html:3719 sedout/lang_select.html:3749
+#: sedout/lang_select.html:3771 sedout/lang_select.html:3780
+#: sedout/lang_select.html:3792 sedout/lang_select.html:3800
+#: sedout/lang_select.html:3808 sedout/lang_select.html:3837
+#: sedout/lang_select.html:3863 sedout/lang_select.html:3921
+#: sedout/lang_select.html:3929 sedout/lang_select.html:3937
+#: sedout/lang_select.html:3945 sedout/lang_select.html:3989
+#: sedout/lang_select.html:4101 sedout/lang_select.html:4224
+#: sedout/lang_select.html:4246 sedout/lang_select.html:4268
+#: sedout/lang_select.html:4281 sedout/lang_select.html:4301
+#: sedout/lang_select.html:4523 sedout/lang_select.html:4542
+#: sedout/lang_select.html:4550 sedout/lang_select.html:4613
+#: sedout/lang_select.html:4652 sedout/lang_select.html:4680
+#: sedout/lang_select.html:4688 sedout/lang_select.html:4779
+#: sedout/lang_select.html:4865 sedout/lang_select.html:4973
+#: sedout/lang_select.html:5077 sedout/lang_select.html:5197
+#: sedout/lang_select.html:5219 sedout/lang_select.html:5241
+#: sedout/lang_select.html:5254 sedout/lang_select.html:5274
+#: sedout/lang_select.html:5440 sedout/lang_select.html:5556
+#: sedout/lang_select.html:5575 sedout/lang_select.html:5583
+#: sedout/lang_select.html:5647 sedout/lang_select.html:5741
+#: sedout/lang_select.html:5827 sedout/lang_select.html:5935
+#: sedout/lang_select.html:6109 sedout/lang_select.html:6128
+#: sedout/lang_select.html:6136 sedout/lang_select.html:6199
+#: sedout/lang_select.html:6238 sedout/lang_select.html:6266
+#: sedout/lang_select.html:6274 sedout/lang_select.html:6319
+#: sedout/lang_select.html:6439 sedout/lang_select.html:6461
+#: sedout/lang_select.html:6483 sedout/lang_select.html:6496
+#: sedout/lang_select.html:6516 sedout/lang_select.html:6660
+#: sedout/lang_select.html:6691 sedout/lang_select.html:6699
+#: sedout/lang_select.html:6883 sedout/lang_select.html:6902
+#: sedout/lang_select.html:6910 sedout/lang_select.html:6973
+#: sedout/lang_select.html:7012 sedout/lang_select.html:7040
+#: sedout/lang_select.html:7048 sedout/lang_select.html:7181
+#: sedout/lang_select.html:7267 sedout/lang_select.html:7375
+#: sedout/lang_select.html:7479 sedout/lang_select.html:7599
+#: sedout/lang_select.html:7621 sedout/lang_select.html:7643
+#: sedout/lang_select.html:7656 sedout/lang_select.html:7676
+#: sedout/lang_select.html:7804 sedout/lang_select.html:7811
+#: sedout/lang_select.html:7819 sedout/lang_select.html:7838
+#: sedout/lang_select.html:7890 sedout/lang_select.html:7914
+#: sedout/lang_select.html:7933 sedout/lang_select.html:7948
+#: sedout/lang_select.html:7964 sedout/lang_select.html:7966
+#: sedout/lang_select.html:7974 sedout/lang_select.html:8008
+#: sedout/lang_select.html:8038 sedout/lang_select.html:8060
+#: sedout/lang_select.html:8069 sedout/lang_select.html:8081
+#: sedout/lang_select.html:8089 sedout/lang_select.html:8097
+#: sedout/lang_select.html:8126 sedout/lang_select.html:8152
+#: sedout/lang_select.html:8210 sedout/lang_select.html:8218
+#: sedout/lang_select.html:8226 sedout/lang_select.html:8234
+#: sedout/lang_select.html:8278 sedout/lang_select.html:8390
+#: sedout/lang_select.html:8513 sedout/lang_select.html:8535
+#: sedout/lang_select.html:8557 sedout/lang_select.html:8570
+#: sedout/lang_select.html:8590 sedout/lang_select.html:8812
+#: sedout/lang_select.html:8831 sedout/lang_select.html:8839
+#: sedout/lang_select.html:8902 sedout/lang_select.html:8941
+#: sedout/lang_select.html:8969 sedout/lang_select.html:8977
+#: sedout/lang_select.html:9110 sedout/lang_select.html:9196
+#: sedout/lang_select.html:9304 sedout/lang_select.html:9408
+#: sedout/lang_select.html:9528 sedout/lang_select.html:9550
+#: sedout/lang_select.html:9572 sedout/lang_select.html:9585
+#: sedout/lang_select.html:9605 sedout/lang_select.html:9771
+#: sedout/lang_select.html:9887 sedout/lang_select.html:9906
+#: sedout/lang_select.html:9914 sedout/lang_select.html:9978
+#: sedout/lang_select.html:10072 sedout/lang_select.html:10158
+#: sedout/lang_select.html:10266 sedout/lang_select.html:10440
+#: sedout/lang_select.html:10459 sedout/lang_select.html:10467
+#: sedout/lang_select.html:10530 sedout/lang_select.html:10569
+#: sedout/lang_select.html:10597 sedout/lang_select.html:10605
+#: sedout/lang_select.html:10692 sedout/lang_select.html:10812
+#: sedout/lang_select.html:10834 sedout/lang_select.html:10856
+#: sedout/lang_select.html:10869 sedout/lang_select.html:10889
+#: sedout/lang_select.html:11365 sedout/lang_select.html:11434
+#: sedout/lang_select.html:11442 sedout/lang_select.html:11626
+#: sedout/lang_select.html:11645 sedout/lang_select.html:11653
+#: sedout/lang_select.html:11716 sedout/lang_select.html:11755
+#: sedout/lang_select.html:11783 sedout/lang_select.html:11791
+#: sedout/lang_select.html:11924 sedout/lang_select.html:12010
+#: sedout/lang_select.html:12118 sedout/lang_select.html:12222
+#: sedout/lang_select.html:12342 sedout/lang_select.html:12364
+#: sedout/lang_select.html:12386 sedout/lang_select.html:12399
+#: sedout/lang_select.html:12419 sedout/lang_select.html:12547
+#: sedout/lang_select.html:12554 sedout/lang_select.html:12562
+#: sedout/lang_select.html:12581 sedout/lang_select.html:12633
+#: sedout/lang_select.html:12657 sedout/lang_select.html:12676
+#: sedout/lang_select.html:12691 sedout/lang_select.html:12707
+#: sedout/lang_select.html:12709 sedout/lang_select.html:12717
+#: sedout/lang_select.html:12751 sedout/lang_select.html:12781
+#: sedout/lang_select.html:12803 sedout/lang_select.html:12812
+#: sedout/lang_select.html:12824 sedout/lang_select.html:12832
+#: sedout/lang_select.html:12840 sedout/lang_select.html:12869
+#: sedout/lang_select.html:12895 sedout/lang_select.html:12953
+#: sedout/lang_select.html:12961 sedout/lang_select.html:12969
+#: sedout/lang_select.html:12977 sedout/lang_select.html:13021
+#: sedout/lang_select.html:13133 sedout/lang_select.html:13256
+#: sedout/lang_select.html:13278 sedout/lang_select.html:13300
+#: sedout/lang_select.html:13313 sedout/lang_select.html:13333
+#: sedout/lang_select.html:13555 sedout/lang_select.html:13574
+#: sedout/lang_select.html:13582 sedout/lang_select.html:13645
+#: sedout/lang_select.html:13684 sedout/lang_select.html:13712
+#: sedout/lang_select.html:13720 sedout/lang_select.html:13853
+#: sedout/lang_select.html:13939 sedout/lang_select.html:14047
+#: sedout/lang_select.html:14151 sedout/lang_select.html:14271
+#: sedout/lang_select.html:14293 sedout/lang_select.html:14315
+#: sedout/lang_select.html:14328 sedout/lang_select.html:14348
+#: sedout/lang_select.html:14514 sedout/lang_select.html:14630
+#: sedout/lang_select.html:14649 sedout/lang_select.html:14657
+#: sedout/lang_select.html:14721 sedout/lang_select.html:14815
+#: sedout/lang_select.html:14901 sedout/lang_select.html:15009
+#: sedout/lang_select.html:15183 sedout/lang_select.html:15202
+#: sedout/lang_select.html:15210 sedout/lang_select.html:15273
+#: sedout/lang_select.html:15312 sedout/lang_select.html:15340
+#: sedout/lang_select.html:15348 sedout/lang_select.html:15435
+#: sedout/lang_select.html:15555 sedout/lang_select.html:15577
+#: sedout/lang_select.html:15599 sedout/lang_select.html:15612
+#: sedout/lang_select.html:15632
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:270 sedout/lang_select.html:1425
+#: sedout/lang_select.html:2264 sedout/lang_select.html:2605
+#: sedout/lang_select.html:3373 sedout/lang_select.html:4329
+#: sedout/lang_select.html:4534 sedout/lang_select.html:5302
+#: sedout/lang_select.html:5567 sedout/lang_select.html:6120
+#: sedout/lang_select.html:6544 sedout/lang_select.html:6894
+#: sedout/lang_select.html:7704 sedout/lang_select.html:8618
+#: sedout/lang_select.html:8823 sedout/lang_select.html:9633
+#: sedout/lang_select.html:9898 sedout/lang_select.html:10451
+#: sedout/lang_select.html:10917 sedout/lang_select.html:11637
+#: sedout/lang_select.html:12447 sedout/lang_select.html:13361
+#: sedout/lang_select.html:13566 sedout/lang_select.html:14376
+#: sedout/lang_select.html:14641 sedout/lang_select.html:15194
+#: sedout/lang_select.html:15660
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:274 sedout/lang_select.html:382
+#: sedout/lang_select.html:1193 sedout/lang_select.html:1217
+#: sedout/lang_select.html:1907 sedout/lang_select.html:2035
+#: sedout/lang_select.html:2059 sedout/lang_select.html:2358
+#: sedout/lang_select.html:2609 sedout/lang_select.html:2717
+#: sedout/lang_select.html:3016 sedout/lang_select.html:3144
+#: sedout/lang_select.html:3168 sedout/lang_select.html:4097
+#: sedout/lang_select.html:4121 sedout/lang_select.html:4538
+#: sedout/lang_select.html:4646 sedout/lang_select.html:4945
+#: sedout/lang_select.html:5073 sedout/lang_select.html:5097
+#: sedout/lang_select.html:5571 sedout/lang_select.html:5907
+#: sedout/lang_select.html:6124 sedout/lang_select.html:6232
+#: sedout/lang_select.html:6315 sedout/lang_select.html:6339
+#: sedout/lang_select.html:6654 sedout/lang_select.html:6898
+#: sedout/lang_select.html:7006 sedout/lang_select.html:7347
+#: sedout/lang_select.html:7475 sedout/lang_select.html:7499
+#: sedout/lang_select.html:8386 sedout/lang_select.html:8410
+#: sedout/lang_select.html:8827 sedout/lang_select.html:8935
+#: sedout/lang_select.html:9276 sedout/lang_select.html:9404
+#: sedout/lang_select.html:9428 sedout/lang_select.html:9902
+#: sedout/lang_select.html:10238 sedout/lang_select.html:10455
+#: sedout/lang_select.html:10563 sedout/lang_select.html:10688
+#: sedout/lang_select.html:10712 sedout/lang_select.html:11359
+#: sedout/lang_select.html:11641 sedout/lang_select.html:11749
+#: sedout/lang_select.html:12090 sedout/lang_select.html:12218
+#: sedout/lang_select.html:12242 sedout/lang_select.html:13129
+#: sedout/lang_select.html:13153 sedout/lang_select.html:13570
+#: sedout/lang_select.html:13678 sedout/lang_select.html:14019
+#: sedout/lang_select.html:14147 sedout/lang_select.html:14171
+#: sedout/lang_select.html:14645 sedout/lang_select.html:14981
+#: sedout/lang_select.html:15198 sedout/lang_select.html:15306
+#: sedout/lang_select.html:15431 sedout/lang_select.html:15455
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:282 sedout/lang_select.html:2617
+#: sedout/lang_select.html:4546 sedout/lang_select.html:5579
+#: sedout/lang_select.html:6132 sedout/lang_select.html:6906
+#: sedout/lang_select.html:8835 sedout/lang_select.html:9910
+#: sedout/lang_select.html:10463 sedout/lang_select.html:11649
+#: sedout/lang_select.html:13578 sedout/lang_select.html:14653
+#: sedout/lang_select.html:15206
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:307 sedout/lang_select.html:2642
+#: sedout/lang_select.html:4571 sedout/lang_select.html:5604
+#: sedout/lang_select.html:6157 sedout/lang_select.html:6931
+#: sedout/lang_select.html:8860 sedout/lang_select.html:9935
+#: sedout/lang_select.html:10488 sedout/lang_select.html:11674
+#: sedout/lang_select.html:13603 sedout/lang_select.html:14678
+#: sedout/lang_select.html:15231
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:311 sedout/lang_select.html:1179
+#: sedout/lang_select.html:2646 sedout/lang_select.html:4083
+#: sedout/lang_select.html:4575 sedout/lang_select.html:5608
+#: sedout/lang_select.html:6161 sedout/lang_select.html:6935
+#: sedout/lang_select.html:8372 sedout/lang_select.html:8864
+#: sedout/lang_select.html:9939 sedout/lang_select.html:10492
+#: sedout/lang_select.html:11678 sedout/lang_select.html:13115
+#: sedout/lang_select.html:13607 sedout/lang_select.html:14682
+#: sedout/lang_select.html:15235
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:315 sedout/lang_select.html:473
+#: sedout/lang_select.html:725 sedout/lang_select.html:1831
+#: sedout/lang_select.html:1892 sedout/lang_select.html:1956
+#: sedout/lang_select.html:2459 sedout/lang_select.html:2650
+#: sedout/lang_select.html:2940 sedout/lang_select.html:3001
+#: sedout/lang_select.html:3065 sedout/lang_select.html:3629
+#: sedout/lang_select.html:4579 sedout/lang_select.html:4869
+#: sedout/lang_select.html:4930 sedout/lang_select.html:4994
+#: sedout/lang_select.html:5612 sedout/lang_select.html:5831
+#: sedout/lang_select.html:5892 sedout/lang_select.html:5956
+#: sedout/lang_select.html:6165 sedout/lang_select.html:6748
+#: sedout/lang_select.html:6939 sedout/lang_select.html:7271
+#: sedout/lang_select.html:7332 sedout/lang_select.html:7396
+#: sedout/lang_select.html:7918 sedout/lang_select.html:8868
+#: sedout/lang_select.html:9200 sedout/lang_select.html:9261
+#: sedout/lang_select.html:9325 sedout/lang_select.html:9943
+#: sedout/lang_select.html:10162 sedout/lang_select.html:10223
+#: sedout/lang_select.html:10287 sedout/lang_select.html:10496
+#: sedout/lang_select.html:11491 sedout/lang_select.html:11682
+#: sedout/lang_select.html:12014 sedout/lang_select.html:12075
+#: sedout/lang_select.html:12139 sedout/lang_select.html:12661
+#: sedout/lang_select.html:13611 sedout/lang_select.html:13943
+#: sedout/lang_select.html:14004 sedout/lang_select.html:14068
+#: sedout/lang_select.html:14686 sedout/lang_select.html:14905
+#: sedout/lang_select.html:14966 sedout/lang_select.html:15030
+#: sedout/lang_select.html:15239
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:319 sedout/lang_select.html:2654
+#: sedout/lang_select.html:4583 sedout/lang_select.html:5616
+#: sedout/lang_select.html:6169 sedout/lang_select.html:6943
+#: sedout/lang_select.html:8872 sedout/lang_select.html:9947
+#: sedout/lang_select.html:10500 sedout/lang_select.html:11686
+#: sedout/lang_select.html:13615 sedout/lang_select.html:14690
+#: sedout/lang_select.html:15243
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:341 sedout/lang_select.html:2676
+#: sedout/lang_select.html:4605 sedout/lang_select.html:5639
+#: sedout/lang_select.html:6191 sedout/lang_select.html:6965
+#: sedout/lang_select.html:8894 sedout/lang_select.html:9970
+#: sedout/lang_select.html:10522 sedout/lang_select.html:11708
+#: sedout/lang_select.html:13637 sedout/lang_select.html:14713
+#: sedout/lang_select.html:15265
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:345 sedout/lang_select.html:459
+#: sedout/lang_select.html:480 sedout/lang_select.html:637
+#: sedout/lang_select.html:693 sedout/lang_select.html:717
+#: sedout/lang_select.html:916 sedout/lang_select.html:955
+#: sedout/lang_select.html:994 sedout/lang_select.html:1077
+#: sedout/lang_select.html:1183 sedout/lang_select.html:1482
+#: sedout/lang_select.html:1538 sedout/lang_select.html:1561
+#: sedout/lang_select.html:1654 sedout/lang_select.html:1931
+#: sedout/lang_select.html:1972 sedout/lang_select.html:1990
+#: sedout/lang_select.html:2025 sedout/lang_select.html:2445
+#: sedout/lang_select.html:2466 sedout/lang_select.html:2680
+#: sedout/lang_select.html:2824 sedout/lang_select.html:3040
+#: sedout/lang_select.html:3081 sedout/lang_select.html:3099
+#: sedout/lang_select.html:3134 sedout/lang_select.html:3541
+#: sedout/lang_select.html:3597 sedout/lang_select.html:3621
+#: sedout/lang_select.html:3820 sedout/lang_select.html:3859
+#: sedout/lang_select.html:3898 sedout/lang_select.html:3981
+#: sedout/lang_select.html:4087 sedout/lang_select.html:4386
+#: sedout/lang_select.html:4609 sedout/lang_select.html:4753
+#: sedout/lang_select.html:4969 sedout/lang_select.html:5010
+#: sedout/lang_select.html:5028 sedout/lang_select.html:5063
+#: sedout/lang_select.html:5360 sedout/lang_select.html:5383
+#: sedout/lang_select.html:5643 sedout/lang_select.html:5715
+#: sedout/lang_select.html:5931 sedout/lang_select.html:5972
+#: sedout/lang_select.html:5990 sedout/lang_select.html:6195
+#: sedout/lang_select.html:6305 sedout/lang_select.html:6734
+#: sedout/lang_select.html:6755 sedout/lang_select.html:6969
+#: sedout/lang_select.html:7155 sedout/lang_select.html:7371
+#: sedout/lang_select.html:7412 sedout/lang_select.html:7430
+#: sedout/lang_select.html:7465 sedout/lang_select.html:7830
+#: sedout/lang_select.html:7886 sedout/lang_select.html:7910
+#: sedout/lang_select.html:8109 sedout/lang_select.html:8148
+#: sedout/lang_select.html:8187 sedout/lang_select.html:8270
+#: sedout/lang_select.html:8376 sedout/lang_select.html:8675
+#: sedout/lang_select.html:8898 sedout/lang_select.html:9084
+#: sedout/lang_select.html:9300 sedout/lang_select.html:9341
+#: sedout/lang_select.html:9359 sedout/lang_select.html:9394
+#: sedout/lang_select.html:9691 sedout/lang_select.html:9714
+#: sedout/lang_select.html:9974 sedout/lang_select.html:10046
+#: sedout/lang_select.html:10262 sedout/lang_select.html:10303
+#: sedout/lang_select.html:10321 sedout/lang_select.html:10526
+#: sedout/lang_select.html:10678 sedout/lang_select.html:11477
+#: sedout/lang_select.html:11498 sedout/lang_select.html:11712
+#: sedout/lang_select.html:11898 sedout/lang_select.html:12114
+#: sedout/lang_select.html:12155 sedout/lang_select.html:12173
+#: sedout/lang_select.html:12208 sedout/lang_select.html:12573
+#: sedout/lang_select.html:12629 sedout/lang_select.html:12653
+#: sedout/lang_select.html:12852 sedout/lang_select.html:12891
+#: sedout/lang_select.html:12930 sedout/lang_select.html:13013
+#: sedout/lang_select.html:13119 sedout/lang_select.html:13418
+#: sedout/lang_select.html:13641 sedout/lang_select.html:13827
+#: sedout/lang_select.html:14043 sedout/lang_select.html:14084
+#: sedout/lang_select.html:14102 sedout/lang_select.html:14137
+#: sedout/lang_select.html:14434 sedout/lang_select.html:14457
+#: sedout/lang_select.html:14717 sedout/lang_select.html:14789
+#: sedout/lang_select.html:15005 sedout/lang_select.html:15046
+#: sedout/lang_select.html:15064 sedout/lang_select.html:15269
+#: sedout/lang_select.html:15421
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:353 sedout/lang_select.html:469
+#: sedout/lang_select.html:488 sedout/lang_select.html:649
+#: sedout/lang_select.html:701 sedout/lang_select.html:733
+#: sedout/lang_select.html:924 sedout/lang_select.html:963
+#: sedout/lang_select.html:1002 sedout/lang_select.html:1089
+#: sedout/lang_select.html:1239 sedout/lang_select.html:1498
+#: sedout/lang_select.html:1554 sedout/lang_select.html:1569
+#: sedout/lang_select.html:1662 sedout/lang_select.html:1939
+#: sedout/lang_select.html:1980 sedout/lang_select.html:1998
+#: sedout/lang_select.html:2081 sedout/lang_select.html:2455
+#: sedout/lang_select.html:2474 sedout/lang_select.html:2688
+#: sedout/lang_select.html:2832 sedout/lang_select.html:3048
+#: sedout/lang_select.html:3089 sedout/lang_select.html:3107
+#: sedout/lang_select.html:3190 sedout/lang_select.html:3553
+#: sedout/lang_select.html:3605 sedout/lang_select.html:3637
+#: sedout/lang_select.html:3828 sedout/lang_select.html:3867
+#: sedout/lang_select.html:3906 sedout/lang_select.html:3993
+#: sedout/lang_select.html:4143 sedout/lang_select.html:4402
+#: sedout/lang_select.html:4617 sedout/lang_select.html:4761
+#: sedout/lang_select.html:4977 sedout/lang_select.html:5018
+#: sedout/lang_select.html:5036 sedout/lang_select.html:5119
+#: sedout/lang_select.html:5376 sedout/lang_select.html:5391
+#: sedout/lang_select.html:5651 sedout/lang_select.html:5723
+#: sedout/lang_select.html:5939 sedout/lang_select.html:5980
+#: sedout/lang_select.html:5998 sedout/lang_select.html:6203
+#: sedout/lang_select.html:6361 sedout/lang_select.html:6744
+#: sedout/lang_select.html:6763 sedout/lang_select.html:6977
+#: sedout/lang_select.html:7163 sedout/lang_select.html:7379
+#: sedout/lang_select.html:7420 sedout/lang_select.html:7438
+#: sedout/lang_select.html:7521 sedout/lang_select.html:7842
+#: sedout/lang_select.html:7894 sedout/lang_select.html:7926
+#: sedout/lang_select.html:8117 sedout/lang_select.html:8156
+#: sedout/lang_select.html:8195 sedout/lang_select.html:8282
+#: sedout/lang_select.html:8432 sedout/lang_select.html:8691
+#: sedout/lang_select.html:8906 sedout/lang_select.html:9092
+#: sedout/lang_select.html:9308 sedout/lang_select.html:9349
+#: sedout/lang_select.html:9367 sedout/lang_select.html:9450
+#: sedout/lang_select.html:9707 sedout/lang_select.html:9722
+#: sedout/lang_select.html:9982 sedout/lang_select.html:10054
+#: sedout/lang_select.html:10270 sedout/lang_select.html:10311
+#: sedout/lang_select.html:10329 sedout/lang_select.html:10534
+#: sedout/lang_select.html:10734 sedout/lang_select.html:11487
+#: sedout/lang_select.html:11506 sedout/lang_select.html:11720
+#: sedout/lang_select.html:11906 sedout/lang_select.html:12122
+#: sedout/lang_select.html:12163 sedout/lang_select.html:12181
+#: sedout/lang_select.html:12264 sedout/lang_select.html:12585
+#: sedout/lang_select.html:12637 sedout/lang_select.html:12669
+#: sedout/lang_select.html:12860 sedout/lang_select.html:12899
+#: sedout/lang_select.html:12938 sedout/lang_select.html:13025
+#: sedout/lang_select.html:13175 sedout/lang_select.html:13434
+#: sedout/lang_select.html:13649 sedout/lang_select.html:13835
+#: sedout/lang_select.html:14051 sedout/lang_select.html:14092
+#: sedout/lang_select.html:14110 sedout/lang_select.html:14193
+#: sedout/lang_select.html:14450 sedout/lang_select.html:14465
+#: sedout/lang_select.html:14725 sedout/lang_select.html:14797
+#: sedout/lang_select.html:15013 sedout/lang_select.html:15054
+#: sedout/lang_select.html:15072 sedout/lang_select.html:15277
+#: sedout/lang_select.html:15477
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:370 sedout/lang_select.html:2371
+#: sedout/lang_select.html:2705 sedout/lang_select.html:4634
+#: sedout/lang_select.html:6220 sedout/lang_select.html:6994
+#: sedout/lang_select.html:8923 sedout/lang_select.html:10551
+#: sedout/lang_select.html:11737 sedout/lang_select.html:13666
+#: sedout/lang_select.html:15294
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:376 sedout/lang_select.html:2352
+#: sedout/lang_select.html:2711 sedout/lang_select.html:4640
+#: sedout/lang_select.html:6226 sedout/lang_select.html:6648
+#: sedout/lang_select.html:7000 sedout/lang_select.html:8929
+#: sedout/lang_select.html:10557 sedout/lang_select.html:11353
+#: sedout/lang_select.html:11386 sedout/lang_select.html:11743
+#: sedout/lang_select.html:13672 sedout/lang_select.html:15300
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:378 sedout/lang_select.html:1213
+#: sedout/lang_select.html:2055 sedout/lang_select.html:2354
+#: sedout/lang_select.html:2713 sedout/lang_select.html:3164
+#: sedout/lang_select.html:4117 sedout/lang_select.html:4642
+#: sedout/lang_select.html:5093 sedout/lang_select.html:6228
+#: sedout/lang_select.html:6335 sedout/lang_select.html:6650
+#: sedout/lang_select.html:7002 sedout/lang_select.html:7495
+#: sedout/lang_select.html:8406 sedout/lang_select.html:8931
+#: sedout/lang_select.html:9424 sedout/lang_select.html:10559
+#: sedout/lang_select.html:10708 sedout/lang_select.html:11355
+#: sedout/lang_select.html:11745 sedout/lang_select.html:12238
+#: sedout/lang_select.html:13149 sedout/lang_select.html:13674
+#: sedout/lang_select.html:14167 sedout/lang_select.html:15302
+#: sedout/lang_select.html:15451
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:384 sedout/lang_select.html:2360
+#: sedout/lang_select.html:2719 sedout/lang_select.html:4648
+#: sedout/lang_select.html:6234 sedout/lang_select.html:6656
+#: sedout/lang_select.html:7008 sedout/lang_select.html:8937
+#: sedout/lang_select.html:10565 sedout/lang_select.html:11361
+#: sedout/lang_select.html:11751 sedout/lang_select.html:13680
+#: sedout/lang_select.html:15308
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:392 sedout/lang_select.html:1221
+#: sedout/lang_select.html:2063 sedout/lang_select.html:2382
+#: sedout/lang_select.html:2727 sedout/lang_select.html:3172
+#: sedout/lang_select.html:4125 sedout/lang_select.html:4656
+#: sedout/lang_select.html:5101 sedout/lang_select.html:6242
+#: sedout/lang_select.html:6343 sedout/lang_select.html:6669
+#: sedout/lang_select.html:7016 sedout/lang_select.html:7503
+#: sedout/lang_select.html:8414 sedout/lang_select.html:8945
+#: sedout/lang_select.html:9432 sedout/lang_select.html:10573
+#: sedout/lang_select.html:10716 sedout/lang_select.html:11414
+#: sedout/lang_select.html:11759 sedout/lang_select.html:12246
+#: sedout/lang_select.html:13157 sedout/lang_select.html:13688
+#: sedout/lang_select.html:14175 sedout/lang_select.html:15316
+#: sedout/lang_select.html:15459
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:412 sedout/lang_select.html:2398
+#: sedout/lang_select.html:2747 sedout/lang_select.html:4676
+#: sedout/lang_select.html:6262 sedout/lang_select.html:6687
+#: sedout/lang_select.html:7036 sedout/lang_select.html:8965
+#: sedout/lang_select.html:10593 sedout/lang_select.html:11430
+#: sedout/lang_select.html:11779 sedout/lang_select.html:13708
+#: sedout/lang_select.html:15336
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:445
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x7f7a185c' "
+"onclick='hideorshow(\"x7f7a185c\",\"xef15ce91\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:453 sedout/lang_select.html:586
+#: sedout/lang_select.html:968 sedout/lang_select.html:1857
+#: sedout/lang_select.html:1888 sedout/lang_select.html:2439
+#: sedout/lang_select.html:2966 sedout/lang_select.html:2997
+#: sedout/lang_select.html:3490 sedout/lang_select.html:3872
+#: sedout/lang_select.html:4895 sedout/lang_select.html:4926
+#: sedout/lang_select.html:5857 sedout/lang_select.html:5888
+#: sedout/lang_select.html:6728 sedout/lang_select.html:7297
+#: sedout/lang_select.html:7328 sedout/lang_select.html:7779
+#: sedout/lang_select.html:8161 sedout/lang_select.html:9226
+#: sedout/lang_select.html:9257 sedout/lang_select.html:10188
+#: sedout/lang_select.html:10219 sedout/lang_select.html:11471
+#: sedout/lang_select.html:12040 sedout/lang_select.html:12071
+#: sedout/lang_select.html:12522 sedout/lang_select.html:12904
+#: sedout/lang_select.html:13969 sedout/lang_select.html:14000
+#: sedout/lang_select.html:14931 sedout/lang_select.html:14962
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:465 sedout/lang_select.html:594
+#: sedout/lang_select.html:1658 sedout/lang_select.html:2451
+#: sedout/lang_select.html:2828 sedout/lang_select.html:3498
+#: sedout/lang_select.html:4757 sedout/lang_select.html:5719
+#: sedout/lang_select.html:6740 sedout/lang_select.html:7159
+#: sedout/lang_select.html:7787 sedout/lang_select.html:9088
+#: sedout/lang_select.html:10050 sedout/lang_select.html:11483
+#: sedout/lang_select.html:11902 sedout/lang_select.html:12530
+#: sedout/lang_select.html:13831 sedout/lang_select.html:14793
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:475 sedout/lang_select.html:759
+#: sedout/lang_select.html:828 sedout/lang_select.html:853
+#: sedout/lang_select.html:880 sedout/lang_select.html:908
+#: sedout/lang_select.html:986 sedout/lang_select.html:1913
+#: sedout/lang_select.html:2461 sedout/lang_select.html:3022
+#: sedout/lang_select.html:3663 sedout/lang_select.html:3732
+#: sedout/lang_select.html:3757 sedout/lang_select.html:3784
+#: sedout/lang_select.html:3812 sedout/lang_select.html:3890
+#: sedout/lang_select.html:4951 sedout/lang_select.html:5913
+#: sedout/lang_select.html:6750 sedout/lang_select.html:7353
+#: sedout/lang_select.html:7952 sedout/lang_select.html:8021
+#: sedout/lang_select.html:8046 sedout/lang_select.html:8073
+#: sedout/lang_select.html:8101 sedout/lang_select.html:8179
+#: sedout/lang_select.html:9282 sedout/lang_select.html:10244
+#: sedout/lang_select.html:11493 sedout/lang_select.html:12096
+#: sedout/lang_select.html:12695 sedout/lang_select.html:12764
+#: sedout/lang_select.html:12789 sedout/lang_select.html:12816
+#: sedout/lang_select.html:12844 sedout/lang_select.html:12922
+#: sedout/lang_select.html:14025 sedout/lang_select.html:14987
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:477 sedout/lang_select.html:2463
+#: sedout/lang_select.html:6752 sedout/lang_select.html:11495
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:484 sedout/lang_select.html:920
+#: sedout/lang_select.html:998 sedout/lang_select.html:1976
+#: sedout/lang_select.html:2470 sedout/lang_select.html:3085
+#: sedout/lang_select.html:3824 sedout/lang_select.html:3902
+#: sedout/lang_select.html:5014 sedout/lang_select.html:5976
+#: sedout/lang_select.html:6759 sedout/lang_select.html:7416
+#: sedout/lang_select.html:8113 sedout/lang_select.html:8191
+#: sedout/lang_select.html:9345 sedout/lang_select.html:10307
+#: sedout/lang_select.html:11502 sedout/lang_select.html:12159
+#: sedout/lang_select.html:12856 sedout/lang_select.html:12934
+#: sedout/lang_select.html:14088 sedout/lang_select.html:15050
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:516
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x50a6b7b7' "
+"onclick='hideorshow(\"x50a6b7b7\",\"x9b2acaca\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:526 sedout/lang_select.html:528
+#: sedout/lang_select.html:3430 sedout/lang_select.html:3432
+#: sedout/lang_select.html:7079 sedout/lang_select.html:7081
+#: sedout/lang_select.html:9008 sedout/lang_select.html:9010
+#: sedout/lang_select.html:10636 sedout/lang_select.html:10638
+#: sedout/lang_select.html:11374 sedout/lang_select.html:11376
+#: sedout/lang_select.html:11822 sedout/lang_select.html:11824
+#: sedout/lang_select.html:13751 sedout/lang_select.html:13753
+#: sedout/lang_select.html:15379 sedout/lang_select.html:15381
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:530 sedout/lang_select.html:3434
+#: sedout/lang_select.html:7083 sedout/lang_select.html:9012
+#: sedout/lang_select.html:10640 sedout/lang_select.html:11388
+#: sedout/lang_select.html:11826 sedout/lang_select.html:13755
+#: sedout/lang_select.html:15383
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:532 sedout/lang_select.html:3436
+#: sedout/lang_select.html:7085 sedout/lang_select.html:9014
+#: sedout/lang_select.html:10642 sedout/lang_select.html:11390
+#: sedout/lang_select.html:11828 sedout/lang_select.html:13757
+#: sedout/lang_select.html:15385
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:558
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xa8db1a2e' "
+"onclick='hideorshow(\"xa8db1a2e\",\"x1ae559bb\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:566 sedout/lang_select.html:3470
+#: sedout/lang_select.html:7759 sedout/lang_select.html:12502
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:571 sedout/lang_select.html:3475
+#: sedout/lang_select.html:7764 sedout/lang_select.html:12507
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:578 sedout/lang_select.html:943
+#: sedout/lang_select.html:1880 sedout/lang_select.html:2989
+#: sedout/lang_select.html:3482 sedout/lang_select.html:3847
+#: sedout/lang_select.html:4918 sedout/lang_select.html:5880
+#: sedout/lang_select.html:7320 sedout/lang_select.html:7771
+#: sedout/lang_select.html:8136 sedout/lang_select.html:9249
+#: sedout/lang_select.html:10211 sedout/lang_select.html:12063
+#: sedout/lang_select.html:12514 sedout/lang_select.html:12879
+#: sedout/lang_select.html:13992 sedout/lang_select.html:14954
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:582 sedout/lang_select.html:590
+#: sedout/lang_select.html:947 sedout/lang_select.html:1861
+#: sedout/lang_select.html:1884 sedout/lang_select.html:2970
+#: sedout/lang_select.html:2993 sedout/lang_select.html:3486
+#: sedout/lang_select.html:3494 sedout/lang_select.html:3851
+#: sedout/lang_select.html:4899 sedout/lang_select.html:4922
+#: sedout/lang_select.html:5861 sedout/lang_select.html:5884
+#: sedout/lang_select.html:7301 sedout/lang_select.html:7324
+#: sedout/lang_select.html:7775 sedout/lang_select.html:7783
+#: sedout/lang_select.html:8140 sedout/lang_select.html:9230
+#: sedout/lang_select.html:9253 sedout/lang_select.html:10192
+#: sedout/lang_select.html:10215 sedout/lang_select.html:12044
+#: sedout/lang_select.html:12067 sedout/lang_select.html:12518
+#: sedout/lang_select.html:12526 sedout/lang_select.html:12883
+#: sedout/lang_select.html:13973 sedout/lang_select.html:13996
+#: sedout/lang_select.html:14935 sedout/lang_select.html:14958
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:607 sedout/lang_select.html:3511
+#: sedout/lang_select.html:7800 sedout/lang_select.html:12543
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:622 sedout/lang_select.html:3526
+#: sedout/lang_select.html:7815 sedout/lang_select.html:12558
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:633 sedout/lang_select.html:3537
+#: sedout/lang_select.html:7826 sedout/lang_select.html:12569
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:653 sedout/lang_select.html:3557
+#: sedout/lang_select.html:7846 sedout/lang_select.html:12589
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:659 sedout/lang_select.html:3563
+#: sedout/lang_select.html:7852 sedout/lang_select.html:12595
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:681 sedout/lang_select.html:1850
+#: sedout/lang_select.html:1865 sedout/lang_select.html:2959
+#: sedout/lang_select.html:2974 sedout/lang_select.html:3585
+#: sedout/lang_select.html:4888 sedout/lang_select.html:4903
+#: sedout/lang_select.html:5850 sedout/lang_select.html:5865
+#: sedout/lang_select.html:7290 sedout/lang_select.html:7305
+#: sedout/lang_select.html:7874 sedout/lang_select.html:9219
+#: sedout/lang_select.html:9234 sedout/lang_select.html:10181
+#: sedout/lang_select.html:10196 sedout/lang_select.html:12033
+#: sedout/lang_select.html:12048 sedout/lang_select.html:12617
+#: sedout/lang_select.html:13962 sedout/lang_select.html:13977
+#: sedout/lang_select.html:14924 sedout/lang_select.html:14939
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:713 sedout/lang_select.html:3617
+#: sedout/lang_select.html:7906 sedout/lang_select.html:12649
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:729 sedout/lang_select.html:3633
+#: sedout/lang_select.html:7922 sedout/lang_select.html:12665
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:744 sedout/lang_select.html:1770
+#: sedout/lang_select.html:3648 sedout/lang_select.html:5444
+#: sedout/lang_select.html:7937 sedout/lang_select.html:9775
+#: sedout/lang_select.html:12680 sedout/lang_select.html:14518
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:748 sedout/lang_select.html:1774
+#: sedout/lang_select.html:3652 sedout/lang_select.html:5448
+#: sedout/lang_select.html:7941 sedout/lang_select.html:9779
+#: sedout/lang_select.html:12684 sedout/lang_select.html:14522
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:763 sedout/lang_select.html:3667
+#: sedout/lang_select.html:7956 sedout/lang_select.html:12699
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:765 sedout/lang_select.html:3669
+#: sedout/lang_select.html:7958 sedout/lang_select.html:12701
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:767 sedout/lang_select.html:3671
+#: sedout/lang_select.html:7960 sedout/lang_select.html:12703
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:769 sedout/lang_select.html:3673
+#: sedout/lang_select.html:7962 sedout/lang_select.html:12705
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:777 sedout/lang_select.html:3681
+#: sedout/lang_select.html:7970 sedout/lang_select.html:12713
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:819 sedout/lang_select.html:3723
+#: sedout/lang_select.html:8012 sedout/lang_select.html:12755
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:826 sedout/lang_select.html:3730
+#: sedout/lang_select.html:8019 sedout/lang_select.html:12762
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:832 sedout/lang_select.html:1130
+#: sedout/lang_select.html:3736 sedout/lang_select.html:4034
+#: sedout/lang_select.html:8025 sedout/lang_select.html:8323
+#: sedout/lang_select.html:12768 sedout/lang_select.html:13066
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:849 sedout/lang_select.html:3753
+#: sedout/lang_select.html:8042 sedout/lang_select.html:12785
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:884 sedout/lang_select.html:1272
+#: sedout/lang_select.html:2111 sedout/lang_select.html:3220
+#: sedout/lang_select.html:3788 sedout/lang_select.html:4176
+#: sedout/lang_select.html:5149 sedout/lang_select.html:6391
+#: sedout/lang_select.html:7551 sedout/lang_select.html:8077
+#: sedout/lang_select.html:8465 sedout/lang_select.html:9480
+#: sedout/lang_select.html:10764 sedout/lang_select.html:12294
+#: sedout/lang_select.html:12820 sedout/lang_select.html:13208
+#: sedout/lang_select.html:14223 sedout/lang_select.html:15507
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:892 sedout/lang_select.html:1284
+#: sedout/lang_select.html:2123 sedout/lang_select.html:3232
+#: sedout/lang_select.html:3796 sedout/lang_select.html:4188
+#: sedout/lang_select.html:5161 sedout/lang_select.html:6403
+#: sedout/lang_select.html:7563 sedout/lang_select.html:8085
+#: sedout/lang_select.html:8477 sedout/lang_select.html:9492
+#: sedout/lang_select.html:10776 sedout/lang_select.html:12306
+#: sedout/lang_select.html:12828 sedout/lang_select.html:13220
+#: sedout/lang_select.html:14235 sedout/lang_select.html:15519
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:912 sedout/lang_select.html:3816
+#: sedout/lang_select.html:8105 sedout/lang_select.html:12848
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:951 sedout/lang_select.html:3855
+#: sedout/lang_select.html:8144 sedout/lang_select.html:12887
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:990 sedout/lang_select.html:3894
+#: sedout/lang_select.html:8183 sedout/lang_select.html:12926
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1013 sedout/lang_select.html:3917
+#: sedout/lang_select.html:8206 sedout/lang_select.html:12949
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1021 sedout/lang_select.html:3925
+#: sedout/lang_select.html:8214 sedout/lang_select.html:12957
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1029 sedout/lang_select.html:3933
+#: sedout/lang_select.html:8222 sedout/lang_select.html:12965
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1037 sedout/lang_select.html:3941
+#: sedout/lang_select.html:8230 sedout/lang_select.html:12973
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1045 sedout/lang_select.html:3949
+#: sedout/lang_select.html:8238 sedout/lang_select.html:12981
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1057 sedout/lang_select.html:3961
+#: sedout/lang_select.html:8250 sedout/lang_select.html:12993
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1065
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x464da927' "
+"onclick='hideorshow(\"x464da927\",\"x5ccac0f4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1073 sedout/lang_select.html:3977
+#: sedout/lang_select.html:8266 sedout/lang_select.html:13009
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1096
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='xc8f12d2e' "
+"onclick='hideorshow(\"xc8f12d2e\",\"x4b6c8ed3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1104 sedout/lang_select.html:4008
+#: sedout/lang_select.html:8297 sedout/lang_select.html:13040
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1111 sedout/lang_select.html:1593
+#: sedout/lang_select.html:4015 sedout/lang_select.html:5415
+#: sedout/lang_select.html:8304 sedout/lang_select.html:9746
+#: sedout/lang_select.html:13047 sedout/lang_select.html:14489
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1116 sedout/lang_select.html:4020
+#: sedout/lang_select.html:8309 sedout/lang_select.html:13052
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1123 sedout/lang_select.html:4027
+#: sedout/lang_select.html:8316 sedout/lang_select.html:13059
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1137 sedout/lang_select.html:4041
+#: sedout/lang_select.html:8330 sedout/lang_select.html:13073
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1144 sedout/lang_select.html:4048
+#: sedout/lang_select.html:8337 sedout/lang_select.html:13080
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1151 sedout/lang_select.html:4055
+#: sedout/lang_select.html:8344 sedout/lang_select.html:13087
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1158 sedout/lang_select.html:4062
+#: sedout/lang_select.html:8351 sedout/lang_select.html:13094
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1167
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x941e1dfa' "
+"onclick='hideorshow(\"x941e1dfa\",\"xfad6bdaa\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1175 sedout/lang_select.html:4079
+#: sedout/lang_select.html:8368 sedout/lang_select.html:13111
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1187 sedout/lang_select.html:2029
+#: sedout/lang_select.html:3138 sedout/lang_select.html:4091
+#: sedout/lang_select.html:5067 sedout/lang_select.html:6309
+#: sedout/lang_select.html:7469 sedout/lang_select.html:8380
+#: sedout/lang_select.html:9398 sedout/lang_select.html:10682
+#: sedout/lang_select.html:12212 sedout/lang_select.html:13123
+#: sedout/lang_select.html:14141 sedout/lang_select.html:15425
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1189 sedout/lang_select.html:2031
+#: sedout/lang_select.html:3140 sedout/lang_select.html:4093
+#: sedout/lang_select.html:5069 sedout/lang_select.html:6311
+#: sedout/lang_select.html:7471 sedout/lang_select.html:8382
+#: sedout/lang_select.html:9400 sedout/lang_select.html:10684
+#: sedout/lang_select.html:12214 sedout/lang_select.html:13125
+#: sedout/lang_select.html:14143 sedout/lang_select.html:15427
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1235 sedout/lang_select.html:2077
+#: sedout/lang_select.html:3186 sedout/lang_select.html:4139
+#: sedout/lang_select.html:5115 sedout/lang_select.html:6357
+#: sedout/lang_select.html:7517 sedout/lang_select.html:8428
+#: sedout/lang_select.html:9446 sedout/lang_select.html:10730
+#: sedout/lang_select.html:12260 sedout/lang_select.html:13171
+#: sedout/lang_select.html:14189 sedout/lang_select.html:15473
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_select.html:1259
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xa2159434' "
+"onclick='hideorshow(\"xa2159434\",\"xbdd917b1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1267 sedout/lang_select.html:2106
+#: sedout/lang_select.html:3215 sedout/lang_select.html:4171
+#: sedout/lang_select.html:5144 sedout/lang_select.html:6386
+#: sedout/lang_select.html:7546 sedout/lang_select.html:8460
+#: sedout/lang_select.html:9475 sedout/lang_select.html:10759
+#: sedout/lang_select.html:12289 sedout/lang_select.html:13203
+#: sedout/lang_select.html:14218 sedout/lang_select.html:15502
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1276 sedout/lang_select.html:1288
+#: sedout/lang_select.html:1311 sedout/lang_select.html:2115
+#: sedout/lang_select.html:2127 sedout/lang_select.html:2150
+#: sedout/lang_select.html:3224 sedout/lang_select.html:3236
+#: sedout/lang_select.html:3259 sedout/lang_select.html:4180
+#: sedout/lang_select.html:4192 sedout/lang_select.html:4215
+#: sedout/lang_select.html:5153 sedout/lang_select.html:5165
+#: sedout/lang_select.html:5188 sedout/lang_select.html:6395
+#: sedout/lang_select.html:6407 sedout/lang_select.html:6430
+#: sedout/lang_select.html:7555 sedout/lang_select.html:7567
+#: sedout/lang_select.html:7590 sedout/lang_select.html:8469
+#: sedout/lang_select.html:8481 sedout/lang_select.html:8504
+#: sedout/lang_select.html:9484 sedout/lang_select.html:9496
+#: sedout/lang_select.html:9519 sedout/lang_select.html:10768
+#: sedout/lang_select.html:10780 sedout/lang_select.html:10803
+#: sedout/lang_select.html:12298 sedout/lang_select.html:12310
+#: sedout/lang_select.html:12333 sedout/lang_select.html:13212
+#: sedout/lang_select.html:13224 sedout/lang_select.html:13247
+#: sedout/lang_select.html:14227 sedout/lang_select.html:14239
+#: sedout/lang_select.html:14262 sedout/lang_select.html:15511
+#: sedout/lang_select.html:15523 sedout/lang_select.html:15546
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1280 sedout/lang_select.html:1315
+#: sedout/lang_select.html:1324 sedout/lang_select.html:1346
+#: sedout/lang_select.html:1381 sedout/lang_select.html:2119
+#: sedout/lang_select.html:2154 sedout/lang_select.html:2163
+#: sedout/lang_select.html:2185 sedout/lang_select.html:2220
+#: sedout/lang_select.html:3228 sedout/lang_select.html:3263
+#: sedout/lang_select.html:3272 sedout/lang_select.html:3294
+#: sedout/lang_select.html:3329 sedout/lang_select.html:4184
+#: sedout/lang_select.html:4219 sedout/lang_select.html:4228
+#: sedout/lang_select.html:4250 sedout/lang_select.html:4285
+#: sedout/lang_select.html:5157 sedout/lang_select.html:5192
+#: sedout/lang_select.html:5201 sedout/lang_select.html:5223
+#: sedout/lang_select.html:5258 sedout/lang_select.html:6399
+#: sedout/lang_select.html:6434 sedout/lang_select.html:6443
+#: sedout/lang_select.html:6465 sedout/lang_select.html:6500
+#: sedout/lang_select.html:7559 sedout/lang_select.html:7594
+#: sedout/lang_select.html:7603 sedout/lang_select.html:7625
+#: sedout/lang_select.html:7660 sedout/lang_select.html:8473
+#: sedout/lang_select.html:8508 sedout/lang_select.html:8517
+#: sedout/lang_select.html:8539 sedout/lang_select.html:8574
+#: sedout/lang_select.html:9488 sedout/lang_select.html:9523
+#: sedout/lang_select.html:9532 sedout/lang_select.html:9554
+#: sedout/lang_select.html:9589 sedout/lang_select.html:10772
+#: sedout/lang_select.html:10807 sedout/lang_select.html:10816
+#: sedout/lang_select.html:10838 sedout/lang_select.html:10873
+#: sedout/lang_select.html:12302 sedout/lang_select.html:12337
+#: sedout/lang_select.html:12346 sedout/lang_select.html:12368
+#: sedout/lang_select.html:12403 sedout/lang_select.html:13216
+#: sedout/lang_select.html:13251 sedout/lang_select.html:13260
+#: sedout/lang_select.html:13282 sedout/lang_select.html:13317
+#: sedout/lang_select.html:14231 sedout/lang_select.html:14266
+#: sedout/lang_select.html:14275 sedout/lang_select.html:14297
+#: sedout/lang_select.html:14332 sedout/lang_select.html:15515
+#: sedout/lang_select.html:15550 sedout/lang_select.html:15559
+#: sedout/lang_select.html:15581 sedout/lang_select.html:15616
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1292 sedout/lang_select.html:1368
+#: sedout/lang_select.html:1401 sedout/lang_select.html:2131
+#: sedout/lang_select.html:2207 sedout/lang_select.html:2240
+#: sedout/lang_select.html:3240 sedout/lang_select.html:3316
+#: sedout/lang_select.html:3349 sedout/lang_select.html:4196
+#: sedout/lang_select.html:4272 sedout/lang_select.html:4305
+#: sedout/lang_select.html:5169 sedout/lang_select.html:5245
+#: sedout/lang_select.html:5278 sedout/lang_select.html:6411
+#: sedout/lang_select.html:6487 sedout/lang_select.html:6520
+#: sedout/lang_select.html:7571 sedout/lang_select.html:7647
+#: sedout/lang_select.html:7680 sedout/lang_select.html:8485
+#: sedout/lang_select.html:8561 sedout/lang_select.html:8594
+#: sedout/lang_select.html:9500 sedout/lang_select.html:9576
+#: sedout/lang_select.html:9609 sedout/lang_select.html:10784
+#: sedout/lang_select.html:10860 sedout/lang_select.html:10893
+#: sedout/lang_select.html:12314 sedout/lang_select.html:12390
+#: sedout/lang_select.html:12423 sedout/lang_select.html:13228
+#: sedout/lang_select.html:13304 sedout/lang_select.html:13337
+#: sedout/lang_select.html:14243 sedout/lang_select.html:14319
+#: sedout/lang_select.html:14352 sedout/lang_select.html:15527
+#: sedout/lang_select.html:15603 sedout/lang_select.html:15636
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1297 sedout/lang_select.html:2136
+#: sedout/lang_select.html:3245 sedout/lang_select.html:4201
+#: sedout/lang_select.html:5174 sedout/lang_select.html:6416
+#: sedout/lang_select.html:7576 sedout/lang_select.html:8490
+#: sedout/lang_select.html:9505 sedout/lang_select.html:10789
+#: sedout/lang_select.html:12319 sedout/lang_select.html:13233
+#: sedout/lang_select.html:14248 sedout/lang_select.html:15532
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1304 sedout/lang_select.html:2143
+#: sedout/lang_select.html:3252 sedout/lang_select.html:4208
+#: sedout/lang_select.html:5181 sedout/lang_select.html:6423
+#: sedout/lang_select.html:7583 sedout/lang_select.html:8497
+#: sedout/lang_select.html:9512 sedout/lang_select.html:10796
+#: sedout/lang_select.html:12326 sedout/lang_select.html:13240
+#: sedout/lang_select.html:14255 sedout/lang_select.html:15539
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1331 sedout/lang_select.html:1353
+#: sedout/lang_select.html:1386 sedout/lang_select.html:1412
+#: sedout/lang_select.html:2170 sedout/lang_select.html:2192
+#: sedout/lang_select.html:2225 sedout/lang_select.html:2251
+#: sedout/lang_select.html:3279 sedout/lang_select.html:3301
+#: sedout/lang_select.html:3334 sedout/lang_select.html:3360
+#: sedout/lang_select.html:4235 sedout/lang_select.html:4257
+#: sedout/lang_select.html:4290 sedout/lang_select.html:4316
+#: sedout/lang_select.html:5208 sedout/lang_select.html:5230
+#: sedout/lang_select.html:5263 sedout/lang_select.html:5289
+#: sedout/lang_select.html:6450 sedout/lang_select.html:6472
+#: sedout/lang_select.html:6505 sedout/lang_select.html:6531
+#: sedout/lang_select.html:7610 sedout/lang_select.html:7632
+#: sedout/lang_select.html:7665 sedout/lang_select.html:7691
+#: sedout/lang_select.html:8524 sedout/lang_select.html:8546
+#: sedout/lang_select.html:8579 sedout/lang_select.html:8605
+#: sedout/lang_select.html:9539 sedout/lang_select.html:9561
+#: sedout/lang_select.html:9594 sedout/lang_select.html:9620
+#: sedout/lang_select.html:10823 sedout/lang_select.html:10845
+#: sedout/lang_select.html:10878 sedout/lang_select.html:10904
+#: sedout/lang_select.html:12353 sedout/lang_select.html:12375
+#: sedout/lang_select.html:12408 sedout/lang_select.html:12434
+#: sedout/lang_select.html:13267 sedout/lang_select.html:13289
+#: sedout/lang_select.html:13322 sedout/lang_select.html:13348
+#: sedout/lang_select.html:14282 sedout/lang_select.html:14304
+#: sedout/lang_select.html:14337 sedout/lang_select.html:14363
+#: sedout/lang_select.html:15566 sedout/lang_select.html:15588
+#: sedout/lang_select.html:15621 sedout/lang_select.html:15647
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1335 sedout/lang_select.html:1357
+#: sedout/lang_select.html:1390 sedout/lang_select.html:1416
+#: sedout/lang_select.html:2174 sedout/lang_select.html:2196
+#: sedout/lang_select.html:2229 sedout/lang_select.html:2255
+#: sedout/lang_select.html:3283 sedout/lang_select.html:3305
+#: sedout/lang_select.html:3338 sedout/lang_select.html:3364
+#: sedout/lang_select.html:4239 sedout/lang_select.html:4261
+#: sedout/lang_select.html:4294 sedout/lang_select.html:4320
+#: sedout/lang_select.html:5212 sedout/lang_select.html:5234
+#: sedout/lang_select.html:5267 sedout/lang_select.html:5293
+#: sedout/lang_select.html:6454 sedout/lang_select.html:6476
+#: sedout/lang_select.html:6509 sedout/lang_select.html:6535
+#: sedout/lang_select.html:7614 sedout/lang_select.html:7636
+#: sedout/lang_select.html:7669 sedout/lang_select.html:7695
+#: sedout/lang_select.html:8528 sedout/lang_select.html:8550
+#: sedout/lang_select.html:8583 sedout/lang_select.html:8609
+#: sedout/lang_select.html:9543 sedout/lang_select.html:9565
+#: sedout/lang_select.html:9598 sedout/lang_select.html:9624
+#: sedout/lang_select.html:10827 sedout/lang_select.html:10849
+#: sedout/lang_select.html:10882 sedout/lang_select.html:10908
+#: sedout/lang_select.html:12357 sedout/lang_select.html:12379
+#: sedout/lang_select.html:12412 sedout/lang_select.html:12438
+#: sedout/lang_select.html:13271 sedout/lang_select.html:13293
+#: sedout/lang_select.html:13326 sedout/lang_select.html:13352
+#: sedout/lang_select.html:14286 sedout/lang_select.html:14308
+#: sedout/lang_select.html:14341 sedout/lang_select.html:14367
+#: sedout/lang_select.html:15570 sedout/lang_select.html:15592
+#: sedout/lang_select.html:15625 sedout/lang_select.html:15651
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1408 sedout/lang_select.html:1421
+#: sedout/lang_select.html:1430 sedout/lang_select.html:1439
+#: sedout/lang_select.html:2247 sedout/lang_select.html:2260
+#: sedout/lang_select.html:2269 sedout/lang_select.html:2278
+#: sedout/lang_select.html:3356 sedout/lang_select.html:3369
+#: sedout/lang_select.html:3378 sedout/lang_select.html:3387
+#: sedout/lang_select.html:4312 sedout/lang_select.html:4325
+#: sedout/lang_select.html:4334 sedout/lang_select.html:4343
+#: sedout/lang_select.html:5285 sedout/lang_select.html:5298
+#: sedout/lang_select.html:5307 sedout/lang_select.html:5316
+#: sedout/lang_select.html:6527 sedout/lang_select.html:6540
+#: sedout/lang_select.html:6549 sedout/lang_select.html:6558
+#: sedout/lang_select.html:7687 sedout/lang_select.html:7700
+#: sedout/lang_select.html:7709 sedout/lang_select.html:7718
+#: sedout/lang_select.html:8601 sedout/lang_select.html:8614
+#: sedout/lang_select.html:8623 sedout/lang_select.html:8632
+#: sedout/lang_select.html:9616 sedout/lang_select.html:9629
+#: sedout/lang_select.html:9638 sedout/lang_select.html:9647
+#: sedout/lang_select.html:10900 sedout/lang_select.html:10913
+#: sedout/lang_select.html:10922 sedout/lang_select.html:10931
+#: sedout/lang_select.html:12430 sedout/lang_select.html:12443
+#: sedout/lang_select.html:12452 sedout/lang_select.html:12461
+#: sedout/lang_select.html:13344 sedout/lang_select.html:13357
+#: sedout/lang_select.html:13366 sedout/lang_select.html:13375
+#: sedout/lang_select.html:14359 sedout/lang_select.html:14372
+#: sedout/lang_select.html:14381 sedout/lang_select.html:14390
+#: sedout/lang_select.html:15643 sedout/lang_select.html:15656
+#: sedout/lang_select.html:15665 sedout/lang_select.html:15674
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1434 sedout/lang_select.html:2273
+#: sedout/lang_select.html:3382 sedout/lang_select.html:4338
+#: sedout/lang_select.html:5311 sedout/lang_select.html:6553
+#: sedout/lang_select.html:7713 sedout/lang_select.html:8627
+#: sedout/lang_select.html:9642 sedout/lang_select.html:10926
+#: sedout/lang_select.html:12456 sedout/lang_select.html:13370
+#: sedout/lang_select.html:14385 sedout/lang_select.html:15669
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1443 sedout/lang_select.html:2282
+#: sedout/lang_select.html:3391 sedout/lang_select.html:4347
+#: sedout/lang_select.html:5320 sedout/lang_select.html:6562
+#: sedout/lang_select.html:7722 sedout/lang_select.html:8636
+#: sedout/lang_select.html:9651 sedout/lang_select.html:10935
+#: sedout/lang_select.html:12465 sedout/lang_select.html:13379
+#: sedout/lang_select.html:14394 sedout/lang_select.html:15678
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1447 sedout/lang_select.html:2286
+#: sedout/lang_select.html:3395 sedout/lang_select.html:4351
+#: sedout/lang_select.html:5324 sedout/lang_select.html:6566
+#: sedout/lang_select.html:7726 sedout/lang_select.html:8640
+#: sedout/lang_select.html:9655 sedout/lang_select.html:10939
+#: sedout/lang_select.html:12469 sedout/lang_select.html:13383
+#: sedout/lang_select.html:14398 sedout/lang_select.html:15682
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1470
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='xff2f0ae1' "
+"onclick='hideorshow(\"xff2f0ae1\",\"x1e29b00c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1478 sedout/lang_select.html:4382
+#: sedout/lang_select.html:8671 sedout/lang_select.html:13414
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1486 sedout/lang_select.html:4390
+#: sedout/lang_select.html:8679 sedout/lang_select.html:13422
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1494 sedout/lang_select.html:4398
+#: sedout/lang_select.html:8687 sedout/lang_select.html:13430
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1505 sedout/lang_select.html:4409
+#: sedout/lang_select.html:8698 sedout/lang_select.html:13441
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1510 sedout/lang_select.html:4414
+#: sedout/lang_select.html:8703 sedout/lang_select.html:13446
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1515 sedout/lang_select.html:4419
+#: sedout/lang_select.html:8708 sedout/lang_select.html:13451
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1526
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x04cca669' "
+"onclick='hideorshow(\"x04cca669\",\"x80572be1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1534 sedout/lang_select.html:5356
+#: sedout/lang_select.html:9687 sedout/lang_select.html:14430
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1542 sedout/lang_select.html:1550
+#: sedout/lang_select.html:1565 sedout/lang_select.html:5364
+#: sedout/lang_select.html:5372 sedout/lang_select.html:5387
+#: sedout/lang_select.html:9695 sedout/lang_select.html:9703
+#: sedout/lang_select.html:9718 sedout/lang_select.html:14438
+#: sedout/lang_select.html:14446 sedout/lang_select.html:14461
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_select.html:1581
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x0cf37f71' "
+"onclick='hideorshow(\"x0cf37f71\",\"xb68e2d50\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1589 sedout/lang_select.html:5411
+#: sedout/lang_select.html:9742 sedout/lang_select.html:14485
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1600 sedout/lang_select.html:5422
+#: sedout/lang_select.html:9753 sedout/lang_select.html:14496
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:1610
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xa1d6d1db' "
+"onclick='hideorshow(\"xa1d6d1db\",\"x16cf87e6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1622 sedout/lang_select.html:2792
+#: sedout/lang_select.html:4721 sedout/lang_select.html:5683
+#: sedout/lang_select.html:7123 sedout/lang_select.html:9052
+#: sedout/lang_select.html:10014 sedout/lang_select.html:11866
+#: sedout/lang_select.html:13795 sedout/lang_select.html:14757
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1630 sedout/lang_select.html:2800
+#: sedout/lang_select.html:4729 sedout/lang_select.html:5691
+#: sedout/lang_select.html:7131 sedout/lang_select.html:9060
+#: sedout/lang_select.html:10022 sedout/lang_select.html:11874
+#: sedout/lang_select.html:13803 sedout/lang_select.html:14765
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1642
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x0358c19e' "
+"onclick='hideorshow(\"x0358c19e\",\"x41fa2517\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1650 sedout/lang_select.html:2820
+#: sedout/lang_select.html:4749 sedout/lang_select.html:5711
+#: sedout/lang_select.html:7151 sedout/lang_select.html:9080
+#: sedout/lang_select.html:10042 sedout/lang_select.html:11894
+#: sedout/lang_select.html:13823 sedout/lang_select.html:14785
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1676 sedout/lang_select.html:2846
+#: sedout/lang_select.html:4775 sedout/lang_select.html:5737
+#: sedout/lang_select.html:7177 sedout/lang_select.html:9106
+#: sedout/lang_select.html:10068 sedout/lang_select.html:11920
+#: sedout/lang_select.html:13849 sedout/lang_select.html:14811
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:1690
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xb7162952' "
+"onclick='hideorshow(\"xb7162952\",\"xa5428a60\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1698 sedout/lang_select.html:2868
+#: sedout/lang_select.html:4797 sedout/lang_select.html:5759
+#: sedout/lang_select.html:7199 sedout/lang_select.html:9128
+#: sedout/lang_select.html:10090 sedout/lang_select.html:11942
+#: sedout/lang_select.html:13871 sedout/lang_select.html:14833
+#: sedout/lang_select.html:15952
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1704 sedout/lang_select.html:2874
+#: sedout/lang_select.html:4803 sedout/lang_select.html:5765
+#: sedout/lang_select.html:7205 sedout/lang_select.html:9134
+#: sedout/lang_select.html:10096 sedout/lang_select.html:11948
+#: sedout/lang_select.html:13877 sedout/lang_select.html:14839
+#: sedout/lang_select.html:15958
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1708 sedout/lang_select.html:2878
+#: sedout/lang_select.html:4807 sedout/lang_select.html:5769
+#: sedout/lang_select.html:7209 sedout/lang_select.html:9138
+#: sedout/lang_select.html:10100 sedout/lang_select.html:11952
+#: sedout/lang_select.html:13881 sedout/lang_select.html:14843
+#: sedout/lang_select.html:15962
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1714 sedout/lang_select.html:2884
+#: sedout/lang_select.html:4813 sedout/lang_select.html:5775
+#: sedout/lang_select.html:7215 sedout/lang_select.html:9144
+#: sedout/lang_select.html:10106 sedout/lang_select.html:11958
+#: sedout/lang_select.html:13887 sedout/lang_select.html:14849
+#: sedout/lang_select.html:15968
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1732 sedout/lang_select.html:2902
+#: sedout/lang_select.html:4831 sedout/lang_select.html:5793
+#: sedout/lang_select.html:7233 sedout/lang_select.html:9162
+#: sedout/lang_select.html:10124 sedout/lang_select.html:11976
+#: sedout/lang_select.html:13905 sedout/lang_select.html:14867
+#: sedout/lang_select.html:15986
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1738 sedout/lang_select.html:2908
+#: sedout/lang_select.html:4837 sedout/lang_select.html:5799
+#: sedout/lang_select.html:7239 sedout/lang_select.html:9168
+#: sedout/lang_select.html:10130 sedout/lang_select.html:11982
+#: sedout/lang_select.html:13911 sedout/lang_select.html:14873
+#: sedout/lang_select.html:15992
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1743 sedout/lang_select.html:2913
+#: sedout/lang_select.html:4842 sedout/lang_select.html:5804
+#: sedout/lang_select.html:7244 sedout/lang_select.html:9173
+#: sedout/lang_select.html:10135 sedout/lang_select.html:11987
+#: sedout/lang_select.html:13916 sedout/lang_select.html:14878
+#: sedout/lang_select.html:15997
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_select.html:1750 sedout/lang_select.html:2920
+#: sedout/lang_select.html:4849 sedout/lang_select.html:5811
+#: sedout/lang_select.html:7251 sedout/lang_select.html:9180
+#: sedout/lang_select.html:10142 sedout/lang_select.html:11994
+#: sedout/lang_select.html:13923 sedout/lang_select.html:14885
+#: sedout/lang_select.html:16004
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:1758
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x665d65c0' "
+"onclick='hideorshow(\"x665d65c0\",\"xee07f2e8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1783 sedout/lang_select.html:5457
+#: sedout/lang_select.html:9788 sedout/lang_select.html:14531
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1787 sedout/lang_select.html:5461
+#: sedout/lang_select.html:9792 sedout/lang_select.html:14535
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1797 sedout/lang_select.html:1805
+#: sedout/lang_select.html:5471 sedout/lang_select.html:5479
+#: sedout/lang_select.html:9802 sedout/lang_select.html:9810
+#: sedout/lang_select.html:14545 sedout/lang_select.html:14553
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1801 sedout/lang_select.html:5475
+#: sedout/lang_select.html:9806 sedout/lang_select.html:14549
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><svg><text>
+#: sedout/lang_select.html:1809 sedout/lang_select.html:5483
+#: sedout/lang_select.html:9814 sedout/lang_select.html:14557
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:1819
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xf600e9a8' "
+"onclick='hideorshow(\"xf600e9a8\",\"x0cecebbe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1835 sedout/lang_select.html:2944
+#: sedout/lang_select.html:4873 sedout/lang_select.html:5835
+#: sedout/lang_select.html:7275 sedout/lang_select.html:9204
+#: sedout/lang_select.html:10166 sedout/lang_select.html:12018
+#: sedout/lang_select.html:13947 sedout/lang_select.html:14909
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:1872
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x83443dd1' "
+"onclick='hideorshow(\"x83443dd1\",\"x83a14150\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1896 sedout/lang_select.html:1960
+#: sedout/lang_select.html:3005 sedout/lang_select.html:3069
+#: sedout/lang_select.html:4934 sedout/lang_select.html:4998
+#: sedout/lang_select.html:5896 sedout/lang_select.html:5960
+#: sedout/lang_select.html:7336 sedout/lang_select.html:7400
+#: sedout/lang_select.html:9265 sedout/lang_select.html:9329
+#: sedout/lang_select.html:10227 sedout/lang_select.html:10291
+#: sedout/lang_select.html:12079 sedout/lang_select.html:12143
+#: sedout/lang_select.html:14008 sedout/lang_select.html:14072
+#: sedout/lang_select.html:14970 sedout/lang_select.html:15034
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1903 sedout/lang_select.html:1917
+#: sedout/lang_select.html:3012 sedout/lang_select.html:3026
+#: sedout/lang_select.html:4941 sedout/lang_select.html:4955
+#: sedout/lang_select.html:5903 sedout/lang_select.html:5917
+#: sedout/lang_select.html:7343 sedout/lang_select.html:7357
+#: sedout/lang_select.html:9272 sedout/lang_select.html:9286
+#: sedout/lang_select.html:10234 sedout/lang_select.html:10248
+#: sedout/lang_select.html:12086 sedout/lang_select.html:12100
+#: sedout/lang_select.html:14015 sedout/lang_select.html:14029
+#: sedout/lang_select.html:14977 sedout/lang_select.html:14991
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1911 sedout/lang_select.html:3020
+#: sedout/lang_select.html:4949 sedout/lang_select.html:5911
+#: sedout/lang_select.html:7351 sedout/lang_select.html:9280
+#: sedout/lang_select.html:10242 sedout/lang_select.html:12094
+#: sedout/lang_select.html:14023 sedout/lang_select.html:14985
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><svg><text>
+#: sedout/lang_select.html:1927 sedout/lang_select.html:3036
+#: sedout/lang_select.html:4965 sedout/lang_select.html:5927
+#: sedout/lang_select.html:7367 sedout/lang_select.html:9296
+#: sedout/lang_select.html:10258 sedout/lang_select.html:12110
+#: sedout/lang_select.html:14039 sedout/lang_select.html:15001
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_select.html:2017
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x271c84c0' "
+"onclick='hideorshow(\"x271c84c0\",\"x23405ae1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_select.html:2098
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x0f235a84' "
+"onclick='hideorshow(\"x0f235a84\",\"x1b19a88f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_select.html:2313
+msgid ""
+"The SELECT statement is used to query the database.  The result of a SELECT "
+"is zero or more rows of data where each row has a fixed number of columns.  "
+"A SELECT statement does not make any changes to the database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_select.html:2318
+msgid ""
+"The \"<a href=\"syntax/select-stmt.html\">select-stmt</a>\" syntax diagram "
+"above attempts to show as much of the SELECT statement syntax as possible in "
+"a single diagram, because some readers find that helpful.  The following "
+"\"<a href=\"syntax/factored-select-stmt.html\">factored-select-stmt</a>\" is "
+"an alternative syntax diagrams that expresses the same syntax but tries to "
+"break the syntax down into smaller chunks."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_select.html:2324
+msgid ""
+"<b><a "
+"href=\"syntax/factored-select-stmt.html\">factored-select-stmt:</a></b> "
+"<button id='x68899141' "
+"onclick='hideorshow(\"x68899141\",\"xc39098c7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/lang_select.html:2431
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x4dc10346' "
+"onclick='hideorshow(\"x4dc10346\",\"x4cea5802\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:2501
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xf5b072f0' "
+"onclick='hideorshow(\"xf5b072f0\",\"x8b94a1a9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:2780
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x3b806d8d' "
+"onclick='hideorshow(\"x3b806d8d\",\"x4410446b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/lang_select.html:2812
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x0a46b868' "
+"onclick='hideorshow(\"x0a46b868\",\"x5931c13a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/lang_select.html:2860
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xc3414960' "
+"onclick='hideorshow(\"xc3414960\",\"xcc5e8b6e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:2928
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x1c8d583a' "
+"onclick='hideorshow(\"x1c8d583a\",\"x18fae21e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:2981
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x82aa4a31' "
+"onclick='hideorshow(\"x82aa4a31\",\"x5d9d9d4f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:3126
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xb40aa4d3' "
+"onclick='hideorshow(\"xb40aa4d3\",\"x5de158a7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/lang_select.html:3207
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x66d4a516' "
+"onclick='hideorshow(\"x66d4a516\",\"xc1e06242\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/lang_select.html:3420
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x79f8a721' "
+"onclick='hideorshow(\"x79f8a721\",\"xd1b115d4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/lang_select.html:3462
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x7e0bbe2f' "
+"onclick='hideorshow(\"x7e0bbe2f\",\"x7ff341dc\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:3969
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x8fafa05a' "
+"onclick='hideorshow(\"x8fafa05a\",\"xf9bd1d0b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:4000
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x8851152f' "
+"onclick='hideorshow(\"x8851152f\",\"x05d07b6b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:4071
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x2ffeb471' "
+"onclick='hideorshow(\"x2ffeb471\",\"x3d23d634\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:4163
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x5a793ddf' "
+"onclick='hideorshow(\"x5a793ddf\",\"x9440cb87\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:4374
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x627a6be4' "
+"onclick='hideorshow(\"x627a6be4\",\"x1871a9a1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:4430
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xe1b4a989' "
+"onclick='hideorshow(\"xe1b4a989\",\"xba7a8d83\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:4709
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xab50d13b' "
+"onclick='hideorshow(\"xab50d13b\",\"x7e870639\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/lang_select.html:4741
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xa982be54' "
+"onclick='hideorshow(\"xa982be54\",\"xa1421bde\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/lang_select.html:4789
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xf8880fc1' "
+"onclick='hideorshow(\"xf8880fc1\",\"x075efeb6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:4857
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x361c66d9' "
+"onclick='hideorshow(\"x361c66d9\",\"xf2e067bb\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:4910
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xd040679e' "
+"onclick='hideorshow(\"xd040679e\",\"x8a62a203\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:5055
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xb9d11aba' "
+"onclick='hideorshow(\"xb9d11aba\",\"x7a55a5b4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><div><p>
+#: sedout/lang_select.html:5136
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xfd2df90d' "
+"onclick='hideorshow(\"xfd2df90d\",\"xcb964562\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:5348
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x2000235c' "
+"onclick='hideorshow(\"x2000235c\",\"x1c6cf0c7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:5403
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='xfa03dd67' "
+"onclick='hideorshow(\"xfa03dd67\",\"xb1242b41\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/lang_select.html:5432
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x73edbcf9' "
+"onclick='hideorshow(\"x73edbcf9\",\"x26865ea0\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><p>
+#: sedout/lang_select.html:5493
+msgid ""
+"<b><a href=\"syntax/select-core.html\">select-core:</a></b> <button "
+"id='xd854c145' "
+"onclick='hideorshow(\"xd854c145\",\"x70f58857\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:5671
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xf796e62d' "
+"onclick='hideorshow(\"xf796e62d\",\"xc70acbd9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:5703
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x9ed749d3' "
+"onclick='hideorshow(\"x9ed749d3\",\"x41b4c280\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:5751
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x483b48a0' "
+"onclick='hideorshow(\"x483b48a0\",\"xec094484\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:5819
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x7e16a93e' "
+"onclick='hideorshow(\"x7e16a93e\",\"x80a3b772\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:5872
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xfba5680c' "
+"onclick='hideorshow(\"xfba5680c\",\"x4971eb6b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:6016
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xca4b6ae0' "
+"onclick='hideorshow(\"xca4b6ae0\",\"x8141b266\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><p>
+#: sedout/lang_select.html:6297
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xc8cce1ac' "
+"onclick='hideorshow(\"xc8cce1ac\",\"x24ea5c26\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><div><div><p>
+#: sedout/lang_select.html:6378
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xbc318c58' "
+"onclick='hideorshow(\"xbc318c58\",\"x71e0adec\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_select.html:6593
+msgid ""
+"Note that there are paths through the syntax diagrams that are not allowed "
+"in practice.  Some examples:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_select.html:6596
+msgid ""
+"A <a href=\"lang_select.html#values\">VALUES</a> clause can be the first "
+"element in a <a href=\"lang_select.html#compound\">compound SELECT</a> that "
+"uses a <a href=\"lang_with.html\">WITH</a> clause, but a <a "
+"href=\"lang_select.html#simpleselect\">simple SELECT</a> that consists of "
+"just a <a href=\"lang_select.html#values\">VALUES</a> clause cannot be "
+"preceded by a <a href=\"lang_with.html\">WITH</a> clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_select.html:6599
+msgid ""
+"The <a href=\"lang_with.html\">WITH</a> clause must occur on the first "
+"SELECT of a <a href=\"lang_select.html#compound\">compound SELECT</a>.  It "
+"cannot follow a <a "
+"href=\"syntax/compound-operator.html\">compound-operator</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_select.html:6603
+msgid "These and other similar syntax restrictions are described in the text."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_select.html:6605
+msgid ""
+"The SELECT statement is the most complicated command in the SQL language.  "
+"To make the description easier to follow, some of the passages below "
+"describe the way the data returned by a SELECT statement is determined as a "
+"series of steps. It is important to keep in mind that this is purely "
+"illustrative - in practice neither SQLite nor any other SQL engine is "
+"required to follow this or any other specific process.  <a "
+"name=\"simpleselect\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/lang_select.html:6614
+msgid "<span>2. </span>Simple Select Processing"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_select.html:6616
+msgid ""
+"The core of a SELECT statement is a \"simple SELECT\" shown by the <a "
+"href=\"syntax/select-core.html\">select-core</a> and <a "
+"href=\"syntax/simple-select-stmt.html\">simple-select-stmt</a> syntax "
+"diagrams below.  In practice, most SELECT statements are simple SELECT "
+"statements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:6620
+msgid ""
+"<b><a href=\"syntax/simple-select-stmt.html\">simple-select-stmt:</a></b> "
+"<button id='x88036219' "
+"onclick='hideorshow(\"x88036219\",\"xaf7ff676\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><p>
+#: sedout/lang_select.html:6720
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='xd52931f7' "
+"onclick='hideorshow(\"xd52931f7\",\"x2b09e108\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:6790
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x43442276' "
+"onclick='hideorshow(\"x43442276\",\"x4cf4e0fe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:7069
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x8b759808' "
+"onclick='hideorshow(\"x8b759808\",\"xb5b14ed3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:7111
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xd2b022e8' "
+"onclick='hideorshow(\"xd2b022e8\",\"x856ce3f9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:7143
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xada19c41' "
+"onclick='hideorshow(\"xada19c41\",\"xc9b1c5f3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:7191
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xcd3676dc' "
+"onclick='hideorshow(\"xcd3676dc\",\"x484f3155\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:7259
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xa3ff7251' "
+"onclick='hideorshow(\"xa3ff7251\",\"x63c50ddd\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:7312
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xd91c7151' "
+"onclick='hideorshow(\"xd91c7151\",\"xd82e948f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:7457
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x91856065' "
+"onclick='hideorshow(\"x91856065\",\"x75892779\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:7538
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x545952a6' "
+"onclick='hideorshow(\"x545952a6\",\"xbede7e13\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><p>
+#: sedout/lang_select.html:7751
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xf3f1157c' "
+"onclick='hideorshow(\"xf3f1157c\",\"x71afbdeb\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:8258
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x50341426' "
+"onclick='hideorshow(\"x50341426\",\"x929f1264\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:8289
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x281eac98' "
+"onclick='hideorshow(\"x281eac98\",\"x0dcfdf8c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:8360
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x62176f04' "
+"onclick='hideorshow(\"x62176f04\",\"x89a22427\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:8452
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x03afb844' "
+"onclick='hideorshow(\"x03afb844\",\"x6f191e82\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:8663
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x3e9a3f34' "
+"onclick='hideorshow(\"x3e9a3f34\",\"x48c7cf82\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:8719
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xde3ae02b' "
+"onclick='hideorshow(\"xde3ae02b\",\"x3b12d522\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:8998
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='xa642db5d' "
+"onclick='hideorshow(\"xa642db5d\",\"xfd9d9b2b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:9040
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x99081dbb' "
+"onclick='hideorshow(\"x99081dbb\",\"xb951ebd9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:9072
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x7eab2107' "
+"onclick='hideorshow(\"x7eab2107\",\"x56b27e53\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:9120
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x80ebe032' "
+"onclick='hideorshow(\"x80ebe032\",\"x2cdeef3b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:9188
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x5e1bc643' "
+"onclick='hideorshow(\"x5e1bc643\",\"x83913143\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:9241
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xab09009b' "
+"onclick='hideorshow(\"xab09009b\",\"x3161fe3f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:9386
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x71c37337' "
+"onclick='hideorshow(\"x71c37337\",\"xadbe7317\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:9467
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x5ae30a75' "
+"onclick='hideorshow(\"x5ae30a75\",\"x4d3fbf76\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:9679
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x0a586849' "
+"onclick='hideorshow(\"x0a586849\",\"xa4057896\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:9734
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='xc5819eaf' "
+"onclick='hideorshow(\"xc5819eaf\",\"xd5bbe2ae\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><p>
+#: sedout/lang_select.html:9763
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x71092ead' "
+"onclick='hideorshow(\"x71092ead\",\"xfe81db69\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><p>
+#: sedout/lang_select.html:9824
+msgid ""
+"<b><a href=\"syntax/select-core.html\">select-core:</a></b> <button "
+"id='x09916e39' "
+"onclick='hideorshow(\"x09916e39\",\"x40e13e2f\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:10002
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x951a322a' "
+"onclick='hideorshow(\"x951a322a\",\"x20bd7ef9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:10034
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x19a629e7' "
+"onclick='hideorshow(\"x19a629e7\",\"xbed51417\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:10082
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xe806a710' "
+"onclick='hideorshow(\"xe806a710\",\"xaea34817\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:10150
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xfd6b1c1a' "
+"onclick='hideorshow(\"xfd6b1c1a\",\"x955fbd49\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:10203
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xd87eef5c' "
+"onclick='hideorshow(\"xd87eef5c\",\"xc40c743b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:10347
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xe50f925f' "
+"onclick='hideorshow(\"xe50f925f\",\"xffd23e81\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:10626
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='xc104e5f5' "
+"onclick='hideorshow(\"xc104e5f5\",\"x33fccb81\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><p>
+#: sedout/lang_select.html:10670
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xcf860d61' "
+"onclick='hideorshow(\"xcf860d61\",\"x36a8d3cb\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><div><p>
+#: sedout/lang_select.html:10751
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x2725330f' "
+"onclick='hideorshow(\"x2725330f\",\"x46da123e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_select.html:10966
+msgid ""
+"Generating the results of a simple SELECT statement is presented as a four "
+"step process in the description below:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/lang_select.html:10970
+msgid ""
+"<a href=\"lang_select.html#fromclause\">FROM clause</a> processing: The "
+"input data for the simple SELECT is determined. The input data is either "
+"implicitly a single row with 0 columns (if there is no FROM clause) or is "
+"determined by the FROM clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/lang_select.html:10974
+msgid ""
+"<a href=\"lang_select.html#whereclause\">WHERE clause</a> processing: The "
+"input data is filtered using the WHERE clause expression."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/lang_select.html:10976
+msgid ""
+"<a href=\"lang_select.html#resultset\">GROUP BY, HAVING and result-column "
+"expression</a> processing: The set of result rows is computed by aggregating "
+"the data according to any GROUP BY clause and calculating the result-set "
+"expressions for the rows of the filtered input dataset."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/lang_select.html:10980
+msgid ""
+"<a href=\"lang_select.html#distinct\">DISTINCT/ALL keyword</a> processing: "
+"If the query is a \"SELECT DISTINCT\" query, duplicate rows are removed from "
+"the set of result rows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:10984
+msgid ""
+"There are two types of simple SELECT statement - aggregate and non-aggregate "
+"queries. A simple SELECT statement is an aggregate query if it contains "
+"either a GROUP BY clause or one or more aggregate functions in the "
+"result-set. Otherwise, if a simple SELECT contains no aggregate functions or "
+"a GROUP BY clause, it is a non-aggregate query.  <a name=\"fromclause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/lang_select.html:10993
+msgid "<span>2.1. </span>Determination of input data (FROM clause processing)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:10995
+msgid ""
+"The input data used by a simple SELECT query is a set of <i>N</i> rows each "
+"<i>M</i> columns wide."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:10998
+msgid ""
+"If the FROM clause is omitted from a simple SELECT statement, then the input "
+"data is implicitly a single row zero columns wide (i.e. <i>N</i>=1 and "
+"<i>M</i>=0)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:11002
+msgid ""
+"If a FROM clause is specified, the data on which a simple SELECT query "
+"operates comes from the one or more tables or subqueries (SELECT statements "
+"in parentheses) specified following the FROM keyword. A subquery specified "
+"in the <span class='yyterm'>table-or-subquery</span> following the FROM "
+"clause in a simple SELECT statement is handled as if it was a table "
+"containing the data returned by executing the subquery statement. Each "
+"column of the subquery has the <a "
+"href=\"datatype3.html#collation\">collation sequence</a> and <a "
+"href=\"datatype3.html#affinity\">affinity</a> of the corresponding "
+"expression in the subquery statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:11012
+msgid ""
+"If there is only a single table or subquery in the FROM clause, then the "
+"input data used by the SELECT statement is the contents of the named "
+"table. If there is more than one table or subquery in FROM clause then the "
+"contents of all tables and/or subqueries are joined into a single dataset "
+"for the simple SELECT statement to operate on.  Exactly how the data is "
+"combined depends on the specific <a "
+"href=\"syntax/join-operator.html\">join-operator</a> and <a "
+"href=\"syntax/join-constraint.html\">join-constraint</a> used to connect the "
+"tables or subqueries together."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:11020
+msgid ""
+"All joins in SQLite are based on the cartesian product of the left and "
+"right-hand datasets. The columns of the cartesian product dataset are, in "
+"order, all the columns of the left-hand dataset followed by all the columns "
+"of the right-hand dataset. There is a row in the cartesian product dataset "
+"formed by combining each unique combination of a row from the left-hand and "
+"right-hand datasets. In other words, if the left-hand dataset consists of "
+"<i>N<sub><small>left</small></sub></i> rows of "
+"<i>M<sub><small>left</small></sub></i> columns, and the right-hand dataset "
+"of <i>N<sub><small>right</small></sub></i> rows of "
+"<i>M<sub><small>right</small></sub></i> columns, then the cartesian product "
+"is a dataset of "
+"<i>N<sub><small>left</small></sub>&times;N<sub><small>right</small></sub></i> "
+"rows, each containing "
+"<i>M<sub><small>left</small></sub>+M<sub><small>right</small></sub></i> "
+"columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_select.html:11035
+msgid ""
+"If the join-operator is \"CROSS JOIN\", \"INNER JOIN\", \"JOIN\" or a comma "
+"(\",\") and there is no ON or USING clause, then the result of the join is "
+"simply the cartesian product of the left and right-hand datasets.  If "
+"join-operator does have ON or USING clauses, those are handled according to "
+"the following bullet points:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_select.html:11042
+msgid ""
+"If there is an ON clause then the ON expression is evaluated for each row of "
+"the cartesian product as a <a href=\"lang_expr.html#booleanexpr\">boolean "
+"expression</a>. Only rows for which the expression evaluates to true are "
+"included from the dataset."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_select.html:11047
+msgid ""
+"If there is a USING clause then each of the column names specified must "
+"exist in the datasets to both the left and right of the join-operator. For "
+"each pair of named columns, the expression \"lhs.X = rhs.X\" is evaluated "
+"for each row of the cartesian product as a <a "
+"href=\"lang_expr.html#booleanexpr\">boolean expression</a>. Only rows for "
+"which all such expressions evaluates to true are included from the result "
+"set. When comparing values as a result of a USING clause, the normal rules "
+"for handling affinities, collation sequences and NULL values in comparisons "
+"apply. The column from the dataset on the left-hand side of the "
+"join-operator is considered to be on the left-hand side of the comparison "
+"operator (=) for the purposes of collation sequence and affinity "
+"precedence.  For each pair of columns identified by a USING clause, the "
+"column from the right-hand dataset is omitted from the joined dataset. This "
+"is the only difference between a USING clause and its equivalent ON "
+"constraint."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_select.html:11065
+msgid ""
+"If the NATURAL keyword is in the join-operator then an implicit USING clause "
+"is added to the join-constraints. The implicit USING clause contains each of "
+"the column names that appear in both the left and right-hand input "
+"datasets. If the left and right-hand input datasets feature no common column "
+"names, then the NATURAL keyword has no effect on the results of the join. A "
+"USING or ON clause may not be added to a join that specifies the NATURAL "
+"keyword."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_select.html:11073
+msgid ""
+"If the join-operator is a \"LEFT JOIN\" or \"LEFT OUTER JOIN\", then after "
+"the ON or USING filtering clauses have been applied, an extra row is added "
+"to the output for each row in the original left-hand input dataset that does "
+"not match any row in the right-hand dataset.  The added rows contain NULL "
+"values in the columns that would normally contain values copied from the "
+"right-hand input dataset."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_select.html:11083
+msgid ""
+"<a name=\"rjoin\"></a> If the join-operator is a \"RIGHT JOIN\" or \"RIGHT "
+"OUTER JOIN\", then after the ON or USING filtering clauses have been "
+"applied, an extra row is added to the output for each row in the original "
+"right-hand input dataset that does not match any row in the left-hand "
+"dataset.  The added rows contain NULL values in the columns that would "
+"normally contain values copied from the left-hand input dataset."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/lang_select.html:11094
+msgid ""
+"<a name=\"fulljoin\"></a> A \"FULL JOIN\" or \"FULL OUTER JOIN\" is a "
+"combination of a \"LEFT JOIN\" and a \"RIGHT JOIN\".  Extra rows of output "
+"are added for each row in left dataset that matches no rows in the right, "
+"and for each row in the right dataset that matches no rows in the left.  "
+"Unmatched columns are filled in with NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11103
+msgid ""
+"When more than two tables are joined together as part of a FROM clause, the "
+"join operations are processed in order from left to right. In other words, "
+"the FROM clause (A join-op-1 B join-op-2 C) is computed as ((A join-op-1 B) "
+"join-op-2 C).  <a name=\"crossjoin\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_select.html:11110
+msgid "<span>2.2. </span>Special handling of CROSS JOIN."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11112
+msgid ""
+"There is no difference between the \"INNER JOIN\", \"JOIN\" and \",\" join "
+"operators. They are completely interchangeable in SQLite.  The \"CROSS "
+"JOIN\" join operator produces the same result as the \"INNER JOIN\", "
+"\"JOIN\" and \",\" operators, but is <a "
+"href=\"optoverview.html#crossjoin\">handled differently by the query "
+"optimizer</a> in that it prevents the query optimizer from reordering the "
+"tables in the join.  An application programmer can use the CROSS JOIN "
+"operator to directly influence the algorithm that is chosen to implement the "
+"SELECT statement.  Avoid using CROSS JOIN except in specific situations "
+"where manual control of the query optimizer is desired.  Avoid using CROSS "
+"JOIN early in the development of an application as doing so is a <a "
+"href=\"http://c2.com/cgi/wiki?PrematureOptimization\">premature "
+"optimization</a>.  The special handling of CROSS JOIN is an SQLite-specific "
+"feature and is not a part of standard SQL.  <a name=\"whereclause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_select.html:11130
+msgid "<span>2.3. </span>WHERE clause filtering."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11132
+msgid ""
+"If a WHERE clause is specified, the WHERE expression is evaluated for each "
+"row in the input data as a <a href=\"lang_expr.html#booleanexpr\">boolean "
+"expression</a>. Only rows for which the WHERE clause expression evaluates to "
+"true are included from the dataset before continuing.  Rows are excluded "
+"from the result if the WHERE clause evaluates to either false or NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11138
+msgid ""
+"For a JOIN or INNER JOIN or CROSS JOIN, there is no difference between a "
+"constraint expression in the WHERE clause and one in the ON clause.  "
+"However, for a LEFT JOIN or LEFT OUTER JOIN, the difference is very "
+"important.  In a LEFT JOIN, the extra NULL row for the right-hand table is "
+"added after ON clause processing but before WHERE clause processing.  A "
+"constraint of the form \"left.x=right.y\" in an ON clause will therefore "
+"allow through the added all-NULL rows of the right table.  But if that same "
+"constraint is in the WHERE clause a NULL in \"right.y\" will prevent the "
+"expression \"left.x=right.y\" from being true, and thus exclude that row "
+"from the output.  <a name=\"resultset\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_select.html:11152
+msgid "<span>2.4. </span>Generation of the set of result rows"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11154
+msgid ""
+"Once the input data from the FROM clause has been filtered by the WHERE "
+"clause expression (if any), the set of result rows for the simple SELECT are "
+"calculated. Exactly how this is done depends on whether the simple SELECT is "
+"an aggregate or non-aggregate query, and whether or not a GROUP BY clause "
+"was specified."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11160
+msgid ""
+"The list of expressions between the SELECT and FROM keywords is known as the "
+"result expression list.  If a result expression is the special expression "
+"\"*\" then all columns in the input data are substituted for that one "
+"expression.  If the expression is the alias of a table or subquery in the "
+"FROM clause followed by \".*\" then all columns from the named table or "
+"subquery are substituted for the single expression. It is an error to use a "
+"\"*\" or \"alias.*\" expression in any context other than a result "
+"expression list.  It is also an error to use a \"*\" or \"alias.*\" "
+"expression in a simple SELECT query that does not have a FROM clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11170
+msgid ""
+"The number of columns in the rows returned by a simple SELECT statement is "
+"equal to the number of expressions in the result expression list after "
+"substitution of * and alias.* expressions. Each result row is calculated by "
+"evaluating the expressions in the result expression list with respect to a "
+"single row of input data or, for aggregate queries, with respect to a group "
+"of rows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_select.html:11178
+msgid ""
+"If the SELECT statement is <b>a non-aggregate query</b>, then each "
+"expression in the result expression list is evaluated for each row in the "
+"dataset filtered by the WHERE clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_select.html:11182
+msgid ""
+"If the SELECT statement is <b>an aggregate query without a GROUP BY</b> "
+"clause, then each aggregate expression in the result-set is evaluated once "
+"across the entire dataset. Each non-aggregate expression in the result-set "
+"is evaluated once for an arbitrarily selected row of the dataset. The same "
+"arbitrarily selected row is used for each non-aggregate expression. Or, if "
+"the dataset contains zero rows, then each non-aggregate expression is "
+"evaluated against a row consisting entirely of NULL values.  The single row "
+"of result-set data created by evaluating the aggregate and non-aggregate "
+"expressions in the result-set forms the result of an aggregate query without "
+"a GROUP BY clause. An aggregate query without a GROUP BY clause always "
+"returns exactly one row of data, even if there are zero rows of input data."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_select.html:11198
+msgid ""
+"If the SELECT statement is <b>an aggregate query with a GROUP BY</b> clause, "
+"then each of the expressions specified as part of the GROUP BY clause is "
+"evaluated for each row of the dataset according to the processing rules "
+"stated below for ORDER BY expressions. Each row is then assigned to a "
+"\"group\" based on the results; rows for which the results of evaluating the "
+"GROUP BY expressions are the same get assigned to the same group. For the "
+"purposes of grouping rows, NULL values are considered equal. The usual rules "
+"for <a href=\"datatype3.html#collation\">selecting a collation sequence</a> "
+"with which to compare text values apply when evaluating expressions in a "
+"GROUP BY clause.  The expressions in the GROUP BY clause do <em>not</em> "
+"have to be expressions that appear in the result. The expressions in a GROUP "
+"BY clause may not be aggregate expressions.  If a HAVING clause is "
+"specified, it is evaluated once for each group of rows as a <a "
+"href=\"lang_expr.html#booleanexpr\">boolean expression</a>. If the result of "
+"evaluating the HAVING clause is false, the group is discarded. If the HAVING "
+"clause is an aggregate expression, it is evaluated across all rows in the "
+"group. If a HAVING clause is a non-aggregate expression, it is evaluated "
+"with respect to an arbitrarily selected row from the group.  The HAVING "
+"expression may refer to values, even aggregate functions, that are not in "
+"the result.  Each expression in the result-set is then evaluated once for "
+"each group of rows. If the expression is an aggregate expression, it is "
+"evaluated across all rows in the group. Otherwise, it is evaluated against a "
+"single arbitrarily chosen row from within the group. If there is more than "
+"one non-aggregate expression in the result-set, then all such expressions "
+"are evaluated for the same row.  Each group of input dataset rows "
+"contributes a single row to the set of result rows. Subject to filtering "
+"associated with the DISTINCT keyword, the number of rows returned by an "
+"aggregate query with a GROUP BY clause is the same as the number of groups "
+"of rows produced by applying the GROUP BY and HAVING clauses to the filtered "
+"input dataset."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_select.html:11234
+msgid "<a name=\"bareagg\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h2>
+#: sedout/lang_select.html:11236
+msgid "<span>2.5. </span>Bare columns in an aggregate query"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_select.html:11238
+msgid ""
+"The usual case is that all column names in an aggregate query are either "
+"arguments to <a href=\"lang_aggfunc.html\">aggregate functions</a> or else "
+"appear in the GROUP BY clause.  A result column which contains a column name "
+"that is not within an aggregate function and that does not appear in the "
+"GROUP BY clause (if one exists) is called a \"bare\" column.  Example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><blockquote><pre>
+#: sedout/lang_select.html:11245
+#, no-wrap
+msgid "SELECT a, b, sum(c) FROM tab1 GROUP BY a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_select.html:11247
+msgid ""
+"In the query above, the \"a\" column is part of the GROUP BY clause and so "
+"each row of the output contains one of the distinct values for \"a\".  The "
+"\"c\" column is contained within the <a "
+"href=\"lang_aggfunc.html#sumunc\">sum()</a> aggregate function and so that "
+"output column is the sum of all \"c\" values in rows that have the same "
+"value for \"a\".  But what is the result of the bare column \"b\"? The "
+"answer is that the \"b\" result will be the value for \"b\" in one of the "
+"input rows that form the aggregate.  The problem is that you usually do not "
+"know which input row is used to compute \"b\", and so in many cases the "
+"value for \"b\" is undefined."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_select.html:11258
+msgid ""
+"Special processing occurs when the aggregate function is either <a "
+"href=\"lang_aggfunc.html#min_agg\">min()</a> or <a "
+"href=\"lang_aggfunc.html#max_agg\">max()</a>.  Example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><blockquote><pre>
+#: sedout/lang_select.html:11261
+#, no-wrap
+msgid "SELECT a, b, max(c) FROM tab1 GROUP BY a;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_select.html:11264
+msgid ""
+"If there is exactly one <a href=\"lang_aggfunc.html#max_agg\">min()</a> or "
+"<a href=\"lang_aggfunc.html#min_agg\">max()</a> aggregate in the query, then "
+"all bare columns in the result set take values from an input row which also "
+"contains the minimum or maximum.  So in the query above, the value of the "
+"\"b\" column in the output will be the value of the \"b\" column in the "
+"input row that has the largest \"c\" value.  There are limitations on this "
+"special behavior of <a href=\"lang_aggfunc.html#max_agg\">min()</a> and <a "
+"href=\"lang_aggfunc.html#min_agg\">max()</a>:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:11274
+msgid ""
+"If the same minimum or maximum value occurs on two or more rows, then bare "
+"values might be selected from any of those rows.  The choice is arbitrary.  "
+"There is no way to predict from which row the bare values will be choosen.  "
+"The choice might be different for different bare columns within the same "
+"query."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:11281
+msgid ""
+"If there are two or more <a href=\"lang_aggfunc.html#min_agg\">min()</a> or "
+"<a href=\"lang_aggfunc.html#max_agg\">max()</a> aggregates in the query, "
+"then bare column values will be taken from one of the rows on which one of "
+"the aggregates has their minimum or maximum value.  The choice of which <a "
+"href=\"lang_aggfunc.html#min_agg\">min()</a> or <a "
+"href=\"lang_aggfunc.html#max_agg\">max()</a> aggregate determines the "
+"selection of bare column values is arbitrary.  The choice might be different "
+"for different bare columns within the same query."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:11289
+msgid ""
+"This special processing for <a href=\"lang_aggfunc.html#min_agg\">min()</a> "
+"or <a href=\"lang_aggfunc.html#max_agg\">max()</a> aggregates only works for "
+"the built-in implementation of those aggregates.  If an application "
+"overrides the built-in <a href=\"lang_aggfunc.html#min_agg\">min()</a> or <a "
+"href=\"lang_aggfunc.html#max_agg\">max()</a> aggregates with "
+"application-defined alternatives, then the values selected for bare columns "
+"will be taken from an arbitrary row."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:11296
+msgid ""
+"Most other SQL database engines disallow bare columns.  If you include a "
+"bare column in a query, other database engines will usually raise an error.  "
+"The ability to include bare columns in a query is an SQLite-specific "
+"extension."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_select.html:11300
+msgid "<a name=\"distinct\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h2>
+#: sedout/lang_select.html:11303
+msgid "<span>2.6. </span>Removal of duplicate rows (DISTINCT processing)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:11305
+msgid ""
+"One of the ALL or DISTINCT keywords may follow the SELECT keyword in a "
+"simple SELECT statement. If the simple SELECT is a SELECT ALL, then the "
+"entire set of result rows are returned by the SELECT. If neither ALL or "
+"DISTINCT are present, then the behavior is as if ALL were specified.  If the "
+"simple SELECT is a SELECT DISTINCT, then duplicate rows are removed from the "
+"set of result rows before it is returned. For the purposes of detecting "
+"duplicate rows, two NULL values are considered to be equal. The <a "
+"href=\"datatype3.html#colrules\">usual rules</a> apply for selecting a "
+"collation sequence to compare text values.  <a name=\"compound\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h1>
+#: sedout/lang_select.html:11317
+msgid "<span>3. </span>Compound Select Statements"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:11319
+msgid ""
+"Two or more <a href=\"lang_select.html#simpleselect\">simple SELECT</a> "
+"statements may be connected together to form a compound SELECT using the "
+"UNION, UNION ALL, INTERSECT or EXCEPT operator, as shown by the following "
+"diagram:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:11323
+msgid ""
+"<b><a "
+"href=\"syntax/compound-select-stmt.html\">compound-select-stmt:</a></b> "
+"<button id='x14a6ae14' "
+"onclick='hideorshow(\"x14a6ae14\",\"x1287962b\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><p>
+#: sedout/lang_select.html:11463
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x26f56330' "
+"onclick='hideorshow(\"x26f56330\",\"xc7540d0e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:11533
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xaebe7cb1' "
+"onclick='hideorshow(\"xaebe7cb1\",\"x00a8dcea\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:11812
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='xa4e0c5a4' "
+"onclick='hideorshow(\"xa4e0c5a4\",\"x914fa17d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:11854
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xab2e3e2d' "
+"onclick='hideorshow(\"xab2e3e2d\",\"x51dfdd8a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:11886
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xf0a384bf' "
+"onclick='hideorshow(\"xf0a384bf\",\"xea019e9a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:11934
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x87112ea0' "
+"onclick='hideorshow(\"x87112ea0\",\"x94c8f194\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:12002
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xeaa29735' "
+"onclick='hideorshow(\"xeaa29735\",\"x137469ee\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:12055
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xec2a37eb' "
+"onclick='hideorshow(\"xec2a37eb\",\"xa88d62a9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:12200
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xe3082246' "
+"onclick='hideorshow(\"xe3082246\",\"x22e8d437\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:12281
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x14c9376d' "
+"onclick='hideorshow(\"x14c9376d\",\"xa6e6e8b2\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><p>
+#: sedout/lang_select.html:12494
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x3bc4ebb5' "
+"onclick='hideorshow(\"x3bc4ebb5\",\"x33bc509f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:13001
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x89f8e813' "
+"onclick='hideorshow(\"x89f8e813\",\"x73ff6c0b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:13032
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x0fe9064a' "
+"onclick='hideorshow(\"x0fe9064a\",\"x675ae61e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:13103
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='xa46244d7' "
+"onclick='hideorshow(\"xa46244d7\",\"x6c96c150\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:13195
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x34c8c290' "
+"onclick='hideorshow(\"x34c8c290\",\"xeb2016cd\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:13406
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x081fe3b3' "
+"onclick='hideorshow(\"x081fe3b3\",\"x1762fa5f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:13462
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x56542a4e' "
+"onclick='hideorshow(\"x56542a4e\",\"x6478b859\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:13741
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x16869762' "
+"onclick='hideorshow(\"x16869762\",\"x257fa38b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:13783
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x0143cfda' "
+"onclick='hideorshow(\"x0143cfda\",\"x9a6b9eaf\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:13815
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x1601515d' "
+"onclick='hideorshow(\"x1601515d\",\"x06e3f57f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:13863
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x3e158401' "
+"onclick='hideorshow(\"x3e158401\",\"x30980d7f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:13931
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='x4f4991fb' "
+"onclick='hideorshow(\"x4f4991fb\",\"x7f5c95ca\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:13984
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x5d7be0da' "
+"onclick='hideorshow(\"x5d7be0da\",\"x0bf4cc68\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:14129
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x9d29385b' "
+"onclick='hideorshow(\"x9d29385b\",\"xac85d545\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:14210
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xe31d1017' "
+"onclick='hideorshow(\"xe31d1017\",\"xc8e5970e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:14422
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x1b8fcc1b' "
+"onclick='hideorshow(\"x1b8fcc1b\",\"xa51222e7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:14477
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x4b92ea54' "
+"onclick='hideorshow(\"x4b92ea54\",\"xe4fee2c4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><p>
+#: sedout/lang_select.html:14506
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x2dd225fd' "
+"onclick='hideorshow(\"x2dd225fd\",\"x7463675a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><p>
+#: sedout/lang_select.html:14567
+msgid ""
+"<b><a href=\"syntax/select-core.html\">select-core:</a></b> <button "
+"id='xa5a2cd91' "
+"onclick='hideorshow(\"xa5a2cd91\",\"x9f3efdfe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:14745
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x8f01b30c' "
+"onclick='hideorshow(\"x8f01b30c\",\"x4f875a5b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:14777
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x2e7d2b54' "
+"onclick='hideorshow(\"x2e7d2b54\",\"x2bb6a917\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:14825
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xe5db143e' "
+"onclick='hideorshow(\"xe5db143e\",\"xe248357e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:14893
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xa862605d' "
+"onclick='hideorshow(\"xa862605d\",\"xc7ab4404\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:14946
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x6fecda24' "
+"onclick='hideorshow(\"x6fecda24\",\"xb4b4cc56\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:15090
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xe7560e29' "
+"onclick='hideorshow(\"xe7560e29\",\"xa2d627b5\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><div><p>
+#: sedout/lang_select.html:15369
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x10952e30' "
+"onclick='hideorshow(\"x10952e30\",\"x90b74845\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><p>
+#: sedout/lang_select.html:15413
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x1f5fb171' "
+"onclick='hideorshow(\"x1f5fb171\",\"x4f1e099b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><div><div><div><p>
+#: sedout/lang_select.html:15494
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xef499809' "
+"onclick='hideorshow(\"xef499809\",\"x1a4dbbe2\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15709
+msgid ""
+"In a compound SELECT, all the constituent SELECTs must return the same "
+"number of result columns. As the components of a compound SELECT must be "
+"simple SELECT statements, they may not contain <a "
+"href=\"lang_select.html#orderby\">ORDER BY</a> or <a "
+"href=\"lang_select.html#limitoffset\">LIMIT</a> clauses.  <a "
+"href=\"lang_select.html#orderby\">ORDER BY</a> and <a "
+"href=\"lang_select.html#limitoffset\">LIMIT</a> clauses may only occur at "
+"the end of the entire compound SELECT, and then only if the final element of "
+"the compound is not a <a href=\"lang_select.html#values\">VALUES</a> clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15715
+msgid ""
+"A compound SELECT created using UNION ALL operator returns all the rows from "
+"the SELECT to the left of the UNION ALL operator, and all the rows from the "
+"SELECT to the right of it. The UNION operator works the same way as UNION "
+"ALL, except that duplicate rows are removed from the final result set.  The "
+"INTERSECT operator returns the intersection of the results of the left and "
+"right SELECTs.  The EXCEPT operator returns the subset of rows returned by "
+"the left SELECT that are not also returned by the right-hand "
+"SELECT. Duplicate rows are removed from the results of INTERSECT and EXCEPT "
+"operators before the result set is returned."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15725
+msgid ""
+"For the purposes of determining duplicate rows for the results of compound "
+"SELECT operators, NULL values are considered equal to other NULL values and "
+"distinct from all non-NULL values. The collation sequence used to compare "
+"two text values is determined as if the columns of the left and right-hand "
+"SELECT statements were the left and right-hand operands of the equals (=)  "
+"operator, except that greater precedence is not assigned to a collation "
+"sequence specified with the postfix COLLATE operator. No affinity "
+"transformations are applied to any values when comparing rows as part of a "
+"compound SELECT."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15735
+msgid ""
+"When three or more simple SELECTs are connected into a compound SELECT, they "
+"group from left to right. In other words, if \"A\", \"B\" and \"C\" are all "
+"simple SELECT statements, (A op B op C) is processed as ((A op B) op C)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_select.html:15741
+msgid "<a name=\"orderby\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h1>
+#: sedout/lang_select.html:15743
+msgid "<span>4. </span>The ORDER BY clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15745
+msgid ""
+"If a SELECT statement that returns more than one row does not have an ORDER "
+"BY clause, the order in which the rows are returned is undefined.  Or, if a "
+"SELECT statement does have an ORDER BY clause, then the list of expressions "
+"attached to the ORDER BY determine the order in which rows are returned to "
+"the user."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15752
+msgid ""
+"In a <a href=\"lang_select.html#compound\">compound SELECT</a> statement, "
+"only the last or right-most <a href=\"lang_select.html#simpleselect\">simple "
+"SELECT</a> may have an ORDER BY clause. That ORDER BY clause will apply "
+"across all elements of the compound. If the right-most element of a <a "
+"href=\"lang_select.html#compound\">compound SELECT</a> is a <a "
+"href=\"lang_select.html#values\">VALUES</a> clause, then no ORDER BY clause "
+"is allowed on that statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15758
+msgid ""
+"Rows are first sorted based on the results of evaluating the left-most "
+"expression in the ORDER BY list, then ties are broken by evaluating the "
+"second left-most expression and so on. The order in which two rows for which "
+"all ORDER BY expressions evaluate to equal values are returned is "
+"undefined. Each ORDER BY expression may be optionally followed by one of the "
+"keywords ASC (smaller values are returned first) or DESC (larger values are "
+"returned first). If neither ASC or DESC are specified, rows are sorted in "
+"ascending (smaller values first) order by default.  <a "
+"name=\"nullslast\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15769
+msgid ""
+"SQLite considers NULL values to be smaller than any other values for sorting "
+"purposes.  Hence, NULLs naturally appear at the beginning of an ASC order-by "
+"and at the end of a DESC order-by.  This can be changed using the \"ASC "
+"NULLS LAST\" or \"DESC NULLS FIRST\" syntax."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15774
+msgid "Each ORDER BY expression is processed as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15777
+msgid ""
+"If the ORDER BY expression is a constant integer K then the expression is "
+"considered an alias for the K-th column of the result set (columns are "
+"numbered from left to right starting with 1)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15781
+msgid ""
+"If the ORDER BY expression is an identifier that corresponds to the alias of "
+"one of the output columns, then the expression is considered an alias for "
+"that column."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15785
+msgid ""
+"Otherwise, if the ORDER BY expression is any other expression, it is "
+"evaluated and the returned value used to order the output rows. If the "
+"SELECT statement is a simple SELECT, then an ORDER BY may contain any "
+"arbitrary expressions. However, if the SELECT is a compound SELECT, then "
+"ORDER BY expressions that are not aliases to output columns must be exactly "
+"the same as an expression used as an output column."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15793
+msgid ""
+"For the purposes of sorting rows, values are compared in the same way as for "
+"<a href=\"datatype3.html#comparisons\">comparison expressions</a>. The "
+"collation sequence used to compare two text values is determined as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15798
+msgid ""
+"If the ORDER BY expression is assigned a collation sequence using the "
+"postfix <a href=\"lang_expr.html#collateop\">COLLATE operator</a>, then the "
+"specified collation sequence is used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15801
+msgid ""
+"Otherwise, if the ORDER BY expression is an alias to an expression that has "
+"been assigned a collation sequence using the postfix <a "
+"href=\"lang_expr.html#collateop\">COLLATE operator</a>, then the collation "
+"sequence assigned to the aliased expression is used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15805
+msgid ""
+"Otherwise, if the ORDER BY expression is a column or an alias of an "
+"expression that is a column, then the default collation sequence for the "
+"column is used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/lang_select.html:15808
+msgid ""
+"Otherwise, the <a href=\"datatype3.html#collation\">BINARY</a> collation "
+"sequence is used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15811
+msgid ""
+"In a <a href=\"lang_select.html#compound\">compound SELECT</a> statement, "
+"all ORDER BY expressions are handled as aliases for one of the result "
+"columns of the compound.  If an ORDER BY expression is not an integer alias, "
+"then SQLite searches the left-most SELECT in the compound for a result "
+"column that matches either the second or third rules above. If a match is "
+"found, the search stops and the expression is handled as an alias for the "
+"result column that it has been matched against. Otherwise, the next SELECT "
+"to the right is tried, and so on.  If no matching expression can be found in "
+"the result columns of any constituent SELECT, it is an error. Each term of "
+"the ORDER BY clause is processed separately and may be matched against "
+"result columns from different SELECT statements in the compound."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_select.html:15823
+msgid "<a name=\"limitoffset\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><h1>
+#: sedout/lang_select.html:15825
+msgid "<span>5. </span>The LIMIT clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15827
+msgid ""
+"The LIMIT clause is used to place an upper bound on the number of rows "
+"returned by the entire SELECT statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15830
+msgid ""
+"In a <a href=\"lang_select.html#compound\">compound SELECT</a>, only the "
+"last or right-most <a href=\"lang_select.html#simpleselect\">simple "
+"SELECT</a> may contain a LIMIT clause.  In a <a "
+"href=\"lang_select.html#compound\">compound SELECT</a>, the LIMIT clause "
+"applies to the entire compound, not just the final SELECT.  If the "
+"right-most <a href=\"lang_select.html#simpleselect\">simple SELECT</a> is a "
+"<a href=\"lang_select.html#values\">VALUES clause</a> then no LIMIT clause "
+"is allowed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15837
+msgid ""
+"Any scalar expression may be used in the LIMIT clause, so long as it "
+"evaluates to an integer or a value that can be losslessly converted to an "
+"integer. If the expression evaluates to a NULL value or any other value that "
+"cannot be losslessly converted to an integer, an error is returned. If the "
+"LIMIT expression evaluates to a negative value, then there is no upper bound "
+"on the number of rows returned. Otherwise, the SELECT returns the first N "
+"rows of its result set only, where N is the value that the LIMIT expression "
+"evaluates to. Or, if the SELECT statement would return less than N rows "
+"without a LIMIT clause, then the entire result set is returned."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15848
+msgid ""
+"The expression attached to the optional OFFSET clause that may follow a "
+"LIMIT clause must also evaluate to an integer, or a value that can be "
+"losslessly converted to an integer. If an expression has an OFFSET clause, "
+"then the first M rows are omitted from the result set returned by the SELECT "
+"statement and the next N rows are returned, where M and N are the values "
+"that the OFFSET and LIMIT clauses evaluate to, respectively. Or, if the "
+"SELECT would return less than M+N rows if it did not have a LIMIT clause, "
+"then the first M rows are skipped and the remaining rows (if any) are "
+"returned. If the OFFSET clause evaluates to a negative value, the results "
+"are the same as if it had evaluated to zero."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15859
+msgid ""
+"Instead of a separate OFFSET clause, the LIMIT clause may specify two scalar "
+"expressions separated by a comma. In this case, the first expression is used "
+"as the OFFSET expression and the second as the LIMIT expression.  This is "
+"counter-intuitive, as when using the OFFSET clause the second of the two "
+"expressions is the OFFSET and the first the LIMIT.  This reversal of the "
+"offset and limit is intentional - it maximizes compatibility with other SQL "
+"database systems.  However, to avoid confusion, programmers are strongly "
+"encouraged to use the form of the LIMIT clause that uses the \"OFFSET\" "
+"keyword and avoid using a LIMIT clause with a comma-separated offset.  <a "
+"name=\"values\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><h1>
+#: sedout/lang_select.html:15872
+msgid "<span>6. </span>The VALUES clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15874
+msgid ""
+"The phrase \"VALUES(<i>expr-list</i>)\" means the same thing as \"SELECT "
+"<i>expr-list</i>\".  The phrase "
+"\"VALUES(<i>expr-list-1</i>),...,(<i>expr-list-N</i>)\" means the same thing "
+"as \"SELECT <i>expr-list-1</i> UNION ALL ... UNION ALL SELECT "
+"<i>expr-list-N</i>\".  Both forms are the same, except that the number of "
+"SELECT statements in a compound is limited by <a "
+"href=\"c3ref/c_limit_attached.html#sqlitelimitcompoundselect\">SQLITE_LIMIT_COMPOUND_SELECT</a> "
+"whereas the number of rows in a VALUES clause has no arbitrary limit."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15883
+msgid ""
+"There are some restrictions on the use of a VALUES clause that are not shown "
+"on the syntax diagrams:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:15888
+msgid ""
+"A VALUES clause cannot be followed by <a "
+"href=\"lang_select.html#orderby\">ORDER BY</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:15891
+msgid ""
+"A VALUES clause cannot be followed by <a "
+"href=\"lang_select.html#limitoffset\">LIMIT</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><h1>
+#: sedout/lang_select.html:15895
+msgid "<span>7. </span>The WITH Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15897
+msgid ""
+"SELECT statements may be optionally preceded by a single <a "
+"href=\"lang_with.html\">WITH clause</a> that defines one or more <a "
+"href=\"lang_with.html\">common table expressions</a> for use within the "
+"SELECT statement.  <a name=\"tabfunc1\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><h1>
+#: sedout/lang_select.html:15903
+msgid "<span>8. </span>Table-valued Functions In The FROM Clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15905
+msgid ""
+"A <a href=\"vtab.html\">virtual table</a> that contains <a "
+"href=\"vtab.html#hiddencol\">hidden columns</a> can be used like a <a "
+"href=\"vtab.html#tabfunc2\">table-valued function</a> in the FROM clause.  "
+"The arguments to the table-valued function become constraints on the HIDDEN "
+"columns of the virtual table.  Additional information can be found in the <a "
+"href=\"vtab.html#tabfunc2\">virtual table documentation</a>.  <a "
+"name=\"nonstd\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><h1>
+#: sedout/lang_select.html:15914
+msgid "<span>9. </span>Deviations From Standard SQL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15916
+msgid ""
+"The SELECT syntax of SQLite differs slightly from standard SQL.  These "
+"differences are due to several reasons:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:15920
+msgid ""
+"In the mid-2000s, there was a lot of emphasis on keeping the library "
+"footprint as small as possible, so as not to use too much space on "
+"memory-limited flip-phones and similar."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:15924
+msgid ""
+"During the early years of SQLite, the lead developer sought to follow <a "
+"href=\"https://en.wikipedia.org/wiki/Robustness_principle\">Postel's Law</a> "
+"and to be forgiving and flexible in what input was accepted."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:15928
+msgid "There were bugs in early SQLite parsers that accepts some strange inputs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:15930
+msgid "The lead developer's knowledge of SQL was imperfect."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15933
+msgid ""
+"Whatever the origin of the input quirks, we generally avoid trying to "
+"\"fix\" them, as any new restrictions on the input syntax would likely cause "
+"at least some of the millions of applications that use SQLite to break.  We "
+"do not want that.  The goal of the SQLite development team is to preserve "
+"backwards compability to the fullest extent possible.  Hence, if a syntax "
+"quirk is harmless, we leave it alone and document it here, rather than try "
+"to fix it."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><h2>
+#: sedout/lang_select.html:15940
+msgid "<span>9.1. </span>Strange JOIN names"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15942
+msgid "SQLite accepts all of the usual syntax for JOIN operators:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:15944
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x7ecefccd' "
+"onclick='hideorshow(\"x7ecefccd\",\"xf85d5a38\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16013
+msgid ""
+"But it does not stop there.  SQLite is actually very flexible in how you "
+"specify a join operator.  The general syntax is:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><blockquote>
+#: sedout/lang_select.html:16017
+msgid "<i>blah blah blah</i> <b>JOIN</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16020
+msgid ""
+"Where there are between 1 and 3 instances of \"<i>blah</i>\", each of which "
+"can be any of \"CROSS\", \"FULL\", \"INNER\", \"LEFT\", \"NATURAL\", "
+"\"OUTER\", or \"RIGHT\".  The SQLite parser treats each of these keywords as "
+"an attribute of the join, which can be combined in any order.  This creates "
+"the possibility of many new and creative join types beyond what is specified "
+"by the syntax diagram.  Some of these non-standard join types are "
+"specifically disallowed.  For example, you cannot say \"INNER OUTER JOIN\", "
+"because that would be contradictory.  But you can say things like \"OUTER "
+"LEFT NATURAL JOIN\" which means the same as \"NATURAL LEFT OUTER JOIN\".  Or "
+"you can say \"LEFT RIGHT JOIN\" which is the same as \"FULL JOIN\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16030
+msgid ""
+"Remember: you <i>can</i> use these non-standard join types but you <i>ought "
+"not</i>.  Stick to using standard JOIN syntax for portability with other SQL "
+"database engines."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><h2>
+#: sedout/lang_select.html:16033
+msgid "<span>9.2. </span>Precedence of comma-joins and CROSS JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16035
+msgid ""
+"In standard SQL, joins that use the JOIN keyword take higher precedence than "
+"comma-joins.  That is to say, JOIN operators happen before comma operators.  "
+"This is not the case in SQLite, where all joins have the same precedence."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16039
+msgid "Consider this example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><blockquote><pre>
+#: sedout/lang_select.html:16042
+#, no-wrap
+msgid "... FROM t1, t2 NATURAL FULL JOIN t3 ...\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16045
+msgid ""
+"In standard SQL, the FULL JOIN between t2 and t3 would occur first, and then "
+"the result of the left join would be cross-joined against t1.  But SQLite "
+"always handles all joins from left to right.  Thus, SQLite will do a cross "
+"join on t1 and t2 first, then the result of that cross join will feed into "
+"the FULL JOIN with t3.  Inner joins are inherently associative, so the "
+"difference is only evident if your FROM clause contains one or more outer "
+"joins."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16052
+msgid ""
+"You can work around this, and make your SQL statements portable across all "
+"systems, by observing the following stylistic rules:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:16056
+msgid ""
+"Do not mix comma-joins with the JOIN keyword.  It is fine to use "
+"comma-joins, but if you do, the you should use only comma-joins for the "
+"entire FROM clause."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:16059
+msgid "Prefer LEFT JOIN over other outer join operators."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/lang_select.html:16061
+msgid ""
+"When in doubt, use parentheses to specify the exact join order that you "
+"intend."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16064
+msgid ""
+"Any one of these suggestions is sufficient to avoid problems, and most "
+"programmers instinctively follow all of these suggestions without having to "
+"be told, and so the lack of precedence difference between comma-joins and "
+"the JOIN keyword in SQLite rarely comes up in practice.  But you should be "
+"aware of the problem, in case it ever does appear."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/lang_select.html:16069
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_select.in?m=b6b0b5302d\">2022-11-09 "
+"20:11:26</a> UTC </i></small>"
+msgstr ""

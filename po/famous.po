@@ -1,0 +1,494 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 20:27+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/famous.html:6
+msgid "Well-Known Users Of SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/famous.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/famous.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/famous.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/famous.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/famous.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/famous.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/famous.html:22 sedout/famous.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/famous.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/famous.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/famous.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/famous.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/famous.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/famous.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/famous.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/famous.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/famous.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/famous.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/famous.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/famous.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/famous.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/famous.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/famous.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/famous.html:120
+msgid "Well-Known Users of SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/famous.html:123
+msgid ""
+"SQLite is used by literally millions of applications with literally billions "
+"and billions of deployments.  SQLite is the <a "
+"href=\"mostdeployed.html\">most widely deployed</a> database engine in the "
+"world today."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/famous.html:129
+msgid ""
+"A few of the better-known users of SQLite are shown below in alphabetical "
+"order.  This is not a complete list.  SQLite is in the <a "
+"href=\"copyright.html\">public domain</a> and so most developers use it in "
+"their projects without ever telling us."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:139 sedout/famous.html:354
+msgid "<a href='http://www.adobe.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:142 sedout/famous.html:358
+msgid ""
+"<a href=\"http://www.adobe.com/\">Adobe</a> uses SQLite as the <a "
+"href=\"whentouse.html#appfileformat\">application file format</a> for their "
+"<a href=\"http://www.adobe.com/products/photoshoplightroom/\">Photoshop "
+"Lightroom</a> product.  SQLite is also a standard part of the <a "
+"href=\"https://airsdk.harman.com\">Adobe Integrated Runtime (AIR)</a>.  It "
+"is reported that <a "
+"href=\"http://www.adobe.com/products/acrobat/readstep2.html\">Acrobat "
+"Reader</a> also uses SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:155 sedout/famous.html:370
+msgid "<a href='http://www.airbus.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:158 sedout/famous.html:374
+msgid ""
+"<a href=\"http://www.airbus.com/\">Airbus</a> confirms that SQLite is being "
+"used in the flight software for the <a "
+"href=\"https://www.airbus.com/en/products-services/commercial-aircraft/passenger-aircraft/a350-family\">A350 "
+"XWB</a> family of aircraft."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:165 sedout/famous.html:380
+msgid "<a href='http://www.apple.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:168 sedout/famous.html:384
+msgid ""
+"<a href=\"http://www.apple.com/\">Apple</a> uses SQLite in many (most?) of "
+"the native applications running on Mac OS-X desktops and servers and on iOS "
+"devices such as iPhones and iPods.  SQLite is also used in <a "
+"href=\"http://www.apple.com/itunes/\">iTunes</a>, even on non-Apple "
+"hardware."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:175 sedout/famous.html:390
+msgid "<a href='http://www.bentley.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:178 sedout/famous.html:394
+msgid ""
+"<a href=\"http://www.bentley.com/\">Bentley Systems</a> uses SQLite as the "
+"<a href=\"aff_short.html\">application file format</a> for their <a "
+"href=\"https://www.bentley.com/en/products/product-line/modeling-and-visualization-software/microstation\">Microstation</a> "
+"CAD/CAM product."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:185 sedout/famous.html:400
+msgid "<a href='http://oss.bosch-cm.com/index.html' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:188 sedout/famous.html:404
+msgid ""
+"<a href=\"http://www.bosch.com/\">Bosch</a> uses SQLite in the multimedia "
+"systems install on GM, Nissan, and Suzuki automobiles.  (<a "
+"href=\"http://oss.bosch-cm.com/index.html\">link</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:194 sedout/famous.html:409
+msgid "<a href='http://www.dropbox.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:197 sedout/famous.html:413
+msgid ""
+"The increasingly popular <a href=\"http://www.dropbox.com/\">Dropbox</a> "
+"file archiving and synchronization service is reported to use SQLite as the "
+"primary data store on the client side."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:203 sedout/famous.html:418
+msgid "<a href='https://www.expensify.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:206 sedout/famous.html:422
+msgid ""
+"<a href=\"https://www.expensify.com/\">Expensify</a> uses SQLite as a "
+"server-side database engine for their enterprise-scale expense reporting "
+"software."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:211 sedout/famous.html:426
+msgid "<a href='https://www.facebook.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:214 sedout/famous.html:430
+msgid ""
+"<a href=\"https://www.facebook.com/\">Facebook</a> uses SQLite as the SQL "
+"database engine in their <a "
+"href=\"https://code.facebook.com/projects/658950180885092\">osquery</a> "
+"product."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:220 sedout/famous.html:435
+msgid "<a href='http://www.ge.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:223 sedout/famous.html:439
+msgid ""
+"We believe that <a href=\"http://www.ge.com/\">General Electric</a> uses "
+"SQLite in some product or another because they have written to the SQLite "
+"developers at least four separate times requesting the US Export Control "
+"Number for SQLite. So presumably GE is using SQLite in something that they "
+"are exporting. But nobody (outside of GE) seems to know what that might be."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:233 sedout/famous.html:448
+msgid "<a href='http://www.google.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:236 sedout/famous.html:452
+msgid ""
+"uses SQLite in their <a href=\"http://code.google.com/android/\">Android</a> "
+"cell-phone operating system, and in the <a "
+"href=\"http://www.google.com/chrome\">Chrome Web Browser</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:243 sedout/famous.html:458
+msgid "<a href='http://www.intuit.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:246 sedout/famous.html:462
+msgid ""
+"<a href=\"http://www.intuit.com/\">Intuit</a> apparently uses SQLite in <a "
+"href=\"http://www.quickbooks.com/\">QuickBooks</a> and in <a "
+"href=\"http://turbotax.intuit.com/\">TurboTax</a> to judge from some error "
+"reports from users seen <a "
+"href=\"http://community.intuit.com/posts/database-error-sqlite-error-code1\">here</a> "
+"and <a "
+"href=\"https://ttlc.intuit.com/post/show_full/cJf8mIhC4r4jjracfArQzM/when-i-try-to-update-turbotax-i-receive-an-unexpected-error-message\">here</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:255 sedout/famous.html:470
+msgid "<a href='http://www.loc.gov/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:258 sedout/famous.html:474
+msgid ""
+"The United States Library of Congress recognizes SQLite as a <a "
+"href=\"locrsf.html\">recommended storage format</a> for preservation of "
+"digital content."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:263 sedout/famous.html:478
+msgid "<a href='http://www.mcafee.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:266 sedout/famous.html:482
+msgid ""
+"<a href=\"http://www.mcafee.com/\">McAfee</a> uses SQLite in its antivirus "
+"programs.  Mentioned <a "
+"href=\"http://www.mail-archive.com/sqlite-users@sqlite.org/msg16931.html\">here</a> "
+"and implied <a "
+"href=\"https://forums.mcafee.com/t5/WebAdvisor/SQLite-Temporary-Files/m-p/19512\">here</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:273 sedout/famous.html:488
+msgid "<a href='http://www.microsoft.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:276 sedout/famous.html:492
+msgid ""
+"<a href=\"http://www.microsoft.com/\">Microsoft</a> uses SQLite as a core "
+"component of Windows 10, and in other products."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:281 sedout/famous.html:496
+msgid "<a href='http://www.mozilla.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:284 sedout/famous.html:500
+msgid ""
+"SQLite is the primary meta-data storage format for the <a "
+"href=\"http://www.mozilla.com/\">Firefox Web Browser</a> and the <a "
+"href=\"http://www.mozilla.com/thunderbird/\">Thunderbird Email Reader</a> "
+"from Mozilla."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:291 sedout/famous.html:506
+msgid "<a href='http://www.nds-association.org/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:294 sedout/famous.html:510
+msgid ""
+"<a href=\"http://www.nds-association.org/\">The Navigation Data Standard</a> "
+"uses SQLite as its <a href=\"aff_short.html\">application file format</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:299 sedout/famous.html:514
+msgid "<a href='http://www.php.net/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:302 sedout/famous.html:518
+msgid ""
+"The popular <a href=\"http://www.php.net/\">PHP</a> programming language "
+"comes with both SQLite2 and SQLite3 built in."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:307 sedout/famous.html:522
+msgid "<a href='http://www.python.org/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:310 sedout/famous.html:526
+msgid ""
+"All <a href=\"http://docs.python.org/lib/module-sqlite3.html\">Python</a> "
+"distributions since Python 2.5 include SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:315 sedout/famous.html:530
+msgid "<a href='https://en.wikipedia.org/wiki/RPM_Package_Manager' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:318 sedout/famous.html:534
+msgid ""
+"The <a href=\"https://en.wikipedia.org/wiki/RPM_Package_Manager\">RedHat "
+"Package Manager (RPM)</a> uses SQLite to track its state."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:323 sedout/famous.html:538
+msgid "<a href='http://www.skype.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:326 sedout/famous.html:542
+msgid ""
+"There are <a "
+"href=\"http://www.mail-archive.com/sqlite-users%40sqlite.org/msg27326.html\">multiple</a> "
+"<a "
+"href=\"http://www.mail-archive.com/sqlite-users%40sqlite.org/msg27332.html\">sightings</a> "
+"of SQLite in the Skype client for Mac OS X and Windows."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:333 sedout/famous.html:548
+msgid "<a href='http://www.tcl-lang.org/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:336 sedout/famous.html:552
+msgid ""
+"The Tcl/Tk programming language now comes with SQLite built-in.  SQLite "
+"works particularly well with Tcl since SQLite was originally a Tcl extension "
+"that subsequently \"escaped\" into the wild."
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td><a>
+#: sedout/famous.html:342 sedout/famous.html:557
+msgid "<a href='http://www.xojo.com/' border=0>"
+msgstr ""
+
+#. type: Content of: <html><body><p><div><table><tr><td>
+#: sedout/famous.html:345 sedout/famous.html:561
+msgid ""
+"SQLite comes bundled with the <a href=\"http://www.xojo.com/\">Xojo</a> "
+"programming environment (formerly <a "
+"href=\"http://www.realbasic.com/\">REALbasic</a>)"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/famous.html:568
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/famous.in?m=bf54cf33a9\">2023-01-02 "
+"14:22:42</a> UTC </i></small>"
+msgstr ""

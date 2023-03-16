@@ -1,0 +1,1265 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_createindex.html:6 sedout/lang_createindex.html:121
+msgid "CREATE INDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_createindex.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_createindex.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_createindex.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_createindex.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_createindex.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_createindex.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_createindex.html:22 sedout/lang_createindex.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_createindex.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_createindex.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_createindex.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_createindex.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_createindex.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_createindex.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_createindex.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_createindex.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_createindex.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_createindex.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_createindex.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_createindex.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_createindex.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_createindex.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_createindex.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createindex.html:128
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:129
+msgid ""
+"<b><a href=\"syntax/create-index-stmt.html\">create-index-stmt:</a></b> "
+"<button id='x80fb9fab' "
+"onclick='hideorshow(\"x80fb9fab\",\"x7af438dd\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createindex.html:137
+msgid "CREATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createindex.html:139
+msgid "UNIQUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createindex.html:141
+msgid "INDEX"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createindex.html:152
+msgid "IF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:156 sedout/lang_createindex.html:425
+#: sedout/lang_createindex.html:494 sedout/lang_createindex.html:519
+#: sedout/lang_createindex.html:546 sedout/lang_createindex.html:574
+#: sedout/lang_createindex.html:652 sedout/lang_createindex.html:1562
+#: sedout/lang_createindex.html:1948
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:160 sedout/lang_createindex.html:656
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:169 sedout/lang_createindex.html:244
+#: sedout/lang_createindex.html:609 sedout/lang_createindex.html:1915
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:173 sedout/lang_createindex.html:248
+#: sedout/lang_createindex.html:256 sedout/lang_createindex.html:613
+#: sedout/lang_createindex.html:1896 sedout/lang_createindex.html:1919
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:177 sedout/lang_createindex.html:1946
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:181 sedout/lang_createindex.html:1711
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:185 sedout/lang_createindex.html:252
+#: sedout/lang_createindex.html:634 sedout/lang_createindex.html:1540
+#: sedout/lang_createindex.html:1892 sedout/lang_createindex.html:1923
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:189 sedout/lang_createindex.html:303
+#: sedout/lang_createindex.html:359 sedout/lang_createindex.html:383
+#: sedout/lang_createindex.html:582 sedout/lang_createindex.html:621
+#: sedout/lang_createindex.html:660 sedout/lang_createindex.html:743
+#: sedout/lang_createindex.html:849 sedout/lang_createindex.html:1209
+#: sedout/lang_createindex.html:1432 sedout/lang_createindex.html:1546
+#: sedout/lang_createindex.html:1567 sedout/lang_createindex.html:1689
+#: sedout/lang_createindex.html:1966 sedout/lang_createindex.html:2007
+#: sedout/lang_createindex.html:2025 sedout/lang_createindex.html:2060
+#: sedout/lang_createindex.html:2357 sedout/lang_createindex.html:2380
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createindex.html:193
+msgid "indexed-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:197 sedout/lang_createindex.html:315
+#: sedout/lang_createindex.html:367 sedout/lang_createindex.html:399
+#: sedout/lang_createindex.html:590 sedout/lang_createindex.html:629
+#: sedout/lang_createindex.html:668 sedout/lang_createindex.html:755
+#: sedout/lang_createindex.html:905 sedout/lang_createindex.html:1225
+#: sedout/lang_createindex.html:1440 sedout/lang_createindex.html:1556
+#: sedout/lang_createindex.html:1575 sedout/lang_createindex.html:1697
+#: sedout/lang_createindex.html:1974 sedout/lang_createindex.html:2015
+#: sedout/lang_createindex.html:2033 sedout/lang_createindex.html:2116
+#: sedout/lang_createindex.html:2373 sedout/lang_createindex.html:2388
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:199 sedout/lang_createindex.html:338
+#: sedout/lang_createindex.html:374 sedout/lang_createindex.html:604
+#: sedout/lang_createindex.html:641 sedout/lang_createindex.html:865
+#: sedout/lang_createindex.html:889 sedout/lang_createindex.html:1217
+#: sedout/lang_createindex.html:1277 sedout/lang_createindex.html:1301
+#: sedout/lang_createindex.html:1324 sedout/lang_createindex.html:1375
+#: sedout/lang_createindex.html:1408 sedout/lang_createindex.html:1445
+#: sedout/lang_createindex.html:1447 sedout/lang_createindex.html:1481
+#: sedout/lang_createindex.html:1507 sedout/lang_createindex.html:1580
+#: sedout/lang_createindex.html:1704 sedout/lang_createindex.html:1754
+#: sedout/lang_createindex.html:1978 sedout/lang_createindex.html:2040
+#: sedout/lang_createindex.html:2076 sedout/lang_createindex.html:2100
+#: sedout/lang_createindex.html:2365
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:207 sedout/lang_createindex.html:747
+#: sedout/lang_createindex.html:1342
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:211 sedout/lang_createindex.html:277
+#: sedout/lang_createindex.html:284 sedout/lang_createindex.html:292
+#: sedout/lang_createindex.html:311 sedout/lang_createindex.html:363
+#: sedout/lang_createindex.html:387 sedout/lang_createindex.html:406
+#: sedout/lang_createindex.html:421 sedout/lang_createindex.html:437
+#: sedout/lang_createindex.html:439 sedout/lang_createindex.html:447
+#: sedout/lang_createindex.html:481 sedout/lang_createindex.html:511
+#: sedout/lang_createindex.html:533 sedout/lang_createindex.html:542
+#: sedout/lang_createindex.html:554 sedout/lang_createindex.html:562
+#: sedout/lang_createindex.html:570 sedout/lang_createindex.html:599
+#: sedout/lang_createindex.html:625 sedout/lang_createindex.html:683
+#: sedout/lang_createindex.html:691 sedout/lang_createindex.html:699
+#: sedout/lang_createindex.html:707 sedout/lang_createindex.html:751
+#: sedout/lang_createindex.html:863 sedout/lang_createindex.html:986
+#: sedout/lang_createindex.html:1008 sedout/lang_createindex.html:1030
+#: sedout/lang_createindex.html:1043 sedout/lang_createindex.html:1063
+#: sedout/lang_createindex.html:1143 sedout/lang_createindex.html:1346
+#: sedout/lang_createindex.html:1365 sedout/lang_createindex.html:1373
+#: sedout/lang_createindex.html:1436 sedout/lang_createindex.html:1475
+#: sedout/lang_createindex.html:1503 sedout/lang_createindex.html:1511
+#: sedout/lang_createindex.html:1715 sedout/lang_createindex.html:1801
+#: sedout/lang_createindex.html:1862 sedout/lang_createindex.html:1970
+#: sedout/lang_createindex.html:2074 sedout/lang_createindex.html:2194
+#: sedout/lang_createindex.html:2216 sedout/lang_createindex.html:2238
+#: sedout/lang_createindex.html:2251 sedout/lang_createindex.html:2271
+#: sedout/lang_createindex.html:2460
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createindex.html:224
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x44a3393f' "
+"onclick='hideorshow(\"x44a3393f\",\"x645a052f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:232
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:237
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:260 sedout/lang_createindex.html:1552
+#: sedout/lang_createindex.html:1693 sedout/lang_createindex.html:2437
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:273
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:288
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:299
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:307 sedout/lang_createindex.html:525
+#: sedout/lang_createindex.html:1295
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:319
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:325
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:347 sedout/lang_createindex.html:1885
+#: sedout/lang_createindex.html:1900
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:379
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:391 sedout/lang_createindex.html:1402
+#: sedout/lang_createindex.html:1560 sedout/lang_createindex.html:1866
+#: sedout/lang_createindex.html:1927 sedout/lang_createindex.html:1991
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:395
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:410 sedout/lang_createindex.html:1147
+#: sedout/lang_createindex.html:1805 sedout/lang_createindex.html:2441
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:414 sedout/lang_createindex.html:1151
+#: sedout/lang_createindex.html:1809 sedout/lang_createindex.html:2445
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:429
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:431
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:433
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:435
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:443
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:485
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:492
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:498 sedout/lang_createindex.html:796
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:515
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:529 sedout/lang_createindex.html:1316
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:550 sedout/lang_createindex.html:938
+#: sedout/lang_createindex.html:2146
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:558 sedout/lang_createindex.html:950
+#: sedout/lang_createindex.html:2158
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:578
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:586 sedout/lang_createindex.html:664
+#: sedout/lang_createindex.html:1571 sedout/lang_createindex.html:2011
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:617
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:679
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:687
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:695
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:703
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:711
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:723
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createindex.html:731
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='xd5fe02c7' "
+"onclick='hideorshow(\"xd5fe02c7\",\"x6692cc5c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:739
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createindex.html:762
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x2584c6f5' "
+"onclick='hideorshow(\"x2584c6f5\",\"x39b15686\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:770
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:777 sedout/lang_createindex.html:2412
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:782
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:789
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:803
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:810
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:817
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:824
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createindex.html:833
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x706336f5' "
+"onclick='hideorshow(\"x706336f5\",\"x08c6314e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:841
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:845 sedout/lang_createindex.html:1398
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:853 sedout/lang_createindex.html:2064
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:855 sedout/lang_createindex.html:2066
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:859 sedout/lang_createindex.html:883
+#: sedout/lang_createindex.html:1361 sedout/lang_createindex.html:1469
+#: sedout/lang_createindex.html:1942 sedout/lang_createindex.html:2070
+#: sedout/lang_createindex.html:2094
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:879 sedout/lang_createindex.html:1465
+#: sedout/lang_createindex.html:2090
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:887 sedout/lang_createindex.html:1479
+#: sedout/lang_createindex.html:2098
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:901 sedout/lang_createindex.html:2112
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:925
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x04817aa1' "
+"onclick='hideorshow(\"x04817aa1\",\"x3c552e94\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:933 sedout/lang_createindex.html:2141
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:942 sedout/lang_createindex.html:954
+#: sedout/lang_createindex.html:977 sedout/lang_createindex.html:2150
+#: sedout/lang_createindex.html:2162 sedout/lang_createindex.html:2185
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:946 sedout/lang_createindex.html:981
+#: sedout/lang_createindex.html:990 sedout/lang_createindex.html:1012
+#: sedout/lang_createindex.html:1047 sedout/lang_createindex.html:2154
+#: sedout/lang_createindex.html:2189 sedout/lang_createindex.html:2198
+#: sedout/lang_createindex.html:2220 sedout/lang_createindex.html:2255
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:958 sedout/lang_createindex.html:1034
+#: sedout/lang_createindex.html:1067 sedout/lang_createindex.html:2166
+#: sedout/lang_createindex.html:2242 sedout/lang_createindex.html:2275
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:963 sedout/lang_createindex.html:2171
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:970 sedout/lang_createindex.html:2178
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:997 sedout/lang_createindex.html:1019
+#: sedout/lang_createindex.html:1052 sedout/lang_createindex.html:1078
+#: sedout/lang_createindex.html:2205 sedout/lang_createindex.html:2227
+#: sedout/lang_createindex.html:2260 sedout/lang_createindex.html:2286
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1001 sedout/lang_createindex.html:1023
+#: sedout/lang_createindex.html:1056 sedout/lang_createindex.html:1082
+#: sedout/lang_createindex.html:2209 sedout/lang_createindex.html:2231
+#: sedout/lang_createindex.html:2264 sedout/lang_createindex.html:2290
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1074 sedout/lang_createindex.html:1087
+#: sedout/lang_createindex.html:1096 sedout/lang_createindex.html:1105
+#: sedout/lang_createindex.html:2282 sedout/lang_createindex.html:2295
+#: sedout/lang_createindex.html:2304 sedout/lang_createindex.html:2313
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1091 sedout/lang_createindex.html:1357
+#: sedout/lang_createindex.html:2299
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1100 sedout/lang_createindex.html:2308
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1109 sedout/lang_createindex.html:2317
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1113 sedout/lang_createindex.html:2321
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1135
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xe1e6b2b7' "
+"onclick='hideorshow(\"xe1e6b2b7\",\"x5ec2d095\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1160 sedout/lang_createindex.html:1818
+#: sedout/lang_createindex.html:2451
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1164 sedout/lang_createindex.html:1822
+#: sedout/lang_createindex.html:2470
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1174 sedout/lang_createindex.html:1182
+#: sedout/lang_createindex.html:1832 sedout/lang_createindex.html:1840
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1178 sedout/lang_createindex.html:1836
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1186 sedout/lang_createindex.html:1844
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createindex.html:1197
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x5216d5a0' "
+"onclick='hideorshow(\"x5216d5a0\",\"x528d82de\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1205
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1213
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1221
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1232
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1237
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1242
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createindex.html:1253
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xbcd90d06' "
+"onclick='hideorshow(\"xbcd90d06\",\"x86be806a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1262
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1264
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1270
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1291
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1299
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1309 sedout/lang_createindex.html:1623
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1320 sedout/lang_createindex.html:1653
+#: sedout/lang_createindex.html:1661 sedout/lang_createindex.html:2029
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1322 sedout/lang_createindex.html:2047
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1369
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1394
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1406
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1428
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1457
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1463
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1471
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1499
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1532
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x83a3926b' "
+"onclick='hideorshow(\"x83a3926b\",\"x2a7bcffc\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1564
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1603
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='xc7dc0cc3' "
+"onclick='hideorshow(\"xc7dc0cc3\",\"x02cfcd9e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1613 sedout/lang_createindex.html:1615
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1617
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1619
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1645
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x47f8262d' "
+"onclick='hideorshow(\"x47f8262d\",\"x42da6c07\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1657
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1665
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createindex.html:1677
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xe14b8bfa' "
+"onclick='hideorshow(\"xe14b8bfa\",\"x0be73776\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1685
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createindex.html:1725
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x393adf83' "
+"onclick='hideorshow(\"x393adf83\",\"x996c0136\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1733
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1739
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1743
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1749
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1767
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1773
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1778
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1785
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1793
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x26313914' "
+"onclick='hideorshow(\"x26313914\",\"xa727299c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1854
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xefaa4509' "
+"onclick='hideorshow(\"xefaa4509\",\"x1f33e76f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1870
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:1907
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x3438c4b7' "
+"onclick='hideorshow(\"x3438c4b7\",\"xb6e7c2b0\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1931 sedout/lang_createindex.html:1995
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1938 sedout/lang_createindex.html:1952
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:1962
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:2052
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xdf40d5c9' "
+"onclick='hideorshow(\"xdf40d5c9\",\"x36713650\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createindex.html:2133
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xcad87823' "
+"onclick='hideorshow(\"xcad87823\",\"x9d630b97\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createindex.html:2345
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='xb7e5466f' "
+"onclick='hideorshow(\"xb7e5466f\",\"xc0d8e356\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:2353
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:2361 sedout/lang_createindex.html:2369
+#: sedout/lang_createindex.html:2384
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createindex.html:2400
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='xedd59e65' "
+"onclick='hideorshow(\"xedd59e65\",\"x9b21f785\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:2408
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createindex.html:2419
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createindex.html:2429
+msgid ""
+"<b><a href=\"syntax/indexed-column.html\">indexed-column:</a></b> <button "
+"id='x366aa99b' "
+"onclick='hideorshow(\"x366aa99b\",\"xc3bb3055\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2482
+msgid ""
+"The CREATE INDEX command consists of the keywords \"CREATE INDEX\" followed "
+"by the name of the new index, the keyword \"ON\", the name of a previously "
+"created table that is to be indexed, and a parenthesized list of table "
+"column names and/or expressions that are used for the index key.  If the "
+"optional WHERE clause is included, then the index is a \"<a "
+"href=\"partialindex.html\">partial index</a>\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2489
+msgid ""
+"If the optional IF NOT EXISTS clause is present and another index with the "
+"same name already exists, then this command becomes a no-op."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2492
+msgid ""
+"There are no arbitrary limits on the number of indices that can be attached "
+"to a single table.  The number of columns in an index is limited to the "
+"value set by <a href=\"c3ref/limit.html\">sqlite3_limit</a>(<a "
+"href=\"c3ref/c_limit_attached.html#sqlitelimitcolumn\">SQLITE_LIMIT_COLUMN</a>,...)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2497
+msgid ""
+"Indexes are removed with the <a href=\"lang_dropindex.html\">DROP INDEX</a> "
+"command."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createindex.html:2499
+msgid "<a name=\"uniqueidx\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_createindex.html:2501
+msgid "<span>1.1. </span>Unique Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2503
+msgid ""
+"If the UNIQUE keyword appears between CREATE and INDEX then duplicate index "
+"entries are not allowed.  Any attempt to insert a duplicate entry will "
+"result in an error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2507
+msgid ""
+"For the purposes of unique indices, all NULL values are considered different "
+"from all other NULL values and are thus unique.  This is one of the two "
+"possible interpretations of the SQL-92 standard (the language in the "
+"standard is ambiguous).  The interpretation used by SQLite is the same and "
+"is the interpretation followed by PostgreSQL, MySQL, Firebird, and Oracle.  "
+"Informix and Microsoft SQL Server follow the other interpretation of the "
+"standard, which is that all NULL values are equal to one another."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createindex.html:2516
+msgid "<a name=\"indexexpr\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_createindex.html:2518
+msgid "<span>1.2. </span>Indexes on Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2520
+msgid ""
+"Expressions in an index may not reference other tables and may not use "
+"subqueries nor functions whose result might change (ex: <a "
+"href=\"lang_corefunc.html#random\">random()</a> or <a "
+"href=\"lang_corefunc.html#sqlite_version\">sqlite_version()</a>).  "
+"Expressions in an index may only refer to columns in the table that is being "
+"indexed.  Indexes on expression will not work with versions of SQLite prior "
+"to <a href=\"releaselog/3_9_0.html\">version 3.9.0</a> (2015-10-14).  See "
+"the <a href=\"expridx.html\">Indexes On Expressions</a> document for "
+"additional information about using general expressions in CREATE INDEX "
+"statements.  <a name=\"descidx\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_createindex.html:2532
+msgid "<span>1.3. </span>Descending Indexes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2534
+msgid ""
+"Each column name or expression can be followed by one of the \"ASC\" or "
+"\"DESC\" keywords to indicate sort order.  The sort order may or may not be "
+"ignored depending on the database file format, and in particular the <a "
+"href=\"fileformat2.html#schemaformat\">schema format number</a>.  The "
+"\"legacy\" schema format (1) ignores index sort order.  The descending index "
+"schema format (4) takes index sort order into account.  Only versions of "
+"SQLite 3.3.0 (2006-01-11)  and later are able to understand the descending "
+"index format. For compatibility, version of SQLite between 3.3.0 and 3.7.9 "
+"use the legacy schema format by default.  The newer schema format is used by "
+"default in version 3.7.10 (2012-01-16) and later.  The <a "
+"href=\"pragma.html#pragma_legacy_file_format\">legacy_file_format pragma</a> "
+"can be used to change set the specific behavior for any version of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_createindex.html:2548
+msgid "<span>1.4. </span>NULLS FIRST and NULLS LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2550
+msgid ""
+"The NULLS FIRST and NULLS LAST predicates are not supported for indexes.  "
+"For <a href=\"datatype3.html#sortorder\">sorting purposes</a>, SQLite "
+"considers NULL values to be smaller than all other values.  Hence NULL "
+"values always appear at the beginning of an ASC index and at the end of a "
+"DESC index."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createindex.html:2555
+msgid "<a name=\"collidx\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_createindex.html:2557
+msgid "<span>1.5. </span>Collations"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2559
+msgid ""
+"The COLLATE clause optionally following each column name or expression "
+"defines a collating sequence used for text entries in that column.  The "
+"default collating sequence is the collating sequence defined for that column "
+"in the <a href=\"lang_createtable.html\">CREATE TABLE</a> statement.  Or if "
+"no collating sequence is otherwise defined, the built-in BINARY collating "
+"sequence is used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createindex.html:2566
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_createindex.in?m=2c45540ea0\">2022-04-18 "
+"02:55:50</a> UTC </i></small>"
+msgstr ""

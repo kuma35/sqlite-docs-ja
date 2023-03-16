@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/io_methods.html:6 sedout/c3ref/io_methods.html:121
+msgid "OS Interface File Virtual Methods Object"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/io_methods.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/io_methods.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/io_methods.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/io_methods.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/io_methods.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/io_methods.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/io_methods.html:22 sedout/c3ref/io_methods.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/io_methods.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/io_methods.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/io_methods.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/io_methods.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/io_methods.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/io_methods.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/io_methods.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/io_methods.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/io_methods.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/io_methods.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/io_methods.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/io_methods.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/io_methods.html:124
+#, no-wrap
+msgid ""
+"typedef struct sqlite3_io_methods sqlite3_io_methods;\n"
+"struct sqlite3_io_methods {\n"
+"  int iVersion;\n"
+"  int (*xClose)(sqlite3_file*);\n"
+"  int (*xRead)(sqlite3_file*, void*, int iAmt, sqlite3_int64 iOfst);\n"
+"  int (*xWrite)(sqlite3_file*, const void*, int iAmt, sqlite3_int64 "
+"iOfst);\n"
+"  int (*xTruncate)(sqlite3_file*, sqlite3_int64 size);\n"
+"  int (*xSync)(sqlite3_file*, int flags);\n"
+"  int (*xFileSize)(sqlite3_file*, sqlite3_int64 *pSize);\n"
+"  int (*xLock)(sqlite3_file*, int);\n"
+"  int (*xUnlock)(sqlite3_file*, int);\n"
+"  int (*xCheckReservedLock)(sqlite3_file*, int *pResOut);\n"
+"  int (*xFileControl)(sqlite3_file*, int op, void *pArg);\n"
+"  int (*xSectorSize)(sqlite3_file*);\n"
+"  int (*xDeviceCharacteristics)(sqlite3_file*);\n"
+"  /* Methods above are valid for version 1 */\n"
+"  int (*xShmMap)(sqlite3_file*, int iPg, int pgsz, int, void volatile**);\n"
+"  int (*xShmLock)(sqlite3_file*, int offset, int n, int flags);\n"
+"  void (*xShmBarrier)(sqlite3_file*);\n"
+"  int (*xShmUnmap)(sqlite3_file*, int deleteFlag);\n"
+"  /* Methods above are valid for version 2 */\n"
+"  int (*xFetch)(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);\n"
+"  int (*xUnfetch)(sqlite3_file*, sqlite3_int64 iOfst, void *p);\n"
+"  /* Methods above are valid for version 3 */\n"
+"  /* Additional methods may be added in future releases */\n"
+"};\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:152
+msgid ""
+"Every file opened by the <a "
+"href=\"../c3ref/vfs.html#sqlite3vfsxopen\">sqlite3_vfs.xOpen</a> method "
+"populates an <a href=\"../c3ref/file.html\">sqlite3_file</a> object (or, "
+"more commonly, a subclass of the <a "
+"href=\"../c3ref/file.html\">sqlite3_file</a> object) with a pointer to an "
+"instance of this object.  This object defines the methods used to perform "
+"various operations against the open file represented by the <a "
+"href=\"../c3ref/file.html\">sqlite3_file</a> object."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:158
+msgid ""
+"If the <a href=\"../c3ref/vfs.html#sqlite3vfsxopen\">sqlite3_vfs.xOpen</a> "
+"method sets the sqlite3_file.pMethods element to a non-NULL pointer, then "
+"the sqlite3_io_methods.xClose method may be invoked even if the <a "
+"href=\"../c3ref/vfs.html#sqlite3vfsxopen\">sqlite3_vfs.xOpen</a> reported "
+"that it failed.  The only way to prevent a call to xClose following a failed "
+"<a href=\"../c3ref/vfs.html#sqlite3vfsxopen\">sqlite3_vfs.xOpen</a> is for "
+"the <a href=\"../c3ref/vfs.html#sqlite3vfsxopen\">sqlite3_vfs.xOpen</a> to "
+"set the sqlite3_file.pMethods element to NULL."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:165
+msgid ""
+"The flags argument to xSync may be one of <a "
+"href=\"../c3ref/c_sync_dataonly.html\">SQLITE_SYNC_NORMAL</a> or <a "
+"href=\"../c3ref/c_sync_dataonly.html\">SQLITE_SYNC_FULL</a>.  The first "
+"choice is the normal fsync().  The second choice is a Mac OS X style "
+"fullsync.  The <a "
+"href=\"../c3ref/c_sync_dataonly.html\">SQLITE_SYNC_DATAONLY</a> flag may be "
+"ORed in to indicate that only the data of the file and not its inode needs "
+"to be synced."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:171
+msgid "The integer values to xLock() and xUnlock() are one of"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/c3ref/io_methods.html:173
+msgid "<a href=\"../c3ref/c_lock_exclusive.html\">SQLITE_LOCK_NONE</a>,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li>
+#: sedout/c3ref/io_methods.html:174
+msgid "<a href=\"../c3ref/c_lock_exclusive.html\">SQLITE_LOCK_SHARED</a>,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li>
+#: sedout/c3ref/io_methods.html:175
+msgid "<a href=\"../c3ref/c_lock_exclusive.html\">SQLITE_LOCK_RESERVED</a>,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li>
+#: sedout/c3ref/io_methods.html:176
+msgid "<a href=\"../c3ref/c_lock_exclusive.html\">SQLITE_LOCK_PENDING</a>, or"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:177
+msgid "<a href=\"../c3ref/c_lock_exclusive.html\">SQLITE_LOCK_EXCLUSIVE</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:179
+msgid ""
+"xLock() upgrades the database file lock.  In other words, xLock() moves the "
+"database file lock in the direction NONE toward EXCLUSIVE. The argument to "
+"xLock() is always on of SHARED, RESERVED, PENDING, or EXCLUSIVE, never "
+"SQLITE_LOCK_NONE.  If the database file lock is already at or above the "
+"requested lock, then the call to xLock() is a no-op.  xUnlock() downgrades "
+"the database file lock to either SHARED or NONE.  to xUnlock() is a no-op.  "
+"The xCheckReservedLock() method checks whether any database connection, "
+"either in this process or in some other process, is holding a RESERVED, "
+"PENDING, or EXCLUSIVE lock on the file.  It returns true if such a lock "
+"exists and false otherwise."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:191
+msgid ""
+"The xFileControl() method is a generic interface that allows custom VFS "
+"implementations to directly control an open file using the <a "
+"href=\"../c3ref/file_control.html\">sqlite3_file_control()</a> interface.  "
+"The second \"op\" argument is an integer opcode.  The third argument is a "
+"generic pointer intended to point to a structure that may contain arguments "
+"or space in which to write return values.  Potential uses for xFileControl() "
+"might be functions to enable blocking locks with timeouts, to change the "
+"locking strategy (for example to use dot-file locks), to inquire about the "
+"status of a lock, or to break stale locks.  The SQLite core reserves all "
+"opcodes less than 100 for its own use.  A <a "
+"href=\"../c3ref/c_fcntl_begin_atomic_write.html\">list of opcodes</a> less "
+"than 100 is available.  Applications that define a custom xFileControl "
+"method should use opcodes greater than 100 to avoid conflicts.  VFS "
+"implementations should return <a "
+"href=\"../rescode.html#notfound\">SQLITE_NOTFOUND</a> for file control "
+"opcodes that they do not recognize."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:207
+msgid ""
+"The xSectorSize() method returns the sector size of the device that "
+"underlies the file.  The sector size is the minimum write that can be "
+"performed without disturbing other bytes in the file.  The "
+"xDeviceCharacteristics()  method returns a bit vector describing behaviors "
+"of the underlying device:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/io_methods.html:215
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/c3ref/io_methods.html:216
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC512</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li>
+#: sedout/c3ref/io_methods.html:217
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC1K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li>
+#: sedout/c3ref/io_methods.html:218
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC2K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:219
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC4K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:220
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC8K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:221
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC16K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:222
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC32K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:223
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_ATOMIC64K</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:224
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_SAFE_APPEND</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:225
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_SEQUENTIAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:226
+msgid ""
+"<a "
+"href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_UNDELETABLE_WHEN_OPEN</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:227
+msgid ""
+"<a "
+"href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_POWERSAFE_OVERWRITE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:228
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_IMMUTABLE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/io_methods.html:229
+msgid "<a href=\"../c3ref/c_iocap_atomic.html\">SQLITE_IOCAP_BATCH_ATOMIC</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:232
+msgid ""
+"The SQLITE_IOCAP_ATOMIC property means that all writes of any size are "
+"atomic.  The SQLITE_IOCAP_ATOMICnnn values mean that writes of blocks that "
+"are nnn bytes in size and are aligned to an address which is an integer "
+"multiple of nnn are atomic.  The SQLITE_IOCAP_SAFE_APPEND value means that "
+"when data is appended to a file, the data is appended first then the size of "
+"the file is extended, never the other way around.  The "
+"SQLITE_IOCAP_SEQUENTIAL property means that information is written to disk "
+"in the same order as calls to xWrite()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:243
+msgid ""
+"If xRead() returns SQLITE_IOERR_SHORT_READ it must also fill in the unread "
+"portions of the buffer with zeros.  A VFS that fails to zero-fill short "
+"reads might seem to work.  However, failure to zero-fill short reads will "
+"eventually lead to database corruption."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/io_methods.html:248
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

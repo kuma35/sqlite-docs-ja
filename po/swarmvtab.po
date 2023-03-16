@@ -1,0 +1,835 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/swarmvtab.html:6 sedout/swarmvtab.html:121
+msgid "Swarmvtab Virtual Table"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/swarmvtab.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/swarmvtab.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/swarmvtab.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/swarmvtab.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/swarmvtab.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/swarmvtab.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/swarmvtab.html:22 sedout/swarmvtab.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/swarmvtab.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/swarmvtab.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/swarmvtab.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/swarmvtab.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/swarmvtab.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/swarmvtab.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/swarmvtab.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/swarmvtab.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/swarmvtab.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/swarmvtab.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/swarmvtab.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/swarmvtab.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/swarmvtab.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/swarmvtab.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/swarmvtab.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/swarmvtab.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:129
+msgid ""
+"<a href=\"#compiling_and_using_swarmvtab\">2. Compiling and Using "
+"Swarmvtab</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:130
+msgid "<a href=\"#advanced_usage\">3. Advanced Usage</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:131
+msgid "<a href=\"#sql_parameters\">3.1. SQL Parameters</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:132
+msgid "<a href=\"#the_maxopen_parameter\">3.2. The \"maxopen\" Parameter</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:133
+msgid "<a href=\"#the_openclose_callback\">3.3. The \"openclose\" Callback</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:134
+msgid "<a href=\"#the_missing_callback\">3.4. The \"missing\" Callback</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/swarmvtab.html:135
+msgid ""
+"<a href=\"#component_table_context_values\">3.5. Component table \"context\" "
+"values</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/swarmvtab.html:139
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/swarmvtab.html:157
+msgid "<a name=\"overview\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/swarmvtab.html:158
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/swarmvtab.html:160
+msgid ""
+"The \"swarmvtab\" virtual table allows the user to query a large number of "
+"tables (hereafter \"component\" tables) with similar schemas but distinct "
+"ranges of rowid values as if they were a single database table. The tables "
+"may be (and usually are) located in different databases. Swarmvtab tables "
+"are read-only."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/swarmvtab.html:166
+msgid ""
+"Component tables must not be declared WITHOUT ROWID, and must all have the "
+"same schema, but may have different names within their databases. In this "
+"context, \"the same schema\" means that:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/swarmvtab.html:171
+msgid "All component tables must have the same set of columns, in the same order."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/swarmvtab.html:173
+msgid ""
+"The types and default collation sequences attached to each column must be "
+"the same for all component tables."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/swarmvtab.html:175
+msgid "All component tables must have the same PRIMARY KEY declaration (if any)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:178
+msgid "A swarmvtab table has the same schema as each of its component tables."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:180
+msgid "A swarmvtab virtual table is created as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/swarmvtab.html:182
+#, no-wrap
+msgid ""
+"CREATE VIRTUAL TABLE temp.&lt;name&gt; USING "
+"swarmvtab(&lt;sql-statement&gt;);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:185
+msgid ""
+"Swarmvtab virtual tables must be created in the temp schema. Attempting to "
+"create a swarmvtab in the main or an attached database is an error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:188
+msgid ""
+"The SQL statement supplied as the argument to the CREATE VIRTUAL TABLE "
+"statement is executed when the table is created. It must return either four "
+"or five columns. Each row returned describes one of the component "
+"tables. The first four columns are interpreted, from first to last, as:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/swarmvtab.html:194
+msgid ""
+"<b>Database URI</b>. A filename or URI that can be used to open the database "
+"containing the component table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/swarmvtab.html:197
+msgid "<b>Table name</b>. The name of the component table within its database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/swarmvtab.html:199
+msgid ""
+"<b>Minimum rowid</b>. The smallest rowid value that the component table may "
+"contain."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/swarmvtab.html:202
+msgid ""
+"<b>Maximum rowid</b>. The smallest rowid value that the component table may "
+"contain."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:206
+msgid ""
+"The interpretation of the final column, if it is present, is <a "
+"href=\"swarmvtab.html#component_table_context_values\">described here</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:209
+msgid "For example, say the SQL statement returns the following data when executed:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><th>
+#: sedout/swarmvtab.html:213
+msgid "Database URI"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><th>
+#: sedout/swarmvtab.html:213
+msgid "Table name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><th>
+#: sedout/swarmvtab.html:213
+msgid "Minimum rowid"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><th>
+#: sedout/swarmvtab.html:213
+msgid "Maximum rowid"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:214
+msgid "test.db1"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:214 sedout/swarmvtab.html:216
+#: sedout/swarmvtab.html:217
+msgid "t1"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:214
+msgid "0"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:214
+msgid "10"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:215
+msgid "test.db2"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:215
+msgid "t2"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:215
+msgid "11"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:215
+msgid "20"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:216
+msgid "test.db3"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:216
+msgid "21"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:216
+msgid "30"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:217
+msgid "test.db4"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:217
+msgid "31"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><table><tr><td>
+#: sedout/swarmvtab.html:217
+msgid "40"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:220
+msgid ""
+"and the user queries the swarmvtab table for the row with rowid value "
+"25. The swarmvtab table will open database file \"test.db3\" and read the "
+"data to return from table \"t1\" (as 25 falls within the range of rowids "
+"assigned to table \"t1\" in \"test.db3\")."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:225
+msgid ""
+"Swarmvtab efficiently handles range and equality constraints on the rowid "
+"(or other INTEGER PRIMARY KEY) field only. If a query does not contain such "
+"a constraint, then swarmvtab finds the results by opening each database in "
+"turn and linearly scanning the component table. Which generates a correct "
+"result, but is often slow."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:231
+msgid ""
+"There must be no overlapping rowid ranges in the rows returned by the SQL "
+"statement. It is an error if there are."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:234
+msgid ""
+"The swarmvtab implementation may open or close databases at any point. By "
+"default, it attempts to limit the maximum number of simultaneously open "
+"database files to nine. This is not a hard limit - it is possible to "
+"construct a scenario that will cause swarmvtab to exceed it."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:240
+msgid "<a name=\"compiling_and_using_swarmvtab\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/swarmvtab.html:241
+msgid "<span>2. </span>Compiling and Using Swarmvtab"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:243
+msgid ""
+"The code for the swarmvtab virtual table is found in the "
+"ext/misc/unionvtab.c file of the main SQLite source tree. It may be compiled "
+"into an SQLite <a href=\"loadext.html\">loadable extension</a> using a "
+"command like:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:247
+#, no-wrap
+msgid "gcc -g -fPIC -shared unionvtab.c -o unionvtab.so\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:250
+msgid ""
+"Alternatively, the unionvtab.c file may be compiled into the application.  "
+"In this case, the following function should be invoked to register the "
+"extension with each new database connection:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:254
+#, no-wrap
+msgid "int sqlite3_unionvtab_init(sqlite3 *db, void*, void*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:257
+msgid ""
+"The first argument passed should be the database handle to register the "
+"extension with. The second and third arguments should both be passed 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:260
+msgid ""
+"The source file and entry point are named for \"unionvtab\" instead of "
+"\"swarmvtab\". Unionvtab is a <a href=\"unionvtab.html\">separately "
+"documented</a> virtual table that is bundled with swarmvtab."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:264
+msgid "<a name=\"advanced_usage\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/swarmvtab.html:265
+msgid "<span>3. </span>Advanced Usage"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:267
+msgid ""
+"Most users of swarmvtab will only use the features described above.  This "
+"section describes features designed for more esoteric use cases. These "
+"features all involve specifying extra optional parameters following the SQL "
+"statement as part of the CREATE VIRTUAL TABLE command. An optional parameter "
+"is specified using its name, followed by an \"=\" character, followed by an "
+"optionally quoted value. Whitespace may separate the name, \"=\" character "
+"and value. For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:275
+#, no-wrap
+msgid ""
+"CREATE VIRTUAL TABLE temp.sv USING swarmvtab (\n"
+"  'SELECT ...',                <i>-- the SELECT statement</i>\n"
+"  maxopen = 20,                <i>-- An optional parameter</i>\n"
+"  missing='missing_udf'        <i>-- Another optional parameter</i>\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:282
+msgid ""
+"The following sections describe the supported parameters. Specifying an "
+"unrecognized parameter name is an error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:285
+msgid "<a name=\"sql_parameters\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/swarmvtab.html:286
+msgid "<span>3.1. </span>SQL Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:288
+msgid ""
+"If a parameter name begins with a \":\", then it is assumed to be a value to "
+"bind to the SQL statement before executing it. The value is always bound as "
+"text. It is an error if the specified SQL parameter does not exist. For "
+"example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:293
+#, no-wrap
+msgid ""
+"CREATE VIRTUAL TABLE temp.x1 USING swarmvtab (\n"
+"  \"SELECT :dir || local_filename, tbl, min, max FROM components\",\n"
+"  :dir = '/home/user/app/databases/'\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:299
+msgid ""
+"When the above CREATE VIRTUAL TABLE statement is executed, swarmvtab binds "
+"the text value \"/home/user/app/databases/\" to the :dir parameter of the "
+"SQL statement before executing it."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:303
+msgid ""
+"A single CREATE VIRTUAL TABLE statement may contain any number of SQL "
+"parameters."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:306
+msgid "<a name=\"the_maxopen_parameter\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/swarmvtab.html:307
+msgid "<span>3.2. </span>The \"maxopen\" Parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:309
+msgid ""
+"By default, swarmvtab attempts to limit the number of simultaneously open "
+"databases to nine. This parameter allows that limit to be changed.  For "
+"example, to create a swarmvtab table that may hold up to 30 databases open "
+"simultaneously:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:314
+#, no-wrap
+msgid ""
+"CREATE VIRTUAL TABLE temp.x1 USING swarmvtab (\n"
+"  \"SELECT ...\",\n"
+"  maxopen=30\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:320
+msgid ""
+"Raising the number of open databases may improve performance in some "
+"scenarios."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:323
+msgid "<a name=\"the_openclose_callback\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/swarmvtab.html:324
+msgid "<span>3.3. </span>The \"openclose\" Callback"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:326
+msgid ""
+"The \"openclose\" parameter allows the user to specify the name of a <a "
+"href=\"appfunc.html\">application-defined SQL function</a> that will be "
+"invoked just before swarmvtab opens a database, and again just after it "
+"closes one. The first argument passed to the open close function is the "
+"filename or URI identifying the database to be opened or just recently "
+"closed (the same value returned in the leftmost column of the SQL statement "
+"provided to the CREATE VIRTUAL TABLE command). The second argument is "
+"integer value 0 when the function is invoked before opening a database, and "
+"1 when it is invoked after one is closed. For example, if:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:336
+#, no-wrap
+msgid ""
+"CREATE VIRTUAL TABLE temp.x1 USING swarmvtab (\n"
+"  \"SELECT ...\",\n"
+"  openclose = 'openclose_udf'\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:342
+msgid ""
+"then before each database containing a component table is opened, swarmvtab "
+"effectively executes:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:345
+#, no-wrap
+msgid "SELECT openclose_udf(&lt;database-name&gt;, 0);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:348
+msgid "After a database is closed, swarmvtab runs the equivalent of:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:350
+#, no-wrap
+msgid "SELECT openclose_udf(&lt;database-name&gt;, 1);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:353
+msgid ""
+"Any value returned by the openclose function is ignored. If an invocation "
+"made before opening a database returns an error, then the database file is "
+"not opened and the error returned to the user. This is the only scenario in "
+"which swarmvtab will issue an \"open\" invocation without also eventually "
+"issuing a corresponding \"close\" call. If there are still databases open, "
+"\"close\" calls may be issued from within the eventual sqlite3_close() call "
+"on the applications database that deletes the temp schema in which the "
+"swarmvtab table resides."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:362
+msgid "Errors returned by \"close\" invocations are always ignored."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:364
+msgid "<a name=\"the_missing_callback\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/swarmvtab.html:365
+msgid "<span>3.4. </span>The \"missing\" Callback"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:367
+msgid ""
+"The \"missing\" parameter allows the user to specify the name of a <a "
+"href=\"appfunc.html\">application-defined SQL function</a> that will be "
+"invoked just before swarmvtab opens a database if it finds that the required "
+"database file is not present on disk. This provides the application with an "
+"opportunity to retrieve the required database from a remote source before "
+"swarmvtab attempts to open it. The only argument passed to the \"missing\" "
+"function is the name or URI that identifies the database being "
+"opened. Assuming:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:375
+#, no-wrap
+msgid ""
+"CREATE VIRTUAL TABLE temp.x1 USING swarmvtab (\n"
+"  \"SELECT ...\",\n"
+"  openclose = 'openclose_udf',\n"
+"  missing='missing_udf'\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:382
+msgid "then the missing function is invoked as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:384
+#, no-wrap
+msgid "SELECT missing_udf(&lt;database-name&gt;);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:387
+msgid ""
+"If the missing function returns an error, then the database is not opened "
+"and the error returned to the user. If an openclose function is configured, "
+"then a \"close\" invocation is issued at this point to match the earlier "
+"\"open\". The following pseudo-code illustrates the procedure used by a "
+"swarmvtab instance with both missing and openclose functions configured when "
+"a component database is opened."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:394
+#, no-wrap
+msgid ""
+"SELECT openclose_udf(&lt;database-name&gt;, 0);\n"
+"if( error ) return error;\n"
+"if( db does not exist ){\n"
+"  SELECT missing_udf(&lt;database-name&gt;);\n"
+"  if( error ){\n"
+"    SELECT openclose_udf(&lt;database-name&gt;, 1);\n"
+"    return error;\n"
+"  }\n"
+"}\n"
+"sqlite3_open_v2(&lt;database-name&gt;);\n"
+"if( error ){\n"
+"  SELECT openclose_udf(&lt;database-name&gt;, 1);\n"
+"  return error;\n"
+"}\n"
+"// db successfully opened!\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/swarmvtab.html:411
+msgid "<a name=\"component_table_context_values\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/swarmvtab.html:412
+msgid "<span>3.5. </span>Component table \"context\" values"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:414
+msgid ""
+"If the SELECT statement specified as part of the CREATE VIRTUAL TABLE "
+"command returns five columns, then the final column is used for application "
+"context only. Swarmvtab does not use this value at all, except that it is "
+"passed after &lt;database-name&gt; to both the openclose and missing "
+"functions, if specified. In other words, instead of invoking the functions "
+"as described above, if the \"context\" column is present swarmvtab instead "
+"invokes:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/swarmvtab.html:422
+#, no-wrap
+msgid ""
+"SELECT missing_udf(&lt;database-name&gt;, &lt;context&gt;);\n"
+"SELECT openclose_udf(&lt;database-name&gt;, &lt;context&gt;, 0);\n"
+"SELECT openclose_udf(&lt;database-name&gt;, &lt;context&gt;, 1);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:427
+msgid "as required."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/swarmvtab.html:428
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/swarmvtab.in?m=e40b220bf8\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

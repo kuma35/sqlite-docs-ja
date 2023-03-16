@@ -1,0 +1,904 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 22:17+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/flextypegood.html:6 sedout/flextypegood.html:121
+msgid "The Advantages Of Flexible Typing"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/flextypegood.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/flextypegood.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/flextypegood.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/flextypegood.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/flextypegood.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/flextypegood.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/flextypegood.html:22 sedout/flextypegood.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/flextypegood.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/flextypegood.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/flextypegood.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/flextypegood.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/flextypegood.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/flextypegood.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/flextypegood.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/flextypegood.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/flextypegood.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/flextypegood.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/flextypegood.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/flextypegood.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/flextypegood.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/flextypegood.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/flextypegood.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/flextypegood.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:128
+msgid "<a href=\"#introduction\">1. Introduction</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:129
+msgid "<a href=\"#about_flexible_typing\">2. About Flexible Typing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:130
+msgid ""
+"<a href=\"#cases_where_flexible_typing_is_useful\">3. Cases Where Flexible "
+"Typing Is Useful</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:131
+msgid "<a href=\"#attribute_tables\">3.1. Attribute tables</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:132
+msgid ""
+"<a "
+"href=\"#the_value_column_output_from_the_json_tree_virtual_tables\">3.2. The "
+"\"value\" column output from the json_tree virtual tables</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:133
+msgid "<a href=\"#storage_for_dirty_data\">3.3. Storage for dirty data</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:134
+msgid ""
+"<a href=\"#dynamic_programming_languages\">3.4. Dynamic programming "
+"languages</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:135
+msgid ""
+"<a href=\"#data_typename_cross_compatibility\">3.5. Data typename "
+"cross-compatibility</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:136
+msgid ""
+"<a "
+"href=\"#repurposing_unused_or_disused_columns_in_legacy_databases\">3.6. "
+"Repurposing unused or disused columns in legacy databases</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:137
+msgid ""
+"<a "
+"href=\"#perceived_disadvantages_of_flexible_typing_with_rebuttals_\">4. "
+"Perceived Disadvantages of Flexible Typing (With Rebuttals)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:138
+msgid ""
+"<a href=\"#we_ve_never_done_it_that_way_before\">4.1. We've never done it "
+"that way before</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:139
+msgid ""
+"<a "
+"href=\"#rigid_type_enforcement_helps_prevent_application_bugs\">4.2. Rigid "
+"type enforcement helps prevent application bugs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:140
+msgid ""
+"<a href=\"#rigid_type_enforcement_prevents_data_pollution\">4.3. Rigid type "
+"enforcement prevents data pollution</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:141
+msgid ""
+"<a href=\"#other_sql_database_engines_don_t_work_this_way\">4.4. Other SQL "
+"database engines don't work this way</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:142
+msgid ""
+"<a href=\"#if_you_insist_on_rigid_type_enforcement_\">5. If You Insist On "
+"Rigid Type Enforcement...</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/flextypegood.html:143
+msgid "<a href=\"#embrace_freedom\">6. Embrace Freedom</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/flextypegood.html:147
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/flextypegood.html:164
+msgid "<span>1. </span>Introduction"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/flextypegood.html:166
+msgid ""
+"SQLite provides developers with the freedom to store content in any desired "
+"format, regardless of the declared datatype of the column.  Some people find "
+"this feature troublesome.  Some developers are shocked to discover that it "
+"is possible to insert text into a column marked INTEGER."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/flextypegood.html:171
+msgid "This article advocates in favor of the flexible type rules in SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/flextypegood.html:174
+msgid "<span>2. </span>About Flexible Typing"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/flextypegood.html:176
+msgid ""
+"Details regarding the flexible type system of SQLite are found in the "
+"separate <a href=\"datatype3.html\">Datatypes In SQLite</a> document.  Here "
+"is a quick summary:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/flextypegood.html:181
+msgid ""
+"Datatype names on column definitions are optional.  A column definition can "
+"consist of just the column name and nothing else."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/flextypegood.html:183
+msgid ""
+"When datatype names are provided, they can be just about any text.  SQLite "
+"attempts to deduce the preferred datatype for the column based on the "
+"datatype name in the column definition, but that preferred datatype is "
+"advisory, not mandatory.  The preferred datatype is call the \"column "
+"affinity\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/flextypegood.html:188
+msgid ""
+"An attempt is made to transform incoming data into the preferred datatype of "
+"the column.  (All SQL database engines do this, not just SQLite.)  If this "
+"transformation is successful, all is well.  But if unsuccessful, instead of "
+"raising an error, SQLite just stores the content using its original "
+"datatype."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/flextypegood.html:193
+msgid ""
+"The above can lead to situations that advocates of rigid typing find "
+"incommodious:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><th>
+#: sedout/flextypegood.html:196
+msgid "Column Datatype"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><th>
+#: sedout/flextypegood.html:196
+msgid "Types Allowed In That Column"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
+#: sedout/flextypegood.html:197
+msgid "INTEGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
+#: sedout/flextypegood.html:197 sedout/flextypegood.html:200
+msgid "INTEGER, REAL, TEXT, BLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:198 sedout/flextypegood.html:305
+msgid "REAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
+#: sedout/flextypegood.html:198
+msgid "REAL, TEXT, BLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:199 sedout/flextypegood.html:299
+msgid "TEXT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
+#: sedout/flextypegood.html:199
+msgid "TEXT, BLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
+#: sedout/flextypegood.html:200
+msgid "BLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/flextypegood.html:202
+msgid ""
+"Note that an INTEGER or REAL value will never end up being stored in a TEXT "
+"column, since an INTEGER or REAL value can and always will be converted into "
+"its equivalent TEXT representation.  Similarly, an INTEGER will never be "
+"stored in a REAL column because it will always be converted into a REAL.  "
+"But TEXT does not always look like an INTEGER or REAL value and so cannot "
+"always be converted.  And a BLOB cannot be converted into anything and "
+"nothing else can be converted into a BLOB."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/flextypegood.html:213
+msgid "<span>3. </span>Cases Where Flexible Typing Is Useful"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:215
+msgid ""
+"Some readers, upon first encountering flexible typing in SQLite, ask "
+"themselves \"how could this ever be useful?\" Here is an attempt to answer "
+"that question:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/flextypegood.html:219
+msgid "<span>3.1. </span>Attribute tables"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:221
+msgid ""
+"Many applications, especially those that use SQLite as an <a "
+"href=\"appfileformat.html\">application file format</a>, need a place to "
+"store miscellaneous attributes such as thumbnail images (as BLOB values), "
+"short pieces of text (such as the user's name), as well as numeric, date, "
+"and JSON values.  It is convenient to create a single table to handle this "
+"storage:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/flextypegood.html:227
+#, no-wrap
+msgid "CREATE TABLE attribute(name TEXT PRIMARY KEY, value) WITHOUT ROWID;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:230
+msgid ""
+"Without flexible typing, such a table would need to be more complex, with "
+"separate columns for each possible type of data.  Flexible typing of the "
+"\"value\" column makes the table conceptually simpler, more space-efficient, "
+"and easier to access and update."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:235
+msgid ""
+"In the <a href=\"https://fossil-scm.org/\">Fossil version control "
+"system</a>, each repository has a CONFIG table that is used to store all "
+"kinds of settings with every possible datatype.  The user-specific "
+"configuration file for Fossil (the ~/.fossil file) is a separate SQLite "
+"database that contains a single attribute table hold the user-specific state "
+"across all repositories."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:242
+msgid ""
+"Some applications use an SQLite database as a pure key-value store The "
+"database schema contains a single table that looks something like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/flextypegood.html:245
+#, no-wrap
+msgid "CREATE TABLE storage(name TEXT PRIMARY KEY, value ANYTHING);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/flextypegood.html:248
+msgid ""
+"<span>3.2. </span>The \"value\" column output from the json_tree virtual "
+"tables"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:250
+msgid ""
+"The <a href=\"json1.html#jtree\">json_tree</a> and <a "
+"href=\"json1.html#jeach\">json_each</a> table-valued functions that are "
+"built into SQLite both have a \"value\" column that can hold values of type "
+"INTEGER, REAL, or TEXT depending on the type of the corresponding JSON "
+"field.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/flextypegood.html:255
+#, no-wrap
+msgid ""
+"SELECT typeof(value) FROM "
+"json_each('{\"a\":1,\"b\":2.5,\"c\":\"hello\"}');\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:258
+msgid ""
+"The query above returns three rows of one column with values \"integer\", "
+"\"real\", and \"text\", respectively."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/flextypegood.html:261
+msgid "<span>3.3. </span>Storage for dirty data"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:263
+msgid ""
+"Analysts sometimes encounter CSV files where some columns contain a mixture "
+"of integer, real, and text data.  CSV file that are obtained from Excel "
+"spreadsheet exports commonly have this trait, for example.  When importing "
+"such \"dirty data\" into an SQL database, it is convenient to have flexible "
+"columns to import into."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:269
+msgid ""
+"Dirty data is not restricted to CSV files coming out of Excel, of course.  "
+"There are many data sources in which a single field might contain a mix of "
+"types.  For example, a data column might the number of seconds since 1970 "
+"sometimes, or as a text date string in other cases.  It is desirable to "
+"clean up these inconsistent representations, but at the same time it is "
+"convenient to be able to store all the different representations in the same "
+"column of the intermediate database while the cleanup is underway."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/flextypegood.html:278
+msgid "<span>3.4. </span>Dynamic programming languages"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:280
+msgid ""
+"SQLite began as a TCL extension that later escaped into the wild.  TCL is a "
+"dynamic language in the sense that the programmer does not need to be aware "
+"of datatypes.  Under the hood, TCL keeps careful track of the datatype of "
+"every value, but to the developer and user of a TCL program, everything "
+"looks like a string.  Flexible typing is a natural fit for use with dynamic "
+"programming languages like TCL and others, since with a dynamic programming "
+"language, you can not always predict in advance what datatype a variable "
+"will hold.  So when you need to store the value of that variable into the "
+"database, having a database that is supports flexible typing makes storage "
+"much easier."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/flextypegood.html:291
+msgid "<span>3.5. </span>Data typename cross-compatibility"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/flextypegood.html:293
+msgid ""
+"Every SQL database engine seems to have its own unique set of supported "
+"datatype names:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:297
+msgid "BIGINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:298
+msgid "UNSIGNED SMALL INT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:300
+msgid "VARCHAR"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:301
+msgid "VARYING CHARACTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:302
+msgid "NATIONAL VARYING CHARACTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:303
+msgid "NVARCHAR"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:304
+msgid "JSON"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:306
+msgid "FLOAT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:307
+msgid "DOUBLE PRECISION"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/flextypegood.html:308
+msgid "<i> ... and so forth ...</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:311
+msgid ""
+"The fact that SQLite will accept any of these names as a valid typename, and "
+"let you store any kind of content into the column, increases the chances "
+"that a script written to run on some other SQL database engine will also "
+"work in SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/flextypegood.html:316
+msgid "<span>3.6. </span>Repurposing unused or disused columns in legacy databases"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:318
+msgid ""
+"Because an SQLite database file is a single file on disk, some applications "
+"use SQLite as an <a href=\"appfileformat.html\">application file "
+"format</a>.  This means that a single instance of the application might, "
+"over the course of its life, talk to hundreds or thousands of separate "
+"databases, each in a separate file.  When such applications evolve over "
+"years, some columns in the underlying database will have their meanings "
+"altered subtly.  Or, it might be desirable to repurpose an existing column "
+"to serve two or more purposes.  This is much easier to do if the column has "
+"a flexible datatype."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/flextypegood.html:327
+msgid "<span>4. </span>Perceived Disadvantages of Flexible Typing (With Rebuttals)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:329
+msgid ""
+"The following perceived disadvantages of flexible typing were gleaned and "
+"compiled from countless posts on Hacker News and Reddit and similar forums "
+"where developers discuss these sorts of things.  If you can think of other "
+"reasons why flexible typing is a bad idea, please contact the SQLite "
+"developers or leave a post on the <a "
+"href=\"https://sqlite.org/forum/forum\">SQLite Forum</a> so that your idea "
+"can be added to the list."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/flextypegood.html:338
+msgid "<span>4.1. </span>We've never done it that way before"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:340
+msgid ""
+"Many skeptics of flexible typing simply express shock and disbelief, without "
+"offering any rationale for why they think flexible typing is a bad idea.  "
+"Without supporting arguments, one must assume their reason for not liking "
+"flexible typing is that it is different from what they are used to."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:346
+msgid ""
+"Presumably, many developers who are aghast at SQLite's flexible typing feel "
+"this way because they have just never encountered anything like it before.  "
+"All prior exposure to databases and especially SQL databases has involved "
+"rigid typing, and the readers mental model of SQL includes rigid typing as a "
+"fundamental feature.  Flexible typing upsets their world-view."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:353
+msgid ""
+"Yes, flexible typing is a new way of thinking about data in an SQL "
+"database.  But new is not necessary bad.  Sometimes, and I think especially "
+"in the case of flexible typing, innovation leads to improvement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/flextypegood.html:357
+msgid "<span>4.2. </span>Rigid type enforcement helps prevent application bugs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:359
+msgid ""
+"It has become a point of doctrine among many programmers that the best way "
+"to prevent application bugs is strict type enforcement.  But I find no "
+"evidence in support of this."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:363
+msgid ""
+"To be sure, strict type enforcement does help prevent some kinds of bugs in "
+"lower-level languages like C and C++ that present a model that is close to "
+"machine hardware.  But this does not seem to be the case for "
+"higher-abstraction languages in which all data is passed around in a "
+"\"Value\" superclass of some kind which is subclassed for the various "
+"lower-level data types.  When everything is a Value object, specific "
+"datatypes cease to be important."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:371
+msgid ""
+"This technical note is being writing by the original author of SQLite.  I "
+"having been writing TCL programs for 27 years.  TCL has no type enforcement "
+"whatsoever.  The \"Value\" class in TCL (called Tcl_Obj) can hold many "
+"different datatypes, but it presents the content to the program and to the "
+"application user as a string.  And I've had a lot of bugs in those TCL "
+"programs over the years.  But I do not recall a single instance where the "
+"bugs might have been caught by a rigid type system.  I have also written a "
+"lot of C code over a span of 35 years, not the least of which is SQLite "
+"itself.  I have found the type system in C to be very helpful at finding and "
+"preventing problems.  For the <a href=\"https://fossil-scm.org/\">Fossil "
+"Version Control System</a>, which is written in C, I have even implemented "
+"supplemental static analysis programs that scan the Fossil source code prior "
+"to compilation, looking for problems that compilers miss.  This works well "
+"for compiled programs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:386
+msgid ""
+"The SQL language model is a higher-level abstraction that C/C++.  In SQLite, "
+"every data item is stored in memory as an \"sqlite3_value\" object.  There "
+"are subclasses of this object for strings, integer, floating-point numbers, "
+"blobs, and other representations.  Everything is passed around inside the "
+"SQL language implemented by SQLite as \"sqlite3_value\" objects so the "
+"underlying datatype does not really matter.  I have never found rigid type "
+"enforcement to be helpful in languages like TCL and SQLite that have a "
+"single \"Value\" superclass used to represent any data element.  Fossil "
+"makes extensive use of SQLite in its implementation.  There have been many "
+"bugs in Fossil over its 14-years history, but I cannot recall a single bug "
+"that might have been prevented by rigid type enforcement in the SQLite.  "
+"C-language bugs might have been caught by better type enforcement (which is "
+"why I wrote the supplemental source code scanners), but no SQL bugs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:401
+msgid ""
+"Based on decades of experience, I reject the thesis that rigid type "
+"enforcement helps prevent application bugs.  I will accept and believe a "
+"slightly modified thesis: Rigid type enforcement helps to prevent "
+"applications bugs <em>in languages that lack a single top-level \"Value\" "
+"superclass</em>.  But SQLite does have the single \"sqlite3_value\" "
+"superclass, so that proverb does not apply."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/flextypegood.html:408
+msgid "<span>4.3. </span>Rigid type enforcement prevents data pollution"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:410
+msgid ""
+"Some people contend that if you have rigorous constraints on the schema, and "
+"especially strict enforcement of column datatypes, this will help prevent "
+"incorrect data from being added to the database.  This is not true.  It is "
+"true that type enforcement might help prevent <em>egregiously</em> incorrect "
+"data from getting into the system.  But type enforcement is no help in "
+"prevent subtly incorrect data from being recorded."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:418
+msgid ""
+"So, for example, rigid type enforcement can successfully prevent the "
+"customer name (text) from being inserted into integer Customer.creditScore "
+"column.  On the other hand, if that mistake occurs, it is very easy to spot "
+"the problem and find all affected rows.  But type enforcement is no help in "
+"preventing a bug where the customer family name and given name are reversed, "
+"since both are text fields."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:425
+msgid ""
+"(Aside: Decades ago, I worked on a team where there was a woman named "
+"\"Merritt Tracy\".  \"Merritt\" was her given name and \"Tracy\" was her "
+"family name.  She reported that she spend an inordinate amount of time and "
+"energy trying to correct databases that had \"Tracy\" has her given name and "
+"\"Merritt\" as her family name.)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:431
+msgid ""
+"By suppressing easy-to-detect errors and passing through only the "
+"hard-to-detect errors, rigid type enforcement can actually make it more "
+"difficult to find and fix bugs.  Data errors tend to cluster.  If you have "
+"20 different data sources, most of the data errors will usually come from "
+"just 2 or 3 of those sources.  The presence of egregious errors (such as "
+"text in an integer column) is a convenient early warning signal that "
+"something is amiss.  The source of the problem can be tracked quickly and "
+"extra scrutiny applied to the source of the egregious errors, thus hopefully "
+"also fixing the subtle errors too.  When egregious errors are suppressed, "
+"you lose an important signal that helps you to detect and fix the subtle "
+"errors."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:443
+msgid ""
+"Data errors are inevitable.  They will happen regardless of how much type "
+"checking is done.  Rigid type enforcement can catch only a small subset of "
+"those cases - the most obvious cases.  It does nothing to help find and fix "
+"the more subtle cases.  And, by suppressing the signal of which data sources "
+"are problematic, it can sometimes make the subtle errors more difficult to "
+"locate."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/flextypegood.html:450
+msgid "<span>4.4. </span>Other SQL database engines don't work this way"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:452
+msgid ""
+"Because SQLite is less restrictive and allows you to do more things, SQL "
+"scripts that work on other database engines will also usually work on "
+"SQLite, but script written initially for SQLite might not work on more "
+"restrictive database engines.  This can cause problems when developers user "
+"SQLite for prototyping and testing and then migrate their application to a "
+"more restrictive SQL engine for deployment.  If the application was "
+"(unintentionally) taking advantage of the flexible typing available in "
+"SQLite, then it will fail when migrated."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:461
+msgid ""
+"People use this problem to argue that SQLite should be more restrictive "
+"about datatypes.  But you could just as easily turn that argument around and "
+"say that other database engines should be more flexible with regard to "
+"datatypes.  The application was working correctly under SQLite, prior to be "
+"migrated, after all.  If rigid type enforcement is really all that useful, "
+"why did it break an application that was previously working?"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/flextypegood.html:469
+msgid "<span>5. </span>If You Insist On Rigid Type Enforcement..."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:471
+msgid ""
+"As of SQLite version 3.37.0 (2021-11-27), SQLite supports this development "
+"style using <a href=\"stricttables.html\">STRICT tables</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:474
+msgid ""
+"If you find a real-world case where STRICT tables prevented or would have "
+"prevented a bug in an application, please post a message to the <a "
+"href=\"https://sqlite.org/forum/forum\">SQLite Forum</a> so that we can add "
+"your story to this document."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/flextypegood.html:479
+msgid "<span>6. </span>Embrace Freedom"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:481
+msgid ""
+"If flexible typing in an SQL database is a new concept to you, I encourage "
+"you to give it a try.  It probably will not cause you any problems and it "
+"might make your program simpler and easier to write and maintain.  I think "
+"that even if you are skeptical at first, if you will just give flexible "
+"typing a try, you will eventually come to realize that it is a better "
+"approach and will start encouraging other database vendors to support at "
+"least an ANY datatype if not complete SQLite-style type flexibility."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/flextypegood.html:490
+msgid ""
+"Most of the time, flexible typing does not matter because a column stores a "
+"single well-defined type.  But occasionally you will run across situations "
+"where having a flexible type system makes the solution to your problem "
+"cleaner and easier."
+msgstr ""

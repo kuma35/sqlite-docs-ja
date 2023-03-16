@@ -1,0 +1,347 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 04:04+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/dbpage.html:6 sedout/dbpage.html:121
+msgid "The SQLITE_DBPAGE Virtual Table"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/dbpage.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/dbpage.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/dbpage.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/dbpage.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/dbpage.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/dbpage.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/dbpage.html:22 sedout/dbpage.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/dbpage.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/dbpage.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/dbpage.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/dbpage.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/dbpage.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/dbpage.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/dbpage.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/dbpage.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/dbpage.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/dbpage.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/dbpage.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/dbpage.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/dbpage.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/dbpage.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/dbpage.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/dbpage.html:128
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:131
+msgid ""
+"The SQLITE_DBPAGE extension implements an <a "
+"href=\"vtab.html#epoonlyvtab\">eponymous-only virtual table</a> that "
+"provides direct access to the underlying database file by interacting with "
+"the pager.  SQLITE_DBPAGE is capable of both reading and writing any page of "
+"the database.  Because interaction is through the pager layer, all changes "
+"are transactional."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:139
+msgid ""
+"<b>Warning:</b> writing to the SQLITE_DBPAGE virtual table can very easily "
+"cause unrecoverably database corruption.  Do not allow untrusted components "
+"to access the SQLITE_DBPAGE table.  Use appropriate care while using the "
+"SQLITE_DBPAGE table.  Back up important data prior to experimenting with the "
+"SQLITE_DBPAGE table.  Writes to the SQLITE_DBPAGE virtual table are disabled "
+"when the <a "
+"href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigdefensive\">SQLITE_DBCONFIG_DEFENSIVE</a> "
+"flag is set."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:147
+msgid ""
+"The SQLITE_DBPAGE extension is included in the <a "
+"href=\"amalgamation.html\">amalgamation</a> though it is disabled by "
+"default.  Use the <a "
+"href=\"compile.html#enable_dbpage_vtab\">SQLITE_ENABLE_DBPAGE_VTAB</a> "
+"compile-time option to enable the SQLITE_DBPAGE extension.  The "
+"SQLITE_DBPAGE extension makes use of unpublished internal interfaces and is "
+"not run-time loadable.  The only way to add SQLITE_DBPAGE to an application "
+"is to compile it in using the <a "
+"href=\"compile.html#enable_dbpage_vtab\">SQLITE_ENABLE_DBPAGE_VTAB</a> "
+"compile-time option."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:157
+msgid ""
+"The SQLITE_DBPAGE extension is enabled in default builds of the <a "
+"href=\"cli.html\">command-line shell</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/dbpage.html:160
+msgid "<span>2. </span>Usage"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:163
+msgid ""
+"The SQLITE_DBPAGE virtual table read/write table that provides direct access "
+"to the underlying disk file on a page-by-page basis.  The virtual table "
+"appears to have a schema like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/dbpage.html:167
+#, no-wrap
+msgid ""
+"CREATE TABLE sqlite_dbpage(\n"
+"  pgno INTEGER PRIMARY KEY,\n"
+"  data BLOB\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:174
+msgid ""
+"An SQLite database file is divided into pages.  The first page is 1, the "
+"second page is 2, and so forth.  There is no page 0.  Every page is the same "
+"size.  The size of every page is a power of 2 between 512 and 65536.  See "
+"the <a href=\"fileformat2.html\">file format</a> documentation for further "
+"details."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:182
+msgid ""
+"The SQLITE_DBPAGE table allows an application to view or replace the raw "
+"binary content of each page of the database file.  No attempt is made to "
+"interpret the content of the page.  Content is returned byte-for-byte as it "
+"appears on disk."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:188
+msgid ""
+"The SQLITE_DBPAGE table has one row for each page in the database file.  "
+"SQLITE_DBPAGE allows pages to be read or to be overwritten.  However the "
+"size of the database file cannot be changed.  It is not possible to change "
+"the number of rows in the SQLITE_DBPAGE table by running DELETE or INSERT "
+"operations against that table."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/dbpage.html:194
+msgid "<span>2.1. </span>Using SQLITE_DBPAGE On ATTACH-ed Databases"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:197
+msgid ""
+"The SQLITE_DBPAGE table schema shown above is incomplete.  There is a third "
+"<a href=\"vtab.html#hiddencol\">hidden column</a> named \"schema\" that "
+"determines which <a href=\"lang_attach.html\">ATTACH-ed database</a> should "
+"be read or written.  Because the \"schema\" column is hidden, it can be used "
+"as a parameter when SQLITE_DBPAGE is invoked as a <a "
+"href=\"vtab.html#tabfunc2\">table-valued function</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:204
+msgid ""
+"For example, suppose an additional database is attached to the database "
+"connection using a statement like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/dbpage.html:207
+#, no-wrap
+msgid "ATTACH 'auxdata1.db' AS aux1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:211
+msgid "Then to read the first page of that database file, one merely runs:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/dbpage.html:213
+#, no-wrap
+msgid "SELECT data FROM sqlite_dbpage('aux1') WHERE pgno=1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:217
+msgid ""
+"If the \"schema\" is omitted, it defaults to the primary database (usually "
+"called 'main', unless renamed using <a "
+"href=\"c3ref/c_dbconfig_defensive.html#sqlitedbconfigmaindbname\">SQLITE_DBCONFIG_MAINDBNAME</a>).  "
+"Hence, the following two queries are normally equivalent:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/dbpage.html:221
+#, no-wrap
+msgid ""
+"SELECT data FROM sqlite_dbpage('main') WHERE pgno=1;\n"
+"SELECT data FROM sqlite_dbpage WHERE pgno=1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:226
+msgid ""
+"The SQLITE_DBPAGE table can participate in a join just like any other "
+"table.  Hence, to see the content of the first page to all connected "
+"database files, one might run a statement like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/dbpage.html:230
+#, no-wrap
+msgid ""
+"SELECT dbpage.data, dblist.name\n"
+"  FROM pragma_database_list AS dblist\n"
+"  JOIN sqlite_dbpage(dblist.name) AS dbpage\n"
+" WHERE dbpage.pgno=1;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/dbpage.html:235
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/dbpage.in?m=21798cdb09\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,285 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 15:52+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/serverless.html:6 sedout/serverless.html:121
+msgid "SQLite Is Serverless"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/serverless.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/serverless.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/serverless.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/serverless.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/serverless.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/serverless.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/serverless.html:22 sedout/serverless.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/serverless.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/serverless.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/serverless.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/serverless.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/serverless.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/serverless.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/serverless.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/serverless.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/serverless.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/serverless.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/serverless.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/serverless.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/serverless.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/serverless.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/serverless.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/serverless.html:129
+msgid "<span>1. </span>SQLite Is Serverless"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/serverless.html:132
+msgid ""
+"Most SQL database engines are implemented as a separate server process.  "
+"Programs that want to access the database communicate with the server using "
+"some kind of interprocess communication (typically TCP/IP) to send requests "
+"to the server and to receive back results.  SQLite does not work this way.  "
+"With SQLite, the process that wants to access the database reads and writes "
+"directly from the database files on disk.  There is no intermediary server "
+"process."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/serverless.html:143
+msgid ""
+"There are advantages and disadvantages to being serverless.  The main "
+"advantage is that there is no separate server process to install, setup, "
+"configure, initialize, manage, and troubleshoot.  This is one reason why "
+"SQLite is a \"<a href=\"zeroconf.html\">zero-configuration</a>\" database "
+"engine.  Programs that use SQLite require no administrative support for "
+"setting up the database engine before they are run.  Any program that is "
+"able to access the disk is able to use an SQLite database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/serverless.html:154
+msgid ""
+"On the other hand, a database engine that uses a server can provide better "
+"protection from bugs in the client application - stray pointers in a client "
+"cannot corrupt memory on the server.  And because a server is a single "
+"persistent process, it is able to control database access with more "
+"precision, allowing for finer-grained locking and better concurrency."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/serverless.html:164
+msgid ""
+"Most SQL database engines are client/server based.  Of those that are "
+"serverless, SQLite is the only one known to this author that allows multiple "
+"applications to access the same database at the same time."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/serverless.html:170
+msgid "<span>2. </span>Classic Serverless Vs. Neo-Serverless"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/serverless.html:173
+msgid "<i>(This section was added on 2018-04-02)</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/serverless.html:176
+msgid ""
+"Recently, folks have begun to use the word \"serverless\" to mean something "
+"subtly different from its intended meaning in this document.  Here are two "
+"possible definitions of \"serverless\":"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/serverless.html:182
+msgid ""
+"<b>Classic Serverless:</b> The database engine runs within the same process, "
+"thread, and address space as the application.  There is no message passing "
+"or network activity."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/serverless.html:187
+msgid ""
+"<b>Neo-Serverless:</b> The database engine runs in a separate namespace from "
+"the application, probably on a separate machine, but the database is "
+"provided as a turn-key service by the hosting provider, requires no "
+"management or administration by the application owners, and is so easy to "
+"use that the developers can think of the database as being serverless even "
+"if it really does use a server under the covers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/serverless.html:197
+msgid ""
+"SQLite is an example of a classic serverless database engine.  With SQLite, "
+"there are no other processes, threads, machines, or other mechanisms (apart "
+"from host computer OS and filesystem)  to help provide database services or "
+"implementation.  There really is no server."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/serverless.html:204
+msgid ""
+"<a "
+"href=\"https://docs.microsoft.com/en-us/azure/cosmos-db/serverless-computing-database\">Microsoft "
+"Azure Cosmo DB</a> and <a href=\"https://aws.amazon.com/s3/\">Amazon S3</a> "
+"are examples of a neo-serverless databases.  These database are implemented "
+"by server processes running separately in the cloud.  But the servers are "
+"maintained and administered by the ISP, not by the application developer.  "
+"Application developers just use the service.  Developers do not have to "
+"provision, configure, or manage database server instances, as all of that "
+"work is handled automatically by the service provider.  Database servers do "
+"in fact exist, they are just hidden from the developers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/serverless.html:218
+msgid ""
+"It is important to understand these two different definitions for "
+"\"serverless\".  When a database claims to be \"serverless\", be sure to "
+"discern whether they mean \"classic serverless\" or \"neo-serverless\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/serverless.html:223
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/serverless.in?m=b6f6dbff74\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

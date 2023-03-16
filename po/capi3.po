@@ -1,0 +1,845 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/capi3.html:6
+msgid "C/C++ Interface For SQLite Version 3 (old)"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/capi3.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/capi3.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/capi3.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/capi3.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/capi3.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/capi3.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/capi3.html:22 sedout/capi3.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/capi3.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/capi3.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/capi3.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/capi3.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/capi3.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/capi3.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/capi3.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/capi3.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/capi3.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/capi3.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/capi3.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/capi3.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/capi3.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/capi3.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/capi3.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><font><p>
+#: sedout/capi3.html:122
+msgid ""
+"<b>Note:</b> This document was written in 2004 as a guide to helping "
+"programmers move from using SQLite version 2 to SQLite version 3.  The "
+"information in this document is still essentially correct, however there "
+"have been many changes and enhancements over the years.  We recommend that "
+"the following documents be used instead:"
+msgstr ""
+
+#. type: Content of: <html><body><font><p><ul><li>
+#: sedout/capi3.html:129
+msgid ""
+"<a href=\"cintro.html\">An Introduction To The SQLite C/C++ Interface</a>"
+msgstr ""
+
+#. type: Content of: <html><body><font><p><ul><li>
+#: sedout/capi3.html:130
+msgid "<a href=\"c3ref/intro.html\">SQLite C/C++ Reference Guide</a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/capi3.html:135
+msgid "C/C++ Interface For SQLite Version 3"
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/capi3.html:137
+msgid "1.0 Overview"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:140
+msgid ""
+"SQLite version 3.0 is a new version of SQLite, derived from the SQLite "
+"2.8.13 code base, but with an incompatible file format and API.  SQLite "
+"version 3.0 was created to answer demand for the following features:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/capi3.html:147
+msgid "Support for UTF-16."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/capi3.html:148
+msgid "User-definable text collating sequences."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/capi3.html:149
+msgid "The ability to store BLOBs in indexed columns."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:153
+msgid ""
+"It was necessary to move to version 3.0 to implement these features because "
+"each requires incompatible changes to the database file format.  Other "
+"incompatible changes, such as a cleanup of the API, were introduced at the "
+"same time under the theory that it is best to get your incompatible changes "
+"out of the way all at once."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:161
+msgid ""
+"The API for version 3.0 is similar to the version 2.X API, but with some "
+"important changes.  Most noticeably, the \"<tt>sqlite_</tt>\" prefix that "
+"occurs on the beginning of all API functions and data structures are changed "
+"to \"<tt>sqlite3_</tt>\".  This avoids confusion between the two APIs and "
+"allows linking against both SQLite 2.X and SQLite 3.0 at the same time."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:170
+msgid ""
+"There is no agreement on what the C datatype for a UTF-16 string should be.  "
+"Therefore, SQLite uses a generic type of void* to refer to UTF-16 strings.  "
+"Client software can cast the void* to whatever datatype is appropriate for "
+"their system."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/capi3.html:176
+msgid "2.0 C/C++ Interface"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:179
+msgid ""
+"The API for SQLite 3.0 includes 83 separate functions in addition to several "
+"data structures and #defines.  (A complete <a href=\"c3ref/intro.html\">API "
+"reference</a> is provided as a separate document.)  Fortunately, the "
+"interface is not nearly as complex as its size implies.  Simple programs can "
+"still make do with only 3 functions: <a href=\"c3ref/open."
+"html\">sqlite3_open()</a>, <a href=\"c3ref/exec.html\">sqlite3_exec()</a>, "
+"and <a href=\"c3ref/close.html\">sqlite3_close()</a>.  More control over the "
+"execution of the database engine is provided using <a href=\"c3ref/prepare."
+"html\">sqlite3_prepare_v2()</a> to compile an SQLite statement into byte "
+"code and <a href=\"c3ref/step.html\">sqlite3_step()</a> to execute that "
+"bytecode.  A family of routines with names beginning with <a href=\"c3ref/"
+"column_blob.html\">sqlite3_column_</a> is used to extract information about "
+"the result set of a query.  Many interface functions come in pairs, with "
+"both a UTF-8 and UTF-16 version.  And there is a collection of routines used "
+"to implement user-defined SQL functions and user-defined text collating "
+"sequences."
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/capi3.html:200
+msgid "2.1 Opening and closing a database"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:203
+#, no-wrap
+msgid ""
+"   typedef struct sqlite3 sqlite3;\n"
+"   int sqlite3_open(const char*, sqlite3**);\n"
+"   int sqlite3_open16(const void*, sqlite3**);\n"
+"   int sqlite3_close(sqlite3*);\n"
+"   const char *sqlite3_errmsg(sqlite3*);\n"
+"   const void *sqlite3_errmsg16(sqlite3*);\n"
+"   int sqlite3_errcode(sqlite3*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:213
+msgid ""
+"The sqlite3_open() routine returns an integer error code rather than a "
+"pointer to the sqlite3 structure as the version 2 interface did.  The "
+"difference between sqlite3_open()  and sqlite3_open16() is that "
+"sqlite3_open16() takes UTF-16 (in host native byte order) for the name of "
+"the database file.  If a new database file needs to be created, then "
+"sqlite3_open16() sets the internal text representation to UTF-16 whereas "
+"sqlite3_open() sets the text representation to UTF-8."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:224
+msgid ""
+"The opening and/or creating of the database file is deferred until the file "
+"is actually needed.  This allows options and parameters, such as the native "
+"text representation and default page size, to be set using PRAGMA statements."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:231
+msgid ""
+"The sqlite3_errcode() routine returns a result code for the most recent "
+"major API call.  sqlite3_errmsg() returns an English-language text error "
+"message for the most recent error.  The error message is represented in "
+"UTF-8 and will be ephemeral - it could disappear on the next call to any "
+"SQLite API function.  sqlite3_errmsg16() works like sqlite3_errmsg() except "
+"that it returns the error message represented as UTF-16 in host native byte "
+"order."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:241
+msgid ""
+"The error codes for SQLite version 3 are unchanged from version 2.  They are "
+"as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:246
+#, no-wrap
+msgid ""
+"#define SQLITE_OK           0   /* Successful result */\n"
+"#define SQLITE_ERROR        1   /* SQL error or missing database */\n"
+"#define SQLITE_INTERNAL     2   /* An internal logic error in SQLite */\n"
+"#define SQLITE_PERM         3   /* Access permission denied */\n"
+"#define SQLITE_ABORT        4   /* Callback routine requested an abort */\n"
+"#define SQLITE_BUSY         5   /* The database file is locked */\n"
+"#define SQLITE_LOCKED       6   /* A table in the database is locked */\n"
+"#define SQLITE_NOMEM        7   /* A malloc() failed */\n"
+"#define SQLITE_READONLY     8   /* Attempt to write a readonly database */\n"
+"#define SQLITE_INTERRUPT    9   /* Operation terminated by sqlite_interrupt() */\n"
+"#define SQLITE_IOERR       10   /* Some kind of disk I/O error occurred */\n"
+"#define SQLITE_CORRUPT     11   /* The database disk image is malformed */\n"
+"#define SQLITE_NOTFOUND    12   /* (Internal Only) Table or record not found */\n"
+"#define SQLITE_FULL        13   /* Insertion failed because database is full */\n"
+"#define SQLITE_CANTOPEN    14   /* Unable to open the database file */\n"
+"#define SQLITE_PROTOCOL    15   /* Database lock protocol error */\n"
+"#define SQLITE_EMPTY       16   /* (Internal Only) Database table is empty */\n"
+"#define SQLITE_SCHEMA      17   /* The database schema changed */\n"
+"#define SQLITE_TOOBIG      18   /* Too much data for one row of a table */\n"
+"#define SQLITE_CONSTRAINT  19   /* Abort due to contraint violation */\n"
+"#define SQLITE_MISMATCH    20   /* Data type mismatch */\n"
+"#define SQLITE_MISUSE      21   /* Library used incorrectly */\n"
+"#define SQLITE_NOLFS       22   /* Uses OS features not supported on host */\n"
+"#define SQLITE_AUTH        23   /* Authorization denied */\n"
+"#define SQLITE_ROW         100  /* sqlite_step() has another row ready */\n"
+"#define SQLITE_DONE        101  /* sqlite_step() has finished executing */\n"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/capi3.html:274
+msgid "2.2 Executing SQL statements"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:277
+#, no-wrap
+msgid ""
+"   typedef int (*sqlite_callback)(void*,int,char**, char**);\n"
+"   int sqlite3_exec(sqlite3*, const char *sql, sqlite_callback, void*, char**);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:282
+msgid ""
+"The <a href=\"c3ref/exec.html\">sqlite3_exec()</a> function works much as it "
+"did in SQLite version 2.  Zero or more SQL statements specified in the "
+"second parameter are compiled and executed.  Query results are returned to a "
+"callback routine."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:288
+msgid ""
+"In SQLite version 3, the sqlite3_exec routine is just a wrapper around calls "
+"to the prepared statement interface."
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:293
+#, no-wrap
+msgid ""
+"   typedef struct sqlite3_stmt sqlite3_stmt;\n"
+"   int sqlite3_prepare(sqlite3*, const char*, int, sqlite3_stmt**, const char**);\n"
+"   int sqlite3_prepare16(sqlite3*, const void*, int, sqlite3_stmt**, const void**);\n"
+"   int sqlite3_finalize(sqlite3_stmt*);\n"
+"   int sqlite3_reset(sqlite3_stmt*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:301
+msgid ""
+"The sqlite3_prepare interface compiles a single SQL statement into byte code "
+"for later execution.  This interface is now the preferred way of accessing "
+"the database."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:307
+msgid ""
+"The SQL statement is a UTF-8 string for sqlite3_prepare().  The "
+"sqlite3_prepare16() works the same way except that it expects a UTF-16 "
+"string as SQL input.  Only the first SQL statement in the input string is "
+"compiled.  The fifth parameter is filled in with a pointer to the next "
+"(uncompiled)  SQLite statement in the input string, if any.  The "
+"sqlite3_finalize() routine deallocates a prepared SQL statement.  All "
+"prepared statements must be finalized before the database can be closed.  "
+"The sqlite3_reset() routine resets a prepared SQL statement so that it can "
+"be executed again."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:321
+msgid ""
+"The SQL statement may contain tokens of the form \"?\" or \"?nnn\" or \":"
+"aaa\" where \"nnn\" is an integer and \"aaa\" is an identifier.  Such tokens "
+"represent unspecified literal values (or \"wildcards\")  to be filled in "
+"later by the <a href=\"c3ref/bind_blob.html\">sqlite3_bind</a> interface.  "
+"Each wildcard has an associated number which is its sequence in the "
+"statement or the \"nnn\" in the case of a \"?nnn\" form.  It is allowed for "
+"the same wildcard to occur more than once in the same SQL statement, in "
+"which case all instance of that wildcard will be filled in with the same "
+"value.  Unbound wildcards have a value of NULL."
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:335
+#, no-wrap
+msgid ""
+"   int sqlite3_bind_blob(sqlite3_stmt*, int, const void*, int n, void(*)(void*));\n"
+"   int sqlite3_bind_double(sqlite3_stmt*, int, double);\n"
+"   int sqlite3_bind_int(sqlite3_stmt*, int, int);\n"
+"   int sqlite3_bind_int64(sqlite3_stmt*, int, long long int);\n"
+"   int sqlite3_bind_null(sqlite3_stmt*, int);\n"
+"   int sqlite3_bind_text(sqlite3_stmt*, int, const char*, int n, void(*)(void*));\n"
+"   int sqlite3_bind_text16(sqlite3_stmt*, int, const void*, int n, void(*)(void*));\n"
+"   int sqlite3_bind_value(sqlite3_stmt*, int, const sqlite3_value*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:346
+msgid ""
+"There is an assortment of sqlite3_bind routines used to assign values to "
+"wildcards in a prepared SQL statement.  Unbound wildcards are interpreted as "
+"NULLs.  Bindings are not reset by sqlite3_reset().  But wildcards can be "
+"rebound to new values after an sqlite3_reset()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:353
+msgid ""
+"After an SQL statement has been prepared (and optionally bound), it is "
+"executed using:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:358
+#, no-wrap
+msgid "   int sqlite3_step(sqlite3_stmt*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:362
+msgid ""
+"The sqlite3_step() routine return SQLITE_ROW if it is returning a single row "
+"of the result set, or SQLITE_DONE if execution has completed, either "
+"normally or due to an error.  It might also return SQLITE_BUSY if it is "
+"unable to open the database file.  If the return value is SQLITE_ROW, then "
+"the following routines can be used to extract information about that row of "
+"the result set:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:371
+#, no-wrap
+msgid ""
+"   const void *sqlite3_column_blob(sqlite3_stmt*, int iCol);\n"
+"   int sqlite3_column_bytes(sqlite3_stmt*, int iCol);\n"
+"   int sqlite3_column_bytes16(sqlite3_stmt*, int iCol);\n"
+"   int sqlite3_column_count(sqlite3_stmt*);\n"
+"   const char *sqlite3_column_decltype(sqlite3_stmt *, int iCol);\n"
+"   const void *sqlite3_column_decltype16(sqlite3_stmt *, int iCol);\n"
+"   double sqlite3_column_double(sqlite3_stmt*, int iCol);\n"
+"   int sqlite3_column_int(sqlite3_stmt*, int iCol);\n"
+"   long long int sqlite3_column_int64(sqlite3_stmt*, int iCol);\n"
+"   const char *sqlite3_column_name(sqlite3_stmt*, int iCol);\n"
+"   const void *sqlite3_column_name16(sqlite3_stmt*, int iCol);\n"
+"   const unsigned char *sqlite3_column_text(sqlite3_stmt*, int iCol);\n"
+"   const void *sqlite3_column_text16(sqlite3_stmt*, int iCol);\n"
+"   int sqlite3_column_type(sqlite3_stmt*, int iCol);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:388
+msgid ""
+"The <a href=\"c3ref/column_count.html\">sqlite3_column_count()</a> function "
+"returns the number of columns in the results set.  sqlite3_column_count() "
+"can be called at any time after <a href=\"c3ref/prepare."
+"html\">sqlite3_prepare_v2()</a>.  <a href=\"c3ref/data_count."
+"html\">sqlite3_data_count()</a> works similarly to <a href=\"c3ref/"
+"column_count.html\">sqlite3_column_count()</a> except that it only works "
+"following <a href=\"c3ref/step.html\">sqlite3_step()</a>.  If the previous "
+"call to <a href=\"c3ref/step.html\">sqlite3_step()</a> returned SQLITE_DONE "
+"or an error code, then <a href=\"c3ref/data_count."
+"html\">sqlite3_data_count()</a> will return 0 whereas <a href=\"c3ref/"
+"column_count.html\">sqlite3_column_count()</a> will continue to return the "
+"number of columns in the result set."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:398
+msgid ""
+"Returned data is examined using the other <a href=\"c3ref/column_blob."
+"html\">sqlite3_column_***()</a> functions, all of which take a column number "
+"as their second parameter. Columns are zero-indexed from left to right. Note "
+"that this is different to parameters, which are indexed starting at one."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:406
+msgid ""
+"The <a href=\"c3ref/column_blob.html\">sqlite3_column_type()</a> function "
+"returns the datatype for the value in the Nth column.  The return value is "
+"one of these:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:412
+#, no-wrap
+msgid ""
+"   #define SQLITE_INTEGER  1\n"
+"   #define SQLITE_FLOAT    2\n"
+"   #define SQLITE_TEXT     3\n"
+"   #define SQLITE_BLOB     4\n"
+"   #define SQLITE_NULL     5\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:420
+msgid ""
+"The sqlite3_column_decltype() routine returns text which is the declared "
+"type of the column in the CREATE TABLE statement.  For an expression, the "
+"return type is an empty string.  sqlite3_column_name()  returns the name of "
+"the Nth column.  sqlite3_column_bytes() returns the number of bytes in a "
+"column that has type BLOB or the number of bytes in a TEXT string with UTF-8 "
+"encoding.  sqlite3_column_bytes16() returns the same value for BLOBs but for "
+"TEXT strings returns the number of bytes in a UTF-16 encoding.  "
+"sqlite3_column_blob() return BLOB data.  sqlite3_column_text() return TEXT "
+"data as UTF-8.  sqlite3_column_text16() return TEXT data as UTF-16.  "
+"sqlite3_column_int() return INTEGER data in the host machines native integer "
+"format.  sqlite3_column_int64() returns 64-bit INTEGER data.  Finally, "
+"sqlite3_column_double() return floating point data."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:438
+msgid ""
+"It is not necessary to retrieve data in the format specify by "
+"sqlite3_column_type().  If a different format is requested, the data is "
+"converted automatically."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:444
+msgid ""
+"Data format conversions can invalidate the pointer returned by prior calls "
+"to sqlite3_column_blob(), sqlite3_column_text(), and/or "
+"sqlite3_column_text16().  Pointers might be invalided in the following cases:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/capi3.html:451
+msgid ""
+"The initial content is a BLOB and sqlite3_column_text()  or "
+"sqlite3_column_text16()  is called.  A zero-terminator might need to be "
+"added to the string."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/capi3.html:456
+msgid ""
+"The initial content is UTF-8 text and sqlite3_column_bytes16() or "
+"sqlite3_column_text16() is called.  The content must be converted to UTF-16."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/capi3.html:460
+msgid ""
+"The initial content is UTF-16 text and sqlite3_column_bytes() or "
+"sqlite3_column_text() is called.  The content must be converted to UTF-8."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:465
+msgid ""
+"Note that conversions between UTF-16be and UTF-16le are always done in place "
+"and do not invalidate a prior pointer, though of course the content of the "
+"buffer that the prior pointer points to will have been modified.  Other "
+"kinds of conversion are done in place when it is possible, but sometime it "
+"is not possible and in those cases prior pointers are invalidated."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:474
+msgid ""
+"The safest and easiest to remember policy is this: assume that any result "
+"from"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/capi3.html:477
+msgid "sqlite3_column_blob(),"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/capi3.html:478 sedout/capi3.html:485
+msgid "sqlite3_column_text(), or"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/capi3.html:479
+msgid "sqlite3_column_text16()"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:481
+msgid "is invalided by subsequent calls to"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/capi3.html:483
+msgid "sqlite3_column_bytes(),"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/capi3.html:484
+msgid "sqlite3_column_bytes16(),"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/capi3.html:486
+msgid "sqlite3_column_text16()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:488
+msgid ""
+"This means that you should always call sqlite3_column_bytes() or "
+"sqlite3_column_bytes16() <u>before</u> calling sqlite3_column_blob(), "
+"sqlite3_column_text(), or sqlite3_column_text16()."
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/capi3.html:493
+msgid "2.3 User-defined functions"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:496
+msgid "User defined functions can be created using the following routine:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:500
+#, no-wrap
+msgid ""
+"   typedef struct sqlite3_value sqlite3_value;\n"
+"   int sqlite3_create_function(\n"
+"     sqlite3 *,\n"
+"     const char *zFunctionName,\n"
+"     int nArg,\n"
+"     int eTextRep,\n"
+"     void*,\n"
+"     void (*xFunc)(sqlite3_context*,int,sqlite3_value**),\n"
+"     void (*xStep)(sqlite3_context*,int,sqlite3_value**),\n"
+"     void (*xFinal)(sqlite3_context*)\n"
+"   );\n"
+"   int sqlite3_create_function16(\n"
+"     sqlite3*,\n"
+"     const void *zFunctionName,\n"
+"     int nArg,\n"
+"     int eTextRep,\n"
+"     void*,\n"
+"     void (*xFunc)(sqlite3_context*,int,sqlite3_value**),\n"
+"     void (*xStep)(sqlite3_context*,int,sqlite3_value**),\n"
+"     void (*xFinal)(sqlite3_context*)\n"
+"   );\n"
+"   #define SQLITE_UTF8     1\n"
+"   #define SQLITE_UTF16    2\n"
+"   #define SQLITE_UTF16BE  3\n"
+"   #define SQLITE_UTF16LE  4\n"
+"   #define SQLITE_ANY      5\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:529
+msgid ""
+"The nArg parameter specifies the number of arguments to the function.  A "
+"value of 0 indicates that any number of arguments is allowed.  The eTextRep "
+"parameter specifies what representation text values are expected to be in "
+"for arguments to this function.  The value of this parameter should be one "
+"of the parameters defined above.  SQLite version 3 allows multiple "
+"implementations of the same function using different text representations.  "
+"The database engine chooses the function that minimization the number of "
+"text conversions required."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:540
+msgid ""
+"Normal functions specify only xFunc and leave xStep and xFinal set to NULL.  "
+"Aggregate functions specify xStep and xFinal and leave xFunc set to NULL.  "
+"There is no separate sqlite3_create_aggregate() API."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:546
+msgid ""
+"The function name is specified in UTF-8.  A separate "
+"sqlite3_create_function16()  API works the same as sqlite_create_function()  "
+"except that the function name is specified in UTF-16 host byte order."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:552
+msgid ""
+"Notice that the parameters to functions are now pointers to sqlite3_value "
+"structures instead of pointers to strings as in SQLite version 2.X.  The "
+"following routines are used to extract useful information from these "
+"\"values\":"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:559
+#, no-wrap
+msgid ""
+"   const void *sqlite3_value_blob(sqlite3_value*);\n"
+"   int sqlite3_value_bytes(sqlite3_value*);\n"
+"   int sqlite3_value_bytes16(sqlite3_value*);\n"
+"   double sqlite3_value_double(sqlite3_value*);\n"
+"   int sqlite3_value_int(sqlite3_value*);\n"
+"   long long int sqlite3_value_int64(sqlite3_value*);\n"
+"   const unsigned char *sqlite3_value_text(sqlite3_value*);\n"
+"   const void *sqlite3_value_text16(sqlite3_value*);\n"
+"   int sqlite3_value_type(sqlite3_value*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:571
+msgid ""
+"Function implementations use the following APIs to acquire context and to "
+"report results:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:576
+#, no-wrap
+msgid ""
+"   void *sqlite3_aggregate_context(sqlite3_context*, int nbyte);\n"
+"   void *sqlite3_user_data(sqlite3_context*);\n"
+"   void sqlite3_result_blob(sqlite3_context*, const void*, int n, void(*)(void*));\n"
+"   void sqlite3_result_double(sqlite3_context*, double);\n"
+"   void sqlite3_result_error(sqlite3_context*, const char*, int);\n"
+"   void sqlite3_result_error16(sqlite3_context*, const void*, int);\n"
+"   void sqlite3_result_int(sqlite3_context*, int);\n"
+"   void sqlite3_result_int64(sqlite3_context*, long long int);\n"
+"   void sqlite3_result_null(sqlite3_context*);\n"
+"   void sqlite3_result_text(sqlite3_context*, const char*, int n, void(*)(void*));\n"
+"   void sqlite3_result_text16(sqlite3_context*, const void*, int n, void(*)(void*));\n"
+"   void sqlite3_result_value(sqlite3_context*, sqlite3_value*);\n"
+"   void *sqlite3_get_auxdata(sqlite3_context*, int);\n"
+"   void sqlite3_set_auxdata(sqlite3_context*, int, void*, void (*)(void*));\n"
+msgstr ""
+
+#. type: Content of: <html><body><h4>
+#: sedout/capi3.html:592
+msgid "2.4 User-defined collating sequences"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:595
+msgid ""
+"The following routines are used to implement user-defined collating "
+"sequences:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/capi3.html:600
+#, no-wrap
+msgid ""
+"   sqlite3_create_collation(sqlite3*, const char *zName, int eTextRep, void*,\n"
+"      int(*xCompare)(void*,int,const void*,int,const void*));\n"
+"   sqlite3_create_collation16(sqlite3*, const void *zName, int eTextRep, void*,\n"
+"      int(*xCompare)(void*,int,const void*,int,const void*));\n"
+"   sqlite3_collation_needed(sqlite3*, void*, \n"
+"      void(*)(void*,sqlite3*,int eTextRep,const char*));\n"
+"   sqlite3_collation_needed16(sqlite3*, void*,\n"
+"      void(*)(void*,sqlite3*,int eTextRep,const void*));\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:611
+msgid ""
+"The sqlite3_create_collation() function specifies a collating sequence name "
+"and a comparison function to implement that collating sequence.  The "
+"comparison function is only used for comparing text values.  The eTextRep "
+"parameter is one of SQLITE_UTF8, SQLITE_UTF16LE, SQLITE_UTF16BE, or "
+"SQLITE_ANY to specify which text representation the comparison function "
+"works with.  Separate comparison functions can exist for the same collating "
+"sequence for each of the UTF-8, UTF-16LE and UTF-16BE text representations.  "
+"The sqlite3_create_collation16() works like sqlite3_create_collation() "
+"except that the collation name is specified in UTF-16 host byte order "
+"instead of in UTF-8."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:624
+msgid ""
+"The sqlite3_collation_needed() routine registers a callback which the "
+"database engine will invoke if it encounters an unknown collating sequence.  "
+"The callback can lookup an appropriate comparison function and invoke "
+"sqlite_3_create_collation() as needed.  The fourth parameter to the callback "
+"is the name of the collating sequence in UTF-8.  For "
+"sqlite3_collation_need16()  the callback sends the collating sequence name "
+"in UTF-16 host byte order."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/capi3.html:631
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/capi3.in?m=2524a93030\">2022-01-08 05:02:57</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,1139 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/cves.html:6 sedout/cves.html:121
+msgid "Vulnerabilities"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/cves.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/cves.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/cves.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/cves.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/cves.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/cves.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/cves.html:22 sedout/cves.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/cves.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/cves.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/cves.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/cves.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/cves.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/cves.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/cves.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/cves.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/cves.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/cves.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/cves.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/cves.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/cves.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/cves.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/cves.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/cves.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cves.html:128
+msgid "<a href=\"#executive_summary\">1. Executive Summary</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cves.html:129
+msgid "<a href=\"#about_cves\">2. About CVEs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cves.html:130
+msgid ""
+"<a href=\"#a_separate_sql_injection_vulnerability_is_usually_required\">2.1. "
+"A separate SQL injection vulnerability is usually required</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cves.html:131
+msgid ""
+"<a href=\"#defense_against_dark_arts\">2.2. Defense Against Dark Arts</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cves.html:132
+msgid ""
+"<a href=\"#the_sqlite_developer_policy_toward_cves\">2.3. The SQLite "
+"Developer Policy Toward CVEs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/cves.html:133
+msgid ""
+"<a href=\"#status_of_recent_sqlite_cves\">3. Status Of Recent SQLite CVEs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/cves.html:137
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/cves.html:155
+msgid "<span>1. </span>Executive Summary"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:159
+msgid "CVEs about SQLite probably do not apply to your use of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:162
+msgid ""
+"All historical vulnerabilities reported against SQLite require at least one "
+"of these preconditions:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><ol><li>
+#: sedout/cves.html:166
+msgid "The attacker can submit and run arbitrary SQL statements."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><ol><li>
+#: sedout/cves.html:168
+msgid ""
+"The attacker can submit a maliciously crafted database file to the "
+"application that the application will then open and query."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:173
+msgid ""
+"Few real-world applications meet either of these preconditions, and hence "
+"few real-world applications are vulnerable, even if they use older and "
+"unpatched versions of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:178
+msgid ""
+"The SQLite development team fixes bugs promptly, usually within hours of "
+"discovery.  New releases of SQLite are issued if the bug seems likely to "
+"impact real-world applications."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:184
+msgid ""
+"Grey-hat hackers are rewarded based on the number and severity of CVEs that "
+"they write.  This results in a proliferation of CVEs that have minor impact, "
+"or no impact at all, but which make exaggerated impact claims."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:189
+msgid ""
+"<a name=\"notnew\"></a> Very few CVEs written about SQLite are real "
+"vulnerabilities in the sense that they do not give any new capabilities to "
+"an attacker.  Consider:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><ol><li>
+#: sedout/cves.html:195
+msgid ""
+"Almost all CVEs written against SQLite require the ability to inject and run "
+"arbitrary SQL."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><ol><li>
+#: sedout/cves.html:198
+msgid ""
+"The advertised consequence of most CVEs is \"denial of service\", typically "
+"by causing a crash through a NULL pointer dereference or a division by zero, "
+"or similar."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><ol><li>
+#: sedout/cves.html:202
+msgid ""
+"But if an attacker can already run arbitrary SQL, they do not need a bug to "
+"cause a denial of service.  There are plenty of perfectly legal and valid "
+"SQL statements that will consume unlimited CPU, memory, and disk I/O in "
+"order to create a denial-of-service without requiring help from bugs."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><ol><li>
+#: sedout/cves.html:208
+msgid ""
+"Hence, the mere fact that an attacker has a way to inject and run arbitrary "
+"SQL is in and of itself a denial-of-service attack.  That the arbitrary SQL "
+"might also tickle a bug in SQLite and cause a crash is not a new "
+"vulnerability."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:215
+msgid ""
+"The SQLite developers do not write CVEs.  Any CVEs you find on SQLite are "
+"generated by third-parties, often without any input from the core "
+"developers.  A common scenario is that someone will report a bug in SQLite, "
+"which will promptly be fixed, then weeks later a CVE for that bug will "
+"appear, unbeknownst to the developers."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/cves.html:222
+msgid ""
+"You should not assume that a CVE about SQLite contains authoritative "
+"information.  CVEs often contain inaccuracies.  The SQLite developers have "
+"attempted to add clarifications and corrections to CVEs about SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/cves.html:230
+msgid "<span>2. </span>About CVEs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:232
+msgid ""
+"CVEs (\"Common Vulnerabilities and Exposures\") are reports of software bugs "
+"that might allow a system to be hacked.  The idea behind CVEs is sound.  "
+"They provide a common naming scheme whereby software bugs that might "
+"compromise information security can be easily tracked."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:238
+msgid ""
+"While the original idea being CVEs is sound, the current processes for "
+"creating and managing CVEs are inadequate.  There are countless grey-hat "
+"hackers running fuzzers against a wide-variety of open-source software "
+"products (SQLite as well as many others) and writing up CVEs against any "
+"problems they find.  The grey-hats are rewarded, sometimes with prestige and "
+"sometimes financially, by the number and severity of the CVEs they write.  "
+"This incentive results in a proliferation of CVEs which are often not well-"
+"vetted and which can have exaggerated impact claims.  The quality-control "
+"procedures for CVEs are unable to cope with this flood of inputs, making it "
+"difficult to correct exaggerated, misleading, omitted, or inaccurate claims."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:250
+msgid ""
+"This is not to say that CVEs are useless.  CVEs do still (mostly)  report "
+"actual bugs.  But in most cases the bugs are not true vulnerabilities, in "
+"the sense that they do not contribute to data loss or compromise in and of "
+"themselves.  It is good that bugs are reported and fixed.  But not every bug "
+"is accessible from every application.  In the case of SQLite, most of the "
+"bugs reported by CVEs are inaccessible in most applications.  Upgrading to "
+"the latest version of SQLite is always a good plan, but it need not be an "
+"emergency just because an anonymous grey-hat on the internet wrote up a CVE."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/cves.html:261
+msgid ""
+"<span>2.1. </span>A separate SQL injection vulnerability is usually required"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:264
+msgid ""
+"Other C-libraries that process complex structured inputs will routinely be "
+"asked to deal with unvetted inputs from untrusted sources.  Libraries like "
+"libjpeg, or libzip, or OpenSSL are handed input streams that come directly "
+"from potentially hostile agents."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:271
+msgid ""
+"But database engines like SQLite are usually not this way.  The SQL scripts "
+"that are passed into SQLite come from the (trusted) application itself, not "
+"from an attacker.  Sometimes applications contain bugs by which an external "
+"attacker can trick the application into sending SQL of the attackers design "
+"into the database engine.  This is a separate bug in the application called "
+"an <a href=\"https://en.wikipedia.org/wiki/SQL_injection\">SQL Injection "
+"vulnerability</a>.  Since SQL text is executable code, an SQL Injection "
+"vulnerability is actually a special case of a <a href=\"https://en.wikipedia."
+"org/wiki/Arbitrary_code_execution\">Remote Code Execution (RCE) "
+"vulnerability</a>.  An SQL Injection is perhaps not quite as bad as other "
+"kinds of RCEs because, while SQL is a powerful language, it is not as "
+"convenient for crafting an exploit as Python or shell script or raw machine "
+"code.  Nevertheless, an SQL Injection is a serious problem."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:289
+msgid ""
+"Most CVEs written about SQLite assume that the attacker is able to run "
+"arbitrary SQL scripts in SQLite.  In most applications, this means that "
+"there must first be an SQL Injection vulnerability that allows the attacker "
+"to inject the malicious SQL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:295
+msgid ""
+"A few applications do allow untrusted SQL scripts received from potentially "
+"hostile agents to be run direct in SQLite.  The main example of this is the "
+"Chrome and Safari web browsers, which allow an anonymous web page to run SQL "
+"using the WebSQL feature of Javascript.  This is done inside a sandbox with "
+"tightly controlled constraints on resources, lest the SQL script try to soak "
+"up all available memory or CPU cycles in a denial-of-service attack.  Chrome "
+"and Safari have the infrastructure in place to allow a hostile agent to run "
+"code which does not harm or compromise the rest of the machine.  They have "
+"to, as they also run Javascript which could, if not tightly controlled, do "
+"even more damage than unrestrained SQL.  Apart from Chrome and Safari, no "
+"applications known to the SQLite developers deliberately allows an anonymous "
+"remote agent to run arbitrary SQL text."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:310
+msgid ""
+"However, most CVEs written against SQLite flippantly assume that an attacker "
+"is free to run any arbitrary SQL in the database engine.  So to a good "
+"approximation, this means most CVEs written against SQLite really only apply "
+"to SQLite as it is used in Chrome and Safari.  Or, in other words, most CVEs "
+"for SQLite do not apply to you unless you are one of the developers of "
+"Chrome or Safari."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/cves.html:318
+msgid "<span>2.2. </span>Defense Against Dark Arts"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:321
+msgid ""
+"Most applications can use SQLite without having to worry about bugs in "
+"obscure SQL inputs.  If the application controls the SQL, and the "
+"application is not deliberately trying to break SQLite, then everything "
+"should just work.  It is not necessary to have the latest patched version of "
+"SQLite.  Any older version should work just fine."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:329
+msgid ""
+"However, there are some occasions where an application does need to be able "
+"to safely run untrusted SQL. The SQLite developers work hard to make SQLite "
+"safe for this purpose, though there are occasional slip-ups.  It is good to "
+"keep up-to-date with the latest patches in this case.  The separate <a "
+"href=\"security.html\">defense against dark arts</a> document contains "
+"additional suggestions that can help prevent zero-day attacks in cases where "
+"SQLite is given inputs that come directly from untrusted sources."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/cves.html:338
+msgid "<span>2.3. </span>The SQLite Developer Policy Toward CVEs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:340
+msgid ""
+"SQLite developers fix all bugs in SQLite as soon as they are reported, "
+"usually within a few hours.  The fixes are immediately available on the <a "
+"href=\"https://sqlite.org/src/timeline\">public SQLite source tree</a>.  If "
+"a bug seems like it might cause problems for existing applications, a new "
+"patch release for SQLite will be issued."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:346
+msgid ""
+"However, the SQLite developers do not track CVEs.  There are various reasons "
+"for this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cves.html:351
+msgid ""
+"The developers often do not find out about CVEs until long after the bug is "
+"fixed.  You can see this by the fact that many CVEs reference the bug fix in "
+"their initial report."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cves.html:356
+msgid ""
+"CVEs are a low-quality source of information about bugs in SQLite that are "
+"likely to affect most applications."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cves.html:360
+msgid ""
+"Almost all bugs reported by CVEs are just bugs and not true "
+"vulnerabilities.  Claiming that they are vulnerabilities is stretching the "
+"meaning of the word \"vulnerability\" and the SQLite developers do not wish "
+"to participate in that deception."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/cves.html:366
+msgid ""
+"The developers have no editorial influence on the content of CVEs, and they "
+"do not like to be controlled by groups in which they have no voice."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/cves.html:372
+msgid "<a name=\"cvetab\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/cves.html:374
+msgid "<span>3. </span>Status Of Recent SQLite CVEs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cves.html:376
+msgid ""
+"Though the SQLite developers do not consider CVEs to be a reliable source of "
+"information about bugs in SQLite, they recognize that many groups, and "
+"especially small teams working at the bottom of tall bureaucracies, "
+"sometimes need to track CVEs, whether they are useful or not.  To aid in "
+"this chore, the following table of recent CVEs affecting SQLite is provided."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cves.html:383
+msgid ""
+"If you notice new CVEs associated with SQLite that are not in the table "
+"below, please bring them to the attention of the developers on the <a "
+"href=\"https://sqlite.org/forum/about\">SQLite Forum</a> so they can be "
+"added."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><thead><tr><th>
+#: sedout/cves.html:391
+msgid "CVE Number"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><thead><tr><th>
+#: sedout/cves.html:392
+msgid "Fix"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><thead><tr><th>
+#: sedout/cves.html:393
+msgid "Comments"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:399
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2022-46908'>CVE-2022-46908</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:401 sedout/cves.html:474
+msgid "Bug not in the SQLite library"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:402
+msgid ""
+"This is a bug in the --safe command-line option of the <a href=\"cli."
+"html\">command-line shell</a> program that is available for accessing SQLite "
+"database files.  The bug does not exist in the SQLite library.  Nor is it an "
+"issue for the <a href=\"cli.html\">CLI</a> as long as the user does not "
+"depend on the --safe option.  It is not serious.  It is debatable whether or "
+"not this is a security issue."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:410
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2022-38627'>CVE-2022-38627</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:412 sedout/cves.html:435 sedout/cves.html:446
+#: sedout/cves.html:456 sedout/cves.html:464 sedout/cves.html:493
+#: sedout/cves.html:502
+msgid "Not a bug"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:413
+msgid ""
+"This is not a bug in SQLite.  This is an <a href=\"https://en.wikipedia.org/"
+"wiki/SQL_injection\">SQL injection bug</a> in a specific PHP application.  "
+"In other words, the bug is in the PHP application code, not in SQLite.  Even "
+"though this CVE is not about SQLite, \"SQLite\" is mentioned in the "
+"publicity about the bug and so we list it here."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:421
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2022-35737'>CVE-2022-35737</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:423
+msgid "<a href=\"releaselog/3_39_2.html\">3.39.2</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:423
+msgid "(2022-07-21)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:424
+msgid ""
+"This bug is an array-bounds overflow.  The bug is only accessible when using "
+"some of the C-language APIs provided by SQLite.  The bug cannot be reached "
+"using SQL nor can it be reached by providing SQLite with a corrupt database "
+"file.  The bug only comes up when very long string inputs (greater than 2 "
+"billion bytes in length) are provided as arguments to a few specific C-"
+"language interfaces, and even then only under special circumstances."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:433
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2022-24854'>CVE-2022-24854</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:436
+msgid ""
+"This CVE describes a bug in an application that uses SQLite, not in SQLite "
+"itself.  SQLite is doing everything correctly.  The application grants users "
+"the ability to run SQL statements, using SQLite, that can leak or change "
+"information that those users should not normally have access to.  This is "
+"purely an application bug.  It does not describe a malfunction or "
+"vulnerability in SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:444
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2022-21227'>CVE-2022-21227</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:447
+msgid ""
+"This CVE describes a bug in a third-party packages that provides a binding "
+"for SQLite to Node.js.  The bug reported is in the third-party Node.js "
+"binding, not in SQLite itself.  Do not be confused by the use of the word "
+"\"SQLite\" in the ambiguously-worded CVE description."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:454
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-45346'>CVE-2021-45346</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:457
+msgid ""
+"This CVE is misinformation.  See the discussion around <a href=\"https://"
+"sqlite.org/forum/forumpost/53de8864ba114bf6\">SQLite forum post "
+"53de8864ba114bf</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:462
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-42169'>CVE-2021-42169</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:465
+msgid ""
+"This CVE has nothing whatsoever to do with SQLite.  It is about a bug in "
+"application that happens to use SQLite.  Since SQLite is mentioned in the "
+"CVE description, the CVE is included here to emphasize that this is not an "
+"SQLite bug."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:472
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-36690'>CVE-2021-36690</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:475
+msgid ""
+"This bug is not in the SQLite core library, but rather in an <a "
+"href=\"http://www.sqlite.org/src/dir?ci=trunk&name=ext/expert\"> "
+"experimental extension</a> that is used to implement the <a href=\"cli."
+"html#expert\">.expert command</a> in the <a href=\"cli.html\">CLI</a>.  The "
+"code that contains the bug does not appear in <a href=\"amalgamation."
+"html\">standard SQLite builds</a>, though it is included in the <a "
+"href=\"cli.html\">sqlite3.exe command-line tool</a>.  Applications must link "
+"against the extra source code files that implement the extension and take "
+"other deliberate actions to activate the extension before the troublesome "
+"code can be run.  For the rare application that uses the troublesome "
+"extension, the consequence of this bug is that malicious SQL can cause a "
+"NULL pointer deference and denial of service.  <a href='https://sqlite.org/"
+"forum/info/78165fa25061742f'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:491
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-28305'>CVE-2021-28305</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:494
+msgid ""
+"This is not a bug in SQLite.  The bug is in a third-party application that "
+"uses SQLite.  SQLite is mentioned by name in the CVE description, however, "
+"so we have included the CVE in the list."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:500
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-23404'>CVE-2021-23404</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:503
+msgid ""
+"This is not a bug in SQLite.  The bug is in a third-party application that "
+"uses SQLite and includes \"sqlite\" in its name.  This CVE is included on "
+"the list because it mentions SQLite even though the bug has nothing to do "
+"with SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:510
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-20227'>CVE-2021-20227</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:512
+msgid "<a href=\"releaselog/3_34_1.html\">3.34.1</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:512
+msgid "(2021-01-20)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:513
+msgid ""
+"Malicious SQL statement causes read-after-free.  No harm can come of this "
+"particular read-after-free instance, as far as anyone knows.  The bug is "
+"undetectable without a memory sanitizer. The CVE claims that this bug is an "
+"RCE - a Remote Code Execution vulnerability, but that claim is incorrect.  "
+"The RCE claim is misinformation.  <a href='https://sqlite.org/src/"
+"info/30a4c323650cc949'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:523
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2021-20223'>CVE-2021-20223</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:525
+msgid "<a href=\"releaselog/3_34_0.html\">3.34.0</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:525
+msgid "(2020-12-01)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:526
+msgid ""
+"The problem identified by this CVE is <u>not</u> a vulnerability.  It is a "
+"malfunction. A coding error causes <a href=\"fts5.html\">FTS5</a> to "
+"sometimes return inconsistent and incorrect results under obscure "
+"circumstances, but no memory errors occur.  <a href='https://sqlite.org/src/"
+"info/b7b7bde9b7a03665'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:534
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-15358'>CVE-2020-15358</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:536 sedout/cves.html:544
+msgid "<a href=\"releaselog/3_32_3.html\">3.32.3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:536 sedout/cves.html:544
+msgid "(2020-06-18)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:537
+msgid ""
+"Malicious SQL statement causes a read past the end of a heap buffer.  <a "
+"href='https://sqlite.org/src/info/8f157e8010b22af0'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:542
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-13871'>CVE-2020-13871</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:545
+msgid ""
+"Malicious SQL statement causes a read-only use-after-free memory error.  <a "
+"href='https://sqlite.org/src/info/c8d3b9f0a750a529'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:550
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-13632'>CVE-2020-13632</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:552 sedout/cves.html:562 sedout/cves.html:572
+#: sedout/cves.html:605 sedout/cves.html:615 sedout/cves.html:624
+msgid "<a href=\"releaselog/3_32_0.html\">3.32.0</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:552 sedout/cves.html:562 sedout/cves.html:572
+#: sedout/cves.html:605 sedout/cves.html:615 sedout/cves.html:624
+msgid "(2020-05-22)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:553
+msgid ""
+"Malicious SQL statement causes a read of a NULL pointer in the <a "
+"href=\"fts3.html#matchinfo\">matchinfo()</a> SQL function of the <a "
+"href=\"fts3.html\">FTS3</a> extension, resulting in denial of service.  <a "
+"href='https://sqlite.org/src/info/a4dd148928ea65bd'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:560
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-13631'>CVE-2020-13631</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:563
+msgid ""
+"Malicious SQL statement (an ALTER TABLE that tries to rename a <a "
+"href=\"vtab.html\">virtual table</a> into one of its own <a href=\"vtab."
+"html#xshadowname\">shadow tables</a>)  causes an infinite loop and denial of "
+"service.  <a href='https://sqlite.org/src/info/eca0ba2cf4c0fdf7'>(details)</"
+"a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:570
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-13630'>CVE-2020-13630</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:573
+msgid ""
+"Malicious SQL statement causes a read-only use-after-free, possibly "
+"resulting in an incorrect output from the <a href=\"fts3."
+"html#snippet\">snippet()</a> SQL function of the <a href=\"fts3.html\">FTS3</"
+"a> extension.  There is no known way to exfiltrate data or crash the "
+"application using this bug.  <a href='https://sqlite.org/src/"
+"info/0d69f76f0865f962'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:581
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-13435'>CVE-2020-13435</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:583 sedout/cves.html:592
+msgid "<a href=\"releaselog/3_32_1.html\">3.32.1</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:583 sedout/cves.html:592
+msgid "(2020-05-25)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:584
+msgid ""
+"Malicious SQL statement causes a read access to a NULL pointer and denial of "
+"service.  <a href='https://www.sqlite.org/src/"
+"info/7a5279a25c57adf1'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:590
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-13434'>CVE-2020-13434</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:593
+msgid ""
+"Malicious SQL statement involving the printf() SQL function results in an "
+"integer overflow which can overwrite the stack with over 2 billion bytes of "
+"0x30 or 0x20 (ASCII '0' or ' ').  Even though this is a stack overwrite, "
+"there is no known way to redirect control or otherwise escalate the level of "
+"harm.  This is a denial-of-service attack only.  <a href='https://www.sqlite."
+"org/src/info/23439ea582241138'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:603
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-11656'>CVE-2020-11656</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:606
+msgid ""
+"Malicious SQL statement causes read-only use-after-free of memory allocation "
+"if SQLite is compile with -DSQLITE_DEBUG.  Does not affect release builds.  "
+"<a href='https://www.sqlite.org/src/info/4722bdab08cb1'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:613
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-11655'>CVE-2020-11655</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:616
+msgid ""
+"Malicious SQL statement causes a read using an uninitialized pointer and "
+"denial-of-service.  <a href='https://www.sqlite.org/src/info/"
+"af4556bb5c285c08'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:622
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-9327'>CVE-2020-9327</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:625
+msgid ""
+"Malicious SQL statement causes a read using an uninitialized pointer and "
+"denial-of-service <a href='https://www.sqlite.org/src/"
+"info/4374860b29383380'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:631
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2020-6405'>CVE-2020-6405</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:633 sedout/cves.html:642 sedout/cves.html:651
+#: sedout/cves.html:663 sedout/cves.html:672 sedout/cves.html:684
+#: sedout/cves.html:693 sedout/cves.html:702 sedout/cves.html:715
+msgid "<a href=\"releaselog/3_31_0.html\">3.31.0</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td><br>
+#: sedout/cves.html:633 sedout/cves.html:642 sedout/cves.html:651
+#: sedout/cves.html:663 sedout/cves.html:672 sedout/cves.html:684
+#: sedout/cves.html:693 sedout/cves.html:702 sedout/cves.html:715
+msgid "(2020-01-22)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:634
+msgid ""
+"Malicious SQL statement causes a NULL pointer dereference and denial-of-"
+"service <a href='https://www.sqlite.org/src/"
+"info/1bc783da63d58b05'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:640
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-20218'>CVE-2019-20218</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:643
+msgid ""
+"Malicious SQL statement causes an uninitialized pointer read and denial-of-"
+"service.  <a href='https://www.sqlite.org/src/timeline?r=better-error-"
+"handling-1'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:649
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19959'>CVE-2019-19959</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:652
+msgid ""
+"Malicious SQL statement causes a NULL pointer dereference in the <a "
+"href=\"zipfile.html\">Zipfile virtual table</a> extension and denial-of-"
+"service.  This is only possible when the optional <a href=\"zipfile."
+"html\">Zipfile virtual table</a> extension is deployed, which is not the "
+"case in default builds.  <a href='https://www.sqlite.org/src/info/"
+"cc0fb00a128fd077'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:661
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19926'>CVE-2019-19926</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:664
+msgid ""
+"Malicious SQL statement causes an uninitialized pointer read and denial-of-"
+"service.  <a href='https://www.sqlite.org/src/info/"
+"cba2a2a44cdf138a'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:670
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19925'>CVE-2019-19925</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:673
+msgid ""
+"Malicious SQL statement causes a NULL pointer dereference and in the <a "
+"href=\"zipfile.html\">Zipfile virtual table</a> extension and denial-of-"
+"service.  This is only possible when the optional <a href=\"zipfile."
+"html\">Zipfile virtual table</a> extension is deployed, which is not the "
+"case in default builds.  <a href='https://www.sqlite.org/src/info/"
+"a80f84b511231204'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:682
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19924'>CVE-2019-19924</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:685
+msgid ""
+"Malicious SQL statement causes an uninitialized pointer reference and denial-"
+"of-service.  <a href='https://www.sqlite.org/src/info/"
+"e2bddcd4c55ba3cb'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:691
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19923'>CVE-2019-19923</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:694
+msgid ""
+"Malicious SQL statement causes a NULL pointer dereference and denial-of-"
+"service.  <a href='https://www.sqlite.org/src/"
+"info/862974312edf00e9'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:700
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19646'>CVE-2019-19646</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:703
+msgid ""
+"The <a href=\"pragma.html#pragma_integrity_check\">PRAGMA integrity_check</"
+"a> command might cause the byte-code for a prepared statement to loop "
+"indefinitely.  This might enable a denial-of-service, if the application has "
+"not taken appropriate and prudent steps to limit the run-time of SQL "
+"statements.  This is not a vulnerability, as there are countless perfectly "
+"valid SQL queries, especially queries involving <a href=\"lang_with."
+"html#recursivecte\">recursive common table expressions</a>, that also run "
+"essentially forever.  <a href='https://sqlite.org/src/info/"
+"bd8c280671ba44a7'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:713
+msgid ""
+"<a href='https://nvd.nist.gov/vuln/detail/CVE-2019-19317'>CVE-2019-19317</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><table><tbody><tr><td>
+#: sedout/cves.html:716
+msgid ""
+"This CVE identifies a bug in a development check-in of SQLite.  The bug "
+"never appeared in any official SQLite release.  <a href='https://www.sqlite."
+"org/src/info/6601da58032d18ae'>(details)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/cves.html:724
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/cves.in?m=c1c00c0e5b\">2023-02-27 02:07:35</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,3589 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:10+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/sitemap.html:6
+msgid "SQLite Site Map"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/sitemap.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/sitemap.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/sitemap.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/sitemap.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/sitemap.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/sitemap.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/sitemap.html:22 sedout/sitemap.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/sitemap.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/sitemap.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/sitemap.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/sitemap.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/sitemap.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/sitemap.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/sitemap.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/sitemap.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/sitemap.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/sitemap.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/sitemap.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/sitemap.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/sitemap.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/sitemap.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/sitemap.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/sitemap.html:122
+msgid "Permuted Index"
+msgstr ""
+
+#. type: Content of: <html><body><var>
+#: sedout/sitemap.html:124
+msgid ""
+"<var class=\"rightsidebar border2px desktoponly\"> Other Documentation "
+"Indices:"
+msgstr ""
+
+#. type: Content of: <html><body><var><ul><li>
+#: sedout/sitemap.html:127
+msgid "<a href=\"docs.html\">Categorical Document List</a>"
+msgstr ""
+
+#. type: Content of: <html><body><var><ul><li><li>
+#: sedout/sitemap.html:128
+msgid "<a href=\"books.html\">Books About SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><var><ul><li><li><li>
+#: sedout/sitemap.html:129
+msgid "<a href=\"doclist.html\">Alphabetical List Of Documents</a>"
+msgstr ""
+
+#. type: Content of: <html><body><var><ul><li><li><li><li>
+#: sedout/sitemap.html:130
+msgid "<a href=\"keyword_index.html\">Website Keyword Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body>
+#: sedout/sitemap.html:132
+msgid "</var>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:135
+msgid "<b><a href=\"fasterthanfs.html\">35% Faster Than The Filesystem</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:136
+msgid "<b><a href=\"shortnames.html\">8+3 Filenames</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:137
+msgid "<b><a href=\"about.html\">About SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:138
+msgid "<a href=\"books.html\">About SQLite &#151; Books</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:139
+msgid "<a href=\"flextypegood.html\">Advantages Of Flexible Typing &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:140
+msgid "<a href=\"security.html\">Against The Dark Arts &#151; Defense</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:141
+msgid "<a href=\"lang_aggfunc.html\">Aggregate Functions &#151; Built in</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:142
+msgid "<a href=\"wal.html\">Ahead Logging &#151; Write</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:143
+msgid "<a href=\"malloc.html\">Allocation In SQLite &#151; Dynamic Memory</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:144
+msgid "<b><a href=\"doclist.html\">Alphabetical List Of SQLite Documents</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:145
+msgid "<b><a href=\"lang_altertable.html\">ALTER TABLE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:146
+msgid "<a href=\"amalgamation.html\">Amalgamation &#151; The SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:147
+msgid "<b><a href=\"asyncvfs.html\">An Asynchronous I/O Module For SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:148
+msgid ""
+"<b><a href=\"cintro.html\">An Introduction To The SQLite C/C++ "
+"Interface</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:149
+msgid "<b><a href=\"lang_analyze.html\">ANALYZE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:150
+msgid ""
+"<a href=\"lockingv3.html\">And Concurrency In SQLite Version 3 &#151; File "
+"Locking</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:151
+msgid ""
+"<a href=\"useovernet.html\">and Considerations &#151; SQLite Over a Network, "
+"Caveats</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:152
+msgid "<a href=\"rescode.html\">and Error Codes &#151; Result</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:153
+msgid "<a href=\"fts3.html\">and FTS4 Extensions &#151; SQLite FTS3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:154
+msgid "<a href=\"quirks.html\">and Gotchas In SQLite &#151; Quirks, Caveats,</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:155
+msgid "<a href=\"json1.html\">And Operators &#151; JSON Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:156
+msgid "<a href=\"cpu.html\">and Reducing CPU Usage in SQLite &#151; Measuring</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:157
+msgid ""
+"<a href=\"bytecodevtab.html\">And Tables_Used() Table Valued Functions "
+"&#151; The Bytecode()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:158
+msgid ""
+"<a href=\"withoutrowid.html\">and the WITHOUT ROWID Optimization &#151; "
+"Clustered Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:159
+msgid "<a href=\"lang_datefunc.html\">And Time Functions &#151; Date</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:160
+msgid "<a href=\"errlog.html\">And Warning Log &#151; The Error</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:161
+msgid "<b><a href=\"https://sqlite.org/android/\">Android Bindings</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:162
+msgid "<a href=\"backup.html\">API &#151; SQLite Backup</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:163
+msgid "<a href=\"unlock_notify.html\">API &#151; SQLite Unlock Notify</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:164
+msgid "<a href=\"capi3ref.html\">API Reference &#151; C/C++</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:165
+msgid "<b><a href=\"appfunc.html\">Application Defined SQL Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:166
+msgid ""
+"<a href=\"appfileformat.html\">Application File Format &#151; SQLite As "
+"An</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:167
+msgid ""
+"<a href=\"threadsafe.html\">Applications &#151; Using SQLite In Multi "
+"Threaded</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:168
+msgid "<b><a href=\"whentouse.html\">Appropriate Uses For SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:169
+msgid "<b><a href=\"arch.html\">Architecture of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:170
+msgid "<a href=\"sqlar.html\">Archive Files &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:171
+msgid "<a href=\"https://sqlite.org/sqlar/\">Archiver (sqlar.exe) &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:172
+msgid ""
+"<a href=\"np1queryprob.html\">Are Efficient In SQLite &#151; Many Small "
+"Queries</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:173
+msgid "<a href=\"security.html\">Arts &#151; Defense Against The Dark</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:174
+msgid "<a href=\"faq.html\">Asked Questions &#151; SQLite Frequently</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:175
+msgid "<a href=\"assert.html\">assert() In SQLite &#151; The Use Of</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:176
+msgid "<a href=\"asyncvfs.html\">Asynchronous I/O Module For SQLite &#151; An</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:177
+msgid "<b><a href=\"atomiccommit.html\">Atomic Commit In SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:178
+msgid "<b><a href=\"lang_attach.html\">ATTACH DATABASE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:179
+msgid "<a href=\"autoinc.html\">Autoincrement &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:180
+msgid "<b><a href=\"undoredo.html\">Automatic Undo/Redo With SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:181
+msgid "<a href=\"backup.html\">Backup API &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:182
+msgid "<b><a href=\"aff_short.html\">Benefits of SQLite As A File Format</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:183
+msgid "<a href=\"https://sqlite.org/android/\">Bindings &#151; Android</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:184
+msgid ""
+"<a href=\"intern-v-extern-blob.html\">BLOBs &#151; Internal Versus "
+"External</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:185
+msgid "<b><a href=\"books.html\">Books About SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:186
+msgid ""
+"<a href=\"privatebranch.html\">Branches Of SQLite &#151; Maintaining "
+"Private</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:187
+msgid "<a href=\"custombuild.html\">Builds Of SQLite &#151; Custom</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:188
+msgid "<b><a href=\"lang_aggfunc.html\">Built in Aggregate Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:189
+msgid ""
+"<b><a href=\"lang_mathfunc.html\">Built In Mathematical SQL "
+"Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:190
+msgid "<a href=\"printf.html\">Built in printf() &#151; SQLite's</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:191
+msgid "<b><a href=\"lang_corefunc.html\">Built In Scalar SQL Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:192
+msgid "<a href=\"opcode.html\">Bytecode Engine &#151; The SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:193
+msgid ""
+"<a href=\"bytecodevtab.html\">Bytecode() And Tables_Used() Table Valued "
+"Functions &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:194
+msgid "<b><a href=\"capi3ref.html\">C/C++ API Reference</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:195
+msgid ""
+"<a href=\"cintro.html\">C/C++ Interface &#151; An Introduction To The "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:196
+msgid "<a href=\"session.html\">C/C++ Interface &#151; SQLite Session Module</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:197
+msgid "<b><a href=\"capi3ref.html\">C/C++ Interface For SQLite Version 3</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:198
+msgid "<b><a href=\"capi3.html\">C/C++ Interface For SQLite Version 3 (old)</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:199
+msgid "<a href=\"sharedcache.html\">Cache Mode &#151; SQLite Shared</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:200
+msgid ""
+"<a href=\"getthecode.html\">Canonical SQLite Source Code &#151; How To "
+"Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:201
+msgid "<a href=\"carray.html\">Carray() Table Valued Function &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:202
+msgid ""
+"<a href=\"useovernet.html\">Caveats and Considerations &#151; SQLite Over a "
+"Network,</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:203
+msgid "<a href=\"quirks.html\">Caveats, and Gotchas In SQLite &#151; Quirks,</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:204
+msgid ""
+"<b><a href=\"pgszchng2016.html\">Change in Default Page Size in SQLite "
+"Version 3.12.0</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:205
+msgid ""
+"<a href=\"34to35.html\">Changes From Version 3.4.2 To 3.5.0 &#151; "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:206
+msgid ""
+"<a href=\"35to36.html\">Changes From Version 3.5.9 To 3.6.0 &#151; "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:207
+msgid "<a href=\"formatchng.html\">Changes in SQLite &#151; File Format</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:208
+msgid "<a href=\"nulinstr.html\">Characters In Strings &#151; NUL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:209
+msgid "<a href=\"cksumvfs.html\">Checksum VFS Shim &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:210
+msgid "<a href=\"lang_indexedby.html\">Clause &#151; The INDEXED BY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:211
+msgid "<a href=\"lang_conflict.html\">Clause &#151; The ON CONFLICT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:212
+msgid "<a href=\"lang_with.html\">Clause &#151; The WITH</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:213
+msgid ""
+"<b><a href=\"withoutrowid.html\">Clustered Indexes and the WITHOUT ROWID "
+"Optimization</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:214
+msgid ""
+"<a href=\"getthecode.html\">Code &#151; How To Download Canonical SQLite "
+"Source</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:215
+msgid "<a href=\"whyc.html\">Coded In C &#151; Why Is SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:216
+msgid "<a href=\"rescode.html\">Codes &#151; Result and Error</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:217
+msgid "<a href=\"uintcseq.html\">Collating Sequence &#151; The UINT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:218
+msgid "<a href=\"gencol.html\">Columns &#151; Generated</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:219
+msgid "<b><a href=\"cli.html\">Command Line Shell For SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:220
+msgid "<a href=\"lang_comment.html\">Comment Syntax &#151; SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:221
+msgid "<a href=\"atomiccommit.html\">Commit In SQLite &#151; Atomic</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:222
+msgid "<a href=\"speed.html\">Comparison &#151; SQLite Database Speed</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:223
+msgid "<a href=\"howtocompile.html\">Compile SQLite &#151; How To</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:224
+msgid "<b><a href=\"compile.html\">Compile time Options</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:225
+msgid ""
+"<a href=\"completion.html\">COMPLETION() Table Valued Function &#151; "
+"The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:226
+msgid ""
+"<a href=\"lockingv3.html\">Concurrency In SQLite Version 3 &#151; File "
+"Locking And</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:227
+msgid "<a href=\"zeroconf.html\">Configuration &#151; Zero</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:228
+msgid "<a href=\"lang_conflict.html\">CONFLICT Clause &#151; The ON</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:229
+msgid ""
+"<a href=\"conflict.html\">Conflict Resolution in SQLite &#151; "
+"Constraint</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:230
+msgid ""
+"<a href=\"useovernet.html\">Considerations &#151; SQLite Over a Network, "
+"Caveats and</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:231
+msgid "<a href=\"consortium.html\">Consortium &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:232
+msgid ""
+"<b><a href=\"conflict.html\">Constraint Conflict Resolution in "
+"SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:233
+msgid "<a href=\"selfcontained.html\">Contained System &#151; SQLite is a Self</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:234
+msgid ""
+"<a href=\"https://www.fossil-scm.org/\">Control System &#151; The Fossil "
+"Version</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:235
+msgid "<a href=\"copyright.html\">Copyright &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:236
+msgid ""
+"<a href=\"howtocorrupt.html\">Corrupt An SQLite Database File &#151; How "
+"To</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:237
+msgid ""
+"<a href=\"recovery.html\">Corrupt SQLite Database &#151; Recovering Data "
+"From A</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:238
+msgid "<a href=\"cpu.html\">CPU Usage in SQLite &#151; Measuring and Reducing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:239
+msgid "<b><a href=\"lang_createindex.html\">CREATE INDEX</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:240
+msgid "<b><a href=\"lang_createtable.html\">CREATE TABLE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:241
+msgid "<b><a href=\"lang_createtrigger.html\">CREATE TRIGGER</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:242
+msgid "<b><a href=\"lang_createview.html\">CREATE VIEW</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:243
+msgid "<b><a href=\"lang_createvtab.html\">CREATE VIRTUAL TABLE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:244
+msgid "<a href=\"csv.html\">CSV Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:245
+msgid "<b><a href=\"custombuild.html\">Custom Builds Of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:246
+msgid "<a href=\"security.html\">Dark Arts &#151; Defense Against The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:247
+msgid ""
+"<a href=\"recovery.html\">Data From A Corrupt SQLite Database &#151; "
+"Recovering</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:248
+msgid "<a href=\"lang_attach.html\">DATABASE &#151; ATTACH</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:249
+msgid ""
+"<a href=\"recovery.html\">Database &#151; Recovering Data From A Corrupt "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:250
+msgid "<a href=\"onefile.html\">Database &#151; SQLite: Single File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:251
+msgid "<a href=\"sqldiff.html\">Database Difference Utility &#151; sqldiff.exe:</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:252
+msgid ""
+"<a href=\"mostdeployed.html\">Database Engine &#151; Most Widely Deployed "
+"SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:253
+msgid "<a href=\"vdbe.html\">Database Engine of SQLite &#151; The Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:254
+msgid ""
+"<a href=\"howtocorrupt.html\">Database File &#151; How To Corrupt An "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:255
+msgid "<b><a href=\"fileformat2.html\">Database File Format</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:256
+msgid "<b><a href=\"lang_naming.html\">Database Object Name Resolution</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:257
+msgid "<a href=\"speed.html\">Database Speed Comparison &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:258
+msgid "<a href=\"inmemorydb.html\">Databases &#151; In Memory</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:259
+msgid "<b><a href=\"datatype3.html\">Datatypes In SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:260
+msgid "<b><a href=\"datatypes.html\">Datatypes In SQLite version 2</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:261
+msgid "<b><a href=\"lang_datefunc.html\">Date And Time Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:262
+msgid "<a href=\"dbhash.html\">dbhash.exe Utility Program &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:263
+msgid "<a href=\"dbstat.html\">DBSTAT Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:264
+msgid "<a href=\"debugging.html\">Debugging SQLite &#151; Hints for</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:265
+msgid ""
+"<a href=\"pgszchng2016.html\">Default Page Size in SQLite Version 3.12.0 "
+"&#151; Change in</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:266
+msgid "<b><a href=\"security.html\">Defense Against The Dark Arts</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:267
+msgid "<a href=\"appfunc.html\">Defined SQL Functions &#151; Application</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:268
+msgid "<b><a href=\"lang_delete.html\">DELETE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:269
+msgid ""
+"<a href=\"mostdeployed.html\">Deployed SQL Database Engine &#151; Most "
+"Widely</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:270
+msgid "<b><a href=\"lang_detach.html\">DETACH</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:271
+msgid "<b><a href=\"deterministic.html\">Deterministic SQL Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:272
+msgid "<a href=\"crew.html\">Developers &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:273
+msgid "<a href=\"syntax.html\">Diagrams &#151; List of SQLite Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:274
+msgid "<a href=\"syntaxdiagrams.html\">Diagrams For SQLite &#151; Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:275
+msgid "<a href=\"sqldiff.html\">Difference Utility &#151; sqldiff.exe: Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:276
+msgid "<a href=\"fileformat2.html\">Disk Format &#151; On</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:277
+msgid "<b><a href=\"different.html\">Distinctive Features Of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:278
+msgid "<a href=\"docs.html\">Documentation &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:279
+msgid "<a href=\"doclist.html\">Documents &#151; Alphabetical List Of SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:280
+msgid ""
+"<a href=\"omitted.html\">Does Not Implement &#151; SQL Features That "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:281
+msgid "<a href=\"whynotgit.html\">Does Not Use Git &#151; Why SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:282
+msgid ""
+"<a href=\"getthecode.html\">Download Canonical SQLite Source Code &#151; How "
+"To</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:283
+msgid "<a href=\"download.html\">Download Page &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:284
+msgid "<b><a href=\"lang_dropindex.html\">DROP INDEX</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:285
+msgid "<b><a href=\"lang_droptable.html\">DROP TABLE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:286
+msgid "<b><a href=\"lang_droptrigger.html\">DROP TRIGGER</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:287
+msgid "<b><a href=\"lang_dropview.html\">DROP VIEW</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:288
+msgid "<b><a href=\"malloc.html\">Dynamic Memory Allocation In SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:289
+msgid ""
+"<a href=\"np1queryprob.html\">Efficient In SQLite &#151; Many Small Queries "
+"Are</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:290
+msgid ""
+"<a href=\"mostdeployed.html\">Engine &#151; Most Widely Deployed SQL "
+"Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:291
+msgid "<a href=\"opcode.html\">Engine &#151; The SQLite Bytecode</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:292
+msgid "<a href=\"vdbe.html\">Engine of SQLite &#151; The Virtual Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:293
+msgid "<a href=\"errlog.html\">Error And Warning Log &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:294
+msgid "<a href=\"rescode.html\">Error Codes &#151; Result and</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:295
+msgid "<b><a href=\"lang_explain.html\">EXPLAIN</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:296
+msgid "<b><a href=\"eqp.html\">EXPLAIN QUERY PLAN</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:297
+msgid "<a href=\"expridx.html\">Expressions &#151; Indexes On</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:298
+msgid "<a href=\"lang_expr.html\">Expressions &#151; SQL Language</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:299
+msgid "<a href=\"fts5.html\">Extension &#151; SQLite FTS5</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:300
+msgid "<a href=\"rbu.html\">Extension &#151; The RBU</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:301
+msgid "<a href=\"sessionintro.html\">Extension &#151; The Session</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:302
+msgid "<a href=\"loadext.html\">Extensions &#151; Run Time Loadable</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:303
+msgid "<a href=\"fts3.html\">Extensions &#151; SQLite FTS3 and FTS4</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:304
+msgid ""
+"<a href=\"intern-v-extern-blob.html\">External BLOBs &#151; Internal "
+"Versus</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:305
+msgid "<a href=\"fasterthanfs.html\">Faster Than The Filesystem &#151; 35%</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:306
+msgid "<a href=\"fullsql.html\">Featured SQL &#151; Full</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:307
+msgid "<b><a href=\"features.html\">Features Of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:308
+msgid "<a href=\"different.html\">Features Of SQLite &#151; Distinctive</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:309
+msgid ""
+"<a href=\"omitted.html\">Features That SQLite Does Not Implement &#151; "
+"SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:310
+msgid ""
+"<a href=\"howtocorrupt.html\">File &#151; How To Corrupt An SQLite "
+"Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:311
+msgid "<a href=\"onefile.html\">File Database &#151; SQLite: Single</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:312
+msgid "<a href=\"aff_short.html\">File Format &#151; Benefits of SQLite As A</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:313
+msgid "<a href=\"fileformat2.html\">File Format &#151; Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:314
+msgid ""
+"<a href=\"appfileformat.html\">File Format &#151; SQLite As An "
+"Application</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:315
+msgid "<a href=\"walformat.html\">File Format &#151; WAL mode</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:316
+msgid "<b><a href=\"formatchng.html\">File Format Changes in SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:317
+msgid ""
+"<b><a href=\"lockingv3.html\">File Locking And Concurrency In SQLite Version "
+"3</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:318
+msgid "<a href=\"shortnames.html\">Filenames &#151; 8+3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:319
+msgid "<a href=\"sqlar.html\">Files &#151; SQLite Archive</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:320
+msgid "<a href=\"tempfiles.html\">Files Used By SQLite &#151; Temporary</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:321
+msgid "<a href=\"fasterthanfs.html\">Filesystem &#151; 35% Faster Than The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:322
+msgid "<a href=\"flextypegood.html\">Flexible Typing &#151; The Advantages Of</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:323
+msgid "<b><a href=\"floatingpoint.html\">Floating Point Numbers</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:324
+msgid "<a href=\"footprint.html\">Footprint &#151; SQLite Library</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:325
+msgid "<a href=\"foreignkeys.html\">Foreign Key Support &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:326
+msgid "<a href=\"aff_short.html\">Format &#151; Benefits of SQLite As A File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:327
+msgid "<a href=\"fileformat2.html\">Format &#151; Database File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:328
+msgid "<a href=\"locrsf.html\">Format &#151; LoC Recommended Storage</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:329
+msgid "<a href=\"fileformat2.html\">Format &#151; On Disk</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:330
+msgid ""
+"<a href=\"appfileformat.html\">Format &#151; SQLite As An Application "
+"File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:331
+msgid "<a href=\"walformat.html\">Format &#151; WAL mode File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:332
+msgid "<a href=\"formatchng.html\">Format Changes in SQLite &#151; File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:333
+msgid ""
+"<a href=\"https://www.fossil-scm.org/\">Fossil Version Control System &#151; "
+"The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:334
+msgid "<a href=\"faq.html\">Frequently Asked Questions &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:335
+msgid ""
+"<a href=\"recovery.html\">From A Corrupt SQLite Database &#151; Recovering "
+"Data</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:336
+msgid ""
+"<a href=\"34to35.html\">From Version 3.4.2 To 3.5.0 &#151; SQLite "
+"Changes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:337
+msgid ""
+"<a href=\"35to36.html\">From Version 3.5.9 To 3.6.0 &#151; SQLite "
+"Changes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:338
+msgid "<a href=\"fts3.html\">FTS3 and FTS4 Extensions &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:339
+msgid "<a href=\"fts3.html\">FTS4 Extensions &#151; SQLite FTS3 and</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:340
+msgid "<a href=\"fts5.html\">FTS5 Extension &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:341
+msgid "<b><a href=\"fullsql.html\">Full Featured SQL</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:342
+msgid "<a href=\"carray.html\">Function &#151; The Carray() Table Valued</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:343
+msgid ""
+"<a href=\"completion.html\">Function &#151; The COMPLETION() Table "
+"Valued</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:344
+msgid "<a href=\"series.html\">Function &#151; The generate_series Table Valued</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:345
+msgid "<a href=\"appfunc.html\">Functions &#151; Application Defined SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:346
+msgid "<a href=\"lang_aggfunc.html\">Functions &#151; Built in Aggregate</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:347
+msgid ""
+"<a href=\"lang_mathfunc.html\">Functions &#151; Built In Mathematical "
+"SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:348
+msgid "<a href=\"lang_corefunc.html\">Functions &#151; Built In Scalar SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:349
+msgid "<a href=\"lang_datefunc.html\">Functions &#151; Date And Time</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:350
+msgid "<a href=\"deterministic.html\">Functions &#151; Deterministic SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:351
+msgid ""
+"<a href=\"bytecodevtab.html\">Functions &#151; The Bytecode() And "
+"Tables_Used() Table Valued</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:352
+msgid "<a href=\"windowfunctions.html\">Functions &#151; Window</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:353
+msgid "<a href=\"json1.html\">Functions And Operators &#151; JSON</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:354
+msgid "<a href=\"series.html\">generate_series Table Valued Function &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:355
+msgid "<b><a href=\"gencol.html\">Generated Columns</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:356
+msgid ""
+"<a href=\"queryplanner-ng.html\">Generation Query Planner &#151; The "
+"Next</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:357
+msgid "<a href=\"lemon.html\">Generator &#151; The Lemon LALR(1) Parser</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:358
+msgid ""
+"<a href=\"geopoly.html\">Geopoly Interface To The SQLite R*Tree Module "
+"&#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:359
+msgid "<a href=\"whynotgit.html\">Git &#151; Why SQLite Does Not Use</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:360
+msgid "<a href=\"quirks.html\">Gotchas In SQLite &#151; Quirks, Caveats, and</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:361
+msgid "<a href=\"nulls.html\">Handling in SQLite &#151; NULL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:362
+msgid "<b><a href=\"hirely.html\">High Reliability</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:363
+msgid "<b><a href=\"debugging.html\">Hints for Debugging SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:364
+msgid "<a href=\"changes.html\">History Of SQLite &#151; Release</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:365
+msgid "<b><a href=\"chronology.html\">History Of SQLite Releases</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:366
+msgid "<a href=\"index.html\">Home Page &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:367
+msgid "<b><a href=\"queryplanner.html\">How Indexes Work</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:368
+msgid "<b><a href=\"testing.html\">How SQLite Is Tested</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:369
+msgid "<b><a href=\"howitworks.html\">How SQLite Works</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:370
+msgid "<b><a href=\"howtocompile.html\">How To Compile SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:371
+msgid ""
+"<b><a href=\"howtocorrupt.html\">How To Corrupt An SQLite Database "
+"File</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:372
+msgid ""
+"<b><a href=\"getthecode.html\">How To Download Canonical SQLite Source "
+"Code</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:373
+msgid "<a href=\"mmap.html\">I/O &#151; Memory Mapped</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:374
+msgid "<a href=\"asyncvfs.html\">I/O Module For SQLite &#151; An Asynchronous</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:375
+msgid "<a href=\"uri.html\">Identifiers &#151; Uniform Resource</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:376
+msgid ""
+"<a href=\"omitted.html\">Implement &#151; SQL Features That SQLite Does "
+"Not</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:377
+msgid "<b><a href=\"limits.html\">Implementation Limits For SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:378
+msgid "<b><a href=\"imposter.html\">Imposter Tables</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:379
+msgid "<b><a href=\"inmemorydb.html\">In Memory Databases</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:380
+msgid "<a href=\"lang_createindex.html\">INDEX &#151; CREATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:381
+msgid "<a href=\"lang_dropindex.html\">INDEX &#151; DROP</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:382
+msgid "<a href=\"keyword_index.html\">Index &#151; Website Keyword</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:383
+msgid "<a href=\"lang_indexedby.html\">INDEXED BY Clause &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:384
+msgid "<a href=\"partialindex.html\">Indexes &#151; Partial</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:385
+msgid ""
+"<a href=\"withoutrowid.html\">Indexes and the WITHOUT ROWID Optimization "
+"&#151; Clustered</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:386
+msgid "<b><a href=\"expridx.html\">Indexes On Expressions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:387
+msgid "<a href=\"queryplanner.html\">Indexes Work &#151; How</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:388
+msgid "<b><a href=\"lang_insert.html\">INSERT</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:389
+msgid ""
+"<a href=\"cintro.html\">Interface &#151; An Introduction To The SQLite "
+"C/C++</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:390
+msgid "<a href=\"session.html\">Interface &#151; SQLite Session Module C/C++</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:391
+msgid "<a href=\"capi3ref.html\">Interface For SQLite Version 3 &#151; C/C++</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:392
+msgid "<a href=\"capi3.html\">Interface For SQLite Version 3 (old) &#151; C/C++</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:393
+msgid "<a href=\"vfs.html\">Interface or VFS &#151; The SQLite OS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:394
+msgid ""
+"<a href=\"c_interface.html\">interface to SQLite Version 2 &#151; The C "
+"language</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:395
+msgid ""
+"<a href=\"tclsqlite.html\">interface to the SQLite library &#151; The "
+"Tcl</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:396
+msgid ""
+"<a href=\"geopoly.html\">Interface To The SQLite R*Tree Module &#151; The "
+"Geopoly</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:397
+msgid "<a href=\"bindptr.html\">Interfaces &#151; Pointer Passing</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:398
+msgid ""
+"<b><a href=\"intern-v-extern-blob.html\">Internal Versus External "
+"BLOBs</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:399
+msgid ""
+"<a href=\"cintro.html\">Introduction To The SQLite C/C++ Interface &#151; "
+"An</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:400
+msgid "<b><a href=\"invalidutf.html\">Invalid UTF Policy</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:401
+msgid "<b><a href=\"isolation.html\">Isolation In SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:402
+msgid "<b><a href=\"hp1.html\">Javascript Required</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:403
+msgid "<b><a href=\"json1.html\">JSON Functions And Operators</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:404
+msgid "<a href=\"foreignkeys.html\">Key Support &#151; SQLite Foreign</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:405
+msgid "<a href=\"keyword_index.html\">Keyword Index &#151; Website</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:406
+msgid "<a href=\"lang_keywords.html\">Keywords &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:407
+msgid "<a href=\"famous.html\">Known Users Of SQLite &#151; Well</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:408
+msgid "<a href=\"lemon.html\">LALR(1) Parser Generator &#151; The Lemon</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:409
+msgid "<a href=\"lang_expr.html\">Language Expressions &#151; SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:410
+msgid ""
+"<a href=\"c_interface.html\">language interface to SQLite Version 2 &#151; "
+"The C</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:411
+msgid "<a href=\"lang.html\">Language Understood by SQLite &#151; Query</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:412
+msgid "<a href=\"lemon.html\">Lemon LALR(1) Parser Generator &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:413
+msgid "<a href=\"quickstart.html\">Less &#151; SQLite In 5 Minutes Or</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:414
+msgid ""
+"<a href=\"tclsqlite.html\">library &#151; The Tcl interface to the "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:415
+msgid "<a href=\"footprint.html\">Library Footprint &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:416
+msgid "<a href=\"limits.html\">Limits For SQLite &#151; Implementation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:417
+msgid "<a href=\"cli.html\">Line Shell For SQLite &#151; Command</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:418
+msgid "<a href=\"doclist.html\">List Of SQLite Documents &#151; Alphabetical</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:419
+msgid "<b><a href=\"syntax.html\">List of SQLite Syntax Diagrams</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:420
+msgid "<b><a href=\"vtablist.html\">List Of Virtual Tables</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:421
+msgid "<a href=\"loadext.html\">Loadable Extensions &#151; Run Time</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:422
+msgid "<b><a href=\"locrsf.html\">LoC Recommended Storage Format</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:423
+msgid ""
+"<a href=\"lockingv3.html\">Locking And Concurrency In SQLite Version 3 "
+"&#151; File</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:424
+msgid "<a href=\"errlog.html\">Log &#151; The Error And Warning</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:425
+msgid "<a href=\"wal.html\">Logging &#151; Write Ahead</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:426
+msgid "<b><a href=\"lts.html\">Long Term Support</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:427
+msgid ""
+"<b><a href=\"privatebranch.html\">Maintaining Private Branches Of "
+"SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:428
+msgid "<a href=\"qmplan.html\">Management &#151; Quality</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:429
+msgid ""
+"<b><a href=\"np1queryprob.html\">Many Small Queries Are Efficient In "
+"SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:430
+msgid "<a href=\"sitemap.html\">Map &#151; SQLite Site</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:431
+msgid "<a href=\"mmap.html\">Mapped I/O &#151; Memory</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:432
+msgid ""
+"<a href=\"lang_mathfunc.html\">Mathematical SQL Functions &#151; Built "
+"In</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:433
+msgid "<b><a href=\"cpu.html\">Measuring and Reducing CPU Usage in SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:434
+msgid "<a href=\"vtab.html\">Mechanism Of SQLite &#151; The Virtual Table</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:435
+msgid "<a href=\"malloc.html\">Memory Allocation In SQLite &#151; Dynamic</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:436
+msgid "<a href=\"inmemorydb.html\">Memory Databases &#151; In</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:437
+msgid "<b><a href=\"mmap.html\">Memory Mapped I/O</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:438
+msgid "<a href=\"quickstart.html\">Minutes Or Less &#151; SQLite In 5</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:439
+msgid "<a href=\"sharedcache.html\">Mode &#151; SQLite Shared Cache</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:440
+msgid "<a href=\"walformat.html\">mode File Format &#151; WAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:441
+msgid ""
+"<a href=\"geopoly.html\">Module &#151; The Geopoly Interface To The SQLite "
+"R*Tree</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:442
+msgid "<a href=\"rtree.html\">Module &#151; The SQLite R*Tree</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:443
+msgid "<a href=\"zipfile.html\">Module &#151; The SQLite Zipfile</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:444
+msgid "<a href=\"session.html\">Module C/C++ Interface &#151; SQLite Session</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:445
+msgid "<a href=\"asyncvfs.html\">Module For SQLite &#151; An Asynchronous I/O</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:446
+msgid ""
+"<b><a href=\"mostdeployed.html\">Most Widely Deployed SQL Database "
+"Engine</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:447
+msgid ""
+"<a href=\"threadsafe.html\">Multi Threaded Applications &#151; Using SQLite "
+"In</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:448
+msgid "<a href=\"lang_naming.html\">Name Resolution &#151; Database Object</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:449
+msgid ""
+"<a href=\"useovernet.html\">Network, Caveats and Considerations &#151; "
+"SQLite Over a</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:450
+msgid "<a href=\"news.html\">News &#151; Recent SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:451
+msgid "<a href=\"oldnews.html\">News &#151; SQLite Older</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:452
+msgid ""
+"<a href=\"queryplanner-ng.html\">Next Generation Query Planner &#151; "
+"The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:453
+msgid ""
+"<a href=\"omitted.html\">Not Implement &#151; SQL Features That SQLite "
+"Does</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:454
+msgid "<a href=\"whynotgit.html\">Not Use Git &#151; Why SQLite Does</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:455
+msgid "<a href=\"unlock_notify.html\">Notify API &#151; SQLite Unlock</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:456
+msgid "<b><a href=\"nulinstr.html\">NUL Characters In Strings</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:457
+msgid "<b><a href=\"nulls.html\">NULL Handling in SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:458
+msgid "<a href=\"floatingpoint.html\">Numbers &#151; Floating Point</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:459
+msgid "<a href=\"versionnumbers.html\">Numbers in SQLite &#151; Version</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:460
+msgid "<a href=\"lang_naming.html\">Object Name Resolution &#151; Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:461
+msgid "<a href=\"oldnews.html\">Older News &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:462
+msgid "<b><a href=\"fileformat2.html\">On Disk Format</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:463
+msgid "<a href=\"affcase1.html\">OpenDocument Used SQLite? &#151; What If</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:464
+msgid "<a href=\"json1.html\">Operators &#151; JSON Functions And</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:465
+msgid ""
+"<a href=\"withoutrowid.html\">Optimization &#151; Clustered Indexes and the "
+"WITHOUT ROWID</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:466
+msgid "<a href=\"optoverview.html\">Optimizer Overview &#151; The SQLite Query</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:467
+msgid "<a href=\"compile.html\">Options &#151; Compile time</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:468
+msgid "<a href=\"support.html\">Options &#151; SQLite Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:469
+msgid ""
+"<a href=\"useovernet.html\">Over a Network, Caveats and Considerations "
+"&#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:470
+msgid "<a href=\"version3.html\">Overview &#151; SQLite Version 3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:471
+msgid "<a href=\"optoverview.html\">Overview &#151; The SQLite Query Optimizer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:472
+msgid "<a href=\"psow.html\">Overwrite &#151; Powersafe</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:473
+msgid "<a href=\"download.html\">Page &#151; SQLite Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:474
+msgid "<a href=\"index.html\">Page &#151; SQLite Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:475
+msgid ""
+"<a href=\"pgszchng2016.html\">Page Size in SQLite Version 3.12.0 &#151; "
+"Change in Default</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:476
+msgid "<a href=\"lemon.html\">Parser Generator &#151; The Lemon LALR(1)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:477
+msgid "<b><a href=\"partialindex.html\">Partial Indexes</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:478
+msgid "<a href=\"bindptr.html\">Passing Interfaces &#151; Pointer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:479
+msgid "<a href=\"eqp.html\">PLAN &#151; EXPLAIN QUERY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:480
+msgid ""
+"<a href=\"queryplanner-ng.html\">Planner &#151; The Next Generation "
+"Query</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:481
+msgid "<a href=\"queryplanner.html\">Planning &#151; Query</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:482
+msgid "<a href=\"floatingpoint.html\">Point Numbers &#151; Floating</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:483
+msgid "<b><a href=\"bindptr.html\">Pointer Passing Interfaces</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:484
+msgid "<a href=\"invalidutf.html\">Policy &#151; Invalid UTF</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:485
+msgid "<b><a href=\"psow.html\">Powersafe Overwrite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:486
+msgid "<b><a href=\"pragma.html\">Pragma statements supported by SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:487
+msgid "<a href=\"printf.html\">printf() &#151; SQLite's Built in</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:488
+msgid ""
+"<a href=\"privatebranch.html\">Private Branches Of SQLite &#151; "
+"Maintaining</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:489
+msgid "<a href=\"prosupport.html\">Pro Support &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:490
+msgid "<b><a href=\"profile.html\">Profiling SQL Queries</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:491
+msgid "<a href=\"dbhash.html\">Program &#151; The dbhash.exe Utility</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:492
+msgid ""
+"<a href=\"sqlanalyze.html\">Program &#151; The sqlite3_analyzer.exe "
+"Utility</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:493
+msgid "<b><a href=\"qmplan.html\">Quality Management</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:494
+msgid "<a href=\"profile.html\">Queries &#151; Profiling SQL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:495
+msgid ""
+"<a href=\"np1queryprob.html\">Queries Are Efficient In SQLite &#151; Many "
+"Small</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:496
+msgid "<b><a href=\"lang.html\">Query Language Understood by SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:497
+msgid "<a href=\"optoverview.html\">Query Optimizer Overview &#151; The SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:498
+msgid "<a href=\"eqp.html\">QUERY PLAN &#151; EXPLAIN</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:499
+msgid ""
+"<a href=\"queryplanner-ng.html\">Query Planner &#151; The Next "
+"Generation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:500
+msgid "<b><a href=\"queryplanner.html\">Query Planning</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:501
+msgid "<a href=\"faq.html\">Questions &#151; SQLite Frequently Asked</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:502
+msgid "<b><a href=\"quirks.html\">Quirks, Caveats, and Gotchas In SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:503
+msgid ""
+"<a href=\"geopoly.html\">R*Tree Module &#151; The Geopoly Interface To The "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:504
+msgid "<a href=\"rtree.html\">R*Tree Module &#151; The SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:505
+msgid "<a href=\"rbu.html\">RBU Extension &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:506
+msgid "<b><a href=\"news.html\">Recent SQLite News</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:507
+msgid "<a href=\"locrsf.html\">Recommended Storage Format &#151; LoC</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:508
+msgid ""
+"<b><a href=\"recovery.html\">Recovering Data From A Corrupt SQLite "
+"Database</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:509
+msgid "<a href=\"cpu.html\">Reducing CPU Usage in SQLite &#151; Measuring and</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:510
+msgid "<a href=\"capi3ref.html\">Reference &#151; C/C++ API</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:511
+msgid "<b><a href=\"lang_reindex.html\">REINDEX</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:512
+msgid "<b><a href=\"changes.html\">Release History Of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:513
+msgid "<a href=\"chronology.html\">Releases &#151; History Of SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:514
+msgid "<a href=\"hirely.html\">Reliability &#151; High</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:515
+msgid "<b><a href=\"lang_replace.html\">REPLACE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:516
+msgid "<a href=\"hp1.html\">Required &#151; Javascript</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:517
+msgid "<a href=\"requirements.html\">Requirements &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:518
+msgid "<a href=\"lang_naming.html\">Resolution &#151; Database Object Name</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:519
+msgid ""
+"<a href=\"conflict.html\">Resolution in SQLite &#151; Constraint "
+"Conflict</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:520
+msgid "<a href=\"uri.html\">Resource Identifiers &#151; Uniform</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:521
+msgid "<b><a href=\"rescode.html\">Result and Error Codes</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:522
+msgid "<b><a href=\"lang_returning.html\">RETURNING</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:523
+msgid "<b><a href=\"rowvalue.html\">Row Values</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:524
+msgid ""
+"<a href=\"withoutrowid.html\">ROWID Optimization &#151; Clustered Indexes "
+"and the WITHOUT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:525
+msgid "<b><a href=\"rowidtable.html\">Rowid Tables</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:526
+msgid "<b><a href=\"loadext.html\">Run Time Loadable Extensions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:527
+msgid "<b><a href=\"lang_savepoint.html\">Savepoints</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:528
+msgid "<a href=\"lang_corefunc.html\">Scalar SQL Functions &#151; Built In</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:529
+msgid "<a href=\"schematab.html\">Schema Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:530
+msgid "<b><a href=\"lang_select.html\">SELECT</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:531
+msgid "<a href=\"selfcontained.html\">Self Contained System &#151; SQLite is a</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:532
+msgid "<a href=\"uintcseq.html\">Sequence &#151; The UINT Collating</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:533
+msgid "<a href=\"serverless.html\">Serverless &#151; SQLite Is</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:534
+msgid "<a href=\"sessionintro.html\">Session Extension &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:535
+msgid "<a href=\"session.html\">Session Module C/C++ Interface &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:536
+msgid "<a href=\"sharedcache.html\">Shared Cache Mode &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:537
+msgid "<a href=\"cli.html\">Shell For SQLite &#151; Command Line</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:538
+msgid "<a href=\"cksumvfs.html\">Shim &#151; The Checksum VFS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:539
+msgid "<a href=\"onefile.html\">Single File Database &#151; SQLite:</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:540
+msgid "<a href=\"sitemap.html\">Site Map &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:541
+msgid ""
+"<a href=\"pgszchng2016.html\">Size in SQLite Version 3.12.0 &#151; Change in "
+"Default Page</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:542
+msgid ""
+"<a href=\"np1queryprob.html\">Small Queries Are Efficient In SQLite &#151; "
+"Many</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:543
+msgid ""
+"<a href=\"getthecode.html\">Source Code &#151; How To Download Canonical "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:544
+msgid "<a href=\"speed.html\">Speed Comparison &#151; SQLite Database</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:545
+msgid "<a href=\"spellfix1.html\">Spellfix1 Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:546
+msgid "<a href=\"fullsql.html\">SQL &#151; Full Featured</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:547
+msgid "<b><a href=\"lang_comment.html\">SQL Comment Syntax</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:548
+msgid ""
+"<a href=\"mostdeployed.html\">SQL Database Engine &#151; Most Widely "
+"Deployed</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:549
+msgid ""
+"<b><a href=\"omitted.html\">SQL Features That SQLite Does Not "
+"Implement</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:550
+msgid "<a href=\"appfunc.html\">SQL Functions &#151; Application Defined</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:551
+msgid ""
+"<a href=\"lang_mathfunc.html\">SQL Functions &#151; Built In "
+"Mathematical</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:552
+msgid "<a href=\"lang_corefunc.html\">SQL Functions &#151; Built In Scalar</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:553
+msgid "<a href=\"deterministic.html\">SQL Functions &#151; Deterministic</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:554
+msgid "<b><a href=\"lang_expr.html\">SQL Language Expressions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:555
+msgid "<a href=\"profile.html\">SQL Queries &#151; Profiling</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:556
+msgid "<b><a href=\"sqldiff.html\">sqldiff.exe: Database Difference Utility</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:557
+msgid "<b><a href=\"sqlar.html\">SQLite Archive Files</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:558
+msgid "<b><a href=\"https://sqlite.org/sqlar/\">SQLite Archiver (sqlar.exe)</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:559
+msgid ""
+"<b><a href=\"appfileformat.html\">SQLite As An Application File "
+"Format</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:560
+msgid "<b><a href=\"autoinc.html\">SQLite Autoincrement</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:561
+msgid "<b><a href=\"backup.html\">SQLite Backup API</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:562
+msgid ""
+"<b><a href=\"34to35.html\">SQLite Changes From Version 3.4.2 To "
+"3.5.0</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:563
+msgid ""
+"<b><a href=\"35to36.html\">SQLite Changes From Version 3.5.9 To "
+"3.6.0</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:564
+msgid "<b><a href=\"consortium.html\">SQLite Consortium</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:565
+msgid "<b><a href=\"copyright.html\">SQLite Copyright</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:566
+msgid "<b><a href=\"speed.html\">SQLite Database Speed Comparison</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:567
+msgid "<b><a href=\"crew.html\">SQLite Developers</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:568
+msgid "<b><a href=\"docs.html\">SQLite Documentation</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:569
+msgid "<b><a href=\"download.html\">SQLite Download Page</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:570
+msgid "<b><a href=\"foreignkeys.html\">SQLite Foreign Key Support</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:571
+msgid "<b><a href=\"faq.html\">SQLite Frequently Asked Questions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:572
+msgid "<b><a href=\"fts3.html\">SQLite FTS3 and FTS4 Extensions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:573
+msgid "<b><a href=\"fts5.html\">SQLite FTS5 Extension</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:574
+msgid "<b><a href=\"index.html\">SQLite Home Page</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:575
+msgid "<b><a href=\"quickstart.html\">SQLite In 5 Minutes Or Less</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:576
+msgid "<b><a href=\"selfcontained.html\">SQLite is a Self Contained System</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:577
+msgid "<b><a href=\"serverless.html\">SQLite Is Serverless</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:578
+msgid "<b><a href=\"transactional.html\">SQLite Is Transactional</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:579
+msgid "<b><a href=\"lang_keywords.html\">SQLite Keywords</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:580
+msgid "<b><a href=\"footprint.html\">SQLite Library Footprint</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:581
+msgid "<b><a href=\"oldnews.html\">SQLite Older News</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:582
+msgid ""
+"<b><a href=\"useovernet.html\">SQLite Over a Network, Caveats and "
+"Considerations</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:583
+msgid "<b><a href=\"prosupport.html\">SQLite Pro Support</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:584
+msgid "<b><a href=\"requirements.html\">SQLite Requirements</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:585
+msgid "<b><a href=\"session.html\">SQLite Session Module C/C++ Interface</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:586
+msgid "<b><a href=\"sharedcache.html\">SQLite Shared Cache Mode</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:587
+msgid "<b><a href=\"sitemap.html\">SQLite Site Map</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:588
+msgid "<b><a href=\"support.html\">SQLite Support Options</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:589
+msgid "<b><a href=\"unlock_notify.html\">SQLite Unlock Notify API</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:590
+msgid "<b><a href=\"version3.html\">SQLite Version 3 Overview</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:591
+msgid "<b><a href=\"printf.html\">SQLite's Built in printf()</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:592
+msgid ""
+"<a href=\"sqlanalyze.html\">sqlite3_analyzer.exe Utility Program &#151; "
+"The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:593
+msgid "<b><a href=\"onefile.html\">SQLite: Single File Database</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:594
+msgid "<a href=\"affcase1.html\">SQLite? &#151; What If OpenDocument Used</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:595
+msgid "<a href=\"dbpage.html\">SQLITE_DBPAGE Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:596
+msgid "<a href=\"memstat.html\">SQLITE_MEMSTAT Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:597
+msgid "<a href=\"stmt.html\">SQLITE_STMT Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:598
+msgid "<a href=\"pragma.html\">statements supported by SQLite &#151; Pragma</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:599
+msgid "<a href=\"locrsf.html\">Storage Format &#151; LoC Recommended</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:600
+msgid "<b><a href=\"stricttables.html\">STRICT Tables</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:601
+msgid "<a href=\"nulinstr.html\">Strings &#151; NUL Characters In</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:602
+msgid "<a href=\"lts.html\">Support &#151; Long Term</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:603
+msgid "<a href=\"foreignkeys.html\">Support &#151; SQLite Foreign Key</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:604
+msgid "<a href=\"prosupport.html\">Support &#151; SQLite Pro</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:605
+msgid "<a href=\"support.html\">Support Options &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:606
+msgid "<a href=\"pragma.html\">supported by SQLite &#151; Pragma statements</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:607
+msgid "<b><a href=\"swarmvtab.html\">Swarmvtab Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:608
+msgid "<a href=\"lang_comment.html\">Syntax &#151; SQL Comment</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:609
+msgid "<a href=\"syntax.html\">Syntax Diagrams &#151; List of SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:610
+msgid "<b><a href=\"syntaxdiagrams.html\">Syntax Diagrams For SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:611
+msgid "<a href=\"selfcontained.html\">System &#151; SQLite is a Self Contained</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:612
+msgid ""
+"<a href=\"https://www.fossil-scm.org/\">System &#151; The Fossil Version "
+"Control</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:613
+msgid "<b><a href=\"https://system.data.sqlite.org/\">System.Data.SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:614
+msgid "<a href=\"lang_altertable.html\">TABLE &#151; ALTER</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:615
+msgid "<a href=\"lang_createtable.html\">TABLE &#151; CREATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:616
+msgid "<a href=\"lang_createvtab.html\">TABLE &#151; CREATE VIRTUAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:617
+msgid "<a href=\"lang_droptable.html\">TABLE &#151; DROP</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:618
+msgid "<a href=\"swarmvtab.html\">Table &#151; Swarmvtab Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:619
+msgid "<a href=\"csv.html\">Table &#151; The CSV Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:620
+msgid "<a href=\"dbstat.html\">Table &#151; The DBSTAT Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:621
+msgid "<a href=\"schematab.html\">Table &#151; The Schema</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:622
+msgid "<a href=\"spellfix1.html\">Table &#151; The Spellfix1 Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:623
+msgid "<a href=\"dbpage.html\">Table &#151; The SQLITE_DBPAGE Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:624
+msgid "<a href=\"memstat.html\">Table &#151; The SQLITE_MEMSTAT Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:625
+msgid "<a href=\"stmt.html\">Table &#151; The SQLITE_STMT Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:626
+msgid "<a href=\"unionvtab.html\">Table &#151; The UNION Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:627
+msgid "<a href=\"vtab.html\">Table Mechanism Of SQLite &#151; The Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:628
+msgid "<a href=\"carray.html\">Table Valued Function &#151; The Carray()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:629
+msgid ""
+"<a href=\"completion.html\">Table Valued Function &#151; The "
+"COMPLETION()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:630
+msgid "<a href=\"series.html\">Table Valued Function &#151; The generate_series</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:631
+msgid ""
+"<a href=\"bytecodevtab.html\">Table Valued Functions &#151; The Bytecode() "
+"And Tables_Used()</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:632
+msgid "<a href=\"imposter.html\">Tables &#151; Imposter</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:633
+msgid "<a href=\"vtablist.html\">Tables &#151; List Of Virtual</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:634
+msgid "<a href=\"rowidtable.html\">Tables &#151; Rowid</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:635
+msgid "<a href=\"stricttables.html\">Tables &#151; STRICT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:636
+msgid ""
+"<a href=\"bytecodevtab.html\">Tables_Used() Table Valued Functions &#151; "
+"The Bytecode() And</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:637
+msgid ""
+"<a href=\"tclsqlite.html\">Tcl interface to the SQLite library &#151; "
+"The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:638
+msgid "<b><a href=\"tempfiles.html\">Temporary Files Used By SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:639
+msgid "<a href=\"lts.html\">Term Support &#151; Long</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:640
+msgid "<a href=\"testing.html\">Tested &#151; How SQLite Is</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:641
+msgid "<b><a href=\"th3.html\">TH3</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:642
+msgid "<a href=\"fasterthanfs.html\">Than The Filesystem &#151; 35% Faster</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:643
+msgid ""
+"<a href=\"omitted.html\">That SQLite Does Not Implement &#151; SQL "
+"Features</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:644
+msgid "<b><a href=\"flextypegood.html\">The Advantages Of Flexible Typing</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:645
+msgid ""
+"<b><a href=\"bytecodevtab.html\">The Bytecode() And Tables_Used() Table "
+"Valued Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:646
+msgid ""
+"<b><a href=\"c_interface.html\">The C language interface to SQLite Version "
+"2</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:647
+msgid "<b><a href=\"carray.html\">The Carray() Table Valued Function</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:648
+msgid "<b><a href=\"cksumvfs.html\">The Checksum VFS Shim</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:649
+msgid ""
+"<b><a href=\"completion.html\">The COMPLETION() Table Valued "
+"Function</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:650
+msgid "<b><a href=\"csv.html\">The CSV Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:651
+msgid "<b><a href=\"dbhash.html\">The dbhash.exe Utility Program</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:652
+msgid "<b><a href=\"dbstat.html\">The DBSTAT Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:653
+msgid "<b><a href=\"errlog.html\">The Error And Warning Log</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:654
+msgid ""
+"<b><a href=\"https://www.fossil-scm.org/\">The Fossil Version Control "
+"System</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:655
+msgid "<b><a href=\"series.html\">The generate_series Table Valued Function</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:656
+msgid ""
+"<b><a href=\"geopoly.html\">The Geopoly Interface To The SQLite R*Tree "
+"Module</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:657
+msgid "<b><a href=\"lang_indexedby.html\">The INDEXED BY Clause</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:658
+msgid "<b><a href=\"lemon.html\">The Lemon LALR(1) Parser Generator</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:659
+msgid ""
+"<b><a href=\"queryplanner-ng.html\">The Next Generation Query "
+"Planner</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:660
+msgid "<b><a href=\"lang_conflict.html\">The ON CONFLICT Clause</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:661
+msgid "<b><a href=\"rbu.html\">The RBU Extension</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:662
+msgid "<b><a href=\"schematab.html\">The Schema Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:663
+msgid "<b><a href=\"sessionintro.html\">The Session Extension</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:664
+msgid "<b><a href=\"spellfix1.html\">The Spellfix1 Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:665
+msgid "<b><a href=\"amalgamation.html\">The SQLite Amalgamation</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:666
+msgid "<b><a href=\"opcode.html\">The SQLite Bytecode Engine</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:667
+msgid "<b><a href=\"vfs.html\">The SQLite OS Interface or \"VFS\"</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:668
+msgid "<b><a href=\"optoverview.html\">The SQLite Query Optimizer Overview</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:669
+msgid "<b><a href=\"rtree.html\">The SQLite R*Tree Module</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:670
+msgid "<b><a href=\"zipfile.html\">The SQLite Zipfile Module</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:671
+msgid ""
+"<b><a href=\"sqlanalyze.html\">The sqlite3_analyzer.exe Utility "
+"Program</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:672
+msgid "<b><a href=\"dbpage.html\">The SQLITE_DBPAGE Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:673
+msgid "<b><a href=\"memstat.html\">The SQLITE_MEMSTAT Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:674
+msgid "<b><a href=\"stmt.html\">The SQLITE_STMT Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:675
+msgid ""
+"<b><a href=\"tclsqlite.html\">The Tcl interface to the SQLite "
+"library</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:676
+msgid "<b><a href=\"uintcseq.html\">The UINT Collating Sequence</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:677
+msgid "<b><a href=\"unionvtab.html\">The UNION Virtual Table</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:678
+msgid "<b><a href=\"assert.html\">The Use Of assert() In SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:679
+msgid "<b><a href=\"vdbe.html\">The Virtual Database Engine of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:680
+msgid "<b><a href=\"vtab.html\">The Virtual Table Mechanism Of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:681
+msgid "<b><a href=\"lang_with.html\">The WITH Clause</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:682
+msgid ""
+"<a href=\"threadsafe.html\">Threaded Applications &#151; Using SQLite In "
+"Multi</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:683
+msgid "<a href=\"lang_datefunc.html\">Time Functions &#151; Date And</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:684
+msgid "<a href=\"loadext.html\">Time Loadable Extensions &#151; Run</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:685
+msgid "<a href=\"compile.html\">time Options &#151; Compile</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:686
+msgid "<b><a href=\"lang_transaction.html\">Transaction</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:687
+msgid "<a href=\"transactional.html\">Transactional &#151; SQLite Is</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:688
+msgid "<a href=\"lang_createtrigger.html\">TRIGGER &#151; CREATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:689
+msgid "<a href=\"lang_droptrigger.html\">TRIGGER &#151; DROP</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:690
+msgid "<a href=\"flextypegood.html\">Typing &#151; The Advantages Of Flexible</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:691
+msgid "<a href=\"uintcseq.html\">UINT Collating Sequence &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:692
+msgid "<a href=\"lang.html\">Understood by SQLite &#151; Query Language</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:693
+msgid "<a href=\"undoredo.html\">Undo/Redo With SQLite &#151; Automatic</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:694
+msgid "<b><a href=\"uri.html\">Uniform Resource Identifiers</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:695
+msgid "<a href=\"unionvtab.html\">UNION Virtual Table &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:696
+msgid "<a href=\"unlock_notify.html\">Unlock Notify API &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:697
+msgid "<b><a href=\"lang_update.html\">UPDATE</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:698
+msgid "<b><a href=\"lang_upsert.html\">UPSERT</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:699
+msgid "<a href=\"cpu.html\">Usage in SQLite &#151; Measuring and Reducing CPU</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:700
+msgid "<a href=\"whynotgit.html\">Use Git &#151; Why SQLite Does Not</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:701
+msgid "<a href=\"assert.html\">Use Of assert() In SQLite &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:702
+msgid "<a href=\"tempfiles.html\">Used By SQLite &#151; Temporary Files</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:703
+msgid "<a href=\"affcase1.html\">Used SQLite? &#151; What If OpenDocument</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:704
+msgid "<a href=\"famous.html\">Users Of SQLite &#151; Well Known</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:705
+msgid "<a href=\"whentouse.html\">Uses For SQLite &#151; Appropriate</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:706
+msgid ""
+"<b><a href=\"threadsafe.html\">Using SQLite In Multi Threaded "
+"Applications</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:707
+msgid "<a href=\"invalidutf.html\">UTF Policy &#151; Invalid</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:708
+msgid "<a href=\"sqldiff.html\">Utility &#151; sqldiff.exe: Database Difference</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:709
+msgid "<a href=\"dbhash.html\">Utility Program &#151; The dbhash.exe</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:710
+msgid ""
+"<a href=\"sqlanalyze.html\">Utility Program &#151; The "
+"sqlite3_analyzer.exe</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:711
+msgid "<b><a href=\"lang_vacuum.html\">VACUUM</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:712
+msgid "<a href=\"carray.html\">Valued Function &#151; The Carray() Table</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:713
+msgid ""
+"<a href=\"completion.html\">Valued Function &#151; The COMPLETION() "
+"Table</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:714
+msgid "<a href=\"series.html\">Valued Function &#151; The generate_series Table</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:715
+msgid ""
+"<a href=\"bytecodevtab.html\">Valued Functions &#151; The Bytecode() And "
+"Tables_Used() Table</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:716
+msgid "<a href=\"rowvalue.html\">Values &#151; Row</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:717
+msgid "<a href=\"datatypes.html\">version 2 &#151; Datatypes In SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:718
+msgid ""
+"<a href=\"c_interface.html\">Version 2 &#151; The C language interface to "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:719
+msgid "<a href=\"capi3ref.html\">Version 3 &#151; C/C++ Interface For SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:720
+msgid ""
+"<a href=\"lockingv3.html\">Version 3 &#151; File Locking And Concurrency In "
+"SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:721
+msgid "<a href=\"capi3.html\">Version 3 (old) &#151; C/C++ Interface For SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:722
+msgid "<a href=\"version3.html\">Version 3 Overview &#151; SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:723
+msgid ""
+"<a href=\"pgszchng2016.html\">Version 3.12.0 &#151; Change in Default Page "
+"Size in SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:724
+msgid ""
+"<a href=\"34to35.html\">Version 3.4.2 To 3.5.0 &#151; SQLite Changes "
+"From</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:725
+msgid ""
+"<a href=\"35to36.html\">Version 3.5.9 To 3.6.0 &#151; SQLite Changes "
+"From</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:726
+msgid ""
+"<a href=\"https://www.fossil-scm.org/\">Version Control System &#151; The "
+"Fossil</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:727
+msgid "<b><a href=\"versionnumbers.html\">Version Numbers in SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:728
+msgid ""
+"<a href=\"intern-v-extern-blob.html\">Versus External BLOBs &#151; "
+"Internal</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:729
+msgid "<a href=\"vfs.html\">VFS &#151; The SQLite OS Interface or</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:730
+msgid "<a href=\"cksumvfs.html\">VFS Shim &#151; The Checksum</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:731
+msgid "<a href=\"lang_createview.html\">VIEW &#151; CREATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:732
+msgid "<a href=\"lang_dropview.html\">VIEW &#151; DROP</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:733
+msgid "<a href=\"vdbe.html\">Virtual Database Engine of SQLite &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:734
+msgid "<a href=\"lang_createvtab.html\">VIRTUAL TABLE &#151; CREATE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:735
+msgid "<a href=\"swarmvtab.html\">Virtual Table &#151; Swarmvtab</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:736
+msgid "<a href=\"csv.html\">Virtual Table &#151; The CSV</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:737
+msgid "<a href=\"dbstat.html\">Virtual Table &#151; The DBSTAT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:738
+msgid "<a href=\"spellfix1.html\">Virtual Table &#151; The Spellfix1</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:739
+msgid "<a href=\"dbpage.html\">Virtual Table &#151; The SQLITE_DBPAGE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:740
+msgid "<a href=\"memstat.html\">Virtual Table &#151; The SQLITE_MEMSTAT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:741
+msgid "<a href=\"stmt.html\">Virtual Table &#151; The SQLITE_STMT</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:742
+msgid "<a href=\"unionvtab.html\">Virtual Table &#151; The UNION</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:743
+msgid "<a href=\"vtab.html\">Virtual Table Mechanism Of SQLite &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:744
+msgid "<a href=\"vtablist.html\">Virtual Tables &#151; List Of</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:745
+msgid "<b><a href=\"cves.html\">Vulnerabilities</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:746
+msgid "<b><a href=\"walformat.html\">WAL mode File Format</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:747
+msgid "<a href=\"errlog.html\">Warning Log &#151; The Error And</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:748
+msgid "<b><a href=\"keyword_index.html\">Website Keyword Index</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:749
+msgid "<b><a href=\"famous.html\">Well Known Users Of SQLite</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:750
+msgid "<b><a href=\"affcase1.html\">What If OpenDocument Used SQLite?</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:751
+msgid "<b><a href=\"whyc.html\">Why Is SQLite Coded In C</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:752
+msgid "<b><a href=\"whynotgit.html\">Why SQLite Does Not Use Git</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:753
+msgid ""
+"<a href=\"mostdeployed.html\">Widely Deployed SQL Database Engine &#151; "
+"Most</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:754
+msgid "<b><a href=\"windowfunctions.html\">Window Functions</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:755
+msgid "<a href=\"lang_with.html\">WITH Clause &#151; The</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:756
+msgid "<a href=\"undoredo.html\">With SQLite &#151; Automatic Undo/Redo</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:757
+msgid ""
+"<a href=\"withoutrowid.html\">WITHOUT ROWID Optimization &#151; Clustered "
+"Indexes and the</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:758
+msgid "<a href=\"queryplanner.html\">Work &#151; How Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:759
+msgid "<a href=\"howitworks.html\">Works &#151; How SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:760
+msgid "<b><a href=\"wal.html\">Write Ahead Logging</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:761
+msgid "<b><a href=\"zeroconf.html\">Zero Configuration</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/sitemap.html:762
+msgid "<a href=\"zipfile.html\">Zipfile Module &#151; The SQLite</a>"
+msgstr ""

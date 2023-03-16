@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:12+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_savepoint.html:6 sedout/lang_savepoint.html:121
+msgid "Savepoints"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_savepoint.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_savepoint.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_savepoint.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_savepoint.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_savepoint.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_savepoint.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_savepoint.html:22 sedout/lang_savepoint.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_savepoint.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_savepoint.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_savepoint.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_savepoint.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_savepoint.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_savepoint.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_savepoint.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_savepoint.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_savepoint.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_savepoint.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_savepoint.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_savepoint.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_savepoint.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_savepoint.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_savepoint.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_savepoint.html:128
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:130
+msgid ""
+"<b><a href=\"syntax/savepoint-stmt.html\">savepoint-stmt:</a></b> <button "
+"id='xb9721ecc' "
+"onclick='hideorshow(\"xb9721ecc\",\"x4076c644\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_savepoint.html:138 sedout/lang_savepoint.html:161
+#: sedout/lang_savepoint.html:195
+msgid "SAVEPOINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_savepoint.html:142 sedout/lang_savepoint.html:165
+#: sedout/lang_savepoint.html:199
+msgid "savepoint-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:149
+msgid ""
+"<b><a href=\"syntax/release-stmt.html\">release-stmt:</a></b> <button "
+"id='xa254d5c5' "
+"onclick='hideorshow(\"xa254d5c5\",\"x9bcd8b3e\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_savepoint.html:157
+msgid "RELEASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:175
+msgid ""
+"<b><a href=\"syntax/rollback-stmt.html\">rollback-stmt:</a></b> <button "
+"id='xca7d6da2' "
+"onclick='hideorshow(\"xca7d6da2\",\"x9b810f3e\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_savepoint.html:183
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_savepoint.html:187
+msgid "TRANSACTION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_savepoint.html:191
+msgid "TO"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_savepoint.html:217
+msgid "<span>2. </span>Savepoints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:219
+msgid ""
+"SAVEPOINTs are a method of creating transactions, similar to <a "
+"href=\"lang_transaction.html\">BEGIN</a> and <a "
+"href=\"lang_transaction.html\">COMMIT</a>, except that the SAVEPOINT and "
+"RELEASE commands are named and may be nested."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:223
+msgid ""
+"The SAVEPOINT command starts a new transaction with a name.  The transaction "
+"names need not be unique.  A SAVEPOINT can be started either within or "
+"outside of a <a href=\"lang_transaction.html\">BEGIN</a>...<a "
+"href=\"lang_transaction.html\">COMMIT</a>.  When a SAVEPOINT is the "
+"outer-most savepoint and it is not within a <a "
+"href=\"lang_transaction.html\">BEGIN</a>...<a "
+"href=\"lang_transaction.html\">COMMIT</a> then the behavior is the same as "
+"BEGIN DEFERRED TRANSACTION."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:230
+msgid ""
+"The ROLLBACK TO command reverts the state of the database back to what it "
+"was just after the corresponding SAVEPOINT.  Note that unlike that plain <a "
+"href=\"lang_transaction.html\">ROLLBACK</a> command (without the TO keyword) "
+"the ROLLBACK TO command does not cancel the transaction.  Instead of "
+"cancelling the transaction, the ROLLBACK TO command restarts the transaction "
+"again at the beginning.  All intervening SAVEPOINTs are canceled, however."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:237
+msgid ""
+"The RELEASE command is like a <a href=\"lang_transaction.html\">COMMIT</a> "
+"for a SAVEPOINT.  The RELEASE command causes all savepoints back to and "
+"including the most recent savepoint with a matching name to be removed from "
+"the transaction stack.  The RELEASE of an inner transaction does not cause "
+"any changes to be written to the database file; it merely removes savepoints "
+"from the transaction stack such that it is no longer possible to ROLLBACK TO "
+"those savepoints.  If a RELEASE command releases the outermost savepoint, so "
+"that the transaction stack becomes empty, then RELEASE is the same as <a "
+"href=\"lang_transaction.html\">COMMIT</a>.  The <a "
+"href=\"lang_transaction.html\">COMMIT</a> command may be used to release all "
+"savepoints and commit the transaction even if the transaction was originally "
+"started by a SAVEPOINT command instead of a <a "
+"href=\"lang_transaction.html\">BEGIN</a> command."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:251
+msgid ""
+"If the savepoint-name in a RELEASE command does not match any savepoint "
+"currently in the transaction stack, then no savepoints are released, the "
+"database is unchanged, and the RELEASE command returns an error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:256
+msgid ""
+"Note that an inner transaction might commit (using the RELEASE command)  but "
+"then later have its work undone by a ROLLBACK in an outer transaction.  A "
+"power failure or program crash or OS crash will cause the outer-most "
+"transaction to rollback, undoing all changes that have occurred within that "
+"outer transaction, even changes that have supposedly been \"committed\" by "
+"the RELEASE command.  Content is not actually committed on the disk until "
+"the outermost transaction commits."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:264
+msgid "There are several ways of thinking about the RELEASE command:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_savepoint.html:268
+msgid ""
+"Some people view RELEASE as the equivalent of COMMIT for a SAVEPOINT.  This "
+"is an acceptable point of view as long as one remembers that the changes "
+"committed by an inner transaction might later be undone by a rollback in an "
+"outer transaction."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_savepoint.html:274
+msgid ""
+"Another view of RELEASE is that it merges a named transaction into its "
+"parent transaction, so that the named transaction and its parent become the "
+"same transaction.  After RELEASE, the named transaction and its parent will "
+"commit or rollback together, whatever their fate may be."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_savepoint.html:281
+msgid ""
+"One can also think of savepoints as \"marks\" in the transaction timeline.  "
+"In this view, the SAVEPOINT command creates a new mark, the ROLLBACK TO "
+"command rewinds the timeline back to a point just after the named mark, and "
+"the RELEASE command erases marks from the timeline without actually making "
+"any changes to the database."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_savepoint.html:292
+msgid "<span>3. </span>Transaction Nesting Rules"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:294
+msgid ""
+"The last transaction started will be the first transaction committed or "
+"rolled back."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:297
+msgid ""
+"The <a href=\"lang_transaction.html\">BEGIN</a> command only works if the "
+"transaction stack is empty, or in other words if there are no pending "
+"transactions.  If the transaction stack is not empty when the <a "
+"href=\"lang_transaction.html\">BEGIN</a> command is invoked, then the "
+"command fails with an error."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:302
+msgid ""
+"The <a href=\"lang_transaction.html\">COMMIT</a> command commits all "
+"outstanding transactions and leaves the transaction stack empty."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:305
+msgid ""
+"The RELEASE command starts with the most recent addition to the transaction "
+"stack and releases savepoints backwards in time until it releases a "
+"savepoint with a matching savepoint-name.  Prior savepoints, even savepoints "
+"with matching savepoint-names, are unchanged.  If the RELEASE command causes "
+"the transaction stack to become empty (if the RELEASE command releases the "
+"outermost transaction from the stack) then the transaction commits."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:314
+msgid ""
+"The <a href=\"lang_transaction.html\">ROLLBACK</a> command without a TO "
+"clause rolls backs all transactions and leaves the transaction stack empty."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:317
+msgid ""
+"The ROLLBACK command with a TO clause rolls back transactions going "
+"backwards in time back to the most recent SAVEPOINT with a matching name.  "
+"The SAVEPOINT with the matching name remains on the transaction stack, but "
+"all database changes that occurred after that SAVEPOINT was created are "
+"rolled back.  If the savepoint-name in a ROLLBACK TO command does not match "
+"any SAVEPOINT on the stack, then the ROLLBACK command fails with an error "
+"and leaves the state of the database unchanged."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_savepoint.html:324
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_savepoint.in?m=60d80524de\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

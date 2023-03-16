@@ -1,0 +1,241 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:06+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/c_testctrl_always.html:6
+#: sedout/c3ref/c_testctrl_always.html:121
+msgid "Testing Interface Operation Codes"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/c_testctrl_always.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/c_testctrl_always.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/c_testctrl_always.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/c_testctrl_always.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/c_testctrl_always.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/c_testctrl_always.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/c_testctrl_always.html:22
+#: sedout/c3ref/c_testctrl_always.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/c_testctrl_always.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/c_testctrl_always.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/c_testctrl_always.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/c_testctrl_always.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/c_testctrl_always.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/c_testctrl_always.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/c_testctrl_always.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/c_testctrl_always.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/c_testctrl_always.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/c_testctrl_always.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/c_testctrl_always.html:124
+#, no-wrap
+msgid ""
+"#define SQLITE_TESTCTRL_FIRST                    5\n"
+"#define SQLITE_TESTCTRL_PRNG_SAVE                5\n"
+"#define SQLITE_TESTCTRL_PRNG_RESTORE             6\n"
+"#define SQLITE_TESTCTRL_PRNG_RESET               7  /* NOT USED */\n"
+"#define SQLITE_TESTCTRL_BITVEC_TEST              8\n"
+"#define SQLITE_TESTCTRL_FAULT_INSTALL            9\n"
+"#define SQLITE_TESTCTRL_BENIGN_MALLOC_HOOKS     10\n"
+"#define SQLITE_TESTCTRL_PENDING_BYTE            11\n"
+"#define SQLITE_TESTCTRL_ASSERT                  12\n"
+"#define SQLITE_TESTCTRL_ALWAYS                  13\n"
+"#define SQLITE_TESTCTRL_RESERVE                 14  /* NOT USED */\n"
+"#define SQLITE_TESTCTRL_OPTIMIZATIONS           15\n"
+"#define SQLITE_TESTCTRL_ISKEYWORD               16  /* NOT USED */\n"
+"#define SQLITE_TESTCTRL_SCRATCHMALLOC           17  /* NOT USED */\n"
+"#define SQLITE_TESTCTRL_INTERNAL_FUNCTIONS      17\n"
+"#define SQLITE_TESTCTRL_LOCALTIME_FAULT         18\n"
+"#define SQLITE_TESTCTRL_EXPLAIN_STMT            19  /* NOT USED */\n"
+"#define SQLITE_TESTCTRL_ONCE_RESET_THRESHOLD    19\n"
+"#define SQLITE_TESTCTRL_NEVER_CORRUPT           20\n"
+"#define SQLITE_TESTCTRL_VDBE_COVERAGE           21\n"
+"#define SQLITE_TESTCTRL_BYTEORDER               22\n"
+"#define SQLITE_TESTCTRL_ISINIT                  23\n"
+"#define SQLITE_TESTCTRL_SORTER_MMAP             24\n"
+"#define SQLITE_TESTCTRL_IMPOSTER                25\n"
+"#define SQLITE_TESTCTRL_PARSER_COVERAGE         26\n"
+"#define SQLITE_TESTCTRL_RESULT_INTREAL          27\n"
+"#define SQLITE_TESTCTRL_PRNG_SEED               28\n"
+"#define SQLITE_TESTCTRL_EXTRA_SCHEMA_CHECKS     29\n"
+"#define SQLITE_TESTCTRL_SEEK_COUNT              30\n"
+"#define SQLITE_TESTCTRL_TRACEFLAGS              31\n"
+"#define SQLITE_TESTCTRL_TUNE                    32\n"
+"#define SQLITE_TESTCTRL_LOGEST                  33\n"
+"#define SQLITE_TESTCTRL_LAST                    33  /* Largest TESTCTRL */\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_testctrl_always.html:159
+msgid ""
+"These constants are the valid operation code parameters used as the first "
+"argument to <a "
+"href=\"../c3ref/test_control.html\">sqlite3_test_control()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_testctrl_always.html:162
+msgid ""
+"These parameters and their meanings are subject to change without notice.  "
+"These values are for testing purposes only.  Applications should not use any "
+"of these parameters or the <a "
+"href=\"../c3ref/test_control.html\">sqlite3_test_control()</a> interface."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/c_testctrl_always.html:166
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

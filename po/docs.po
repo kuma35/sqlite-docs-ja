@@ -1,0 +1,1214 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/docs.html:6
+msgid "SQLite Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/docs.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/docs.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/docs.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/docs.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/docs.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/docs.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/docs.html:22 sedout/docs.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/docs.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/docs.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/docs.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/docs.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/docs.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/docs.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/docs.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><form><select>
+#: sedout/docs.html:43 sedout/docs.html:159
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><form><select><option>
+#: sedout/docs.html:44 sedout/docs.html:160
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><form><select><option>
+#: sedout/docs.html:45 sedout/docs.html:161
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/docs.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/docs.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h3>
+#: sedout/docs.html:122
+msgid "Common Links"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/docs.html:124
+msgid "<a href=\"features.html\">Features</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/docs.html:125
+msgid "<a href=\"whentouse.html\">When to use SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/docs.html:126
+msgid "<a href=\"quickstart.html\">Getting Started</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/docs.html:127
+msgid "<a href=\"https://sqlite.org/fiddle\">Try it live!</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/docs.html:128
+msgid "<a href=\"chronology.html\">Prior Releases</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li>
+#: sedout/docs.html:129
+msgid "<a href=\"lang.html\">SQL Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li>
+#: sedout/docs.html:131
+msgid "<a href=\"pragma.html#toc\">Pragmas</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li>
+#: sedout/docs.html:132
+msgid "<a href=\"lang_corefunc.html\">SQL functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li><li>
+#: sedout/docs.html:133
+msgid "<a href=\"lang_datefunc.html\">Date &amp; time functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li>
+#: sedout/docs.html:134
+msgid "<a href=\"lang_aggfunc.html#aggfunclist\">Aggregate functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:135
+msgid "<a href=\"windowfunctions.html#biwinfunc\">Window functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:136
+msgid "<a href=\"lang_mathfunc.html\">Math functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:137
+msgid "<a href=\"json1.html\">JSON functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li>
+#: sedout/docs.html:140
+msgid "<a href=\"c3ref/intro.html\">C/C++ Interface Spec</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li>
+#: sedout/docs.html:142
+msgid "<a href=\"cintro.html\">Introduction</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><ul><li><li>
+#: sedout/docs.html:143
+msgid "<a href=\"c3ref/funclist.html\">List of C-language APIs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li>
+#: sedout/docs.html:146
+msgid "<a href=\"tclsqlite.html\">The TCL Interface Spec</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><li>
+#: sedout/docs.html:147
+msgid "<a href=\"quirks.html\">Quirks and Gotchas</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><li>
+#: sedout/docs.html:148
+msgid "<a href=\"faq.html\">Frequently Asked Questions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><li>
+#: sedout/docs.html:149
+msgid ""
+"<a href=\"http://www.sqlite.org/src/timeline?n=100&y=ci\">Commit History</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><li>
+#: sedout/docs.html:150
+msgid "<a href=\"http://www.sqlite.org/src/wiki?name=Bug+Reports\">Bugs</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li><li><li>
+#: sedout/docs.html:151
+msgid "<a href=\"news.html\">News</a>"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/docs.html:156
+msgid "Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><form>
+#: sedout/docs.html:162
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\"/> <input "
+"type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><style>
+#: sedout/docs.html:168
+msgid ""
+".showhide { margin-left: 0; padding-left: 0; list-style-type: none; } ."
+"showhide &gt; li { padding-left: 1em; text-indent: -1em; } .showhide &gt; li "
+"li { padding-left: 0; text-indent: 0; padding-top: 1ex; padding-bottom: "
+"1ex; } .showhide ul { display: none; list-style-type: disc; } .showhide &gt; "
+"li &gt; a { text-decoration: none; color: black; cursor: pointer; } .sh_mark "
+"{ float: left; width: 1em; } .sh_link { font-weight: bold; } .docsearch "
+"{ margin: auto; width: 450px; padding-bottom: 1.5em; }"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/docs.html:206
+msgid ""
+"function showhide(n){ var ul = document.getElementById(\"sh_sub_\"+n)  var "
+"mk = document.getElementById(\"sh_mark_\"+n)  if( ul.style.display!"
+"=\"block\" ){ ul.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } "
+"else { ul.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } } if( !"
+"location.origin || !location.origin.match || !location.origin.match(/http/) )"
+"{ document.getElementById(\"docsearch\").style.display = \"none\"; }"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/docs.html:223
+msgid ""
+"<a onclick='showhide(1)'><span class='sh_mark' id='sh_mark_1'>&#x25bc;</"
+"span> Document Lists And Indexes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><ul><li>
+#: sedout/docs.html:225
+msgid ""
+"<a class='sh_link' href='doclist.html'>Alphabetical Listing Of All "
+"Documents</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><ul><li><li>
+#: sedout/docs.html:226
+msgid "<a class='sh_link' href='keyword_index.html'>Website Keyword Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><ul><li><li><li>
+#: sedout/docs.html:227
+msgid "<a class='sh_link' href='sitemap.html'>Permuted Title Index</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/docs.html:229
+msgid ""
+"<a onclick='showhide(2)'><span class='sh_mark' id='sh_mark_2'>&#x25ba;</"
+"span> Overview Documents</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li>
+#: sedout/docs.html:231
+msgid ""
+"<a class='sh_link' href='about.html'>About SQLite</a> <span "
+"class='desktoponly'>&rarr; A high-level overview of what SQLite is and why "
+"you might be interested in using it.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li>
+#: sedout/docs.html:236
+msgid ""
+"<a class='sh_link' href='whentouse.html'>Appropriate Uses For SQLite</a> "
+"<span class='desktoponly'>&rarr; This document describes situations where "
+"SQLite is an appropriate database engine to use versus situations where a "
+"client/server database engine might be a better choice.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li><li>
+#: sedout/docs.html:242
+msgid ""
+"<a class='sh_link' href='different.html'>Distinctive Features</a> <span "
+"class='desktoponly'>&rarr; This document enumerates and describes some of "
+"the features of SQLite that make it different from other SQL database "
+"engines.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li><li><li>
+#: sedout/docs.html:247
+msgid ""
+"<a class='sh_link' href='quirks.html'>Quirks of SQLite</a> <span "
+"class='desktoponly'>&rarr; This document is a short list of some unusual "
+"features of SQLite that tend to cause misunderstandings and confusion.  The "
+"list includes both deliberate innovations and \"misfeatures\" that are "
+"retained only for backwards compatibility.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:254
+msgid ""
+"<a class='sh_link' href='testing.html'>How SQLite Is Tested</a> <span "
+"class='desktoponly'>&rarr; The reliability and robustness of SQLite is "
+"achieved in large part by thorough and careful testing.  This document "
+"identifies the many tests that occur before every release of SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:260
+msgid ""
+"<a class='sh_link' href='copyright.html'>Copyright</a> <span "
+"class='desktoponly'>&rarr; SQLite is in the public domain.  This document "
+"describes what that means and the implications for contributors.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:265
+msgid ""
+"<a class='sh_link' href='faq.html'>Frequently Asked Questions</a> <span "
+"class='desktoponly'>&rarr; The title of the document says all...  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:269
+msgid ""
+"<a class='sh_link' href='books.html'>Books About SQLite</a> <span "
+"class='desktoponly'>&rarr; A list of independently written books about "
+"SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li>
+#: sedout/docs.html:274
+msgid ""
+"<a onclick='showhide(3)'><span class='sh_mark' id='sh_mark_3'>&#x25ba;</"
+"span> Programming Interfaces</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li>
+#: sedout/docs.html:276
+msgid ""
+"<a class='sh_link' href='quickstart.html'>SQLite In 5 Minutes Or Less</a> "
+"<span class='desktoponly'>&rarr; A very quick introduction to programming "
+"with SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li>
+#: sedout/docs.html:280
+msgid ""
+"<a class='sh_link' href='cintro.html'>Introduction to the C/C++ API </a> "
+"<span class='desktoponly'>&rarr; This document introduces the C/C++ API. "
+"Users should read this document before the C/C++ API Reference Guide linked "
+"below.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li>
+#: sedout/docs.html:285
+msgid ""
+"<a class='sh_link' href='howtocompile.html'>How To Compile SQLite</a> <span "
+"class='desktoponly'>&rarr; Instructions and hints for compiling SQLite C "
+"code and integrating that code with your own application.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:290
+msgid ""
+"<a class='sh_link' href='c3ref/intro.html'>C/C++ API Reference</a> <span "
+"class='desktoponly'>&rarr; This document describes each API function "
+"separately.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:294
+msgid ""
+"<a class='sh_link' href='rescode.html'>Result and Error Codes</a> <span "
+"class='desktoponly'>&rarr; A description of the meanings of the numeric "
+"result codes returned by various C/C++ interfaces.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:299
+msgid ""
+"<a class='sh_link' href='lang.html'>SQL Syntax</a> <span "
+"class='desktoponly'>&rarr; This document describes the SQL language that is "
+"understood by SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:304
+msgid ""
+"<a class='sh_link' href='pragma.html'>Pragma commands</a> <span "
+"class='desktoponly'>&rarr; This document describes SQLite performance tuning "
+"options and other special purpose database commands.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:309
+msgid ""
+"<a class='sh_link' href='lang_corefunc.html'>Core SQL Functions</a> <span "
+"class='desktoponly'>&rarr; General-purpose built-in scalar SQL functions.  </"
+"span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:313
+msgid ""
+"<a class='sh_link' href='lang_aggfunc.html'>Aggregate SQL Functions</a> "
+"<span class='desktoponly'>&rarr; General-purpose built-in aggregate SQL "
+"functions.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:317
+msgid ""
+"<a class='sh_link' href='lang_datefunc.html'>Date and Time SQL Functions</a> "
+"<span class='desktoponly'>&rarr; SQL functions for manipulating dates and "
+"times.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:321
+msgid ""
+"<a class='sh_link' href='windowfunctions.html'>Window Functions</a> <span "
+"class='desktoponly'>&rarr; SQL Window functions.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:325
+msgid ""
+"<a class='sh_link' href='gencol.html'>Generated Columns</a> <span "
+"class='desktoponly'>&rarr; Stored and virtual columns in table definitions.  "
+"</span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:329
+msgid ""
+"<a class='sh_link' href='http://system.data.sqlite.org/'>System.Data.SQLite</"
+"a> <span class='desktoponly'>&rarr; C#/.NET bindings for SQLite </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:333
+msgid ""
+"<a class='sh_link' href='tclsqlite.html'>Tcl API</a> <span "
+"class='desktoponly'>&rarr; A description of the TCL interface bindings for "
+"SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:337
+msgid ""
+"<a class='sh_link' href='datatype3.html'>DataTypes</a> <span "
+"class='desktoponly'>&rarr; SQLite version 3 introduces the concept of "
+"manifest typing, where the type of a value is associated with the value "
+"itself, not the column that it is stored in.  This page describes data "
+"typing for SQLite version 3 in further detail.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li>
+#: sedout/docs.html:345
+msgid ""
+"<a onclick='showhide(4)'><span class='sh_mark' id='sh_mark_4'>&#x25ba;</"
+"span> Extensions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li>
+#: sedout/docs.html:347
+msgid ""
+"<a class='sh_link' href='json1.html'>Json1 - JSON Integration</a> <span "
+"class='desktoponly'>&rarr; SQL functions for creating, parsing, and querying "
+"JSON content.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li>
+#: sedout/docs.html:351
+msgid ""
+"<a class='sh_link' href='fts5.html'>FTS5 - Full Text Search</a> <span "
+"class='desktoponly'>&rarr; A description of the SQLite Full Text Search "
+"(FTS5) extension.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:355
+msgid ""
+"<a class='sh_link' href='fts3.html'>FTS3 - Full Text Search</a> <span "
+"class='desktoponly'>&rarr; A description of the SQLite Full Text Search "
+"(FTS3) extension.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:359
+msgid ""
+"<a class='sh_link' href='rtree.html'>R-Tree Module</a> <span "
+"class='desktoponly'>&rarr; A description of the SQLite R-Tree extension. An "
+"R-Tree is a specialized data structure that supports fast multi-dimensional "
+"range queries often used in geospatial systems.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:365
+msgid ""
+"<a class='sh_link' href='sessionintro.html'>Sessions</a> <span "
+"class='desktoponly'>&rarr; The Sessions extension allows change to an SQLite "
+"database to be captured in a compact file which can be reverted on the "
+"original database (to implement \"undo\") or transferred and applied to "
+"another similar database.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:372
+msgid ""
+"<a class='sh_link' href='loadext.html'>Run-Time Loadable Extensions</a> "
+"<span class='desktoponly'>&rarr; A general overview on how run-time loadable "
+"extensions work, how they are compiled, and how developers can create their "
+"own run-time loadable extensions for SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:378
+msgid ""
+"<a class='sh_link' href='http://sqlite.org/android/'>SQLite Android "
+"Bindings</a> <span class='desktoponly'>&rarr; Information on how to deploy "
+"your own private copy of SQLite on Android, bypassing the built-in SQLite, "
+"but using the same Java interface.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:384
+msgid ""
+"<a class='sh_link' href='dbstat.html'>Dbstat Virtual Table</a> <span "
+"class='desktoponly'>&rarr; The DBSTAT virtual table reports on the sizes and "
+"geometries of tables storing content in an SQLite database, and is the basis "
+"for the [sqlite3_analyzer] utility program.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:390
+msgid ""
+"<a class='sh_link' href='csv.html'>Csv Virtual Table</a> <span "
+"class='desktoponly'>&rarr; The CSV virtual table allows SQLite to directly "
+"read and query [https://www.ietf.org/rfc/rfc4180.txt|RFC 4180] formatted "
+"files.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:395
+msgid ""
+"<a class='sh_link' href='carray.html'>Carray</a> <span "
+"class='desktoponly'>&rarr; CARRAY is a [table-valued function] that allows C-"
+"language arrays to be used in SQL queries.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:400
+msgid ""
+"<a class='sh_link' href='series.html'>generate_series</a> <span "
+"class='desktoponly'>&rarr; A description of the generate_series() [table-"
+"valued function].  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:404
+msgid ""
+"<a class='sh_link' href='spellfix1.html'>Spellfix1</a> <span "
+"class='desktoponly'>&rarr; The spellfix1 extension is an experiment in doing "
+"spelling correction for [full-text search].  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li>
+#: sedout/docs.html:410
+msgid ""
+"<a onclick='showhide(5)'><span class='sh_mark' id='sh_mark_5'>&#x25ba;</"
+"span> Features</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li>
+#: sedout/docs.html:412
+msgid ""
+"<a class='sh_link' href='shortnames.html'>8+3 Filenames</a> <span "
+"class='desktoponly'>&rarr; How to make SQLite work on filesystems that only "
+"support 8+3 filenames.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li>
+#: sedout/docs.html:417
+msgid ""
+"<a class='sh_link' href='autoinc.html'>Autoincrement</a> <span "
+"class='desktoponly'>&rarr; A description of the AUTOINCREMENT keyword in "
+"SQLite, what it does, why it is sometimes useful, and why it should be "
+"avoided if not strictly necessary.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:423
+msgid ""
+"<a class='sh_link' href='backup.html'>Backup API</a> <span "
+"class='desktoponly'>&rarr; The [sqlite3_backup_init | online-backup "
+"interface] can be used to copy content from a disk file into an in-memory "
+"database or vice versa and it can make a hot backup of a live database.  "
+"This application note gives examples of how.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:430
+msgid ""
+"<a class='sh_link' href='errlog.html'>Error and Warning Log</a> <span "
+"class='desktoponly'>&rarr; SQLite supports an \"error and warning log\" "
+"design to capture information about suspicious and/or error events during "
+"operation.  Embedded applications are encouraged to enable the error and "
+"warning log to help with debugging application problems that arise in the "
+"field.  This document explains how to do that.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:438
+msgid ""
+"<a class='sh_link' href='foreignkeys.html'>Foreign Key Support</a> <span "
+"class='desktoponly'>&rarr; This document describes the support for foreign "
+"key constraints introduced in version 3.6.19.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:443
+msgid ""
+"<a class='sh_link' href='expridx.html'>Indexes On Expressions</a> <span "
+"class='desktoponly'>&rarr; Notes on how to create indexes on expressions "
+"instead of just individual columns.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:448
+msgid ""
+"<a class='sh_link' href='intern-v-extern-blob.html'>Internal versus External "
+"Blob Storage</a> <span class='desktoponly'>&rarr; Should you store large "
+"BLOBs directly in the database, or store them in files and just record the "
+"filename in the database? This document seeks to shed light on that "
+"question.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:454
+msgid ""
+"<a class='sh_link' href='limits.html'>Limits In SQLite</a> <span "
+"class='desktoponly'>&rarr; This document describes limitations of SQLite "
+"(the maximum length of a string or blob, the maximum size of a database, the "
+"maximum number of tables in a database, etc.) and how these limits can be "
+"altered at compile-time and run-time.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:461
+msgid ""
+"<a class='sh_link' href='mmap.html'>Memory-Mapped I/O</a> <span "
+"class='desktoponly'>&rarr; SQLite supports memory-mapped I/O.  Learn how to "
+"enable memory-mapped I/O and about the various advantages and disadvantages "
+"to using memory-mapped I/O in this document.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:467
+msgid ""
+"<a class='sh_link' href='threadsafe.html'>Multi-threaded Programs and "
+"SQLite</a> <span class='desktoponly'>&rarr; SQLite is safe to use in multi-"
+"threaded programs.  This document provides the details and hints on how to "
+"maximize performance.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:472
+msgid ""
+"<a class='sh_link' href='nulls.html'>Null Handling</a> <span "
+"class='desktoponly'>&rarr; Different SQL database engines handle NULLs in "
+"different ways.  The SQL standards are ambiguous.  This (circa 2003) "
+"document describes how SQLite handles NULLs in comparison with other SQL "
+"database engines.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:478
+msgid ""
+"<a class='sh_link' href='partialindex.html'>Partial Indexes</a> <span "
+"class='desktoponly'>&rarr; A partial index is an index that only covers a "
+"subset of the rows in a table.  Learn how to use partial indexes in SQLite "
+"from this document.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:483
+msgid ""
+"<a class='sh_link' href='sharedcache.html'>Shared Cache Mode</a> <span "
+"class='desktoponly'>&rarr; Version 3.3.0 and later supports the ability for "
+"two or more database connections to share the same page and schema cache.  "
+"This feature is useful for certain specialized applications.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:489
+msgid ""
+"<a class='sh_link' href='unlock_notify.html'>Unlock Notify</a> <span "
+"class='desktoponly'>&rarr; The \"unlock notify\" feature can be used in "
+"conjunction with [shared cache mode] to more efficiently manage resource "
+"conflict (database table locks).  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:495
+msgid ""
+"<a class='sh_link' href='uri.html'>URI Filenames</a> <span "
+"class='desktoponly'>&rarr; The names of database files can be specified "
+"using either an ordinary filename or a URI.  Using URI filenames provides "
+"additional capabilities, as this document describes.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:501
+msgid ""
+"<a class='sh_link' href='withoutrowid.html'>WITHOUT ROWID Tables</a> <span "
+"class='desktoponly'>&rarr; The WITHOUT ROWID optimization is a option that "
+"can sometimes result in smaller and faster databases.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:506
+msgid ""
+"<a class='sh_link' href='wal.html'>Write-Ahead Log (WAL) Mode</a> <span "
+"class='desktoponly'>&rarr; Transaction control using a write-ahead log "
+"offers more concurrency and is often faster than the default rollback "
+"transactions.  This document explains how to use WAL mode for improved "
+"performance.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li>
+#: sedout/docs.html:513
+msgid ""
+"<a onclick='showhide(6)'><span class='sh_mark' id='sh_mark_6'>&#x25ba;</"
+"span> Tools</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li>
+#: sedout/docs.html:515
+msgid ""
+"<a class='sh_link' href='cli.html'>Command-Line Shell (sqlite3.exe)</a> "
+"<span class='desktoponly'>&rarr; Notes on using the \"sqlite3.exe\" command-"
+"line interface that can be used to create, modify, and query arbitrary "
+"SQLite database files.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li>
+#: sedout/docs.html:521
+msgid ""
+"<a class='sh_link' href='sqlanalyze.html'>SQLite Database Analyzer "
+"(sqlite3_analyzer.exe)</a> <span class='desktoponly'>&rarr; This stand-alone "
+"program reads an SQLite database and outputs a file showing the space used "
+"by each table and index and other statistics.  Built using the [dbstat "
+"virtual table].  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:527
+msgid ""
+"<a class='sh_link' href='rbu.html'>RBU</a> <span class='desktoponly'>&rarr; "
+"The \"Resumable Bulk Update\" utility program allows a batch of changes to "
+"be applied to a remote database running on embedded hardware in a way that "
+"is resumeable and does not interrupt ongoing operation.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:533
+msgid ""
+"<a class='sh_link' href='sqldiff.html'>SQLite Database Diff (sqldiff.exe)</"
+"a> <span class='desktoponly'>&rarr; This stand-alone program compares two "
+"SQLite database files and outputs the SQL needed to convert one into the "
+"other.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:538
+msgid ""
+"<a class='sh_link' href='dbhash.html'>Database Hash (dbhash.exe)</a> <span "
+"class='desktoponly'>&rarr; This program demonstrates how to compute a hash "
+"over the content of an SQLite database.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:543
+msgid ""
+"<a class='sh_link' href='http://www.fossil-scm.org/'>Fossil</a> <span "
+"class='desktoponly'>&rarr; The Fossil Version Control System is a "
+"distributed VCS designed specifically to support SQLite development.  Fossil "
+"uses SQLite as for storage.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:548
+msgid ""
+"<a class='sh_link' href='http://www.sqlite.org/sqlar/'>SQLite Archiver "
+"(sqlar.exe)</a> <span class='desktoponly'>&rarr; A ZIP-like archive program "
+"that uses SQLite for storage.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:553
+msgid ""
+"<a onclick='showhide(7)'><span class='sh_mark' id='sh_mark_7'>&#x25ba;</"
+"span> Advocacy</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><ul><li>
+#: sedout/docs.html:555
+msgid ""
+"<a class='sh_link' href='appfileformat.html'>SQLite As An Application File "
+"Format</a> <span class='desktoponly'>&rarr; This article advocates using "
+"SQLite as an application file format in place of XML or JSON or a \"pile-of-"
+"file\".  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><ul><li><li>
+#: sedout/docs.html:560
+msgid ""
+"<a class='sh_link' href='famous.html'>Well Known Users</a> <span "
+"class='desktoponly'>&rarr; This page lists a small subset of the many "
+"thousands of devices and application programs that make use of SQLite.  </"
+"span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:565
+msgid ""
+"<a class='sh_link' href='fasterthanfs.html'>35% Faster Than The Filesystem</"
+"a> <span class='desktoponly'>&rarr; This article points out that reading "
+"blobs out of an SQLite database is often faster than reading the same blobs "
+"from individual files in the filesystem.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:572
+msgid ""
+"<a onclick='showhide(8)'><span class='sh_mark' id='sh_mark_8'>&#x25ba;</"
+"span> Technical and Design Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li>
+#: sedout/docs.html:574
+msgid ""
+"<a class='sh_link' href='howtocorrupt.html'>How Database Corruption Can "
+"Occur</a> <span class='desktoponly'>&rarr; SQLite is highly resistant to "
+"database corruption.  But application, OS, and hardware bugs can still "
+"result in corrupt database files.  This article describes many of the ways "
+"that SQLite database files can go corrupt.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li>
+#: sedout/docs.html:581
+msgid ""
+"<a class='sh_link' href='tempfiles.html'>Temporary Files Used By SQLite</a> "
+"<span class='desktoponly'>&rarr; SQLite can potentially use many different "
+"temporary files when processing certain SQL statements.  This document "
+"describes the many kinds of temporary files that SQLite uses and offers "
+"suggestions for avoiding them on systems where creating a temporary file is "
+"an expensive operation.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:589
+msgid ""
+"<a class='sh_link' href='inmemorydb.html'>In-Memory Databases</a> <span "
+"class='desktoponly'>&rarr; SQLite normally stores content in a disk file.  "
+"However, it can also be used as an in-memory database engine.  This document "
+"explains how.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:594
+msgid ""
+"<a class='sh_link' href='atomiccommit.html'>How SQLite Implements Atomic "
+"Commit</a> <span class='desktoponly'>&rarr; A description of the logic "
+"within SQLite that implements transactions with atomic commit, even in the "
+"face of power failures.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:600
+msgid ""
+"<a class='sh_link' href='malloc.html'>Dynamic Memory Allocation in SQLite</"
+"a> <span class='desktoponly'>&rarr; SQLite has a sophisticated memory "
+"allocation subsystem that can be configured and customized to meet memory "
+"usage requirements of the application and that is robust against out-of-"
+"memory conditions and leak-free.  This document provides the details.  </"
+"span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:607
+msgid ""
+"<a class='sh_link' href='custombuild.html'>Customizing And Porting SQLite</"
+"a> <span class='desktoponly'>&rarr; This document explains how to customize "
+"the build of SQLite and how to port SQLite to new platforms.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><a>
+#: sedout/docs.html:612
+msgid "<a class='sh_link' href='lockingv3.html'>Locking And Concurrency"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><a><br>
+#: sedout/docs.html:612
+msgid "In SQLite Version 3"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:613
+msgid ""
+"<span class='desktoponly'>&rarr; A description of how the new locking code "
+"in version 3 increases concurrency and decreases the problem of writer "
+"starvation.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:617
+msgid ""
+"<a class='sh_link' href='isolation.html'>Isolation In SQLite</a> <span "
+"class='desktoponly'>&rarr; When we say that SQLite transactions are "
+"\"serializable\" what exactly does that mean? How and when are changes made "
+"visible within the same database connection and to other database "
+"connections? </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:623
+msgid ""
+"<a class='sh_link' href='optoverview.html'>Overview Of The Optimizer</a> "
+"<span class='desktoponly'>&rarr; A quick overview of the various query "
+"optimizations that are attempted by the SQLite code generator.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:628
+msgid ""
+"<a class='sh_link' href='queryplanner-ng.html'>The Next-Generation Query "
+"Planner</a> <span class='desktoponly'>&rarr; Additional information about "
+"the SQLite query planner, and in particular the redesign of the query "
+"planner that occurred for version 3.8.0.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:633
+msgid ""
+"<a class='sh_link' href='arch.html'>Architecture</a> <span "
+"class='desktoponly'>&rarr; An architectural overview of the SQLite library, "
+"useful for those who want to hack the code.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:638
+msgid ""
+"<a class='sh_link' href='opcode.html'>VDBE Opcodes</a> <span "
+"class='desktoponly'>&rarr; This document is an automatically generated "
+"description of the various opcodes that the VDBE understands.  Programmers "
+"can use this document as a reference to better understand the output of "
+"EXPLAIN listings from SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:645
+msgid ""
+"<a class='sh_link' href='vfs.html'>Virtual Filesystem</a> <span "
+"class='desktoponly'>&rarr; The \"VFS\" object is the interface between the "
+"SQLite core and the underlying operating system.  Learn more about how the "
+"VFS object works and how to create new VFS objects from this article.  </"
+"span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:651
+msgid ""
+"<a class='sh_link' href='vtab.html'>Virtual Tables</a> <span "
+"class='desktoponly'>&rarr; This article describes the virtual table "
+"mechanism and API in SQLite and how it can be used to add new capabilities "
+"to the core SQLite library.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:656
+msgid ""
+"<a class='sh_link' href='fileformat2.html'>SQLite File Format</a> <span "
+"class='desktoponly'>&rarr; A description of the format used for SQLite "
+"database and journal files, and other details required to create software to "
+"read and write SQLite databases without using SQLite.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:662
+msgid ""
+"<a class='sh_link' href='compile.html'>Compilation Options</a> <span "
+"class='desktoponly'>&rarr; This document describes the compile time options "
+"that may be set to modify the default behavior of the library or omit "
+"optional features in order to reduce binary size.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:668
+msgid ""
+"<a class='sh_link' href='https://sqlite.org/android/'>Android Bindings for "
+"SQLite</a> <span class='desktoponly'>&rarr; A description of how to compile "
+"your own SQLite for Android (bypassing the SQLite that is built into "
+"Android) together with code and makefiles.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:674
+msgid ""
+"<a class='sh_link' href='debugging.html'>Debugging Hints</a> <span "
+"class='desktoponly'>&rarr; A list of tricks and techniques used to trace, "
+"examine, and understand the operation of the core SQLite library.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:680
+msgid ""
+"<a onclick='showhide(9)'><span class='sh_mark' id='sh_mark_9'>&#x25ba;</"
+"span> Upgrading SQLite, Backwards Compatibility</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li>
+#: sedout/docs.html:682
+msgid ""
+"<a class='sh_link' href='35to36.html'>Moving From SQLite 3.5 to 3.6</a> "
+"<span class='desktoponly'>&rarr; A document describing the differences "
+"between SQLite version 3.5.9 and 3.6.0.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li>
+#: sedout/docs.html:687
+msgid ""
+"<a class='sh_link' href='34to35.html'>Moving From SQLite 3.4 to 3.5</a> "
+"<span class='desktoponly'>&rarr; A document describing the differences "
+"between SQLite version 3.4.2 and 3.5.0.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:692
+msgid ""
+"<a class='sh_link' href='changes.html'>Release History</a> <span "
+"class='desktoponly'>&rarr; A chronology of SQLite releases going back to "
+"version 1.0.0 </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:696
+msgid ""
+"<a class='sh_link' href='formatchng.html'>Backwards Compatibility</a> <span "
+"class='desktoponly'>&rarr; This document details all of the incompatible "
+"changes to the SQLite file format that have occurred since version 1.0.0.  </"
+"span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:701
+msgid ""
+"<a class='sh_link' href='privatebranch.html'>Private Branches</a> <span "
+"class='desktoponly'>&rarr; This document suggests procedures for maintaining "
+"a private branch or fork of SQLite and keeping that branch or fork in sync "
+"with the public SQLite source tree.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li>
+#: sedout/docs.html:708
+msgid ""
+"<a onclick='showhide(10)'><span class='sh_mark' id='sh_mark_10'>&#x25ba;</"
+"span> Obsolete Documents</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li>
+#: sedout/docs.html:710
+msgid ""
+"<a class='sh_link' href='asyncvfs.html'>Asynchronous IO Mode</a> <span "
+"class='desktoponly'>&rarr; This page describes the asynchronous IO extension "
+"developed alongside SQLite. Using asynchronous IO can cause SQLite to appear "
+"more responsive by delegating database writes to a background thread.  "
+"<i>NB: This extension is deprecated.  [WAL mode] is recommended as a "
+"replacement.</i> </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li>
+#: sedout/docs.html:717
+msgid ""
+"<a class='sh_link' href='c_interface.html'>Version 2 C/C++ API</a> <span "
+"class='desktoponly'>&rarr; A description of the C/C++ interface bindings for "
+"SQLite through version 2.8 </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li>
+#: sedout/docs.html:722
+msgid ""
+"<a class='sh_link' href='datatypes.html'>Version 2 DataTypes </a> <span "
+"class='desktoponly'>&rarr; A description of how SQLite version 2 handles SQL "
+"datatypes.  Short summary: Everything is a string.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li>
+#: sedout/docs.html:727
+msgid ""
+"<a class='sh_link' href='vdbe.html'>VDBE Tutorial</a> <span "
+"class='desktoponly'>&rarr; The VDBE is the subsystem within SQLite that does "
+"the actual work of executing SQL statements.  This page describes the "
+"principles of operation for the VDBE in SQLite version 2.7.  This is "
+"essential reading for anyone who want to modify the SQLite sources.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li>
+#: sedout/docs.html:734
+msgid ""
+"<a class='sh_link' href='version3.html'>SQLite Version 3</a> <span "
+"class='desktoponly'>&rarr; A summary of the changes between SQLite version "
+"2.8 and SQLite version 3.0.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li>
+#: sedout/docs.html:738
+msgid ""
+"<a class='sh_link' href='capi3.html'>Version 3 C/C++ API</a> <span "
+"class='desktoponly'>&rarr; A summary of the API related changes between "
+"SQLite version 2.8 and SQLite version 3.0.  </span>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li>
+#: sedout/docs.html:743
+msgid ""
+"<a class='sh_link' href='speed.html'>Speed Comparison</a> <span "
+"class='desktoponly'>&rarr; The speed of version 2.7.6 of SQLite is compared "
+"against PostgreSQL and MySQL.  </span>"
+msgstr ""

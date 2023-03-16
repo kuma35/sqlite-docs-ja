@@ -1,0 +1,506 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/vfs.html:6 sedout/c3ref/vfs.html:121
+msgid "OS Interface Object"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/vfs.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/vfs.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/vfs.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/vfs.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/vfs.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/vfs.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/vfs.html:22 sedout/c3ref/vfs.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/vfs.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/vfs.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/vfs.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/vfs.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/vfs.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/vfs.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/vfs.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/vfs.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/vfs.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/vfs.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/vfs.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/vfs.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/vfs.html:124
+#, no-wrap
+msgid ""
+"typedef struct sqlite3_vfs sqlite3_vfs;\n"
+"typedef void (*sqlite3_syscall_ptr)(void);\n"
+"struct sqlite3_vfs {\n"
+"  int iVersion;            /* Structure version number (currently 3) */\n"
+"  int szOsFile;            /* Size of subclassed sqlite3_file */\n"
+"  int mxPathname;          /* Maximum file pathname length */\n"
+"  sqlite3_vfs *pNext;      /* Next registered VFS */\n"
+"  const char *zName;       /* Name of this virtual file system */\n"
+"  void *pAppData;          /* Pointer to application-specific data */\n"
+"  int (*xOpen)(sqlite3_vfs*, sqlite3_filename zName, sqlite3_file*,\n"
+"               int flags, int *pOutFlags);\n"
+"  int (*xDelete)(sqlite3_vfs*, const char *zName, int syncDir);\n"
+"  int (*xAccess)(sqlite3_vfs*, const char *zName, int flags, int "
+"*pResOut);\n"
+"  int (*xFullPathname)(sqlite3_vfs*, const char *zName, int nOut, char "
+"*zOut);\n"
+"  void *(*xDlOpen)(sqlite3_vfs*, const char *zFilename);\n"
+"  void (*xDlError)(sqlite3_vfs*, int nByte, char *zErrMsg);\n"
+"  void (*(*xDlSym)(sqlite3_vfs*,void*, const char *zSymbol))(void);\n"
+"  void (*xDlClose)(sqlite3_vfs*, void*);\n"
+"  int (*xRandomness)(sqlite3_vfs*, int nByte, char *zOut);\n"
+"  int (*xSleep)(sqlite3_vfs*, int microseconds);\n"
+"  int (*xCurrentTime)(sqlite3_vfs*, double*);\n"
+"  int (*xGetLastError)(sqlite3_vfs*, int, char *);\n"
+"  /*\n"
+"  ** The methods above are in version 1 of the sqlite_vfs object\n"
+"  ** definition.  Those that follow are added in version 2 or later\n"
+"  */\n"
+"  int (*xCurrentTimeInt64)(sqlite3_vfs*, sqlite3_int64*);\n"
+"  /*\n"
+"  ** The methods above are in versions 1 and 2 of the sqlite_vfs object.\n"
+"  ** Those below are for version 3 and greater.\n"
+"  */\n"
+"  int (*xSetSystemCall)(sqlite3_vfs*, const char *zName, "
+"sqlite3_syscall_ptr);\n"
+"  sqlite3_syscall_ptr (*xGetSystemCall)(sqlite3_vfs*, const char *zName);\n"
+"  const char *(*xNextSystemCall)(sqlite3_vfs*, const char *zName);\n"
+"  /*\n"
+"  ** The methods above are in versions 1 through 3 of the sqlite_vfs "
+"object.\n"
+"  ** New fields may be appended in future versions.  The iVersion\n"
+"  ** value will increment whenever this happens.\n"
+"  */\n"
+"};\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:166
+msgid ""
+"An instance of the sqlite3_vfs object defines the interface between the "
+"SQLite core and the underlying operating system.  The \"vfs\" in the name of "
+"the object stands for \"virtual file system\".  See the <a "
+"href=\"../vfs.html\">VFS documentation</a> for further information."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:171
+msgid ""
+"The VFS interface is sometimes extended by adding new methods onto the end.  "
+"Each time such an extension occurs, the iVersion field is incremented.  The "
+"iVersion value started out as 1 in SQLite <a "
+"href=\"../releaselog/3_5_0.html\">version 3.5.0</a> on 2007-09-04, then "
+"increased to 2 with SQLite <a href=\"../releaselog/3_7_0.html\">version "
+"3.7.0</a> on 2010-07-21, and then increased to 3 with SQLite <a "
+"href=\"../releaselog/3_7_6.html\">version 3.7.6</a> on 2011-04-12.  "
+"Additional fields may be appended to the sqlite3_vfs object and the iVersion "
+"value may increase again in future versions of SQLite.  Note that due to an "
+"oversight, the structure of the sqlite3_vfs object changed in the transition "
+"from SQLite <a href=\"../releaselog/3_5_9.html\">version 3.5.9</a> to <a "
+"href=\"../releaselog/3_6_0.html\">version 3.6.0</a> on 2008-07-16 and yet "
+"the iVersion field was not increased."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:184
+msgid ""
+"The szOsFile field is the size of the subclassed <a "
+"href=\"../c3ref/file.html\">sqlite3_file</a> structure used by this VFS.  "
+"mxPathname is the maximum length of a pathname in this VFS."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:188
+msgid ""
+"Registered sqlite3_vfs objects are kept on a linked list formed by the pNext "
+"pointer.  The <a href=\"../c3ref/vfs_find.html\">sqlite3_vfs_register()</a> "
+"and <a href=\"../c3ref/vfs_find.html\">sqlite3_vfs_unregister()</a> "
+"interfaces manage this list in a thread-safe way.  The <a "
+"href=\"../c3ref/vfs_find.html\">sqlite3_vfs_find()</a> interface searches "
+"the list.  Neither the application code nor the VFS implementation should "
+"use the pNext pointer."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:195
+msgid ""
+"The pNext field is the only field in the sqlite3_vfs structure that SQLite "
+"will ever modify.  SQLite will only access or modify this field while "
+"holding a particular static mutex.  The application should never modify "
+"anything within the sqlite3_vfs object once the object has been registered."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:201
+msgid ""
+"The zName field holds the name of the VFS module.  The name must be unique "
+"across all VFS modules."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:204
+msgid ""
+"<a name=\"sqlite3vfsxopen\"></a> SQLite guarantees that the zFilename "
+"parameter to xOpen is either a NULL pointer or string obtained from "
+"xFullPathname() with an optional suffix added.  If a suffix is added to the "
+"zFilename parameter, it will consist of a single \"-\" character followed by "
+"no more than 11 alphanumeric and/or \"-\" characters.  SQLite further "
+"guarantees that the string will be valid and unchanged until xClose() is "
+"called. Because of the previous sentence, the <a "
+"href=\"../c3ref/file.html\">sqlite3_file</a> can safely store a pointer to "
+"the filename if it needs to remember the filename for some reason.  If the "
+"zFilename parameter to xOpen is a NULL pointer then xOpen must invent its "
+"own temporary name for the file.  Whenever the xFilename parameter is NULL "
+"it will also be the case that the flags parameter will include <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_DELETEONCLOSE</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:222
+msgid ""
+"The flags argument to xOpen() includes all bits set in the flags argument to "
+"<a href=\"../c3ref/open.html\">sqlite3_open_v2()</a>.  Or if <a "
+"href=\"../c3ref/open.html\">sqlite3_open()</a> or <a "
+"href=\"../c3ref/open.html\">sqlite3_open16()</a> is used, then flags "
+"includes at least <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_READWRITE</a> | <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_CREATE</a>.  If xOpen() "
+"opens a file read-only then it sets *pOutFlags to include <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_READONLY</a>.  Other "
+"bits in *pOutFlags may be set."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:229
+msgid ""
+"SQLite will also add one of the following flags to the xOpen()  call, "
+"depending on the object being opened:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/vfs.html:233
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_MAIN_DB</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/c3ref/vfs.html:234
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_MAIN_JOURNAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li>
+#: sedout/c3ref/vfs.html:235
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_TEMP_DB</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li>
+#: sedout/c3ref/vfs.html:236
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_TEMP_JOURNAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:237
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_TRANSIENT_DB</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:238
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_SUBJOURNAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:239
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_SUPER_JOURNAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/vfs.html:240
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_WAL</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:243
+msgid ""
+"The file I/O implementation can use the object type flags to change the way "
+"it deals with files.  For example, an application that does not care about "
+"crash recovery or rollback might make the open of a journal file a no-op.  "
+"Writes to this journal would also be no-ops, and any attempt to read the "
+"journal would return SQLITE_IOERR.  Or the implementation might recognize "
+"that a database file will be doing page-aligned sector reads and writes in a "
+"random order and set up its I/O subsystem accordingly."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:252
+msgid "SQLite might also add one of the following flags to the xOpen method:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/c3ref/vfs.html:255
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_DELETEONCLOSE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li><li>
+#: sedout/c3ref/vfs.html:256
+msgid "<a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_EXCLUSIVE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:259
+msgid ""
+"The <a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_DELETEONCLOSE</a> "
+"flag means the file should be deleted when it is closed.  The <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_DELETEONCLOSE</a> will "
+"be set for TEMP databases and their journals, transient databases, and "
+"subjournals."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:264
+msgid ""
+"The <a href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_EXCLUSIVE</a> "
+"flag is always used in conjunction with the <a "
+"href=\"../c3ref/c_open_autoproxy.html\">SQLITE_OPEN_CREATE</a> flag, which "
+"are both directly analogous to the O_EXCL and O_CREAT flags of the POSIX "
+"open()  API.  The SQLITE_OPEN_EXCLUSIVE flag, when paired with the "
+"SQLITE_OPEN_CREATE, is used to indicate that file should always be created, "
+"and that it is an error if it already exists.  It is <i>not</i> used to "
+"indicate the file should be opened for exclusive access."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:273
+msgid ""
+"At least szOsFile bytes of memory are allocated by SQLite to hold the <a "
+"href=\"../c3ref/file.html\">sqlite3_file</a> structure passed as the third "
+"argument to xOpen.  The xOpen method does not have to allocate the "
+"structure; it should just fill it in.  Note that the xOpen method must set "
+"the sqlite3_file.pMethods to either a valid <a "
+"href=\"../c3ref/io_methods.html\">sqlite3_io_methods</a> object or to NULL.  "
+"xOpen must do this even if the open fails.  SQLite expects that the "
+"sqlite3_file.pMethods element will be valid after xOpen returns regardless "
+"of the success or failure of the xOpen call."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:283
+msgid ""
+"<a name=\"sqlite3vfsxaccess\"></a> The flags argument to xAccess() may be <a "
+"href=\"../c3ref/c_access_exists.html\">SQLITE_ACCESS_EXISTS</a> to test for "
+"the existence of a file, or <a "
+"href=\"../c3ref/c_access_exists.html\">SQLITE_ACCESS_READWRITE</a> to test "
+"whether a file is readable and writable, or <a "
+"href=\"../c3ref/c_access_exists.html\">SQLITE_ACCESS_READ</a> to test "
+"whether a file is at least readable.  The SQLITE_ACCESS_READ flag is never "
+"actually used and is not implemented in the built-in VFSes of SQLite.  The "
+"file is named by the second argument and can be a directory. The xAccess "
+"method returns <a href=\"../rescode.html#ok\">SQLITE_OK</a> on success or "
+"some non-zero error code if there is an I/O error or if the name of the file "
+"given in the second argument is illegal.  If SQLITE_OK is returned, then "
+"non-zero or zero is written into *pResOut to indicate whether or not the "
+"file is accessible."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:297
+msgid ""
+"SQLite will always allocate at least mxPathname+1 bytes for the output "
+"buffer xFullPathname.  The exact size of the output buffer is also passed as "
+"a parameter to both methods. If the output buffer is not large enough, <a "
+"href=\"../rescode.html#cantopen\">SQLITE_CANTOPEN</a> should be "
+"returned. Since this is handled as a fatal error by SQLite, vfs "
+"implementations should endeavor to prevent this by setting mxPathname to a "
+"sufficiently large value."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:304
+msgid ""
+"The xRandomness(), xSleep(), xCurrentTime(), and xCurrentTimeInt64()  "
+"interfaces are not strictly a part of the filesystem, but they are included "
+"in the VFS structure for completeness.  The xRandomness() function attempts "
+"to return nBytes bytes of good-quality randomness into zOut.  The return "
+"value is the actual number of bytes of randomness obtained.  The xSleep() "
+"method causes the calling thread to sleep for at least the number of "
+"microseconds given.  The xCurrentTime()  method returns a Julian Day Number "
+"for the current date and time as a floating point value.  The "
+"xCurrentTimeInt64() method returns, as an integer, the Julian Day Number "
+"multiplied by 86400000 (the number of milliseconds in a 24-hour day).  "
+"SQLite will use the xCurrentTimeInt64() method to get the current date and "
+"time if that method is available (if iVersion is 2 or greater and the "
+"function pointer is not NULL) and will fall back to xCurrentTime() if "
+"xCurrentTimeInt64() is unavailable."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:322
+msgid ""
+"The xSetSystemCall(), xGetSystemCall(), and xNestSystemCall() interfaces are "
+"not used by the SQLite core.  These optional interfaces are provided by some "
+"VFSes to facilitate testing of the VFS code. By overriding system calls with "
+"functions under its control, a test program can simulate faults and error "
+"conditions that would otherwise be difficult or impossible to induce.  The "
+"set of system calls that can be overridden varies from one VFS to another, "
+"and from one version of the same VFS to the next.  Applications that use "
+"these interfaces must be prepared for any or all of these interfaces to be "
+"NULL or for their behavior to change from one release to the next.  "
+"Applications must not attempt to access any of these methods if the iVersion "
+"of the VFS is less than 3."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/vfs.html:333
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

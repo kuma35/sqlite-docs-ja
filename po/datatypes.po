@@ -1,0 +1,495 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 04:04+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/datatypes.html:6
+msgid "Datatypes In SQLite version 2"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/datatypes.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/datatypes.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/datatypes.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/datatypes.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/datatypes.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/datatypes.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/datatypes.html:22 sedout/datatypes.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/datatypes.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/datatypes.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/datatypes.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/datatypes.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/datatypes.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/datatypes.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/datatypes.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/datatypes.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/datatypes.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/datatypes.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/datatypes.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/datatypes.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/datatypes.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/datatypes.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/datatypes.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/datatypes.html:120
+msgid "Datatypes In SQLite Version 2"
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/datatypes.html:122
+msgid "1.0 &nbsp; Typelessness"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:124
+msgid ""
+"SQLite is \"typeless\".  This means that you can store any kind of data you "
+"want in any column of any table, regardless of the declared datatype of that "
+"column.  (See the one exception to this rule in section 2.0 below.)  This "
+"behavior is a feature, not a bug.  A database is supposed to store and "
+"retrieve data and it should not matter to the database what format that data "
+"is in.  The strong typing system found in most other SQL engines and "
+"codified in the SQL language spec is a misfeature - it is an example of the "
+"implementation showing through into the interface.  SQLite seeks to overcome "
+"this misfeature by allowing you to store any kind of data into any kind of "
+"column and by allowing flexibility in the specification of datatypes."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:140
+msgid ""
+"A datatype to SQLite is any sequence of zero or more names optionally "
+"followed by a parenthesized lists of one or two signed integers.  Notice in "
+"particular that a datatype may be <em>zero</em> or more names.  That means "
+"that an empty string is a valid datatype as far as SQLite is concerned.  So "
+"you can declare tables where the datatype of each column is left "
+"unspecified, like this:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/datatypes.html:150
+#, no-wrap
+msgid "CREATE TABLE ex1(a,b,c);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:154
+msgid ""
+"Even though SQLite allows the datatype to be omitted, it is still a good "
+"idea to include it in your CREATE TABLE statements, since the data type "
+"often serves as a good hint to other programmers about what you intend to "
+"put in the column. And if you ever port your code to another database "
+"engine, that other engine will probably require a datatype of some kind.  "
+"SQLite accepts all the usual datatypes.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/datatypes.html:164
+#, no-wrap
+msgid ""
+"CREATE TABLE ex2(\n"
+"  a VARCHAR(10),\n"
+"  b NVARCHAR(15),\n"
+"  c TEXT,\n"
+"  d INTEGER,\n"
+"  e FLOAT,\n"
+"  f BOOLEAN,\n"
+"  g CLOB,\n"
+"  h BLOB,\n"
+"  i TIMESTAMP,\n"
+"  j NUMERIC(10,5)\n"
+"  k VARYING CHARACTER (24),\n"
+"  l NATIONAL VARYING CHARACTER(16)\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:181
+msgid ""
+"And so forth.  Basically any sequence of names optionally followed by one or "
+"two signed integers in parentheses will do."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/datatypes.html:185
+msgid "2.0 &nbsp; The INTEGER PRIMARY KEY"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:188
+msgid ""
+"One exception to the typelessness of SQLite is a column whose type is "
+"INTEGER PRIMARY KEY.  (And you must use \"INTEGER\" not \"INT\".  A column "
+"of type INT PRIMARY KEY is typeless just like any other.)  INTEGER PRIMARY "
+"KEY columns must contain a 32-bit signed integer.  Any attempt to insert "
+"non-integer data will result in an error."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:196
+msgid ""
+"INTEGER PRIMARY KEY columns can be used to implement the equivalent of "
+"AUTOINCREMENT.  If you try to insert a NULL into an INTEGER PRIMARY KEY "
+"column, the column will actually be filled with an integer that is one "
+"greater than the largest key already in the table.  Or if the largest key is "
+"2147483647, then the column will be filled with a random integer.  Either "
+"way, the INTEGER PRIMARY KEY column will be assigned a unique integer.  You "
+"can retrieve this integer using the <b>sqlite_last_insert_rowid()</b> API "
+"function or using the <b>last_insert_rowid()</b> SQL function in a "
+"subsequent SELECT statement."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/datatypes.html:207
+msgid "3.0 &nbsp; Comparison and Sort Order"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:210
+msgid ""
+"SQLite is typeless for the purpose of deciding what data is allowed to be "
+"stored in a column.  But some notion of type comes into play when sorting "
+"and comparing data.  For these purposes, a column or an expression can be "
+"one of two types: <b>numeric</b> and <b>text</b>.  The sort or comparison "
+"may give different results depending on which type of data is being sorted "
+"or compared."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:219
+msgid ""
+"If data is of type <b>text</b> then the comparison is determined by the "
+"standard C data comparison functions <b>memcmp()</b> or <b>strcmp()</b>.  "
+"The comparison looks at bytes from two inputs one by one and returns the "
+"first non-zero difference.  Strings are '\\000' terminated so shorter "
+"strings sort before longer strings, as you would expect."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:228
+msgid ""
+"For numeric data, this situation is more complex.  If both inputs look like "
+"well-formed numbers, then they are converted into floating point values "
+"using <b>atof()</b> and compared numerically.  If one input is not a "
+"well-formed number but the other is, then the number is considered to be "
+"less than the non-number.  If neither inputs is a well-formed number, then "
+"<b>strcmp()</b> is used to do the comparison."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:238
+msgid ""
+"Do not be confused by the fact that a column might have a \"numeric\" "
+"datatype.  This does not mean that the column can contain only numbers.  It "
+"merely means that if the column does contain a number, that number will sort "
+"in numerical order."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:245
+msgid ""
+"For both text and numeric values, NULL sorts before any other value.  A "
+"comparison of any value against NULL using operators like \"&lt;\" or "
+"\"&gt;=\" is always false."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/datatypes.html:250
+msgid "4.0 &nbsp; How SQLite Determines Datatypes"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:253
+msgid ""
+"For SQLite version 2.6.3 and earlier, all values used the numeric datatype.  "
+"The text datatype appears in version 2.7.0 and later.  In the sequel it is "
+"assumed that you are using version 2.7.0 or later of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:259
+msgid ""
+"For an expression, the datatype of the result is often determined by the "
+"outermost operator.  For example, arithmetic operators (\"+\", \"*\", \"%\")  "
+"always return a numeric results.  The string concatenation operator (\"||\") "
+"returns a text result.  And so forth.  If you are ever in doubt about the "
+"datatype of an expression you can use the special <b>typeof()</b> SQL "
+"function to determine what the datatype is.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/datatypes.html:268
+#, no-wrap
+msgid ""
+"sqlite&gt; SELECT typeof('abc'+123);\n"
+"numeric\n"
+"sqlite&gt; SELECT typeof('abc'||123);\n"
+"text\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:275
+msgid ""
+"For table columns, the datatype is determined by the type declaration of the "
+"CREATE TABLE statement.  The datatype is text if and only if the type "
+"declaration contains one or more of the following strings:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/datatypes.html:281
+msgid "BLOB"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/datatypes.html:282
+msgid "CHAR"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/datatypes.html:283
+msgid "CLOB"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/datatypes.html:284
+msgid "TEXT"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:288
+msgid ""
+"The search for these strings in the type declaration is case insensitive, of "
+"course.  If any of the above strings occur anywhere in the type declaration, "
+"then the datatype of the column is text.  Notice that the type \"VARCHAR\" "
+"contains \"CHAR\" as a substring so it is considered text."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:294
+msgid ""
+"If none of the strings above occur anywhere in the type declaration, then "
+"the datatype is numeric.  Note in particular that the datatype for columns "
+"with an empty type declaration is numeric."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/datatypes.html:299
+msgid "5.0 &nbsp; Examples"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:302
+msgid "Consider the following two command sequences:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/datatypes.html:306
+#, no-wrap
+msgid ""
+"CREATE TABLE t1(a INTEGER UNIQUE);        CREATE TABLE t2(b TEXT UNIQUE);\n"
+"INSERT INTO t1 VALUES('0');               INSERT INTO t2 VALUES(0);\n"
+"INSERT INTO t1 VALUES('0.0');             INSERT INTO t2 VALUES(0.0);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:311
+msgid ""
+"In the sequence on the left, the second insert will fail.  In this case, the "
+"strings '0' and '0.0' are treated as numbers since they are being inserted "
+"into a numeric column but 0==0.0 which violates the uniqueness constraint.  "
+"However, the second insert in the right-hand sequence works.  In this case, "
+"the constants 0 and 0.0 are treated a strings which means that they are "
+"distinct."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:318
+msgid ""
+"SQLite always converts numbers into double-precision (64-bit) floats for "
+"comparison purposes.  This means that a long sequence of digits that differ "
+"only in insignificant digits will compare equal if they are in a numeric "
+"column but will compare unequal if they are in a text column.  We have:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/datatypes.html:325
+#, no-wrap
+msgid ""
+"INSERT INTO t1                            INSERT INTO t2\n"
+"   VALUES('12345678901234567890');           VALUES(12345678901234567890);\n"
+"INSERT INTO t1                            INSERT INTO t2\n"
+"   VALUES('12345678901234567891');           VALUES(12345678901234567891);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:331
+msgid ""
+"As before, the second insert on the left will fail because the comparison "
+"will convert both strings into floating-point number first and the only "
+"difference in the strings is in the 20-th digit which exceeds the resolution "
+"of a 64-bit float.  In contrast, the second insert on the right will work "
+"because in that case, the numbers being inserted are strings and are "
+"compared using memcmp()."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:339
+msgid "Numeric and text types make a difference for the DISTINCT keyword too:"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/datatypes.html:343
+#, no-wrap
+msgid ""
+"CREATE TABLE t3(a INTEGER);               CREATE TABLE t4(b TEXT);\n"
+"INSERT INTO t3 VALUES('0');               INSERT INTO t4 VALUES(0);\n"
+"INSERT INTO t3 VALUES('0.0');             INSERT INTO t4 VALUES(0.0);\n"
+"SELECT DISTINCT * FROM t3;                SELECT DISTINCT * FROM t4;\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:350
+msgid ""
+"The SELECT statement on the left returns a single row since '0' and '0.0' "
+"are treated as numbers and are therefore indistinct.  But the SELECT "
+"statement on the right returns two rows since 0 and 0.0 are treated a "
+"strings which are different."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/datatypes.html:354
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/datatypes.in?m=52a7afb2f5\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

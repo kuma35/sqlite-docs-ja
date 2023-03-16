@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 19:42+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/blob_open.html:6 sedout/c3ref/blob_open.html:121
+msgid "Open A BLOB For Incremental I/O"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/blob_open.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/blob_open.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/blob_open.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/blob_open.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/blob_open.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/blob_open.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/blob_open.html:22 sedout/c3ref/blob_open.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/blob_open.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/blob_open.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/blob_open.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/blob_open.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/blob_open.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/blob_open.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/blob_open.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/blob_open.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/blob_open.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/blob_open.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/blob_open.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/blob_open.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/blob_open.html:124
+#, no-wrap
+msgid ""
+"int sqlite3_blob_open(\n"
+"  sqlite3*,\n"
+"  const char *zDb,\n"
+"  const char *zTable,\n"
+"  const char *zColumn,\n"
+"  sqlite3_int64 iRow,\n"
+"  int flags,\n"
+"  sqlite3_blob **ppBlob\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/blob_open.html:135
+msgid ""
+"This interfaces opens a <a href=\"../c3ref/blob.html\">handle</a> to the "
+"BLOB located in row iRow, column zColumn, table zTable in database zDb; in "
+"other words, the same BLOB that would be selected by:"
+msgstr ""
+
+#. type: Content of: <html><body><p><pre>
+#: sedout/c3ref/blob_open.html:140
+#, no-wrap
+msgid ""
+"SELECT zColumn FROM zDb.zTable WHERE <a "
+"href=\"../lang_createtable.html#rowid\">rowid</a> = iRow;\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/blob_open.html:143
+msgid ""
+"Parameter zDb is not the filename that contains the database, but rather the "
+"symbolic name of the database. For attached databases, this is the name that "
+"appears after the AS keyword in the <a "
+"href=\"../lang_attach.html\">ATTACH</a> statement.  For the main database "
+"file, the database name is \"main\". For TEMP tables, the database name is "
+"\"temp\"."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/blob_open.html:149
+msgid ""
+"If the flags parameter is non-zero, then the BLOB is opened for read and "
+"write access. If the flags parameter is zero, the BLOB is opened for "
+"read-only access."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/blob_open.html:153
+msgid ""
+"On success, <a href=\"../rescode.html#ok\">SQLITE_OK</a> is returned and the "
+"new <a href=\"../c3ref/blob.html\">BLOB handle</a> is stored in "
+"*ppBlob. Otherwise an <a href=\"../rescode.html\">error code</a> is returned "
+"and, unless the error code is SQLITE_MISUSE, *ppBlob is set to NULL. This "
+"means that, provided the API is not misused, it is always safe to call <a "
+"href=\"../c3ref/blob_close.html\">sqlite3_blob_close()</a> on *ppBlob after "
+"this function it returns."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/blob_open.html:159
+msgid "This function fails with SQLITE_ERROR if any of the following are true:"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/c3ref/blob_open.html:161
+msgid "Database zDb does not exist,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li>
+#: sedout/c3ref/blob_open.html:162
+msgid "Table zTable does not exist within database zDb,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li>
+#: sedout/c3ref/blob_open.html:163
+msgid "Table zTable is a WITHOUT ROWID table,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li>
+#: sedout/c3ref/blob_open.html:164
+msgid "Column zColumn does not exist,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:165
+msgid "Row iRow is not present in the table,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:166
+msgid ""
+"The specified column of row iRow contains a value that is not a TEXT or BLOB "
+"value,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:168
+msgid ""
+"Column zColumn is part of an index, PRIMARY KEY or UNIQUE constraint and the "
+"blob is being opened for read/write access,"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/blob_open.html:170
+msgid ""
+"<a href=\"../foreignkeys.html\">Foreign key constraints</a> are enabled, "
+"column zColumn is part of a <a "
+"href=\"../foreignkeys.html#parentchild\">child key</a> definition and the "
+"blob is being opened for read/write access."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:175
+msgid ""
+"Unless it returns SQLITE_MISUSE, this function sets the <a "
+"href=\"../c3ref/sqlite3.html\">database connection</a> error code and "
+"message accessible via <a "
+"href=\"../c3ref/errcode.html\">sqlite3_errcode()</a> and <a "
+"href=\"../c3ref/errcode.html\">sqlite3_errmsg()</a> and related functions."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:179
+msgid ""
+"A BLOB referenced by sqlite3_blob_open() may be read using the <a "
+"href=\"../c3ref/blob_read.html\">sqlite3_blob_read()</a> interface and "
+"modified by using <a "
+"href=\"../c3ref/blob_write.html\">sqlite3_blob_write()</a>.  The <a "
+"href=\"../c3ref/blob.html\">BLOB handle</a> can be moved to a different row "
+"of the same table using the <a "
+"href=\"../c3ref/blob_reopen.html\">sqlite3_blob_reopen()</a> interface.  "
+"However, the column, table, or database of a <a "
+"href=\"../c3ref/blob.html\">BLOB handle</a> cannot be changed after the <a "
+"href=\"../c3ref/blob.html\">BLOB handle</a> is opened."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:186
+msgid ""
+"If the row that a BLOB handle points to is modified by an <a "
+"href=\"../lang_update.html\">UPDATE</a>, <a "
+"href=\"../lang_delete.html\">DELETE</a>, or by <a "
+"href=\"../lang_conflict.html\">ON CONFLICT</a> side-effects then the BLOB "
+"handle is marked as \"expired\".  This is true if any column of the row is "
+"changed, even a column other than the one the BLOB handle is open on.  Calls "
+"to <a href=\"../c3ref/blob_read.html\">sqlite3_blob_read()</a> and <a "
+"href=\"../c3ref/blob_write.html\">sqlite3_blob_write()</a> for an expired "
+"BLOB handle fail with a return code of <a "
+"href=\"../rescode.html#abort\">SQLITE_ABORT</a>.  Changes written into a "
+"BLOB prior to the BLOB expiring are not rolled back by the expiration of the "
+"BLOB.  Such changes will eventually commit if the transaction continues to "
+"completion."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:197
+msgid ""
+"Use the <a href=\"../c3ref/blob_bytes.html\">sqlite3_blob_bytes()</a> "
+"interface to determine the size of the opened blob.  The size of a blob may "
+"not be changed by this interface.  Use the <a "
+"href=\"../lang_update.html\">UPDATE</a> SQL command to change the size of a "
+"blob."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:202
+msgid ""
+"The <a href=\"../c3ref/bind_blob.html\">sqlite3_bind_zeroblob()</a> and <a "
+"href=\"../c3ref/result_blob.html\">sqlite3_result_zeroblob()</a> interfaces "
+"and the built-in <a href=\"../lang_corefunc.html#zeroblob\">zeroblob</a> SQL "
+"function may be used to create a zero-filled blob to read or write using the "
+"incremental-blob interface."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:206
+msgid ""
+"To avoid a resource leak, every open <a href=\"../c3ref/blob.html\">BLOB "
+"handle</a> should eventually be released by a call to <a "
+"href=\"../c3ref/blob_close.html\">sqlite3_blob_close()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:209
+msgid ""
+"See also: <a href=\"../c3ref/blob_close.html\">sqlite3_blob_close()</a>, <a "
+"href=\"../c3ref/blob_reopen.html\">sqlite3_blob_reopen()</a>, <a "
+"href=\"../c3ref/blob_read.html\">sqlite3_blob_read()</a>, <a "
+"href=\"../c3ref/blob_bytes.html\">sqlite3_blob_bytes()</a>, <a "
+"href=\"../c3ref/blob_write.html\">sqlite3_blob_write()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c3ref/blob_open.html:212
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

@@ -1,0 +1,1276 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><head><meta><meta><link><title>
+#: sedout/speed.html:6
+msgid "SQLite Database Speed Comparison"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/speed.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/speed.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/speed.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/speed.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/speed.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/speed.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/speed.html:22 sedout/speed.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/speed.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/speed.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/speed.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/speed.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/speed.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/speed.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/speed.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/speed.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/speed.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/speed.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/speed.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/speed.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/speed.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/speed.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/speed.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><h2>
+#: sedout/speed.html:120
+msgid "Database Speed Comparison"
+msgstr ""
+
+#. type: Content of: <html><body><font><b>
+#: sedout/speed.html:122
+msgid ""
+"<b> Note: This document is very very old.  It describes a speed comparison "
+"between archaic versions of SQLite, MySQL and PostgreSQL."
+msgstr ""
+
+#. type: Content of: <html><body><font><b><p>
+#: sedout/speed.html:126
+msgid ""
+"The numbers here have become meaningless.  This page has been retained only "
+"as an historical artifact."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:130
+msgid "Executive Summary"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:132
+msgid ""
+"A series of tests were run to measure the relative performance of SQLite "
+"2.7.6, PostgreSQL 7.1.3, and MySQL 3.23.41.  The following are general "
+"conclusions drawn from these experiments:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/speed.html:140
+msgid ""
+"SQLite 2.7.6 is significantly faster (sometimes as much as 10 or 20 times "
+"faster) than the default PostgreSQL 7.1.3 installation on RedHat 7.2 for "
+"most common operations."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/speed.html:145
+msgid ""
+"SQLite 2.7.6 is often faster (sometimes more than twice as fast) than MySQL "
+"3.23.41 for most common operations."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/speed.html:150
+msgid ""
+"SQLite does not execute CREATE INDEX or DROP TABLE as fast as the other "
+"databases.  But this is not seen as a problem because those are infrequent "
+"operations."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/speed.html:155
+msgid ""
+"SQLite works best if you group multiple operations together into a single "
+"transaction."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:161
+msgid "The results presented here come with the following caveats:"
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/speed.html:166
+msgid ""
+"These tests did not attempt to measure multi-user performance or "
+"optimization of complex queries involving multiple joins and subqueries."
+msgstr ""
+
+#. type: Content of: <html><body><ul><li>
+#: sedout/speed.html:170
+msgid ""
+"These tests are on a relatively small (approximately 14 megabyte) database.  "
+"They do not measure how well the database engines scale to larger problems."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:175
+msgid "Test Environment"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:178
+msgid ""
+"The platform used for these tests is a 1.6GHz Athlon with 1GB or memory and "
+"an IDE disk drive.  The operating system is RedHat Linux 7.2 with a stock "
+"kernel."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:184
+msgid ""
+"The PostgreSQL and MySQL servers used were as delivered by default on RedHat "
+"7.2.  (PostgreSQL version 7.1.3 and MySQL version 3.23.41.)  No effort was "
+"made to tune these engines.  Note in particular the default MySQL "
+"configuration on RedHat 7.2 does not support transactions.  Not having to "
+"support transactions gives MySQL a big speed advantage, but SQLite is still "
+"able to hold its own on most tests."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:194
+msgid ""
+"I am told that the default PostgreSQL configuration in RedHat 7.3 is "
+"unnecessarily conservative (it is designed to work on a machine with 8MB of "
+"RAM) and that PostgreSQL could be made to run a lot faster with some "
+"knowledgeable configuration tuning.  Matt Sergeant reports that he has tuned "
+"his PostgreSQL installation and rerun the tests shown below.  His results "
+"show that PostgreSQL and MySQL run at about the same speed.  For Matt's "
+"results, visit"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:206
+msgid "Obsolete URL: http://www.sergeant.org/sqlite_vs_pgsync.html"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:210
+msgid ""
+"SQLite was tested in the same configuration that it appears on the website.  "
+"It was compiled with -O6 optimization and with the -DNDEBUG=1 switch which "
+"disables the many \"assert()\" statements in the SQLite code.  The "
+"-DNDEBUG=1 compiler option roughly doubles the speed of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:218
+msgid ""
+"All tests are conducted on an otherwise quiescent machine.  A simple Tcl "
+"script was used to generate and run all the tests.  A copy of this Tcl "
+"script can be found in the SQLite source tree in the file "
+"<b>tools/speedtest.tcl</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:225
+msgid ""
+"The times reported on all tests represent wall-clock time in seconds.  Two "
+"separate time values are reported for SQLite.  The first value is for SQLite "
+"in its default configuration with full disk synchronization turned on.  With "
+"synchronization turned on, SQLite executes an <b>fsync()</b> system call (or "
+"the equivalent) at key points to make certain that critical data has "
+"actually been written to the disk drive surface.  Synchronization is "
+"necessary to guarantee the integrity of the database if the operating system "
+"crashes or the computer powers down unexpectedly in the middle of a database "
+"update.  The second time reported for SQLite is when synchronization is "
+"turned off.  With synchronization off, SQLite is sometimes much faster, but "
+"there is a risk that an operating system crash or an unexpected power "
+"failure could damage the database.  Generally speaking, the synchronous "
+"SQLite times are for comparison against PostgreSQL (which is also "
+"synchronous) and the asynchronous SQLite times are for comparison against "
+"the asynchronous MySQL engine."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:245
+msgid "Test 1: 1000 INSERTs"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:247
+msgid "CREATE TABLE t1(a INTEGER, b INTEGER, c VARCHAR(100));"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:248
+msgid "INSERT INTO t1 VALUES(1,13153,'thirteen thousand one hundred fifty three');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:249
+msgid "INSERT INTO t1 VALUES(2,75560,'seventy five thousand five hundred sixty');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:250
+msgid "<i>... 995 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:251
+msgid ""
+"INSERT INTO t1 VALUES(998,66289,'sixty six thousand two hundred eighty "
+"nine');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:252
+msgid ""
+"INSERT INTO t1 VALUES(999,24322,'twenty four thousand three hundred twenty "
+"two');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br><br>
+#: sedout/speed.html:253
+msgid ""
+"INSERT INTO t1 VALUES(1000,94142,'ninety four thousand one hundred forty "
+"two');"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:256 sedout/speed.html:286 sedout/speed.html:311
+#: sedout/speed.html:335 sedout/speed.html:361 sedout/speed.html:378
+#: sedout/speed.html:402 sedout/speed.html:424 sedout/speed.html:449
+#: sedout/speed.html:472 sedout/speed.html:494 sedout/speed.html:511
+#: sedout/speed.html:527 sedout/speed.html:543 sedout/speed.html:567
+#: sedout/speed.html:582
+msgid "PostgreSQL:"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:256
+msgid "&nbsp;&nbsp;&nbsp;4.373"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:257 sedout/speed.html:287 sedout/speed.html:312
+#: sedout/speed.html:336 sedout/speed.html:362 sedout/speed.html:379
+#: sedout/speed.html:403 sedout/speed.html:425 sedout/speed.html:450
+#: sedout/speed.html:473 sedout/speed.html:495 sedout/speed.html:512
+#: sedout/speed.html:528 sedout/speed.html:544 sedout/speed.html:568
+#: sedout/speed.html:583
+msgid "MySQL:"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:257
+msgid "&nbsp;&nbsp;&nbsp;0.114"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:258 sedout/speed.html:288 sedout/speed.html:313
+#: sedout/speed.html:337 sedout/speed.html:363 sedout/speed.html:380
+#: sedout/speed.html:404 sedout/speed.html:426 sedout/speed.html:451
+#: sedout/speed.html:474 sedout/speed.html:496 sedout/speed.html:513
+#: sedout/speed.html:529 sedout/speed.html:545 sedout/speed.html:569
+#: sedout/speed.html:584
+msgid "SQLite 2.7.6:"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:258
+msgid "&nbsp;&nbsp;&nbsp;13.061"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:259 sedout/speed.html:289 sedout/speed.html:314
+#: sedout/speed.html:338 sedout/speed.html:364 sedout/speed.html:381
+#: sedout/speed.html:405 sedout/speed.html:427 sedout/speed.html:452
+#: sedout/speed.html:475 sedout/speed.html:497 sedout/speed.html:514
+#: sedout/speed.html:530 sedout/speed.html:546 sedout/speed.html:570
+#: sedout/speed.html:585
+msgid "SQLite 2.7.6 (nosync):"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:259
+msgid "&nbsp;&nbsp;&nbsp;0.223"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:263
+msgid ""
+"Because it does not have a central server to coordinate access, SQLite must "
+"close and reopen the database file, and thus invalidate its cache, for each "
+"transaction.  In this test, each SQL statement is a separate transaction so "
+"the database file must be opened and closed and the cache must be flushed "
+"1000 times.  In spite of this, the asynchronous version of SQLite is still "
+"nearly as fast as MySQL.  Notice how much slower the synchronous version is, "
+"however.  SQLite calls <b>fsync()</b> after each synchronous transaction to "
+"make sure that all data is safely on the disk surface before continuing.  "
+"For most of the 13 seconds in the synchronous test, SQLite was sitting idle "
+"waiting on disk I/O to complete."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:275
+msgid "Test 2: 25000 INSERTs in a transaction"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:277 sedout/speed.html:302 sedout/speed.html:326
+#: sedout/speed.html:352 sedout/speed.html:415 sedout/speed.html:440
+#: sedout/speed.html:463 sedout/speed.html:492 sedout/speed.html:558
+msgid "BEGIN;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:278
+msgid "CREATE TABLE t2(a INTEGER, b INTEGER, c VARCHAR(100));"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:279
+msgid ""
+"INSERT INTO t2 VALUES(1,59672,'fifty nine thousand six hundred seventy "
+"two');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:280
+msgid "<i>... 24997 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:281
+msgid ""
+"INSERT INTO t2 VALUES(24999,89569,'eighty nine thousand five hundred sixty "
+"nine');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:282
+msgid ""
+"INSERT INTO t2 VALUES(25000,94666,'ninety four thousand six hundred sixty "
+"six');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br><br>
+#: sedout/speed.html:283 sedout/speed.html:308 sedout/speed.html:332
+#: sedout/speed.html:358 sedout/speed.html:421 sedout/speed.html:446
+#: sedout/speed.html:469 sedout/speed.html:492 sedout/speed.html:564
+msgid "COMMIT;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:286
+msgid "&nbsp;&nbsp;&nbsp;4.900"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:287
+msgid "&nbsp;&nbsp;&nbsp;2.184"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:288
+msgid "&nbsp;&nbsp;&nbsp;0.914"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:289
+msgid "&nbsp;&nbsp;&nbsp;0.757"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:293
+msgid ""
+"When all the INSERTs are put in a transaction, SQLite no longer has to close "
+"and reopen the database or invalidate its cache between each statement.  It "
+"also does not have to do any fsync()s until the very end.  When unshackled "
+"in this way, SQLite is much faster than either PostgreSQL and MySQL."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:300
+msgid "Test 3: 25000 INSERTs into an indexed table"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:303
+msgid "CREATE TABLE t3(a INTEGER, b INTEGER, c VARCHAR(100));"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:304
+msgid "CREATE INDEX i3 ON t3(c);"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:305
+msgid "<i>... 24998 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:306
+msgid ""
+"INSERT INTO t3 VALUES(24999,88509,'eighty eight thousand five hundred "
+"nine');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:307
+msgid ""
+"INSERT INTO t3 VALUES(25000,84791,'eighty four thousand seven hundred ninety "
+"one');"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:311
+msgid "&nbsp;&nbsp;&nbsp;8.175"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:312
+msgid "&nbsp;&nbsp;&nbsp;3.197"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:313
+msgid "&nbsp;&nbsp;&nbsp;1.555"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:314
+msgid "&nbsp;&nbsp;&nbsp;1.402"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:318
+msgid ""
+"There were reports that SQLite did not perform as well on an indexed table.  "
+"This test was recently added to disprove those rumors.  It is true that "
+"SQLite is not as fast at creating new index entries as the other engines "
+"(see Test 6 below) but its overall speed is still better."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:324
+msgid "Test 4: 100 SELECTs without an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:327
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=0 AND b&lt1000;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:328
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=100 AND b&lt1100;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:329 sedout/speed.html:355
+msgid "<i>... 96 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:330
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=9800 AND b&lt10800;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:331
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=9900 AND b&lt10900;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:335
+msgid "&nbsp;&nbsp;&nbsp;3.629"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:336
+msgid "&nbsp;&nbsp;&nbsp;2.760"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:337
+msgid "&nbsp;&nbsp;&nbsp;2.494"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:338
+msgid "&nbsp;&nbsp;&nbsp;2.526"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:343
+msgid ""
+"This test does 100 queries on a 25000 entry table without an index, thus "
+"requiring a full table scan.  Prior versions of SQLite used to be slower "
+"than PostgreSQL and MySQL on this test, but recent performance enhancements "
+"have increased its speed so that it is now the fastest of the group."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:350
+msgid "Test 5: 100 SELECTs on a string comparison"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:353
+msgid "SELECT count(*), avg(b) FROM t2 WHERE c LIKE '%one%';"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:354
+msgid "SELECT count(*), avg(b) FROM t2 WHERE c LIKE '%two%';"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:356
+msgid "SELECT count(*), avg(b) FROM t2 WHERE c LIKE '%ninety nine%';"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:357
+msgid "SELECT count(*), avg(b) FROM t2 WHERE c LIKE '%one hundred%';"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:361
+msgid "&nbsp;&nbsp;&nbsp;13.409"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:362
+msgid "&nbsp;&nbsp;&nbsp;4.640"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:363
+msgid "&nbsp;&nbsp;&nbsp;3.362"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:364
+msgid "&nbsp;&nbsp;&nbsp;3.372"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:368
+msgid ""
+"This test still does 100 full table scans but it uses uses string "
+"comparisons instead of numerical comparisons.  SQLite is over three times "
+"faster than PostgreSQL here and about 30% faster than MySQL."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:374
+msgid "Test 6: Creating an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:376
+msgid "CREATE INDEX i2a ON t2(a);"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:376
+msgid "CREATE INDEX i2b ON t2(b);"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:378
+msgid "&nbsp;&nbsp;&nbsp;0.381"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:379
+msgid "&nbsp;&nbsp;&nbsp;0.318"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:380
+msgid "&nbsp;&nbsp;&nbsp;0.777"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:381
+msgid "&nbsp;&nbsp;&nbsp;0.659"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:385
+msgid ""
+"SQLite is slower at creating new indices.  This is not a huge problem (since "
+"new indices are not created very often) but it is something that is being "
+"worked on.  Hopefully, future versions of SQLite will do better here."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:391
+msgid "Test 7: 5000 SELECTs with an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:393
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=0 AND b&lt100;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:394
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=100 AND b&lt200;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:395
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=200 AND b&lt300;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:396
+msgid "<i>... 4994 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:397
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=499700 AND b&lt499800;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:398
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=499800 AND b&lt499900;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br><br>
+#: sedout/speed.html:399
+msgid "SELECT count(*), avg(b) FROM t2 WHERE b&gt;=499900 AND b&lt500000;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:402
+msgid "&nbsp;&nbsp;&nbsp;4.614"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:403
+msgid "&nbsp;&nbsp;&nbsp;1.270"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:404
+msgid "&nbsp;&nbsp;&nbsp;1.121"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:405
+msgid "&nbsp;&nbsp;&nbsp;1.162"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:409
+msgid ""
+"All three database engines run faster when they have indices to work with.  "
+"But SQLite is still the fastest."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:413
+msgid "Test 8: 1000 UPDATEs without an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:416
+msgid "UPDATE t1 SET b=b*2 WHERE a>=0 AND a&lt10;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:417
+msgid "UPDATE t1 SET b=b*2 WHERE a>=10 AND a&lt20;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:418
+msgid "<i>... 996 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:419
+msgid "UPDATE t1 SET b=b*2 WHERE a>=9980 AND a&lt9990;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:420
+msgid "UPDATE t1 SET b=b*2 WHERE a>=9990 AND a&lt10000;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:424
+msgid "&nbsp;&nbsp;&nbsp;1.739"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:425
+msgid "&nbsp;&nbsp;&nbsp;8.410"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:426
+msgid "&nbsp;&nbsp;&nbsp;0.637"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:427
+msgid "&nbsp;&nbsp;&nbsp;0.638"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:431
+msgid ""
+"For this particular UPDATE test, MySQL is consistently five or ten times "
+"slower than PostgreSQL and SQLite.  I do not know why.  MySQL is normally a "
+"very fast engine.  Perhaps this problem has been addressed in later versions "
+"of MySQL."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:438
+msgid "Test 9: 25000 UPDATEs with an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:441
+msgid "UPDATE t2 SET b=468026 WHERE a=1;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:442
+msgid "UPDATE t2 SET b=121928 WHERE a=2;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:443 sedout/speed.html:466
+msgid "<i>... 24996 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:444
+msgid "UPDATE t2 SET b=35065 WHERE a=24999;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:445
+msgid "UPDATE t2 SET b=347393 WHERE a=25000;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:449
+msgid "&nbsp;&nbsp;&nbsp;18.797"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:450
+msgid "&nbsp;&nbsp;&nbsp;8.134"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:451
+msgid "&nbsp;&nbsp;&nbsp;3.520"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:452
+msgid "&nbsp;&nbsp;&nbsp;3.104"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:456
+msgid ""
+"As recently as version 2.7.0, SQLite ran at about the same speed as MySQL on "
+"this test.  But recent optimizations to SQLite have more than doubled speed "
+"of UPDATEs."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:461
+msgid "Test 10: 25000 text UPDATEs with an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:464
+msgid ""
+"UPDATE t2 SET c='one hundred forty eight thousand three hundred eighty two' "
+"WHERE a=1;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:465
+msgid ""
+"UPDATE t2 SET c='three hundred sixty six thousand five hundred two' WHERE "
+"a=2;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:467
+msgid ""
+"UPDATE t2 SET c='three hundred eighty three thousand ninety nine' WHERE "
+"a=24999;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:468
+msgid ""
+"UPDATE t2 SET c='two hundred fifty six thousand eight hundred thirty' WHERE "
+"a=25000;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:472
+msgid "&nbsp;&nbsp;&nbsp;48.133"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:473
+msgid "&nbsp;&nbsp;&nbsp;6.982"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:474
+msgid "&nbsp;&nbsp;&nbsp;2.408"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:475
+msgid "&nbsp;&nbsp;&nbsp;1.725"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:479
+msgid ""
+"Here again, version 2.7.0 of SQLite used to run at about the same speed as "
+"MySQL.  But now version 2.7.6 is over two times faster than MySQL and over "
+"twenty times faster than PostgreSQL."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:485
+msgid ""
+"In fairness to PostgreSQL, it started thrashing on this test.  A "
+"knowledgeable administrator might be able to get PostgreSQL to run a lot "
+"faster here by tweaking and tuning the server a little."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:490
+msgid "Test 11: INSERTs from a SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:492
+msgid "INSERT INTO t1 SELECT b,a,c FROM t2;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:492
+msgid "INSERT INTO t2 SELECT b,a,c FROM t1;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:494
+msgid "&nbsp;&nbsp;&nbsp;61.364"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:495
+msgid "&nbsp;&nbsp;&nbsp;1.537"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:496
+msgid "&nbsp;&nbsp;&nbsp;2.787"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:497
+msgid "&nbsp;&nbsp;&nbsp;1.599"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:501
+msgid ""
+"The asynchronous SQLite is just a shade slower than MySQL on this test.  "
+"(MySQL seems to be especially adept at INSERT...SELECT statements.)  The "
+"PostgreSQL engine is still thrashing - most of the 61 seconds it used were "
+"spent waiting on disk I/O."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:507
+msgid "Test 12: DELETE without an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:509
+msgid "DELETE FROM t2 WHERE c LIKE '%fifty%';"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:511
+msgid "&nbsp;&nbsp;&nbsp;1.509"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:512
+msgid "&nbsp;&nbsp;&nbsp;0.975"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:513
+msgid "&nbsp;&nbsp;&nbsp;4.004"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:514
+msgid "&nbsp;&nbsp;&nbsp;0.560"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:518
+msgid ""
+"The synchronous version of SQLite is the slowest of the group in this test, "
+"but the asynchronous version is the fastest.  The difference is the extra "
+"time needed to execute fsync()."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:523
+msgid "Test 13: DELETE with an index"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:525
+msgid "DELETE FROM t2 WHERE a>10 AND a&lt20000;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:527
+msgid "&nbsp;&nbsp;&nbsp;1.316"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:528
+msgid "&nbsp;&nbsp;&nbsp;2.262"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:529
+msgid "&nbsp;&nbsp;&nbsp;2.068"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:530
+msgid "&nbsp;&nbsp;&nbsp;0.752"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:534
+msgid ""
+"This test is significant because it is one of the few where PostgreSQL is "
+"faster than MySQL.  The asynchronous SQLite is, however, faster then both "
+"the other two."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:539
+msgid "Test 14: A big INSERT after a big DELETE"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:541
+msgid "INSERT INTO t2 SELECT * FROM t1;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:543
+msgid "&nbsp;&nbsp;&nbsp;13.168"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:544
+msgid "&nbsp;&nbsp;&nbsp;1.815"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:545
+msgid "&nbsp;&nbsp;&nbsp;3.210"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:546
+msgid "&nbsp;&nbsp;&nbsp;1.485"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:550
+msgid ""
+"Some older versions of SQLite (prior to version 2.4.0)  would show "
+"decreasing performance after a sequence of DELETEs followed by new INSERTs.  "
+"As this test shows, the problem has now been resolved."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:556
+msgid "Test 15: A big DELETE followed by many small INSERTs"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:559
+msgid "DELETE FROM t1;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:560
+msgid "INSERT INTO t1 VALUES(1,10719,'ten thousand seven hundred nineteen');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br>
+#: sedout/speed.html:561
+msgid "<i>... 11997 lines omitted</i>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br>
+#: sedout/speed.html:562
+msgid ""
+"INSERT INTO t1 VALUES(11999,72836,'seventy two thousand eight hundred thirty "
+"six');"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br><br><br><br>
+#: sedout/speed.html:563
+msgid ""
+"INSERT INTO t1 VALUES(12000,64231,'sixty four thousand two hundred thirty "
+"one');"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:567
+msgid "&nbsp;&nbsp;&nbsp;4.556"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:568
+msgid "&nbsp;&nbsp;&nbsp;1.704"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:569
+msgid "&nbsp;&nbsp;&nbsp;0.618"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:570
+msgid "&nbsp;&nbsp;&nbsp;0.406"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:574
+msgid ""
+"SQLite is very good at doing INSERTs within a transaction, which probably "
+"explains why it is so much faster than the other databases at this test."
+msgstr ""
+
+#. type: Content of: <html><body><h3>
+#: sedout/speed.html:578
+msgid "Test 16: DROP TABLE"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote>
+#: sedout/speed.html:580
+msgid "DROP TABLE t1;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br>
+#: sedout/speed.html:580
+msgid "DROP TABLE t2;"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><br><br>
+#: sedout/speed.html:580
+msgid "DROP TABLE t3;"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:582
+msgid "&nbsp;&nbsp;&nbsp;0.135"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:583
+msgid "&nbsp;&nbsp;&nbsp;0.015"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:584
+msgid "&nbsp;&nbsp;&nbsp;0.939"
+msgstr ""
+
+#. type: Content of: <html><body><table><tr><td>
+#: sedout/speed.html:585
+msgid "&nbsp;&nbsp;&nbsp;0.254"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:589
+msgid ""
+"SQLite is slower than the other databases when it comes to dropping tables.  "
+"This probably is because when SQLite drops a table, it has to go through and "
+"erase the records in the database file that deal with that table.  MySQL and "
+"PostgreSQL, on the other hand, use separate files to represent each table so "
+"they can drop a table simply by deleting a file, which is much faster."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:597
+msgid ""
+"On the other hand, dropping tables is not a very common operation so if "
+"SQLite takes a little longer, that is not seen as a big problem."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/speed.html:600
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/speed.in?m=5496b6bdd5\">2023-01-02 "
+"14:22:42</a> UTC </i></small>"
+msgstr ""

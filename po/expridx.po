@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:20+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/expridx.html:6 sedout/expridx.html:121
+msgid "Indexes On Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/expridx.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/expridx.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/expridx.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/expridx.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/expridx.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/expridx.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/expridx.html:22 sedout/expridx.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/expridx.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/expridx.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/expridx.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/expridx.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/expridx.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/expridx.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/expridx.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/expridx.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/expridx.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/expridx.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/expridx.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/expridx.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/expridx.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/expridx.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/expridx.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:130
+msgid ""
+"Normally, an SQL index references columns of a table.  But an index can also "
+"be formed on expressions involving table columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:134
+msgid ""
+"As an example, consider the following table that tracks dollar-amount "
+"changes on various \"accounts\":"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/expridx.html:137
+#, no-wrap
+msgid ""
+"CREATE TABLE account_change(\n"
+"  chng_id INTEGER PRIMARY KEY,\n"
+"  acct_no INTEGER REFERENCES account,\n"
+"  location INTEGER REFERENCES locations,\n"
+"  amt INTEGER,  -- in cents\n"
+"  authority TEXT,\n"
+"  comment TEXT\n"
+");\n"
+"CREATE INDEX acctchng_magnitude ON account_change(acct_no, abs(amt));\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:149
+msgid ""
+"Each entry in the account_change table records a deposit or a withdrawal "
+"into an account.  Deposits have a positive \"amt\" and withdrawals have a "
+"negative \"amt\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:154
+msgid ""
+"The acctchng_magnitude index is over the account number (\"acct_no\") and on "
+"the absolute value of the amount.  This index allows one to do efficient "
+"queries over the magnitude of a change to the account.  For example, to list "
+"all changes to account number $xyz that are more than $100.00, one can say:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/expridx.html:161
+#, no-wrap
+msgid "SELECT * FROM account_change WHERE acct_no=$xyz AND abs(amt)&gt;=10000;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:165
+msgid ""
+"Or, to list all changes to one particular account ($xyz) in order of "
+"decreasing magnitude, one can write:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/expridx.html:168
+#, no-wrap
+msgid ""
+"SELECT * FROM account_change WHERE acct_no=$xyz\n"
+" ORDER BY abs(amt) DESC;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:173
+msgid ""
+"Both of the above example queries would work fine without the "
+"acctchng_magnitude index.  The acctchng_magnitude index merely helps the "
+"queries to run faster, especially on databases where there are many entries "
+"in the table for each account."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/expridx.html:179
+msgid "<span>1. </span>How To Use Indexes On Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:182
+msgid ""
+"Use a <a href=\"lang_createindex.html\">CREATE INDEX</a> statement to create "
+"a new index on one or more expressions just like you would to create an "
+"index on columns.  The only difference is that expressions are listed as the "
+"elements to be indexed rather than column names."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:188
+msgid ""
+"The SQLite query planner will consider using an index on an expression when "
+"the expression that is indexed appears in the WHERE clause or in the ORDER "
+"BY clause of a query, <i>exactly</i> as it is written in the CREATE INDEX "
+"statement.  The query planner does not do algebra.  In order to match WHERE "
+"clause constraints and ORDER BY terms to indexes, SQLite requires that the "
+"expressions be the same, except for minor syntactic differences such as "
+"white-space changes.  So if you have:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/expridx.html:196
+#, no-wrap
+msgid ""
+"CREATE TABLE t2(x,y,z);\n"
+"CREATE INDEX t2xy ON t2(x+y);\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:201
+msgid "And then you run the query:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/expridx.html:203
+#, no-wrap
+msgid "SELECT * FROM t2 WHERE y+x=22;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:207
+msgid ""
+"Then the index will <u>not</u> be used because the expression on the CREATE "
+"INDEX statement (x+y) is not the same as the expression as it appears in the "
+"query (y+x).  The two expressions might be mathematically equivalent, but "
+"the SQLite query planner insists that they be the same, not merely "
+"equivalent.  Consider rewriting the query thusly:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/expridx.html:214
+#, no-wrap
+msgid "SELECT * FROM t2 WHERE x+y=22;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:218
+msgid ""
+"This second query will likely use the index because now the expression in "
+"the WHERE clause (x+y) matches the expression in the index exactly."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/expridx.html:222
+msgid "<span>2. </span>Restrictions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/expridx.html:225
+msgid ""
+"There are certain reasonable restrictions on expressions that appear in "
+"CREATE INDEX statements:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/expridx.html:230
+msgid ""
+"Expressions in CREATE INDEX statements may only refer to columns of the "
+"table being indexed, not to columns in other tables."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/expridx.html:235
+msgid ""
+"Expressions in CREATE INDEX statements may contain function calls, but only "
+"to functions whose output is always determined completely by its input "
+"parameters (a.k.a.: <a href=\"deterministic.html\">deterministic functions</"
+"a>).  Obviously, functions like <a href=\"lang_corefunc."
+"html#random\">random()</a> will not work well in an index.  But also "
+"functions like <a href=\"lang_corefunc."
+"html#sqlite_version\">sqlite_version()</a>, though they are constant across "
+"any one database connection, are not constant across the life of the "
+"underlying database file, and hence may not be used in a CREATE INDEX "
+"statement.  Note that <a href=\"appfunc.html\">application-defined SQL "
+"functions</a> are by default considered non-deterministic and may not be "
+"used in a CREATE INDEX statement unless the <a href=\"c3ref/c_deterministic."
+"html#sqlitedeterministic\">SQLITE_DETERMINISTIC</a> flag is used when the "
+"function is registered."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/expridx.html:250
+msgid "Expressions in CREATE INDEX statements may not use subqueries."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/expridx.html:253
+msgid ""
+"Expressions may only be used in CREATE INDEX statements, not within <a "
+"href=\"lang_createtable.html#uniqueconst\">UNIQUE</a> or <a "
+"href=\"lang_createtable.html#primkeyconst\">PRIMARY KEY</a> constraints "
+"within the <a href=\"lang_createtable.html\">CREATE TABLE</a> statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/expridx.html:258
+msgid "<span>3. </span>Compatibility"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/expridx.html:261
+msgid ""
+"The ability to index expressions was added to SQLite with <a "
+"href=\"releaselog/3_9_0.html\">version 3.9.0</a> (2015-10-14).  A database "
+"that uses an index on expressions will not be usable by earlier versions of "
+"SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/expridx.html:264
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/expridx.in?m=918a2f1493\">2023-02-11 20:57:33</a> UTC </i></small>"
+msgstr ""

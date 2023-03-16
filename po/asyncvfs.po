@@ -1,0 +1,450 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><h1>
+#: sedout/asyncvfs.html:6 sedout/asyncvfs.html:120
+msgid "An Asynchronous I/O Module For SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/asyncvfs.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/asyncvfs.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/asyncvfs.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/asyncvfs.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/asyncvfs.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/asyncvfs.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/asyncvfs.html:22 sedout/asyncvfs.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/asyncvfs.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/asyncvfs.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/asyncvfs.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/asyncvfs.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/asyncvfs.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/asyncvfs.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/asyncvfs.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/asyncvfs.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/asyncvfs.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/asyncvfs.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/asyncvfs.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/asyncvfs.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/asyncvfs.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/asyncvfs.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/asyncvfs.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><hr><p><font>
+#: sedout/asyncvfs.html:123
+msgid ""
+"<b>NOTE:</b> <a href=\"wal.html\">WAL mode</a> with <a href=\"pragma."
+"html#pragma_synchronous\">PRAGMA synchronous</a> set to NORMAL avoids calls "
+"to fsync() during transaction commit and only invokes fsync() during a <a "
+"href=\"wal.html#ckpt\">checkpoint</a> operation.  The use of <a href=\"wal."
+"html\">WAL mode</a> largely obviates the need for this asynchronous I/O "
+"module.  Hence, this module is no longer supported.  The source code "
+"continues to exist in the SQLite source tree, but it is not a part of any "
+"standard build and is no longer maintained.  This documentation is retained "
+"for historical reference."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p>
+#: sedout/asyncvfs.html:132
+msgid ""
+"Normally, when SQLite writes to a database file, it waits until the write "
+"operation is finished before returning control to the calling application.  "
+"Since writing to the file-system is usually very slow compared with CPU "
+"bound operations, this can be a performance bottleneck. The asynchronous I/O "
+"backend is an extension that causes SQLite to perform all write requests "
+"using a separate thread running in the background. Although this does not "
+"reduce the overall system resources (CPU, disk bandwidth etc.), it does "
+"allow SQLite to return control to the caller quickly even when writing to "
+"the database."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><h2>
+#: sedout/asyncvfs.html:142
+msgid "1.0 FUNCTIONALITY"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p>
+#: sedout/asyncvfs.html:144
+msgid ""
+"With asynchronous I/O, write requests are handled by a separate thread "
+"running in the background.  This means that the thread that initiates a "
+"database write does not have to wait for (sometimes slow) disk I/O to "
+"occur.  The write seems to happen very quickly, though in reality it is "
+"happening at its usual slow pace in the background."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p>
+#: sedout/asyncvfs.html:150
+msgid ""
+"Asynchronous I/O appears to give better responsiveness, but at a price.  You "
+"lose the Durable property.  With the default I/O backend of SQLite, once a "
+"write completes, you know that the information you wrote is safely on disk.  "
+"With the asynchronous I/O, this is not the case.  If your program crashes or "
+"if a power loss occurs after the database write but before the asynchronous "
+"write thread has completed, then the database change might never make it to "
+"disk and the next user of the database might not see your change."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p>
+#: sedout/asyncvfs.html:159
+msgid ""
+"You lose Durability with asynchronous I/O, but you still retain the other "
+"parts of ACID: Atomic, Consistent, and Isolated.  Many applications get "
+"along fine without the Durability."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><h3>
+#: sedout/asyncvfs.html:163
+msgid "1.1 How it Works"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p>
+#: sedout/asyncvfs.html:165
+msgid ""
+"Asynchronous I/O works by creating an SQLite <a href=\"c3ref/vfs.html\">VFS "
+"object</a> and registering it with <a href=\"c3ref/vfs_find."
+"html\">sqlite3_vfs_register()</a>.  When files opened via this VFS are "
+"written to (using the vfs xWrite() method), the data is not written directly "
+"to disk, but is placed in the \"write-queue\" to be handled by the "
+"background thread."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:172
+msgid ""
+"When files opened with the asynchronous VFS are read from (using the vfs "
+"xRead() method), the data is read from the file on disk and the write-queue, "
+"so that from the point of view of the vfs reader the xWrite() appears to "
+"have already completed."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:177
+msgid ""
+"The asynchronous I/O VFS is registered (and unregistered) by calls to the "
+"API functions sqlite3async_initialize() and sqlite3async_shutdown().  See "
+"section \"Compilation and Usage\" below for details."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><h3>
+#: sedout/asyncvfs.html:181
+msgid "1.2 Limitations"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:183
+msgid ""
+"In order to gain experience with the main ideas surrounding asynchronous IO, "
+"this implementation is deliberately kept simple. Additional capabilities may "
+"be added in the future."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:187
+msgid ""
+"For example, as currently implemented, if writes are happening at a steady "
+"stream that exceeds the I/O capability of the background writer thread, the "
+"queue of pending write operations will grow without bound.  If this goes on "
+"for long enough, the host system could run out of memory.  A more "
+"sophisticated module could to keep track of the quantity of pending writes "
+"and stop accepting new write requests when the queue of pending writes grows "
+"too large."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><h3>
+#: sedout/asyncvfs.html:195
+msgid "1.3 Locking and Concurrency"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:197
+msgid ""
+"Multiple connections from within a single process that use this "
+"implementation of asynchronous IO may access a single database file "
+"concurrently. From the point of view of the user, if all connections are "
+"from within a single process, there is no difference between the concurrency "
+"offered by \"normal\" SQLite and SQLite using the asynchronous backend."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:204
+msgid ""
+"If file-locking is enabled (it is enabled by default), then connections from "
+"multiple processes may also read and write the database file.  However "
+"concurrency is reduced as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/asyncvfs.html:209
+msgid ""
+"When a connection using asynchronous IO begins a database transaction, the "
+"database is locked immediately. However the lock is not released until after "
+"all relevant operations in the write-queue have been flushed to disk. This "
+"means (for example) that the database may remain locked for some time after "
+"a \"<a href=\"lang_transaction.html\">COMMIT</a>\" or \"<a "
+"href=\"lang_transaction.html\">ROLLBACK</a>\" is issued."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><ul><li><li>
+#: sedout/asyncvfs.html:216
+msgid ""
+"If an application using asynchronous IO executes transactions in quick "
+"succession, other database users may be effectively locked out of the "
+"database. This is because when a <a href=\"lang_transaction.html\">BEGIN</a> "
+"is executed, a database lock is established immediately. But when the "
+"corresponding COMMIT or ROLLBACK occurs, the lock is not released until the "
+"relevant part of the write-queue has been flushed through. As a result, if a "
+"COMMIT is followed by a BEGIN before the write-queue is flushed through, the "
+"database is never unlocked,preventing other processes from accessing the "
+"database."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:228
+msgid ""
+"File-locking may be disabled at runtime using the sqlite3async_control()  "
+"API (see below). This may improve performance when an NFS or other network "
+"file-system, as the synchronous round-trips to the server be required to "
+"establish file locks are avoided. However, if multiple connections attempt "
+"to access the same database file when file-locking is disabled, application "
+"crashes and database corruption is a likely outcome."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><h2>
+#: sedout/asyncvfs.html:237
+msgid "2.0 COMPILATION AND USAGE"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:240
+msgid ""
+"The asynchronous IO extension consists of a single file of C code "
+"(sqlite3async.c), and a header file (sqlite3async.h), located in the <a "
+"href=\"http://www.sqlite.org/src/dir?name=ext/async\"> <tt>ext/async/</tt> "
+"subfolder</a> of the SQLite source tree, that defines the C API used by "
+"applications to activate and control the modules functionality."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:248
+msgid ""
+"To use the asynchronous IO extension, compile sqlite3async.c as part of the "
+"application that uses SQLite. Then use the APIs defined in sqlite3async.h to "
+"initialize and configure the module."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:253
+msgid ""
+"The asynchronous IO VFS API is described in detail in comments in "
+"sqlite3async.h. Using the API usually consists of the following steps:"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><ol><li>
+#: sedout/asyncvfs.html:257
+msgid ""
+"Register the asynchronous IO VFS with SQLite by calling the "
+"sqlite3async_initialize() function."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><ol><li><li>
+#: sedout/asyncvfs.html:260
+msgid ""
+"Create a background thread to perform write operations and call "
+"sqlite3async_run()."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><ol><li><li><li>
+#: sedout/asyncvfs.html:263
+msgid ""
+"Use the normal SQLite API to read and write to databases via the "
+"asynchronous IO VFS."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:267
+msgid ""
+"Refer to comments in the <a href=\"http://www.sqlite.org/src/finfo?name=ext/"
+"async/sqlite3async.h\"> sqlite3async.h header file</a> for details."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><h2>
+#: sedout/asyncvfs.html:272
+msgid "3.0 PORTING"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:274
+msgid ""
+"Currently the asynchronous IO extension is compatible with win32 systems and "
+"systems that support the pthreads interface, including Mac OS X, Linux, and "
+"other varieties of Unix."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:278
+msgid ""
+"To port the asynchronous IO extension to another platform, the user must "
+"implement mutex and condition variable primitives for the new platform.  "
+"Currently there is no externally available interface to allow this, but "
+"modifying the code within sqlite3async.c to include the new platforms "
+"concurrency primitives is relatively easy. Search within sqlite3async.c for "
+"the comment string \"PORTING FUNCTIONS\" for details. Then implement new "
+"versions of each of the following:"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><blockquote><pre>
+#: sedout/asyncvfs.html:287
+#, no-wrap
+msgid ""
+"static void async_mutex_enter(int eMutex);\n"
+"static void async_mutex_leave(int eMutex);\n"
+"static void async_cond_wait(int eCond, int eMutex);\n"
+"static void async_cond_signal(int eCond);\n"
+"static void async_sched_yield(void);\n"
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:294
+msgid ""
+"The functionality required of each of the above functions is described in "
+"comments in sqlite3async.c."
+msgstr ""
+
+#. type: Content of: <html><body><hr><hr><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/asyncvfs.html:296
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/asyncvfs.in?m=a7aa8bb3c5\">2022-01-08 05:02:57</a> UTC </i></small>"
+msgstr ""

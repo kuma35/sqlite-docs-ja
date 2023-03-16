@@ -1,0 +1,2564 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_createtable.html:6 sedout/lang_createtable.html:121
+msgid "CREATE TABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_createtable.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_createtable.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_createtable.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_createtable.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_createtable.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_createtable.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_createtable.html:22 sedout/lang_createtable.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_createtable.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_createtable.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_createtable.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_createtable.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_createtable.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_createtable.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_createtable.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_createtable.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_createtable.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_createtable.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_createtable.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_createtable.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_createtable.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_createtable.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_createtable.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_createtable.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:128
+msgid "<a href=\"#syntax\">1. Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:129
+msgid "<a href=\"#the_create_table_command\">2. The CREATE TABLE command</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:130
+msgid ""
+"<a href=\"#create_table_as_select_statements\">2.1. CREATE TABLE ... AS "
+"SELECT Statements</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:131
+msgid "<a href=\"#column_definitions\">3. Column Definitions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:132
+msgid "<a href=\"#column_data_types\">3.1. Column Data Types</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:133
+msgid "<a href=\"#the_default_clause\">3.2. The DEFAULT clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:134
+msgid "<a href=\"#the_collate_clause\">3.3. The COLLATE clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:135
+msgid ""
+"<a href=\"#the_generated_always_as_clause\">3.4. The GENERATED ALWAYS AS "
+"clause</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:136
+msgid "<a href=\"#the_primary_key\">3.5. The PRIMARY KEY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:137
+msgid "<a href=\"#unique_constraints\">3.6. UNIQUE constraints</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:138
+msgid "<a href=\"#check_constraints\">3.7. CHECK constraints</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:139
+msgid "<a href=\"#not_null_constraints\">3.8. NOT NULL constraints</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:140
+msgid "<a href=\"#constraint_enforcement\">4. Constraint enforcement</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:141
+msgid ""
+"<a href=\"#response_to_constraint_violations\">4.1. Response to constraint "
+"violations</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtable.html:142
+msgid ""
+"<a href=\"#rowids_and_the_integer_primary_key\">5. ROWIDs and the INTEGER "
+"PRIMARY KEY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_createtable.html:146
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtable.html:163
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtable.html:165
+msgid ""
+"<b><a href=\"syntax/create-table-stmt.html\">create-table-stmt:</a></b> "
+"<button id='xcbf666ba' "
+"onclick='hideorshow(\"xcbf666ba\",\"x420b1e16\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:173
+msgid "CREATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:175
+msgid "TEMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:177
+msgid "TEMPORARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:179
+msgid "TABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:193
+msgid "IF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:197 sedout/lang_createtable.html:374
+#: sedout/lang_createtable.html:774 sedout/lang_createtable.html:843
+#: sedout/lang_createtable.html:868 sedout/lang_createtable.html:895
+#: sedout/lang_createtable.html:923 sedout/lang_createtable.html:1001
+#: sedout/lang_createtable.html:1638 sedout/lang_createtable.html:2169
+#: sedout/lang_createtable.html:2453 sedout/lang_createtable.html:2522
+#: sedout/lang_createtable.html:2547 sedout/lang_createtable.html:2574
+#: sedout/lang_createtable.html:2602 sedout/lang_createtable.html:2680
+#: sedout/lang_createtable.html:3607 sedout/lang_createtable.html:4371
+#: sedout/lang_createtable.html:4440 sedout/lang_createtable.html:4465
+#: sedout/lang_createtable.html:4492 sedout/lang_createtable.html:4520
+#: sedout/lang_createtable.html:4598 sedout/lang_createtable.html:5389
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:201 sedout/lang_createtable.html:1005
+#: sedout/lang_createtable.html:2684 sedout/lang_createtable.html:4602
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:210 sedout/lang_createtable.html:593
+#: sedout/lang_createtable.html:958 sedout/lang_createtable.html:2272
+#: sedout/lang_createtable.html:2637 sedout/lang_createtable.html:3574
+#: sedout/lang_createtable.html:4190 sedout/lang_createtable.html:4555
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:214 sedout/lang_createtable.html:597
+#: sedout/lang_createtable.html:605 sedout/lang_createtable.html:962
+#: sedout/lang_createtable.html:2276 sedout/lang_createtable.html:2284
+#: sedout/lang_createtable.html:2641 sedout/lang_createtable.html:3555
+#: sedout/lang_createtable.html:3578 sedout/lang_createtable.html:4194
+#: sedout/lang_createtable.html:4202 sedout/lang_createtable.html:4559
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:218 sedout/lang_createtable.html:601
+#: sedout/lang_createtable.html:983 sedout/lang_createtable.html:2147
+#: sedout/lang_createtable.html:2280 sedout/lang_createtable.html:2662
+#: sedout/lang_createtable.html:3551 sedout/lang_createtable.html:3582
+#: sedout/lang_createtable.html:4198 sedout/lang_createtable.html:4580
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:227 sedout/lang_createtable.html:404
+#: sedout/lang_createtable.html:425 sedout/lang_createtable.html:484
+#: sedout/lang_createtable.html:652 sedout/lang_createtable.html:708
+#: sedout/lang_createtable.html:732 sedout/lang_createtable.html:931
+#: sedout/lang_createtable.html:970 sedout/lang_createtable.html:1009
+#: sedout/lang_createtable.html:1092 sedout/lang_createtable.html:1127
+#: sedout/lang_createtable.html:1487 sedout/lang_createtable.html:1548
+#: sedout/lang_createtable.html:1788 sedout/lang_createtable.html:1811
+#: sedout/lang_createtable.html:2039 sedout/lang_createtable.html:2153
+#: sedout/lang_createtable.html:2174 sedout/lang_createtable.html:2331
+#: sedout/lang_createtable.html:2387 sedout/lang_createtable.html:2411
+#: sedout/lang_createtable.html:2610 sedout/lang_createtable.html:2649
+#: sedout/lang_createtable.html:2688 sedout/lang_createtable.html:2771
+#: sedout/lang_createtable.html:2877 sedout/lang_createtable.html:3176
+#: sedout/lang_createtable.html:3232 sedout/lang_createtable.html:3255
+#: sedout/lang_createtable.html:3348 sedout/lang_createtable.html:3625
+#: sedout/lang_createtable.html:3666 sedout/lang_createtable.html:3684
+#: sedout/lang_createtable.html:3719 sedout/lang_createtable.html:4026
+#: sedout/lang_createtable.html:4064 sedout/lang_createtable.html:4087
+#: sedout/lang_createtable.html:4249 sedout/lang_createtable.html:4305
+#: sedout/lang_createtable.html:4329 sedout/lang_createtable.html:4528
+#: sedout/lang_createtable.html:4567 sedout/lang_createtable.html:4606
+#: sedout/lang_createtable.html:4689 sedout/lang_createtable.html:4795
+#: sedout/lang_createtable.html:5155 sedout/lang_createtable.html:5211
+#: sedout/lang_createtable.html:5234 sedout/lang_createtable.html:5299
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:231
+msgid "column-def"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:233
+msgid "table-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:237 sedout/lang_createtable.html:245
+#: sedout/lang_createtable.html:687 sedout/lang_createtable.html:723
+#: sedout/lang_createtable.html:953 sedout/lang_createtable.html:990
+#: sedout/lang_createtable.html:1143 sedout/lang_createtable.html:1167
+#: sedout/lang_createtable.html:1495 sedout/lang_createtable.html:1558
+#: sedout/lang_createtable.html:1796 sedout/lang_createtable.html:1884
+#: sedout/lang_createtable.html:1908 sedout/lang_createtable.html:1931
+#: sedout/lang_createtable.html:1982 sedout/lang_createtable.html:2015
+#: sedout/lang_createtable.html:2052 sedout/lang_createtable.html:2054
+#: sedout/lang_createtable.html:2088 sedout/lang_createtable.html:2114
+#: sedout/lang_createtable.html:2187 sedout/lang_createtable.html:2366
+#: sedout/lang_createtable.html:2402 sedout/lang_createtable.html:2632
+#: sedout/lang_createtable.html:2669 sedout/lang_createtable.html:2893
+#: sedout/lang_createtable.html:2917 sedout/lang_createtable.html:3184
+#: sedout/lang_createtable.html:3240 sedout/lang_createtable.html:3363
+#: sedout/lang_createtable.html:3413 sedout/lang_createtable.html:3637
+#: sedout/lang_createtable.html:3699 sedout/lang_createtable.html:3735
+#: sedout/lang_createtable.html:3759 sedout/lang_createtable.html:4050
+#: sedout/lang_createtable.html:4106 sedout/lang_createtable.html:4284
+#: sedout/lang_createtable.html:4320 sedout/lang_createtable.html:4550
+#: sedout/lang_createtable.html:4587 sedout/lang_createtable.html:4811
+#: sedout/lang_createtable.html:4835 sedout/lang_createtable.html:5163
+#: sedout/lang_createtable.html:5219 sedout/lang_createtable.html:5309
+#: sedout/lang_createtable.html:5503
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:239 sedout/lang_createtable.html:412
+#: sedout/lang_createtable.html:433 sedout/lang_createtable.html:492
+#: sedout/lang_createtable.html:664 sedout/lang_createtable.html:716
+#: sedout/lang_createtable.html:748 sedout/lang_createtable.html:939
+#: sedout/lang_createtable.html:978 sedout/lang_createtable.html:1017
+#: sedout/lang_createtable.html:1104 sedout/lang_createtable.html:1183
+#: sedout/lang_createtable.html:1503 sedout/lang_createtable.html:1556
+#: sedout/lang_createtable.html:1804 sedout/lang_createtable.html:1819
+#: sedout/lang_createtable.html:2047 sedout/lang_createtable.html:2163
+#: sedout/lang_createtable.html:2182 sedout/lang_createtable.html:2343
+#: sedout/lang_createtable.html:2395 sedout/lang_createtable.html:2427
+#: sedout/lang_createtable.html:2618 sedout/lang_createtable.html:2657
+#: sedout/lang_createtable.html:2696 sedout/lang_createtable.html:2783
+#: sedout/lang_createtable.html:2933 sedout/lang_createtable.html:3192
+#: sedout/lang_createtable.html:3248 sedout/lang_createtable.html:3263
+#: sedout/lang_createtable.html:3356 sedout/lang_createtable.html:3633
+#: sedout/lang_createtable.html:3674 sedout/lang_createtable.html:3692
+#: sedout/lang_createtable.html:3775 sedout/lang_createtable.html:4034
+#: sedout/lang_createtable.html:4072 sedout/lang_createtable.html:4095
+#: sedout/lang_createtable.html:4261 sedout/lang_createtable.html:4313
+#: sedout/lang_createtable.html:4345 sedout/lang_createtable.html:4536
+#: sedout/lang_createtable.html:4575 sedout/lang_createtable.html:4614
+#: sedout/lang_createtable.html:4701 sedout/lang_createtable.html:4851
+#: sedout/lang_createtable.html:5171 sedout/lang_createtable.html:5227
+#: sedout/lang_createtable.html:5242 sedout/lang_createtable.html:5307
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtable.html:243
+msgid "table-options"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:266 sedout/lang_createtable.html:480
+#: sedout/lang_createtable.html:740 sedout/lang_createtable.html:2009
+#: sedout/lang_createtable.html:2167 sedout/lang_createtable.html:2419
+#: sedout/lang_createtable.html:3525 sedout/lang_createtable.html:3586
+#: sedout/lang_createtable.html:3650 sedout/lang_createtable.html:4337
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:270 sedout/lang_createtable.html:935
+#: sedout/lang_createtable.html:1013 sedout/lang_createtable.html:2178
+#: sedout/lang_createtable.html:2614 sedout/lang_createtable.html:2692
+#: sedout/lang_createtable.html:3670 sedout/lang_createtable.html:4532
+#: sedout/lang_createtable.html:4610
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtable.html:276
+msgid ""
+"<b><a href=\"syntax/column-def.html\">column-def:</a></b> <button "
+"id='xbb4fe898' "
+"onclick='hideorshow(\"xbb4fe898\",\"x0000a043\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:284 sedout/lang_createtable.html:609
+#: sedout/lang_createtable.html:1552 sedout/lang_createtable.html:2159
+#: sedout/lang_createtable.html:2288 sedout/lang_createtable.html:3352
+#: sedout/lang_createtable.html:4091 sedout/lang_createtable.html:4206
+#: sedout/lang_createtable.html:5303 sedout/lang_createtable.html:5436
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:290 sedout/lang_createtable.html:744
+#: sedout/lang_createtable.html:2423 sedout/lang_createtable.html:4341
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:294
+msgid "column-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:309
+msgid ""
+"<b><a href=\"syntax/column-constraint.html\">column-constraint:</a></b> "
+"<button id='xe68da4b3' "
+"onclick='hideorshow(\"xe68da4b3\",\"xd27c5702\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:321 sedout/lang_createtable.html:4012
+msgid "CONSTRAINT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:325 sedout/lang_createtable.html:1614
+#: sedout/lang_createtable.html:1784 sedout/lang_createtable.html:3228
+#: sedout/lang_createtable.html:4016 sedout/lang_createtable.html:5207
+#: sedout/lang_createtable.html:5365
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:332 sedout/lang_createtable.html:4018
+msgid "PRIMARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:336 sedout/lang_createtable.html:4022
+#: sedout/lang_createtable.html:4083
+msgid "KEY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:340 sedout/lang_createtable.html:1438
+#: sedout/lang_createtable.html:3477 sedout/lang_createtable.html:5106
+#: sedout/lang_createtable.html:5450
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:346 sedout/lang_createtable.html:382
+#: sedout/lang_createtable.html:393 sedout/lang_createtable.html:4038
+msgid "conflict-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:352
+msgid "AUTOINCREMENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:367 sedout/lang_createtable.html:1442
+#: sedout/lang_createtable.html:3481 sedout/lang_createtable.html:5110
+#: sedout/lang_createtable.html:5469
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:378 sedout/lang_createtable.html:847
+#: sedout/lang_createtable.html:1575 sedout/lang_createtable.html:1711
+#: sedout/lang_createtable.html:2526 sedout/lang_createtable.html:2824
+#: sedout/lang_createtable.html:4444 sedout/lang_createtable.html:4742
+#: sedout/lang_createtable.html:5326
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:389 sedout/lang_createtable.html:4055
+msgid "UNIQUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:400 sedout/lang_createtable.html:4060
+msgid "CHECK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:408 sedout/lang_createtable.html:429
+#: sedout/lang_createtable.html:488 sedout/lang_createtable.html:626
+#: sedout/lang_createtable.html:633 sedout/lang_createtable.html:641
+#: sedout/lang_createtable.html:660 sedout/lang_createtable.html:712
+#: sedout/lang_createtable.html:736 sedout/lang_createtable.html:755
+#: sedout/lang_createtable.html:770 sedout/lang_createtable.html:786
+#: sedout/lang_createtable.html:788 sedout/lang_createtable.html:796
+#: sedout/lang_createtable.html:830 sedout/lang_createtable.html:860
+#: sedout/lang_createtable.html:882 sedout/lang_createtable.html:891
+#: sedout/lang_createtable.html:903 sedout/lang_createtable.html:911
+#: sedout/lang_createtable.html:919 sedout/lang_createtable.html:948
+#: sedout/lang_createtable.html:974 sedout/lang_createtable.html:1032
+#: sedout/lang_createtable.html:1040 sedout/lang_createtable.html:1048
+#: sedout/lang_createtable.html:1056 sedout/lang_createtable.html:1100
+#: sedout/lang_createtable.html:1141 sedout/lang_createtable.html:1264
+#: sedout/lang_createtable.html:1286 sedout/lang_createtable.html:1308
+#: sedout/lang_createtable.html:1321 sedout/lang_createtable.html:1341
+#: sedout/lang_createtable.html:1421 sedout/lang_createtable.html:1953
+#: sedout/lang_createtable.html:1972 sedout/lang_createtable.html:1980
+#: sedout/lang_createtable.html:2043 sedout/lang_createtable.html:2082
+#: sedout/lang_createtable.html:2110 sedout/lang_createtable.html:2118
+#: sedout/lang_createtable.html:2305 sedout/lang_createtable.html:2312
+#: sedout/lang_createtable.html:2320 sedout/lang_createtable.html:2339
+#: sedout/lang_createtable.html:2391 sedout/lang_createtable.html:2415
+#: sedout/lang_createtable.html:2434 sedout/lang_createtable.html:2449
+#: sedout/lang_createtable.html:2465 sedout/lang_createtable.html:2467
+#: sedout/lang_createtable.html:2475 sedout/lang_createtable.html:2509
+#: sedout/lang_createtable.html:2539 sedout/lang_createtable.html:2561
+#: sedout/lang_createtable.html:2570 sedout/lang_createtable.html:2582
+#: sedout/lang_createtable.html:2590 sedout/lang_createtable.html:2598
+#: sedout/lang_createtable.html:2627 sedout/lang_createtable.html:2653
+#: sedout/lang_createtable.html:2711 sedout/lang_createtable.html:2719
+#: sedout/lang_createtable.html:2727 sedout/lang_createtable.html:2735
+#: sedout/lang_createtable.html:2779 sedout/lang_createtable.html:2891
+#: sedout/lang_createtable.html:3014 sedout/lang_createtable.html:3036
+#: sedout/lang_createtable.html:3058 sedout/lang_createtable.html:3071
+#: sedout/lang_createtable.html:3091 sedout/lang_createtable.html:3374
+#: sedout/lang_createtable.html:3460 sedout/lang_createtable.html:3521
+#: sedout/lang_createtable.html:3629 sedout/lang_createtable.html:3733
+#: sedout/lang_createtable.html:3853 sedout/lang_createtable.html:3875
+#: sedout/lang_createtable.html:3897 sedout/lang_createtable.html:3910
+#: sedout/lang_createtable.html:3930 sedout/lang_createtable.html:4068
+#: sedout/lang_createtable.html:4223 sedout/lang_createtable.html:4230
+#: sedout/lang_createtable.html:4238 sedout/lang_createtable.html:4257
+#: sedout/lang_createtable.html:4309 sedout/lang_createtable.html:4333
+#: sedout/lang_createtable.html:4352 sedout/lang_createtable.html:4367
+#: sedout/lang_createtable.html:4383 sedout/lang_createtable.html:4385
+#: sedout/lang_createtable.html:4393 sedout/lang_createtable.html:4427
+#: sedout/lang_createtable.html:4457 sedout/lang_createtable.html:4479
+#: sedout/lang_createtable.html:4488 sedout/lang_createtable.html:4500
+#: sedout/lang_createtable.html:4508 sedout/lang_createtable.html:4516
+#: sedout/lang_createtable.html:4545 sedout/lang_createtable.html:4571
+#: sedout/lang_createtable.html:4629 sedout/lang_createtable.html:4637
+#: sedout/lang_createtable.html:4645 sedout/lang_createtable.html:4653
+#: sedout/lang_createtable.html:4697 sedout/lang_createtable.html:4809
+#: sedout/lang_createtable.html:4932 sedout/lang_createtable.html:4954
+#: sedout/lang_createtable.html:4976 sedout/lang_createtable.html:4989
+#: sedout/lang_createtable.html:5009 sedout/lang_createtable.html:5089
+#: sedout/lang_createtable.html:5459
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:419 sedout/lang_createtable.html:1586
+#: sedout/lang_createtable.html:5337
+msgid "DEFAULT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:440 sedout/lang_createtable.html:581
+#: sedout/lang_createtable.html:2260 sedout/lang_createtable.html:4178
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:447 sedout/lang_createtable.html:1792
+#: sedout/lang_createtable.html:1800 sedout/lang_createtable.html:1815
+#: sedout/lang_createtable.html:3236 sedout/lang_createtable.html:3244
+#: sedout/lang_createtable.html:3259 sedout/lang_createtable.html:5215
+#: sedout/lang_createtable.html:5223 sedout/lang_createtable.html:5238
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:454 sedout/lang_createtable.html:759
+#: sedout/lang_createtable.html:1425 sedout/lang_createtable.html:2438
+#: sedout/lang_createtable.html:3464 sedout/lang_createtable.html:4356
+#: sedout/lang_createtable.html:5093 sedout/lang_createtable.html:5440
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:458 sedout/lang_createtable.html:763
+#: sedout/lang_createtable.html:1429 sedout/lang_createtable.html:2442
+#: sedout/lang_createtable.html:3468 sedout/lang_createtable.html:4360
+#: sedout/lang_createtable.html:5097 sedout/lang_createtable.html:5444
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:465 sedout/lang_createtable.html:4099
+msgid "foreign-key-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:472
+msgid "GENERATED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:476
+msgid "ALWAYS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:502
+msgid "VIRTUAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:509
+msgid "STORED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:515
+msgid ""
+"<b><a href=\"syntax/conflict-clause.html\">conflict-clause:</a></b> <button "
+"id='xdfbf5050' "
+"onclick='hideorshow(\"xdfbf5050\",\"x407418c7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:525 sedout/lang_createtable.html:1563
+#: sedout/lang_createtable.html:3370 sedout/lang_createtable.html:4122
+#: sedout/lang_createtable.html:5314
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:529 sedout/lang_createtable.html:4126
+msgid "CONFLICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:533 sedout/lang_createtable.html:1491
+#: sedout/lang_createtable.html:3180 sedout/lang_createtable.html:4130
+#: sedout/lang_createtable.html:5159
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:535 sedout/lang_createtable.html:1515
+#: sedout/lang_createtable.html:3204 sedout/lang_createtable.html:4132
+#: sedout/lang_createtable.html:5183
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:537 sedout/lang_createtable.html:1520
+#: sedout/lang_createtable.html:3209 sedout/lang_createtable.html:4134
+#: sedout/lang_createtable.html:5188
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:539 sedout/lang_createtable.html:1510
+#: sedout/lang_createtable.html:3199 sedout/lang_createtable.html:4136
+#: sedout/lang_createtable.html:5178
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:541 sedout/lang_createtable.html:4138
+msgid "REPLACE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:573
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x8e975e48' "
+"onclick='hideorshow(\"x8e975e48\",\"x20428343\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:586 sedout/lang_createtable.html:2265
+#: sedout/lang_createtable.html:4183
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:622 sedout/lang_createtable.html:2301
+#: sedout/lang_createtable.html:4219
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:637 sedout/lang_createtable.html:2316
+#: sedout/lang_createtable.html:4234
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:648 sedout/lang_createtable.html:2327
+#: sedout/lang_createtable.html:4245
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:656 sedout/lang_createtable.html:874
+#: sedout/lang_createtable.html:1902 sedout/lang_createtable.html:2335
+#: sedout/lang_createtable.html:2553 sedout/lang_createtable.html:4253
+#: sedout/lang_createtable.html:4471
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:668 sedout/lang_createtable.html:2347
+#: sedout/lang_createtable.html:4265
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:674 sedout/lang_createtable.html:2353
+#: sedout/lang_createtable.html:4271
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:696 sedout/lang_createtable.html:2375
+#: sedout/lang_createtable.html:3544 sedout/lang_createtable.html:3559
+#: sedout/lang_createtable.html:4293
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:728 sedout/lang_createtable.html:2407
+#: sedout/lang_createtable.html:4325
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:778 sedout/lang_createtable.html:2457
+#: sedout/lang_createtable.html:4375
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:780 sedout/lang_createtable.html:2459
+#: sedout/lang_createtable.html:4377
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:782 sedout/lang_createtable.html:2461
+#: sedout/lang_createtable.html:4379
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:784 sedout/lang_createtable.html:1610
+#: sedout/lang_createtable.html:2463 sedout/lang_createtable.html:4381
+#: sedout/lang_createtable.html:5361
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:792 sedout/lang_createtable.html:2471
+#: sedout/lang_createtable.html:4389
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:834 sedout/lang_createtable.html:2513
+#: sedout/lang_createtable.html:4431
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:841 sedout/lang_createtable.html:2520
+#: sedout/lang_createtable.html:4438
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:864 sedout/lang_createtable.html:2543
+#: sedout/lang_createtable.html:4461
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:878 sedout/lang_createtable.html:1923
+#: sedout/lang_createtable.html:2557 sedout/lang_createtable.html:4475
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:899 sedout/lang_createtable.html:1216
+#: sedout/lang_createtable.html:2578 sedout/lang_createtable.html:2966
+#: sedout/lang_createtable.html:3805 sedout/lang_createtable.html:4496
+#: sedout/lang_createtable.html:4884
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:907 sedout/lang_createtable.html:1228
+#: sedout/lang_createtable.html:2586 sedout/lang_createtable.html:2978
+#: sedout/lang_createtable.html:3817 sedout/lang_createtable.html:4504
+#: sedout/lang_createtable.html:4896
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:927 sedout/lang_createtable.html:2606
+#: sedout/lang_createtable.html:4524
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:966 sedout/lang_createtable.html:2645
+#: sedout/lang_createtable.html:4563
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1028 sedout/lang_createtable.html:2707
+#: sedout/lang_createtable.html:4625
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1036 sedout/lang_createtable.html:2715
+#: sedout/lang_createtable.html:4633
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1044 sedout/lang_createtable.html:2723
+#: sedout/lang_createtable.html:4641
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1052 sedout/lang_createtable.html:2731
+#: sedout/lang_createtable.html:4649
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1060 sedout/lang_createtable.html:2739
+#: sedout/lang_createtable.html:4657
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1072 sedout/lang_createtable.html:2751
+#: sedout/lang_createtable.html:4669
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:1080
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='xb960351e' "
+"onclick='hideorshow(\"xb960351e\",\"x762f8559\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1088 sedout/lang_createtable.html:2767
+#: sedout/lang_createtable.html:4685
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1096 sedout/lang_createtable.html:1949
+#: sedout/lang_createtable.html:2775 sedout/lang_createtable.html:4693
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:1111
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x5dc0c536' "
+"onclick='hideorshow(\"x5dc0c536\",\"x63388e3f\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1119 sedout/lang_createtable.html:2869
+#: sedout/lang_createtable.html:4787
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1123 sedout/lang_createtable.html:2005
+#: sedout/lang_createtable.html:2873 sedout/lang_createtable.html:4791
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1131 sedout/lang_createtable.html:2881
+#: sedout/lang_createtable.html:3723 sedout/lang_createtable.html:4799
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1133 sedout/lang_createtable.html:2883
+#: sedout/lang_createtable.html:3725 sedout/lang_createtable.html:4801
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1137 sedout/lang_createtable.html:1161
+#: sedout/lang_createtable.html:1968 sedout/lang_createtable.html:2076
+#: sedout/lang_createtable.html:2887 sedout/lang_createtable.html:2911
+#: sedout/lang_createtable.html:3601 sedout/lang_createtable.html:3729
+#: sedout/lang_createtable.html:3753 sedout/lang_createtable.html:4805
+#: sedout/lang_createtable.html:4829
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1157 sedout/lang_createtable.html:2072
+#: sedout/lang_createtable.html:2907 sedout/lang_createtable.html:3749
+#: sedout/lang_createtable.html:4825
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1165 sedout/lang_createtable.html:2086
+#: sedout/lang_createtable.html:2915 sedout/lang_createtable.html:3757
+#: sedout/lang_createtable.html:4833
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1179 sedout/lang_createtable.html:2929
+#: sedout/lang_createtable.html:3771 sedout/lang_createtable.html:4847
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:1203
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xb9a3679d' "
+"onclick='hideorshow(\"xb9a3679d\",\"xc3a841ed\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1211 sedout/lang_createtable.html:2961
+#: sedout/lang_createtable.html:3800 sedout/lang_createtable.html:4879
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1220 sedout/lang_createtable.html:1232
+#: sedout/lang_createtable.html:1255 sedout/lang_createtable.html:2970
+#: sedout/lang_createtable.html:2982 sedout/lang_createtable.html:3005
+#: sedout/lang_createtable.html:3809 sedout/lang_createtable.html:3821
+#: sedout/lang_createtable.html:3844 sedout/lang_createtable.html:4888
+#: sedout/lang_createtable.html:4900 sedout/lang_createtable.html:4923
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1224 sedout/lang_createtable.html:1259
+#: sedout/lang_createtable.html:1268 sedout/lang_createtable.html:1290
+#: sedout/lang_createtable.html:1325 sedout/lang_createtable.html:2974
+#: sedout/lang_createtable.html:3009 sedout/lang_createtable.html:3018
+#: sedout/lang_createtable.html:3040 sedout/lang_createtable.html:3075
+#: sedout/lang_createtable.html:3813 sedout/lang_createtable.html:3848
+#: sedout/lang_createtable.html:3857 sedout/lang_createtable.html:3879
+#: sedout/lang_createtable.html:3914 sedout/lang_createtable.html:4892
+#: sedout/lang_createtable.html:4927 sedout/lang_createtable.html:4936
+#: sedout/lang_createtable.html:4958 sedout/lang_createtable.html:4993
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1236 sedout/lang_createtable.html:1312
+#: sedout/lang_createtable.html:1345 sedout/lang_createtable.html:2986
+#: sedout/lang_createtable.html:3062 sedout/lang_createtable.html:3095
+#: sedout/lang_createtable.html:3825 sedout/lang_createtable.html:3901
+#: sedout/lang_createtable.html:3934 sedout/lang_createtable.html:4904
+#: sedout/lang_createtable.html:4980 sedout/lang_createtable.html:5013
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1241 sedout/lang_createtable.html:2991
+#: sedout/lang_createtable.html:3830 sedout/lang_createtable.html:4909
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1248 sedout/lang_createtable.html:2998
+#: sedout/lang_createtable.html:3837 sedout/lang_createtable.html:4916
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1275 sedout/lang_createtable.html:1297
+#: sedout/lang_createtable.html:1330 sedout/lang_createtable.html:1356
+#: sedout/lang_createtable.html:3025 sedout/lang_createtable.html:3047
+#: sedout/lang_createtable.html:3080 sedout/lang_createtable.html:3106
+#: sedout/lang_createtable.html:3864 sedout/lang_createtable.html:3886
+#: sedout/lang_createtable.html:3919 sedout/lang_createtable.html:3945
+#: sedout/lang_createtable.html:4943 sedout/lang_createtable.html:4965
+#: sedout/lang_createtable.html:4998 sedout/lang_createtable.html:5024
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1279 sedout/lang_createtable.html:1301
+#: sedout/lang_createtable.html:1334 sedout/lang_createtable.html:1360
+#: sedout/lang_createtable.html:3029 sedout/lang_createtable.html:3051
+#: sedout/lang_createtable.html:3084 sedout/lang_createtable.html:3110
+#: sedout/lang_createtable.html:3868 sedout/lang_createtable.html:3890
+#: sedout/lang_createtable.html:3923 sedout/lang_createtable.html:3949
+#: sedout/lang_createtable.html:4947 sedout/lang_createtable.html:4969
+#: sedout/lang_createtable.html:5002 sedout/lang_createtable.html:5028
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1352 sedout/lang_createtable.html:1365
+#: sedout/lang_createtable.html:1374 sedout/lang_createtable.html:1383
+#: sedout/lang_createtable.html:3102 sedout/lang_createtable.html:3115
+#: sedout/lang_createtable.html:3124 sedout/lang_createtable.html:3133
+#: sedout/lang_createtable.html:3941 sedout/lang_createtable.html:3954
+#: sedout/lang_createtable.html:3963 sedout/lang_createtable.html:3972
+#: sedout/lang_createtable.html:5020 sedout/lang_createtable.html:5033
+#: sedout/lang_createtable.html:5042 sedout/lang_createtable.html:5051
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1369 sedout/lang_createtable.html:1964
+#: sedout/lang_createtable.html:3119 sedout/lang_createtable.html:3958
+#: sedout/lang_createtable.html:5037
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1378 sedout/lang_createtable.html:3128
+#: sedout/lang_createtable.html:3967 sedout/lang_createtable.html:5046
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1387 sedout/lang_createtable.html:1601
+#: sedout/lang_createtable.html:3137 sedout/lang_createtable.html:3976
+#: sedout/lang_createtable.html:5055 sedout/lang_createtable.html:5352
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1391 sedout/lang_createtable.html:3141
+#: sedout/lang_createtable.html:3980 sedout/lang_createtable.html:5059
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:1413
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xef9fc78a' "
+"onclick='hideorshow(\"xef9fc78a\",\"x638aaf3d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1452 sedout/lang_createtable.html:1460
+#: sedout/lang_createtable.html:3491 sedout/lang_createtable.html:3499
+#: sedout/lang_createtable.html:5120 sedout/lang_createtable.html:5128
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1456 sedout/lang_createtable.html:3495
+#: sedout/lang_createtable.html:5124
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1464 sedout/lang_createtable.html:3503
+#: sedout/lang_createtable.html:5132
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:1475
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x5701290b' "
+"onclick='hideorshow(\"x5701290b\",\"x8a7e02a3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1483 sedout/lang_createtable.html:3172
+#: sedout/lang_createtable.html:5151
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1499 sedout/lang_createtable.html:3188
+#: sedout/lang_createtable.html:5167
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:1532
+msgid ""
+"<b><a href=\"syntax/foreign-key-clause.html\">foreign-key-clause:</a></b> "
+"<button id='xbc518e46' "
+"onclick='hideorshow(\"xbc518e46\",\"x50d35530\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1540 sedout/lang_createtable.html:5291
+msgid "REFERENCES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1544 sedout/lang_createtable.html:5295
+msgid "foreign-table"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1567 sedout/lang_createtable.html:5318
+msgid "DELETE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1571 sedout/lang_createtable.html:1582
+#: sedout/lang_createtable.html:5322 sedout/lang_createtable.html:5333
+msgid "SET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1577 sedout/lang_createtable.html:5328
+msgid "UPDATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1591 sedout/lang_createtable.html:5342
+msgid "CASCADE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1596 sedout/lang_createtable.html:5347
+msgid "RESTRICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1605 sedout/lang_createtable.html:5356
+msgid "ACTION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1642 sedout/lang_createtable.html:5393
+msgid "DEFERRABLE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1646 sedout/lang_createtable.html:1652
+#: sedout/lang_createtable.html:5397 sedout/lang_createtable.html:5403
+msgid "INITIALLY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1650 sedout/lang_createtable.html:5401
+msgid "DEFERRED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1656 sedout/lang_createtable.html:5407
+msgid "IMMEDIATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:1677
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x9e237ff3' "
+"onclick='hideorshow(\"x9e237ff3\",\"x5cd30db8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1685 sedout/lang_createtable.html:2798
+#: sedout/lang_createtable.html:4716
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1692 sedout/lang_createtable.html:1760
+#: sedout/lang_createtable.html:1843 sedout/lang_createtable.html:2805
+#: sedout/lang_createtable.html:3287 sedout/lang_createtable.html:4723
+#: sedout/lang_createtable.html:5266
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1697 sedout/lang_createtable.html:2810
+#: sedout/lang_createtable.html:4728
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1704 sedout/lang_createtable.html:2817
+#: sedout/lang_createtable.html:4735
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1718 sedout/lang_createtable.html:2831
+#: sedout/lang_createtable.html:4749
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1725 sedout/lang_createtable.html:2838
+#: sedout/lang_createtable.html:4756
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1732 sedout/lang_createtable.html:2845
+#: sedout/lang_createtable.html:4763
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1739 sedout/lang_createtable.html:2852
+#: sedout/lang_createtable.html:4770
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:1748
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x210e2e56' "
+"onclick='hideorshow(\"x210e2e56\",\"xc9497f25\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1756 sedout/lang_createtable.html:1839
+#: sedout/lang_createtable.html:3283 sedout/lang_createtable.html:5262
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1767 sedout/lang_createtable.html:1850
+#: sedout/lang_createtable.html:3294 sedout/lang_createtable.html:5273
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:1776
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x6780000f' "
+"onclick='hideorshow(\"x6780000f\",\"x79589d80\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:1831
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x57a7596c' "
+"onclick='hideorshow(\"x57a7596c\",\"x4c62fc8c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtable.html:1860
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xc6867d4c' "
+"onclick='hideorshow(\"xc6867d4c\",\"x7519f03c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1869
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1871
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1877
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1898
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1906
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1916 sedout/lang_createtable.html:2230
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1927 sedout/lang_createtable.html:3312
+#: sedout/lang_createtable.html:3320 sedout/lang_createtable.html:3688
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1929 sedout/lang_createtable.html:3706
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:1976
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2001
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2013
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2035
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2064
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2070
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2078
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2106
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:2139
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x5138530d' "
+"onclick='hideorshow(\"x5138530d\",\"x024c317d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2171
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:2210
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x3f1902b6' "
+"onclick='hideorshow(\"x3f1902b6\",\"xf87bc594\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2220 sedout/lang_createtable.html:2222
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2224
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:2226
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:2252
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x16cf1e35' "
+"onclick='hideorshow(\"x16cf1e35\",\"x124243a8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:2759
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='xe81acd73' "
+"onclick='hideorshow(\"xe81acd73\",\"x9392760c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:2790
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x4d7d83a9' "
+"onclick='hideorshow(\"x4d7d83a9\",\"xe940f54e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:2861
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='xc1a9d747' "
+"onclick='hideorshow(\"xc1a9d747\",\"xfb84f039\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:2953
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x5dadc732' "
+"onclick='hideorshow(\"x5dadc732\",\"x6cc9b93e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:3164
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x8c78bcf2' "
+"onclick='hideorshow(\"x8c78bcf2\",\"x3a83543d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:3220
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x4f3a1b82' "
+"onclick='hideorshow(\"x4f3a1b82\",\"x4f1b25f6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:3275
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x091a770c' "
+"onclick='hideorshow(\"x091a770c\",\"xa0b29580\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:3304
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xe41e6c4a' "
+"onclick='hideorshow(\"xe41e6c4a\",\"x9012f6bf\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3316
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3324
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:3336
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x86060bfd' "
+"onclick='hideorshow(\"x86060bfd\",\"x80512457\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3344
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:3384
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x8f442d75' "
+"onclick='hideorshow(\"x8f442d75\",\"x528c9c16\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3392
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3398
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3402
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3408
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3426
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3432
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3437
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3444
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:3452
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x09a315fc' "
+"onclick='hideorshow(\"x09a315fc\",\"xe2508c7c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:3513
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xef7e6d1a' "
+"onclick='hideorshow(\"xef7e6d1a\",\"xb2dd602e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3529
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:3566
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xe8d58aba' "
+"onclick='hideorshow(\"xe8d58aba\",\"xecbea229\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3590 sedout/lang_createtable.html:3654
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3597 sedout/lang_createtable.html:3611
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3605
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:3621
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:3711
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x7c0e37e3' "
+"onclick='hideorshow(\"x7c0e37e3\",\"xf47be615\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:3792
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x7a43b726' "
+"onclick='hideorshow(\"x7a43b726\",\"xc5e83824\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtable.html:4004
+msgid ""
+"<b><a href=\"syntax/table-constraint.html\">table-constraint:</a></b> "
+"<button id='xfef8bbbf' "
+"onclick='hideorshow(\"xfef8bbbf\",\"x2be3c08c\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:4030
+msgid "indexed-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:4079
+msgid "FOREIGN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:4112
+msgid ""
+"<b><a href=\"syntax/conflict-clause.html\">conflict-clause:</a></b> <button "
+"id='x8fdd1e91' "
+"onclick='hideorshow(\"x8fdd1e91\",\"xec9d44d1\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:4170
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xc293e130' "
+"onclick='hideorshow(\"xc293e130\",\"x7c782c20\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:4677
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='xe65e1b29' "
+"onclick='hideorshow(\"xe65e1b29\",\"x71cc4e0d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:4708
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='xc92a34bf' "
+"onclick='hideorshow(\"xc92a34bf\",\"x0ccd9ab7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:4779
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x0b931f29' "
+"onclick='hideorshow(\"x0b931f29\",\"xe3c25a2b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:4871
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x12af2551' "
+"onclick='hideorshow(\"x12af2551\",\"xc0fe8fb8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:5081
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xf5f0b1b8' "
+"onclick='hideorshow(\"xf5f0b1b8\",\"x4d172088\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:5143
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='xb6e0b1cb' "
+"onclick='hideorshow(\"xb6e0b1cb\",\"x7e088d4b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtable.html:5199
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='xdf755895' "
+"onclick='hideorshow(\"xdf755895\",\"xed2bc12a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_createtable.html:5254
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='xed4cb734' "
+"onclick='hideorshow(\"xed4cb734\",\"x36da50a4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:5283
+msgid ""
+"<b><a href=\"syntax/foreign-key-clause.html\">foreign-key-clause:</a></b> "
+"<button id='x0e7210ed' "
+"onclick='hideorshow(\"x0e7210ed\",\"x00a3fe84\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtable.html:5428
+msgid ""
+"<b><a href=\"syntax/indexed-column.html\">indexed-column:</a></b> <button "
+"id='x92f2d92b' "
+"onclick='hideorshow(\"x92f2d92b\",\"x1282b0e9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtable.html:5479
+msgid ""
+"<b><a href=\"syntax/table-options.html\">table-options:</a></b> <button "
+"id='xed8e0ad8' "
+"onclick='hideorshow(\"xed8e0ad8\",\"xb9154ac3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:5487
+msgid "WITHOUT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:5491
+msgid "ROWID"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtable.html:5497
+msgid "STRICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtable.html:5513
+msgid "<span>2. </span>The CREATE TABLE command"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtable.html:5515
+msgid ""
+"The \"CREATE TABLE\" command is used to create a new table in an SQLite "
+"database. A CREATE TABLE command specifies the following attributes of the "
+"new table:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5520
+msgid "The name of the new table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5522
+msgid ""
+"The database in which the new table is created. Tables may be created in the "
+"main database, the temp database, or in any attached database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5526
+msgid "The name of each column in the table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5528
+msgid "The declared type of each column in the table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5530
+msgid "A default value or expression for each column in the table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5532
+msgid "A default collation sequence to use with each column."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5534
+msgid ""
+"Optionally, a PRIMARY KEY for the table. Both single column and composite "
+"(multiple column) primary keys are supported."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5537
+msgid ""
+"A set of SQL constraints for each table. SQLite supports UNIQUE, NOT NULL, "
+"CHECK and FOREIGN KEY constraints."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5540
+msgid "Optionally, a <a href=\"gencol.html\">generated column</a> constraint."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5542
+msgid ""
+"Whether the table is a <a href=\"withoutrowid.html\">WITHOUT ROWID</a> "
+"table."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_createtable.html:5544
+msgid ""
+"Whether the table is subject to <a href=\"stricttables.html\">strict type "
+"checking</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5547
+msgid ""
+"Every CREATE TABLE statement must specify a name for the new table.  Table "
+"names that begin with \"sqlite_\" are reserved for internal use. It is an "
+"error to attempt to create a table with a name that starts with \"sqlite_\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5552
+msgid ""
+"If a <span class='yyterm'>schema-name</span> is specified, it must be either "
+"\"main\", \"temp\", or the name of an <a href=\"lang_attach.html\">attached "
+"database</a>. In this case the new table is created in the named "
+"database. If the \"TEMP\" or \"TEMPORARY\" keyword occurs between the "
+"\"CREATE\" and \"TABLE\" then the new table is created in the temp "
+"database. It is an error to specify both a <span "
+"class='yyterm'>schema-name</span> and the TEMP or TEMPORARY keyword, unless "
+"the <span class='yyterm'>schema-name</span> is \"temp\".  If no schema name "
+"is specified and the TEMP keyword is not present then the table is created "
+"in the main database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5564
+msgid ""
+"It is usually an error to attempt to create a new table in a database that "
+"already contains a table, index or view of the same name. However, if the "
+"\"IF NOT EXISTS\" clause is specified as part of the CREATE TABLE statement "
+"and a table or view of the same name already exists, the CREATE TABLE "
+"command simply has no effect (and no error message is returned). An error is "
+"still returned if the table cannot be created because of an existing index, "
+"even if the \"IF NOT EXISTS\" clause is specified."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5572
+msgid ""
+"It is not an error to create a table that has the same name as an existing "
+"<a href=\"lang_createtrigger.html\">trigger</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5575
+msgid ""
+"Tables are removed using the <a href=\"lang_droptable.html\">DROP TABLE</a> "
+"statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtable.html:5577
+msgid "<a name=\"createtabas\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/lang_createtable.html:5579
+msgid "<span>2.1. </span>CREATE TABLE ... AS SELECT Statements"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5581
+msgid ""
+"A \"CREATE TABLE ... AS SELECT\" statement creates and populates a database "
+"table based on the results of a SELECT statement. The table has the same "
+"number of columns as the rows returned by the SELECT statement. The name of "
+"each column is the same as the name of the corresponding column in the "
+"result set of the SELECT statement. The declared type of each column is "
+"determined by the <a href=\"datatype3.html#expraff\">expression affinity</a> "
+"of the corresponding expression in the result set of the SELECT statement, "
+"as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><th>
+#: sedout/lang_createtable.html:5591
+msgid "Expression Affinity"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><th>
+#: sedout/lang_createtable.html:5591
+msgid "Column Declared Type"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5592
+msgid "TEXT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5592
+msgid "\"TEXT\""
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5593
+msgid "NUMERIC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5593
+msgid "\"NUM\""
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5594
+msgid "INTEGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5594
+msgid "\"INT\""
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5595
+msgid "REAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5595
+msgid "\"REAL\""
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5596
+msgid "BLOB (a.k.a \"NONE\")"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><center><table><tr><td>
+#: sedout/lang_createtable.html:5596
+msgid "\"\" (empty string)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5599
+msgid ""
+"A table created using CREATE TABLE AS has no PRIMARY KEY and no constraints "
+"of any kind. The default value of each column is NULL. The default collation "
+"sequence for each column of the new table is BINARY."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5603
+msgid ""
+"Tables created using CREATE TABLE AS are initially populated with the rows "
+"of data returned by the SELECT statement. Rows are assigned contiguously "
+"ascending <a href=\"lang_createtable.html#rowid\">rowid</a> values, starting "
+"with 1, in the <a href=\"lang_select.html#orderby\">order</a> that they are "
+"returned by the SELECT statement.  <a name=\"tablecoldef\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/lang_createtable.html:5610
+msgid "<span>3. </span>Column Definitions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5612
+msgid ""
+"Unless it is a CREATE TABLE ... AS SELECT statement, a CREATE TABLE includes "
+"one or more <a href=\"syntax/column-def.html\">column definitions</a>, "
+"optionally followed by a list of <a "
+"href=\"syntax/table-constraint.html\">table constraints</a>.  Each column "
+"definition consists of the name of the column, optionally followed by the "
+"declared type of the column, then one or more optional <a "
+"href=\"syntax/column-constraint.html\">column constraints</a>. Included in "
+"the definition of \"column constraints\" for the purposes of the previous "
+"statement are the COLLATE and DEFAULT clauses, even though these are not "
+"really constraints in the sense that they do not restrict the data that the "
+"table may contain. The other constraints - NOT NULL, CHECK, UNIQUE, PRIMARY "
+"KEY and FOREIGN KEY constraints - impose restrictions on the table data."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5623
+msgid ""
+"The number of columns in a table is limited by the <a "
+"href=\"limits.html#max_column\">SQLITE_MAX_COLUMN</a> compile-time "
+"parameter. A single row of a table cannot store more than <a "
+"href=\"limits.html#max_length\">SQLITE_MAX_LENGTH</a> bytes of data. Both of "
+"these limits can be lowered at runtime using the <a "
+"href=\"c3ref/limit.html\">sqlite3_limit()</a> C/C++ interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/lang_createtable.html:5628
+msgid "<span>3.1. </span>Column Data Types"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5630
+msgid ""
+"Unlike most SQL databases, SQLite does not restrict the type of data that "
+"may be inserted into a column based on the columns declared type. Instead, "
+"SQLite uses <a href=\"datatype3.html\">dynamic typing</a>. The declared type "
+"of a column is used to determine the <a "
+"href=\"datatype3.html#affinity\">affinity</a> of the column only.  <a "
+"name=\"dfltval\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/lang_createtable.html:5637
+msgid "<span>3.2. </span>The DEFAULT clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5638
+msgid ""
+"The DEFAULT clause specifies a default value to use for the column if no "
+"value is explicitly provided by the user when doing an <a "
+"href=\"lang_insert.html\">INSERT</a>. If there is no explicit DEFAULT clause "
+"attached to a column definition, then the default value of the column is "
+"NULL. An explicit DEFAULT clause may specify that the default value is NULL, "
+"a string constant, a blob constant, a signed-number, or any constant "
+"expression enclosed in parentheses. A default value may also be one of the "
+"special case-independent keywords CURRENT_TIME, CURRENT_DATE or "
+"CURRENT_TIMESTAMP. For the purposes of the DEFAULT clause, an expression is "
+"considered constant if it contains no sub-queries, column or table "
+"references, <a href=\"lang_expr.html#varparam\">bound parameters</a>, or "
+"string literals enclosed in double-quotes instead of single-quotes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5650
+msgid ""
+"Each time a row is inserted into the table by an INSERT statement that does "
+"not provide explicit values for all table columns the values stored in the "
+"new row are determined by their default values, as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/lang_createtable.html:5655
+msgid ""
+"If the default value of the column is a constant NULL, text, blob or "
+"signed-number value, then that value is used directly in the new row."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/lang_createtable.html:5658
+msgid ""
+"If the default value of a column is an expression in parentheses, then the "
+"expression is evaluated once for each row inserted and the results used in "
+"the new row."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/lang_createtable.html:5662
+msgid ""
+"If the default value of a column is CURRENT_TIME, CURRENT_DATE or "
+"CURRENT_TIMESTAMP, then the value used in the new row is a text "
+"representation of the current UTC date and/or time. For CURRENT_TIME, the "
+"format of the value is \"HH:MM:SS\". For CURRENT_DATE, \"YYYY-MM-DD\". The "
+"format for CURRENT_TIMESTAMP is \"YYYY-MM-DD HH:MM:SS\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_createtable.html:5669
+msgid "<a name=\"collateclause\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/lang_createtable.html:5671
+msgid "<span>3.3. </span>The COLLATE clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5672
+msgid ""
+"The COLLATE clause specifies the name of a <a "
+"href=\"datatype3.html#collation\">collating sequence</a> to use as the "
+"default collation sequence for the column. If no COLLATE clause is "
+"specified, the default collation sequence is <a "
+"href=\"datatype3.html#collation\">BINARY</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/lang_createtable.html:5676
+msgid "<span>3.4. </span>The GENERATED ALWAYS AS clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5677
+msgid ""
+"A column that includes a GENERATED ALWAYS AS clause is a <a "
+"href=\"gencol.html\">generated column</a>.  Generated columns are supported "
+"beginning with SQLite version 3.31.0 (2020-01-22).  See the <a "
+"href=\"gencol.html\">separate documentation</a> for details on the "
+"capabilities and limitations of generated columns.  <a "
+"name=\"primkeyconst\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/lang_createtable.html:5684
+msgid "<span>3.5. </span>The PRIMARY KEY"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5685
+msgid ""
+"Each table in SQLite may have at most one PRIMARY KEY. If the keywords "
+"PRIMARY KEY are added to a column definition, then the primary key for the "
+"table consists of that single column. Or, if a PRIMARY KEY clause is "
+"specified as a <a "
+"href=\"syntax/table-constraint.html\">table-constraint</a>, then the primary "
+"key of the table consists of the list of columns specified as part of the "
+"PRIMARY KEY clause.  The PRIMARY KEY clause must contain only column names "
+"&mdash; the use of expressions in an <a "
+"href=\"syntax/indexed-column.html\">indexed-column</a> of a PRIMARY KEY is "
+"not supported.  An error is raised if more than one PRIMARY KEY clause "
+"appears in a CREATE TABLE statement.  The PRIMARY KEY is optional for "
+"ordinary tables but is required for <a href=\"withoutrowid.html\">WITHOUT "
+"ROWID</a> tables."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5696
+msgid ""
+"If a table has a single column primary key and the declared type of that "
+"column is \"INTEGER\" and the table is not a <a "
+"href=\"withoutrowid.html\">WITHOUT ROWID</a> table, then the column is known "
+"as an <a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a>.  See "
+"<a href=\"lang_createtable.html#rowid\">below</a> for a description of the "
+"special properties and behaviors associated with an <a "
+"href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5702
+msgid ""
+"Each row in a table with a primary key must have a unique combination of "
+"values in its primary key columns. For the purposes of determining the "
+"uniqueness of primary key values, NULL values are considered distinct from "
+"all other values, including other NULLs. If an <a "
+"href=\"lang_insert.html\">INSERT</a> or <a "
+"href=\"lang_update.html\">UPDATE</a> statement attempts to modify the table "
+"content so that two or more rows have identical primary key values, that is "
+"a constraint violation."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5709
+msgid ""
+"According to the SQL standard, PRIMARY KEY should always imply NOT NULL.  "
+"Unfortunately, due to a bug in some early versions, this is not the case in "
+"SQLite. Unless the column is an <a "
+"href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> or the table is "
+"a <a href=\"withoutrowid.html\">WITHOUT ROWID</a> table or a <a "
+"href=\"stricttables.html\">STRICT</a> table or the column is declared NOT "
+"NULL, SQLite allows NULL values in a PRIMARY KEY column.  SQLite could be "
+"fixed to conform to the standard, but doing so might break legacy "
+"applications.  Hence, it has been decided to merely document the fact that "
+"SQLite allows NULLs in most PRIMARY KEY columns.  <a "
+"name=\"uniqueconst\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/lang_createtable.html:5721
+msgid "<span>3.6. </span>UNIQUE constraints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5722
+msgid ""
+"A UNIQUE constraint is similar to a PRIMARY KEY constraint, except that a "
+"single table may have any number of UNIQUE constraints. For each UNIQUE "
+"constraint on the table, each row must contain a unique combination of "
+"values in the columns identified by the UNIQUE constraint.  For the purposes "
+"of UNIQUE constraints, NULL values are considered distinct from all other "
+"values, including other NULLs.  As with PRIMARY KEYs, a UNIQUE <a "
+"href=\"syntax/table-constraint.html\">table-constraint</a> clause must "
+"contain only column names &mdash; the use of expressions in an <a "
+"href=\"syntax/indexed-column.html\">indexed-column</a> of a UNIQUE <a "
+"href=\"syntax/table-constraint.html\">table-constraint</a> is not supported."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5734
+msgid ""
+"In most cases, UNIQUE and PRIMARY KEY constraints are implemented by "
+"creating a unique index in the database.  (The exceptions are <a "
+"href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> and PRIMARY "
+"KEYs on <a href=\"withoutrowid.html\">WITHOUT ROWID</a> tables.)  Hence, the "
+"following schemas are logically equivalent:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_createtable.html:5741
+msgid "CREATE TABLE t1(a, b UNIQUE);"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_createtable.html:5742
+msgid "CREATE TABLE t1(a, b PRIMARY KEY);"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/lang_createtable.html:5743
+msgid "CREATE TABLE t1(a, b);"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><br>
+#: sedout/lang_createtable.html:5744
+msgid "CREATE UNIQUE INDEX t1b ON t1(b);"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_createtable.html:5747
+msgid "<a name=\"ckconst\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_createtable.html:5749
+msgid "<span>3.7. </span>CHECK constraints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5750
+msgid ""
+"A CHECK constraint may be attached to a column definition or specified as a "
+"table constraint. In practice it makes no difference. Each time a new row is "
+"inserted into the table or an existing row is updated, the expression "
+"associated with each CHECK constraint is evaluated and cast to a NUMERIC "
+"value in the same way as a <a href=\"lang_expr.html#castexpr\">CAST "
+"expression</a>. If the result is zero (integer value 0 or real value 0.0), "
+"then a constraint violation has occurred. If the CHECK expression evaluates "
+"to NULL, or any other non-zero value, it is not a constraint violation.  The "
+"expression of a CHECK constraint may not contain a subquery."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5760
+msgid ""
+"CHECK constraints are only verified when the table is written, not when it "
+"is read.  Furthermore, verification of CHECK constraints can be temporarily "
+"disabled using the \"<a "
+"href=\"pragma.html#pragma_ignore_check_constraints\">PRAGMA "
+"ignore_check_constraints=ON;</a>\" statement.  Hence, it is possible that a "
+"query might produce results that violate the CHECK constraints.  <a "
+"name=\"notnullconst\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_createtable.html:5768
+msgid "<span>3.8. </span>NOT NULL constraints"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5769
+msgid ""
+"A NOT NULL constraint may only be attached to a column definition, not "
+"specified as a table constraint.  Not surprisingly, a NOT NULL constraint "
+"dictates that the associated column may not contain a NULL value.  "
+"Attempting to set the column value to NULL when inserting a new row or "
+"updating an existing one causes a constraint violation.  NOT NULL "
+"constraints are not verified during queries, so a query of a column might "
+"produce a NULL value even though the column is marked as NOT NULL, if the "
+"database file is corrupt."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_createtable.html:5779
+msgid "<span>4. </span>Constraint enforcement"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5781
+msgid ""
+"Constraints are checked during <a href=\"lang_insert.html\">INSERT</a> and "
+"<a href=\"lang_update.html\">UPDATE</a> and by <a "
+"href=\"pragma.html#pragma_integrity_check\">PRAGMA integrity_check</a> and "
+"<a href=\"pragma.html#pragma_quick_check\">PRAGMA quick_check</a> and "
+"sometimes by <a href=\"lang_altertable.html\">ALTER TABLE</a>.  Queries and "
+"<a href=\"lang_delete.html\">DELETE</a> statements do not normally verify "
+"constraints.  Hence, if a database file has been corrupted (perhaps by an "
+"external program making direct changes to the database file without going "
+"through the SQLite library) a query might return data that violates a "
+"constraint.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><pre>
+#: sedout/lang_createtable.html:5790
+#, no-wrap
+msgid ""
+"CREATE TABLE t1(x INT CHECK( x>3 ));\n"
+"/* Insert a row with X less than 3 by directly writing into the\n"
+"** database file using an external program */\n"
+"PRAGMA integrity_check;  -- Reports row with x less than 3 as corrupt\n"
+"INSERT INTO t1(x) VALUES(2);  -- Fails with SQLITE_CORRUPT\n"
+"SELECT x FROM t1;  -- Returns an integer less than 3 in spite of the CHECK "
+"constraint\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5798
+msgid ""
+"Enforcement of CHECK constraints can be temporarily disabled using the <a "
+"href=\"pragma.html#pragma_ignore_check_constraints\">PRAGMA "
+"ignore_check_constraints=ON;</a> statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/lang_createtable.html:5801
+msgid "<span>4.1. </span>Response to constraint violations"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5803
+msgid ""
+"The response to a constraint violation is determined by the <a "
+"href=\"lang_conflict.html\">constraint conflict resolution "
+"algorithm</a>. Each PRIMARY KEY, UNIQUE, NOT NULL and CHECK constraint has a "
+"default conflict resolution algorithm. PRIMARY KEY, UNIQUE and NOT NULL "
+"constraints may be explicitly assigned another default conflict resolution "
+"algorithm by including a <a "
+"href=\"syntax/conflict-clause.html\">conflict-clause</a> in their "
+"definitions.  Or, if a constraint definition does not include a <a "
+"href=\"syntax/conflict-clause.html\">conflict-clause</a>, the default "
+"conflict resolution algorithm is ABORT.  The conflict resolution algorithm "
+"for CHECK constraints is always ABORT.  (For historical compatibility only, "
+"table CHECK constraints are allowed to have a conflict resolution clause, "
+"but that has no effect.)  Different constraints within the same table may "
+"have different default conflict resolution algorithms. See the section "
+"titled <a href=\"lang_conflict.html\">ON CONFLICT</a> for additional "
+"information.  <a name=\"rowid\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_createtable.html:5820
+msgid "<span>5. </span>ROWIDs and the INTEGER PRIMARY KEY"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5822
+msgid ""
+"Except for <a href=\"withoutrowid.html\">WITHOUT ROWID</a> tables, all rows "
+"within SQLite tables have a 64-bit signed integer key that uniquely "
+"identifies the row within its table.  This integer is usually called the "
+"\"rowid\". The rowid value can be accessed using one of the special "
+"case-independent names \"rowid\", \"oid\", or \"_rowid_\" in place of a "
+"column name.  If a table contains a user defined column named \"rowid\", "
+"\"oid\" or \"_rowid_\", then that name always refers the explicitly declared "
+"column and cannot be used to retrieve the integer rowid value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5831
+msgid ""
+"The rowid (and \"oid\" and \"_rowid_\") is omitted in <a "
+"href=\"withoutrowid.html\">WITHOUT ROWID</a> tables.  WITHOUT ROWID tables "
+"are only available in SQLite <a href=\"releaselog/3_8_2.html\">version "
+"3.8.2</a> (2013-12-06) and later.  A table that lacks the WITHOUT ROWID "
+"clause is called a \"rowid table\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5836
+msgid ""
+"The data for rowid tables is stored as a B-Tree structure containing one "
+"entry for each table row, using the rowid value as the key. This means that "
+"retrieving or sorting records by rowid is fast. Searching for a record with "
+"a specific rowid, or for all records with rowids within a specified range is "
+"around twice as fast as a similar search made by specifying any other "
+"PRIMARY KEY or indexed value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5843
+msgid ""
+"With one exception noted below, if a rowid table has a primary key that "
+"consists of a single column and the declared type of that column is "
+"\"INTEGER\" in any mixture of upper and lower case, then the column becomes "
+"an alias for the rowid. Such a column is usually referred to as an \"integer "
+"primary key\". A PRIMARY KEY column only becomes an integer primary key if "
+"the declared type name is exactly \"INTEGER\".  Other integer type names "
+"like \"INT\" or \"BIGINT\" or \"SHORT INTEGER\" or \"UNSIGNED INTEGER\" "
+"causes the primary key column to behave as an ordinary table column with "
+"integer <a href=\"datatype3.html#affinity\">affinity</a> and a unique index, "
+"not as an alias for the rowid."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_createtable.html:5853
+msgid ""
+"The exception mentioned above is that if the declaration of a column with "
+"declared type \"INTEGER\" includes an \"PRIMARY KEY DESC\" clause, it does "
+"not become an alias for the rowid and is not classified as an integer "
+"primary key.  This quirk is not by design. It is due to a bug in early "
+"versions of SQLite.  But fixing the bug could result in backwards "
+"incompatibilities.  Hence, the original behavior has been retained (and "
+"documented) because odd behavior in a corner case is far better than a "
+"compatibility break.  This means that the following three table declarations "
+"all cause the column \"x\" to be an alias for the rowid (an integer primary "
+"key):"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_createtable.html:5864
+msgid "<tt>CREATE TABLE t(x INTEGER PRIMARY KEY ASC, y, z);</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_createtable.html:5865
+msgid "<tt>CREATE TABLE t(x INTEGER, y, z, PRIMARY KEY(x ASC));</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_createtable.html:5866
+msgid "<tt>CREATE TABLE t(x INTEGER, y, z, PRIMARY KEY(x DESC));</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_createtable.html:5869
+msgid ""
+"But the following declaration does not result in \"x\" being an alias for "
+"the rowid:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ul><li>
+#: sedout/lang_createtable.html:5872
+msgid "<tt>CREATE TABLE t(x INTEGER PRIMARY KEY DESC, y, z);</tt>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_createtable.html:5875
+msgid ""
+"Rowid values may be modified using an UPDATE statement in the same way as "
+"any other column value can, either using one of the built-in aliases "
+"(\"rowid\", \"oid\" or \"_rowid_\") or by using an alias created by an "
+"integer primary key. Similarly, an INSERT statement may provide a value to "
+"use as the rowid for each row inserted. Unlike normal SQLite columns, an "
+"integer primary key or rowid column must contain integer values. Integer "
+"primary key or rowid columns are not able to hold floating point values, "
+"strings, BLOBs, or NULLs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_createtable.html:5883
+msgid ""
+"If an UPDATE statement attempts to set an integer primary key or rowid "
+"column to a NULL or blob value, or to a string or real value that cannot be "
+"losslessly converted to an integer, a \"datatype mismatch\" error occurs and "
+"the statement is aborted. If an INSERT statement attempts to insert a blob "
+"value, or a string or real value that cannot be losslessly converted to an "
+"integer into an integer primary key or rowid column, a \"datatype mismatch\" "
+"error occurs and the statement is aborted."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_createtable.html:5891
+msgid ""
+"If an INSERT statement attempts to insert a NULL value into a rowid or "
+"integer primary key column, the system chooses an integer value to use as "
+"the rowid automatically. A detailed description of how this is done is "
+"provided <a href=\"autoinc.html\">separately</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_createtable.html:5896
+msgid ""
+"The <a href=\"foreignkeys.html#parentchild\">parent key</a> of a <a "
+"href=\"foreignkeys.html\">foreign key constraint</a> is not allowed to use "
+"the rowid.  The parent key must used named columns only."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_createtable.html:5898
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_createtable.in?m=d5b0680939\">2023-02-27 "
+"02:07:35</a> UTC </i></small>"
+msgstr ""

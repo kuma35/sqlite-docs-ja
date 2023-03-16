@@ -1,0 +1,1065 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 13:37+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/qmplan.html:6 sedout/qmplan.html:121
+msgid "Quality Management"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/qmplan.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/qmplan.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/qmplan.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/qmplan.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/qmplan.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/qmplan.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/qmplan.html:22 sedout/qmplan.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/qmplan.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/qmplan.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/qmplan.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/qmplan.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/qmplan.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/qmplan.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/qmplan.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/qmplan.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/qmplan.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/qmplan.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/qmplan.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/qmplan.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/qmplan.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/qmplan.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/qmplan.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/qmplan.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:129
+msgid "<a href=\"#about_this_document\">1.1. About This Document</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:130
+msgid "<a href=\"#software_development_plan\">2. Software Development Plan</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:131
+msgid "<a href=\"#software_life_cycle\">2.1. Software Life Cycle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:132
+msgid "<a href=\"#maintenance_releases\">2.1.1. Maintenance Releases</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:133
+msgid "<a href=\"#patch_releases\">2.1.2. Patch Releases</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:134
+msgid "<a href=\"#release_history\">2.2. Release History</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:135
+msgid "<a href=\"#schedule\">2.3. Schedule</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:136
+msgid ""
+"<a href=\"#software_development_environment\">3. Software Development "
+"Environment</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:137
+msgid "<a href=\"#software_verification_plan\">4. Software Verification Plan</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:138
+msgid ""
+"<a href=\"#software_configuration_management\">5. Software Configuration "
+"Management</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:139
+msgid "<a href=\"#version_control\">5.1. Version Control</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:140
+msgid "<a href=\"#survivability\">5.2. Survivability</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:141
+msgid "<a href=\"#repositories\">5.3. Repositories</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:142
+msgid "<a href=\"#sqlite_source_code\">5.3.1. SQLite Source Code</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:143
+msgid ""
+"<a href=\"#sqlite_documentation_sources\">5.3.2. SQLite Documentation "
+"Sources</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:144
+msgid "<a href=\"#sql_logic_test\">5.3.3. SQL Logic Test</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:145
+msgid "<a href=\"#test_harness_3\">5.3.4. Test Harness #3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:146
+msgid "<a href=\"#dbsqlfuzz\">5.3.5. Dbsqlfuzz</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:147
+msgid ""
+"<a href=\"#software_verification_results\">5.4. Software Verification "
+"Results</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:148
+msgid ""
+"<a href=\"#software_requirements_standards_and_data\">6. Software "
+"Requirements Standards And Data</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:149
+msgid ""
+"<a href=\"#software_design_and_coding_standards\">7. Software Design And "
+"Coding Standards</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/qmplan.html:150
+msgid "<a href=\"#problem_reports\">8. Problem Reports</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/qmplan.html:154
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/qmplan.html:170
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:173
+msgid "This is the Quality Management Plan for SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:176
+msgid ""
+"Quality management documents tend to expand into binders full of "
+"incomprehensible jargon that nobody reads.  This document strives to break "
+"that pattern by being concise and useful."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:182
+msgid ""
+"The inspiration for this document is <a "
+"href=\"https://en.wikipedia.org/wiki/DO-178B\">DO-178B</a>.  Among quality "
+"standards, DO-178B seems to have the highest usefulness to paperwork ratio.  "
+"Even so, the amount of documentation needed for a full-up DO-178B "
+"implementation is vast.  SQLite strives to be nimble and low-ceremony, and "
+"to that end, much of the required DO-178B documentation is omitted.  We "
+"retain only those parts that genuinely improve quality for an open-source "
+"software project such as SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:193
+msgid ""
+"The purpose of this document is to brief the reader on how the SQLite "
+"development team functions on a daily basis, as they continuously enhance "
+"the SQLite software and work to improve its already high reliability.  The "
+"document achieves its purpose if a competent developer can be assimilated "
+"into the development team quickly after perusing this document."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/qmplan.html:200
+msgid "<span>1.1. </span>About This Document"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:203
+msgid ""
+"The quality management plan was originally composed by going through the "
+"description of outputs in section 11 of DO-178B (pages 48 through 56)  and "
+"writing down those elements that seemed relevant to SQLite.  The text will "
+"be subsequent revised to track enhancements to the SQLite quality process."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/qmplan.html:209
+msgid "<span>2. </span>Software Development Plan"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:212
+msgid ""
+"This section is a combination of the Plan For Software Aspects Of "
+"Certification and the Software Development Plan sections of DO-178B."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:217
+msgid ""
+"See <a href=\"about.html\">About SQLite</a> for an overview of the SQLite "
+"software and what it does and how it is different."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/qmplan.html:220
+msgid "<span>2.1. </span>Software Life Cycle"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:223
+msgid ""
+"SQLite uses a continuous integration process.  The software is under "
+"constant enhancement and refinement.  The latest trunk check-ins are "
+"frequently used internally for mission-critical operations."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:229
+msgid ""
+"There is no pre-defined release cycle.  Releases occur when there is a "
+"critical mass of feature enhancements and/or bug fixes.  Historically, "
+"releases have occurred about 5 or 6 times per year.  Users of SQLite pick up "
+"new releases from the website on an as-needed basis."
+msgstr ""
+
+#. type: Content of: <html><body><div><h3>
+#: sedout/qmplan.html:236
+msgid "<span>2.1.1. </span>Maintenance Releases"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:239
+msgid ""
+"Routine maintenance releases of SQLite contain feature enhancements, "
+"performance enhancements, and/or fixes for non-critical issues.  The version "
+"number for major releases are of the form \"3.N.0\" for some integer N.  See "
+"the <a href=\"versionnumbers.html\">version numbering conventions</a> "
+"document for details."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:246
+msgid ""
+"Upcoming maintenance releases announced on the sqlite-users and sqlite-dev "
+"<a href=\"support.html#mailinglists\">mailing lists</a> about two weeks "
+"prior to the anticipated release.  Approximately one week prior to release, "
+"the lead developer declares \"pencils down\" after which only bug-fix "
+"check-ins are allowed on trunk.  A new <a "
+"href=\"https://sqlite.org/src/ext/checklist/top/index\">release "
+"checklist</a> is created and updated as needed.  As items of the checklist "
+"are verified, they are checked off and turn green.  The release occurs when "
+"all elements of the checklist are green.  That process normally takes about "
+"a week."
+msgstr ""
+
+#. type: Content of: <html><body><div><h3>
+#: sedout/qmplan.html:257
+msgid "<span>2.1.2. </span>Patch Releases"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:260
+msgid ""
+"Occasionally, a serious problem is found and a small \"patch\" release must "
+"be made against a regular maintenance release.  Patches are distinct from "
+"maintenance releases in that the number of lines of code changed from the "
+"previous release is small.  Every effort is made to avoid patch releases by "
+"making sure that maintenance releases are bug free."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:267
+msgid ""
+"Patch releases may or may not have a release checklist, depending on the "
+"issue.  This is a judgement call by the project leader."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/qmplan.html:270
+msgid "<span>2.2. </span>Release History"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:272
+msgid ""
+"The documentation system automatically maintains a <a "
+"href=\"chronology.html\">chronology</a> of past releases, as well as a <a "
+"href=\"changes.html\">complete list of SQLite releases</a> with change "
+"summaries."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/qmplan.html:276
+msgid "<span>2.3. </span>Schedule"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:278
+msgid ""
+"SQLite has a long-range vision.  Planning is done with the assumption that "
+"SQLite will be used and supported through at least the year 2050.  All code "
+"is written with the idea that it will one day be read and maintained by "
+"people not yet born.  The code is carefully commented with an eye toward "
+"helping those future developers more easily understand the logic and the "
+"rationale behind the code."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/qmplan.html:286
+msgid "<span>3. </span>Software Development Environment"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:289
+msgid ""
+"SQLite is written in portable C code.  Development work occurs on a mix of "
+"Linux, Mac, and Windows workstations.  The developers use command-line tools "
+"and eschew integrated development environments (IDEs) whenever possible.  "
+"All developers are expected to be fluent with the unix command-line."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/qmplan.html:296
+msgid ""
+"A minimum setup for compiling and testing SQLite from canonical sources is "
+"as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/qmplan.html:300
+msgid ""
+"A host computer with a 32-bit or 64-bit address space.  The OS can be Linux, "
+"Mac, Windows, *BSD, Solaris, or some other."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/qmplan.html:302
+msgid ""
+"A C99 compiler such as GCC (including MinGW variants for Windows), Clang, or "
+"MSVC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/qmplan.html:304
+msgid "A text editor of the user's choice supporting UTF-8 text."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/qmplan.html:305
+msgid "<a href=\"https://core.tcl.tk/\">Tcl</a> version 8.6 or later."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/qmplan.html:306
+msgid "The \"make\" utility, or optionally \"nmake\" on Windows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/qmplan.html:310
+msgid ""
+"The Tcl script language is used to help translate canonical source code into "
+"the <a href=\"amalgamation.html\">amalgamation</a> and to manage testing.  "
+"Tcl is not used directly by SQLite itself (unless requested by a "
+"compile-time option).  End users of the SQLite amalgamation sources do not "
+"need Tcl."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/qmplan.html:316
+msgid ""
+"When building the <a href=\"cli.html\">CLI</a>, it is helpful, but not "
+"required, to have the following third-party libraries on hand:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/qmplan.html:320
+msgid "<a href=\"https://zlib.net/\">zLib</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/qmplan.html:321
+msgid ""
+"<a "
+"href=\"http://git.savannah.gnu.org/cgit/readline.git?h=devel\">readline</a> "
+"or <a href=\"http://thrysoee.dk/editline/\">editline</a> or <a "
+"href=\"https://github.com/antirez/linenoise\">linenoise</a> for command-line "
+"editing."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/qmplan.html:328
+msgid "A complete release-test of SQLite requires additional software,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/qmplan.html:331
+msgid "<a href=\"http://www.valgrind.org/\">valgrind</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/qmplan.html:332
+msgid "<a href=\"https://gcc.gnu.org/onlinedocs/gcc/Gcov.html\">gcov</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/qmplan.html:336
+msgid ""
+"SQLite is expected to operate the same, and use exactly the same <a "
+"href=\"fileformat2.html\">on-disk format</a>, on all modern operating "
+"systems, on all modern computer architectures, and using all modern C "
+"compilers.  The developers are constantly testing SQLite on as many diverse "
+"platforms as they can get their hands on."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/qmplan.html:342
+msgid "<span>4. </span>Software Verification Plan"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/qmplan.html:344
+msgid ""
+"The testing process for SQLite is described in the <a "
+"href=\"testing.html\">testing</a> document.  Testing objectives include:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/qmplan.html:348
+msgid "100% MC/DC in an as-delivered configuration"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/qmplan.html:349
+msgid "Testing of both source code and object code"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/qmplan.html:350
+msgid "Testing on multiple platforms and with multiple compilers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/qmplan.html:351
+msgid "Fuzz testing"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/qmplan.html:352
+msgid "Code change inspection"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/qmplan.html:353
+msgid "Dynamic and static analysis of the code"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:356
+msgid ""
+"The testing process is controlled by the <a "
+"href=\"testing.html#cklist\">release testing checklists</a>.  The checklists "
+"succinctly summarize all steps necessary to fully validate SQLite, and they "
+"record when and by whom each validation step was performed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:361
+msgid ""
+"The set of checklist items for release checklist is potentially updated for "
+"each release.  The content and complete history of each release checklist "
+"are retained for the historical record."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h1>
+#: sedout/qmplan.html:366
+msgid "<span>5. </span>Software Configuration Management"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h2>
+#: sedout/qmplan.html:368
+msgid "<span>5.1. </span>Version Control"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:371
+msgid ""
+"SQLite source code is managed using the <a "
+"href=\"https://fossil-scm.org\">Fossil</a> version control system.  Fossil "
+"was written specifically to support SQLite development.  Fossil provides "
+"both distributed version control and issue tracking."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h2>
+#: sedout/qmplan.html:376
+msgid "<span>5.2. </span>Survivability"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:379
+msgid ""
+"All code is archived on three separate machines: <a "
+"href=\"https://www.sqlite.org\">https://www.sqlite.org</a>, <a "
+"href=\"https://www2.sqlite.org\">https://www2.sqlite.org</a>, <a "
+"href=\"https://www3.sqlite.org\">https://www3.sqlite.org</a>.  These "
+"machines are located in different cities (Dallas, Newark, and San Francisco, "
+"respectively) and managed by two different hosting companies (<a "
+"href=\"https://linode.com\">Linode</a> for the first two and <a "
+"href=\"https://digitalocean.com\">Digital Ocean</a> for the third).  This "
+"diversity is intended to avoid a single point of failure."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:388
+msgid ""
+"The main machine in Dallas <a "
+"href=\"https://www.sqlite.org/\">https://www.sqlite.org/</a> is the primary "
+"server and the one that most people use.  The other two are considered "
+"backups."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:393
+msgid ""
+"In addition to the official repositories, the developers typically keep "
+"complete clones of all software on their personal machines.  And there are "
+"other clones scattered about the internet."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h2>
+#: sedout/qmplan.html:397
+msgid "<span>5.3. </span>Repositories"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:399
+msgid ""
+"The SQLite source is broken up into multiple repositories, each described in "
+"a separate section below."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h3>
+#: sedout/qmplan.html:402
+msgid "<span>5.3.1. </span>SQLite Source Code"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/qmplan.html:404
+msgid ""
+"The SQLite source code and the <a href=\"testing.html#tcl\">TCL test "
+"suite</a> are stored together in a single repository.  This one repository "
+"is all that is required to build the SQLite.  The source repository is "
+"public and is readable by anonymous passersby on the internet."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:410
+msgid ""
+"Primary location: <a "
+"href=\"https://www.sqlite.org/src\">https://www.sqlite.org/src</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:411
+msgid ""
+"Backup A: <a "
+"href=\"https://www2.sqlite.org/src\">https://www2.sqlite.org/src</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:412
+msgid ""
+"Backup B: <a "
+"href=\"https://www3.sqlite.org/cgi/src\">https://www3.sqlite.org/cgi/src</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:413
+msgid ""
+"GitHub mirror: <a "
+"href=\"https://github.com/sqlite/sqlite/\">https://github.com/sqlite/sqlite/</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h3>
+#: sedout/qmplan.html:416
+msgid "<span>5.3.2. </span>SQLite Documentation Sources"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/qmplan.html:418
+msgid ""
+"The documentation sources include documentation text and images with the "
+"scripts and makefile needed to construct the SQLite website documentation.  "
+"This document is contained within the documentation sources.  The document "
+"sources are kept in a separate repository distinct from the source code.  "
+"The documentation sources repository is publicly readable."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/qmplan.html:424
+msgid ""
+"The makefiles and scripts used to generate the documentation gather text "
+"from baseline documents in the documentation source repository.  Additional "
+"text is extracted from comments in the SQLite source code.  Requirements "
+"coverage information is extracted from special comments in the <a "
+"href=\"testing.html#tcl\">TCL test suite</a> which is part of the source "
+"repository, and from comments in the <a href=\"th3.html\">TH3</a> test suite "
+"which is in a separate private repository."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:432
+msgid ""
+"Primary location: <a "
+"href=\"https://www.sqlite.org/docsrc\">https://www.sqlite.org/docsrc</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:433
+msgid ""
+"Backup A: <a "
+"href=\"https://www2.sqlite.org/docsrc\">https://www2.sqlite.org/docsrc</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:434
+msgid ""
+"Backup B: <a "
+"href=\"https://www3.sqlite.org/cgi/docsrc\">https://www3.sqlite.org/cgi/docsrc</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><h3>
+#: sedout/qmplan.html:437
+msgid "<span>5.3.3. </span>SQL Logic Test"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:440
+msgid ""
+"The <a href=\"testing.html#slt\">SQL Logic Tests</a> are a set of test cases "
+"designed to show that SQLite behaves the same as other SQL database "
+"engines.  These tests are hosted in a separate code public repository."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:445
+msgid ""
+"Primary location: <a "
+"href=\"https://www.sqlite.org/sqllogictest\">https://www.sqlite.org/sqllogictest</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:446
+msgid "Backups on private servers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><h3>
+#: sedout/qmplan.html:449
+msgid "<span>5.3.4. </span>Test Harness #3"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:452
+msgid ""
+"The <a href=\"th3.html\">Test Harness #3</a> or <a href=\"th3.html\">TH3</a> "
+"test suite is a private set of test cases used to test SQLite to 100% MC/DC "
+"in an as-delivered configuration.  TH3 sources are served on the same "
+"servers as the other SQLite repositories, but differ from the others in "
+"being proprietary.  The TH3 code is only accessible to SQLite developers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:460
+msgid ""
+"Primary location: <a "
+"href=\"https://www.sqlite.org/th3\">https://www.sqlite.org/th3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:461
+msgid ""
+"Backup A: <a "
+"href=\"https://www3.sqlite.org/cgi/th3\">https://www3.sqlite.org/cgi/th3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:462 sedout/qmplan.html:481
+msgid "Additional backups on private servers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><h3>
+#: sedout/qmplan.html:465
+msgid "<span>5.3.5. </span>Dbsqlfuzz"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:468
+msgid ""
+"The dbsqlfuzz module is a <a "
+"href=\"https://www.llvm.org/docs/LibFuzzer.html\">libFuzzer</a>-based fuzzer "
+"for SQLite.  Dbsqlfuzz fuzzes both the SQL and the database file at the same "
+"time.  Dbsqlfuzz uses a customized mutator."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:474
+msgid ""
+"Dbsqlfuzz seems to work better at finding problems than any other fuzzer "
+"available.  For that reason, it is kept private.  We do not want hacker "
+"gaining access to this technology."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:479
+msgid ""
+"Primary location: <a "
+"href=\"https://www.sqlite.org/dbsqlfuzz\">https://www.sqlite.org/dbsqlfuzz</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:480
+msgid ""
+"Backup A: <a "
+"href=\"https://www3.sqlite.org/cgi/dbsqlfuzz\">https://www3.sqlite.org/cgi/dbsqlfuzz</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><h2>
+#: sedout/qmplan.html:484
+msgid "<span>5.4. </span>Software Verification Results"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:487
+msgid ""
+"Release testing proceeds by <a href=\"testing.html#cklist\">checklist</a>.  "
+"The current status and complete change history for each checklist is stored "
+"in a separate SQLite database file.  These files are not version controlled, "
+"but separate copies are maintained on private backup servers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:492
+msgid ""
+"The source code to the software that runs the checklists is stored in its "
+"own Fossil repository at <a "
+"href=\"https://www.sqlite.org/checklistapp\">https://www.sqlite.org/checklistapp</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><h1>
+#: sedout/qmplan.html:495
+msgid "<span>6. </span>Software Requirements Standards And Data"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:497
+msgid ""
+"In the SQLite project, the \"requirements\" are the project documentation.  "
+"Special markup in the documentation text indentifies individual "
+"requirements.  The requirement numbers are based on a cryptographic hash of "
+"normalized requirement text, so that it is impossible to change the "
+"requirement text without also changing the requirement number."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:503
+msgid ""
+"Documentation text (and hence requirement text) is taken from the SQLite "
+"Documentation source repository, described above, and also from comments in "
+"the implementation.  The makefiles to build the documentation are in the "
+"documentation source repository."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:508
+msgid ""
+"When the documentation is build, requirements are identified and labeled.  "
+"The documentation build process also scans for test cases that verify each "
+"requirement and constructs a matrix showing which requirements have been "
+"testing and identifying the specific test cases that test those "
+"requirements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><h1>
+#: sedout/qmplan.html:514
+msgid "<span>7. </span>Software Design And Coding Standards"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:516
+msgid "Objective coding standards for SQLite are minimal:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:519
+msgid "2-space indentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:520
+msgid "No lines over 80 characters in length"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:521
+msgid "No tabs"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:524
+msgid ""
+"All other design and coding rules are subjective.  The goal here is to make "
+"the software so that it is readable and maintainable through the year 2050.  "
+"To that end, we look for succinct yet useful comments (no boilerplate), "
+"carefully chosen variable names, and careful explanation of the meaning of "
+"each data structure and the role of each code block."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><h1>
+#: sedout/qmplan.html:531
+msgid "<span>8. </span>Problem Reports"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:533
+msgid ""
+"All problems are fixed expeditiously.  There are no lingering problems in "
+"the sQLite software."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:536
+msgid ""
+"The <a href=\"https://fossil-scm.org/\">Fossil version control system</a> "
+"utilized by SQLite contains built-in support for tracking trouble-tickets.  "
+"This built-in ticket system is used to track and document many historical "
+"problems."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:540
+msgid ""
+"The <a href=\"https://fossil-scm.org/forum\">SQLite Community Forum</a> is a "
+"place where anybody on the internet can go to ask questions about or report "
+"bugs against SQLite.  Bugs found by third-parties are often reported "
+"initially on the Forum.  Forum-reported bugs will sometimes be transferred "
+"to tickets, though recent practice as been to just deal with the bugs on the "
+"Forum.  The Forum has an excellent full-text search feature, is mirrored to "
+"multiple machines, and is just as searchable and survivable as the ticket "
+"system, so it seems unnecessary to duplicate Forum-originated bug reports "
+"into the ticket system.  The public locations of the Forum are:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:551
+msgid ""
+"Primary location: <a "
+"href=\"https://www.sqlite.org/forum\">https://www.sqlite.org/forum</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:552
+msgid ""
+"Backup A: <a "
+"href=\"https://www2.sqlite.org/forum\">https://www2.sqlite.org/forum</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p><ul><li>
+#: sedout/qmplan.html:553
+msgid ""
+"Backup B: <a "
+"href=\"https://www3.sqlite.org/cgi/forum\">https://www3.sqlite.org/cgi/forum</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:557
+msgid ""
+"As with the source repositories, the Forum is also synced to various private "
+"machines.  Note that because of the way Fossil works, the \"backups\" are "
+"more than just read-only backups.  They can also function as data inputs.  "
+"All content entered is synced to all repositories, regardless of which "
+"repository is used for insertion."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p><p><p><p><p><p>
+#: sedout/qmplan.html:563
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/qmplan.in?m=601675a989\">2022-04-18 "
+"02:55:50</a> UTC </i></small>"
+msgstr ""

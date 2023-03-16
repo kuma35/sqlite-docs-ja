@@ -1,0 +1,411 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:05+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:6 sedout/lang_explain.html:121
+#: sedout/lang_explain.html:135
+msgid "EXPLAIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_explain.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_explain.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_explain.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_explain.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_explain.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_explain.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_explain.html:22 sedout/lang_explain.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_explain.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_explain.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_explain.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_explain.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_explain.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_explain.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_explain.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_explain.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_explain.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_explain.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_explain.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_explain.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_explain.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_explain.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_explain.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_explain.html:128
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:129
+msgid "<b><a href=\"syntax/sql-stmt.html\">sql-stmt:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:139
+msgid "QUERY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:143
+msgid "PLAN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:153
+msgid "alter-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:160
+msgid "analyze-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:167
+msgid "attach-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:174
+msgid "begin-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:181
+msgid "commit-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:188
+msgid "create-index-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:195
+msgid "create-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:202
+msgid "create-trigger-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:209
+msgid "create-view-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:216
+msgid "create-virtual-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:223
+msgid "delete-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:230
+msgid "delete-stmt-limited"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:237
+msgid "detach-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:244
+msgid "drop-index-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:251
+msgid "drop-table-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:258
+msgid "drop-trigger-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:265
+msgid "drop-view-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:272
+msgid "insert-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:279
+msgid "pragma-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:286
+msgid "reindex-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:293
+msgid "release-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:300
+msgid "rollback-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:307
+msgid "savepoint-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:314
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:321
+msgid "update-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:328
+msgid "update-stmt-limited"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_explain.html:335
+msgid "vacuum-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_explain.html:346
+msgid "<span>2. </span>Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:348
+msgid ""
+"An SQL statement can be preceded by the keyword \"EXPLAIN\" or by the phrase "
+"\"EXPLAIN QUERY PLAN\".  Either modification causes the SQL statement to "
+"behave as a query and to return information about how the SQL statement "
+"would have operated if the EXPLAIN keyword or phrase had been omitted."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:354
+msgid ""
+"The output from EXPLAIN and EXPLAIN QUERY PLAN is intended for interactive "
+"analysis and troubleshooting only.  The details of the output format are "
+"subject to change from one release of SQLite to the next.  Applications "
+"should not use EXPLAIN or EXPLAIN QUERY PLAN since their exact behavior is "
+"variable and only partially documented."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:360
+msgid ""
+"When the EXPLAIN keyword appears by itself it causes the statement to behave "
+"as a query that returns the sequence of <a href=\"opcode.html\">virtual "
+"machine instructions</a> it would have used to execute the command had the "
+"EXPLAIN keyword not been present. When the EXPLAIN QUERY PLAN phrase "
+"appears, the statement returns high-level information regarding the query "
+"plan that would have been used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:367
+msgid ""
+"The EXPLAIN QUERY PLAN command is described in <a href=\"eqp.html\">more "
+"detail here</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_explain.html:370
+msgid "<span>2.1. </span>EXPLAIN operates at run-time, not at prepare-time"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:372
+msgid ""
+"The EXPLAIN and EXPLAIN QUERY PLAN prefixes affect the behavior of running a "
+"<a href=\"c3ref/stmt.html\">prepared statement</a> using <a "
+"href=\"c3ref/step.html\">sqlite3_step()</a>.  The process of generating a "
+"new prepared statement using <a "
+"href=\"c3ref/prepare.html\">sqlite3_prepare()</a> or similar is (mostly) "
+"unaffected by EXPLAIN.  (The exception to the previous sentence is that some "
+"special opcodes used by EXPLAIN QUERY PLAN are omitted when building an "
+"EXPLAIN QUERY PLAN prepared statement, as a performance optimization.)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_explain.html:380
+msgid ""
+"This means that actions that occur during sqlite3_prepare() are unaffected "
+"by EXPLAIN."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_explain.html:385
+msgid ""
+"Some <a href=\"pragma.html#syntax\">PRAGMA</a> statements do their work "
+"during sqlite3_prepare() rather than during sqlite3_step().  Those PRAGMA "
+"statements are unaffected by EXPLAIN.  They operate the same with or without "
+"the EXPLAIN prefix.  The set of PRAGMA statements that are unaffected by "
+"EXPLAIN can vary from one release to the next.  Some PRAGMA statements "
+"operate during sqlite3_prepare() depending on their arguments.  For "
+"consistent results, avoid using EXPLAIN on PRAGMA statements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/lang_explain.html:394
+msgid ""
+"The <a href=\"c3ref/set_authorizer.html\">authorizer callback</a> is invoked "
+"regardless of the presence of EXPLAIN or EXPLAIN QUERY PLAN."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_explain.html:397
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_explain.in?m=7122ecf5f6\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

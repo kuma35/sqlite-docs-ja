@@ -1,0 +1,903 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/bindptr.html:6 sedout/bindptr.html:121
+msgid "Pointer Passing Interfaces"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/bindptr.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/bindptr.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/bindptr.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/bindptr.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/bindptr.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/bindptr.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/bindptr.html:22 sedout/bindptr.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/bindptr.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/bindptr.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/bindptr.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/bindptr.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/bindptr.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/bindptr.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/bindptr.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/bindptr.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/bindptr.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/bindptr.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/bindptr.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/bindptr.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/bindptr.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/bindptr.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/bindptr.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/bindptr.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:129
+msgid ""
+"<a href=\"#a_brief_history_of_pointer_passing_in_sqlite\">2. A Brief History "
+"Of Pointer Passing In SQLite</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:130
+msgid "<a href=\"#upping_the_threat_level\">2.1. Upping The Threat Level</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:131
+msgid ""
+"<a href=\"#preventing_forged_pointers\">2.2. Preventing Forged Pointers</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:132
+msgid "<a href=\"#pointer_leaks\">2.3. Pointer Leaks</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:133
+msgid ""
+"<a href=\"#the_new_pointer_passing_interfaces\">3. The New Pointer-Passing "
+"Interfaces</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:134
+msgid "<a href=\"#pointer_types\">3.1. Pointer Types</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:135
+msgid ""
+"<a href=\"#pointer_types_are_static_strings\">3.1.1. Pointer types are "
+"static strings</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:136
+msgid "<a href=\"#destructor_functions\">3.2. Destructor Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:137
+msgid ""
+"<a href=\"#restrictions_on_the_use_of_pointer_values\">4. Restrictions On "
+"The Use of Pointer Values</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/bindptr.html:138
+msgid "<a href=\"#summary\">5. Summary</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/bindptr.html:142
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/bindptr.html:160
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/bindptr.html:163
+msgid ""
+"Three new \"_pointer()\" interfaces were added to SQLite 3.20.0 (2017-08-01):"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/bindptr.html:165
+msgid "<a href=\"c3ref/bind_blob.html\">sqlite3_bind_pointer()</a>,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/bindptr.html:166
+msgid "<a href=\"c3ref/result_blob.html\">sqlite3_result_pointer()</a>, and"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/bindptr.html:167
+msgid "<a href=\"c3ref/value_blob.html\">sqlite3_value_pointer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/bindptr.html:170
+msgid ""
+"Questions and confusion quickly arose on the <a href=\"support."
+"html#mailinglists\">mailing lists</a> about the purpose behind these new "
+"interfaces, why they were introduced, and what problem they solve.  This "
+"essay attempts to answer those questions and clear up the confusion."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/bindptr.html:175
+msgid "<span>2. </span>A Brief History Of Pointer Passing In SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/bindptr.html:178
+msgid ""
+"It is sometimes convenient for SQLite extensions to communicate non-SQL "
+"values between subcomponents or between the extension and the application.  "
+"Some examples:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/bindptr.html:184
+msgid ""
+"In the <a href=\"fts3.html\">FTS3</a> extension, the <a href=\"fts3."
+"html#full_text_index_queries\">MATCH operator</a> (which does the full-text "
+"search)  needs to communicate details of matching entries to the <a "
+"href=\"fts3.html#snippet\">snippet()</a>, <a href=\"fts3."
+"html#offsets\">offsets()</a>, and <a href=\"fts3."
+"html#matchinfo\">matchinfo()</a> functions so that those functions can "
+"convert the details of the match into useful output."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/bindptr.html:192
+msgid ""
+"In order for an application to <a href=\"fts5.html#extending_fts5\">add new "
+"extensions to FTS5</a>, such as new tokenizers, the application needs a "
+"pointer to the \"fts5_api\" object."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ul><li>
+#: sedout/bindptr.html:197
+msgid ""
+"In the <a href=\"carray.html\">CARRAY extension</a>, the application needs "
+"to tell the extension the location of a C-language array that contains the "
+"data for the table-valued function that the extension implements."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:204
+msgid ""
+"The traditional way of communicating this information was to transform a C-"
+"language pointer into a BLOB or a 64-bit integer, then move that BLOB or "
+"integer through SQLite using the usual interfaces like <a href=\"c3ref/"
+"bind_blob.html\">sqlite3_bind_blob()</a>, <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_blob()</a>, <a href=\"c3ref/value_blob."
+"html\">sqlite3_value_blob()</a> or the integer equivalents."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/bindptr.html:210
+msgid "<span>2.1. </span>Upping The Threat Level"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:213
+msgid ""
+"Passing around pointers as if they were integers or BLOBs is easy, "
+"effective, and works well in an environment where the application components "
+"are all friendly toward one another.  However, passing pointers as integers "
+"and BLOBs allows hostile SQL text to forge invalid pointers that can carry "
+"out mischief."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:220
+msgid ""
+"For example, the first argument to the <a href=\"fts3."
+"html#snippet\">snippet()</a> function is supposed to be a special column of "
+"the FTS3 table that contains a pointer to an fts3cursor object that contains "
+"information about the current full text search match.  That pointer was "
+"formerly passed as a BLOB.  For example, if the FTS3 table is named \"t1\" "
+"and has a column named \"cx\", one might write:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/bindptr.html:227
+#, no-wrap
+msgid "SELECT snippet(t1) FROM t1 WHERE cx MATCH $pattern;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:231
+msgid ""
+"But if a hacker is able to run arbitrary SQL, he might run a slightly "
+"different query, like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><pre>
+#: sedout/bindptr.html:234 sedout/bindptr.html:335
+#, no-wrap
+msgid "SELECT hex(t1) FROM t1 WHERE cx MATCH $pattern;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:238
+msgid ""
+"Because the pointer is passed in the t1 column of the t1 table as a BLOB (in "
+"older versions of SQLite), such a query would have shown the value of the "
+"pointer in hex.  The attacker could then modify that pointer to try to get "
+"the snippet() function to modify memory in some other part of the "
+"application address space instead of the fts3cursor object it was supposed "
+"to be operating on:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><pre>
+#: sedout/bindptr.html:246 sedout/bindptr.html:323
+#, no-wrap
+msgid "SELECT snippet(x'6092310100000000') FROM t1 WHERE cx MATCH $pattern;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:250
+msgid ""
+"Historically, this was not considered a threat.  The argument was that if a "
+"hostile agent is able to inject arbitrary SQL text into the application, "
+"then that agent is already in full control of the application, so letting "
+"the hostile agent forge a pointer does not give the agent any new capability."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/bindptr.html:257
+msgid ""
+"For most cases, it is true that potential attackers have no way of injecting "
+"arbitrary SQL, and so most uses of SQLite are immune to the attack above.  "
+"But there are some notable exceptions.  To wit:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/bindptr.html:263
+msgid ""
+"The <a href=\"https://en.wikipedia.org/wiki/Web_SQL_Database\">WebSQL</a> "
+"interface to webkit allowed any webpage to run arbitrary SQL in the browser "
+"for Chrome and Safari.  That arbitrary SQL was supposed to be run inside a "
+"sandbox where it could do no harm even if exploited, but that sandbox turned "
+"out to be less secure than people supposed.  In the spring of 2017, one team "
+"of hackers was able to root an iMac using a long sequence of exploits, one "
+"of which involved corrupting the pointers passed as BLOB values to the "
+"snippet() FTS3 function of an SQLite database running via the WebSQL "
+"interface inside of Safari."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/bindptr.html:274
+msgid ""
+"On Android, we are told, there are many services that will blindly run "
+"arbitrary SQL that is passed to them by untrustworthy apps that have been "
+"downloaded from dodgy corners of the internet.  Android services are suppose "
+"to be more guarded about running SQL from unvetted sources.  This author "
+"does not have any specific examples to the contrary, but he has heard rumors "
+"that they exist.  Even if all Android services are more careful and properly "
+"vet all the SQL they run, it would be difficult to audit them all in order "
+"to verify that they are safe.  Hence, security-minded people are keen to "
+"ensure that no exploits are possible by passing arbitrary SQL text."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><li>
+#: sedout/bindptr.html:287
+msgid ""
+"The <a href=\"https://www.fossil-scm.org/\">Fossil</a> version control "
+"system (designed and written for the purpose of supporting SQLite "
+"development) allows mildly trusted users to enter arbitrary SQL for "
+"generating trouble-ticket reports.  That SQL is sanitized using the <a "
+"href=\"c3ref/set_authorizer.html\">sqlite3_set_authorizer()</a> interface, "
+"and no exploits have ever been found.  But this is an example of potentially "
+"hostile agents being able to inject arbitrary SQL into the system."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/bindptr.html:296
+msgid "<span>2.2. </span>Preventing Forged Pointers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:299
+msgid ""
+"The first attempt at closing security gaps in pointer passing was to prevent "
+"pointer values from being forged.  This was accomplished by having the "
+"sender attach a subtype to each pointer using <a href=\"c3ref/result_subtype."
+"html\">sqlite3_result_subtype()</a> and having the receiver verify that "
+"subtype using <a href=\"c3ref/value_subtype.html\">sqlite3_value_subtype()</"
+"a> and reject pointers that had an incorrect subtype.  Since there is no way "
+"to attach a subtype to a result using pure SQL, this prevents pointers from "
+"being forged using SQL.  The only way to send a pointer is to use C code.  "
+"If an attacker can set a subtype, then he is also able to forge a pointer "
+"without the help of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:310
+msgid ""
+"Using subtypes to identify valid pointers prevented the WebSQL exploit.  But "
+"it turned out to be an incomplete solution.  <a name=\"ptrleak\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h2>
+#: sedout/bindptr.html:315
+msgid "<span>2.3. </span>Pointer Leaks"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:318
+msgid ""
+"The use of subtypes on pointers prevented pointer forgery using pure SQL.  "
+"But subtypes do nothing to prevent an attacker from reading the values of "
+"pointers.  In other words, subtypes on pointer values prevent attacks using "
+"SQL statements like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:327
+msgid ""
+"The BLOB argument to snippet() does not have the correct subtype, so the "
+"snippet function ignores it, makes no changes to any data structures, and "
+"harmlessly returns NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:332
+msgid ""
+"But the use of subtypes does nothing to prevent the value of a pointer from "
+"being read using SQL code like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:339
+msgid ""
+"What harm could come of that, you ask? The SQLite developers (including this "
+"author) wondered the same thing.  But then security researchers pointed out "
+"that knowledge of pointers can help attackers to circumvent address-space "
+"randomization defenses.  This is called a \"pointer leak\".  A pointer leak "
+"is not itself a vulnerability, but it can aid an attacker in effectively "
+"exploiting other vulnerabilities."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/bindptr.html:346
+msgid "<span>3. </span>The New Pointer-Passing Interfaces"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/bindptr.html:349
+msgid ""
+"Allowing extension components to pass private information to one another "
+"securely and without introducing pointer leaks requires new interfaces:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/bindptr.html:353
+msgid ""
+"<b><a href=\"c3ref/bind_blob.html\">sqlite3_bind_pointer</a>(S,I,P,T,D)</b> "
+"&rarr; Bind pointer P of type T to the I-th parameter of prepared statement "
+"S.  D is an optional destructor function for P."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/bindptr.html:356
+msgid ""
+"<b><a href=\"c3ref/result_blob.html\">sqlite3_result_pointer</a>(C,P,T,D)</"
+"b> &rarr; Return pointer P of type T as the argument of function C.  D is an "
+"optional destructor function for P."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/bindptr.html:359
+msgid ""
+"<b><a href=\"c3ref/value_blob.html\">sqlite3_value_pointer</a>(V,T)</b> "
+"&rarr; Return the pointer of type T associated with value V, or if V has no "
+"associated pointer, or if the pointer on V is of a type different from T, "
+"then return NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:366
+msgid ""
+"To SQL, the values created by <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind_pointer()</a> and <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a> are indistinguishable from NULL.  An SQL "
+"statement that tries to use the <a href=\"lang_corefunc.html#hex\">hex()</a> "
+"function to read the value of a pointer will get an SQL NULL answer.  The "
+"only way to discover whether or not a value has an associated pointer is to "
+"use the <a href=\"c3ref/value_blob.html\">sqlite3_value_pointer()</a> "
+"interface with the appropriate type string T."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:375
+msgid ""
+"Pointer values read by <a href=\"c3ref/value_blob."
+"html\">sqlite3_value_pointer()</a> cannot be generated by pure SQL.  Hence, "
+"it is not possible for SQL to forge pointers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:380
+msgid ""
+"Pointer values generated by <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind_pointer()</a> and <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a> cannot be read by pure SQL.  Hence, it "
+"is not possible for SQL to leak the value of pointers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:385
+msgid ""
+"In this way the new pointer-passing interface seems to solve all of the "
+"security problems associated with passing pointer values from one extension "
+"to another in SQLite.  <a name=\"ptrtyp\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h2>
+#: sedout/bindptr.html:391
+msgid "<span>3.1. </span>Pointer Types"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:394
+msgid ""
+"The \"pointer type\" in the last parameter to <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind_pointer()</a>, <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a>, and <a href=\"c3ref/value_blob."
+"html\">sqlite3_value_pointer()</a> is used to prevent pointers intended for "
+"one extension from being redirected to a different extension.  For example, "
+"without the use of pointer types, an attacker could still get access to "
+"pointer information in a system that included both the <a href=\"fts3."
+"html\">FTS3</a> and the <a href=\"carray.html\">CARRAY extension</a> using "
+"SQL like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><div><pre>
+#: sedout/bindptr.html:401
+#, no-wrap
+msgid "SELECT ca.value FROM t1, carray(t1,10) AS ca WHERE cx MATCH $pattern\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:405
+msgid ""
+"In the statement above, the FTS3 cursor pointer generated by the MATCH "
+"operator is send into the carray() table-valued function instead of its "
+"intended recipient snippet().  The carray() function treats the pointer as a "
+"pointer to an array of integers and returns each integer one by one, thus "
+"leaking the content of the FTS3 cursor object.  Since the FTS3 cursor object "
+"contains pointers to other objects, the statement above would be a pointer "
+"leak."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:414
+msgid ""
+"Except, the statement above does not work, thanks to pointer types.  The "
+"pointer generated by the MATCH operator has a type of \"fts3cursor\" but the "
+"carray() function expects to receives a pointer of type \"carray\".  Because "
+"the pointer type on the <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a> does not match the pointer type on the "
+"<a href=\"c3ref/value_blob.html\">sqlite3_value_pointer()</a> call, <a "
+"href=\"c3ref/value_blob.html\">sqlite3_value_pointer()</a> returns NULL in "
+"carray() and thus signals the CARRAY extension that it has been passed an "
+"invalid pointer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h3>
+#: sedout/bindptr.html:422
+msgid "<span>3.1.1. </span>Pointer types are static strings"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:425
+msgid ""
+"Pointer types are static strings, which ideally should be string literals "
+"embedded directly in the SQLite API call, not parameters passed in from "
+"other functions.  Consideration was given to using integer values as the "
+"pointer type, but static strings provides a much larger name space which "
+"reduces the chance of accidental type-name collisions between unrelated "
+"extensions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:433
+msgid ""
+"By \"static string\", we mean a zero-terminated array of bytes that is fixed "
+"and unchanging for the life of the program.  In other words, the pointer "
+"type string should be a string constant.  In contrast, a \"dynamic string\" "
+"is a zero-terminated array of bytes that is held in memory allocated from "
+"the heap, and which must be freed to avoid a memory leak.  Do not use "
+"dynamic strings as the pointer type string."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/bindptr.html:442
+msgid ""
+"Multiple commentators have expressed a desire to use dynamic strings for the "
+"pointer type, and to have SQLite take ownership of the type strings and to "
+"automatically free the type string when it has finished using it.  That "
+"design is rejected for the following reasons:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:450
+msgid ""
+"The pointer type is not intended to be flexible and dynamic.  The pointer "
+"type is intended to be a design-time constant.  Applications should not "
+"synthesize pointer type strings at run-time.  Providing support for dynamic "
+"pointer type strings would lead developers to misuse the pointer-passing "
+"interfaces by creating run-time synthesized pointer type strings.  Requiring "
+"the pointer type strings to be static encourages developers to do the right "
+"thing by choosing fixed pointer type names at design-time and encoding those "
+"names as constant strings."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:461
+msgid ""
+"All string values at the SQL level in SQLite are dynamic strings.  Requiring "
+"type strings to be static makes it difficult to create an application-"
+"defined SQL function that can synthesize a pointer of an arbitrary type.  We "
+"do not want users to create such SQL functions, since such functions would "
+"compromise the security of the system.  Thus, the requirement to use static "
+"strings helps to defend that the integrity of the pointer-passing interfaces "
+"against ill-designed SQL functions.  The static string requirement is not a "
+"perfect defense, since a sophisticated programmer can code around it, and a "
+"novice program can simply take the memory leak.  But by stating that the "
+"pointer type string must be static, we hope to encourage developers who "
+"might otherwise use a dynamic string for the pointer type to think more "
+"carefully about the problem and avoid introducing security issues."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:477
+msgid ""
+"Having SQLite take ownership of the type strings would impose a performance "
+"cost on all applications, even applications that do not use the pointer-"
+"passing interfaces.  SQLite passes values around as instances of the <a "
+"href=\"c3ref/value.html\">sqlite3_value</a> object.  That object has a "
+"destructor, which because of the fact that sqlite3_value objects are used "
+"for nearly everything, is invoked frequently.  If the destructor needs to "
+"check to see if there is a pointer type string that needs to be freed, that "
+"is a few extra CPU cycles that need to be burned on each call to the "
+"destructor.  Those cycles add up.  We would be willing to bear the cost of "
+"the extra CPU cycles if pointer-passing was a commonly used programming "
+"paradigm, but pointer-passing is rare, and so it seems unwise to impose a "
+"run-time cost on billions and billions of applications that do not use "
+"pointer passing just for convenience of a few applications that do."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:493
+msgid ""
+"If you feel that you need dynamic pointer type strings in your application, "
+"that is a strong indicator that you are misusing the pointer-passing "
+"interface.  Your intended use may be unsafe.  Please rethink your design.  "
+"Determine if you really need to be passing pointers through SQL in the first "
+"place.  Or perhaps find a different mechanism other than the pointer-passing "
+"interfaces described by this article."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h2>
+#: sedout/bindptr.html:501
+msgid "<span>3.2. </span>Destructor Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:504
+msgid ""
+"The last parameter to the <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind_pointer()</a> and <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a> routines is a pointer to a procedure "
+"used to dispose of the P pointer once SQLite has finished with it.  This "
+"pointer can be NULL, in which case no destructor is called."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:510
+msgid ""
+"When the D parameter is not NULL, that means that ownership of the pointer "
+"is being transferred to SQLite.  SQLite will take responsibility for freeing "
+"resources associated with the pointer when it has finished using the "
+"pointer.  If the D parameter is NULL, that means that ownership of the "
+"pointer remains with the caller and the caller is responsible for disposing "
+"of the pointer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:518
+msgid ""
+"Note that the destructor function D is for the pointer value P, not for the "
+"type string T.  The type string T should be a static string with an infinite "
+"lifetime."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:523
+msgid ""
+"If ownership of the pointer is passed into SQLite by providing a non-NULL D "
+"parameter to <a href=\"c3ref/bind_blob.html\">sqlite3_bind_pointer()</a> or "
+"<a href=\"c3ref/result_blob.html\">sqlite3_result_pointer()</a> then the "
+"ownership remains with SQLite until the object is destroyed.  There is no "
+"way to transfer ownership out of SQLite and back into the application again."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h1>
+#: sedout/bindptr.html:529
+msgid "<span>4. </span>Restrictions On The Use of Pointer Values"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:532
+msgid ""
+"The pointers that piggy-back on SQL NULL values using the <a href=\"c3ref/"
+"bind_blob.html\">sqlite3_bind_pointer()</a>, <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a>, and <a href=\"c3ref/value_blob."
+"html\">sqlite3_value_pointer()</a> interface are transient and ephemeral.  "
+"The pointers are never written into the database.  The pointers will not "
+"survive sorting.  The latter fact is why there is no "
+"sqlite3_column_pointer() interface, since it is impossible to predict "
+"whether or not the query planner will insert a sort operation prior to "
+"returning a value from a query, so it would be impossible to know if a "
+"pointer value inserted into a query by <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind_pointer()</a> or <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a> would survive through to the result set."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:545
+msgid ""
+"Pointer values must flow directly from their producer into their consumer, "
+"with no intermediate operators or functions.  Any transformation of a "
+"pointer value destroys the pointer and transforms the value into an ordinary "
+"SQL NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><h1>
+#: sedout/bindptr.html:550
+msgid "<span>5. </span>Summary"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/bindptr.html:552
+msgid "Key take-aways from this essay:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:556
+msgid ""
+"The internet is an increasingly hostile place.  These day, developers should "
+"assume that attackers will find a way to execute arbitrary SQL in an "
+"application.  Applications should be designed to prevent the execution of "
+"arbitrary SQL from escalating into a more severe exploit."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:563
+msgid "A few SQLite extensions benefit from passing pointers:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li><ul><li>
+#: sedout/bindptr.html:565
+msgid ""
+"The <a href=\"fts3.html\">FTS3</a> MATCH operator passes pointers into <a "
+"href=\"fts3.html#snippet\">snippet()</a>, <a href=\"fts3."
+"html#offsets\">offsets()</a>, and <a href=\"fts3."
+"html#matchinfo\">matchinfo()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li><ul><li>
+#: sedout/bindptr.html:567
+msgid ""
+"The <a href=\"carray.html\">carray table-valued function</a> needs to accept "
+"a pointer to an array of C-language values from the application."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li><ul><li>
+#: sedout/bindptr.html:569
+msgid ""
+"The <a href=\"https://sqlite.org/src/file/ext/misc/remember.c\">remember() "
+"extension</a> needs a pointer to a C-language integer variable in which to "
+"remember the value it passes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li><ul><li>
+#: sedout/bindptr.html:572
+msgid ""
+"Applications need to receive a pointer to the \"fts5_api\" object in order "
+"to add extensions, such as custom tokenizers, to the <a href=\"fts5."
+"html\">FTS5</a> extension."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:577
+msgid ""
+"Pointers should <u>never</u> be exchanged by encoding them as some other SQL "
+"datatype, such as integers or BLOBs.  Instead, use the interfaces designed "
+"to facilitate secure pointer passing: <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind_pointer()</a>, <a href=\"c3ref/result_blob."
+"html\">sqlite3_result_pointer()</a>, and <a href=\"c3ref/value_blob."
+"html\">sqlite3_value_pointer()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:584
+msgid ""
+"The use of pointer-passing is an advanced technique that should be used "
+"infrequently and cautiously.  Pointer-passing should not be used haphazardly "
+"or carelessly.  Pointer-passing is a sharp tool that can leave deep scars if "
+"misused."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><ol><li>
+#: sedout/bindptr.html:590
+msgid ""
+"The \"pointer type\" string which is the last parameter to each of the "
+"pointer-passing interfaces should be a distinct, application-specific string "
+"literal that appears directly in the API call.  The pointer type should not "
+"be a parameter passed in from a higher-level function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p><p>
+#: sedout/bindptr.html:595
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/bindptr.in?m=0313c34170\">2022-10-07 10:23:26</a> UTC </i></small>"
+msgstr ""

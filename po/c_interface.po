@@ -1,0 +1,1900 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><p><h2>
+#: sedout/c_interface.html:6 sedout/c_interface.html:131
+msgid "The C language interface to SQLite Version 2"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c_interface.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c_interface.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c_interface.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c_interface.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c_interface.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c_interface.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c_interface.html:22 sedout/c_interface.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c_interface.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c_interface.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c_interface.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c_interface.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c_interface.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c_interface.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c_interface.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c_interface.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c_interface.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c_interface.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c_interface.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c_interface.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c_interface.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c_interface.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c_interface.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><p><center><table><tr><td>
+#: sedout/c_interface.html:123
+msgid ""
+"<b>Editorial Note:</b> This document describes SQLite version 2, which was "
+"deprecated and replaced by SQLite3 in 2004.  This document is retained as "
+"part of the historical record of SQLite.  Modern programmers should refer to "
+"more up-to-date documentation on SQLite is available elsewhere on this "
+"website."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:133
+msgid ""
+"The SQLite library is designed to be very easy to use from a C or C++ "
+"program.  This document gives an overview of the C/C++ programming interface."
+msgstr ""
+
+#. type: Content of: <html><body><p><h3>
+#: sedout/c_interface.html:137
+msgid "1.0 The Core API"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:139
+msgid ""
+"The interface to the SQLite library consists of three core functions, one "
+"opaque data structure, and some constants used as return values.  The core "
+"interface is as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><pre>
+#: sedout/c_interface.html:144
+#, no-wrap
+msgid ""
+"typedef struct sqlite sqlite;\n"
+"#define SQLITE_OK           0   /* Successful result */\n"
+"\n"
+"sqlite *sqlite_open(const char *dbname, int mode, char **errmsg);\n"
+"\n"
+"void sqlite_close(sqlite *db);\n"
+"\n"
+"int sqlite_exec(\n"
+"  sqlite *db,\n"
+"  char *sql,\n"
+"  int (*xCallback)(void*,int,char**,char**),\n"
+"  void *pArg,\n"
+"  char **errmsg\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:161
+msgid ""
+"The above is all you really need to know in order to use SQLite in your C or "
+"C++ programs.  There are other interface functions available (and described "
+"below) but we will begin by describing the core functions shown above."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c_interface.html:167
+msgid "<a name=\"sqlite_open\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><h4>
+#: sedout/c_interface.html:168
+msgid "1.1 Opening a database"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:170
+msgid ""
+"Use the <b>sqlite_open</b> function to open an existing SQLite database or "
+"to create a new SQLite database.  The first argument is the database name.  "
+"The second argument is intended to signal whether the database is going to "
+"be used for reading and writing or just for reading.  But in the current "
+"implementation, the second argument to <b>sqlite_open</b> is ignored.  The "
+"third argument is a pointer to a string pointer.  If the third argument is "
+"not NULL and an error occurs while trying to open the database, then an "
+"error message will be written to memory obtained from malloc() and *errmsg "
+"will be made to point to this error message.  The calling function is "
+"responsible for freeing the memory when it has finished with it."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:183
+msgid ""
+"The name of an SQLite database is the name of a file that will contain the "
+"database.  If the file does not exist, SQLite attempts to create and "
+"initialize it.  If the file is read-only (due to permission bits or because "
+"it is located on read-only media like a CD-ROM) then SQLite opens the "
+"database for reading only.  The entire SQL database is stored in a single "
+"file on the disk.  But additional temporary files may be created during the "
+"execution of an SQL command in order to store the database rollback journal "
+"or temporary and intermediate results of a query."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:193
+msgid ""
+"The return value of the <b>sqlite_open</b> function is a pointer to an "
+"opaque <b>sqlite</b> structure.  This pointer will be the first argument to "
+"all subsequent SQLite function calls that deal with the same database.  NULL "
+"is returned if the open fails for any reason."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c_interface.html:199
+msgid "<a name=\"sqlite_close\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><h4>
+#: sedout/c_interface.html:200
+msgid "1.2 Closing the database"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:202
+msgid ""
+"To close an SQLite database, call the <b>sqlite_close</b> function passing "
+"it the sqlite structure pointer that was obtained from a prior call to "
+"<b>sqlite_open</b>.  If a transaction is active when the database is closed, "
+"the transaction is rolled back."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c_interface.html:208
+msgid "<a name=\"sqlite_exec\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><h4>
+#: sedout/c_interface.html:209
+msgid "1.3 Executing SQL statements"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:211
+msgid ""
+"The <b>sqlite_exec</b> function is used to process SQL statements and "
+"queries.  This function requires 5 parameters as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><p><ol><li>
+#: sedout/c_interface.html:215
+msgid ""
+"A pointer to the sqlite structure obtained from a prior call to "
+"<b>sqlite_open</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><ol><li>
+#: sedout/c_interface.html:217
+msgid ""
+"A zero-terminated string containing the text of one or more SQL statements "
+"and/or queries to be processed."
+msgstr ""
+
+#. type: Content of: <html><body><p><ol><li>
+#: sedout/c_interface.html:219
+msgid ""
+"A pointer to a callback function which is invoked once for each row in the "
+"result of a query.  This argument may be NULL, in which case no callbacks "
+"will ever be invoked."
+msgstr ""
+
+#. type: Content of: <html><body><p><ol><li>
+#: sedout/c_interface.html:222
+msgid ""
+"A pointer that is forwarded to become the first argument to the callback "
+"function."
+msgstr ""
+
+#. type: Content of: <html><body><p><ol><li>
+#: sedout/c_interface.html:224
+msgid ""
+"A pointer to an error string.  Error messages are written to space obtained "
+"from malloc() and the error string is made to point to the malloced space.  "
+"The calling function is responsible for freeing this space when it has "
+"finished with it.  This argument may be NULL, in which case error messages "
+"are not reported back to the calling function."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:233
+msgid ""
+"The callback function is used to receive the results of a query.  A "
+"prototype for the callback function is as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><pre>
+#: sedout/c_interface.html:237
+#, no-wrap
+msgid ""
+"int Callback(void *pArg, int argc, char **argv, char **columnNames){\n"
+"  return 0;\n"
+"}\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c_interface.html:242
+msgid "<a name=\"callback_row_data\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:243
+msgid ""
+"The first argument to the callback is just a copy of the fourth argument to "
+"<b>sqlite_exec</b> This parameter can be used to pass arbitrary information "
+"through to the callback function from client code.  The second argument is "
+"the number of columns in the query result.  The third argument is an array "
+"of pointers to strings where each string is a single column of the result "
+"for that record.  Note that the callback function reports a NULL value in "
+"the database as a NULL pointer, which is very different from an empty "
+"string.  If the i-th parameter is an empty string, we will get:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><pre>
+#: sedout/c_interface.html:253
+#, no-wrap
+msgid "argv&#91;i]&#91;0] == 0\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:255
+msgid "But if the i-th parameter is NULL we will get:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><pre>
+#: sedout/c_interface.html:257
+#, no-wrap
+msgid "argv&#91;i] == 0\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:260
+msgid ""
+"The names of the columns are contained in first <i>argc</i> entries of the "
+"fourth argument.  If the <a href=\"pragma.html\">SHOW_DATATYPES</a> pragma "
+"is on (it is off by default) then the second <i>argc</i> entries in the 4th "
+"argument are the datatypes for the corresponding columns."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:268
+msgid ""
+"If the <a href=\"pragma.html#pragma_empty_result_callbacks\"> "
+"EMPTY_RESULT_CALLBACKS</a> pragma is set to ON and the result of a query is "
+"an empty set, then the callback is invoked once with the third parameter "
+"(argv) set to 0.  In other words"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><pre>
+#: sedout/c_interface.html:273
+#, no-wrap
+msgid "argv == 0\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:275
+msgid ""
+"The second parameter (argc)  and the fourth parameter (columnNames) are "
+"still valid and can be used to determine the number and names of the result "
+"columns if there had been a result.  The default behavior is not to invoke "
+"the callback at all if the result set is empty."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c_interface.html:282
+msgid "<a name=\"callback_returns_nonzero\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:283
+msgid ""
+"The callback function should normally return 0.  If the callback function "
+"returns non-zero, the query is immediately aborted and <b>sqlite_exec</b> "
+"will return SQLITE_ABORT."
+msgstr ""
+
+#. type: Content of: <html><body><p><h4>
+#: sedout/c_interface.html:287
+msgid "1.4 Error Codes"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:290
+msgid ""
+"The <b>sqlite_exec</b> function normally returns SQLITE_OK.  But if "
+"something goes wrong it can return a different value to indicate the type of "
+"error.  Here is a complete list of the return codes:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><pre>
+#: sedout/c_interface.html:296
+#, no-wrap
+msgid ""
+"#define SQLITE_OK           0   /* Successful result */\n"
+"#define SQLITE_ERROR        1   /* SQL error or missing database */\n"
+"#define SQLITE_INTERNAL     2   /* An internal logic error in SQLite */\n"
+"#define SQLITE_PERM         3   /* Access permission denied */\n"
+"#define SQLITE_ABORT        4   /* Callback routine requested an abort */\n"
+"#define SQLITE_BUSY         5   /* The database file is locked */\n"
+"#define SQLITE_LOCKED       6   /* A table in the database is locked */\n"
+"#define SQLITE_NOMEM        7   /* A malloc() failed */\n"
+"#define SQLITE_READONLY     8   /* Attempt to write a readonly database */\n"
+"#define SQLITE_INTERRUPT    9   /* Operation terminated by sqlite_interrupt() */\n"
+"#define SQLITE_IOERR       10   /* Some kind of disk I/O error occurred */\n"
+"#define SQLITE_CORRUPT     11   /* The database disk image is malformed */\n"
+"#define SQLITE_NOTFOUND    12   /* (Internal Only) Table or record not found */\n"
+"#define SQLITE_FULL        13   /* Insertion failed because database is full */\n"
+"#define SQLITE_CANTOPEN    14   /* Unable to open the database file */\n"
+"#define SQLITE_PROTOCOL    15   /* Database lock protocol error */\n"
+"#define SQLITE_EMPTY       16   /* (Internal Only) Database table is empty */\n"
+"#define SQLITE_SCHEMA      17   /* The database schema changed */\n"
+"#define SQLITE_TOOBIG      18   /* Too much data for one row of a table */\n"
+"#define SQLITE_CONSTRAINT  19   /* Abort due to constraint violation */\n"
+"#define SQLITE_MISMATCH    20   /* Data type mismatch */\n"
+"#define SQLITE_MISUSE      21   /* Library used incorrectly */\n"
+"#define SQLITE_NOLFS       22   /* Uses OS features not supported on host */\n"
+"#define SQLITE_AUTH        23   /* Authorization denied */\n"
+"#define SQLITE_ROW         100  /* sqlite_step() has another row ready */\n"
+"#define SQLITE_DONE        101  /* sqlite_step() has finished executing */\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:325
+msgid "The meanings of these various return values are as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:330
+msgid "SQLITE_OK"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:331
+msgid "This value is returned if everything worked and there were no errors."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:333
+msgid "SQLITE_INTERNAL"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:334
+msgid ""
+"This value indicates that an internal consistency check within the SQLite "
+"library failed.  This can only happen if there is a bug in the SQLite "
+"library.  If you ever get an SQLITE_INTERNAL reply from an <b>sqlite_exec</"
+"b> call, please report the problem on the SQLite mailing list."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:340
+msgid "SQLITE_ERROR"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:341
+msgid ""
+"This return value indicates that there was an error in the SQL that was "
+"passed into the <b>sqlite_exec</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:344
+msgid "SQLITE_PERM"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:345
+msgid ""
+"This return value says that the access permissions on the database file are "
+"such that the file cannot be opened."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:348
+msgid "SQLITE_ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:349
+msgid "This value is returned if the callback function returns non-zero."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:351
+msgid "SQLITE_BUSY"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:352
+msgid ""
+"This return code indicates that another program or thread has the database "
+"locked.  SQLite allows two or more threads to read the database at the same "
+"time, but only one thread can have the database open for writing at the same "
+"time.  Locking in SQLite is on the entire database."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:358
+msgid "SQLITE_LOCKED"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:359
+msgid ""
+"This return code is similar to SQLITE_BUSY in that it indicates that the "
+"database is locked.  But the source of the lock is a recursive call to "
+"<b>sqlite_exec</b>.  This return can only occur if you attempt to invoke "
+"sqlite_exec from within a callback routine of a query from a prior "
+"invocation of sqlite_exec.  Recursive calls to sqlite_exec are allowed as "
+"long as they do not attempt to write the same table."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:367
+msgid "SQLITE_NOMEM"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:368
+msgid "This value is returned if a call to <b>malloc</b> fails."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:370
+msgid "SQLITE_READONLY"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:371
+msgid ""
+"This return code indicates that an attempt was made to write to a database "
+"file that is opened for reading only."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:374
+msgid "SQLITE_INTERRUPT"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:375
+msgid ""
+"This value is returned if a call to <b>sqlite_interrupt</b> interrupts a "
+"database operation in progress."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:378
+msgid "SQLITE_IOERR"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:379
+msgid ""
+"This value is returned if the operating system informs SQLite that it is "
+"unable to perform some disk I/O operation.  This could mean that there is no "
+"more space left on the disk."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:383
+msgid "SQLITE_CORRUPT"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:384
+msgid ""
+"This value is returned if SQLite detects that the database it is working on "
+"has become corrupted.  Corruption might occur due to a rogue process writing "
+"to the database file or it might happen due to a previously undetected logic "
+"error in of SQLite. This value is also returned if a disk I/O error occurs "
+"in such a way that SQLite is forced to leave the database file in a "
+"corrupted state.  The latter should only happen due to a hardware or "
+"operating system malfunction."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:392
+msgid "SQLITE_FULL"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:393
+msgid ""
+"This value is returned if an insertion failed because there is no space left "
+"on the disk, or the database is too big to hold any more information.  The "
+"latter case should only occur for databases that are larger than 2GB in size."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:398
+msgid "SQLITE_CANTOPEN"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:399
+msgid ""
+"This value is returned if the database file could not be opened for some "
+"reason."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:402
+msgid "SQLITE_PROTOCOL"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:403
+msgid ""
+"This value is returned if some other process is messing with file locks and "
+"has violated the file locking protocol that SQLite uses on its rollback "
+"journal files."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:407
+msgid "SQLITE_SCHEMA"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:408
+msgid ""
+"When the database first opened, SQLite reads the database schema into memory "
+"and uses that schema to parse new SQL statements.  If another process "
+"changes the schema, the command currently being processed will abort because "
+"the virtual machine code generated assumed the old schema.  This is the "
+"return code for such cases.  Retrying the command usually will clear the "
+"problem."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:415
+msgid "SQLITE_TOOBIG"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:416
+msgid ""
+"SQLite will not store more than about 1 megabyte of data in a single row of "
+"a single table.  If you attempt to store more than 1 megabyte in a single "
+"row, this is the return code you get."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:420
+msgid "SQLITE_CONSTRAINT"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:421
+msgid ""
+"This constant is returned if the SQL statement would have violated a "
+"database constraint."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:424
+msgid "SQLITE_MISMATCH"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:425
+msgid ""
+"This error occurs when there is an attempt to insert non-integer data into a "
+"column labeled INTEGER PRIMARY KEY.  For most columns, SQLite ignores the "
+"data type and allows any kind of data to be stored.  But an INTEGER PRIMARY "
+"KEY column is only allowed to store integer data."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:430
+msgid "SQLITE_MISUSE"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:431
+msgid ""
+"This error might occur if one or more of the SQLite API routines is used "
+"incorrectly.  Examples of incorrect usage include calling <b>sqlite_exec</b> "
+"after the database has been closed using <b>sqlite_close</b> or calling "
+"<b>sqlite_exec</b> with the same database pointer simultaneously from two "
+"separate threads."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:438
+msgid "SQLITE_NOLFS"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:439
+msgid ""
+"This error means that you have attempts to create or access a file database "
+"file that is larger that 2GB on a legacy Unix machine that lacks large file "
+"support."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:443
+msgid "SQLITE_AUTH"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:444
+msgid ""
+"This error indicates that the authorizer callback has disallowed the SQL you "
+"are attempting to execute."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:447
+msgid "SQLITE_ROW"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:448
+msgid ""
+"This is one of the return codes from the <b>sqlite_step</b> routine which is "
+"part of the non-callback API.  It indicates that another row of result data "
+"is available."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dt>
+#: sedout/c_interface.html:452
+msgid "SQLITE_DONE"
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><dl><dd>
+#: sedout/c_interface.html:453
+msgid ""
+"This is one of the return codes from the <b>sqlite_step</b> routine which is "
+"part of the non-callback API.  It indicates that the SQL statement has been "
+"completely executed and the <b>sqlite_finalize</b> routine is ready to be "
+"called."
+msgstr ""
+
+#. type: Content of: <html><body><p><h3>
+#: sedout/c_interface.html:461
+msgid "2.0 Accessing Data Without Using A Callback Function"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:464
+msgid ""
+"The <b>sqlite_exec</b> routine described above used to be the only way to "
+"retrieve data from an SQLite database.  But many programmers found it "
+"inconvenient to use a callback function to obtain results.  So beginning "
+"with SQLite version 2.7.7, a second access interface is available that does "
+"not use callbacks."
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:472
+msgid ""
+"The new interface uses three separate functions to replace the single "
+"<b>sqlite_exec</b> function."
+msgstr ""
+
+#. type: Content of: <html><body><p><blockquote><pre>
+#: sedout/c_interface.html:477
+#, no-wrap
+msgid ""
+"typedef struct sqlite_vm sqlite_vm;\n"
+"\n"
+"int sqlite_compile(\n"
+"  sqlite *db,              /* The open database */\n"
+"  const char *zSql,        /* SQL statement to be compiled */\n"
+"  const char **pzTail,     /* OUT: uncompiled tail of zSql */\n"
+"  sqlite_vm **ppVm,        /* OUT: the virtual machine to execute zSql */\n"
+"  char **pzErrmsg          /* OUT: Error message. */\n"
+");\n"
+"\n"
+"int sqlite_step(\n"
+"  sqlite_vm *pVm,          /* The virtual machine to execute */\n"
+"  int *pN,                 /* OUT: Number of columns in result */\n"
+"  const char ***pazValue,  /* OUT: Column data */\n"
+"  const char ***pazColName /* OUT: Column names and datatypes */\n"
+");\n"
+"\n"
+"int sqlite_finalize(\n"
+"  sqlite_vm *pVm,          /* The virtual machine to be finalized */\n"
+"  char **pzErrMsg          /* OUT: Error message */\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:501
+msgid ""
+"The strategy is to compile a single SQL statement using <b>sqlite_compile</"
+"b> then invoke <b>sqlite_step</b> multiple times, once for each row of "
+"output, and finally call <b>sqlite_finalize</b> to clean up after the SQL "
+"has finished execution."
+msgstr ""
+
+#. type: Content of: <html><body><p><h4>
+#: sedout/c_interface.html:507
+msgid "2.1 Compiling An SQL Statement Into A Virtual Machine"
+msgstr ""
+
+#. type: Content of: <html><body><p><p>
+#: sedout/c_interface.html:510
+msgid ""
+"The <b>sqlite_compile</b> \"compiles\" a single SQL statement (specified by "
+"the second parameter) and generates a virtual machine that is able to "
+"execute that statement.  As with must interface routines, the first "
+"parameter must be a pointer to an sqlite structure that was obtained from a "
+"prior call to <b>sqlite_open</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:518
+msgid ""
+"A pointer to the virtual machine is stored in a pointer which is passed in "
+"as the 4th parameter.  Space to hold the virtual machine is dynamically "
+"allocated.  To avoid a memory leak, the calling function must invoke "
+"<b>sqlite_finalize</b> on the virtual machine after it has finished with "
+"it.  The 4th parameter may be set to NULL if an error is encountered during "
+"compilation."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:529
+msgid ""
+"If any errors are encountered during compilation, an error message is "
+"written into memory obtained from <b>malloc</b> and the 5th parameter is "
+"made to point to that memory.  If the 5th parameter is NULL, then no error "
+"message is generated.  If the 5th parameter is not NULL, then the calling "
+"function should dispose of the memory containing the error message by "
+"calling <b>sqlite_freemem</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:538
+msgid ""
+"If the 2nd parameter actually contains two or more statements of SQL, only "
+"the first statement is compiled.  (This is different from the behavior of "
+"<b>sqlite_exec</b> which executes all SQL statements in its input string.)  "
+"The 3rd parameter to <b>sqlite_compile</b> is made to point to the first "
+"character beyond the end of the first statement of SQL in the input.  If the "
+"2nd parameter contains only a single SQL statement, then the 3rd parameter "
+"will be made to point to the '\\000' terminator at the end of the 2nd "
+"parameter."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:549
+msgid ""
+"On success, <b>sqlite_compile</b> returns SQLITE_OK.  Otherwise and error "
+"code is returned."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:553
+msgid "2.2 Step-By-Step Execution Of An SQL Statement"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:556
+msgid ""
+"After a virtual machine has been generated using <b>sqlite_compile</b> it is "
+"executed by one or more calls to <b>sqlite_step</b>.  Each invocation of "
+"<b>sqlite_step</b>, except the last one, returns a single row of the "
+"result.  The number of columns in the result is stored in the integer that "
+"the 2nd parameter points to.  The pointer specified by the 3rd parameter is "
+"made to point to an array of pointers to column values.  The pointer in the "
+"4th parameter is made to point to an array of pointers to column names and "
+"datatypes.  The 2nd through 4th parameters to <b>sqlite_step</b> convey the "
+"same information as the 2nd through 4th parameters of the <b>callback</b> "
+"routine when using the <b>sqlite_exec</b> interface.  Except, with "
+"<b>sqlite_step</b> the column datatype information is always included in the "
+"in the 4th parameter regardless of whether or not the <a href=\"pragma."
+"html\">SHOW_DATATYPES</a> pragma is on or off."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:577
+msgid ""
+"Each invocation of <b>sqlite_step</b> returns an integer code that indicates "
+"what happened during that step.  This code may be SQLITE_BUSY, SQLITE_ROW, "
+"SQLITE_DONE, SQLITE_ERROR, or SQLITE_MISUSE."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:584
+msgid ""
+"If the virtual machine is unable to open the database file because it is "
+"locked by another thread or process, <b>sqlite_step</b> will return "
+"SQLITE_BUSY.  The calling function should do some other activity, or sleep, "
+"for a short amount of time to give the lock a chance to clear, then invoke "
+"<b>sqlite_step</b> again.  This can be repeated as many times as desired."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:593
+msgid ""
+"Whenever another row of result data is available, <b>sqlite_step</b> will "
+"return SQLITE_ROW.  The row data is stored in an array of pointers to "
+"strings and the 2nd parameter is made to point to this array."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:600
+msgid ""
+"When all processing is complete, <b>sqlite_step</b> will return either "
+"SQLITE_DONE or SQLITE_ERROR.  SQLITE_DONE indicates that the statement "
+"completed successfully and SQLITE_ERROR indicates that there was a run-time "
+"error.  (The details of the error are obtained from <b>sqlite_finalize</"
+"b>.)  It is a misuse of the library to attempt to call <b>sqlite_step</b> "
+"again after it has returned SQLITE_DONE or SQLITE_ERROR."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:610
+msgid ""
+"When <b>sqlite_step</b> returns SQLITE_DONE or SQLITE_ERROR, the *pN and "
+"*pazColName values are set to the number of columns in the result set and to "
+"the names of the columns, just as they are for an SQLITE_ROW return.  This "
+"allows the calling code to find the number of result columns and the column "
+"names and datatypes even if the result set is empty.  The *pazValue "
+"parameter is always set to NULL when the return codes is SQLITE_DONE or "
+"SQLITE_ERROR.  If the SQL being executed is a statement that does not return "
+"a result (such as an INSERT or an UPDATE) then *pN will be set to zero and "
+"*pazColName will be set to NULL."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:623
+msgid ""
+"If you abuse the library by trying to call <b>sqlite_step</b> "
+"inappropriately it will attempt return SQLITE_MISUSE.  This can happen if "
+"you call sqlite_step() on the same virtual machine at the same time from two "
+"or more threads or if you call sqlite_step()  again after it returned "
+"SQLITE_DONE or SQLITE_ERROR or if you pass in an invalid virtual machine "
+"pointer to sqlite_step().  You should not depend on the SQLITE_MISUSE return "
+"code to indicate an error.  It is possible that a misuse of the interface "
+"will go undetected and result in a program crash.  The SQLITE_MISUSE is "
+"intended as a debugging aid only - to help you detect incorrect usage prior "
+"to a mishap.  The misuse detection logic is not guaranteed to work in every "
+"case."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:638
+msgid "2.3 Deleting A Virtual Machine"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:641
+msgid ""
+"Every virtual machine that <b>sqlite_compile</b> creates should eventually "
+"be handed to <b>sqlite_finalize</b>.  The sqlite_finalize()  procedure "
+"deallocates the memory and other resources that the virtual machine uses.  "
+"Failure to call sqlite_finalize() will result in resource leaks in your "
+"program."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:649
+msgid ""
+"The <b>sqlite_finalize</b> routine also returns the result code that "
+"indicates success or failure of the SQL operation that the virtual machine "
+"carried out.  The value returned by sqlite_finalize() will be the same as "
+"would have been returned had the same SQL been executed by <b>sqlite_exec</"
+"b>.  The error message returned will also be the same."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:658
+msgid ""
+"It is acceptable to call <b>sqlite_finalize</b> on a virtual machine before "
+"<b>sqlite_step</b> has returned SQLITE_DONE.  Doing so has the effect of "
+"interrupting the operation in progress.  Partially completed changes will be "
+"rolled back and the database will be restored to its original state (unless "
+"an alternative recovery algorithm is selected using an ON CONFLICT clause in "
+"the SQL being executed.)  The effect is the same as if a callback function "
+"of <b>sqlite_exec</b> had returned non-zero."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:669
+msgid ""
+"It is also acceptable to call <b>sqlite_finalize</b> on a virtual machine "
+"that has never been passed to <b>sqlite_step</b> even once."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h3>
+#: sedout/c_interface.html:673
+msgid "3.0 The Extended API"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:675
+msgid ""
+"Only the three core routines described in section 1.0 are required to use "
+"SQLite.  But there are many other functions that provide useful interfaces.  "
+"These extended routines are as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><pre>
+#: sedout/c_interface.html:681
+#, no-wrap
+msgid ""
+"int sqlite_last_insert_rowid(sqlite*);\n"
+"\n"
+"int sqlite_changes(sqlite*);\n"
+"\n"
+"int sqlite_get_table(\n"
+"  sqlite*,\n"
+"  char *sql,\n"
+"  char ***result,\n"
+"  int *nrow,\n"
+"  int *ncolumn,\n"
+"  char **errmsg\n"
+");\n"
+"\n"
+"void sqlite_free_table(char**);\n"
+"\n"
+"void sqlite_interrupt(sqlite*);\n"
+"\n"
+"int sqlite_complete(const char *sql);\n"
+"\n"
+"void sqlite_busy_handler(sqlite*, int (*)(void*,const char*,int), void*);\n"
+"\n"
+"void sqlite_busy_timeout(sqlite*, int ms);\n"
+"\n"
+"const char sqlite_version&#91;];\n"
+"\n"
+"const char sqlite_encoding&#91;];\n"
+"\n"
+"int sqlite_exec_printf(\n"
+"  sqlite*,\n"
+"  char *sql,\n"
+"  int (*)(void*,int,char**,char**),\n"
+"  void*,\n"
+"  char **errmsg,\n"
+"  ...\n"
+");\n"
+"\n"
+"int sqlite_exec_vprintf(\n"
+"  sqlite*,\n"
+"  char *sql,\n"
+"  int (*)(void*,int,char**,char**),\n"
+"  void*,\n"
+"  char **errmsg,\n"
+"  va_list\n"
+");\n"
+"\n"
+"int sqlite_get_table_printf(\n"
+"  sqlite*,\n"
+"  char *sql,\n"
+"  char ***result,\n"
+"  int *nrow,\n"
+"  int *ncolumn,\n"
+"  char **errmsg,\n"
+"  ...\n"
+");\n"
+"\n"
+"int sqlite_get_table_vprintf(\n"
+"  sqlite*,\n"
+"  char *sql,\n"
+"  char ***result,\n"
+"  int *nrow,\n"
+"  int *ncolumn,\n"
+"  char **errmsg,\n"
+"  va_list\n"
+");\n"
+"\n"
+"char *sqlite_mprintf(const char *zFormat, ...);\n"
+"\n"
+"char *sqlite_vmprintf(const char *zFormat, va_list);\n"
+"\n"
+"void sqlite_freemem(char*);\n"
+"\n"
+"void sqlite_progress_handler(sqlite*, int, int (*)(void*), void*);\n"
+"\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:756
+msgid ""
+"All of the above definitions are included in the \"sqlite.h\" header file "
+"that comes in the source tree."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:759
+msgid "3.1 The ROWID of the most recent insert"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:761
+msgid ""
+"Every row of an SQLite table has a unique integer key.  If the table has a "
+"column labeled INTEGER PRIMARY KEY, then that column serves as the key.  If "
+"there is no INTEGER PRIMARY KEY column then the key is a unique integer.  "
+"The key for a row can be accessed in a SELECT statement or used in a WHERE "
+"or ORDER BY clause using any of the names \"ROWID\", \"OID\", or \"_ROWID_\"."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:768
+msgid ""
+"When you do an insert into a table that does not have an INTEGER PRIMARY KEY "
+"column, or if the table does have an INTEGER PRIMARY KEY but the value for "
+"that column is not specified in the VALUES clause of the insert, then the "
+"key is automatically generated.  You can find the value of the key for the "
+"most recent INSERT statement using the <b>sqlite_last_insert_rowid</b> API "
+"function."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:775
+msgid "3.2 The number of rows that changed"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:777
+msgid ""
+"The <b>sqlite_changes</b> API function returns the number of rows that have "
+"been inserted, deleted, or modified since the database was last quiescent.  "
+"A \"quiescent\" database is one in which there are no outstanding calls to "
+"<b>sqlite_exec</b> and no VMs created by <b>sqlite_compile</b> that have not "
+"been finalized by <b>sqlite_finalize</b>.  In common usage, "
+"<b>sqlite_changes</b> returns the number of rows inserted, deleted, or "
+"modified by the most recent <b>sqlite_exec</b> call or since the most recent "
+"<b>sqlite_compile</b>.  But if you have nested calls to <b>sqlite_exec</b> "
+"(that is, if the callback routine of one <b>sqlite_exec</b> invokes another "
+"<b>sqlite_exec</b>) or if you invoke <b>sqlite_compile</b> to create a new "
+"VM while there is still another VM in existence, then the meaning of the "
+"number returned by <b>sqlite_changes</b> is more complex.  The number "
+"reported includes any changes that were later undone by a ROLLBACK or "
+"ABORT.  But rows that are deleted because of a DROP TABLE are <em>not</em> "
+"counted."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:795
+msgid ""
+"SQLite implements the command \"<b>DELETE FROM table</b>\" (without a WHERE "
+"clause) by dropping the table then recreating it.  This is much faster than "
+"deleting the elements of the table individually.  But it also means that the "
+"value returned from <b>sqlite_changes</b> will be zero regardless of the "
+"number of elements that were originally in the table.  If an accurate count "
+"of the number of elements deleted is necessary, use \"<b>DELETE FROM table "
+"WHERE 1</b>\" instead."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:803
+msgid "3.3 Querying into memory obtained from malloc()"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:805
+msgid ""
+"The <b>sqlite_get_table</b> function is a wrapper around <b>sqlite_exec</b> "
+"that collects all the information from successive callbacks and writes it "
+"into memory obtained from malloc().  This is a convenience function that "
+"allows the application to get the entire result of a database query with a "
+"single function call."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:811
+msgid ""
+"The main result from <b>sqlite_get_table</b> is an array of pointers to "
+"strings.  There is one element in this array for each column of each row in "
+"the result.  NULL results are represented by a NULL pointer. In addition to "
+"the regular data, there is an added row at the beginning of the array that "
+"contains the name of each column of the result."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:818
+msgid "As an example, consider the following query:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote>
+#: sedout/c_interface.html:821
+msgid "SELECT employee_name, login, host FROM users WHERE login LIKE 'd%';"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:824
+msgid ""
+"This query will return the name, login and host computer name for every "
+"employee whose login begins with the letter \"d\".  If this query is "
+"submitted to <b>sqlite_get_table</b> the result might look like this:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote>
+#: sedout/c_interface.html:830
+msgid "nrow = 2"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br>
+#: sedout/c_interface.html:831 sedout/c_interface.html:874
+msgid "ncolumn = 3"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br>
+#: sedout/c_interface.html:832 sedout/c_interface.html:875
+msgid "result&#91;0] = \"employee_name\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br>
+#: sedout/c_interface.html:833 sedout/c_interface.html:876
+msgid "result&#91;1] = \"login\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br>
+#: sedout/c_interface.html:834 sedout/c_interface.html:877
+msgid "result&#91;2] = \"host\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br><br>
+#: sedout/c_interface.html:835
+msgid "result&#91;3] = \"dummy\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br><br><br>
+#: sedout/c_interface.html:836
+msgid "result&#91;4] = \"No such user\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br><br><br><br>
+#: sedout/c_interface.html:837
+msgid "result&#91;5] = 0"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br><br><br><br><br>
+#: sedout/c_interface.html:838
+msgid "result&#91;6] = \"D. Richard Hipp\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br><br><br><br><br><br>
+#: sedout/c_interface.html:839
+msgid "result&#91;7] = \"drh\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br><br><br><br><br><br><br><br><br>
+#: sedout/c_interface.html:840
+msgid "result&#91;8] = \"zadok\""
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:843
+msgid ""
+"Notice that the \"host\" value for the \"dummy\" record is NULL so the "
+"result&#91;] array contains a NULL pointer at that slot."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:846
+msgid ""
+"If the result set of a query is empty, then by default <b>sqlite_get_table</"
+"b> will set nrow to 0 and leave its result parameter is set to NULL.  But if "
+"the EMPTY_RESULT_CALLBACKS pragma is ON then the result parameter is "
+"initialized to the names of the columns only.  For example, consider this "
+"query which has an empty result set:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote>
+#: sedout/c_interface.html:854
+msgid ""
+"SELECT employee_name, login, host FROM users WHERE employee_name IS NULL;"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:858
+msgid "The default behavior gives this results:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote>
+#: sedout/c_interface.html:862 sedout/c_interface.html:873
+msgid "nrow = 0"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br>
+#: sedout/c_interface.html:863
+msgid "ncolumn = 0"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><blockquote><br><br>
+#: sedout/c_interface.html:864
+msgid "result = 0"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:868
+msgid ""
+"But if the EMPTY_RESULT_CALLBACKS pragma is ON, then the following is "
+"returned:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:880
+msgid ""
+"Memory to hold the information returned by <b>sqlite_get_table</b> is "
+"obtained from malloc().  But the calling function should not try to free "
+"this information directly.  Instead, pass the complete table to "
+"<b>sqlite_free_table</b> when the table is no longer needed.  It is safe to "
+"call <b>sqlite_free_table</b> with a NULL pointer such as would be returned "
+"if the result set is empty."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:887
+msgid ""
+"The <b>sqlite_get_table</b> routine returns the same integer result code as "
+"<b>sqlite_exec</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:890
+msgid "3.4 Interrupting an SQLite operation"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:892
+msgid ""
+"The <b>sqlite_interrupt</b> function can be called from a different thread "
+"or from a signal handler to cause the current database operation to exit at "
+"its first opportunity.  When this happens, the <b>sqlite_exec</b> routine "
+"(or the equivalent) that started the database operation will return "
+"SQLITE_INTERRUPT."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:898
+msgid "3.5 Testing for a complete SQL statement"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:900
+msgid ""
+"The next interface routine to SQLite is a convenience function used to test "
+"whether or not a string forms a complete SQL statement.  If the "
+"<b>sqlite_complete</b> function returns true when its input is a string, "
+"then the argument forms a complete SQL statement.  There are no guarantees "
+"that the syntax of that statement is correct, but we at least know the "
+"statement is complete.  If <b>sqlite_complete</b> returns false, then more "
+"text is required to complete the SQL statement."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:908
+msgid ""
+"For the purpose of the <b>sqlite_complete</b> function, an SQL statement is "
+"complete if it ends in a semicolon."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:911
+msgid ""
+"The <b>sqlite</b> command-line utility uses the <b>sqlite_complete</b> "
+"function to know when it needs to call <b>sqlite_exec</b>.  After each line "
+"of input is received, <b>sqlite</b> calls <b>sqlite_complete</b> on all "
+"input in its buffer.  If <b>sqlite_complete</b> returns true, then "
+"<b>sqlite_exec</b> is called and the input buffer is reset.  If "
+"<b>sqlite_complete</b> returns false, then the prompt is changed to the "
+"continuation prompt and another line of text is read and added to the input "
+"buffer."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:920
+msgid "3.6 Library version string"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:922
+msgid ""
+"The SQLite library exports the string constant named <b>sqlite_version</b> "
+"which contains the version number of the library.  The header file contains "
+"a macro SQLITE_VERSION with the same information.  If desired, a program can "
+"compare the SQLITE_VERSION macro against the <b>sqlite_version</b> string "
+"constant to verify that the version number of the header file and the "
+"library match."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:930
+msgid "3.7 Library character encoding"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:932
+msgid ""
+"By default, SQLite assumes that all data uses a fixed-size 8-bit character "
+"(iso8859).  But if you give the --enable-utf8 option to the configure "
+"script, then the library assumes UTF-8 variable sized characters.  This "
+"makes a difference for the LIKE and GLOB operators and the LENGTH() and "
+"SUBSTR() functions.  The static string <b>sqlite_encoding</b> will be set to "
+"either \"UTF-8\" or \"iso8859\" to indicate how the library was compiled.  "
+"In addition, the <b>sqlite.h</b> header file will define one of the macros "
+"<b>SQLITE_UTF8</b> or <b>SQLITE_ISO8859</b>, as appropriate."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:942
+msgid ""
+"Note that the character encoding mechanism used by SQLite cannot be changed "
+"at run-time.  This is a compile-time option only.  The <b>sqlite_encoding</"
+"b> character string just tells you how the library was compiled."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:947
+msgid "3.8 Changing the library's response to locked files"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:949
+msgid ""
+"The <b>sqlite_busy_handler</b> procedure can be used to register a busy "
+"callback with an open SQLite database.  The busy callback will be invoked "
+"whenever SQLite tries to access a database that is locked.  The callback "
+"will typically do some other useful work, or perhaps sleep, in order to give "
+"the lock a chance to clear.  If the callback returns non-zero, then SQLite "
+"tries again to access the database and the cycle repeats.  If the callback "
+"returns zero, then SQLite aborts the current operation and returns "
+"SQLITE_BUSY."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:958
+msgid ""
+"The arguments to <b>sqlite_busy_handler</b> are the opaque structure "
+"returned from <b>sqlite_open</b>, a pointer to the busy callback function, "
+"and a generic pointer that will be passed as the first argument to the busy "
+"callback.  When SQLite invokes the busy callback, it sends it three "
+"arguments: the generic pointer that was passed in as the third argument to "
+"<b>sqlite_busy_handler</b>, the name of the database table or index that the "
+"library is trying to access, and the number of times that the library has "
+"attempted to access the database table or index."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:968
+msgid ""
+"For the common case where we want the busy callback to sleep, the SQLite "
+"library provides a convenience routine <b>sqlite_busy_timeout</b>.  The "
+"first argument to <b>sqlite_busy_timeout</b> is a pointer to an open SQLite "
+"database and the second argument is a number of milliseconds.  After "
+"<b>sqlite_busy_timeout</b> has been executed, the SQLite library will wait "
+"for the lock to clear for at least the number of milliseconds specified "
+"before it returns SQLITE_BUSY.  Specifying zero milliseconds for the timeout "
+"restores the default behavior."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><h4>
+#: sedout/c_interface.html:977
+msgid "3.9 Using the <tt>_printf()</tt> wrapper functions"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p>
+#: sedout/c_interface.html:979
+msgid "The four utility functions"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li>
+#: sedout/c_interface.html:983
+msgid "<b>sqlite_exec_printf()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li>
+#: sedout/c_interface.html:984
+msgid "<b>sqlite_exec_vprintf()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li>
+#: sedout/c_interface.html:985
+msgid "<b>sqlite_get_table_printf()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><ul><li>
+#: sedout/c_interface.html:986
+msgid "<b>sqlite_get_table_vprintf()</b>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/c_interface.html:990
+msgid ""
+"implement the same query functionality as <b>sqlite_exec</b> and "
+"<b>sqlite_get_table</b>.  But instead of taking a complete SQL statement as "
+"their second argument, the four <b>_printf</b> routines take a printf-style "
+"format string.  The SQL statement to be executed is generated from this "
+"format string and from whatever additional arguments are attached to the end "
+"of the function call."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/c_interface.html:997
+msgid ""
+"There are two advantages to using the SQLite printf functions instead of "
+"<b>sprintf</b>.  First of all, with the SQLite printf routines, there is "
+"never a danger of overflowing a static buffer as there is with <b>sprintf</"
+"b>.  The SQLite printf routines automatically allocate (and later frees)  as "
+"much memory as is necessary to hold the SQL statements generated."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/c_interface.html:1005
+msgid ""
+"The second advantage the SQLite printf routines have over <b>sprintf</b> are "
+"two new formatting options specifically designed to support string literals "
+"in SQL.  Within the format string, the %q formatting option works very much "
+"like %s in that it reads a null-terminated string from the argument list and "
+"inserts it into the result.  But %q translates the inserted string by making "
+"two copies of every single-quote (') character in the substituted string.  "
+"This has the effect of escaping the end-of-string meaning of single-quote "
+"within a string literal. The %Q formatting option works similar; it "
+"translates the single-quotes like %q and additionally encloses the resulting "
+"string in single-quotes.  If the argument for the %Q formatting options is a "
+"NULL pointer, the resulting string is NULL without single quotes."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/c_interface.html:1020
+msgid ""
+"Consider an example.  Suppose you are trying to insert a string value into a "
+"database table where the string value was obtained from user input.  Suppose "
+"the string to be inserted is stored in a variable named zString.  The code "
+"to do the insertion might look like this:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1026
+#, no-wrap
+msgid ""
+"sqlite_exec_printf(db,\n"
+"  \"INSERT INTO table1 VALUES('%s')\",\n"
+"  0, 0, 0, zString);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/c_interface.html:1031
+msgid ""
+"If the zString variable holds text like \"Hello\", then this statement will "
+"work just fine.  But suppose the user enters a string like \"Hi y'all!\".  "
+"The SQL statement generated reads as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1036
+#, no-wrap
+msgid "INSERT INTO table1 VALUES('Hi y'all')\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1039
+msgid ""
+"This is not valid SQL because of the apostrophe in the word \"y'all\".  But "
+"if the %q formatting option is used instead of %s, like this:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1043
+#, no-wrap
+msgid ""
+"sqlite_exec_printf(db,\n"
+"  \"INSERT INTO table1 VALUES('%q')\",\n"
+"  0, 0, 0, zString);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1048 sedout/c_interface.html:1068
+msgid "Then the generated SQL will look like the following:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1051 sedout/c_interface.html:1071
+#, no-wrap
+msgid "INSERT INTO table1 VALUES('Hi y''all')\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1054
+msgid ""
+"Here the apostrophe has been escaped and the SQL statement is well-formed.  "
+"When generating SQL on-the-fly from data that might contain a single-quote "
+"character ('), it is always a good idea to use the SQLite printf routines "
+"and the %q formatting option instead of <b>sprintf</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1060
+msgid "If the %Q formatting option is used instead of %q, like this:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1063
+#, no-wrap
+msgid ""
+"sqlite_exec_printf(db,\n"
+"  \"INSERT INTO table1 VALUES(%Q)\",\n"
+"  0, 0, 0, zString);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1074
+msgid ""
+"If the value of the zString variable is NULL, the generated SQL will look "
+"like the following:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1078
+#, no-wrap
+msgid "INSERT INTO table1 VALUES(NULL)\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1081
+msgid ""
+"All of the _printf() routines above are built around the following two "
+"functions:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1085
+#, no-wrap
+msgid ""
+"char *sqlite_mprintf(const char *zFormat, ...);\n"
+"char *sqlite_vmprintf(const char *zFormat, va_list);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1089
+msgid ""
+"The <b>sqlite_mprintf()</b> routine works like the standard library "
+"<b>sprintf()</b> except that it writes its results into memory obtained from "
+"malloc() and returns a pointer to the malloced buffer.  <b>sqlite_mprintf()</"
+"b> also understands the %q and %Q extensions described above.  The "
+"<b>sqlite_vmprintf()</b> is a varargs version of the same routine.  The "
+"string pointer that these routines return should be freed by passing it to "
+"<b>sqlite_freemem()</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><h4>
+#: sedout/c_interface.html:1098
+msgid "3.10 Performing background jobs during large queries"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1100
+msgid ""
+"The <b>sqlite_progress_handler()</b> routine can be used to register a "
+"callback routine with an SQLite database to be invoked periodically during "
+"long running calls to <b>sqlite_exec()</b>, <b>sqlite_step()</b> and the "
+"various wrapper functions."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1106
+msgid ""
+"The callback is invoked every N virtual machine operations, where N is "
+"supplied as the second argument to <b>sqlite_progress_handler()</b>. The "
+"third and fourth arguments to <b>sqlite_progress_handler()</b> are a pointer "
+"to the routine to be invoked and a void pointer to be passed as the first "
+"argument to it."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1113
+msgid ""
+"The time taken to execute each virtual machine operation can vary based on "
+"many factors.  A typical value for a 1 GHz PC is between half and three "
+"million per second but may be much higher or lower, depending on the query.  "
+"As such it is difficult to schedule background operations based on virtual "
+"machine operations. Instead, it is recommended that a callback be scheduled "
+"relatively frequently (say every 1000 instructions) and external timer "
+"routines used to determine whether or not background jobs need to be run."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p>
+#: sedout/c_interface.html:1122
+msgid "<a name=\"cfunc\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><h3>
+#: sedout/c_interface.html:1123
+msgid "4.0 Adding New SQL Functions"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1125
+msgid ""
+"Beginning with version 2.4.0, SQLite allows the SQL language to be extended "
+"with new functions implemented as C code.  The following interface is used:"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><blockquote><pre>
+#: sedout/c_interface.html:1131
+#, no-wrap
+msgid ""
+"typedef struct sqlite_func sqlite_func;\n"
+"\n"
+"int sqlite_create_function(\n"
+"  sqlite *db,\n"
+"  const char *zName,\n"
+"  int nArg,\n"
+"  void (*xFunc)(sqlite_func*,int,const char**),\n"
+"  void *pUserData\n"
+");\n"
+"int sqlite_create_aggregate(\n"
+"  sqlite *db,\n"
+"  const char *zName,\n"
+"  int nArg,\n"
+"  void (*xStep)(sqlite_func*,int,const char**),\n"
+"  void (*xFinalize)(sqlite_func*),\n"
+"  void *pUserData\n"
+");\n"
+"\n"
+"char *sqlite_set_result_string(sqlite_func*,const char*,int);\n"
+"void sqlite_set_result_int(sqlite_func*,int);\n"
+"void sqlite_set_result_double(sqlite_func*,double);\n"
+"void sqlite_set_result_error(sqlite_func*,const char*,int);\n"
+"\n"
+"void *sqlite_user_data(sqlite_func*);\n"
+"void *sqlite_aggregate_context(sqlite_func*, int nBytes);\n"
+"int sqlite_aggregate_count(sqlite_func*);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1160
+msgid ""
+"The <b>sqlite_create_function()</b> interface is used to create regular "
+"functions and <b>sqlite_create_aggregate()</b> is used to create new "
+"aggregate functions.  In both cases, the <b>db</b> parameter is an open "
+"SQLite database on which the functions should be registered, <b>zName</b> is "
+"the name of the new function, <b>nArg</b> is the number of arguments, and "
+"<b>pUserData</b> is a pointer which is passed through unchanged to the C "
+"implementation of the function.  Both routines return 0 on success and non-"
+"zero if there are any errors."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1172
+msgid ""
+"The length of a function name may not exceed 255 characters.  Any attempt to "
+"create a function whose name exceeds 255 characters in length will result in "
+"an error."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1178
+msgid ""
+"For regular functions, the <b>xFunc</b> callback is invoked once for each "
+"function call.  The implementation of xFunc should call one of the "
+"<b>sqlite_set_result_...</b> interfaces to return its result.  The "
+"<b>sqlite_user_data()</b> routine can be used to retrieve the <b>pUserData</"
+"b> pointer that was passed in when the function was registered."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1187
+msgid ""
+"For aggregate functions, the <b>xStep</b> callback is invoked once for each "
+"row in the result and then <b>xFinalize</b> is invoked at the end to compute "
+"a final answer.  The xStep routine can use the "
+"<b>sqlite_aggregate_context()</b> interface to allocate memory that will be "
+"unique to that particular instance of the SQL function.  This memory will be "
+"automatically deleted after xFinalize is called.  The "
+"<b>sqlite_aggregate_count()</b> routine can be used to find out how many "
+"rows of data were passed to the aggregate.  The xFinalize callback should "
+"invoke one of the <b>sqlite_set_result_...</b> interfaces to set the final "
+"result of the aggregate."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1200
+msgid ""
+"SQLite now implements all of its built-in functions using this interface.  "
+"For additional information and examples on how to create new SQL functions, "
+"review the SQLite source code in the file <b>func.c</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><h3>
+#: sedout/c_interface.html:1206
+msgid "5.0 Multi-Threading And SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1209
+msgid ""
+"If SQLite is compiled with the THREADSAFE preprocessor macro set to 1, then "
+"it is safe to use SQLite from two or more threads of the same process at the "
+"same time.  But each thread should have its own <b>sqlite*</b> pointer "
+"returned from <b>sqlite_open</b>.  It is never safe for two or more threads "
+"to access the same <b>sqlite*</b> pointer at the same time."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1217
+msgid ""
+"In precompiled SQLite libraries available on the website, the Unix versions "
+"are compiled with THREADSAFE turned off but the Windows versions are "
+"compiled with THREADSAFE turned on.  If you need something different that "
+"this you will have to recompile."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1224
+msgid ""
+"Under Unix, an <b>sqlite*</b> pointer should not be carried across a "
+"<b>fork()</b> system call into the child process.  The child process should "
+"open its own copy of the database after the <b>fork()</b>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><h3>
+#: sedout/c_interface.html:1229
+msgid "6.0 Usage Examples"
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1231
+msgid ""
+"For examples of how the SQLite C/C++ interface can be used, refer to the "
+"source code for the <b>sqlite</b> program in the file <a href=\"https://"
+"sqlite.org/src/file/src/shell.c.in\">src/shell.c</a> of the source tree.  "
+"Additional information about sqlite is available at <a href=\"cli.html\">cli."
+"html</a>.  See also the sources to the Tcl interface for SQLite in the "
+"source file <a href=\"https://sqlite.org/src/file/src/tclsqlite.c\">src/"
+"tclsqlite.c</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p><p><p><p><p>
+#: sedout/c_interface.html:1240
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/c_interface.in?m=774e1b2f56\">2023-01-06 00:45:39</a> UTC </i></small>"
+msgstr ""

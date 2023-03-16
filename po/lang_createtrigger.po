@@ -1,0 +1,2018 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_createtrigger.html:6 sedout/lang_createtrigger.html:121
+msgid "CREATE TRIGGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_createtrigger.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_createtrigger.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_createtrigger.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_createtrigger.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_createtrigger.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_createtrigger.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_createtrigger.html:22 sedout/lang_createtrigger.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_createtrigger.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_createtrigger.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_createtrigger.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_createtrigger.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_createtrigger.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_createtrigger.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_createtrigger.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_createtrigger.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_createtrigger.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_createtrigger.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_createtrigger.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_createtrigger.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_createtrigger.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_createtrigger.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_createtrigger.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_createtrigger.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:128
+msgid "<a href=\"#syntax\">1. Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:129
+msgid "<a href=\"#description\">2. Description</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:130
+msgid ""
+"<a "
+"href=\"#syntax_restrictions_on_update_delete_and_insert_statements_within_triggers\">2.1. "
+"Syntax Restrictions On UPDATE, DELETE, and INSERT Statements Within "
+"Triggers</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:132
+msgid "<a href=\"#instead_of_triggers\">3. INSTEAD OF triggers</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:133
+msgid "<a href=\"#some_example_triggers\">4. Some Example Triggers</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:134
+msgid ""
+"<a href=\"#cautions_on_the_use_of_before_triggers\">5. Cautions On The Use "
+"Of BEFORE triggers</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:135
+msgid "<a href=\"#the_raise_function\">6. The RAISE() function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_createtrigger.html:136
+msgid ""
+"<a href=\"#temp_triggers_on_non_temp_tables\">7. TEMP Triggers on Non-TEMP "
+"Tables</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_createtrigger.html:140
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:157
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:159
+msgid ""
+"<b><a href=\"syntax/create-trigger-stmt.html\">create-trigger-stmt:</a></b> "
+"<button id='xba191060' onclick='hideorshow(\"xba191060\","
+"\"x88e4a33f\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:167
+msgid "CREATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:169
+msgid "TEMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:171
+msgid "TEMPORARY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:173
+msgid "TRIGGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:187
+msgid "IF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:191 sedout/lang_createtrigger.html:460
+#: sedout/lang_createtrigger.html:545 sedout/lang_createtrigger.html:822
+#: sedout/lang_createtrigger.html:891 sedout/lang_createtrigger.html:916
+#: sedout/lang_createtrigger.html:943 sedout/lang_createtrigger.html:971
+#: sedout/lang_createtrigger.html:1049 sedout/lang_createtrigger.html:1973
+#: sedout/lang_createtrigger.html:2565 sedout/lang_createtrigger.html:2951
+#: sedout/lang_createtrigger.html:3579 sedout/lang_createtrigger.html:3812
+#: sedout/lang_createtrigger.html:3928
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:195 sedout/lang_createtrigger.html:1053
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:204 sedout/lang_createtrigger.html:509
+#: sedout/lang_createtrigger.html:641 sedout/lang_createtrigger.html:1006
+#: sedout/lang_createtrigger.html:1821 sedout/lang_createtrigger.html:2918
+#: sedout/lang_createtrigger.html:3776 sedout/lang_createtrigger.html:3895
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:208 sedout/lang_createtrigger.html:513
+#: sedout/lang_createtrigger.html:645 sedout/lang_createtrigger.html:653
+#: sedout/lang_createtrigger.html:1010 sedout/lang_createtrigger.html:1825
+#: sedout/lang_createtrigger.html:2899 sedout/lang_createtrigger.html:2922
+#: sedout/lang_createtrigger.html:3780 sedout/lang_createtrigger.html:3899
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:212
+msgid "trigger-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:216
+msgid "BEFORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:218
+msgid "AFTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:220
+msgid "INSTEAD"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:224 sedout/lang_createtrigger.html:258
+msgid "OF"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:246 sedout/lang_createtrigger.html:392
+msgid "DELETE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:248 sedout/lang_createtrigger.html:1768
+msgid "INSERT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:250 sedout/lang_createtrigger.html:2119
+#: sedout/lang_createtrigger.html:3380
+msgid "UPDATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:262 sedout/lang_createtrigger.html:450
+#: sedout/lang_createtrigger.html:657 sedout/lang_createtrigger.html:1852
+#: sedout/lang_createtrigger.html:1963 sedout/lang_createtrigger.html:2164
+#: sedout/lang_createtrigger.html:2187 sedout/lang_createtrigger.html:2212
+#: sedout/lang_createtrigger.html:2555 sedout/lang_createtrigger.html:2696
+#: sedout/lang_createtrigger.html:3464 sedout/lang_createtrigger.html:3532
+#: sedout/lang_createtrigger.html:3569 sedout/lang_createtrigger.html:3668
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:264 sedout/lang_createtrigger.html:387
+#: sedout/lang_createtrigger.html:478 sedout/lang_createtrigger.html:612
+#: sedout/lang_createtrigger.html:735 sedout/lang_createtrigger.html:771
+#: sedout/lang_createtrigger.html:1001 sedout/lang_createtrigger.html:1038
+#: sedout/lang_createtrigger.html:1262 sedout/lang_createtrigger.html:1286
+#: sedout/lang_createtrigger.html:1614 sedout/lang_createtrigger.html:1670
+#: sedout/lang_createtrigger.html:1757 sedout/lang_createtrigger.html:1858
+#: sedout/lang_createtrigger.html:1889 sedout/lang_createtrigger.html:1894
+#: sedout/lang_createtrigger.html:1991 sedout/lang_createtrigger.html:2056
+#: sedout/lang_createtrigger.html:2109 sedout/lang_createtrigger.html:2155
+#: sedout/lang_createtrigger.html:2196 sedout/lang_createtrigger.html:2280
+#: sedout/lang_createtrigger.html:2304 sedout/lang_createtrigger.html:2327
+#: sedout/lang_createtrigger.html:2378 sedout/lang_createtrigger.html:2411
+#: sedout/lang_createtrigger.html:2448 sedout/lang_createtrigger.html:2450
+#: sedout/lang_createtrigger.html:2484 sedout/lang_createtrigger.html:2510
+#: sedout/lang_createtrigger.html:2583 sedout/lang_createtrigger.html:2707
+#: sedout/lang_createtrigger.html:2757 sedout/lang_createtrigger.html:2981
+#: sedout/lang_createtrigger.html:3043 sedout/lang_createtrigger.html:3079
+#: sedout/lang_createtrigger.html:3103 sedout/lang_createtrigger.html:3371
+#: sedout/lang_createtrigger.html:3467 sedout/lang_createtrigger.html:3481
+#: sedout/lang_createtrigger.html:3541 sedout/lang_createtrigger.html:3597
+#: sedout/lang_createtrigger.html:3679 sedout/lang_createtrigger.html:3729
+#: sedout/lang_createtrigger.html:3879 sedout/lang_createtrigger.html:3958
+#: sedout/lang_createtrigger.html:4020 sedout/lang_createtrigger.html:4277
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:270 sedout/lang_createtrigger.html:2073
+#: sedout/lang_createtrigger.html:2714 sedout/lang_createtrigger.html:3686
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:274 sedout/lang_createtrigger.html:438
+#: sedout/lang_createtrigger.html:517 sedout/lang_createtrigger.html:649
+#: sedout/lang_createtrigger.html:1031 sedout/lang_createtrigger.html:1829
+#: sedout/lang_createtrigger.html:1951 sedout/lang_createtrigger.html:2543
+#: sedout/lang_createtrigger.html:2895 sedout/lang_createtrigger.html:2926
+#: sedout/lang_createtrigger.html:3557 sedout/lang_createtrigger.html:3784
+#: sedout/lang_createtrigger.html:3903
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:288
+msgid "FOR"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:292
+msgid "EACH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:296 sedout/lang_createtrigger.html:1398
+#: sedout/lang_createtrigger.html:1420 sedout/lang_createtrigger.html:1453
+#: sedout/lang_createtrigger.html:1479 sedout/lang_createtrigger.html:3212
+#: sedout/lang_createtrigger.html:3234 sedout/lang_createtrigger.html:3267
+#: sedout/lang_createtrigger.html:3293
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:300 sedout/lang_createtrigger.html:1084
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:304 sedout/lang_createtrigger.html:410
+#: sedout/lang_createtrigger.html:582 sedout/lang_createtrigger.html:674
+#: sedout/lang_createtrigger.html:681 sedout/lang_createtrigger.html:689
+#: sedout/lang_createtrigger.html:708 sedout/lang_createtrigger.html:760
+#: sedout/lang_createtrigger.html:784 sedout/lang_createtrigger.html:803
+#: sedout/lang_createtrigger.html:818 sedout/lang_createtrigger.html:834
+#: sedout/lang_createtrigger.html:836 sedout/lang_createtrigger.html:844
+#: sedout/lang_createtrigger.html:878 sedout/lang_createtrigger.html:908
+#: sedout/lang_createtrigger.html:930 sedout/lang_createtrigger.html:939
+#: sedout/lang_createtrigger.html:951 sedout/lang_createtrigger.html:959
+#: sedout/lang_createtrigger.html:967 sedout/lang_createtrigger.html:996
+#: sedout/lang_createtrigger.html:1022 sedout/lang_createtrigger.html:1080
+#: sedout/lang_createtrigger.html:1088 sedout/lang_createtrigger.html:1096
+#: sedout/lang_createtrigger.html:1104 sedout/lang_createtrigger.html:1148
+#: sedout/lang_createtrigger.html:1260 sedout/lang_createtrigger.html:1383
+#: sedout/lang_createtrigger.html:1405 sedout/lang_createtrigger.html:1427
+#: sedout/lang_createtrigger.html:1440 sedout/lang_createtrigger.html:1460
+#: sedout/lang_createtrigger.html:1540 sedout/lang_createtrigger.html:1881
+#: sedout/lang_createtrigger.html:2026 sedout/lang_createtrigger.html:2097
+#: sedout/lang_createtrigger.html:2135 sedout/lang_createtrigger.html:2143
+#: sedout/lang_createtrigger.html:2235 sedout/lang_createtrigger.html:2349
+#: sedout/lang_createtrigger.html:2368 sedout/lang_createtrigger.html:2376
+#: sedout/lang_createtrigger.html:2439 sedout/lang_createtrigger.html:2478
+#: sedout/lang_createtrigger.html:2506 sedout/lang_createtrigger.html:2514
+#: sedout/lang_createtrigger.html:2718 sedout/lang_createtrigger.html:2804
+#: sedout/lang_createtrigger.html:2865 sedout/lang_createtrigger.html:2973
+#: sedout/lang_createtrigger.html:3077 sedout/lang_createtrigger.html:3197
+#: sedout/lang_createtrigger.html:3219 sedout/lang_createtrigger.html:3241
+#: sedout/lang_createtrigger.html:3254 sedout/lang_createtrigger.html:3274
+#: sedout/lang_createtrigger.html:3460 sedout/lang_createtrigger.html:3501
+#: sedout/lang_createtrigger.html:3690 sedout/lang_createtrigger.html:3849
+#: sedout/lang_createtrigger.html:3950
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:306
+msgid "BEGIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:310
+msgid "update-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:314
+msgid ";"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:318 sedout/lang_createtrigger.html:1108
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:323
+msgid "insert-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:325
+msgid "delete-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:327 sedout/lang_createtrigger.html:469
+#: sedout/lang_createtrigger.html:983 sedout/lang_createtrigger.html:1061
+#: sedout/lang_createtrigger.html:1908 sedout/lang_createtrigger.html:1982
+#: sedout/lang_createtrigger.html:2574 sedout/lang_createtrigger.html:3014
+#: sedout/lang_createtrigger.html:3588 sedout/lang_createtrigger.html:3991
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtrigger.html:362
+msgid ""
+"<b><a href=\"syntax/delete-stmt.html\">delete-stmt:</a></b> <button "
+"id='x812692df' onclick='hideorshow(\"x812692df\",\"x6320d9e0\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:372 sedout/lang_createtrigger.html:1742
+#: sedout/lang_createtrigger.html:2265 sedout/lang_createtrigger.html:3356
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:374 sedout/lang_createtrigger.html:1744
+#: sedout/lang_createtrigger.html:2267 sedout/lang_createtrigger.html:3358
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:380 sedout/lang_createtrigger.html:1750
+#: sedout/lang_createtrigger.html:2273 sedout/lang_createtrigger.html:3364
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text><text>
+#: sedout/lang_createtrigger.html:396 sedout/lang_createtrigger.html:926
+#: sedout/lang_createtrigger.html:2319 sedout/lang_createtrigger.html:3475
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:400 sedout/lang_createtrigger.html:3397
+msgid "qualified-table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text><text>
+#: sedout/lang_createtrigger.html:404 sedout/lang_createtrigger.html:1932
+#: sedout/lang_createtrigger.html:3513
+msgid "returning-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text><text>
+#: sedout/lang_createtrigger.html:414 sedout/lang_createtrigger.html:1144
+#: sedout/lang_createtrigger.html:2093 sedout/lang_createtrigger.html:2139
+#: sedout/lang_createtrigger.html:2345 sedout/lang_createtrigger.html:3497
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:430
+msgid ""
+"<b><a href=\"syntax/common-table-expression.html\">common-table-expression:</"
+"a></b> <button id='x905898ed' onclick='hideorshow(\"x905898ed\","
+"\"xd07e3d2b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:444 sedout/lang_createtrigger.html:465
+#: sedout/lang_createtrigger.html:700 sedout/lang_createtrigger.html:756
+#: sedout/lang_createtrigger.html:780 sedout/lang_createtrigger.html:979
+#: sedout/lang_createtrigger.html:1018 sedout/lang_createtrigger.html:1057
+#: sedout/lang_createtrigger.html:1140 sedout/lang_createtrigger.html:1246
+#: sedout/lang_createtrigger.html:1606 sedout/lang_createtrigger.html:1662
+#: sedout/lang_createtrigger.html:1685 sedout/lang_createtrigger.html:1848
+#: sedout/lang_createtrigger.html:1877 sedout/lang_createtrigger.html:1957
+#: sedout/lang_createtrigger.html:1978 sedout/lang_createtrigger.html:2081
+#: sedout/lang_createtrigger.html:2181 sedout/lang_createtrigger.html:2435
+#: sedout/lang_createtrigger.html:2549 sedout/lang_createtrigger.html:2570
+#: sedout/lang_createtrigger.html:2692 sedout/lang_createtrigger.html:2969
+#: sedout/lang_createtrigger.html:3010 sedout/lang_createtrigger.html:3028
+#: sedout/lang_createtrigger.html:3063 sedout/lang_createtrigger.html:3526
+#: sedout/lang_createtrigger.html:3563 sedout/lang_createtrigger.html:3584
+#: sedout/lang_createtrigger.html:3664 sedout/lang_createtrigger.html:3946
+#: sedout/lang_createtrigger.html:3987 sedout/lang_createtrigger.html:4005
+#: sedout/lang_createtrigger.html:4269
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:454 sedout/lang_createtrigger.html:473
+#: sedout/lang_createtrigger.html:712 sedout/lang_createtrigger.html:764
+#: sedout/lang_createtrigger.html:796 sedout/lang_createtrigger.html:987
+#: sedout/lang_createtrigger.html:1026 sedout/lang_createtrigger.html:1065
+#: sedout/lang_createtrigger.html:1152 sedout/lang_createtrigger.html:1302
+#: sedout/lang_createtrigger.html:1622 sedout/lang_createtrigger.html:1678
+#: sedout/lang_createtrigger.html:1693 sedout/lang_createtrigger.html:1856
+#: sedout/lang_createtrigger.html:1885 sedout/lang_createtrigger.html:1967
+#: sedout/lang_createtrigger.html:1986 sedout/lang_createtrigger.html:2089
+#: sedout/lang_createtrigger.html:2191 sedout/lang_createtrigger.html:2443
+#: sedout/lang_createtrigger.html:2559 sedout/lang_createtrigger.html:2578
+#: sedout/lang_createtrigger.html:2700 sedout/lang_createtrigger.html:2977
+#: sedout/lang_createtrigger.html:3018 sedout/lang_createtrigger.html:3036
+#: sedout/lang_createtrigger.html:3119 sedout/lang_createtrigger.html:3536
+#: sedout/lang_createtrigger.html:3573 sedout/lang_createtrigger.html:3592
+#: sedout/lang_createtrigger.html:3672 sedout/lang_createtrigger.html:3954
+#: sedout/lang_createtrigger.html:3995 sedout/lang_createtrigger.html:4013
+#: sedout/lang_createtrigger.html:4285
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:458 sedout/lang_createtrigger.html:521
+#: sedout/lang_createtrigger.html:586 sedout/lang_createtrigger.html:788
+#: sedout/lang_createtrigger.html:1833 sedout/lang_createtrigger.html:1971
+#: sedout/lang_createtrigger.html:2030 sedout/lang_createtrigger.html:2405
+#: sedout/lang_createtrigger.html:2563 sedout/lang_createtrigger.html:2869
+#: sedout/lang_createtrigger.html:2930 sedout/lang_createtrigger.html:2994
+#: sedout/lang_createtrigger.html:3577 sedout/lang_createtrigger.html:3788
+#: sedout/lang_createtrigger.html:3853 sedout/lang_createtrigger.html:3907
+#: sedout/lang_createtrigger.html:3971
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:462 sedout/lang_createtrigger.html:1975
+#: sedout/lang_createtrigger.html:2567 sedout/lang_createtrigger.html:3581
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:501
+msgid ""
+"<b><a href=\"syntax/qualified-table-name.html\">qualified-table-name:</a></"
+"b> <button id='x82ad9d51' onclick='hideorshow(\"x82ad9d51\","
+"\"x11b248a3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:525 sedout/lang_createtrigger.html:1837
+#: sedout/lang_createtrigger.html:3792
+msgid "alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:535 sedout/lang_createtrigger.html:549
+#: sedout/lang_createtrigger.html:2941 sedout/lang_createtrigger.html:2955
+#: sedout/lang_createtrigger.html:3802 sedout/lang_createtrigger.html:3816
+#: sedout/lang_createtrigger.html:3918 sedout/lang_createtrigger.html:3932
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:539 sedout/lang_createtrigger.html:1256
+#: sedout/lang_createtrigger.html:1280 sedout/lang_createtrigger.html:2364
+#: sedout/lang_createtrigger.html:2472 sedout/lang_createtrigger.html:2945
+#: sedout/lang_createtrigger.html:3073 sedout/lang_createtrigger.html:3097
+#: sedout/lang_createtrigger.html:3806 sedout/lang_createtrigger.html:3922
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:543 sedout/lang_createtrigger.html:2949
+#: sedout/lang_createtrigger.html:3810 sedout/lang_createtrigger.html:3926
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:570
+msgid ""
+"<b><a href=\"syntax/returning-clause.html\">returning-clause:</a></b> "
+"<button id='xfb58ff4c' onclick='hideorshow(\"xfb58ff4c\","
+"\"x14e2a602\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:578 sedout/lang_createtrigger.html:2022
+#: sedout/lang_createtrigger.html:3845
+msgid "RETURNING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:590 sedout/lang_createtrigger.html:2034
+#: sedout/lang_createtrigger.html:2873 sedout/lang_createtrigger.html:3857
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:605 sedout/lang_createtrigger.html:744
+#: sedout/lang_createtrigger.html:2049 sedout/lang_createtrigger.html:2888
+#: sedout/lang_createtrigger.html:2903 sedout/lang_createtrigger.html:3872
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtrigger.html:621
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='x88e10a95' "
+"onclick='hideorshow(\"x88e10a95\",\"xf5a0006b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:629
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:634
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:670
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:685
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:696
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:704 sedout/lang_createtrigger.html:922
+#: sedout/lang_createtrigger.html:2298
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:716
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:722
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:776
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:792
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:807 sedout/lang_createtrigger.html:1544
+#: sedout/lang_createtrigger.html:2216 sedout/lang_createtrigger.html:2808
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:811 sedout/lang_createtrigger.html:1548
+#: sedout/lang_createtrigger.html:2220 sedout/lang_createtrigger.html:2812
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:826
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:828
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:830
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:832
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:840
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:882
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:889
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:895 sedout/lang_createtrigger.html:1193
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:912
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:947 sedout/lang_createtrigger.html:1335
+#: sedout/lang_createtrigger.html:3149
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:955 sedout/lang_createtrigger.html:1347
+#: sedout/lang_createtrigger.html:3161
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:975
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1014
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1076
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1092
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1100
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1120
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:1128
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x3e90bc0d' onclick='hideorshow(\"x3e90bc0d\",\"x99100373\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1136
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:1159
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='xf2ffda0e' onclick='hideorshow(\"xf2ffda0e\",\"x71af0793\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1167
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1174 sedout/lang_createtrigger.html:1717
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1179
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1186
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1200
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1207
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1214
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1221
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:1230
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x851dfdd0' onclick='hideorshow(\"x851dfdd0\",\"xeef58719\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1238
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1242 sedout/lang_createtrigger.html:2401
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1250 sedout/lang_createtrigger.html:3067
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1252 sedout/lang_createtrigger.html:3069
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1276 sedout/lang_createtrigger.html:2468
+#: sedout/lang_createtrigger.html:3093
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1284 sedout/lang_createtrigger.html:2482
+#: sedout/lang_createtrigger.html:3101
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1298 sedout/lang_createtrigger.html:3115
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:1322
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x1dc7cac4' onclick='hideorshow(\"x1dc7cac4\",\"xb1a3a1d8\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1330 sedout/lang_createtrigger.html:3144
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1339 sedout/lang_createtrigger.html:1351
+#: sedout/lang_createtrigger.html:1374 sedout/lang_createtrigger.html:3153
+#: sedout/lang_createtrigger.html:3165 sedout/lang_createtrigger.html:3188
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1343 sedout/lang_createtrigger.html:1378
+#: sedout/lang_createtrigger.html:1387 sedout/lang_createtrigger.html:1409
+#: sedout/lang_createtrigger.html:1444 sedout/lang_createtrigger.html:3157
+#: sedout/lang_createtrigger.html:3192 sedout/lang_createtrigger.html:3201
+#: sedout/lang_createtrigger.html:3223 sedout/lang_createtrigger.html:3258
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1355 sedout/lang_createtrigger.html:1431
+#: sedout/lang_createtrigger.html:1464 sedout/lang_createtrigger.html:3169
+#: sedout/lang_createtrigger.html:3245 sedout/lang_createtrigger.html:3278
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1360 sedout/lang_createtrigger.html:3174
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1367 sedout/lang_createtrigger.html:3181
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1394 sedout/lang_createtrigger.html:1416
+#: sedout/lang_createtrigger.html:1449 sedout/lang_createtrigger.html:1475
+#: sedout/lang_createtrigger.html:3208 sedout/lang_createtrigger.html:3230
+#: sedout/lang_createtrigger.html:3263 sedout/lang_createtrigger.html:3289
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1471 sedout/lang_createtrigger.html:1484
+#: sedout/lang_createtrigger.html:1493 sedout/lang_createtrigger.html:1502
+#: sedout/lang_createtrigger.html:3285 sedout/lang_createtrigger.html:3298
+#: sedout/lang_createtrigger.html:3307 sedout/lang_createtrigger.html:3316
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1488 sedout/lang_createtrigger.html:2360
+#: sedout/lang_createtrigger.html:3302
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1497 sedout/lang_createtrigger.html:3311
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1506 sedout/lang_createtrigger.html:3320
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1510 sedout/lang_createtrigger.html:3324
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:1532
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x9a80825d' onclick='hideorshow(\"x9a80825d\",\"x350aac9c\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1557 sedout/lang_createtrigger.html:2226
+#: sedout/lang_createtrigger.html:2821
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1561 sedout/lang_createtrigger.html:2245
+#: sedout/lang_createtrigger.html:2825
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1571 sedout/lang_createtrigger.html:1579
+#: sedout/lang_createtrigger.html:2835 sedout/lang_createtrigger.html:2843
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1575 sedout/lang_createtrigger.html:2839
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1583 sedout/lang_createtrigger.html:2847
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:1594
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x6bd0fe2e' onclick='hideorshow(\"x6bd0fe2e\",\"xd84ea6fb\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1602 sedout/lang_createtrigger.html:4265
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1610 sedout/lang_createtrigger.html:1776
+#: sedout/lang_createtrigger.html:3391 sedout/lang_createtrigger.html:4273
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1618 sedout/lang_createtrigger.html:4281
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1629 sedout/lang_createtrigger.html:1807
+#: sedout/lang_createtrigger.html:3414 sedout/lang_createtrigger.html:4292
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1634 sedout/lang_createtrigger.html:1793
+#: sedout/lang_createtrigger.html:3436 sedout/lang_createtrigger.html:4297
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1639 sedout/lang_createtrigger.html:1800
+#: sedout/lang_createtrigger.html:3425 sedout/lang_createtrigger.html:4302
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:1650
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='xf07c7c2c' onclick='hideorshow(\"xf07c7c2c\",\"xc38620e0\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1658
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1666 sedout/lang_createtrigger.html:1674
+#: sedout/lang_createtrigger.html:1689
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:1705
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x41a2a334' onclick='hideorshow(\"x41a2a334\",\"x267e9298\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1713
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1724
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtrigger.html:1734
+msgid ""
+"<b><a href=\"syntax/insert-stmt.html\">insert-stmt:</a></b> <button "
+"id='x335322cb' onclick='hideorshow(\"x335322cb\",\"x76f194df\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1766 sedout/lang_createtrigger.html:1814
+#: sedout/lang_createtrigger.html:3403
+msgid "REPLACE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1772 sedout/lang_createtrigger.html:3387
+#: sedout/lang_createtrigger.html:3399 sedout/lang_createtrigger.html:3410
+#: sedout/lang_createtrigger.html:3421 sedout/lang_createtrigger.html:3432
+msgid "OR"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1782
+msgid "INTO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1873 sedout/lang_createtrigger.html:1926
+#: sedout/lang_createtrigger.html:2431
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1901 sedout/lang_createtrigger.html:1915
+msgid "upsert-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:1922
+msgid "DEFAULT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:1943
+msgid ""
+"<b><a href=\"syntax/common-table-expression.html\">common-table-expression:</"
+"a></b> <button id='x12befac6' onclick='hideorshow(\"x12befac6\","
+"\"x2e0f05c3\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2014
+msgid ""
+"<b><a href=\"syntax/returning-clause.html\">returning-clause:</a></b> "
+"<button id='x7c886be4' onclick='hideorshow(\"x7c886be4\","
+"\"xd4c58809\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2064
+msgid ""
+"<b><a href=\"syntax/upsert-clause.html\">upsert-clause:</a></b> <button "
+"id='x0b8afedd' onclick='hideorshow(\"x0b8afedd\",\"x8c72fcf8\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2077
+msgid "CONFLICT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2085
+msgid "indexed-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2103
+msgid "DO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2113
+msgid "conflict target"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2123 sedout/lang_createtrigger.html:3448
+msgid "SET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2127 sedout/lang_createtrigger.html:3452
+msgid "column-name-list"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text><text>
+#: sedout/lang_createtrigger.html:2148
+msgid "NOTHING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:2173
+msgid ""
+"<b><a href=\"syntax/column-name-list.html\">column-name-list:</a></b> "
+"<button id='x0fc8fe16' onclick='hideorshow(\"x0fc8fe16\","
+"\"xa985955b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:2204
+msgid ""
+"<b><a href=\"syntax/indexed-column.html\">indexed-column:</a></b> <button "
+"id='xf95c1c66' onclick='hideorshow(\"xf95c1c66\",\"x808950ea\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtrigger.html:2256
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x817d0507' onclick='hideorshow(\"x817d0507\",\"xf0572837\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2294
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2302
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2312 sedout/lang_createtrigger.html:2626
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2323 sedout/lang_createtrigger.html:2656
+#: sedout/lang_createtrigger.html:2664 sedout/lang_createtrigger.html:3032
+#: sedout/lang_createtrigger.html:3479 sedout/lang_createtrigger.html:3628
+#: sedout/lang_createtrigger.html:3636 sedout/lang_createtrigger.html:4009
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2325 sedout/lang_createtrigger.html:3050
+#: sedout/lang_createtrigger.html:3488 sedout/lang_createtrigger.html:4027
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2372
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2397
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2409
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2460
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2466
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2474
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2502
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2535
+msgid ""
+"<b><a href=\"syntax/common-table-expression.html\">common-table-expression:</"
+"a></b> <button id='xddf63227' onclick='hideorshow(\"xddf63227\","
+"\"x07f3bbb8\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2606
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='xd23b8894' onclick='hideorshow(\"xd23b8894\","
+"\"xd9e2b6d4\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2616 sedout/lang_createtrigger.html:2618
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2620
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2622
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2648
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x650cad20' onclick='hideorshow(\"x650cad20\",\"x447f3cd6\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2660 sedout/lang_createtrigger.html:3632
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2668 sedout/lang_createtrigger.html:3640
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:2680
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xa2933f27' onclick='hideorshow(\"xa2933f27\",\"xc38a5a5f\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2688 sedout/lang_createtrigger.html:3660
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:2728
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='xd9ad5eda' onclick='hideorshow(\"xd9ad5eda\",\"xe6fb2a7e\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2736 sedout/lang_createtrigger.html:3708
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2742 sedout/lang_createtrigger.html:3714
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2746 sedout/lang_createtrigger.html:3718
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2752 sedout/lang_createtrigger.html:3724
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2770 sedout/lang_createtrigger.html:3742
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2776 sedout/lang_createtrigger.html:3748
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2781 sedout/lang_createtrigger.html:3753
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2788 sedout/lang_createtrigger.html:3760
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2796
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xa725a1aa' onclick='hideorshow(\"xa725a1aa\",\"xf824375c\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2857
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xe8c65664' onclick='hideorshow(\"xe8c65664\",\"x496864cf\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:2910
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x0cdf547d' onclick='hideorshow(\"x0cdf547d\","
+"\"x2d779721\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2934 sedout/lang_createtrigger.html:2998
+#: sedout/lang_createtrigger.html:3911 sedout/lang_createtrigger.html:3975
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_createtrigger.html:2965 sedout/lang_createtrigger.html:3942
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3055
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xc405675a' onclick='hideorshow(\"xc405675a\",\"xdce760ee\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:3136
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x22fb4ca7' onclick='hideorshow(\"x22fb4ca7\",\"x51e77512\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_createtrigger.html:3348
+msgid ""
+"<b><a href=\"syntax/update-stmt.html\">update-stmt:</a></b> <button "
+"id='x5dbb3074' onclick='hideorshow(\"x5dbb3074\",\"x8ef519d0\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3518
+msgid ""
+"<b><a href=\"syntax/column-name-list.html\">column-name-list:</a></b> "
+"<button id='xde1e0633' onclick='hideorshow(\"xde1e0633\","
+"\"x3d4d6677\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3549
+msgid ""
+"<b><a href=\"syntax/common-table-expression.html\">common-table-expression:</"
+"a></b> <button id='xa29790bd' onclick='hideorshow(\"xa29790bd\","
+"\"x5bc02751\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3620
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x11decdf5' onclick='hideorshow(\"x11decdf5\",\"x0045999b\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:3652
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xf5a0ad17' onclick='hideorshow(\"xf5a0ad17\",\"x1fac562a\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_createtrigger.html:3700
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x66b0c680' onclick='hideorshow(\"x66b0c680\",\"x58236881\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3768
+msgid ""
+"<b><a href=\"syntax/qualified-table-name.html\">qualified-table-name:</a></"
+"b> <button id='x7881692e' onclick='hideorshow(\"x7881692e\","
+"\"x42f09fd9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3837
+msgid ""
+"<b><a href=\"syntax/returning-clause.html\">returning-clause:</a></b> "
+"<button id='x630c5475' onclick='hideorshow(\"x630c5475\","
+"\"xeb0ec1ba\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_createtrigger.html:3887
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x85ac1626' onclick='hideorshow(\"x85ac1626\","
+"\"x6031c141\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:4037
+msgid "<span>2. </span>Description"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4038
+msgid ""
+"The CREATE TRIGGER statement is used to add triggers to the database schema. "
+"Triggers are database operations that are automatically performed when a "
+"specified database event occurs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4043
+msgid ""
+"Each trigger must specify that it will fire for one of the following "
+"operations: <a href=\"lang_delete.html\">DELETE</a>, <a href=\"lang_insert."
+"html\">INSERT</a>, <a href=\"lang_update.html\">UPDATE</a>.  The trigger "
+"fires once for each row that is deleted, inserted, or updated.  If the "
+"\"UPDATE OF <span class='yyterm'>column-name</span>\" syntax is used, then "
+"the trigger will only fire if <span class='yyterm'>column-name</span> "
+"appears on the left-hand side of one of the terms in the SET clause of the "
+"<a href=\"lang_update.html\">UPDATE</a> statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4051
+msgid ""
+"Due to an historical oversight, columns named in the \"UPDATE OF\" clause do "
+"not actually have to exist in the table being updated.  Unrecognized column "
+"names are silently ignored.  It would be more helpful if SQLite would fail "
+"the CREATE TRIGGER statement if any of the names in the \"UPDATE OF\" clause "
+"are not columns in the table.  However, as this problem was discovered many "
+"years after SQLite was widely deployed, we have resisted fixing the problem "
+"for fear of breaking legacy applications."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4060
+msgid ""
+"At this time SQLite supports only FOR EACH ROW triggers, not FOR EACH "
+"STATEMENT triggers. Hence explicitly specifying FOR EACH ROW is optional.  "
+"FOR EACH ROW implies that the SQL statements specified in the trigger may be "
+"executed (depending on the WHEN clause) for each database row being "
+"inserted, updated or deleted by the statement causing the trigger to fire."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4066
+msgid ""
+"Both the WHEN clause and the trigger actions may access elements of the row "
+"being inserted, deleted or updated using references of the form \"NEW."
+"<i>column-name</i>\" and \"OLD.<i>column-name</i>\", where <i>column-name</"
+"i> is the name of a column from the table that the trigger is associated "
+"with. OLD and NEW references may only be used in triggers on events for "
+"which they are relevant, as follows:"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_createtrigger.html:4075
+msgid "<i>INSERT</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_createtrigger.html:4076
+msgid "NEW references are valid"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_createtrigger.html:4079
+msgid "<i>UPDATE</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_createtrigger.html:4080
+msgid "NEW and OLD references are valid"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_createtrigger.html:4083
+msgid "<i>DELETE</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_createtrigger.html:4084
+msgid "OLD references are valid"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4089
+msgid ""
+"If a WHEN clause is supplied, the SQL statements specified are only executed "
+"if the WHEN clause is true.  If no WHEN clause is supplied, the SQL "
+"statements are executed every time the trigger fires."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4094
+msgid ""
+"The BEFORE or AFTER keyword determines when the trigger actions will be "
+"executed relative to the insertion, modification or removal of the "
+"associated row.  BEFORE is the default when neither keyword is present."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4098
+msgid ""
+"An <a href=\"lang_conflict.html\">ON CONFLICT</a> clause may be specified as "
+"part of an <a href=\"lang_update.html\">UPDATE</a> or <a href=\"lang_insert."
+"html\">INSERT</a> action within the body of the trigger.  However if an <a "
+"href=\"lang_conflict.html\">ON CONFLICT</a> clause is specified as part of "
+"the statement causing the trigger to fire, then conflict handling policy of "
+"the outer statement is used instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4104
+msgid ""
+"Triggers are automatically <a href=\"lang_droptrigger.html\">dropped</a> "
+"when the table that they are associated with (the <i>table-name</i> table) "
+"is <a href=\"lang_droptable.html\">dropped</a>.  However if the trigger "
+"actions reference other tables, the trigger is not dropped or modified if "
+"those other tables are <a href=\"lang_droptable.html\">dropped</a> or <a "
+"href=\"lang_altertable.html\">modified</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4111
+msgid ""
+"Triggers are removed using the <a href=\"lang_droptrigger.html\">DROP "
+"TRIGGER</a> statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_createtrigger.html:4113
+msgid ""
+"<span>2.1. </span>Syntax Restrictions On UPDATE, DELETE, and INSERT "
+"Statements Within Triggers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4116
+msgid ""
+"The <a href=\"lang_update.html\">UPDATE</a>, <a href=\"lang_delete."
+"html\">DELETE</a>, and <a href=\"lang_insert.html\">INSERT</a> statements "
+"within triggers do not support the full syntax for <a href=\"lang_update."
+"html\">UPDATE</a>, <a href=\"lang_delete.html\">DELETE</a>, and <a "
+"href=\"lang_insert.html\">INSERT</a> statements.  The following restrictions "
+"apply:"
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_createtrigger.html:4123
+msgid ""
+"The name of the table to be modified in an <a href=\"lang_update."
+"html\">UPDATE</a>, <a href=\"lang_delete.html\">DELETE</a>, or <a "
+"href=\"lang_insert.html\">INSERT</a> statement must be an unqualified table "
+"name.  In other words, one must use just \"<i>tablename</i>\" not "
+"\"<i>database</i><b>.</b><i>tablename</i>\" when specifying the table."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_createtrigger.html:4129
+msgid ""
+"For non-TEMP triggers, the table to be modified or queried must exist in the "
+"same database as the table or view to which the trigger is attached.  TEMP "
+"triggers are not subject to the same-database rule.  A TEMP trigger is "
+"allowed to query or modify any table in any <a href=\"lang_attach."
+"html\">ATTACH</a>-ed database."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_createtrigger.html:4137
+msgid ""
+"The \"INSERT INTO <i>table</i> DEFAULT VALUES\" form of the <a "
+"href=\"lang_insert.html\">INSERT</a> statement is not supported."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_createtrigger.html:4142
+msgid ""
+"The INDEXED BY and NOT INDEXED clauses are not supported for <a "
+"href=\"lang_update.html\">UPDATE</a> and <a href=\"lang_delete."
+"html\">DELETE</a> statements."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_createtrigger.html:4147
+msgid ""
+"The ORDER BY and LIMIT clauses on <a href=\"lang_update.html\">UPDATE</a> "
+"and <a href=\"lang_delete.html\">DELETE</a> statements are not supported.  "
+"ORDER BY and LIMIT are not normally supported for <a href=\"lang_update."
+"html\">UPDATE</a> or <a href=\"lang_delete.html\">DELETE</a> in any context "
+"but can be enabled for top-level statements using the <a href=\"compile."
+"html#enable_update_delete_limit\">SQLITE_ENABLE_UPDATE_DELETE_LIMIT</a> "
+"compile-time option.  However, that compile-time option only applies to top-"
+"level <a href=\"lang_update.html\">UPDATE</a> and <a href=\"lang_delete."
+"html\">DELETE</a> statements, not <a href=\"lang_update.html\">UPDATE</a> "
+"and <a href=\"lang_delete.html\">DELETE</a> statements within triggers."
+msgstr ""
+
+#. type: Content of: <html><body><div><ul><li>
+#: sedout/lang_createtrigger.html:4156
+msgid ""
+"<a href=\"syntax/common-table-expression.html\">Common table expression</a> "
+"are not supported for statements inside of triggers."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createtrigger.html:4161
+msgid "<a name=\"instead_of_trigger\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:4163
+msgid "<span>3. </span>INSTEAD OF triggers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4165
+msgid ""
+"BEFORE and AFTER triggers work only on ordinary tables.  INSTEAD OF triggers "
+"work only on views."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4168
+msgid ""
+"If an INSTEAD OF INSERT trigger exists on a view, then it is possible to "
+"execute an INSERT statement against that view.  No actual insert occurs.  "
+"Instead, the statements contained within the trigger are run.  INSTEAD OF "
+"DELETE and INSTEAD OF UPDATE triggers work the same way for DELETE and "
+"UPDATE statements against views."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4175
+msgid ""
+"Note that the <a href=\"c3ref/changes.html\">sqlite3_changes()</a> and <a "
+"href=\"c3ref/total_changes.html\">sqlite3_total_changes()</a> interfaces do "
+"not count INSTEAD OF trigger firings, but the <a href=\"pragma."
+"html#pragma_count_changes\">count_changes pragma</a> does count INSTEAD OF "
+"trigger firing."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:4179
+msgid "<span>4. </span>Some Example Triggers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4181
+msgid ""
+"Assuming that customer records are stored in the \"customers\" table, and "
+"that order records are stored in the \"orders\" table, the following UPDATE "
+"trigger ensures that all associated orders are redirected when a customer "
+"changes his or her address:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><pre>
+#: sedout/lang_createtrigger.html:4188
+#, no-wrap
+msgid ""
+"CREATE TRIGGER update_customer_address UPDATE OF address ON customers \n"
+"  BEGIN\n"
+"    UPDATE orders SET address = new.address WHERE customer_name = old.name;\n"
+"  END;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4194
+msgid "With this trigger installed, executing the statement:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><pre>
+#: sedout/lang_createtrigger.html:4197
+#, no-wrap
+msgid "UPDATE customers SET address = '1 Main St.' WHERE name = 'Jack Jones';\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4200
+msgid "causes the following to be automatically executed:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><pre>
+#: sedout/lang_createtrigger.html:4203
+#, no-wrap
+msgid "UPDATE orders SET address = '1 Main St.' WHERE customer_name = 'Jack Jones';\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4206
+msgid "For an example of an INSTEAD OF trigger, consider the following schema:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><blockquote><pre>
+#: sedout/lang_createtrigger.html:4209
+#, no-wrap
+msgid ""
+"CREATE TABLE customer(\n"
+"  cust_id INTEGER PRIMARY KEY,\n"
+"  cust_name TEXT,\n"
+"  cust_addr TEXT\n"
+");\n"
+"CREATE VIEW customer_address AS\n"
+"   SELECT cust_id, cust_addr FROM customer;\n"
+"CREATE TRIGGER cust_addr_chng\n"
+"INSTEAD OF UPDATE OF cust_addr ON customer_address\n"
+"BEGIN\n"
+"  UPDATE customer SET cust_addr=NEW.cust_addr\n"
+"   WHERE cust_id=NEW.cust_id;\n"
+"END;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4224
+msgid "With the schema above, a statement of the form:"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><pre>
+#: sedout/lang_createtrigger.html:4227
+#, no-wrap
+msgid "UPDATE customer_address SET cust_addr=$new_address WHERE cust_id=$cust_id;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4230
+msgid ""
+"Causes the customer.cust_addr field to be updated for a specific customer "
+"entry that has customer.cust_id equal to the $cust_id parameter.  Note how "
+"the values assigned to the view are made available as field in the special "
+"\"NEW\" table within the trigger body."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createtrigger.html:4235
+msgid "<a name=\"undef_before\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:4237
+msgid "<span>5. </span>Cautions On The Use Of BEFORE triggers"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4239
+msgid ""
+"If a BEFORE UPDATE or BEFORE DELETE trigger modifies or deletes a row that "
+"was to have been updated or deleted, then the result of the subsequent "
+"update or delete operation is undefined.  Furthermore, if a BEFORE trigger "
+"modifies or deletes a row, then it is undefined whether or not AFTER "
+"triggers that would have otherwise run on those rows will in fact run."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4246
+msgid ""
+"The value of NEW.rowid is undefined in a BEFORE INSERT trigger in which the "
+"rowid is not explicitly set to an integer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4249
+msgid ""
+"Because of the behaviors described above, programmers are encouraged to "
+"prefer AFTER triggers over BEFORE triggers."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createtrigger.html:4252
+msgid "<a name=\"raise\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:4254
+msgid "<span>6. </span>The RAISE() function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4256
+msgid ""
+"A special SQL function RAISE() may be used within a trigger-program, with "
+"the following syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4259
+msgid "<b><a href=\"syntax/raise-function.html\">raise-function:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4315
+msgid ""
+"When one of RAISE(ROLLBACK,...), RAISE(ABORT,...) or RAISE(FAIL,...)  is "
+"called during trigger-program execution, the specified <a "
+"href=\"lang_conflict.html\">ON CONFLICT</a> processing is performed and the "
+"current query terminates.  An error code of <a href=\"rescode."
+"html#constraint\">SQLITE_CONSTRAINT</a> is returned to the application, "
+"along with the specified error message."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4322
+msgid ""
+"When RAISE(IGNORE) is called, the remainder of the current trigger program, "
+"the statement that caused the trigger program to execute and any subsequent "
+"trigger programs that would have been executed are abandoned. No database "
+"changes are rolled back.  If the statement that caused the trigger program "
+"to execute is itself part of a trigger program, then that trigger program "
+"resumes execution at the beginning of the next step."
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_createtrigger.html:4330
+msgid "<a name=\"temptrig\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_createtrigger.html:4332
+msgid "<span>7. </span>TEMP Triggers on Non-TEMP Tables"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4334
+msgid ""
+"A trigger normally exists in the same database as the table named after the "
+"\"ON\" keyword in the CREATE TRIGGER statement.  Except, it is possible to "
+"create a TEMP TRIGGER on a table in another database.  Such a trigger will "
+"only fire when changes are made to the target table by the application that "
+"defined the trigger.  Other applications that modify the database will not "
+"be able to see the TEMP trigger and hence cannot run the trigger."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4342
+msgid ""
+"When defining a TEMP trigger on a non-TEMP table, it is important to specify "
+"the database holding the non-TEMP table.  For example, in the following "
+"statement, it is important to say \"main.tab1\" instead of just \"tab1\":"
+msgstr ""
+
+#. type: Content of: <html><body><div><blockquote><pre>
+#: sedout/lang_createtrigger.html:4348
+#, no-wrap
+msgid "CREATE TEMP TRIGGER ex1 AFTER INSERT ON <b>main.</b>tab1 BEGIN ...\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_createtrigger.html:4351
+msgid ""
+"Failure to specify the schema name on the target table could result in the "
+"TEMP trigger being reattached to a table with the same name in another "
+"database whenever any schema change occurs."
+msgstr ""

@@ -1,0 +1,312 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 20:18+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/c3ref/uri_boolean.html:6 sedout/c3ref/uri_boolean.html:121
+msgid "Obtain Values For URI Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/uri_boolean.html:11
+msgid "<a href=\"../index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/c3ref/uri_boolean.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/c3ref/uri_boolean.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/c3ref/uri_boolean.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/uri_boolean.html:20
+msgid "<a href=\"../index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/uri_boolean.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/c3ref/uri_boolean.html:22 sedout/c3ref/uri_boolean.html:34
+msgid "<a href='../about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:23
+msgid "<a href=\"../docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:24
+msgid "<a href=\"../download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:25
+msgid "<a href='../copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:26
+msgid "<a href=\"../support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:27
+msgid "<a href=\"../prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/c3ref/uri_boolean.html:35
+msgid "<a href='../docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/c3ref/uri_boolean.html:36
+msgid "<a href='../download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:37
+msgid "<a href='../support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/c3ref/uri_boolean.html:38
+msgid "<a href='../prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/c3ref/uri_boolean.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/uri_boolean.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/c3ref/uri_boolean.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/c3ref/uri_boolean.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/c3ref/uri_boolean.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/c3ref/uri_boolean.html:120
+msgid "<a href=\"../c3ref/intro.html\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><a><h2>
+#: sedout/c3ref/uri_boolean.html:120
+msgid "SQLite C Interface"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/c3ref/uri_boolean.html:120
+msgid "</a>"
+msgstr ""
+
+#. type: Content of: <html><body><blockquote><pre>
+#: sedout/c3ref/uri_boolean.html:124
+#, no-wrap
+msgid ""
+"const char *sqlite3_uri_parameter(sqlite3_filename z, const char *zParam);\n"
+"int sqlite3_uri_boolean(sqlite3_filename z, const char *zParam, int "
+"bDefault);\n"
+"sqlite3_int64 sqlite3_uri_int64(sqlite3_filename, const char*, "
+"sqlite3_int64);\n"
+"const char *sqlite3_uri_key(sqlite3_filename z, int N);\n"
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:130
+msgid ""
+"These are utility routines, useful to <a href=\"../vfs.html\">custom VFS "
+"implementations</a>, that check if a database file was a URI that contained "
+"a specific query parameter, and if so obtains the value of that query "
+"parameter."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:134
+msgid ""
+"The first parameter to these interfaces (hereafter referred to as F) must be "
+"one of:"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li>
+#: sedout/c3ref/uri_boolean.html:137
+msgid ""
+"A database filename pointer created by the SQLite core and passed into the "
+"xOpen() method of a VFS implemention, or"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li>
+#: sedout/c3ref/uri_boolean.html:139
+msgid ""
+"A filename obtained from <a "
+"href=\"../c3ref/db_filename.html\">sqlite3_db_filename()</a>, or"
+msgstr ""
+
+#. type: Content of: <html><body><p><ul><li><li><li>
+#: sedout/c3ref/uri_boolean.html:140
+msgid ""
+"A new filename constructed using <a "
+"href=\"../c3ref/create_filename.html\">sqlite3_create_filename()</a>."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:142
+msgid ""
+"If the F parameter is not one of the above, then the behavior is undefined "
+"and probably undesirable.  Older versions of SQLite were more tolerant of "
+"invalid F parameters than newer versions."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:146
+msgid ""
+"If F is a suitable filename (as described in the previous paragraph)  and if "
+"P is the name of the query parameter, then sqlite3_uri_parameter(F,P) "
+"returns the value of the P parameter if it exists or a NULL pointer if P "
+"does not appear as a query parameter on F.  If P is a query parameter of F "
+"and it has no explicit value, then sqlite3_uri_parameter(F,P) returns a "
+"pointer to an empty string."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:154
+msgid ""
+"The sqlite3_uri_boolean(F,P,B) routine assumes that P is a boolean parameter "
+"and returns true (1) or false (0) according to the value of P.  The "
+"sqlite3_uri_boolean(F,P,B) routine returns true (1) if the value of query "
+"parameter P is one of \"yes\", \"true\", or \"on\" in any case or if the "
+"value begins with a non-zero number.  The sqlite3_uri_boolean(F,P,B) "
+"routines returns false (0) if the value of query parameter P is one of "
+"\"no\", \"false\", or \"off\" in any case or if the value begins with a "
+"numeric zero.  If P is not a query parameter on F or if the value of P does "
+"not match any of the above, then sqlite3_uri_boolean(F,P,B) returns (B!=0)."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:165
+msgid ""
+"The sqlite3_uri_int64(F,P,D) routine converts the value of P into a 64-bit "
+"signed integer and returns that integer, or D if P does not exist.  If the "
+"value of P is something other than an integer, then zero is returned."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:170
+msgid ""
+"The sqlite3_uri_key(F,N) returns a pointer to the name (not the value) of "
+"the N-th query parameter for filename F, or a NULL pointer if N is less than "
+"zero or greater than the number of query parameters minus 1.  The N value is "
+"zero-based so N should be 0 to obtain the name of the first query parameter, "
+"1 for the second parameter, and so forth."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:177
+msgid ""
+"If F is a NULL pointer, then sqlite3_uri_parameter(F,P) returns NULL and "
+"sqlite3_uri_boolean(F,P,B) returns B.  If F is not a NULL pointer and is not "
+"a database file pathname pointer that the SQLite core passed into the xOpen "
+"VFS method, then the behavior of this routine is undefined and probably "
+"undesirable."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:183
+msgid ""
+"Beginning with SQLite <a href=\"../releaselog/3_31_0.html\">version "
+"3.31.0</a> (2020-01-22) the input F parameter can also be the name of a "
+"rollback journal file or WAL file in addition to the main database file.  "
+"Prior to version 3.31.0, these routines would only work if F was the name of "
+"the main database file.  When the F parameter is the name of the rollback "
+"journal or WAL file, it has access to all the same query parameters as were "
+"found on the main database file."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:191
+msgid ""
+"See the <a href=\"../uri.html\">URI filename</a> documentation for "
+"additional information."
+msgstr ""
+
+#. type: Content of: <html><body><p>
+#: sedout/c3ref/uri_boolean.html:192
+msgid ""
+"See also lists of <a href=\"../c3ref/objlist.html\">Objects</a>, <a "
+"href=\"../c3ref/constlist.html\">Constants</a>, and <a "
+"href=\"../c3ref/funclist.html\">Functions</a>."
+msgstr ""

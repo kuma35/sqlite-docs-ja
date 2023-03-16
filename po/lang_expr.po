@@ -1,0 +1,2650 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_expr.html:6 sedout/lang_expr.html:121
+msgid "SQL Language Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_expr.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_expr.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_expr.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_expr.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_expr.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_expr.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_expr.html:22 sedout/lang_expr.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_expr.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_expr.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_expr.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_expr.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_expr.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_expr.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_expr.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_expr.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_expr.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_expr.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_expr.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_expr.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_expr.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_expr.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_expr.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_expr.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:128
+msgid "<a href=\"#syntax\">1. Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:129
+msgid ""
+"<a href=\"#operators_and_parse_affecting_attributes\">2. Operators, and "
+"Parse-Affecting Attributes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:130
+msgid ""
+"<a href=\"#literal_values_constants_\">3. Literal Values (Constants)</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:131
+msgid "<a href=\"#parameters\">4. Parameters</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:132
+msgid ""
+"<a href=\"#the_like_glob_regexp_match_and_extract_operators\">5. The LIKE, "
+"GLOB, REGEXP, MATCH, and extract operators</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:133
+msgid "<a href=\"#the_between_operator\">6. The BETWEEN operator</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:134
+msgid "<a href=\"#the_case_expression\">7. The CASE expression</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:135
+msgid ""
+"<a href=\"#the_in_and_not_in_operators\">8. The IN and NOT IN operators</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:136
+msgid "<a href=\"#table_column_names\">9. Table Column Names</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:137
+msgid "<a href=\"#the_exists_operator\">10. The EXISTS operator</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:138
+msgid "<a href=\"#subquery_expressions\">11. Subquery Expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:139
+msgid "<a href=\"#correlated_subqueries\">12. Correlated Subqueries</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:140
+msgid "<a href=\"#cast_expressions\">13. CAST expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:141
+msgid "<a href=\"#boolean_expressions\">14. Boolean Expressions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_expr.html:142
+msgid "<a href=\"#functions\">15. Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_expr.html:146
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_expr.html:163
+msgid "<span>1. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_expr.html:165
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xf394a8dc' "
+"onclick='hideorshow(\"xf394a8dc\",\"x8b5b83d3\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:173
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:178
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:185 sedout/lang_expr.html:550
+#: sedout/lang_expr.html:1856
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:189 sedout/lang_expr.html:197
+#: sedout/lang_expr.html:554 sedout/lang_expr.html:1837
+#: sedout/lang_expr.html:1860 sedout/lang_expr.html:2551
+#: sedout/lang_expr.html:2580
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:193 sedout/lang_expr.html:575
+#: sedout/lang_expr.html:1481 sedout/lang_expr.html:1833
+#: sedout/lang_expr.html:1864
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:201 sedout/lang_expr.html:1493
+#: sedout/lang_expr.html:1634
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:214
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:218 sedout/lang_expr.html:225
+#: sedout/lang_expr.html:233 sedout/lang_expr.html:252
+#: sedout/lang_expr.html:304 sedout/lang_expr.html:328
+#: sedout/lang_expr.html:347 sedout/lang_expr.html:362
+#: sedout/lang_expr.html:378 sedout/lang_expr.html:380
+#: sedout/lang_expr.html:388 sedout/lang_expr.html:422
+#: sedout/lang_expr.html:452 sedout/lang_expr.html:474
+#: sedout/lang_expr.html:483 sedout/lang_expr.html:495
+#: sedout/lang_expr.html:503 sedout/lang_expr.html:511
+#: sedout/lang_expr.html:540 sedout/lang_expr.html:566
+#: sedout/lang_expr.html:624 sedout/lang_expr.html:632
+#: sedout/lang_expr.html:640 sedout/lang_expr.html:648
+#: sedout/lang_expr.html:692 sedout/lang_expr.html:804
+#: sedout/lang_expr.html:927 sedout/lang_expr.html:949
+#: sedout/lang_expr.html:971 sedout/lang_expr.html:984
+#: sedout/lang_expr.html:1004 sedout/lang_expr.html:1084
+#: sedout/lang_expr.html:1287 sedout/lang_expr.html:1306
+#: sedout/lang_expr.html:1314 sedout/lang_expr.html:1377
+#: sedout/lang_expr.html:1416 sedout/lang_expr.html:1444
+#: sedout/lang_expr.html:1452 sedout/lang_expr.html:1656
+#: sedout/lang_expr.html:1742 sedout/lang_expr.html:1803
+#: sedout/lang_expr.html:1911 sedout/lang_expr.html:2015
+#: sedout/lang_expr.html:2135 sedout/lang_expr.html:2157
+#: sedout/lang_expr.html:2179 sedout/lang_expr.html:2192
+#: sedout/lang_expr.html:2212 sedout/lang_expr.html:3220
+#: sedout/lang_expr.html:3268 sedout/lang_expr.html:3321
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:229
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:240
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:244 sedout/lang_expr.html:300
+#: sedout/lang_expr.html:324 sedout/lang_expr.html:523
+#: sedout/lang_expr.html:562 sedout/lang_expr.html:601
+#: sedout/lang_expr.html:684 sedout/lang_expr.html:790
+#: sedout/lang_expr.html:1150 sedout/lang_expr.html:1373
+#: sedout/lang_expr.html:1487 sedout/lang_expr.html:1508
+#: sedout/lang_expr.html:1630 sedout/lang_expr.html:1907
+#: sedout/lang_expr.html:1948 sedout/lang_expr.html:1966
+#: sedout/lang_expr.html:2001 sedout/lang_expr.html:2298
+#: sedout/lang_expr.html:2321 sedout/lang_expr.html:3216
+#: sedout/lang_expr.html:3254 sedout/lang_expr.html:3317
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:248 sedout/lang_expr.html:466
+#: sedout/lang_expr.html:1236 sedout/lang_expr.html:3260
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:256 sedout/lang_expr.html:308
+#: sedout/lang_expr.html:340 sedout/lang_expr.html:531
+#: sedout/lang_expr.html:570 sedout/lang_expr.html:609
+#: sedout/lang_expr.html:696 sedout/lang_expr.html:846
+#: sedout/lang_expr.html:1166 sedout/lang_expr.html:1381
+#: sedout/lang_expr.html:1497 sedout/lang_expr.html:1516
+#: sedout/lang_expr.html:1638 sedout/lang_expr.html:1915
+#: sedout/lang_expr.html:1956 sedout/lang_expr.html:1974
+#: sedout/lang_expr.html:2057 sedout/lang_expr.html:2314
+#: sedout/lang_expr.html:2329 sedout/lang_expr.html:3224
+#: sedout/lang_expr.html:3272 sedout/lang_expr.html:3325
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:260 sedout/lang_expr.html:3276
+#: sedout/lang_expr.html:3329
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:266
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:279 sedout/lang_expr.html:315
+#: sedout/lang_expr.html:545 sedout/lang_expr.html:582
+#: sedout/lang_expr.html:806 sedout/lang_expr.html:830
+#: sedout/lang_expr.html:1158 sedout/lang_expr.html:1218
+#: sedout/lang_expr.html:1242 sedout/lang_expr.html:1265
+#: sedout/lang_expr.html:1316 sedout/lang_expr.html:1349
+#: sedout/lang_expr.html:1386 sedout/lang_expr.html:1388
+#: sedout/lang_expr.html:1422 sedout/lang_expr.html:1448
+#: sedout/lang_expr.html:1521 sedout/lang_expr.html:1645
+#: sedout/lang_expr.html:1695 sedout/lang_expr.html:1919
+#: sedout/lang_expr.html:1981 sedout/lang_expr.html:2017
+#: sedout/lang_expr.html:2041 sedout/lang_expr.html:2306
+#: sedout/lang_expr.html:3229 sedout/lang_expr.html:3289
+#: sedout/lang_expr.html:3348
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:288 sedout/lang_expr.html:1826
+#: sedout/lang_expr.html:1841 sedout/lang_expr.html:3237
+#: sedout/lang_expr.html:3295 sedout/lang_expr.html:3356
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:320
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:332 sedout/lang_expr.html:1343
+#: sedout/lang_expr.html:1501 sedout/lang_expr.html:1807
+#: sedout/lang_expr.html:1868 sedout/lang_expr.html:1932
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><span><nobr>
+#: sedout/lang_expr.html:336 sedout/lang_expr.html:3053
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:351 sedout/lang_expr.html:1088
+#: sedout/lang_expr.html:1746
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:355 sedout/lang_expr.html:1092
+#: sedout/lang_expr.html:1750
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:366 sedout/lang_expr.html:435
+#: sedout/lang_expr.html:460 sedout/lang_expr.html:487
+#: sedout/lang_expr.html:515 sedout/lang_expr.html:593
+#: sedout/lang_expr.html:1503 sedout/lang_expr.html:1889
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:370
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:372
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:374
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:376
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:384
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:426
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:433
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:439 sedout/lang_expr.html:737
+#: sedout/lang_expr.html:2957 sedout/lang_expr.html:2958
+#: sedout/lang_expr.html:2964 sedout/lang_expr.html:2965
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:456
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:470 sedout/lang_expr.html:1257
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:491 sedout/lang_expr.html:879
+#: sedout/lang_expr.html:2087
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:499 sedout/lang_expr.html:891
+#: sedout/lang_expr.html:2099 sedout/lang_expr.html:2427
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:519
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:527 sedout/lang_expr.html:605
+#: sedout/lang_expr.html:1512 sedout/lang_expr.html:1952
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:558
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:597
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:620
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:628
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:636
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:644
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:652
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_expr.html:664
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_expr.html:672
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x6079235c' onclick='hideorshow(\"x6079235c\",\"x5b999b6c\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:680
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:688 sedout/lang_expr.html:1283
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_expr.html:703
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='xa03ae81e' onclick='hideorshow(\"xa03ae81e\",\"x3c40ef77\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:711
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:718 sedout/lang_expr.html:2353
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:723
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:730
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:744
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:751
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:758
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:765
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_expr.html:774
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='x03334194' onclick='hideorshow(\"x03334194\",\"xeb49916a\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:782 sedout/lang_expr.html:3333
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:786 sedout/lang_expr.html:1339
+#: sedout/lang_expr.html:3337
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:794 sedout/lang_expr.html:2005
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:796 sedout/lang_expr.html:2007
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:800 sedout/lang_expr.html:824
+#: sedout/lang_expr.html:1302 sedout/lang_expr.html:1410
+#: sedout/lang_expr.html:1883 sedout/lang_expr.html:2011
+#: sedout/lang_expr.html:2035
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:820 sedout/lang_expr.html:1406
+#: sedout/lang_expr.html:2031
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:828 sedout/lang_expr.html:1420
+#: sedout/lang_expr.html:2039
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:842 sedout/lang_expr.html:2053
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:866
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xc7af8926' onclick='hideorshow(\"xc7af8926\",\"x1b5e10b2\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:874 sedout/lang_expr.html:2082
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:883 sedout/lang_expr.html:895
+#: sedout/lang_expr.html:918 sedout/lang_expr.html:2091
+#: sedout/lang_expr.html:2103 sedout/lang_expr.html:2126
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:887 sedout/lang_expr.html:922
+#: sedout/lang_expr.html:931 sedout/lang_expr.html:953
+#: sedout/lang_expr.html:988 sedout/lang_expr.html:2095
+#: sedout/lang_expr.html:2130 sedout/lang_expr.html:2139
+#: sedout/lang_expr.html:2161 sedout/lang_expr.html:2196
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:899 sedout/lang_expr.html:975
+#: sedout/lang_expr.html:1008 sedout/lang_expr.html:2107
+#: sedout/lang_expr.html:2183 sedout/lang_expr.html:2216
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:904 sedout/lang_expr.html:2112
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:911 sedout/lang_expr.html:2119
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:938 sedout/lang_expr.html:960
+#: sedout/lang_expr.html:993 sedout/lang_expr.html:1019
+#: sedout/lang_expr.html:2146 sedout/lang_expr.html:2168
+#: sedout/lang_expr.html:2201 sedout/lang_expr.html:2227
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:942 sedout/lang_expr.html:964
+#: sedout/lang_expr.html:997 sedout/lang_expr.html:1023
+#: sedout/lang_expr.html:2150 sedout/lang_expr.html:2172
+#: sedout/lang_expr.html:2205 sedout/lang_expr.html:2231
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1015 sedout/lang_expr.html:1028
+#: sedout/lang_expr.html:1037 sedout/lang_expr.html:1046
+#: sedout/lang_expr.html:2223 sedout/lang_expr.html:2236
+#: sedout/lang_expr.html:2245 sedout/lang_expr.html:2254
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1032 sedout/lang_expr.html:1298
+#: sedout/lang_expr.html:2240
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1041 sedout/lang_expr.html:2249
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1050 sedout/lang_expr.html:2258
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1054 sedout/lang_expr.html:2262
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1076
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x8d6855bb' onclick='hideorshow(\"x8d6855bb\",\"x804de5c8\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1101 sedout/lang_expr.html:1759
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1105 sedout/lang_expr.html:1763
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1115 sedout/lang_expr.html:1123
+#: sedout/lang_expr.html:1773 sedout/lang_expr.html:1781
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1119 sedout/lang_expr.html:1777
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1127 sedout/lang_expr.html:1785
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_expr.html:1138
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x476adbef' onclick='hideorshow(\"x476adbef\",\"xdea6bd48\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1146
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1154
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1162
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1173
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1178
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1183
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_expr.html:1194
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='xcb2e3309' onclick='hideorshow(\"xcb2e3309\",\"xe5deb49e\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1203
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1205
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1211
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1232
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1240
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1250 sedout/lang_expr.html:1564
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1261 sedout/lang_expr.html:1594
+#: sedout/lang_expr.html:1602 sedout/lang_expr.html:1970
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1263 sedout/lang_expr.html:1988
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1310
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1335
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:1347 sedout/lang_expr.html:3345
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1369
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1398
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1404
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1412
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1440
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1473
+msgid ""
+"<b><a href=\"syntax/common-table-expression.html\">common-table-expression:</"
+"a></b> <button id='xff964918' onclick='hideorshow(\"xff964918\","
+"\"x7f6ec2f2\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1505
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1544
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x24319e35' onclick='hideorshow(\"x24319e35\","
+"\"x9173c61d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1554 sedout/lang_expr.html:1556
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1558
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1560
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1586
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='x90c8f583' onclick='hideorshow(\"x90c8f583\",\"x47efb1cb\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1598
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1606
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_expr.html:1618
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='xda788c9c' onclick='hideorshow(\"xda788c9c\",\"xcdf98062\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1626
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1652
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_expr.html:1666
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x88e3d131' onclick='hideorshow(\"x88e3d131\",\"xa690b0ad\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1674
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1680
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1684
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1690
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1708
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1714
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1719
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1726
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1734
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x56bdf03f' onclick='hideorshow(\"x56bdf03f\",\"x8a9963e8\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1795
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xb902b9a8' onclick='hideorshow(\"xb902b9a8\",\"x5d006a02\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1811
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1848
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='xea3b663f' onclick='hideorshow(\"xea3b663f\","
+"\"x4510aa29\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1872 sedout/lang_expr.html:1936
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1879 sedout/lang_expr.html:1893
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1887
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:1903
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:1993
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='x1a910ade' onclick='hideorshow(\"x1a910ade\",\"x0cda6c3a\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_expr.html:2074
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x3ae0d31c' onclick='hideorshow(\"x3ae0d31c\",\"xfc1b8762\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_expr.html:2286
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='xd96179a4' onclick='hideorshow(\"xd96179a4\",\"x0edc6a82\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:2294
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_expr.html:2302 sedout/lang_expr.html:2310
+#: sedout/lang_expr.html:2325
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_expr.html:2341
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x796b0caf' onclick='hideorshow(\"x796b0caf\",\"x8ccecfb3\")'>show</"
+"button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2349 sedout/lang_expr.html:2607
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2360 sedout/lang_expr.html:2594
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div>
+#: sedout/lang_expr.html:2372
+msgid "<a name=\"binaryops\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_expr.html:2374
+msgid "<span>2. </span>Operators, and Parse-Affecting Attributes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_expr.html:2375
+msgid ""
+"SQLite understands these operators, listed in precedence<sup>1</sup> order"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><br>
+#: sedout/lang_expr.html:2376
+msgid "(top to bottom / highest to lowest):"
+msgstr ""
+
+#. type: Content of: <html><body><div><style>
+#: sedout/lang_expr.html:2380
+msgid ""
+"td.optab { color: #2c2cf0; border: 2px solid black; padding: 4px; } th.optab "
+"{ text-align: center; border: 2px solid black; padding: 4px; } table.optab "
+"{ border-collapse: collapse; margin-left: 50px } small.optab { color: "
+"#101010; }"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><th>
+#: sedout/lang_expr.html:2389
+msgid "<b>Operators&nbsp;<sup>2</sup></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2392
+msgid ""
+"~&nbsp;<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;&nbsp;&nbsp;"
+"&nbsp;+&nbsp;<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;&nbsp;"
+"&nbsp;&nbsp;-&nbsp;<small class=\"optab\">&lsqb;expr&rsqb;</small>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2395
+msgid ""
+"<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;COLLATE&nbsp;&lpar;"
+"collation-name&rpar;&nbsp;<sup>3</sup>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2398
+msgid "||&nbsp;&nbsp;&nbsp;-&gt;&nbsp;&nbsp;&nbsp;-&gt;&gt;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2401
+msgid "*&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;%"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2404
+msgid "+&nbsp;&nbsp;&nbsp;-"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2407
+msgid "&amp;&ensp;&nbsp;|&nbsp;&nbsp;&nbsp;&lt;&lt;&ensp;&nbsp;&gt;&gt;"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2410
+msgid ""
+"<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;ESCAPE&nbsp;&lsqb;"
+"escape-character-expr&rsqb;&nbsp;<sup>4</sup>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2413
+msgid "&lt;&nbsp;&nbsp;&gt;&nbsp;&nbsp;&lt;=&nbsp;&nbsp;&gt;="
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2417
+msgid ""
+"IS&nbsp;DISTINCT&nbsp;FROM&nbsp;&nbsp;&nbsp;IS&nbsp;NOT&nbsp;DISTINCT&nbsp;"
+"FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br>
+#: sedout/lang_expr.html:2418
+msgid ""
+"<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;BETWEEN<sup>5</"
+"sup>&nbsp;<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;AND&nbsp;"
+"<small class=\"optab\">&lsqb;expr&rsqb;</small><sup>&ensp;</sup>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br><br>
+#: sedout/lang_expr.html:2419
+msgid ""
+"IN<sup>5</sup>&nbsp;&nbsp;MATCH<sup>5</sup>&nbsp;&nbsp;LIKE<sup>5</sup>&nbsp;"
+"&nbsp;REGEXP<sup>5</sup>&nbsp;&nbsp;GLOB<sup>5</sup>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td><br><br><br>
+#: sedout/lang_expr.html:2420
+msgid ""
+"<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;ISNULL&nbsp;&nbsp;"
+"<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;NOTNULL&nbsp;&nbsp;"
+"&nbsp;<small class=\"optab\">&lsqb;expr&rsqb;</small>&nbsp;NOT&nbsp;NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2424
+msgid "NOT&nbsp;<small class=\"optab\">&lsqb;expr&rsqb;</small>"
+msgstr ""
+
+#. type: Content of: <html><body><div><table><tr><td>
+#: sedout/lang_expr.html:2430
+msgid "OR"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_expr.html:2435
+msgid "Operators shown within the same table cell share precedence."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_expr.html:2436
+msgid ""
+"\"<small>&lsqb;expr&rsqb;</small>\" denotes operand locations for non-binary "
+"operators."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><br>
+#: sedout/lang_expr.html:2437
+msgid ""
+"&nbsp;&nbsp;Operators with no \"&lsqb;expr&rsqb;\" adjunct are binary and "
+"left-associative."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_expr.html:2438
+msgid ""
+"The COLLATE clause (with its collation-name) acts as a single postfix "
+"operator."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_expr.html:2439
+msgid ""
+"The ESCAPE clause (with its escape character) acts as a single postfix "
+"operator."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><br>
+#: sedout/lang_expr.html:2440
+msgid ""
+"&nbsp;&nbsp;It can only bind to a preceding &lsqb;expr&rsqb; LIKE &lsqb;"
+"expr&rsqb; expression."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_expr.html:2441
+msgid "Each keyword in (BETWEEN IN GLOB LIKE MATCH REGEXP) may be prefixed"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li><br>
+#: sedout/lang_expr.html:2442
+msgid ""
+"&nbsp;&nbsp;by NOT, retaining the bare operator's precedence and "
+"associativity."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_expr.html:2446
+msgid "<a name=\"collateop\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2448
+msgid ""
+"The COLLATE operator is a unary postfix operator that assigns a <a "
+"href=\"datatype3.html#collation\">collating sequence</a> to an expression.  "
+"The collating sequence set by the COLLATE operator overrides the collating "
+"sequence determined by the COLLATE clause in a table <a "
+"href=\"lang_createtable.html#tablecoldef\">column definition</a>.  See the "
+"<a href=\"datatype3.html#collation\">detailed discussion on collating "
+"sequences</a> in the <a href=\"datatype3.html\">Datatype In SQLite3</a> "
+"document for additional information."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2459
+msgid "The unary operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2459
+msgid "<big>+</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2459
+msgid ""
+"is a no-op.  It can be applied to strings, numbers, blobs or NULL and it "
+"always returns a result with the same value as the operand."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2463
+msgid ""
+"Note that there are two variations of the equals and not equals operators.  "
+"Equals can be either"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2466 sedout/lang_expr.html:2468
+msgid "or"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2466
+msgid ".  The not-equal operator can be either"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2468 sedout/lang_expr.html:2508
+msgid "<big>!=</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2468
+msgid "<big>&lt;&gt;</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2468
+msgid ".  The"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2469 sedout/lang_expr.html:2488
+msgid "<big>||</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2469
+msgid ""
+"operator is \"concatenate\" - it joins together the two strings of its "
+"operands.  The"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2471 sedout/lang_expr.html:2489
+msgid "<big>-&gt;</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2471 sedout/lang_expr.html:2489
+#: sedout/lang_expr.html:2507 sedout/lang_expr.html:2508
+msgid "and"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2471 sedout/lang_expr.html:2489
+msgid "<big>-&gt;&gt;</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2471
+msgid ""
+"operators are \"extract\"; they extract the RHS component from the LHS.  For "
+"an example, see <a href=\"json1.html#jptr\">JSON subcomponent extraction</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2478 sedout/lang_expr.html:2507
+#: sedout/lang_expr.html:2519
+msgid "The"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><font>
+#: sedout/lang_expr.html:2478
+msgid "<big>%</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2478
+msgid ""
+"operator <a href=\"lang_expr.html#castexpr\">casts</a> both of its operands "
+"to type INTEGER and then computes the remainder after dividing the left "
+"integer by the right integer. The other arithmetic operators perform integer "
+"arithmetic if both operands are integers and no overflow would result, or "
+"floating point arithmetic, per IEEE Standard 754, if either operand is a "
+"real value or integer arithmetic would produce an overflow.  Integer divide "
+"yields an integer result, truncated toward zero."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2487
+msgid ""
+"The result of any binary operator is either a numeric value or NULL, except "
+"for the"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2488
+msgid "concatenation operator, and the"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2489
+msgid "extract operators which evaluate to either NULL or a text value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2492
+msgid ""
+"All operators generally evaluate to NULL when any operand is NULL, with "
+"specific exceptions as stated below. This is in accordance with the SQL92 "
+"standard."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2496
+msgid "When paired with NULL:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><br><br>
+#: sedout/lang_expr.html:2497 sedout/lang_expr.html:2499
+msgid "&nbsp;&nbsp;"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><br><font>
+#: sedout/lang_expr.html:2497
+msgid "<big>AND</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><br>
+#: sedout/lang_expr.html:2497
+msgid "evaluates to 0 (false) when the other operand is false; and"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><br><br><font>
+#: sedout/lang_expr.html:2499
+msgid "<big>OR</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><br><br>
+#: sedout/lang_expr.html:2499
+msgid "evaluates to 1 (true)  when the other operand is true."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_expr.html:2504
+msgid "<a name=\"isisnot\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><font>
+#: sedout/lang_expr.html:2507 sedout/lang_expr.html:2520
+msgid "<big>IS</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><font>
+#: sedout/lang_expr.html:2507 sedout/lang_expr.html:2522
+msgid "<big>IS NOT</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2507
+msgid "operators work like"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2508
+msgid ""
+"except when one or both of the operands are NULL. In this case, if both "
+"operands are NULL, then the IS operator evaluates to 1 (true) and the IS NOT "
+"operator evaluates to 0 (false). If one operand is NULL and the other is "
+"not, then the IS operator evaluates to 0 (false) and the IS NOT operator is "
+"1 (true).  It is not possible for an IS or IS NOT expression to evaluate to "
+"NULL.  <a name=\"isdf\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><font>
+#: sedout/lang_expr.html:2519
+msgid "<big>IS NOT DISTINCT FROM</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2519
+msgid "operator is an alternative spelling for the"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2520
+msgid "operator.  Likewise, the"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><font>
+#: sedout/lang_expr.html:2521
+msgid "<big>IS DISTINCT FROM</big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2521
+msgid "operator means the same thing as"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2522
+msgid ""
+".  Standard SQL does not support the compact IS and IS NOT notation.  Those "
+"compact forms are an SQLite extension.  You have to use the prolix and much "
+"less readable IS NOT DISTINCT FROM and IS DISTINCT FROM operators on other "
+"SQL database engines.  <a name=\"litvalue\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/lang_expr.html:2529
+msgid "<span>3. </span>Literal Values (Constants)"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2531
+msgid ""
+"A literal value represents a constant.  Literal values may be integers, "
+"floating point numbers, strings, BLOBs, or NULLs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2535
+msgid ""
+"The syntax for integer and floating point literals (collectively \"numeric "
+"literals\") is shown by the following diagram:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2538
+msgid "<b><a href=\"syntax/numeric-literal.html\">numeric-literal:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2544 sedout/lang_expr.html:2570
+#: sedout/lang_expr.html:2584 sedout/lang_expr.html:2598
+msgid "digit"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2561
+msgid "E"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2567
+msgid "e"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2621
+msgid "0x"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:2625
+msgid "hexdigit"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2638
+msgid ""
+"If a numeric literal has a decimal point or an exponentiation clause or if "
+"it is less than -9223372036854775808 or greater than 9223372036854775807, "
+"then it is a floating point literal.  Otherwise is it is an integer "
+"literal.  The \"E\" character that begins the exponentiation clause of a "
+"floating point literal can be either upper or lower case.  The \".\" "
+"character is always used as the decimal point even if the locale setting "
+"specifies \",\" for this role - the use of \",\" for the decimal point would "
+"result in syntactic ambiguity.  <a name=\"hexint\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2651
+msgid ""
+"Hexadecimal integer literals follow the C-language notation of \"0x\" or "
+"\"0X\" followed by hexadecimal digits.  For example, 0x1234 means the same "
+"as 4660 and 0x8000000000000000 means the same as -9223372036854775808.  "
+"Hexadecimal integer literals are interpreted as 64-bit two's-complement "
+"integers and are thus limited to sixteen significant digits of precision.  "
+"Support for hexadecimal integers was added to SQLite version 3.8.6 "
+"(2014-08-15).  For backwards compatibility, the \"0x\" hexadecimal integer "
+"notation is only understood by the SQL language parser, not by the type "
+"conversions routines.  String variables that contain text formatted like "
+"hexadecimal integers are not interpreted as hexadecimal integers when "
+"coercing the string value into an integer due to a <a href=\"lang_expr."
+"html#castexpr\">CAST expression</a> or for a <a href=\"datatype3."
+"html#affinity\">column affinity</a> transformation or prior to performing a "
+"numeric operation or for any other run-time conversions.  When coercing a "
+"string value in the format of a hexadecimal integer into an integer value, "
+"the conversion process stops when the 'x' character is seen so the resulting "
+"integer value is always zero.  SQLite only understands the hexadecimal "
+"integer notation when it appears in the SQL statement text, not when it "
+"appears as part of the content of the database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2676
+msgid ""
+"A string constant is formed by enclosing the string in single quotes (').  A "
+"single quote within the string can be encoded by putting two single quotes "
+"in a row - as in Pascal.  C-style escapes using the backslash character are "
+"not supported because they are not standard SQL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2682
+msgid ""
+"BLOB literals are string literals containing hexadecimal data and preceded "
+"by a single \"x\" or \"X\" character.  Example: X'53514C697465'"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2686
+msgid "A literal value can also be the token \"NULL\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2689
+msgid "<a name=\"varparam\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/lang_expr.html:2691
+msgid "<span>4. </span>Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2693
+msgid ""
+"A \"variable\" or \"parameter\" token specifies a placeholder in the "
+"expression for a value that is filled in at runtime using the <a "
+"href=\"c3ref/bind_blob.html\">sqlite3_bind()</a> family of C/C++ "
+"interfaces.  Parameters can take several forms:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2703
+msgid "<b>?</b><i>NNN</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2704
+msgid ""
+"A question mark followed by a number <i>NNN</i> holds a spot for the NNN-th "
+"parameter.  NNN must be between 1 and <a href=\"limits."
+"html#max_variable_number\">SQLITE_MAX_VARIABLE_NUMBER</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2709
+msgid "<b>?</b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2710
+msgid ""
+"A question mark that is not followed by a number creates a parameter with a "
+"number one greater than the largest parameter number already assigned.  If "
+"this means the parameter number is greater than <a href=\"limits."
+"html#max_variable_number\">SQLITE_MAX_VARIABLE_NUMBER</a>, it is an error.  "
+"This parameter format is provided for compatibility with other database "
+"engines.  But because it is easy to miscount the question marks, the use of "
+"this parameter format is discouraged.  Programmers are encouraged to use one "
+"of the symbolic formats below or the ?NNN format above instead."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2721
+msgid "<b>:</b><i>AAAA</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2722
+msgid ""
+"A colon followed by an identifier name holds a spot for a <a href=\"c3ref/"
+"bind_parameter_name.html\">named parameter</a> with the name :AAAA.  Named "
+"parameters are also numbered. The number assigned is one greater than the "
+"largest parameter number already assigned. If this means the parameter would "
+"be assigned a number greater than <a href=\"limits."
+"html#max_variable_number\">SQLITE_MAX_VARIABLE_NUMBER</a>, it is an error. "
+"To avoid confusion, it is best to avoid mixing named and numbered parameters."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2731
+msgid "<b>@</b><i>AAAA</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2732
+msgid ""
+"An \"at\" sign works exactly like a colon, except that the name of the "
+"parameter created is @AAAA."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2736
+msgid "<b>$</b><i>AAAA</i>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2737
+msgid ""
+"A dollar-sign followed by an identifier name also holds a spot for a named "
+"parameter with the name $AAAA.  The identifier name in this case can include "
+"one or more occurrences of \"::\" and a suffix enclosed in \"(...)\" "
+"containing any text at all.  This syntax is the form of a variable name in "
+"the <a href=\"http://www.tcl-lang.org/\">Tcl programming language</a>.  The "
+"presence of this syntax results from the fact that SQLite is really a <a "
+"href=\"tclsqlite.html\">Tcl extension</a> that has escaped into the wild."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2748
+msgid ""
+"Parameters that are not assigned values using <a href=\"c3ref/bind_blob."
+"html\">sqlite3_bind()</a> are treated as NULL.  The <a href=\"c3ref/"
+"bind_parameter_index.html\">sqlite3_bind_parameter_index()</a> interface can "
+"be used to translate a symbolic parameter name into its equivalent numeric "
+"index."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2753
+msgid ""
+"The maximum parameter number is set at compile-time by the <a href=\"limits."
+"html#max_variable_number\">SQLITE_MAX_VARIABLE_NUMBER</a> macro.  An "
+"individual <a href=\"c3ref/sqlite3.html\">database connection</a> D can "
+"reduce its maximum parameter number below the compile-time maximum using the "
+"<a href=\"c3ref/limit.html\">sqlite3_limit</a>(D, <a href=\"c3ref/"
+"c_limit_attached."
+"html#sqlitelimitvariablenumber\">SQLITE_LIMIT_VARIABLE_NUMBER</a>,...) "
+"interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2759
+msgid "<a name=\"like\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/lang_expr.html:2761
+msgid "<span>5. </span>The LIKE, GLOB, REGEXP, MATCH, and extract operators"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2762
+msgid ""
+"The LIKE operator does a pattern matching comparison. The operand to the "
+"right of the LIKE operator contains the pattern and the left hand operand "
+"contains the string to match against the pattern.  A percent symbol (\"%\") "
+"in the LIKE pattern matches any sequence of zero or more characters in the "
+"string.  An underscore (\"_\") in the LIKE pattern matches any single "
+"character in the string.  Any other character matches itself or its lower/"
+"upper case equivalent (i.e. case-insensitive matching).  <u>Important Note:</"
+"u> SQLite only understands upper/lower case for ASCII characters by "
+"default.  The LIKE operator is case sensitive by default for unicode "
+"characters that are beyond the ASCII range.  For example, the expression "
+"<b>'a'&nbsp;LIKE&nbsp;'A'</b> is TRUE but <b>'&aelig;'&nbsp;"
+"LIKE&nbsp;'&AElig;'</b> is FALSE.  The ICU extension to SQLite includes an "
+"enhanced version of the LIKE operator that does case folding across all "
+"unicode characters."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2781
+msgid ""
+"If the optional ESCAPE clause is present, then the expression following the "
+"ESCAPE keyword must evaluate to a string consisting of a single character. "
+"This character may be used in the LIKE pattern to include literal percent or "
+"underscore characters. The escape character followed by a percent symbol "
+"(%), underscore (_), or a second instance of the escape character itself "
+"matches a literal percent symbol, underscore, or a single escape character, "
+"respectively."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2790
+msgid ""
+"The infix LIKE operator is implemented by calling the application-defined "
+"SQL functions <a href=\"lang_corefunc.html#like\">like(<i>Y</i>,<i>X</i>)</"
+"a> or <a href=\"lang_corefunc.html#like\">like(<i>Y</i>,<i>X</i>,<i>Z</i>)</"
+"a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2794
+msgid ""
+"The LIKE operator can be made case sensitive using the <a href=\"pragma."
+"html#pragma_case_sensitive_like\">case_sensitive_like pragma</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2797
+msgid "<a name=\"glob\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2799
+msgid ""
+"The GLOB operator is similar to LIKE but uses the Unix file globbing syntax "
+"for its wildcards.  Also, GLOB is case sensitive, unlike LIKE.  Both GLOB "
+"and LIKE may be preceded by the NOT keyword to invert the sense of the "
+"test.  The infix GLOB operator is implemented by calling the function <a "
+"href=\"lang_corefunc.html#glob\">glob(<i>Y</i>,<i>X</i>)</a> and can be "
+"modified by overriding that function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2807
+msgid "<a name=\"regexp\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2809
+msgid ""
+"The REGEXP operator is a special syntax for the regexp()  user function.  No "
+"regexp() user function is defined by default and so use of the REGEXP "
+"operator will normally result in an error message.  If an <a href=\"appfunc."
+"html\">application-defined SQL function</a> named \"regexp\" is added at run-"
+"time, then the \"<i>X</i> REGEXP <i>Y</i>\" operator will be implemented as "
+"a call to \"regexp(<i>Y</i>,<i>X</i>)\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2816
+msgid "<a name=\"match\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2818
+msgid ""
+"The MATCH operator is a special syntax for the match()  application-defined "
+"function.  The default match() function implementation raises an exception "
+"and is not really useful for anything.  But extensions can override the "
+"match() function with more helpful logic."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2824
+msgid "<a name=\"extract\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2826
+msgid ""
+"The extract operators act as a special syntax for functions \"-&gt;\"() and "
+"\"-&gt;&gt;\"(). Default implementations for these functions perform <a "
+"href=\"json1.html#jptr\">JSON subcomponent extraction</a>, but extensions "
+"can override them for other purposes."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_expr.html:2831
+msgid "<a name=\"between\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/lang_expr.html:2833
+msgid "<span>6. </span>The BETWEEN operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2834
+msgid ""
+"The BETWEEN operator is logically equivalent to a pair of comparisons.  "
+"\"<i>x</i> <b>BETWEEN</b> <i>y</i> <b>AND</b> <i>z</i>\" is equivalent to "
+"\"<i>x</i><b>&gt;=</b><i>y</i> <b>AND</b> <i>x</i><b>&lt;=</b><i>z</i>\" "
+"except that with BETWEEN, the <i>x</i> expression is only evaluated once.  "
+"<a name=\"case\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/lang_expr.html:2842
+msgid "<span>7. </span>The CASE expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2843
+msgid ""
+"A CASE expression serves a role similar to IF-THEN-ELSE in other programming "
+"languages."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2846
+msgid ""
+"The optional expression that occurs in between the CASE keyword and the "
+"first WHEN keyword is called the \"base\" expression. There are two "
+"fundamental forms of the CASE expression: those with a base expression and "
+"those without."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2851
+msgid ""
+"In a CASE without a base expression, each WHEN expression is evaluated and "
+"the result treated as a boolean, starting with the leftmost and continuing "
+"to the right. The result of the CASE expression is the evaluation of the "
+"THEN expression that corresponds to the first WHEN expression that evaluates "
+"to true. Or, if none of the WHEN expressions evaluate to true, the result of "
+"evaluating the ELSE expression, if any. If there is no ELSE expression and "
+"none of the WHEN expressions are true, then the overall result is NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2859
+msgid "A NULL result is considered untrue when evaluating WHEN terms."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2861
+msgid ""
+"In a CASE with a base expression, the base expression is evaluated just once "
+"and the result is compared against the evaluation of each WHEN expression "
+"from left to right. The result of the CASE expression is the evaluation of "
+"the THEN expression that corresponds to the first WHEN expression for which "
+"the comparison is true. Or, if none of the WHEN expressions evaluate to a "
+"value equal to the base expression, the result of evaluating the ELSE "
+"expression, if any. If there is no ELSE expression and none of the WHEN "
+"expressions produce a result equal to the base expression, the overall "
+"result is NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><big>
+#: sedout/lang_expr.html:2871
+msgid ""
+"When comparing a base expression against a WHEN expression, the same "
+"collating sequence, affinity, and NULL-handling rules apply as if the base "
+"expression and WHEN expression are respectively the left- and right-hand "
+"operands of an <big>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2874
+msgid "operator."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2876
+msgid ""
+"If the base expression is NULL then the result of the CASE is always the "
+"result of evaluating the ELSE expression if it exists, or NULL if it does "
+"not."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2880
+msgid ""
+"Both forms of the CASE expression use lazy, or short-circuit, evaluation."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2883
+msgid ""
+"The only difference between the following two CASE expressions is that the "
+"<i>x</i> expression is evaluated exactly once in the first example but might "
+"be evaluated multiple times in the second:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><pre><li>
+#: sedout/lang_expr.html:2888
+msgid "CASE x WHEN w1 THEN r1 WHEN w2 THEN r2 ELSE r3 END"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ul><pre><li>
+#: sedout/lang_expr.html:2889
+msgid "CASE WHEN x=w1 THEN r1 WHEN x=w2 THEN r2 ELSE r3 END"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2892
+msgid ""
+"The built-in <a href=\"lang_corefunc.html#iif\">iif(x,y,z) SQL function</a> "
+"is logically equivalent to \"CASE WHEN x THEN y ELSE z END\".  The iif() "
+"function is found in SQL Server and is included in SQLite for "
+"compatibility.  Some developers prefer the iif() function because it is more "
+"concise.  <a name=\"in_op\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:2901
+msgid "<span>8. </span>The IN and NOT IN operators"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2902
+msgid ""
+"The IN and NOT IN operators take an expression on the left and a list of "
+"values or a subquery on the right.  When the right operand of an IN or NOT "
+"IN operator is a subquery, the subquery must have the same number of columns "
+"as there are columns in the <a href=\"rowvalue.html\">row value</a> of the "
+"left operand.  The subquery on the right of an IN or NOT IN operator must be "
+"a scalar subquery if the left expression is not a <a href=\"rowvalue."
+"html\">row value</a> expression.  If the right operand of an IN or NOT IN "
+"operator is a list of values, each of those values must be scalars and the "
+"left expression must also be a scalar.  The right-hand side of an IN or NOT "
+"IN operator can be a table <i>name</i> or <a href=\"vtab."
+"html#tabfunc2\">table-valued function</a> <i>name</i> in which case the "
+"right-hand side is understood to be subquery of the form \"(SELECT * FROM "
+"<i>name</i>)\".  When the right operand is an empty set, the result of IN is "
+"false and the result of NOT IN is true, regardless of the left operand and "
+"even if the left operand is NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2919
+msgid ""
+"The result of an IN or NOT IN operator is determined by the following matrix:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th>
+#: sedout/lang_expr.html:2925
+msgid "Left operand"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><br>
+#: sedout/lang_expr.html:2925
+msgid "is NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th>
+#: sedout/lang_expr.html:2926 sedout/lang_expr.html:2927
+msgid "Right operand"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><br>
+#: sedout/lang_expr.html:2926
+msgid "contains NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><br>
+#: sedout/lang_expr.html:2927
+msgid "is an empty set"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th>
+#: sedout/lang_expr.html:2928
+msgid "Left operand found"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><br>
+#: sedout/lang_expr.html:2928
+msgid "within right operand"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th>
+#: sedout/lang_expr.html:2929 sedout/lang_expr.html:2930
+msgid "Result of"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><br>
+#: sedout/lang_expr.html:2929
+msgid "IN operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><br>
+#: sedout/lang_expr.html:2930
+msgid "NOT IN operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2932 sedout/lang_expr.html:2933
+#: sedout/lang_expr.html:2934 sedout/lang_expr.html:2935
+#: sedout/lang_expr.html:2940 sedout/lang_expr.html:2942
+#: sedout/lang_expr.html:2946 sedout/lang_expr.html:2948
+#: sedout/lang_expr.html:2953 sedout/lang_expr.html:2955
+#: sedout/lang_expr.html:2956 sedout/lang_expr.html:2962
+msgid "no"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2936 sedout/lang_expr.html:2943
+#: sedout/lang_expr.html:2951
+msgid "false"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2937 sedout/lang_expr.html:2944
+#: sedout/lang_expr.html:2950
+msgid "true"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2939 sedout/lang_expr.html:2947
+#: sedout/lang_expr.html:2961 sedout/lang_expr.html:2963
+msgid "does not matter"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:2941 sedout/lang_expr.html:2949
+#: sedout/lang_expr.html:2954 sedout/lang_expr.html:2960
+msgid "yes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2969
+msgid ""
+"Note that SQLite allows the parenthesized list of scalar values on the right-"
+"hand side of an IN or NOT IN operator to be an empty list but most other SQL "
+"database engines and the SQL92 standard require the list to contain at least "
+"one element."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:2974
+msgid "<span>9. </span>Table Column Names"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2976
+msgid ""
+"A column name can be any of the names defined in the <a "
+"href=\"lang_createtable.html\">CREATE TABLE</a> statement or one of the "
+"following special identifiers: \"<b>ROWID</b>\", \"<b>OID</b>\", or "
+"\"<b>_ROWID_</b>\".  The three special identifiers describe the unique "
+"integer key (the <a href=\"lang_createtable.html#rowid\">rowid</a>) "
+"associated with every row of every table and so are not available on <a "
+"href=\"withoutrowid.html\">WITHOUT ROWID</a> tables.  The special "
+"identifiers only refer to the row key if the <a href=\"lang_createtable."
+"html\">CREATE TABLE</a> statement does not define a real column with the "
+"same name.  The rowid can be used anywhere a regular column can be used."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/lang_expr.html:2987
+msgid "<a name=\"exists_op\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:2989
+msgid "<span>10. </span>The EXISTS operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2991
+msgid ""
+"The EXISTS operator always evaluates to one of the integer values 0 and 1. "
+"If executing the SELECT statement specified as the right-hand operand of the "
+"EXISTS operator would return one or more rows, then the EXISTS operator "
+"evaluates to 1. If executing the SELECT would return no rows at all, then "
+"the EXISTS operator evaluates to 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:2997
+msgid ""
+"The number of columns in each row returned by the SELECT statement (if any) "
+"and the specific values returned have no effect on the results of the EXISTS "
+"operator. In particular, rows containing NULL values are not handled any "
+"differently from rows without NULL values.  <a name=\"subq\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:3004
+msgid "<span>11. </span>Subquery Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3006
+msgid ""
+"A <a href=\"lang_select.html\">SELECT</a> statement enclosed in parentheses "
+"is a subquery.  All types of SELECT statement, including aggregate and "
+"compound SELECT queries (queries with keywords like UNION or EXCEPT) are "
+"allowed as scalar subqueries.  The value of a subquery expression is the "
+"first row of the result from the enclosed <a href=\"lang_select."
+"html\">SELECT</a> statement.  The value of a subquery expression is NULL if "
+"the enclosed <a href=\"lang_select.html\">SELECT</a> statement returns no "
+"rows."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3015
+msgid ""
+"A subquery that returns a single column is a scalar subquery and can be used "
+"most anywhere.  A subquery that returns two or more columns is a <a "
+"href=\"rowvalue.html\">row value</a> subquery and can only be used as an "
+"operand of a comparison operator or as the value in an UPDATE SET clause "
+"whose column name list has the same size.  <a name=\"cosub\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:3023
+msgid "<span>12. </span>Correlated Subqueries"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3025
+msgid ""
+"A <a href=\"lang_select.html\">SELECT</a> statement used as either a scalar "
+"subquery or as the right-hand operand of an IN, NOT IN or EXISTS expression "
+"may contain references to columns in the outer query. Such a subquery is "
+"known as a correlated subquery. A correlated subquery is reevaluated each "
+"time its result is required. An uncorrelated subquery is evaluated only once "
+"and the result reused as necessary.  <a name=\"castexpr\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:3034
+msgid "<span>13. </span>CAST expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3036
+msgid ""
+"A CAST expression of the form \"CAST(<i>expr</i> AS <i>type-name</i>)\" is "
+"used to convert the value of <i>expr</i> to a different <a href=\"datatype3."
+"html#storageclasses\">storage class</a> specified by <span "
+"class='yyterm'>type-name</span>.  A CAST conversion is similar to the "
+"conversion that takes place when a <a href=\"datatype3."
+"html#affinity\">column affinity</a> is applied to a value except that with "
+"the CAST operator the conversion always takes place even if the conversion "
+"lossy and irreversible, whereas column affinity only changes the data type "
+"of a value if the change is lossless and reversible."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3045
+msgid ""
+"If the value of <i>expr</i> is NULL, then the result of the CAST expression "
+"is also NULL. Otherwise, the storage class of the result is determined by "
+"applying the <a href=\"datatype3.html#affname\">rules for determining column "
+"affinity</a> to the <span class='yyterm'>type-name</span>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th><span>
+#: sedout/lang_expr.html:3053
+msgid "Affinity of <span class='yyterm'>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th>
+#: sedout/lang_expr.html:3053
+msgid "</span>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><th>
+#: sedout/lang_expr.html:3054
+msgid "Conversion Processing"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3056
+msgid "NONE"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3057
+msgid ""
+"Casting a value to a <span class='yyterm'>type-name</span> with no affinity "
+"causes the value to be converted into a BLOB.  Casting to a BLOB consists of "
+"first casting the value to TEXT in the <a href=\"pragma."
+"html#pragma_encoding\">encoding</a> of the database connection, then "
+"interpreting the resulting byte sequence as a BLOB instead of as TEXT."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3064
+msgid "TEXT"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3065
+msgid ""
+"To cast a BLOB value to TEXT, the sequence of bytes that make up the BLOB is "
+"interpreted as text encoded using the database encoding."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3068
+msgid ""
+"Casting an INTEGER or REAL value into TEXT renders the value as if via <a "
+"href=\"c3ref/mprintf.html\">sqlite3_snprintf()</a> except that the resulting "
+"TEXT uses the <a href=\"pragma.html#pragma_encoding\">encoding</a> of the "
+"database connection."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3073
+msgid "REAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3074
+msgid ""
+"When casting a BLOB value to a REAL, the value is first converted to TEXT."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3076
+msgid ""
+"When casting a TEXT value to REAL, the longest possible prefix of the value "
+"that can be interpreted as a real number is extracted from the TEXT value "
+"and the remainder ignored. Any leading spaces in the TEXT value are ignored "
+"when converging from TEXT to REAL. If there is no prefix that can be "
+"interpreted as a real number, the result of the conversion is 0.0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3084
+msgid "INTEGER"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3085
+msgid ""
+"When casting a BLOB value to INTEGER, the value is first converted to TEXT."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3087
+msgid ""
+"When casting a TEXT value to INTEGER, the longest possible prefix of the "
+"value that can be interpreted as an integer number is extracted from the "
+"TEXT value and the remainder ignored. Any leading spaces in the TEXT value "
+"when converting from TEXT to INTEGER are ignored. If there is no prefix that "
+"can be interpreted as an integer number, the result of the conversion is 0.  "
+"If the prefix integer is greater than +9223372036854775807 then the result "
+"of the cast is exactly +9223372036854775807.  Similarly, if the prefix "
+"integer is less than -9223372036854775808 then the result of the cast is "
+"exactly -9223372036854775808."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3098
+msgid ""
+"When casting to INTEGER, if the text looks like a floating point value with "
+"an exponent, the exponent will be ignored because it is no part of the "
+"integer prefix.  For example, \"(CAST '123e+5' AS INTEGER)\" results in 123, "
+"not in 12300000."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3103
+msgid ""
+"The CAST operator understands decimal integers only &mdash; conversion of <a "
+"href=\"lang_expr.html#hexint\">hexadecimal integers</a> stops at the \"x\" "
+"in the \"0x\" prefix of the hexadecimal integer string and thus result of "
+"the CAST is always zero."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3108
+msgid ""
+"A cast of a REAL value into an INTEGER results in the integer between the "
+"REAL value and zero that is closest to the REAL value.  If a REAL is greater "
+"than the greatest possible signed integer (+9223372036854775807) then the "
+"result is the greatest possible signed integer and if the REAL is less than "
+"the least possible signed integer (-9223372036854775808) then the result is "
+"the least possible signed integer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3116
+msgid ""
+"Prior to SQLite version 3.8.2 (2013-12-06), casting a REAL value greater "
+"than +9223372036854775807.0 into an integer resulted in the most negative "
+"integer, -9223372036854775808.  This behavior was meant to emulate the "
+"behavior of x86/x64 hardware when doing the equivalent cast."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3123
+msgid "NUMERIC"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td>
+#: sedout/lang_expr.html:3124
+msgid ""
+"Casting a TEXT or BLOB value into NUMERIC yields either an INTEGER or a REAL "
+"result.  If the input text looks like an integer (there is no decimal point "
+"nor exponent) and the value is small enough to fit in a 64-bit signed "
+"integer, then the result will be INTEGER.  Input text that looks like "
+"floating point (there is a decimal point and/or an exponent) and the text "
+"describes a value that can be losslessly converted back and forth between "
+"IEEE 754 64-bit float and a 51-bit signed integer, then the result is "
+"INTEGER.  (In the previous sentence, a 51-bit integer is specified since "
+"that is one bit less than the length of the mantissa of an IEEE 754 64-bit "
+"float and thus provides a 1-bit of margin for the text-to-float conversion "
+"operation.)  Any text input that describes a value outside the range of a 64-"
+"bit signed integer yields a REAL result."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><blockquote><table><tr><td><p>
+#: sedout/lang_expr.html:3138
+msgid ""
+"Casting a REAL or INTEGER value to NUMERIC is a no-op, even if a real value "
+"could be losslessly converted to an integer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3144
+msgid ""
+"Note that the result from casting any non-BLOB value into a BLOB and the "
+"result from casting any BLOB value into a non-BLOB value may be different "
+"depending on whether the database <a href=\"pragma."
+"html#pragma_encoding\">encoding</a> is UTF-8, UTF-16be, or UTF-16le.  <a "
+"name=\"booleanexpr\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><h1>
+#: sedout/lang_expr.html:3152
+msgid "<span>14. </span>Boolean Expressions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/lang_expr.html:3154
+msgid ""
+"The SQL language features several contexts where an expression is evaluated "
+"and the result converted to a boolean (true or false) value. These contexts "
+"are:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_expr.html:3159
+msgid "the WHERE clause of a SELECT, UPDATE or DELETE statement,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_expr.html:3160
+msgid "the ON or USING clause of a join in a SELECT statement,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_expr.html:3161
+msgid "the HAVING clause of a SELECT statement,"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_expr.html:3162
+msgid "the WHEN clause of an SQL trigger, and"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><ul><li>
+#: sedout/lang_expr.html:3163
+msgid "the WHEN clause or clauses of some CASE expressions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3166
+msgid ""
+"To convert the results of an SQL expression to a boolean value, SQLite first "
+"casts the result to a NUMERIC value in the same way as a <a href=\"lang_expr."
+"html#castexpr\">CAST expression</a>. A numeric zero value (integer value 0 "
+"or real value 0.0) is considered to be false.  A NULL value is still NULL.  "
+"All other values are considered true."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3172
+msgid ""
+"For example, the values NULL, 0.0, 0, 'english' and '0' are all considered "
+"to be false. Values 1, 1.0, 0.1, -0.1 and '1english' are considered to be "
+"true."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3176
+msgid ""
+"Beginning with SQLite 3.23.0 (2018-04-02), SQLite recognizes the identifiers "
+"\"TRUE\" and \"FALSE\" as boolean literals, if and only if those identifiers "
+"are not already used for some other meaning.  If there already exists "
+"columns or tables or other objects named TRUE or FALSE, then for the sake of "
+"backwards compatibility, the TRUE and FALSE identifiers refer to those other "
+"objects, not to the boolean values."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3183
+msgid ""
+"The boolean identifiers TRUE and FALSE are usually just aliases for the "
+"integer values 1 and 0, respectively.  However, if TRUE or FALSE occur on "
+"the right-hand side of an IS operator, then the IS operator evaluates the "
+"left-hand operand as a boolean value and returns an appropriate answer."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><h1>
+#: sedout/lang_expr.html:3189
+msgid "<span>15. </span>Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3190
+msgid ""
+"SQLite supports many <a href=\"lang_corefunc.html\">simple</a>, <a "
+"href=\"lang_aggfunc.html\">aggregate</a>, and <a href=\"windowfunctions."
+"html\">window</a> SQL functions.  For presentation purposes, simple "
+"functions are further subdivided into <a href=\"lang_corefunc.html\">core "
+"functions</a>, <a href=\"lang_datefunc.html\">date-time functions</a>, and "
+"<a href=\"json1.html\">JSON functions</a>.  Applications can add new "
+"functions, written in C/C++, using the <a href=\"c3ref/create_function."
+"html\">sqlite3_create_function()</a> interface."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3200
+msgid ""
+"The main expression bubble diagram above shows a single syntax for all "
+"function invocations.  But this is merely to simplify the expression bubble "
+"diagram.  In reality, each type of function has a slightly different syntax, "
+"shown below.  The function invocation syntax shown in the main expression "
+"bubble diagram is the union of the three syntaxes shown here:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_expr.html:3206
+msgid ""
+"<b><a href=\"syntax/simple-function-invocation.html\">simple-function-"
+"invocation:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:3212
+msgid "simple-func"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_expr.html:3244
+msgid ""
+"<b><a href=\"syntax/aggregate-function-invocation.html\">aggregate-function-"
+"invocation:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:3250
+msgid "aggregate-func"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><p>
+#: sedout/lang_expr.html:3307
+msgid ""
+"<b><a href=\"syntax/window-function-invocation.html\">window-function-"
+"invocation:</a></b>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p><div><div><svg><text>
+#: sedout/lang_expr.html:3313
+msgid "window-func"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3366
+msgid ""
+"The OVER clause is required for <a href=\"windowfunctions.html\">window "
+"functions</a> and is prohibited otherwise.  The DISTINCT keyword is only "
+"allowed in <a href=\"lang_aggfunc.html\">aggregate functions</a>.  The "
+"FILTER clause may not appear on a <a href=\"lang_corefunc.html\">simple "
+"function</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3370
+msgid ""
+"It is possible to have an aggregate function with the same name as a simple "
+"function, as long as the number of arguments for the two forms of the "
+"function are different.  For example, the <a href=\"lang_aggfunc."
+"html#max_agg\">max()</a> function with a single argument is an aggregate and "
+"the <a href=\"lang_corefunc.html#max_scalar\">max()</a> function with two or "
+"more arguments is a simple function.  Aggregate functions can usually also "
+"be used as window functions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p><p>
+#: sedout/lang_expr.html:3376
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/lang_expr.in?m=a2020480ac\">2023-01-02 14:22:42</a> UTC </i></small>"
+msgstr ""

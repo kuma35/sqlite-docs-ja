@@ -1,0 +1,1007 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/appfunc.html:6 sedout/appfunc.html:121
+msgid "Application-Defined SQL Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/appfunc.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/appfunc.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/appfunc.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/appfunc.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/appfunc.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/appfunc.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/appfunc.html:22 sedout/appfunc.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/appfunc.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/appfunc.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/appfunc.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/appfunc.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/appfunc.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/appfunc.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/appfunc.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/appfunc.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/appfunc.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/appfunc.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/appfunc.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/appfunc.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/appfunc.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/appfunc.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/appfunc.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/appfunc.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:128
+msgid "<a href=\"#executive_summary\">1. Executive Summary</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:129
+msgid ""
+"<a href=\"#defining_new_sql_functions\">2. Defining New SQL Functions</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:130
+msgid "<a href=\"#common_parameters\">2.1. Common Parameters</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:131
+msgid ""
+"<a "
+"href=\"#multiple_calls_to_sqlite3_create_function_for_the_same_function\">2.2. "
+"Multiple Calls To sqlite3_create_function() For The Same Function</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:132
+msgid "<a href=\"#callbacks\">2.3. Callbacks</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:133
+msgid ""
+"<a href=\"#the_scalar_function_callback\">2.3.1. The Scalar Function "
+"Callback</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:134
+msgid ""
+"<a href=\"#the_aggregate_function_callbacks\">2.3.2. The Aggregate Function "
+"Callbacks</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:135
+msgid ""
+"<a href=\"#the_window_function_callbacks\">2.3.3. The Window Function "
+"Callbacks</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:136
+msgid "<a href=\"#examples\">2.3.4. Examples</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/appfunc.html:137
+msgid "<a href=\"#security_implications\">3. Security Implications</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/appfunc.html:141
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
+"{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
+"style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/appfunc.html:159
+msgid "<span>1. </span>Executive Summary"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/appfunc.html:161
+msgid ""
+"Applications that use SQLite can define custom SQL functions that call back "
+"into application code to compute their results.  The custom SQL function "
+"implementations can be embedded in the application code itself, or can be <a "
+"href=\"loadext.html\">loadable extensions</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/appfunc.html:166
+msgid ""
+"Application-defined or custom SQL functions are created using the <a "
+"href=\"c3ref/create_function.html\">sqlite3_create_function()</a> family of "
+"interfaces.  Custom SQL functions can be scalar functions, aggregate "
+"functions, or <a href=\"windowfunctions.html\">window functions</a>.  Custom "
+"SQL functions can have any number of arguments from 0 up to <a href=\"limits."
+"html#max_function_arg\">SQLITE_MAX_FUNCTION_ARG</a>.  The <a href=\"c3ref/"
+"create_function.html\">sqlite3_create_function()</a> interface specifies "
+"callbacks that are invoked to carry out the processing for the new SQL "
+"function."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/appfunc.html:175
+msgid ""
+"SQLite also supports custom <a href=\"vtab.html#tabfunc2\">table-valued "
+"functions</a>, but they are implemented by a different mechanism that is not "
+"covered in this document."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/appfunc.html:178
+msgid "<span>2. </span>Defining New SQL Functions"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/appfunc.html:181
+msgid ""
+"The <a href=\"c3ref/create_function.html\">sqlite3_create_function()</a> "
+"family of interfaces is used to create new custom SQL functions.  Each "
+"member of this family is a wrapper around a common core.  All family members "
+"accomplish the same thing; they merely have different calling signatures."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/appfunc.html:187
+msgid ""
+"<b><a href=\"c3ref/create_function.html\">sqlite3_create_function()</a></b> "
+"&rarr; The original version of sqlite3_create_function() allows the "
+"application to create a single new SQL function that can be either a scalar "
+"or an aggregate.  The name of the function is specified using UTF8."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/appfunc.html:192
+msgid ""
+"<b><a href=\"c3ref/create_function.html\">sqlite3_create_function16()</a></"
+"b> &rarr; This variant works exactly like the sqlite3_create_function() "
+"original except that the name of the function itself is specified as a UTF16 "
+"string rather than as a UTF8 string."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/appfunc.html:197
+msgid ""
+"<b><a href=\"c3ref/create_function.html\">sqlite3_create_function_v2()</a></"
+"b> &rarr; This variant works like the original sqlite3_create_function() "
+"except that it includes an additional parameter that is a pointer to a "
+"destructor for the <a href=\"c3ref/user_data.html\">sqlite3_user_data()</a> "
+"pointer that is passed in as the 5th argument to all of the "
+"sqlite3_create_function() variants.  That destructor function (if it is non-"
+"NULL) is called when the custom function is deleted - usually when the "
+"database connection is closing."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/appfunc.html:206
+msgid ""
+"<b><a href=\"c3ref/create_function.html\">sqlite3_create_window_function()</"
+"a></b> &rarr; This variant works like the original sqlite3_create_function() "
+"except that it accepts a different set of callback pointers - the callback "
+"pointers used by <a href=\"windowfunctions.html\">window function</a> "
+"definitions."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/appfunc.html:212
+msgid "<span>2.1. </span>Common Parameters"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/appfunc.html:214
+msgid ""
+"Many of the parameters passed to the <a href=\"c3ref/create_function."
+"html\">sqlite3_create_function()</a> family of interfaces are common across "
+"the entire family."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:218
+msgid ""
+"<b>db</b> &rarr; The 1st parameter is always a pointer to the <a "
+"href=\"c3ref/sqlite3.html\">database connection</a> on which the custom SQL "
+"function will work.  Custom SQL functions are created separately for each "
+"database connection.  There is no short-hand mechanism for creating SQL "
+"functions that work across all database connections."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:225
+msgid ""
+"<b>zFunctionName</b> &rarr; The 2nd parameter is the name of the SQL "
+"function that is being created.  The name is usually in UTF8, except that "
+"the name should be in UTF16 in the native byte order for <a href=\"c3ref/"
+"create_function.html\">sqlite3_create_function16()</a>.  The maximum length "
+"of a SQL function name is 255 bytes of UTF8.  Any attempt to create a "
+"function with a longer name will result in an <a href=\"rescode."
+"html#misuse\">SQLITE_MISUSE</a> error.  The SQL function creation interfaces "
+"may be called multiple times with the same function name.  If two calls have "
+"the same function number but a different number of arguments, for example, "
+"then two variants of the SQL function will be registered, each taking a "
+"different number of arguments."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:240
+msgid ""
+"<b>nArg</b> &rarr; The 3rd parameter is always the number of arguments that "
+"the function accepts.  The value must be an integer between -1 and <a "
+"href=\"limits.html#max_function_arg\">SQLITE_MAX_FUNCTION_ARG</a> (default "
+"value: 127).  A value of -1 means that the SQL function is a variadic "
+"function that can take any number of arguments between 0 and <a "
+"href=\"limits.html#max_function_arg\">SQLITE_MAX_FUNCTION_ARG</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:247
+msgid ""
+"<b>eTextRep</b> &rarr; The 4th parameter is a 32-bit integer flag whose bits "
+"convey various properties about the new function.  The original purpose of "
+"this parameter was to specify the preferred text encoding for the function, "
+"using one of the following constants:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:253
+msgid "<a href=\"c3ref/c_any.html\">SQLITE_UTF8</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:254
+msgid "<a href=\"c3ref/c_any.html\">SQLITE_UTF16BE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:255
+msgid "<a href=\"c3ref/c_any.html\">SQLITE_UTF16LE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:257
+msgid ""
+"All custom SQL functions will accept text in any encoding.  Encoding "
+"conversions will happen automatically.  The preferred encoding merely "
+"specifies the encoding for which the function implementation is optimized.  "
+"It is possible to specify multiple functions with the same name and the same "
+"number of arguments, but different preferred encodings and different "
+"callbacks used to implement the function, and SQLite will chose the set of "
+"callbacks for which the input encodings most closely match the preferred "
+"encoding.  The 4th parameter as more recently be extended with additional "
+"flag bits to convey additional information about the function.  The "
+"additional bits include:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:270
+msgid ""
+"<a href=\"c3ref/c_deterministic."
+"html#sqlitedeterministic\">SQLITE_DETERMINISTIC</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:271
+msgid ""
+"<a href=\"c3ref/c_deterministic.html#sqlitedirectonly\">SQLITE_DIRECTONLY</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:272
+msgid ""
+"<a href=\"c3ref/c_deterministic.html#sqliteinnocuous\">SQLITE_INNOCUOUS</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:273
+msgid "<a href=\"c3ref/c_deterministic.html#sqlitesubtype\">SQLITE_SUBTYPE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:276
+msgid "Additional bits may be added in future versions of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><ol><li>
+#: sedout/appfunc.html:278
+msgid ""
+"<b>pApp</b> &rarr; The 5th parameter is an arbitrary pointer that is passed "
+"through into the callback routines.  SQLite itself does nothing with this "
+"pointer, except to make it available to the callbacks, and to pass it into "
+"the destructor when the function is unregistered."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/appfunc.html:285
+msgid ""
+"<span>2.2. </span>Multiple Calls To sqlite3_create_function() For The Same "
+"Function"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:288
+msgid ""
+"It is common for an application to invoke sqlite3_create_function() multiple "
+"times for the same SQL function.  For example, if an SQL function can take "
+"either 2 or 3 arguments, then sqlite3_create_function() would be invoked "
+"once for the 2-argument version and a second time for the 3-argument "
+"version.  The underlying implementation (the callbacks) can be different for "
+"both variants."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:296
+msgid ""
+"An application can also register multiple SQL functions with the same name "
+"and same number of arguments, but a different preferred text encoding.  In "
+"that case, SQLite will invoke the function using the callbacks for the "
+"version whose preferred text encoding most closely matches the database text "
+"encoding.  In this way, multiple implementations of the same function can be "
+"provided that are optimized for UTF8 or UTF16."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:304
+msgid ""
+"If multiple calls to sqlite3_create_function() specify the same function "
+"name, and the same number of arguments, and the same preferred text "
+"encoding, then the callbacks and other parameters of the second call "
+"overwrite the first, and the destructor callback from the first call (if it "
+"exists) is invoked."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h2>
+#: sedout/appfunc.html:310
+msgid "<span>2.3. </span>Callbacks"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:313
+msgid "SQLite evaluates an SQL function by invoking callback routines."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h3>
+#: sedout/appfunc.html:315
+msgid "<span>2.3.1. </span>The Scalar Function Callback"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:317
+msgid ""
+"Scalar SQL functions are implemented by a single callback in the <b>xFunc</"
+"b> parameter to sqlite3_create_function().  The following code "
+"demonstrations the implementation of a \"noop(X)\" scalar SQL function that "
+"merely returns its argument:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/appfunc.html:322
+#, no-wrap
+msgid ""
+"static void noopfunc(\n"
+"  sqlite3_context *context,\n"
+"  int argc,\n"
+"  sqlite3_value **argv\n"
+"){\n"
+"  assert( argc==1 );\n"
+"  sqlite3_result_value(context, argv&#91;0&#93;);\n"
+"}\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:333
+msgid ""
+"The 1st parameter, <b>context</b>, is a pointer to an opaque object that "
+"describes the content from which the SQL function was invoked.  This context "
+"point becomes the first parameter to many other routines that the function "
+"implement might to invoke, including:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:340
+msgid "<a href='c3ref/aggregate_context.html'>sqlite3_aggregate_context</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:341
+msgid "<a href='c3ref/context_db_handle.html'>sqlite3_context_db_handle</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:342
+msgid "<a href='c3ref/get_auxdata.html'>sqlite3_get_auxdata</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:343
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_blob</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:344
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_blob64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:345
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_double</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:346
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_error</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:347
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_error16</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:348
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_error_code</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:349
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_error_nomem</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:350
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_error_toobig</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:351
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_int</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:352
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_int64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:353
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_null</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:354
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_pointer</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:355
+msgid "<a href='c3ref/result_subtype.html'>sqlite3_result_subtype</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:356
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_text</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:357
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_text16</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:358
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_text16be</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:359
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_text16le</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:360
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_text64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:361
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_value</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:362
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_zeroblob</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:363
+msgid "<a href='c3ref/result_blob.html'>sqlite3_result_zeroblob64</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:364
+msgid "<a href='c3ref/get_auxdata.html'>sqlite3_set_auxdata</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><div><ul><li>
+#: sedout/appfunc.html:365
+msgid "<a href='c3ref/user_data.html'>sqlite3_user_data</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:370
+msgid ""
+"The <a href=\"c3ref/result_blob.html\">sqlite3_result() family of functions</"
+"a> are used to specify the result of the scalar SQL function.  One or more "
+"of these should be invoked by the callback to set the function return "
+"value.  If none of these routines are invoked for a specific callback, then "
+"the return value will be NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:376
+msgid ""
+"The <a href=\"c3ref/user_data.html\">sqlite3_user_data()</a> routine returns "
+"a copy of the <b>pArg</b> pointer that was given to <a href=\"c3ref/"
+"create_function.html\">sqlite3_create_function()</a> when the SQL function "
+"was created."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:380
+msgid ""
+"The <a href=\"c3ref/context_db_handle.html\">sqlite3_context_db_handle()</a> "
+"routine returns a pointer to the <a href=\"c3ref/sqlite3.html\">database "
+"connection</a> object."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:383
+msgid ""
+"The <a href=\"c3ref/aggregate_context.html\">sqlite3_aggregate_context()</a> "
+"routine is used only in the implementations of aggregate and window "
+"functions.  Scalar functions may not use <a href=\"c3ref/aggregate_context."
+"html\">sqlite3_aggregate_context()</a>.  The <a href=\"c3ref/"
+"aggregate_context.html\">sqlite3_aggregate_context()</a> function is "
+"included in the interface list only for completeness."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:389
+msgid ""
+"The 2nd and 3rd arguments to the scalar SQL function implemenetation, "
+"<b>argc</b> and <b>argv</b>, are the number of arguments to the SQL function "
+"itself and the values for each argument of the SQL function.  Argument "
+"values can be of any datatype and are thus stored in instances of the <a "
+"href=\"c3ref/value.html\">sqlite3_value</a> object.  Specific C-language "
+"values can be extracted from this object using the <a href=\"c3ref/"
+"value_blob.html\">sqlite3_value() family of interfaces</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h3>
+#: sedout/appfunc.html:398
+msgid "<span>2.3.2. </span>The Aggregate Function Callbacks"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:400
+msgid ""
+"Aggregate SQL functions are implemented by using two callback functions, "
+"<b>xStep</b> and <b>xFinal</b>.  The xStep() function is called for each row "
+"of the aggregate and the xFinal() function is invoked to compute the final "
+"answer at the end.  The following (slightly simplified) version of the built-"
+"in count() function illustrates:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/appfunc.html:407
+#, no-wrap
+msgid ""
+"typedef struct CountCtx CountCtx;\n"
+"struct CountCtx {\n"
+"  i64 n;\n"
+"};\n"
+"static void countStep(sqlite3_context *context, int argc, sqlite3_value **argv){\n"
+"  CountCtx *p;\n"
+"  p = sqlite3_aggregate_context(context, sizeof(*p));\n"
+"  if( (argc==0 || SQLITE_NULL!=sqlite3_value_type(argv&#91;0&#93;)) && p ){\n"
+"    p->n++;\n"
+"  }\n"
+"}   \n"
+"static void countFinalize(sqlite3_context *context){\n"
+"  CountCtx *p;\n"
+"  p = sqlite3_aggregate_context(context, 0);\n"
+"  sqlite3_result_int64(context, p ? p->n : 0);\n"
+"}\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:425
+msgid ""
+"Recall that there are two versions of the count() aggregate.  With zero "
+"arguments, count() returns a count of the number of rows.  With one "
+"argument, count() returns the number of times that the argument was non-NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:430
+msgid ""
+"The countStep() callback is invoked once for each row in the aggregate.  As "
+"you can see, the count is incremented if either there are no arguments, or "
+"if the one argument is not NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:434
+msgid ""
+"The step function for an aggregate should always begin with a call to the <a "
+"href=\"c3ref/aggregate_context.html\">sqlite3_aggregate_context()</a> "
+"routine to fetch the persistent state of the aggregate function.  On the "
+"first invocation of the step()  function, the aggregate context is "
+"initialized to a block of memory that is N bytes in size, where N is the "
+"second parameter to sqlite3_aggregate_context() and that memory is zeroed.  "
+"On all subsequent calls to the step() function, the same block of memory is "
+"returned.  Except, sqlite3_aggregate_context() might return NULL in the case "
+"of an out-of-memory error, so aggregate functions should be prepared to deal "
+"with that case."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:445
+msgid ""
+"After all rows are processed the countFinalize() routine is called exactly "
+"once.  This routine computes the final result and invokes one of the <a "
+"href=\"c3ref/result_blob.html\">sqlite3_result()</a> family of functions to "
+"set the final result.  The aggregate context will be freed automatically by "
+"SQLite, though the xFinalize() routine must clean up any substructure "
+"associated with the aggregate context before it returns.  If the xStep()  "
+"method is called one or more times, then SQLite guarantees thta the xFinal() "
+"method will be called at once, even if the query aborts."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h3>
+#: sedout/appfunc.html:454
+msgid "<span>2.3.3. </span>The Window Function Callbacks"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:456
+msgid ""
+"<a href=\"windowfunctions.html\">Window functions</a> use the same xStep() "
+"and xFinal() callbacks that aggregate functions use, plus two others: "
+"<b>xValue</b> and <b>xInverse</b>.  See the documentation on <a "
+"href=\"windowfunctions.html#udfwinfunc\">application-defined window "
+"functions</a> for further details."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h3>
+#: sedout/appfunc.html:461
+msgid "<span>2.3.4. </span>Examples"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:463
+msgid ""
+"There are dozens and dozens of SQL function implementations scattered "
+"throughout the SQLite source code that can be used as example applications.  "
+"The built-in SQL functions use the same interface as application-defined SQL "
+"functions, so built-in functions can be used as examples too.  Search for "
+"\"sqlite3_context\" in the SQLite source code to find examples.  <a "
+"name=\"sec\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><h1>
+#: sedout/appfunc.html:471
+msgid "<span>3. </span>Security Implications"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:474
+msgid ""
+"Application-defined SQL functions can become security vulnerabilities if not "
+"carefully managed.  Suppose, for example, an application defines a new "
+"\"system(X)\" SQL function that runs its argument X as a command and returns "
+"the integer result code.  Perhaps the implementation is like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/appfunc.html:479
+#, no-wrap
+msgid ""
+"static void systemFunc(\n"
+"  sqlite3_context *context,\n"
+"  int argc,\n"
+"  sqlite3_value **argv\n"
+"){\n"
+"  const char *zCmd = (const char*)sqlite3_value_text(argv&#91;0&#93;);\n"
+"  if( zCmd!=0 ){\n"
+"    int rc = system(zCmd);\n"
+"    sqlite3_result_int(context, rc);\n"
+"  }\n"
+"}\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:493
+msgid ""
+"This is a function with powerful side-effects.  Most programmers would be "
+"naturally cautious about using it, but probably would not see the harm in "
+"merely having it available.  But there is great risk in merely defining such "
+"a function, even if the application itself never invokes it!"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:500
+msgid ""
+"Suppose the application normally does a query against table TAB1 when it "
+"starts up.  If an attacker can gain access to the database file and modify "
+"the schema like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><div><pre>
+#: sedout/appfunc.html:504
+#, no-wrap
+msgid ""
+"ALTER TABLE tab1 RENAME TO tab1_real;\n"
+"CREATE VIEW tab1 AS SELECT * FROM tab1 WHERE system('rm -rf *') IS NOT NULL;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:509
+msgid ""
+"Then, when the application attempts to open the database, register the "
+"system() function, then run an innocent query against the \"tab1\" table, it "
+"instead deletes all the files in its working directory.  Yikes!"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p>
+#: sedout/appfunc.html:514
+msgid ""
+"To prevent this kind of mischief, applications that create their own custom "
+"SQL functions should take one or more of the following safety precautions.  "
+"The more precautions taken the better:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/appfunc.html:520
+msgid ""
+"Invoke <a href=\"c3ref/db_config.html\">sqlite3_db_config</a>(db,<a "
+"href=\"c3ref/c_dbconfig_defensive."
+"html#sqlitedbconfigtrustedschema\">SQLITE_DBCONFIG_TRUSTED_SCHEMA</a>,0,0)  "
+"on each <a href=\"c3ref/sqlite3.html\">database connection</a> as soon as it "
+"is opened.  This prevents application-defined functions from being used in "
+"places where an attacker might be able to surreptiously invoke them by "
+"modifying a database schema:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:526
+msgid "In VIEWs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:527
+msgid "In TRIGGERSs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:528
+msgid "In CHECK constraints of a table definition."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:529
+msgid "In DEFAULT constraints of a table definition."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:530
+msgid "In the definitions of generated columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:531
+msgid "In the expression part of an index on an expression."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li><ul><li>
+#: sedout/appfunc.html:532
+msgid "In the WHERE clause of a partial index."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/appfunc.html:535
+msgid ""
+"To put it another way, this setting requires that application-defined "
+"functions only be run directly by top-level SQL invoked from the application "
+"itself, not as a consequence of doing some other innocent-looking query."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/appfunc.html:540
+msgid ""
+"Use the <a href=\"pragma.html#pragma_trusted_schema\">PRAGMA "
+"trusted_schema=OFF</a> SQL statement to disable trusted schema.  This has "
+"the same effect as the previous bullet, but does not require the use of C-"
+"code and hence can be performed in programs written in another programming "
+"language and that do not have access SQLite C-language APIs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/appfunc.html:547
+msgid ""
+"Compile SQLite using the <a href=\"compile.html#trusted_schema\">-"
+"DSQLITE_TRUSTED_SCHEMA=0</a> compile-time option.  This make SQLite distrust "
+"application-defined functions inside of the schema by default."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/appfunc.html:552
+msgid ""
+"If any application-defined SQL functions have potentially dangerous side-"
+"effects, or if they could potentially leak sensitive information to an "
+"attacker if misused, then tag those functions using the <a href=\"c3ref/"
+"c_deterministic.html#sqlitedirectonly\">SQLITE_DIRECTONLY</a> option on the "
+"\"enc\" parameter.  This means that the function can never be run from "
+"schema-code even if the trusted-schema option is on."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><ol><li>
+#: sedout/appfunc.html:560
+msgid ""
+"Never tag an application-defined SQL function with <a href=\"c3ref/"
+"c_deterministic.html#sqliteinnocuous\">SQLITE_INNOCUOUS</a> unless you "
+"really need to and you have checked the implementation closely and are "
+"certain that it can do no harm even if it falls under the control of an "
+"attacker."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p><p><p>
+#: sedout/appfunc.html:565
+msgid ""
+"<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
+"honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
+"pages/appfunc.in?m=da7fbd0b40\">2023-02-27 02:07:35</a> UTC </i></small>"
+msgstr ""

@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 16:21+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/stmt.html:6 sedout/stmt.html:121
+msgid "The SQLITE_STMT Virtual Table"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/stmt.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/stmt.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/stmt.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/stmt.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/stmt.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/stmt.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/stmt.html:22 sedout/stmt.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/stmt.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/stmt.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/stmt.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/stmt.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/stmt.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/stmt.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/stmt.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/stmt.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/stmt.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/stmt.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/stmt.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/stmt.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/stmt.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/stmt.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/stmt.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/stmt.html:128
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:131
+msgid ""
+"The SQLITE_STMT extension implements an <a "
+"href=\"vtab.html#epoonlyvtab\">eponymous-only virtual table</a> that "
+"provides information about all <a href=\"c3ref/stmt.html\">prepared "
+"statements</a> associated with the <a href=\"c3ref/sqlite3.html\">database "
+"connection</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:137
+msgid ""
+"The SQLITE_STMT extension is included in the <a "
+"href=\"amalgamation.html\">amalgamation</a> though it is disabled by "
+"default.  Use the <a "
+"href=\"compile.html#enable_stmtvtab\">SQLITE_ENABLE_STMTVTAB</a> "
+"compile-time option to enable the SQLITE_STMT extension.  The SQLITE_STMT "
+"extension can also be loaded at run-time by compiling the extension into a "
+"shared library or DLL using the source code at <a "
+"href=\"https://sqlite.org/src/file/ext/misc/stmt.c\">https://sqlite.org/src/file/ext/misc/stmt.c</a> "
+"and following the instructions for how to <a "
+"href=\"loadext.html#build\">compile loadable extensions</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:148
+msgid ""
+"The SQLITE_STMT extension is enabled in default builds of the <a "
+"href=\"cli.html\">command-line shell</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/stmt.html:151
+msgid "<span>2. </span>Usage"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:154
+msgid ""
+"The SQLITE_STMT virtual table is a read-only table that can be directly "
+"queried to access information about all prepared statements on the current "
+"database connection.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/stmt.html:158
+#, no-wrap
+msgid "SELECT * FROM sqlite_stmt;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:162
+msgid ""
+"A statement such as the above can be run immediately prior to invoking <a "
+"href=\"c3ref/close.html\">sqlite3_close()</a> to confirm that all prepared "
+"statements have been <a href=\"c3ref/finalize.html\">finalized</a> and to "
+"help identify and track down prepared statements that have \"leaked\" and "
+"missed finalization."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:168
+msgid ""
+"The SQLITE_STMT virtual table can also be used to access performance "
+"information about prepared statements, to aid in optimization an "
+"application.  For example, to find out how much memory is being used by <a "
+"href=\"c3ref/stmt.html\">prepared statements</a> that have never been used, "
+"one could run:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/stmt.html:174
+#, no-wrap
+msgid "SELECT sum(mem) FROM sqlite_stmt WHERE run=0;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/stmt.html:177
+msgid "<span>2.1. </span>Columns"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:180
+msgid ""
+"The columns are provided by the SQLITE_STMT virtual table are summarized by "
+"the hypothetical CREATE TABLE statement show here:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/stmt.html:183
+#, no-wrap
+msgid ""
+"CREATE TABLE sqlite_stmt(\n"
+"  sql    TEXT,    -- Original SQL text\n"
+"  ncol   INT,     -- Number of output columns\n"
+"  ro     BOOLEAN, -- True for \"read only\" statements\n"
+"  busy   BOOLEAN, -- True if the statement is current running\n"
+"  nscan  INT,     -- Number of full-scan steps\n"
+"  nsort  INT,     -- Number of sort operations\n"
+"  naidx  INT,     -- Number of automatic index inserts\n"
+"  nstep  INT,     -- Number of byte-code engine steps\n"
+"  reprep INT,     -- Number of reprepare operations\n"
+"  run    INT,     -- Number of times this statement has been run\n"
+"  mem    INT      -- Heap memory used by this statement\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/stmt.html:198
+msgid ""
+"Future releases may add new output columns and may change the order of "
+"legacy columns.  Further detail about the meaning of each column in the "
+"SQLITE_STMT virtual table is provided below:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:204
+msgid ""
+"<b>sql</b>: The original SQL text of the prepared statement.  If the "
+"prepared statement is compiled using the <a "
+"href=\"c3ref/prepare.html\">sqlite3_prepare()</a> interface, then the SQL "
+"text might not have been saved, in which case this column will be NULL."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:210
+msgid ""
+"<b>ncol</b>: The number of columns in the result set of a query.  For DML "
+"statements, this column has a value of 0."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:214
+msgid ""
+"<b>ro</b>: The \"read only\" column.  This column is true (non-zero) if the "
+"SQL statement is a query and false (zero) if it is a DML statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:218
+msgid ""
+"<b>busy</b>: This field is true if the prepared statement is currently "
+"running.  In other words, this field is true if <a "
+"href=\"c3ref/step.html\">sqlite3_step()</a> has been called on the <a "
+"href=\"c3ref/stmt.html\">prepared statement</a> at least once but <a "
+"href=\"c3ref/reset.html\">sqlite3_reset()</a> has not yet been called to "
+"reset it."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:224
+msgid ""
+"<b>nscan</b>: This field is the number of times that the <a "
+"href=\"opcode.html\">bytecode engine</a> has stepped through a table as part "
+"of a full-table scan.  A large number if this field may indicate an "
+"opportunity to improve performance by adding an index.  This field is "
+"equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusfullscanstep\">SQLITE_STMTSTATUS_FULLSCAN_STEP</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:231
+msgid ""
+"<b>nsort</b>: This field is the number of times that the <a "
+"href=\"opcode.html\">bytecode engine</a> had to sort.  A positive value in "
+"this field may indicate an opportunity to improve performance by adding an "
+"index that will cause the query results to appear naturally in the desired "
+"order.  This field is equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatussort\">SQLITE_STMTSTATUS_SORT</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:238
+msgid ""
+"<b>naidx</b>: This field is the number of rows that have been inserted into "
+"<a href=\"optoverview.html#autoindex\">automatic indexes</a>.  A positive "
+"value in this field may indicate an opportunity to improve performance by "
+"adding a named index that take the place of the automatic index.  This field "
+"is equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusautoindex\">SQLITE_STMTSTATUS_AUTOINDEX</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:245
+msgid ""
+"<b>nstep</b>: This field is the number of <a href=\"opcode.html\">bytecode "
+"engine</a> operations that have been performed for the prepared statement.  "
+"This field can be used as a proxy for how much CPU time a statement has "
+"used.  This field is equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusvmstep\">SQLITE_STMTSTATUS_VM_STEP</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:251
+msgid ""
+"<b>reprep</b>: This field is the number of times that the statement has had "
+"to be reprepared due to schema changes or changes to parameter bindings.  "
+"This field is equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusreprepare\">SQLITE_STMTSTATUS_REPREPARE</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:256
+msgid ""
+"<b>run</b>: This field is the number of times that the statement has been "
+"run.  This field is equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusrun\">SQLITE_STMTSTATUS_RUN</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/stmt.html:260
+msgid ""
+"<b>mem</b>: This field is the number of bytes of heap storage used by the "
+"prepared statement.  This field is equivalent to the <a "
+"href=\"c3ref/c_stmtstatus_counter.html#sqlitestmtstatusmemused\">SQLITE_STMTSTATUS_MEMUSED</a> "
+"value."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/stmt.html:265
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/stmt.in?m=9368174a6e\">2022-01-08 "
+"05:02:57</a> UTC </i></small>"
+msgstr ""

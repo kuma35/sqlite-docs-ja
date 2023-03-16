@@ -1,0 +1,467 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 22:31+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/gencol.html:6 sedout/gencol.html:121
+msgid "Generated Columns"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/gencol.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/gencol.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/gencol.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/gencol.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/gencol.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/gencol.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/gencol.html:22 sedout/gencol.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/gencol.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/gencol.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/gencol.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/gencol.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/gencol.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/gencol.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/gencol.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/gencol.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/gencol.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/gencol.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/gencol.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/gencol.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/gencol.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/gencol.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/gencol.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/gencol.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/gencol.html:128
+msgid "<a href=\"#introduction\">1. Introduction</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/gencol.html:129
+msgid "<a href=\"#syntax\">2. Syntax</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/gencol.html:130
+msgid ""
+"<a href=\"#virtual_versus_stored_columns\">2.1. VIRTUAL versus STORED "
+"columns</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/gencol.html:131
+msgid "<a href=\"#capabilities\">2.2. Capabilities</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/gencol.html:132
+msgid "<a href=\"#limitations\">2.3. Limitations</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/gencol.html:133
+msgid "<a href=\"#compatibility\">3. Compatibility</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/gencol.html:137
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/gencol.html:154
+msgid "<span>1. </span>Introduction"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:156
+msgid ""
+"Generated columns (also sometimes called \"computed columns\")  are columns "
+"of a table whose values are a function of other columns in the same row.  "
+"Generated columns can be read, but their values can not be directly "
+"written.  The only way to change the value of a generated column is to "
+"modify the values of the other columns used to calculate the generated "
+"column."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/gencol.html:164
+msgid "<span>2. </span>Syntax"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:166
+msgid ""
+"Syntactically, generated columns are designated using a \"GENERATED ALWAYS\" "
+"<a href=\"syntax/column-constraint.html\">column-constraint</a>.  For "
+"example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/gencol.html:169
+#, no-wrap
+msgid ""
+"CREATE TABLE t1(\n"
+"   a INTEGER PRIMARY KEY,\n"
+"   b INT,\n"
+"   c TEXT,\n"
+"   d INT GENERATED ALWAYS AS (a*abs(b)) VIRTUAL,\n"
+"   e TEXT GENERATED ALWAYS AS (substr(c,b,b+1)) STORED\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:178
+msgid ""
+"The statement above has three ordinary columns, \"a\" (the PRIMARY KEY), "
+"\"b\", and \"c\", and two generated columns \"d\" and \"e\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:181
+msgid ""
+"The \"GENERATED ALWAYS\" keywords at the beginning of the constraint and the "
+"\"VIRTUAL\" or \"STORED\" keyword at the end are all optional.  Only the "
+"\"AS\" keyword and the parenthesized expression are required.  If the "
+"trailing \"VIRTUAL\" or \"STORED\" keyword is omitted, then VIRTUAL is the "
+"default.  Hence, the example statement above could be simplified to just:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/gencol.html:188
+#, no-wrap
+msgid ""
+"CREATE TABLE t1(\n"
+"   a INTEGER PRIMARY KEY,\n"
+"   b INT,\n"
+"   c TEXT,\n"
+"   d INT AS (a*abs(b)),\n"
+"   e TEXT AS (substr(c,b,b+1)) STORED\n"
+");\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/gencol.html:197
+msgid "<span>2.1. </span>VIRTUAL versus STORED columns"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:199
+msgid ""
+"Generated columns can be either VIRTUAL or STORED.  The value of a VIRTUAL "
+"column is computed when read, whereas the value of a STORED column is "
+"computed when the row is written.  STORED columns take up space in the "
+"database file, whereas VIRTUAL columns use more CPU cycles when being read."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:205
+msgid ""
+"From the point of view of SQL, STORED and VIRTUAL columns are almost exactly "
+"the same.  Queries against either class of generated column produce the same "
+"results.  The only functional difference is that one cannot add new STORED "
+"columns using the <a href=\"lang_altertable.html#altertabaddcol\">ALTER "
+"TABLE ADD COLUMN</a> command.  Only VIRTUAL columns can be added using ALTER "
+"TABLE."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/gencol.html:212
+msgid "<span>2.2. </span>Capabilities"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:216
+msgid ""
+"Generated columns can have a datatype.  SQLite attempts to transform the "
+"result of the generating expression into that datatype using the same <a "
+"href=\"datatype3.html#affinity\">affinity</a> rules as for ordinary columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:221
+msgid ""
+"Generated columns may have NOT NULL, CHECK, and UNIQUE constraints, and "
+"foreign key constraints, just like ordinary columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:225
+msgid "Generated columns can participate in indexes, just like ordinary columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:229
+msgid ""
+"The expression of a generated column can refer to any of the other declared "
+"columns in the table, including other generated columns, as long as the "
+"expression does not directly or indirectly refer back to itself."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:235
+msgid ""
+"Generated columns can occur anywhere in the table definition.  Generated "
+"columns can be interspersed among ordinary columns.  It is not necessary to "
+"put generated columns at the end of the list of columns in the table "
+"definition, as is shown in the examples above."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/gencol.html:242
+msgid "<span>2.3. </span>Limitations"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:246
+msgid ""
+"Generated columns may not have a <a "
+"href=\"lang_createtable.html#dfltval\">default value</a> (they may not use "
+"the \"DEFAULT\" clause).  The value of a generated column is always the "
+"value specified by the expression that follows the \"AS\" keyword."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:251
+msgid ""
+"Generated columns may not be used as part of the <a "
+"href=\"lang_createtable.html#primkeyconst\">PRIMARY KEY</a>.  (Future "
+"versions of SQLite might relax this constraint for STORED columns.)"
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:255
+msgid ""
+"The expression of a generated column may only reference constant literals "
+"and columns within the same row, and may only use scalar <a "
+"href=\"deterministic.html\">deterministic functions</a>.  The expression may "
+"not use subqueries, aggregate functions, window functions, or table-valued "
+"functions."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:261
+msgid ""
+"The expression of a generated column may refer to other generated columns in "
+"the same row, but no generated column can depend upon itself, either "
+"directly or indirectly."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:265
+msgid ""
+"The expression of a generated column may not directly reference the <a "
+"href=\"lang_createtable.html#rowid\">ROWID</a>, though it can reference the "
+"<a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> column, "
+"which is often the same thing."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:270
+msgid "Every table must have at least one non-generated column."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:273
+msgid ""
+"It is not possible to <a href=\"lang_altertable.html#altertabaddcol\">ALTER "
+"TABLE ADD COLUMN</a> a STORED column.  One can add a VIRTUAL column, "
+"however."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:277
+msgid ""
+"The datatype and <a href=\"datatype3.html#collation\">collating sequence</a> "
+"of the generated column are determined only by the datatype and <a "
+"href=\"lang_createtable.html#collateclause\">COLLATE clause</a> on the "
+"column definition.  The datatype and collating sequence of the GENERATED "
+"ALWAYS AS expression have no affect on the datatype and collating sequence "
+"of the column itself."
+msgstr ""
+
+#. type: Content of: <html><body><div><ol><li>
+#: sedout/gencol.html:283
+msgid ""
+"Generated columns are not included in the list of columns provided by the <a "
+"href=\"pragma.html#pragma_table_info\">PRAGMA table_info</a> statement.  But "
+"they are included in the output of the newer <a "
+"href=\"pragma.html#pragma_table_xinfo\">PRAGMA table_xinfo</a> statement."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/gencol.html:288
+msgid "<span>3. </span>Compatibility"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:290
+msgid ""
+"Generated column support was added with SQLite version 3.31.0 (2020-01-22).  "
+"If an earlier version of SQLite attempts to read a database file that "
+"contains a generated column in its schema, then that earlier version will "
+"perceive the generated column syntax as an error and will report that the "
+"database schema is corrupt."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:296
+msgid ""
+"To clarify: SQLite version 3.31.0 can read and write any database created by "
+"any prior version of SQLite going back to SQLite 3.0.0 (2004-06-18).  And, "
+"earlier versions of SQLite, prior to 3.31.0, can read and write databases "
+"created by SQLite version 3.31.0 and later as long as the database schema "
+"does not contain features, such as generated columns, that are not "
+"understood by the earlier version.  Problems only arise if you create a new "
+"database that contains generated columns, using SQLite version 3.31.0 or "
+"later, and then try to read or write that database file using an earlier "
+"version of SQLite that does not understand generated columns."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/gencol.html:307
+msgid ""
+"<small><i>This page last modified on <a "
+"href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
+"data-href=\"https://sqlite.org/docsrc/finfo/pages/gencol.in?m=1b689d97b3\">2022-11-09 "
+"20:11:26</a> UTC </i></small>"
+msgstr ""

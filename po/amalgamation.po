@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-16 09:59+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/amalgamation.html:6 sedout/amalgamation.html:121
+msgid "The SQLite Amalgamation"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/amalgamation.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/amalgamation.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/amalgamation.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/amalgamation.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/amalgamation.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/amalgamation.html:21
+msgid ""
+"<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/amalgamation.html:22 sedout/amalgamation.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/amalgamation.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/amalgamation.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/amalgamation.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/amalgamation.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/amalgamation.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/amalgamation.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/amalgamation.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/amalgamation.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/amalgamation.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/amalgamation.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/amalgamation.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/amalgamation.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/amalgamation.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/amalgamation.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/amalgamation.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( w.style."
+"display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = "
+"\"block\"; } } function toggle_search() { var w = document."
+"getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style."
+"display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function div_off(nm){document.getElementById(nm).style."
+"display=\"none\";} window.onbeforeunload = function(e)"
+"{div_off(\"submenu\");} /* Disable the Search feature if we are not "
+"operating from CGI, since */ /* Search is accomplished using CGI and will "
+"not work without it. */ if( !location.origin || !location.origin.match || !"
+"location.origin.match(/http/) ){ document."
+"getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by "
+"the Hide/Show button beside syntax diagrams, to toggle the */ function "
+"hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document."
+"getElementById(btn); if( x.style.display!='none' ){ x.style.display = "
+"'none'; b.innerHTML='show'; }else{ x.style.display = ''; b."
+"innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo()"
+"{ if( antiRobot!=3 ) return; antiRobot = 7; var j = document."
+"getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j."
+"href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document."
+"body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body."
+"onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; "
+"antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
+"{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
+"antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/amalgamation.html:129
+msgid "<span>1. </span>Executive Summary"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:131
+msgid ""
+"Over 100 separate source files are concatenated into a single large file of "
+"C-code named \"sqlite3.c\" and referred to as \"the amalgamation\". The "
+"amalgamation contains everything an application needs to embed SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:136
+msgid ""
+"Combining all the code for SQLite into one big file makes SQLite easier to "
+"deploy &mdash; there is just one file to keep track of.  And because all "
+"code is in a single translation unit, compilers can do better inter-"
+"procedure and inlining optimization resulting in machine code that is "
+"between 5% and 10% faster."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/amalgamation.html:143
+msgid "<span>2. </span>The SQLite Amalgamation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:145
+msgid ""
+"The SQLite library consists of 111 files of C code (as of <a "
+"href=\"releaselog/3_37_0.html\">Version 3.37.0</a> - 2021-11-27)  in the "
+"core with 22 additional files that implement certain commonly used "
+"extensions.  Of the 133 main source files, about 75% are C code and about "
+"25% are C header files.  Most of these are \"source\" files in the sense "
+"that they are stored in the <a href=\"https://www.sqlite.org/src\">SQLite "
+"version control system</a> and are edited manually in an ordinary text "
+"editor.  But some of the C-language files are generated using scripts or "
+"auxiliary programs.  For example, the <a href=\"https://www.sqlite.org/src/"
+"artifact?ci=trunk&filename=src/parse.y\">parse.y</a> file contains an "
+"LALR(1) grammar of the SQL language which is compiled, by the <a "
+"href=\"lemon.html\">Lemon parser generator</a>, to produce a parser "
+"contained in the file \"parse.c\" accompanied by token identifiers in "
+"\"parse.h\"."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:163
+msgid ""
+"The makefiles for SQLite have an \"sqlite3.c\" target for building the "
+"amalgamation, to contain all C code for the core SQLite library and the <a "
+"href=\"fts3.html\">FTS3</a>, <a href=\"fts5.html\">FTS5</a>, <a href=\"rtree."
+"html\">RTREE</a>, <a href=\"dbstat.html\">DBSTAT</a>, <a href=\"json1."
+"html\">JSON1</a>, <a href=\"rbu.html\">RBU</a> and <a href=\"sessionintro."
+"html\">SESSION</a> extensions.  This file contains about 238K lines of code "
+"(or 145K if you omit blank lines and comments) and is over 8.4 megabytes in "
+"size (as of 2021-12-29)."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:172
+msgid ""
+"Though the various extensions are included in the \"sqlite3.c\" amalgamation "
+"file, they are disabled using #ifdef statements.  Activate the extensions "
+"using <a href=\"compile.html\">compile-time options</a> like:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:177
+msgid "<a href=\"compile.html#enable_fts3\">-DSQLITE_ENABLE_FTS3</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:178
+msgid "<a href=\"compile.html#enable_fts5\">-DSQLITE_ENABLE_FTS5</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:179
+msgid "<a href=\"compile.html#enable_rtree\">-DSQLITE_ENABLE_RTREE</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:180
+msgid ""
+"<a href=\"compile.html#enable_dbstat_vtab\">-DSQLITE_ENABLE_DBSTAT_VTAB</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:181
+msgid "<a href=\"compile.html#enable_json1\">-DSQLITE_ENABLE_JSON1</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:182
+msgid "<a href=\"compile.html#enable_rbu\">-DSQLITE_ENABLE_RBU</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ul><li>
+#: sedout/amalgamation.html:183
+msgid "<a href=\"compile.html#enable_session\">-DSQLITE_ENABLE_SESSION</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:186
+msgid ""
+"The amalgamation contains everything you need to integrate SQLite into a "
+"larger project.  Just copy the amalgamation into your source directory and "
+"compile it along with the other C code files in your project.  (A <a "
+"href=\"howtocompile.html\">more detailed discussion</a> of the compilation "
+"process is available.)  You may also want to make use of the \"sqlite3.h\" "
+"header file that defines the programming API for SQLite.  The sqlite3.h "
+"header file is available separately.  The sqlite3.h file is also contained "
+"within the amalgamation, in the first few thousand lines. So if you have a "
+"copy of sqlite3.c but cannot seem to locate sqlite3.h, you can always "
+"regenerate the sqlite3.h by copying and pasting from the amalgamation."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:199
+msgid ""
+"In addition to making SQLite easier to incorporate into other projects, the "
+"amalgamation also makes it run faster. Many compilers are able to do "
+"additional optimizations on code when it is contained with in a single "
+"translation unit such as it is in the amalgamation. We have measured "
+"performance improvements of between 5 and 10% when we use the amalgamation "
+"to compile SQLite rather than individual source files.  The downside of this "
+"is that the additional optimizations often take the form of function "
+"inlining which tends to make the size of the resulting binary image larger."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:210
+msgid "<a name=\"amal32k\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/amalgamation.html:212
+msgid "<span>3. </span>The Split Amalgamation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:214
+msgid ""
+"Developers sometimes experience trouble debugging the quarter-million line "
+"amalgamation source file because some debuggers are only able to handle "
+"source code line numbers less than 32,768.  The amalgamation source code "
+"runs fine.  One just cannot single-step through it in a debugger."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:220
+msgid ""
+"To circumvent this limitation, the amalgamation is also available in a split "
+"form, consisting of files \"sqlite3-1.c\", \"sqlite3-2.c\", and so forth, "
+"where each file is less than 32,768 lines in length and where the "
+"concatenation of the files contain all of the code for the complete "
+"amalgamation.  Then there is a separate source file named \"sqlite3-all.c\" "
+"which basically consists of code like this:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/amalgamation.html:227
+#, no-wrap
+msgid ""
+"#include \"sqlite3-1.c\"\n"
+"#include \"sqlite3-2.c\"\n"
+"#include \"sqlite3-3.c\"\n"
+"#include \"sqlite3-4.c\"\n"
+"#include \"sqlite3-5.c\"\n"
+"#include \"sqlite3-6.c\"\n"
+"#include \"sqlite3-7.c\"\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:236
+msgid ""
+"Applications using the split amalgamation simply compile against \"sqlite3-"
+"all.c\" instead of \"sqlite3.c\".  The two files work exactly the same.  But "
+"with \"sqlite3-all.c\", no single source file contains more than 32,767 "
+"lines of code, and so it is more convenient to use some debuggers.  The "
+"downside of the split amalgamation is that it consists of 6 C source code "
+"files instead of just 1."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/amalgamation.html:243
+msgid "<span>4. </span>Download Copies Of The Amalgamation"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:245
+msgid ""
+"The amalgamation and the sqlite3.h header file are available on the <a "
+"href=\"download.html\">download page</a> as a file named sqlite-amalgamation-"
+"X.zip where the X is replaced by the appropriate version number."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/amalgamation.html:251
+msgid "<a name=\"amalgbuild\"></a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/amalgamation.html:253
+msgid "<span>5. </span>Building The Amalgamation From Canonical Source Code"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:255
+msgid ""
+"To build the amalgamation (either the full amalgamation or the split "
+"amalgamation), first <a href=\"getthecode.html\">get the canonical source "
+"code</a> from one of the three servers.  Then, on both unix-like systems and "
+"on Windows systems that have the free <a href=\"http://mingw.org/wiki/"
+"msys\">MinGW</a> development environment installed, the amalgamation can be "
+"built using the following commands:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/amalgamation.html:263
+#, no-wrap
+msgid ""
+"sh configure\n"
+"make sqlite3.c\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:267
+msgid "To build using Microsoft Visual C++, run this command:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><div><pre>
+#: sedout/amalgamation.html:269
+#, no-wrap
+msgid "nmake /f makefile.msc sqlite3.c\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:272
+msgid ""
+"In both cases, the split amalgamation can be obtained by substituting "
+"\"sqlite3-all.c\" for \"sqlite3.c\" as the make target."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/amalgamation.html:275
+msgid "<span>5.1. </span>Dependencies"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:277
+msgid ""
+"The build process makes extensive use of the <a href=\"http://www.tcl-lang."
+"org/\">Tcl</a> scripting language.  You will need to have a copy of TCL "
+"installed in order for the make targets above to work.  Easy-to-use "
+"installers can be obtained from <a href=\"http://www.tcl-lang.org/\">http://"
+"www.tcl-lang.org/</a>.  Many unix workstations have Tcl installed by default."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/amalgamation.html:283
+msgid "<span>5.2. </span>See Also"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/amalgamation.html:285
+msgid ""
+"Additional notes on compiling SQLite can be found on the <a "
+"href=\"howtocompile.html\">How To Compile SQLite</a> page."
+msgstr ""

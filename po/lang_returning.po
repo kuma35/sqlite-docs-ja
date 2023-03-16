@@ -1,0 +1,1405 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-03-15 23:12+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Content of: <html><body><div><div><div><svg><text>
+#: sedout/lang_returning.html:6 sedout/lang_returning.html:121
+#: sedout/lang_returning.html:164
+msgid "RETURNING"
+msgstr ""
+
+#. type: Content of: <html><body><div><a>
+#: sedout/lang_returning.html:11
+msgid "<a href=\"index.html\">"
+msgstr ""
+
+#. type: Attribute 'alt' of: <html><body><div><a><img>
+#: sedout/lang_returning.html:12
+msgid "SQLite"
+msgstr ""
+
+#. type: Content of: <html><body><div><div>
+#: sedout/lang_returning.html:16
+msgid "Small. Fast. Reliable."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><br>
+#: sedout/lang_returning.html:16
+msgid "Choose any three."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_returning.html:20
+msgid "<a href=\"index.html\">Home</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_returning.html:21
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li>
+#: sedout/lang_returning.html:22 sedout/lang_returning.html:34
+msgid "<a href='about.html'>About</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_returning.html:23
+msgid "<a href=\"docs.html\">Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_returning.html:24
+msgid "<a href=\"download.html\">Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
+#: sedout/lang_returning.html:25
+msgid "<a href='copyright.html'>License</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
+#: sedout/lang_returning.html:26
+msgid "<a href=\"support.html\">Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
+#: sedout/lang_returning.html:27
+msgid "<a href=\"prosupport.html\">Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
+#: sedout/lang_returning.html:29
+msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li>
+#: sedout/lang_returning.html:35
+msgid "<a href='docs.html'>Documentation</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li>
+#: sedout/lang_returning.html:36
+msgid "<a href='download.html'>Download</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li>
+#: sedout/lang_returning.html:37
+msgid "<a href='support.html'>Support</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
+#: sedout/lang_returning.html:38
+msgid "<a href='prosupport.html'>Purchase</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select>
+#: sedout/lang_returning.html:43
+msgid "<select name=\"s\" id=\"searchtype\">"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_returning.html:44
+msgid "Search Documentation"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form><select><option>
+#: sedout/lang_returning.html:45
+msgid "Search Changelog"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><form>
+#: sedout/lang_returning.html:46
+msgid ""
+"</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
+"<input type=\"submit\" value=\"Go\"/>"
+msgstr ""
+
+#. type: Content of: <html><body><script>
+#: sedout/lang_returning.html:53
+msgid ""
+"function toggle_div(nm) { var w = document.getElementById(nm); if( "
+"w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ "
+"w.style.display = \"block\"; } } function toggle_search() { var w = "
+"document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ "
+"w.style.display = \"none\"; } else { w.style.display = \"block\"; "
+"setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, "
+"30); } } function "
+"div_off(nm){document.getElementById(nm).style.display=\"none\";} "
+"window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the "
+"Search feature if we are not operating from CGI, since */ /* Search is "
+"accomplished using CGI and will not work without it. */ if( !location.origin "
+"|| !location.origin.match || !location.origin.match(/http/) ){ "
+"document.getElementById(\"search_menubutton\").style.display = \"none\"; } "
+"/* Used by the Hide/Show button beside syntax diagrams, to toggle the */ "
+"function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = "
+"document.getElementById(btn); if( x.style.display!='none' ){ x.style.display "
+"= 'none'; b.innerHTML='show'; }else{ x.style.display = ''; "
+"b.innerHTML='hide'; } return false; } var antiRobot = 0; function "
+"antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = "
+"document.getElementById(\"mtimelink\"); if(j && "
+"j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } "
+"function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot "
+"|= 2; antiRobotGo(); document.body.onmousedown=null; } "
+"document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
+"document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
+"antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div>
+#: sedout/lang_returning.html:124
+msgid ""
+"<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
+"id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_returning.html:128
+msgid "<a href=\"#overview\">1. Overview</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_returning.html:129
+msgid "<a href=\"#typical_use\">1.1. Typical Use</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_returning.html:130
+msgid "<a href=\"#details\">2. Details</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_returning.html:131
+msgid "<a href=\"#processing_order\">2.1. Processing Order</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_returning.html:132
+msgid "<a href=\"#acid_changes\">2.2. ACID Changes</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div>
+#: sedout/lang_returning.html:133
+msgid "<a href=\"#limitations_and_caveats\">3. Limitations And Caveats</a>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><script>
+#: sedout/lang_returning.html:137
+msgid ""
+"function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var "
+"mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
+"){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
+"sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_returning.html:154
+msgid "<span>1. </span>Overview"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:156
+msgid ""
+"<b><a href=\"syntax/returning-clause.html\">returning-clause:</a></b> "
+"<button id='x7976e0a4' "
+"onclick='hideorshow(\"x7976e0a4\",\"xa416104f\")'>hide</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:168 sedout/lang_returning.html:258
+#: sedout/lang_returning.html:265 sedout/lang_returning.html:273
+#: sedout/lang_returning.html:292 sedout/lang_returning.html:344
+#: sedout/lang_returning.html:368 sedout/lang_returning.html:387
+#: sedout/lang_returning.html:402 sedout/lang_returning.html:418
+#: sedout/lang_returning.html:420 sedout/lang_returning.html:428
+#: sedout/lang_returning.html:462 sedout/lang_returning.html:492
+#: sedout/lang_returning.html:514 sedout/lang_returning.html:523
+#: sedout/lang_returning.html:535 sedout/lang_returning.html:543
+#: sedout/lang_returning.html:551 sedout/lang_returning.html:580
+#: sedout/lang_returning.html:606 sedout/lang_returning.html:664
+#: sedout/lang_returning.html:672 sedout/lang_returning.html:680
+#: sedout/lang_returning.html:688 sedout/lang_returning.html:732
+#: sedout/lang_returning.html:844 sedout/lang_returning.html:967
+#: sedout/lang_returning.html:989 sedout/lang_returning.html:1011
+#: sedout/lang_returning.html:1024 sedout/lang_returning.html:1044
+#: sedout/lang_returning.html:1124 sedout/lang_returning.html:1327
+#: sedout/lang_returning.html:1346 sedout/lang_returning.html:1354
+#: sedout/lang_returning.html:1417 sedout/lang_returning.html:1456
+#: sedout/lang_returning.html:1484 sedout/lang_returning.html:1492
+#: sedout/lang_returning.html:1696 sedout/lang_returning.html:1782
+#: sedout/lang_returning.html:1843 sedout/lang_returning.html:1951
+#: sedout/lang_returning.html:2055 sedout/lang_returning.html:2175
+#: sedout/lang_returning.html:2197 sedout/lang_returning.html:2219
+#: sedout/lang_returning.html:2232 sedout/lang_returning.html:2252
+msgid "expr"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:172 sedout/lang_returning.html:372
+#: sedout/lang_returning.html:1383 sedout/lang_returning.html:1541
+#: sedout/lang_returning.html:1847 sedout/lang_returning.html:1908
+#: sedout/lang_returning.html:1972
+msgid "AS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:176 sedout/lang_returning.html:1851
+msgid "column-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:191 sedout/lang_returning.html:328
+#: sedout/lang_returning.html:1866 sedout/lang_returning.html:1881
+msgid "*"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:198 sedout/lang_returning.html:319
+#: sedout/lang_returning.html:355 sedout/lang_returning.html:585
+#: sedout/lang_returning.html:622 sedout/lang_returning.html:846
+#: sedout/lang_returning.html:870 sedout/lang_returning.html:1198
+#: sedout/lang_returning.html:1258 sedout/lang_returning.html:1282
+#: sedout/lang_returning.html:1305 sedout/lang_returning.html:1356
+#: sedout/lang_returning.html:1389 sedout/lang_returning.html:1426
+#: sedout/lang_returning.html:1428 sedout/lang_returning.html:1462
+#: sedout/lang_returning.html:1488 sedout/lang_returning.html:1561
+#: sedout/lang_returning.html:1685 sedout/lang_returning.html:1735
+#: sedout/lang_returning.html:1959 sedout/lang_returning.html:2021
+#: sedout/lang_returning.html:2057 sedout/lang_returning.html:2081
+#: sedout/lang_returning.html:2346
+msgid ","
+msgstr ""
+
+#. type: Content of: <html><body><div><div><p>
+#: sedout/lang_returning.html:205
+msgid ""
+"<b><a href=\"syntax/expr.html\">expr:</a></b> <button id='xe691e618' "
+"onclick='hideorshow(\"xe691e618\",\"x63f05421\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:213
+msgid "literal-value"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:218
+msgid "bind-parameter"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:225 sedout/lang_returning.html:590
+#: sedout/lang_returning.html:1896
+msgid "schema-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:229 sedout/lang_returning.html:237
+#: sedout/lang_returning.html:594 sedout/lang_returning.html:1877
+#: sedout/lang_returning.html:1900
+msgid "."
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:233 sedout/lang_returning.html:615
+#: sedout/lang_returning.html:1521 sedout/lang_returning.html:1873
+#: sedout/lang_returning.html:1904
+msgid "table-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:241 sedout/lang_returning.html:1533
+#: sedout/lang_returning.html:1674
+msgid "column-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:254
+msgid "unary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:269
+msgid "binary-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:280
+msgid "function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:284 sedout/lang_returning.html:340
+#: sedout/lang_returning.html:364 sedout/lang_returning.html:563
+#: sedout/lang_returning.html:602 sedout/lang_returning.html:641
+#: sedout/lang_returning.html:724 sedout/lang_returning.html:830
+#: sedout/lang_returning.html:1190 sedout/lang_returning.html:1413
+#: sedout/lang_returning.html:1527 sedout/lang_returning.html:1548
+#: sedout/lang_returning.html:1670 sedout/lang_returning.html:1947
+#: sedout/lang_returning.html:1988 sedout/lang_returning.html:2006
+#: sedout/lang_returning.html:2041 sedout/lang_returning.html:2338
+#: sedout/lang_returning.html:2361
+msgid "("
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:288 sedout/lang_returning.html:506
+#: sedout/lang_returning.html:1276
+msgid "DISTINCT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:296 sedout/lang_returning.html:348
+#: sedout/lang_returning.html:380 sedout/lang_returning.html:571
+#: sedout/lang_returning.html:610 sedout/lang_returning.html:649
+#: sedout/lang_returning.html:736 sedout/lang_returning.html:886
+#: sedout/lang_returning.html:1206 sedout/lang_returning.html:1421
+#: sedout/lang_returning.html:1537 sedout/lang_returning.html:1556
+#: sedout/lang_returning.html:1678 sedout/lang_returning.html:1955
+#: sedout/lang_returning.html:1996 sedout/lang_returning.html:2014
+#: sedout/lang_returning.html:2097 sedout/lang_returning.html:2354
+#: sedout/lang_returning.html:2369
+msgid ")"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:300
+msgid "filter-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:306
+msgid "over-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:360
+msgid "CAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:376
+msgid "type-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:391 sedout/lang_returning.html:1128
+#: sedout/lang_returning.html:1786
+msgid "COLLATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:395 sedout/lang_returning.html:1132
+#: sedout/lang_returning.html:1790
+msgid "collation-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:406 sedout/lang_returning.html:475
+#: sedout/lang_returning.html:500 sedout/lang_returning.html:527
+#: sedout/lang_returning.html:555 sedout/lang_returning.html:633
+#: sedout/lang_returning.html:1543 sedout/lang_returning.html:1929
+msgid "NOT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:410
+msgid "LIKE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:412
+msgid "GLOB"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:414
+msgid "REGEXP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:416
+msgid "MATCH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:424
+msgid "ESCAPE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:466
+msgid "ISNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:473
+msgid "NOTNULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:479 sedout/lang_returning.html:777
+msgid "NULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:496
+msgid "IS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:510 sedout/lang_returning.html:1297
+msgid "FROM"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:531 sedout/lang_returning.html:919
+#: sedout/lang_returning.html:2127
+msgid "BETWEEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:539 sedout/lang_returning.html:931
+#: sedout/lang_returning.html:2139
+msgid "AND"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:559
+msgid "IN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:567 sedout/lang_returning.html:645
+#: sedout/lang_returning.html:1552 sedout/lang_returning.html:1992
+msgid "select-stmt"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:598
+msgid "table-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:637
+msgid "EXISTS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:660
+msgid "CASE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:668
+msgid "WHEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:676
+msgid "THEN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:684
+msgid "ELSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:692
+msgid "END"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:704
+msgid "raise-function"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_returning.html:712
+msgid ""
+"<b><a href=\"syntax/filter-clause.html\">filter-clause:</a></b> <button "
+"id='x87b9cf48' "
+"onclick='hideorshow(\"x87b9cf48\",\"x711413a7\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:720
+msgid "FILTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:728 sedout/lang_returning.html:1323
+msgid "WHERE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_returning.html:743
+msgid ""
+"<b><a href=\"syntax/literal-value.html\">literal-value:</a></b> <button "
+"id='x697afbc6' "
+"onclick='hideorshow(\"x697afbc6\",\"x1531016b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:751
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:758 sedout/lang_returning.html:2393
+msgid "numeric-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:763
+msgid "string-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:770
+msgid "blob-literal"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:784
+msgid "TRUE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:791
+msgid "FALSE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:798
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:805
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_returning.html:814
+msgid ""
+"<b><a href=\"syntax/over-clause.html\">over-clause:</a></b> <button "
+"id='xea5af493' "
+"onclick='hideorshow(\"xea5af493\",\"xd5c9781e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:822
+msgid "OVER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:826 sedout/lang_returning.html:1379
+msgid "window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:834 sedout/lang_returning.html:2045
+msgid "base-window-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:836 sedout/lang_returning.html:2047
+msgid "PARTITION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:840 sedout/lang_returning.html:864
+#: sedout/lang_returning.html:1342 sedout/lang_returning.html:1450
+#: sedout/lang_returning.html:1923 sedout/lang_returning.html:2051
+#: sedout/lang_returning.html:2075
+msgid "BY"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:860 sedout/lang_returning.html:1446
+#: sedout/lang_returning.html:2071
+msgid "ORDER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:868 sedout/lang_returning.html:1460
+#: sedout/lang_returning.html:2079
+msgid "ordering-term"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:882 sedout/lang_returning.html:2093
+msgid "frame-spec"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:906
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='x36c988c0' "
+"onclick='hideorshow(\"x36c988c0\",\"x3488dc16\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:914 sedout/lang_returning.html:2122
+msgid "GROUPS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:923 sedout/lang_returning.html:935
+#: sedout/lang_returning.html:958 sedout/lang_returning.html:2131
+#: sedout/lang_returning.html:2143 sedout/lang_returning.html:2166
+msgid "UNBOUNDED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:927 sedout/lang_returning.html:962
+#: sedout/lang_returning.html:971 sedout/lang_returning.html:993
+#: sedout/lang_returning.html:1028 sedout/lang_returning.html:2135
+#: sedout/lang_returning.html:2170 sedout/lang_returning.html:2179
+#: sedout/lang_returning.html:2201 sedout/lang_returning.html:2236
+msgid "PRECEDING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:939 sedout/lang_returning.html:1015
+#: sedout/lang_returning.html:1048 sedout/lang_returning.html:2147
+#: sedout/lang_returning.html:2223 sedout/lang_returning.html:2256
+msgid "FOLLOWING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:944 sedout/lang_returning.html:2152
+msgid "RANGE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:951 sedout/lang_returning.html:2159
+msgid "ROWS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:978 sedout/lang_returning.html:1000
+#: sedout/lang_returning.html:1033 sedout/lang_returning.html:1059
+#: sedout/lang_returning.html:2186 sedout/lang_returning.html:2208
+#: sedout/lang_returning.html:2241 sedout/lang_returning.html:2267
+msgid "CURRENT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:982 sedout/lang_returning.html:1004
+#: sedout/lang_returning.html:1037 sedout/lang_returning.html:1063
+#: sedout/lang_returning.html:2190 sedout/lang_returning.html:2212
+#: sedout/lang_returning.html:2245 sedout/lang_returning.html:2271
+msgid "ROW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1055 sedout/lang_returning.html:1068
+#: sedout/lang_returning.html:1077 sedout/lang_returning.html:1086
+#: sedout/lang_returning.html:2263 sedout/lang_returning.html:2276
+#: sedout/lang_returning.html:2285 sedout/lang_returning.html:2294
+msgid "EXCLUDE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1072 sedout/lang_returning.html:1338
+#: sedout/lang_returning.html:2280
+msgid "GROUP"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1081 sedout/lang_returning.html:2289
+msgid "TIES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1090 sedout/lang_returning.html:2298
+msgid "NO"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1094 sedout/lang_returning.html:2302
+msgid "OTHERS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1116
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='x65b3ab14' "
+"onclick='hideorshow(\"x65b3ab14\",\"x7bfe6f78\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1141 sedout/lang_returning.html:1799
+msgid "DESC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1145 sedout/lang_returning.html:1803
+msgid "ASC"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1155 sedout/lang_returning.html:1163
+#: sedout/lang_returning.html:1813 sedout/lang_returning.html:1821
+msgid "NULLS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1159 sedout/lang_returning.html:1817
+msgid "FIRST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1167 sedout/lang_returning.html:1825
+msgid "LAST"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_returning.html:1178
+msgid ""
+"<b><a href=\"syntax/raise-function.html\">raise-function:</a></b> <button "
+"id='x5e5db0c0' "
+"onclick='hideorshow(\"x5e5db0c0\",\"xd67aa226\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1186
+msgid "RAISE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1194
+msgid "ROLLBACK"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1202
+msgid "error-message"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1213
+msgid "IGNORE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1218
+msgid "ABORT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1223
+msgid "FAIL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_returning.html:1234
+msgid ""
+"<b><a href=\"syntax/select-stmt.html\">select-stmt:</a></b> <button "
+"id='x88289188' "
+"onclick='hideorshow(\"x88289188\",\"x471ed888\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1243
+msgid "WITH"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1245
+msgid "RECURSIVE"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1251
+msgid "common-table-expression"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1272
+msgid "SELECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1280
+msgid "result-column"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1290 sedout/lang_returning.html:1604
+msgid "ALL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1301 sedout/lang_returning.html:1634
+#: sedout/lang_returning.html:1642 sedout/lang_returning.html:2010
+msgid "table-or-subquery"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1303 sedout/lang_returning.html:2028
+msgid "join-clause"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1350
+msgid "HAVING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1375
+msgid "WINDOW"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1387
+msgid "window-defn"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1409
+msgid "VALUES"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1438
+msgid "compound-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1444
+msgid "select-core"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1452
+msgid "LIMIT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1480
+msgid "OFFSET"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1513
+msgid ""
+"<b><a "
+"href=\"syntax/common-table-expression.html\">common-table-expression:</a></b> "
+"<button id='x04e1e87f' "
+"onclick='hideorshow(\"x04e1e87f\",\"x12e4cf29\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1545
+msgid "MATERIALIZED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1584
+msgid ""
+"<b><a href=\"syntax/compound-operator.html\">compound-operator:</a></b> "
+"<button id='x97c3dd79' "
+"onclick='hideorshow(\"x97c3dd79\",\"xa0026cbe\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1594 sedout/lang_returning.html:1596
+msgid "UNION"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1598
+msgid "INTERSECT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1600
+msgid "EXCEPT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1626
+msgid ""
+"<b><a href=\"syntax/join-clause.html\">join-clause:</a></b> <button "
+"id='xbd24aa66' "
+"onclick='hideorshow(\"xbd24aa66\",\"xe4768ac0\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1638
+msgid "join-operator"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1646
+msgid "join-constraint"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_returning.html:1658
+msgid ""
+"<b><a href=\"syntax/join-constraint.html\">join-constraint:</a></b> <button "
+"id='x7945722c' "
+"onclick='hideorshow(\"x7945722c\",\"xd5bf2b0b\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1666
+msgid "USING"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1692
+msgid "ON"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_returning.html:1706
+msgid ""
+"<b><a href=\"syntax/join-operator.html\">join-operator:</a></b> <button "
+"id='x3c5dcc36' "
+"onclick='hideorshow(\"x3c5dcc36\",\"x280534b9\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1714
+msgid "NATURAL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1720
+msgid "LEFT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1724
+msgid "OUTER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1730
+msgid "JOIN"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1748
+msgid "RIGHT"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1754
+msgid "FULL"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1759
+msgid "INNER"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1766
+msgid "CROSS"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1774
+msgid ""
+"<b><a href=\"syntax/ordering-term.html\">ordering-term:</a></b> <button "
+"id='xe3d931b0' "
+"onclick='hideorshow(\"xe3d931b0\",\"x31f5087a\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1835
+msgid ""
+"<b><a href=\"syntax/result-column.html\">result-column:</a></b> <button "
+"id='xad8e0edd' "
+"onclick='hideorshow(\"xad8e0edd\",\"x399d36e6\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:1888
+msgid ""
+"<b><a href=\"syntax/table-or-subquery.html\">table-or-subquery:</a></b> "
+"<button id='x1cdd5f8d' "
+"onclick='hideorshow(\"x1cdd5f8d\",\"xf44d8110\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1912 sedout/lang_returning.html:1976
+msgid "table-alias"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1919 sedout/lang_returning.html:1933
+msgid "INDEXED"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1927
+msgid "index-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:1943
+msgid "table-function-name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:2033
+msgid ""
+"<b><a href=\"syntax/window-defn.html\">window-defn:</a></b> <button "
+"id='xf0c5d5df' "
+"onclick='hideorshow(\"xf0c5d5df\",\"x6951e04e\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><p>
+#: sedout/lang_returning.html:2114
+msgid ""
+"<b><a href=\"syntax/frame-spec.html\">frame-spec:</a></b> <button "
+"id='xfdd4c15e' "
+"onclick='hideorshow(\"xfdd4c15e\",\"x73e7549d\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><p>
+#: sedout/lang_returning.html:2326
+msgid ""
+"<b><a href=\"syntax/type-name.html\">type-name:</a></b> <button "
+"id='x1d3a8086' "
+"onclick='hideorshow(\"x1d3a8086\",\"x44ec2984\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:2334
+msgid "name"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:2342 sedout/lang_returning.html:2350
+#: sedout/lang_returning.html:2365
+msgid "signed-number"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><p>
+#: sedout/lang_returning.html:2381
+msgid ""
+"<b><a href=\"syntax/signed-number.html\">signed-number:</a></b> <button "
+"id='x55b16cf1' "
+"onclick='hideorshow(\"x55b16cf1\",\"x2dd27741\")'>show</button>"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:2389
+msgid "+"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><div><div><div><div><svg><text>
+#: sedout/lang_returning.html:2400
+msgid "-"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2414
+msgid ""
+"The RETURNING clause is not a statement itself, but a clause that can "
+"optionally appear near the end of top-level <a "
+"href=\"lang_delete.html\">DELETE</a>, <a "
+"href=\"lang_insert.html\">INSERT</a>, and <a "
+"href=\"lang_update.html\">UPDATE</a> statements.  The effect of the "
+"RETURNING clause is to cause the statement to return one result row for each "
+"database row that is deleted, inserted, or updated.  RETURNING is not "
+"standard SQL.  It is an extension.  SQLite's syntax for RETURNING is "
+"modelled after <a href=\"https://www.postgresql.org\">PostgreSQL</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2424
+msgid ""
+"The RETURNING syntax has been supported by SQLite since version 3.35.0 "
+"(2021-03-12)."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_returning.html:2427
+msgid "<span>1.1. </span>Typical Use"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2430
+msgid ""
+"The RETURNING clause is designed to provide the application with the values "
+"of columns that are filled in automatically by SQLite.  For example:"
+msgstr ""
+
+#. type: Content of: <html><body><div><div><pre>
+#: sedout/lang_returning.html:2434
+#, no-wrap
+msgid ""
+"CREATE TABLE t0(\n"
+"  a INTEGER PRIMARY KEY,\n"
+"  b DATE DEFAULT CURRENT_TIMESTAMP,\n"
+"  c INTEGER\n"
+");\n"
+"INSERT INTO t0(c) VALUES(random()) RETURNING *;\n"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2443
+msgid ""
+"In the INSERT statement above, SQLite computes the values for all three "
+"columns.  The RETURNING clause causes SQLite to report the chosen values "
+"back to the application.  This saves the application from having to issue a "
+"separate query to figure out exactly what values were inserted."
+msgstr ""
+
+#. type: Content of: <html><body><div><h1>
+#: sedout/lang_returning.html:2448
+msgid "<span>2. </span>Details"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2451
+msgid ""
+"The RETURNING clause is followed by a comma-separated list of expressions.  "
+"These expressions are similar to the expressions following the SELECT "
+"keyword in a <a href=\"lang_select.html\">SELECT statement</a> in that they "
+"define the values of the columns in the result set.  Each expression defines "
+"the value for a single column.  Each expression may be optionally followed "
+"by an AS clause that determines the name of the result column.  The special "
+"\"*\" expression expands into a list of all <a "
+"href=\"vtab.html#hiddencol\">non-hidden</a> columns of the table being "
+"deleted, inserted, or updated."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2462
+msgid ""
+"For INSERT and UPDATE statements, references to columns in the table being "
+"modified refer to the value of that column <i>after</i> the change has been "
+"applied.  For DELETE statements, references to columns mean the value "
+"<i>before</i> the delete occurs."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2468
+msgid ""
+"The RETURNING clause only returns rows that are directly modified by the "
+"DELETE, INSERT, or UPDATE statement.  The RETURNING clause does not report "
+"any additional database changes caused by <a "
+"href=\"foreignkeys.html\">foreign key constraints</a> or <a "
+"href=\"lang_createtrigger.html\">triggers</a>."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2474
+msgid ""
+"A RETURNING clause for an <a href=\"lang_upsert.html\">UPSERT</a> reports "
+"both inserted and updated rows."
+msgstr ""
+
+#. type: Content of: <html><body><div><h2>
+#: sedout/lang_returning.html:2477
+msgid "<span>2.1. </span>Processing Order"
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2480
+msgid ""
+"When a DELETE, INSERT, or UPDATE statement with a RETURNING clause is run, "
+"all of the database changes occur during the first invocation of <a "
+"href=\"c3ref/step.html\">sqlite3_step()</a>.  The RETURNING clause output is "
+"accumulated in memory.  The first sqlite3_step() call returns one row of "
+"RETURNING output and subsequent rows of RETURNING output are returned by "
+"subsequent calls to sqlite3_step().  To put this another way, all RETURNING "
+"clause output is embargoed until after all database modification actions are "
+"completed."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2490
+msgid ""
+"This means that if a statement has a RETURNING clause that generates a large "
+"amount of output, either many rows or large string or BLOB values, then the "
+"statement might use a lot of temporary memory to hold those values while it "
+"is running."
+msgstr ""
+
+#. type: Content of: <html><body><div><p>
+#: sedout/lang_returning.html:2496
+msgid ""
+"The first prototype of the RETURNING clause returned values as they were "
+"generated.  That approach used less memory, but it had other problems:"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2502
+msgid ""
+"If the calls sqlite3_step() for two or more DML statements where interleaved "
+"and if one of the statements hit a constraint failure and aborted, reverting "
+"its changes, then that could disrupt the operation of the other DML "
+"statement.  This could not corrupt the database file, but it could yield "
+"surprising and difficult-to-explain results in the database."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2511
+msgid ""
+"If an application failed to call sqlite3_step() repeatedly until it received "
+"SQLITE_DONE, then some of the database changes might never occur."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2516
+msgid ""
+"The order of operations was different from client/server database engines "
+"like PostgreSQL, which might cause portability issues for some applications."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_returning.html:2522
+msgid ""
+"For these reasons, the current implementation was modified so that all "
+"database changes happen before any RETURNING output is emitted."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_returning.html:2526
+msgid ""
+"While SQLite does guarantee that all database changes will occur before any "
+"RETURNING output is emitted, it does <i>not</i> guarantee that the order of "
+"individual RETURNING rows will match the order in which those rows were "
+"changed in the database.  The output order for the RETURNING rows is "
+"arbitrary and is not necessarily related to the order in which the rows were "
+"processed internally."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h2>
+#: sedout/lang_returning.html:2533
+msgid "<span>2.2. </span>ACID Changes"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_returning.html:2536
+msgid ""
+"When the previous \"<i>Processing Order</i>\" section says that \"database "
+"changes occur during the first invocation of sqlite3_step()\", that means "
+"that the changes are stored in the private page cache of the database "
+"connection that is running the statement.  It does <i>not</i> mean that the "
+"changes are actually committed.  The commit does not occur until the "
+"statement finishes, and maybe not even then if the statement is part of a "
+"larger transaction.  Changes to the database are still atomic, consistent, "
+"isolated, and durable (ACID).  When the previous section says \"changes "
+"occur\", this means that internal data structure are adjusted pending a "
+"transaction commit.  Some of those changes may or may not spill into the <a "
+"href=\"wal.html\">write-ahead log</a>, depending on how much pressure there "
+"is on the page cache.  If the page cache is not under memory pressure, then "
+"probably nothing will be written to disk until after the transaction "
+"completes, which is after sqlite3_step() returns SQLITE_DONE."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><p>
+#: sedout/lang_returning.html:2553
+msgid ""
+"In other words, when the previous section says \"database changes occur\", "
+"that means that the changes occur in the memory of the specific database "
+"connection that is running the statement, <i>not</i> that the changes are "
+"written to disk."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><h1>
+#: sedout/lang_returning.html:2558
+msgid "<span>3. </span>Limitations And Caveats"
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2562
+msgid ""
+"The RETURNING clause is not available on DELETE and UPDATE statements "
+"against <a href=\"vtab.html\">virtual tables</a>.  This limitation might be "
+"removed in future versions of SQLite."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2567
+msgid ""
+"The RETURNING clause is only available in top-level DELETE, INSERT, and "
+"UPDATE statements.  The RETURNING clause cannot be used by statements within "
+"triggers."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2572
+msgid ""
+"Even though a DML statement with a RETURNING clause returns table content, "
+"it cannot be used as a subquery.  The RETURNING clause can only return data "
+"to the application.  It is not currently possible to divert the RETURNING "
+"output into another table or query.  PostgreSQL has the ability to use a DML "
+"statement with a RETURNING clause like a view in a <a "
+"href=\"lang_with.html\">common table expressions</a>. SQLite does not "
+"currently have that ability, though that is something that might be added in "
+"a future release."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2581
+msgid ""
+"The rows emitted by the RETURNING clause appear in an arbitrary order.  That "
+"order might change depending on the database schema, upon the specific "
+"release of SQLite used, or even from one execution of the same statement to "
+"the next.  There is no way to cause the output rows to appear in a "
+"particular order.  Even if SQLite is compiled with the <a "
+"href=\"compile.html#enable_update_delete_limit\">SQLITE_ENABLE_UPDATE_DELETE_LIMIT</a> "
+"option such that ORDER BY clauses are allowed on DELETE and UPDATE "
+"statements, those ORDER BY clauses do not constrain the output order of "
+"RETURNING."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2592
+msgid ""
+"The values emitted by the RETURNING clause are the values as seen by the "
+"top-level DELETE, INSERT, or UPDATE statement and do not reflect any "
+"subsequent value changes made by <a "
+"href=\"lang_createtrigger.html\">triggers</a>.  Thus, if the database "
+"includes AFTER triggers that modifies some of the values of each row "
+"inserted or updated, the RETURNING clause emits the original values that are "
+"computed before those triggers run."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2600
+msgid ""
+"The RETURNING clause may not contain top-level <a "
+"href=\"lang_aggfunc.html\">aggregate functions</a> or <a "
+"href=\"windowfunctions.html\">window functions</a>.  If there are subqueries "
+"in the RETURNING clause, those subqueries may contain aggregates and window "
+"functions, but aggregates cannot occur at the top level."
+msgstr ""
+
+#. type: Content of: <html><body><div><p><ol><li>
+#: sedout/lang_returning.html:2606
+msgid ""
+"The RETURNING clause may only reference the table being modified.  In an <a "
+"href=\"lang_update.html#upfrom\">UPDATE FROM</a> statement, the auxiliary "
+"tables named in the FROM clause may not participate in the RETURNING clause."
+msgstr ""
