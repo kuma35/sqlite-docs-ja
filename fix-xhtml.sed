@@ -29,7 +29,7 @@ s|<b>\([^<]*\)</B>|<b>\1</b>|g
 s|\(<[Aa][^<]\+\)\(</[^Aa]\)|\1</a>\2|g
 
 # <input> to <input />
-s|\(<input\s[^>]*\)>|\1/>|g
+s|\(<input\s[^>]*[^/]\)>|\1/>|g
 
 # 34to35.html:last line and oters <small><i>...</small></i> なテレコを修正
 /<small><i>/,/<\/small><\/i>/s|\(</small>\)\(</i>\)|\2\1|
