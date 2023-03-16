@@ -16,8 +16,6 @@ elif [ ${src} = "sqlite-doc-3410100/copyright-release.html" ]; then
     sed -e "103c </td></tr><tr>" < ${src} > ${dst}
 elif [ ${src} = "sqlite-doc-3410100/copyright.html" ]; then
     sed -e "190s|>|/>|" < ${src} | sed -f fix-xhtml.sed > ${dst}
-# elif [ ${src} = "sqlite-doc-3410100/docs.html" ]; then
-#    sed -e "127s|\(</li>\)|</a>\1|" < ${src} | sed -f fix-xhtml.sed > ${dst}
 elif [ ${src} = "sqlite-doc-3410100/faq.html" ]; then
     sed -f faq.sed < ${src} | sed -f fix-xhtml.sed > ${dst}
 elif [ ${src} = "sqlite-doc-3410100/fts3.html" ]; then
@@ -43,6 +41,23 @@ elif [ ${src} = "sqlite-doc-3410100/pragma.html" ]; then
     sed -e "713s|</i>||" -e "909s|</b>\(</p>\)|\1|" -e "1593s|</b>$||" < ${src} | sed -f fix-xhtml.sed > ${dst}
 elif [ ${src} = "sqlite-doc-3410100/requirements.html" ]; then
     sed -f requirements.sed  < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/session.html" ]; then
+    sed -e "s|<p>||g" -e "s|</p>||g" < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/c3ref/column_blob.html" ] ; then
+    sed -e "s|<p>||g" -e "s|</p>||g"  < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/c3ref/table_column_metadata.html" ]; then
+    sed -e "s|<p>||g" -e "s|</p>||g"  < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/session/changeset_iter.html" ]; then
+    sed -e "s|<p>||g" -e "s|</p>||g"  < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/session/session.html" ]; then
+    sed -e "s|<p>||g" -e "s|</p>||g"  < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/useovernet.html" ]; then
+    # <a href=https://postgresql.org/> という記述が <a/> と見なされ、以降の </a> でエラーになっていた。
+    sed -e "333s|<a href=https://postgresql.org/>|<a href=\"https://postgresql.org/\">|" < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/vdbe.html" ]; then
+    sed -e "301s|</ul>||" -e "301s|</ul>||" < ${src} | sed -f fix-xhtml.sed > ${dst}
+elif [ ${src} = "sqlite-doc-3410100/version3.html" ]; then
+    sed -e "264s|\(</i>\)</a>|\1|" < ${src} | sed -f fix-xhtml.sed > ${dst}
 else
     sed -f fix-xhtml.sed < ${src} > ${dst}
 fi
