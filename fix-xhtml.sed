@@ -2,7 +2,8 @@
 s/<</\&lt;\&lt;/
 s/>>/\&gt;\&gt;/
 # <h[:digit:]> と </h[:digit:]> で対応が取れてない場合、<h[:digit:]>に合わせる。
-s|\(<h\([[:digit:]]\)[^<]*\)</h[^\2]>|\1</h\2>|g
+# s|\(<h\([[:digit:]]\)[^<]*\)</h[^\2]>|\1</h\2>|g
+s|\(<h\([[:digit:]]\)[^<]*\)</h[[:digit:]]>|\1</h\2>|g
 # <B>...</b> を <B>...</B> に、 <b>...</B> を <b>...</b> に。
 s|<B>\([^<]*\)</b>|<B>\1</B>|g
 s|<b>\([^<]*\)</B>|<b>\1</b>|g
@@ -13,8 +14,11 @@ s|\(<[Aa][^<]\+\)\(</[^Aa]\)|\1</a>\2|g
 s|\(<input\s[^>]*\)>|\1/>|g
 # s|<input type="text" name="q" id="searchbox" value="">|<input type="text" name="q" id="searchbox" value=""/>|
 # s|<input type="submit" value="Go">|<input type="submit" value="Go"/>|
+
 # 34to35.html:last line and oters <small><i>...</small></i> なテレコを修正
-s|</small></i></p>|</i></small></p>|
+# s|</small></i></p>|</i></small></p>|
+/<small><i>/,/<\/small><\/i>/s|\(</small>\)\(</i>\)|\2\1|
+
 # for arch.html
 s|<file>tokenize.c</b>|<b>tokenize.c</b>|
 # for c_interface.html
