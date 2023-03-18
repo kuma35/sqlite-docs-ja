@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-15 22:17+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-19 03:05+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,114 +18,114 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: sedout/flextypegood.html:6 sedout/flextypegood.html:121
 msgid "The Advantages Of Flexible Typing"
-msgstr ""
+msgstr "The Advantages Of Flexible Typing"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/flextypegood.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/flextypegood.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/flextypegood.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/flextypegood.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/flextypegood.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/flextypegood.html:21
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/flextypegood.html:22 sedout/flextypegood.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/flextypegood.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/flextypegood.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/flextypegood.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/flextypegood.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/flextypegood.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/flextypegood.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/flextypegood.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/flextypegood.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/flextypegood.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/flextypegood.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/flextypegood.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/flextypegood.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/flextypegood.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/flextypegood.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/flextypegood.html:53
@@ -157,36 +156,36 @@ msgid ""
 "document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
 "document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
 "antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><div><div><div>
 #: sedout/flextypegood.html:124
 msgid ""
 "<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
 "id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
-msgstr ""
+msgstr "<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:128
 msgid "<a href=\"#introduction\">1. Introduction</a>"
-msgstr ""
+msgstr "<a href=\"#introduction\">1. Introduction</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:129
 msgid "<a href=\"#about_flexible_typing\">2. About Flexible Typing</a>"
-msgstr ""
+msgstr "<a href=\"#about_flexible_typing\">2. About Flexible Typing</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:130
 msgid ""
 "<a href=\"#cases_where_flexible_typing_is_useful\">3. Cases Where Flexible "
 "Typing Is Useful</a>"
-msgstr ""
+msgstr "<a href=\"#cases_where_flexible_typing_is_useful\">3. 柔軟な型付け(Flexible Typing)が役立つ場合</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:131
 msgid "<a href=\"#attribute_tables\">3.1. Attribute tables</a>"
-msgstr ""
+msgstr "<a href=\"#attribute_tables\">3.1. Attribute tables</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:132
@@ -194,26 +193,26 @@ msgid ""
 "<a "
 "href=\"#the_value_column_output_from_the_json_tree_virtual_tables\">3.2. The "
 "\"value\" column output from the json_tree virtual tables</a>"
-msgstr ""
+msgstr "<a href=\"#the_value_column_output_from_the_json_tree_virtual_tables\">3.2. json_tree 仮想テーブルから出力される \"value\" 列</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:133
 msgid "<a href=\"#storage_for_dirty_data\">3.3. Storage for dirty data</a>"
-msgstr ""
+msgstr "<a href=\"#storage_for_dirty_data\">3.3. 汚れたデータの格納</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:134
 msgid ""
 "<a href=\"#dynamic_programming_languages\">3.4. Dynamic programming "
 "languages</a>"
-msgstr ""
+msgstr "<a href=\"#dynamic_programming_languages\">3.4. Dynamic programming languages</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:135
 msgid ""
 "<a href=\"#data_typename_cross_compatibility\">3.5. Data typename "
 "cross-compatibility</a>"
-msgstr ""
+msgstr "<a href=\"#data_typename_cross_compatibility\">3.5. データ型名の相互互換性</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:136
@@ -221,7 +220,7 @@ msgid ""
 "<a "
 "href=\"#repurposing_unused_or_disused_columns_in_legacy_databases\">3.6. "
 "Repurposing unused or disused columns in legacy databases</a>"
-msgstr ""
+msgstr "<a href=\"#repurposing_unused_or_disused_columns_in_legacy_databases\">3.6. レガシー・データベースでの未使用または使用されていない列の転用</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:137
@@ -229,14 +228,14 @@ msgid ""
 "<a "
 "href=\"#perceived_disadvantages_of_flexible_typing_with_rebuttals_\">4. "
 "Perceived Disadvantages of Flexible Typing (With Rebuttals)</a>"
-msgstr ""
+msgstr "<a href=\"#perceived_disadvantages_of_flexible_typing_with_rebuttals_\">4. 柔軟な型付けのデメリット(反論あり)</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:138
 msgid ""
 "<a href=\"#we_ve_never_done_it_that_way_before\">4.1. We've never done it "
 "that way before</a>"
-msgstr ""
+msgstr "<a href=\"#we_ve_never_done_it_that_way_before\">4.1. 我々は今までこのようなことをしたことがありません！</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:139
@@ -244,33 +243,33 @@ msgid ""
 "<a "
 "href=\"#rigid_type_enforcement_helps_prevent_application_bugs\">4.2. Rigid "
 "type enforcement helps prevent application bugs</a>"
-msgstr ""
+msgstr "<a href=\"#rigid_type_enforcement_helps_prevent_application_bugs\">4.2. 厳密な型付けの適用は、アプリケーションのバグの防止を助けます</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:140
 msgid ""
 "<a href=\"#rigid_type_enforcement_prevents_data_pollution\">4.3. Rigid type "
 "enforcement prevents data pollution</a>"
-msgstr ""
+msgstr "<a href=\"#rigid_type_enforcement_prevents_data_pollution\">4.3. 厳密な型の適用によりデータ汚染を防止します</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:141
 msgid ""
 "<a href=\"#other_sql_database_engines_don_t_work_this_way\">4.4. Other SQL "
 "database engines don't work this way</a>"
-msgstr ""
+msgstr "<a href=\"#other_sql_database_engines_don_t_work_this_way\">4.4. 他の SQL データベース・エンジンはこのようには機能しません</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:142
 msgid ""
 "<a href=\"#if_you_insist_on_rigid_type_enforcement_\">5. If You Insist On "
 "Rigid Type Enforcement...</a>"
-msgstr ""
+msgstr "<a href=\"#if_you_insist_on_rigid_type_enforcement_\">5. あなたが厳格な型付けの強制を主張する場合…</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/flextypegood.html:143
 msgid "<a href=\"#embrace_freedom\">6. Embrace Freedom</a>"
-msgstr ""
+msgstr "<a href=\"#embrace_freedom\">6. 自由を受け入れる</a>"
 
 #. type: Content of: <html><body><div><div><script>
 #: sedout/flextypegood.html:147
@@ -279,12 +278,12 @@ msgid ""
 "mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
 "){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
 "sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
-msgstr ""
+msgstr "function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" ){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/flextypegood.html:164
 msgid "<span>1. </span>Introduction"
-msgstr ""
+msgstr "<span>1. </span>Introduction"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/flextypegood.html:166
@@ -293,17 +292,17 @@ msgid ""
 "format, regardless of the declared datatype of the column.  Some people find "
 "this feature troublesome.  Some developers are shocked to discover that it "
 "is possible to insert text into a column marked INTEGER."
-msgstr ""
+msgstr "SQLite を使用すると、 開発者は、 列で宣言されたデータ型に関係なく、 必要な形式でコンテンツを自由に格納できます。 この機能がやっかいだと感じる人もいます。 INTEGERと記された列にテキストを挿入できることを知り、 ショックを受ける開発者もいます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/flextypegood.html:171
 msgid "This article advocates in favor of the flexible type rules in SQLite."
-msgstr ""
+msgstr "この記事は、 SQLite の柔軟な型(flexible type)規則をヨイショしています。"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/flextypegood.html:174
 msgid "<span>2. </span>About Flexible Typing"
-msgstr ""
+msgstr "<span>2. </span>About Flexible Typing"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/flextypegood.html:176
@@ -311,14 +310,14 @@ msgid ""
 "Details regarding the flexible type system of SQLite are found in the "
 "separate <a href=\"datatype3.html\">Datatypes In SQLite</a> document.  Here "
 "is a quick summary:"
-msgstr ""
+msgstr "SQLite の柔軟な型システムに関する詳細は、 <a href=\"datatype3.html\">Datatypes In SQLite</a> ドキュメントにあります。 以下に簡単な要約があります:"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/flextypegood.html:181
 msgid ""
 "Datatype names on column definitions are optional.  A column definition can "
 "consist of just the column name and nothing else."
-msgstr ""
+msgstr "列定義(column definitions)のデータ型名(datatype names)はオプションです。 列定義は列名だけで構成できます。"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/flextypegood.html:183
@@ -328,7 +327,7 @@ msgid ""
 "datatype name in the column definition, but that preferred datatype is "
 "advisory, not mandatory.  The preferred datatype is call the \"column "
 "affinity\"."
-msgstr ""
+msgstr "データ型名(datatype names)を指定する場合、 それらは、 ほぼ任意のテキストにすることができます。 SQLite は、 列定義のデータ型名に基づいて列の優先データ型を推測しようとしますが、 その優先データ型は推奨であり、 必須ではありません。  推奨されるデータ型は、 \"column affinity\"(カラム・アフィニティ;列親和性)と呼ばれます。"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/flextypegood.html:188
@@ -338,59 +337,59 @@ msgid ""
 "transformation is successful, all is well.  But if unsuccessful, instead of "
 "raising an error, SQLite just stores the content using its original "
 "datatype."
-msgstr ""
+msgstr "入力データを列の優先データ型に変換しようとします。 (SQLite だけでなく、 すべての SQL データベース・エンジンがこれを行います。 )  この変換が成功すれば、 すべてがうまくいきます。 ただし、 失敗した場合、 エラーを発生させる代わりに、 SQLite は元のデータ型を使用してコンテンツを格納するだけです。"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/flextypegood.html:193
 msgid ""
 "The above can lead to situations that advocates of rigid typing find "
 "incommodious:"
-msgstr ""
+msgstr "上記は、 厳格な型付けの支持者が不便に感じる状況につながる可能性があります:"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><th>
 #: sedout/flextypegood.html:196
 msgid "Column Datatype"
-msgstr ""
+msgstr "列のデータ型"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><th>
 #: sedout/flextypegood.html:196
 msgid "Types Allowed In That Column"
-msgstr ""
+msgstr "この列で許される型"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
 #: sedout/flextypegood.html:197
 msgid "INTEGER"
-msgstr ""
+msgstr "INTEGER"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
 #: sedout/flextypegood.html:197 sedout/flextypegood.html:200
 msgid "INTEGER, REAL, TEXT, BLOB"
-msgstr ""
+msgstr "INTEGER, REAL, TEXT, BLOB"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:198 sedout/flextypegood.html:305
 msgid "REAL"
-msgstr ""
+msgstr "REAL"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
 #: sedout/flextypegood.html:198
 msgid "REAL, TEXT, BLOB"
-msgstr ""
+msgstr "REAL, TEXT, BLOB"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:199 sedout/flextypegood.html:299
 msgid "TEXT"
-msgstr ""
+msgstr "TEXT"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
 #: sedout/flextypegood.html:199
 msgid "TEXT, BLOB"
-msgstr ""
+msgstr "TEXT, BLOB"
 
 #. type: Content of: <html><body><div><p><ul><li><center><table><tr><td>
 #: sedout/flextypegood.html:200
 msgid "BLOB"
-msgstr ""
+msgstr "BLOB"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/flextypegood.html:202
@@ -402,12 +401,12 @@ msgid ""
 "But TEXT does not always look like an INTEGER or REAL value and so cannot "
 "always be converted.  And a BLOB cannot be converted into anything and "
 "nothing else can be converted into a BLOB."
-msgstr ""
+msgstr "注意: INTEGER 値または REAL 値は TEXT 列に格納されることはないことに注意してください。 これは、 INTEGER または REAL 値は常に等価(equivalent)な TEXT 表現に変換されるためです。 同様に、 INTEGER は常に REAL に変換されるため、 REAL 列に格納されることはありません。  ただし、 TEXT は常に INTEGER 値または REAL 値のように見えるとは限らないため、 常に変換できるとは限りません。 また、 BLOB は BLOB 以外のどの型にも変換できず、 BLOB以外の型は BLOB には変換できません。 (訳注: 列の型が指定の型を(そのまま)受け入れるのと、 指定の方を列の型に「変換」して、 列の型として格納するのとの違いに注意)"
 
 #. type: Content of: <html><body><div><p><h1>
 #: sedout/flextypegood.html:213
 msgid "<span>3. </span>Cases Where Flexible Typing Is Useful"
-msgstr ""
+msgstr "<span>3. </span>柔軟な型付け(Flexible Typing)が役立つ場合"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:215
@@ -415,12 +414,12 @@ msgid ""
 "Some readers, upon first encountering flexible typing in SQLite, ask "
 "themselves \"how could this ever be useful?\" Here is an attempt to answer "
 "that question:"
-msgstr ""
+msgstr "一部の読者は、 SQLite で柔軟な型付け(flexible typing)に初めて遭遇したとき、 「これが一体どのように役立つのだろうか？」と自問します。 その質問に答える試みが以下です:"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/flextypegood.html:219
 msgid "<span>3.1. </span>Attribute tables"
-msgstr ""
+msgstr "<span>3.1. </span>Attribute tables"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:221
@@ -431,13 +430,13 @@ msgid ""
 "short pieces of text (such as the user's name), as well as numeric, date, "
 "and JSON values.  It is convenient to create a single table to handle this "
 "storage:"
-msgstr ""
+msgstr "多くのアプリケーション、 特に SQLite を <a href=\"appfileformat.html\">アプリケーション・ファイル形式</a> として使用するアプリケーションでは、 サムネイル画像(BLOB 値として)や、 短いテキスト(ユーザー名など)や、 数値や、 日付や、 JSON 値などのさまざまな属性を格納する場所が必要です。 この保管場所を扱う単一のテーブルを作成すると便利です:"
 
 #. type: Content of: <html><body><div><p><div><pre>
 #: sedout/flextypegood.html:227
 #, no-wrap
 msgid "CREATE TABLE attribute(name TEXT PRIMARY KEY, value) WITHOUT ROWID;\n"
-msgstr ""
+msgstr "CREATE TABLE attribute(name TEXT PRIMARY KEY, value) WITHOUT ROWID;\n"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:230
@@ -446,7 +445,7 @@ msgid ""
 "separate columns for each possible type of data.  Flexible typing of the "
 "\"value\" column makes the table conceptually simpler, more space-efficient, "
 "and easier to access and update."
-msgstr ""
+msgstr "柔軟な型付け(flexible typing)がなければ、 そのようなテーブルは、 可能なデータ型ごとに個別の列を使用して、 より複雑にしなければなりません。  \"value\" 列の柔軟な入力により、 テーブルが概念的に単純になり、 スペース効率が向上し、 アクセスと更新が容易になります。"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:235
@@ -457,27 +456,27 @@ msgid ""
 "configuration file for Fossil (the ~/.fossil file) is a separate SQLite "
 "database that contains a single attribute table hold the user-specific state "
 "across all repositories."
-msgstr ""
+msgstr "<a href=\"https://fossil-scm.org/\">Fossil バージョン管理システム</a>では、 各リポジトリに CONFIG テーブルがあり、 すべての種類の設定と可能なすべてのデータ型を保存するために使用されます。 Fossil のユーザー固有の構成ファイル( ~/.fossil ファイル)は、すべてのリポジトリでユーザー固有の状態を保持する単一の属性テーブルを含む個別の SQLite データベースです。"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:242
 msgid ""
 "Some applications use an SQLite database as a pure key-value store The "
 "database schema contains a single table that looks something like this:"
-msgstr ""
+msgstr "一部のアプリケーションは、 SQLite データベースを純粋な key-value store として使用します。 データベース・スキーマには、 以下のような単一のテーブルが含まれているだけです:"
 
 #. type: Content of: <html><body><div><p><div><pre>
 #: sedout/flextypegood.html:245
 #, no-wrap
 msgid "CREATE TABLE storage(name TEXT PRIMARY KEY, value ANYTHING);\n"
-msgstr ""
+msgstr "CREATE TABLE storage(name TEXT PRIMARY KEY, value ANYTHING);\n"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/flextypegood.html:248
 msgid ""
 "<span>3.2. </span>The \"value\" column output from the json_tree virtual "
 "tables"
-msgstr ""
+msgstr "<span>3.2. </span><span>3.2. </span>json_tree 仮想テーブルから出力される \"value\" 列"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:250
@@ -487,7 +486,7 @@ msgid ""
 "built into SQLite both have a \"value\" column that can hold values of type "
 "INTEGER, REAL, or TEXT depending on the type of the corresponding JSON "
 "field.  For example:"
-msgstr ""
+msgstr "SQLite に組み込まれている <a href=\"json1.html#jtree\">json_tree</a> と  <a href=\"json1.html#jeach\">json_each</a> テーブル値(table-valued)関数には、 対応する JSON フィールドの型に応じて、 INTEGER または REAL または TEXT 型の値を保持できる \"value\" 列があります。 例えば:"
 
 #. type: Content of: <html><body><div><p><div><pre>
 #: sedout/flextypegood.html:255
@@ -495,19 +494,19 @@ msgstr ""
 msgid ""
 "SELECT typeof(value) FROM "
 "json_each('{\"a\":1,\"b\":2.5,\"c\":\"hello\"}');\n"
-msgstr ""
+msgstr "SELECT typeof(value) FROM json_each('{\"a\":1,\"b\":2.5,\"c\":\"hello\"}');\n"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:258
 msgid ""
 "The query above returns three rows of one column with values \"integer\", "
 "\"real\", and \"text\", respectively."
-msgstr ""
+msgstr "上記のクエリは、 値がそれぞれ \"integer\" と  \"real\"  と  \"text\" である1列だけの行を都合3行返します。"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/flextypegood.html:261
 msgid "<span>3.3. </span>Storage for dirty data"
-msgstr ""
+msgstr "<span>3.3. </span>汚れたデータの格納"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:263
@@ -517,7 +516,7 @@ msgid ""
 "spreadsheet exports commonly have this trait, for example.  When importing "
 "such \"dirty data\" into an SQL database, it is convenient to have flexible "
 "columns to import into."
-msgstr ""
+msgstr "アナリスト達は、 一部の列に整数や実数やテキスト・データが混在している CSV ファイルに遭遇することがあります。 たとえば、Excel スプレッドシートのエクスポートから取得された CSV ファイルには、 通常、 この特性があります。 このような「汚れたデータ」(dirty data)を SQL データベースにインポートする場合、 インポート先として柔軟な列があると便利です。"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:269
@@ -529,12 +528,12 @@ msgid ""
 "clean up these inconsistent representations, but at the same time it is "
 "convenient to be able to store all the different representations in the same "
 "column of the intermediate database while the cleanup is underway."
-msgstr ""
+msgstr "もちろん、 汚れたデータは Excel から出力される CSV ファイルに限定されません。 1 つのフィールドに複数の型が混在している可能性のあるデータ源は多数あります。 たとえば、 データ列は 1970 年からの秒数である場合もあれば、テキストの日付文字列である場合もあります。 これらの一貫性のない表現をクリーンアップすることが望ましいですが、 同時に、 クリーンアップの進行中に中間データベースの同じ列にすべての異なる表現を格納できると便利です。"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/flextypegood.html:278
 msgid "<span>3.4. </span>Dynamic programming languages"
-msgstr ""
+msgstr "<span>3.4. </span>Dynamic programming languages"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:280
@@ -549,69 +548,69 @@ msgid ""
 "will hold.  So when you need to store the value of that variable into the "
 "database, having a database that is supports flexible typing makes storage "
 "much easier."
-msgstr ""
+msgstr "SQLite は TCL 拡張機能として始まり、 その後、 野に放たれました。 TCL は、 プログラマがデータ型を意識する必要がないという意味で動的言語(dynamic language)です。 内部では、 TCL はすべての値のデータ型を注意深く追跡しますが、 TCL プログラムの開発者とユーザーには、 すべてが文字列のように見えます。 柔軟な型付けは、 TCL などの動的プログラミング言語での使用に自然に適合します。 動的プログラミング言語では、 変数が保持するデータ型を常に事前に予測できるとは限らないためです。 したがって、 その変数の値をデータベースに格納する必要がある場合、 柔軟な型指定をサポートするデータベースを使用すると、 格納がはるかに簡単になります。"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/flextypegood.html:291
 msgid "<span>3.5. </span>Data typename cross-compatibility"
-msgstr ""
+msgstr "<span>3.5. </span>データ型名の相互互換性"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/flextypegood.html:293
 msgid ""
 "Every SQL database engine seems to have its own unique set of supported "
 "datatype names:"
-msgstr ""
+msgstr "すべての SQL データベース・エンジンは、 サポートされているデータ型名の独自のセットを持っているようです:"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:297
 msgid "BIGINT"
-msgstr ""
+msgstr "BIGINT"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:298
 msgid "UNSIGNED SMALL INT"
-msgstr ""
+msgstr "UNSIGNED SMALL INT"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:300
 msgid "VARCHAR"
-msgstr ""
+msgstr "VARCHAR"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:301
 msgid "VARYING CHARACTER"
-msgstr ""
+msgstr "VARYING CHARACTER"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:302
 msgid "NATIONAL VARYING CHARACTER"
-msgstr ""
+msgstr "NATIONAL VARYING CHARACTER"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:303
 msgid "NVARCHAR"
-msgstr ""
+msgstr "NVARCHAR"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:304
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:306
 msgid "FLOAT"
-msgstr ""
+msgstr "FLOAT"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:307
 msgid "DOUBLE PRECISION"
-msgstr ""
+msgstr "DOUBLE PRECISION"
 
 #. type: Content of: <html><body><div><p><p><ul><li>
 #: sedout/flextypegood.html:308
 msgid "<i> ... and so forth ...</i>"
-msgstr ""
+msgstr "<i> ...  等々 ...</i>"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:311
@@ -620,12 +619,12 @@ msgid ""
 "let you store any kind of content into the column, increases the chances "
 "that a script written to run on some other SQL database engine will also "
 "work in SQLite."
-msgstr ""
+msgstr "SQLite がこれらの名前を有効な型名として受け入れ、 任意の種類のコンテンツを列に格納できるという事実により、 他の SQL データベース・エンジンで実行するように記述されたスクリプトが SQLite でも機能する可能性が高くなります。"
 
 #. type: Content of: <html><body><div><p><p><h2>
 #: sedout/flextypegood.html:316
 msgid "<span>3.6. </span>Repurposing unused or disused columns in legacy databases"
-msgstr ""
+msgstr "<span>3.6. </span>レガシー・データベースでの未使用または使用されていない列の転用"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:318
@@ -639,12 +638,12 @@ msgid ""
 "altered subtly.  Or, it might be desirable to repurpose an existing column "
 "to serve two or more purposes.  This is much easier to do if the column has "
 "a flexible datatype."
-msgstr ""
+msgstr "SQLite データベース・ファイルはディスク上の単一のファイルであるため、 一部のアプリケーションでは <a href=\"appfileformat.html\">アプリケーション・ファイル形式</a>として SQLite を使用します。 これは、 アプリケーションの 1 つのインスタンスが、 その存続期間中に、 それぞれ別のファイルにある数百または数千の別個のデータベースと通信する可能性があることを意味します。 このようなアプリケーションが何年にもわたって進化すると、 基礎となるデータベースの一部の列の意味が微妙に変更されます。 または、 2 つ以上の目的を果たすために既存の列を再利用することが望ましい場合もあります。 列のデータ型が柔軟な場合、これははるかに簡単に実行できます。"
 
 #. type: Content of: <html><body><div><p><p><h1>
 #: sedout/flextypegood.html:327
 msgid "<span>4. </span>Perceived Disadvantages of Flexible Typing (With Rebuttals)"
-msgstr ""
+msgstr "<span>4. </span>柔軟な型付けのデメリット(反論あり)"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:329
@@ -656,12 +655,12 @@ msgid ""
 "developers or leave a post on the <a "
 "href=\"https://sqlite.org/forum/forum\">SQLite Forum</a> so that your idea "
 "can be added to the list."
-msgstr ""
+msgstr "柔軟な型付けの以下の認識された欠点は、 Hacker News や Reddit の無数の投稿や、 開発者がこの種のことについて話し合う同様のフォーラムから集めてまとめたものです。 あなたが柔軟な型付けが悪い考えであるこれ以外の理由を考えることができる場合は、 SQLite 開発者に連絡するか、 <a href=\"https://sqlite.org/forum/forum\">SQLite Forum</a> に投稿を残して、 あなたの考えをこのリストに追加できるようにしてください。"
 
 #. type: Content of: <html><body><div><p><p><h2>
 #: sedout/flextypegood.html:338
 msgid "<span>4.1. </span>We've never done it that way before"
-msgstr ""
+msgstr "<span>4.1. </span>我々は今までこのようなことをしたことがありません！"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:340
@@ -670,7 +669,7 @@ msgid ""
 "offering any rationale for why they think flexible typing is a bad idea.  "
 "Without supporting arguments, one must assume their reason for not liking "
 "flexible typing is that it is different from what they are used to."
-msgstr ""
+msgstr "柔軟な型付けに懐疑的な人の多くは、 なぜ柔軟な型付けがダメなのかの根拠を示さず、 ただショックと不信感をあらわにします。 その裏付けが無いならば、 彼らが柔軟な型付けグを好まない理由は、 それが自分の慣れ親しんだものと違うからなのだと考えるしかありません。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:346
@@ -680,7 +679,7 @@ msgid ""
 "All prior exposure to databases and especially SQL databases has involved "
 "rigid typing, and the readers mental model of SQL includes rigid typing as a "
 "fundamental feature.  Flexible typing upsets their world-view."
-msgstr ""
+msgstr "おそらく、 SQLite の柔軟な型付けに驚いている多くの開発者は、 そのようなものにこれまで遭遇したことがないため、 このように感じています。 いままで触れた全てのデータベース、 特に SQL データベースには厳格な型付けが含まれており、 読者の SQLに関するメンタル・モデルには厳格な型付けが基本的な機能として刻み込まれています。 柔軟な片付けは彼らの世界観をひっくり返します。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:353
@@ -688,12 +687,12 @@ msgid ""
 "Yes, flexible typing is a new way of thinking about data in an SQL "
 "database.  But new is not necessary bad.  Sometimes, and I think especially "
 "in the case of flexible typing, innovation leads to improvement."
-msgstr ""
+msgstr "はい、 柔軟な型指定は、 SQL データベース内のデータに関する新しい考え方です。 しかし、 新しいことは必ずしも悪いことではありません。 しばしば、 そして、 特に柔軟な片付けの場合、 革新が改善につながる(innovation leads to improvement)と思います。"
 
 #. type: Content of: <html><body><div><p><p><h2>
 #: sedout/flextypegood.html:357
 msgid "<span>4.2. </span>Rigid type enforcement helps prevent application bugs"
-msgstr ""
+msgstr "<span>4.2. </span>厳密な型付けの適用は、アプリケーションのバグの防止を助けます"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:359
@@ -701,7 +700,7 @@ msgid ""
 "It has become a point of doctrine among many programmers that the best way "
 "to prevent application bugs is strict type enforcement.  But I find no "
 "evidence in support of this."
-msgstr ""
+msgstr "アプリケーションのバグを防ぐ最善の方法は、 型を厳密に強制することであるというのが、 多くのプログラマーの間での信条になっています。 しかし、 私はこれを裏付ける証拠は見つけていません。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:363
@@ -713,7 +712,7 @@ msgid ""
 "\"Value\" superclass of some kind which is subclassed for the various "
 "lower-level data types.  When everything is a Value object, specific "
 "datatypes cease to be important."
-msgstr ""
+msgstr "確かに、厳密な型の強制は、 マシン・ハードウェアに近いモデルを提示する C や C++ などの低レベル言語の、 ある種のバグを防ぐのに役立ちます。 しかし、 これは、 さまざまな下位レベルのデータ型にサブクラス化された何らかの \"Value\"  スーパークラスですべてのデータが渡される、 より高度な抽象化言語には当てはまらないようです。 すべてが Value オブジェクトである場合、 特定のデータ型は重要ではなくなります。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:371
@@ -732,7 +731,7 @@ msgid ""
 "supplemental static analysis programs that scan the Fossil source code prior "
 "to compilation, looking for problems that compilers miss.  This works well "
 "for compiled programs."
-msgstr ""
+msgstr "この技術的注釈(technical note)、SQLite の最初の作成者によって執筆されています。 私は 27 年間 TCL プログラムを書いてきました。 TCL には型の強制はまったくありません。 TCL の \"Value\" クラス (Tcl_Obj と呼ばれる) は、 さまざまなデータ型を保持できますが、 内容をプログラムとアプリケーション・ユーザーに文字列として提示します。 そして、 私は何年にもわたって、 それらの TCL プログラムで多くのバグを抱えてきたものです。 しかし、 厳密な型システムによってバグが発見された可能性がある例はひとつも思い浮かびません。 また、 私は 35 年間にわたって多くの C コードを作成してきましたが、 そのうちの 1 つが SQLite そのものです。 C で記述された <a href=\"https://fossil-scm.org/\">Fossil バージョン管理システム</a> では、コンパイル前に Fossil ソース・コードをスキャンして、 コンパイラが見落としている問題を探す補助的な静的解析プログラムを実装しました。 これは、 コンパイルされるプログラムに適しています。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:386
@@ -750,7 +749,7 @@ msgid ""
 "that might have been prevented by rigid type enforcement in the SQLite.  "
 "C-language bugs might have been caught by better type enforcement (which is "
 "why I wrote the supplemental source code scanners), but no SQL bugs."
-msgstr ""
+msgstr "SQL 言語モデルは、 C/C++ よりも高レベルの抽象化です。 SQLite では、 すべてのデータ項目が \"sqlite3_value\" オブジェクトとしてメモリに格納されます。 このオブジェクトには、 文字列や整数や浮動小数点数やブロブやその他の表現用の、 サブクラスがあります。 すべてが SQLite によって実装された SQL 言語内で \"sqlite3_value\" オブジェクトとして渡されるため、 基礎となるデータ型は実際には問題になりません。 データ要素を表すために単一の \"Value\" スーパークラスが使用される TCL や SQLite などの言語では、 私は厳密な型の強制が役立つとは思いませんでした。  Fossil は、その実装において SQLite を広範囲に使用します。 Fossil には 14 年の歴史の中で多くのバグがありましたが、 SQLite の厳密な型の強制によって防止できた可能性のあるバグはひとつも思い出せません。 C 言語のバグは、 より適切な型の強制によって検出された可能性があります(これが、 補足のソース・コード・スキャナーを作成した理由です)が、 SQL のバグは検出されませんでした。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:401
@@ -761,12 +760,12 @@ msgid ""
 "applications bugs <em>in languages that lack a single top-level \"Value\" "
 "superclass</em>.  But SQLite does have the single \"sqlite3_value\" "
 "superclass, so that proverb does not apply."
-msgstr ""
+msgstr "何十年にもわたる経験に基づいて、 私は厳密な型の強制がアプリケーションのバグを防ぐのに役立つという論を拒否します。 私はわずかに変更された論を受け入れ、 信じます。 厳密な型の強制は、 <em>最上位の \"Value\" スーパークラスが 1 つもない言語</em> でアプリケーションのバグを防ぐのに役立ちます。 しかし、 SQLite には単一の \"sqlite3_value\" スーパークラスがあるため、 このことわざは当てはまりません。"
 
 #. type: Content of: <html><body><div><p><p><h2>
 #: sedout/flextypegood.html:408
 msgid "<span>4.3. </span>Rigid type enforcement prevents data pollution"
-msgstr ""
+msgstr "<span>4.3. </span>厳密な型の適用によりデータ汚染を防止します"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:410
@@ -777,7 +776,7 @@ msgid ""
 "true that type enforcement might help prevent <em>egregiously</em> incorrect "
 "data from getting into the system.  But type enforcement is no help in "
 "prevent subtly incorrect data from being recorded."
-msgstr ""
+msgstr "スキーマに厳密な制約があり、 特に列のデータ型が厳密に適用されている場合、 データベースに誤ったデータが追加されるのを防ぐのに役立つと主張する人もいます。 これは真ではありません。 型の強制が<em>ひどく</em>間違ったデータがシステムに入るのを防ぐのに役立つことは事実です。 しかし、 型の強制は、 微妙に間違ったデータが記録されるのを防ぐのには役に立ちません。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:418
@@ -788,7 +787,7 @@ msgid ""
 "the problem and find all affected rows.  But type enforcement is no help in "
 "preventing a bug where the customer family name and given name are reversed, "
 "since both are text fields."
-msgstr ""
+msgstr "したがって、 たとえば、 厳密な型の強制により、  customer name (text) が整数の Customer.creditScore 列に挿入されるのを防ぐことができます。 これに対して、 その間違いが発生した場合、 問題を特定して影響を受けるすべての行を見つけるのは非常に簡単です。 しかし、 型の強制は、 顧客の姓と名が逆になるというバグを防止するのには役に立ちません、なぜならそれらはどちらもテキストフィールドだからです。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:425
@@ -798,7 +797,7 @@ msgid ""
 "family name.  She reported that she spend an inordinate amount of time and "
 "energy trying to correct databases that had \"Tracy\" has her given name and "
 "\"Merritt\" as her family name.)"
-msgstr ""
+msgstr "(余談: 数十年前、 私は「メリット・トレーシー」という名前の女性がいるチームで働いていました。 「メリット」は彼女の名で、「トレーシー」は彼女の苗字でした。 彼女は、\"トレーシー\" が名字で \"メリット\" が苗字であるデータベースを修正するために、 途方もない時間と労力を費やしたと報告してきました。)"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:431
@@ -814,7 +813,7 @@ msgid ""
 "also fixing the subtle errors too.  When egregious errors are suppressed, "
 "you lose an important signal that helps you to detect and fix the subtle "
 "errors."
-msgstr ""
+msgstr "検出しやすいエラーを抑制し、 検出しにくいエラーのみを通過させることで、 厳密な型の強制は実際にはバグの発見と修正をより困難にする可能性があります。 データ・エラーはクラスター化する傾向があります。 20 の異なるデータ源がある場合、ほとんどのデータ・エラーは通常、それらの源のうちの 2 つまたは 3 つだけから発生します。 重大なエラー(整数列のテキストなど) の存在は、 何かがおかしいという便利な早期警告シグナルです。 問題の原因を迅速に追跡し、 重大なエラーの原因に追加の精査を適用することができるため、 うまくいけば、 微妙なエラーも修正されます。  重大なエラーが抑制されると、 微妙なエラーを検出して修正するのに役立つ重要なシグナルが失われます。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:443
@@ -825,12 +824,12 @@ msgid ""
 "the more subtle cases.  And, by suppressing the signal of which data sources "
 "are problematic, it can sometimes make the subtle errors more difficult to "
 "locate."
-msgstr ""
+msgstr "データ・エラーは避けられません。  型チェックがどれだけ行われたかに関係なく、 それらは発生します。  厳密な型の強制は、 これらの場合の小さなサブセット (最も明白な場合) のみをキャッチできます。 より微妙な場合を見つけて修正するのに役立ちません。  また、問題のあるデータ源のシグナルを抑制することで、 微妙なエラーの特定がより困難になる場合があります。"
 
 #. type: Content of: <html><body><div><p><p><h2>
 #: sedout/flextypegood.html:450
 msgid "<span>4.4. </span>Other SQL database engines don't work this way"
-msgstr ""
+msgstr "<span>4.4. </span>他の SQL データベース・エンジンはこのようには機能しません"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:452
@@ -843,7 +842,7 @@ msgid ""
 "more restrictive SQL engine for deployment.  If the application was "
 "(unintentionally) taking advantage of the flexible typing available in "
 "SQLite, then it will fail when migrated."
-msgstr ""
+msgstr "SQLite は制限が少なく、 より多くのことを実行できるため、 他のデータベース・エンジンで動作する SQL スクリプトは通常 SQLite でも動作しますが、 最初に SQLite 用に作成されたスクリプトは、 より制限の厳しいデータベース・エンジンでは動作しない場合があります。 これは、 開発者がプロトタイピングとテストのために SQLite を使用し、その後、 デプロイのためにアプリケーションをより制限的な SQL エンジンに移行する場合に問題を引き起こす可能性があります。 アプリケーションが (意図せずに) SQLite で利用可能な柔軟な型付けを利用していた場合、 移行時に失敗します。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:461
@@ -854,19 +853,19 @@ msgid ""
 "datatypes.  The application was working correctly under SQLite, prior to be "
 "migrated, after all.  If rigid type enforcement is really all that useful, "
 "why did it break an application that was previously working?"
-msgstr ""
+msgstr "人々はこの問題を利用して、 SQLite はデータ型についてより制限的であるべきだと主張します。 しかし、 その議論を簡単にひっくり返して、 他のデータベース・エンジンはデータ型に関してもっと柔軟であるべきだと言うこともできます。  結局のところ、 アプリケーションは移行前には SQLite で正しく動作していたのです。 厳格な型付けの強制が本当に有用である場合、 以前は機能していたアプリケーションはなぜ機能しなくなったのでしょうかね？"
 
 #. type: Content of: <html><body><div><p><p><h1>
 #: sedout/flextypegood.html:469
 msgid "<span>5. </span>If You Insist On Rigid Type Enforcement..."
-msgstr ""
+msgstr "<span>5. </span>あなたが厳格な型付けの強制を主張する場合…"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:471
 msgid ""
 "As of SQLite version 3.37.0 (2021-11-27), SQLite supports this development "
 "style using <a href=\"stricttables.html\">STRICT tables</a>."
-msgstr ""
+msgstr "SQLite バージョン 3.37.0 (2021-11-27) の時点で、 SQLite は <a href=\"stricttables.html\">STRICT テーブル</a> を使用した、 この開発スタイルをサポートしています。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:474
@@ -875,12 +874,12 @@ msgid ""
 "prevented a bug in an application, please post a message to the <a "
 "href=\"https://sqlite.org/forum/forum\">SQLite Forum</a> so that we can add "
 "your story to this document."
-msgstr ""
+msgstr "STRICT テーブルがアプリケーションのバグを防いだ、 または防げたであろう現実のケースを見つけた場合は、 あなたのストーリーをこのドキュメントに追加できるように、 <a href=\"https://sqlite.org/forum/forum\">SQLite フォーラム</a> にメッセージの投稿をお願いいたします。"
 
 #. type: Content of: <html><body><div><p><p><h1>
 #: sedout/flextypegood.html:479
 msgid "<span>6. </span>Embrace Freedom"
-msgstr ""
+msgstr "<span>6. </span>自由を受け入れる"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:481
@@ -892,7 +891,7 @@ msgid ""
 "typing a try, you will eventually come to realize that it is a better "
 "approach and will start encouraging other database vendors to support at "
 "least an ANY datatype if not complete SQLite-style type flexibility."
-msgstr ""
+msgstr "SQL データベースでの柔軟な型付けがあなたにとって新しい概念である場合、 それを試してみることをお勧めします。 おそらく問題は発生せず、 かつ、 プログラムがより単純になり、 かつ、 作成と保守が容易になる可能性があります。 あなたは、 最初は半信半疑でも、 柔軟な型付けを試してみれば、 やがてそれがより良いアプローチであることを理解し、 他のデータベース・ベンダーに、 SQLiteスタイルの、 完全な型付けの柔軟性とまではいかなくても、 少なくともANYデータ型をサポートするように働きかけ始めると思います。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/flextypegood.html:490
@@ -901,4 +900,4 @@ msgid ""
 "single well-defined type.  But occasionally you will run across situations "
 "where having a flexible type system makes the solution to your problem "
 "cleaner and easier."
-msgstr ""
+msgstr "ほとんどの場合、 列には明確に定義された単一の型が格納されるため、 柔軟な型付けは重要ではありません。  しかし、 時折、 柔軟な型システムを使用することで問あなたの題の解決策がよりクリーンでより簡単になる状況に出くわすことがあるでしょう。"
