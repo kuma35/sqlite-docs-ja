@@ -397,49 +397,38 @@ INTEGER 好相性 を与えることに注意してください。 そして "ST
 
 <h2 id="column_affinity_for_views_and_subqueries"><span>3.3. </span>View とサブクエリの 列好相性</h2>
 
-<p>The "columns" of a <a href="lang_createview.html">VIEW</a> or FROM-clause
-subquery are really the expressions in the result set of the <a
-href="lang_select.html">SELECT</a> statement that implements the VIEW or
-subquery.  Thus, the affinity for columns of a VIEW or subquery are
-determined by the expression affinity rules above.  Consider an example:
+<p><a href="lang_createview.html">VIEW</a> または FROM 句のサブクエリの「列」は、 実際には VIEW
+またはサブクエリを実装する <a href="lang_select.html">SELECT</a> ステートメントの結果セットの式です。
+したがって、 VIEW またはサブクエリの列の好相性は、 上記の、 式の好相性規則によって決定されます。 以下の例について考えてみましょう:
 
 </p><blockquote><pre>
 CREATE TABLE t1(a INT, b TEXT, c REAL);
 CREATE VIEW v1(x,y,z) AS SELECT b, a+c, 42 FROM t1 WHERE b!=11;
 </pre></blockquote>
 
-<p>The affinity of the v1.x column will be the same as the affinity of t1.b
-(TEXT), since v1.x maps directly into t1.b.  But columns v1.y and v1.z both
-have no affinity, since those columns map into expression a+c and 42, and
-expressions always have no affinity.  <a name="affcompoundview"></a>
+<p>v1.x 列の好相性は、 t1.b (TEXT) の好相性と同一です。 これは、 v1.x が t1.b に直接マップされるためです。  ただし、 列
+v1.y と v1.z は両方とも好相性を持ちません。 これらの列は式 a+c と 42 にマップされ、 そして、 式には常に好相性がないからです。
+<a name="affcompoundview"></a>
 
 </p><h3 id="column_affinity_for_compound_views"><span>3.3.1. </span>複合Viewの列好相性</h3>
 
-<p>When the <a href="lang_select.html">SELECT</a> statement that implements a
-<a href="lang_createview.html">VIEW</a> or FROM-clause subquery is a <a
-href="lang_select.html#compound">compound SELECT</a> then the affinity of
-each column of the VIEW or subquery will be the affinity of the
-corresponding result column for one of the individual SELECT statements that
-make up the compound.  However, it is indeterminate which of the SELECT
-statements will be used to determine affinity.  Different constituent SELECT
-statements might be used to determine affinity at different times during
-query evaluation.  The choice might vary across different versions of
-SQLite.  The choice might change between one query and the next in the same
-version of SQLite.  The choice might be different at different times within
-the same query.  Hence, you can never be sure what affinity will be used for
-columns of a compound SELECT that have different affinities in the
-constituent subqueries.
+<p><a href="lang_createview.html">VIEW</a> または FROM 句サブクエリを実装する <a
+href="lang_select.html">SELECT</a> ステートメントが <a
+href="lang_select. html#compound">複合 SELECT</a> の場合、 VIEW またはサブクエリの各列の好相性は、
+複合を構成する個々の SELECT ステートメントの 1 つに対応する結果列の好相性になります。 ただし、 どの SELECT
+ステートメントを使用して好相性を判別するかは不確定です。 照会評価中のさまざまな時点で、 さまざまな構成 SELECT
+ステートメントを使用して好相性を判別することができます。 その選択は SQLite のバージョンによって異なる場合があります。 同じバージョンの
+SQLite では、 あるクエリとその次のクエリで選択が変わる可能性があります。 選択は、 同じクエリ内のさまざまな時点で異なる場合があります。
+したがって、 構成サブクエリで異なる好相性を持つ複合、  SELECT の列にどの好相性が使用されるかは決してわかりません。
 
-</p><p>Best practice is to avoid mixing affinities in a compound SELECT if you care
-about the datatype of the result.  Mixing affinities in a compound SELECT
-can lead to surprising and unintuitive results.  See, for example, <a
-href="https://sqlite.org/forum/forumpost/02d7be94d7">forum post
-02d7be94d7</a>.
+</p><p>結果のデータ型が重要な場合は、 複合 SELECT で好相性を混在させないことをお勧めします。 複合 SELECT で好相性を混合すると、
+驚くべき直感的でない結果が生じる可能性があります。 たとえば、 <a
+href="https://sqlite.org/forum/forumpost/02d7be94d7">フォーラム投稿 02d7be94d7</a>
+を参照してください。
 
 </p><h2 id="column_affinity_behavior_example"><span>3.4. </span>列好相性の振る舞いの例</h2>
 
-<p>The following SQL demonstrates how SQLite uses column affinity to do type
-conversions when values are inserted into a table.</p>
+<p>以下の SQL は、 値がテーブルに挿入されるときに、 SQLite が列好相性を使用して型変換を行う方法を示しています。</p>
 
 <blockquote>
 <pre>
@@ -492,62 +481,48 @@ null|null|null|null|null
 
 </p><h2 id="sort_order"><span>4.1. </span>並べ替え順</h2>
 
-<p>The results of a comparison depend on the storage classes of the operands,
-according to the following rules:</p>
+<p>比較の結果は、オペランドの格納クラスによって異なり、 以下の規則に従います:</p>
 <ul>
-  <li>A value with storage class NULL is considered less than any other value
-(including another value with storage class NULL).
+  <li>格納クラスが NULL の値は、 (格納クラスが NULL である別の値を含む、)他のどの値よりも小さいと見なされます。 (訳注: NULL と
+NULL を比較しても、 等しいのではなくて小さいと見なす)
 
-  </li><li>An INTEGER or REAL value is less than any TEXT or BLOB value.  When an
-INTEGER or REAL is compared to another INTEGER or REAL, a numerical
-comparison is performed.
+  </li><li>INTEGER または REAL 値は、 TEXT または BLOB 値より小さいです。 INTEGER または REAL がそれぞれ別の
+INTEGER または REAL と比較される場合、 数値比較が実行されます。
 
-  </li><li>A TEXT value is less than a BLOB value.  When two TEXT values are compared
-an appropriate collating sequence is used to determine the result.  
+  </li><li>TEXT 値は BLOB 値より小さいです。 2 つの TEXT 値を比較すると、 適切な照合シーケンス(collate
+sequence)を使用して結果が決定されます。  
 
-  </li><li>When two BLOB values are compared, the result is determined using memcmp().
+  </li><li>2 つの BLOB 値を比較する場合、 その結果は memcmp() を使用して決定されます。
 </li></ul>
 
 <a name="compaff"></a>
 
 <h2 id="type_conversions_prior_to_comparison"><span>4.2. </span>比較前の型変換</h2>
 
-<p>SQLite may attempt to convert values between the storage classes INTEGER,
-REAL, and/or TEXT before performing a comparison.  Whether or not any
-conversions are attempted before the comparison takes place depends on the
-type affinity of the operands.
+<p>SQLite は、比較を実行する前に、 格納クラス INTEGER と REAL と TEXT の間で値を変換しようとする場合があります。
+比較が行われる前に変換が試行されるかどうかは、 オペランドの型の好相性によって異なります。
 
-</p><p>To "apply affinity" means to convert an operand to a particular storage
-class if and only if the conversion does not lose essential information.
-Numeric values can always be converted into TEXT.  TEXT values can be
-converted into numeric values if the text content is a well-formed integer
-or real literal, but not a hexadecimal integer literal.  BLOB values are
-converted into TEXT values by simply interpreting the binary BLOB content as
-a text string in the current database encoding.
+</p><p>「好相性を適用する」(apply affinity)とは、 変換によって重要な情報が失われない場合にのみ、
+オペランドを特定の格納クラスに変換することを意味します。 数値 (numeric)は常に TEXT に変換できます。
+テキストの内容が整形式の整数または実数リテラルであるが、 16 進整数リテラルではない場合、 TEXT 値は数値(numeric)に変換できます。
+BLOB値は、 バイナリのBLOB内容を現在のデータベース・エンコーディングのテキスト文字列として単純に解釈することで、 TEXT値に変換されます。
 
-</p><p>Affinity is applied to operands of a comparison operator prior to the
-comparison according to the following rules in the order shown:</p>
+</p><p>好相性は、 以下に示す順序での規則に従って、 比較の前に比較演算子のオペランドに適用されます:</p>
 
 <ul>
-<li>If one operand has INTEGER, REAL or NUMERIC affinity and the other operand
-has TEXT or BLOB or no affinity then NUMERIC affinity is applied to other
-operand.
+<li>一方のオペランドに INTEGER または REAL または NUMERIC の好相性があり、 もう一方のオペランドに TEXT または BLOB
+の好相性があるか、 好相性を持ってない場合、 NUMERIC の好相性 が、もう一方側のオペランドに適用されます。
 
-</li><li>If one operand has TEXT affinity and the other has no affinity, then TEXT
-affinity is applied to the other operand.
+</li><li>一方のオペランドに TEXT 好相性があり、もう一方のオペランドが好相性を持たない場合、 TEXT 好相性が、 もう一方のオペランドに適用されます。
 
-</li><li>Otherwise, no affinity is applied and both operands are compared as is.
+</li><li>それ以外の場合、 好相性は適用されず、 両方のオペランドがそのまま比較されます。
 </li></ul>
 
-<p>The expression "a BETWEEN b AND c" is treated as two separate binary
-comparisons "a &gt;= b AND a &lt;= c", even if that means different
-affinities are applied to 'a' in each of the comparisons.  Datatype
-conversions in comparisons of the form "x IN (SELECT y ...)" are handled as
-if the comparison were really "x=y".  The expression "a IN (x, y, z, ...)"
-is equivalent to "a = +x OR a = +y OR a = +z OR ...".  In other words, the
-values to the right of the IN operator (the "x", "y", and "z" values in this
-example) are considered to have no affinity, even if they happen to be
-column values or CAST expressions.  
+<p>"a BETWEEN b AND c" という式は、 2 つの別個のバイナリ比較 "a &gt;= b AND a &lt;= c" として扱われます。
+これは、 各比較で異なる好相性が 'a' に適用されることを意味する場合でもです。 "x IN (SELECT y ...)"
+形式の比較におけるデータ型変換は、 比較が実際に "x = y" であるかのように処理されます。 "a IN (x, y, z, ...)"
+という式は、 "a = +x OR a = +y OR a = +z OR ..." と同等です。 つまり、 IN 演算子の右側の値 (この例では
+"x" と "y" と "z" の値) は、 列の値または CAST 式であっても、 好相性が無いと見なされます。  
 </p>
 
 <h2 id="comparison_example"><span>4.3. </span>比較の例</h2>
@@ -612,52 +587,38 @@ SELECT d &lt; '40', d &lt; '60', d &lt; '600' FROM t1;
 </pre>
 </blockquote>
 
-<p>All of the results in the example are the same if the comparisons are
-commuted - if expressions of the form "a&lt;40" are rewritten as "40&gt;a".
+<p>比較が交換された場合、 上記では "a&lt;40" という形式の式を "40&gt;a" に書き換えた場合、 例のすべての結果は同じです。
 
 </p><h1 id="operators"><span>5. </span>演算子</h1>
 
-<p>Mathematical operators (+, -, *, /, %, &lt;&lt;, &gt;&gt;, &amp;, and |)
-interpret both operands as if they were numbers.  STRING or BLOB operands
-automatically convert into REAL or INTEGER values.  If the STRING or BLOB
-looks like a real number (if it has a decimal point or an exponent) or if
-the value is outside the range that can be represented as a 64-bit signed
-integer, then it converts to REAL.  Otherwise the operand converts to
-INTEGER.  The implied type conversion of mathematical operands is slightly
-different from <a href="lang_expr.html#castexpr">CAST to NUMERIC</a> in that
-string and BLOB values that look like real numbers but have no fractional
-part are kept as REAL instead of being converted into INTEGER as they would
-be for <a href="lang_expr.html#castexpr">CAST to NUMERIC</a>.  The
-conversion from STRING or BLOB into REAL or INTEGER is performed even if it
-is lossy and irreversible.  Some mathematical operators (%, &lt;&lt;,
-&gt;&gt;, &amp;, and |) expect INTEGER operands.  For those operators, REAL
-operands are converted into INTEGER in the same way as a <a
-href="lang_expr.html#castexpr">CAST to INTEGER</a>.  The &lt;&lt;, &gt;&gt;,
-&amp;, and | operators always return an INTEGER (or NULL)  result, but the %
-operator returns either INTEGER or REAL (or NULL)  depending on the type of
-its operands.  A NULL operand on a mathematical operator yields a NULL
-result.  An operand on a mathematical operator that does not look in any way
-numeric and is not NULL is converted to 0 or 0.0.  Division by zero gives a
-result of NULL.
+<p>算術演算子 (+, -, *, /, %, &lt;&lt;, &gt;&gt;, &amp;, | )は、
+両側のオペランドを数値であるかのように解釈します。 STRING または BLOB オペランドは、 自動的に REAL 値または INTEGER
+値に変換されます。 STRING または BLOB が実数のように見える場合(小数点または指数がある場合)、 または値が 64
+ビット符号付き整数として表現できる範囲外の場合、 REAL に変換されます。 それ以外の場合、 オペランドは INTEGER に変換されます。
+算出オペランドの暗黙の型変換は、 <a href=\"lang_expr.html#castexpr\">NUMERIC への
+CAST</a>の文字列とわずかに異なり、 実数のように見えるが小数部を持たない BLOB 値は、 <a
+href=\"lang_expr.html#castexpr\">NUMERIC への CAST</a>の場合のように INTEGER
+に変換されるのではなく、 REAL として保持されます。 STRING または BLOB から、 REAL または INTEGER への変換は、
+損失が多く元に戻せない場合でも実行されます。 一部の算術演算子(%, &lt;&lt;, &gt;&gt;, &amp;, | )は、INTEGER
+オペランドを想定しています。 これらの算術演算子(%, &lt;&lt;, &gt;&gt;, &amp;, | )の場合、 REAL オペランドは、
+<a href="lang_expr.html#castexpr">INTEGER への CAST</a> と同じ方法で INTEGER
+に変換されます。 &lt;&lt; と &gt;&gt; と &amp; と |  演算子は常に INTEGER (または NULL)
+の結果を返しますが、 % 演算子はオペランドの型に応じて INTEGER または REAL (または NULL) を返します。 算術演算子の NULL
+オペランドは、NULL の結果をもたらします。 数値に見えず、 かつ、 NULL でない算術演算子のオペランドは、 0 または 0.0 に変換されます。
+ゼロ除算(ゼロ割り)の結果は NULL になります。
 </p>
 
 <h1 id="sorting_grouping_and_compound_selects"><span>6. </span>並べ替え(sorting)と集計(grouping)と複合(compound)SELECT</h1>
 
-<p>When query results are sorted by an ORDER BY clause, values with storage
-class NULL come first, followed by INTEGER and REAL values interspersed in
-numeric order, followed by TEXT values in collating sequence order, and
-finally BLOB values in memcmp() order.  No storage class conversions occur
-before the sort.</p>
+<p>クエリ結果が ORDER BY 句で並べ替えられると、 格納クラスが NULL の値が最初に来て、 その後に INTEGER 値と REAL
+値が数値順に散在し、 その後に TEXT 値が照合シーケンス順序で続き、 最後に BLOB 値が memcmp() 順で続きます。
+並べ替えの前に格納クラスの変換は行われません。</p>
 
-<p>When grouping values with the GROUP BY clause values with different storage
-classes are considered distinct, except for INTEGER and REAL values which
-are considered equal if they are numerically equal. No affinities are
-applied to any values as the result of a GROUP by clause.</p>
+<p>GROUP BY 句を使用して値をグループ化すると、 数値的に等しい場合に等しいと見なされる INTEGER 値と REAL 値を除いて、
+異なる格納クラスの値は別個(distinct)と見なされます。 GROUP BY 句の結果として、 好相性はどの値にも適用されません。</p>
 
-<p>The compound SELECT operators UNION, INTERSECT and EXCEPT perform implicit
-comparisons between values.  No affinity is applied to comparison operands
-for the implicit comparisons associated with UNION, INTERSECT, or EXCEPT -
-the values are compared as is.</p>
+<p>複合 SELECT 演算子の UNION と INTERSECT と EXCEPT は、値間の暗黙的な比較を実行します。  UNION または
+INTERSECT または EXCEPT に関連付けられた暗黙的な比較では、 比較オペランドに好相性は適用されません。 値はそのまま比較されます。</p>
 
 <a name="collation"></a>
 
@@ -668,104 +629,80 @@ function (同じことを表す 2 つの用語) を使用して、 どちらの�
 SQLite には、 BINARY と NOCASE と RTRIM の 3 つの組み込み照合関数(collating functions)があります。</p>
 
 <ul>
-<li><b>BINARY</b> - Compares string data using memcmp(), regardless of text
-encoding.</li>
-<li><b>NOCASE</b> - Similar to binary, except that it uses <a
-href="c3ref/stricmp.html">sqlite3_strnicmp()</a> for the comparison.  Hence
-the 26 upper case characters of ASCII are folded to their lower case
-equivalents before the comparison is performed.  Note that only ASCII
-characters are case folded.  SQLite does not attempt to do full UTF case
-folding due to the size of the tables required.  Also note that any U+0000
-characters in the string are considered string terminators for comparison
-purposes.
+<li><b>BINARY</b> - テキストのエンコーディングに関係なく、 memcmp() を使用して文字列データを比較します。</li>
+<li><b>NOCASE</b> - BINARY に似ていますが、 比較に <a
+href="c3ref/stricmp.html">sqlite3_strnicmp()</a> を使用する点が異なります。 したがって、 ASCII
+の 26 個の大文字は、 比較が実行される前に対応する小文字に変換されます。 注意: case folding されるのは ASCII
+文字のみであることに注意してください。 必要なテーブルのサイズが原因で、 SQLite は完全な UTF の case folding を試みません。
+注意: また、 文字列内の U+0000 文字は、 比較のための文字列ターミネータと見なされることに注意してください。
 
 </li><li><b>RTRIM</b> - 末尾のスペース文字が無視されることを除いて、 BINARYと同一です。 (訳注: Right TRIM → RTRIM)</li>
 </ul>
 
-<p>An application can register additional collating functions using the <a
-href="c3ref/create_collation.html">sqlite3_create_collation()</a> interface.</p>
+<p>アプリケーションは、 <a
+href="c3ref/create_collation.html">sqlite3_create_collation()</a>
+インターフェイスを使用して追加の照合(collate)関数を登録できます。</p>
 
-<p>Collating functions only matter when comparing string values.  Numeric
-values are always compared numerically, and BLOBs are always compared
-byte-by-byte using memcmp().</p>
+<p>照合(collate)関数は、 文字列値を比較する場合にのみ重要です。 数値は常に数値的に比較され、 BLOB は常に memcmp()
+を使用してバイトごとに比較されます。</p>
 
 <h2 id="assigning_collating_sequences_from_sql"><span>7.1. </span>SQL から照合シーケンスを割り当てる</h2>
 
 <p>
-Every column of every table has an associated collating function.  If no
-collating function is explicitly defined, then the collating function
-defaults to BINARY.  The COLLATE clause of the <a
-href="lang_createtable.html#tablecoldef">column definition</a> is used to
-define alternative collating functions for a column.
+すべてのテーブルのすべての列には、 関連付けられた照合(collate)関数があります。  照合関数が明示的に定義されていない場合、
+照合関数はデフォルトで BINARY になります。 <a
+href="lang_createtable.html#tablecoldef">列定義</a>の COLLATE 句は、
+列の代替照合関数を定義するために使用されます。
 </p>
 
 <a name="colrules"></a>
 
 
 <p>
-The rules for determining which collating function to use for a binary
-comparison operator (=, &lt;, &gt;, &lt;=, &gt;=, !=, IS, and IS NOT) are as
-follows:
+２値較演算子(= と &lt; と &gt; と &lt;= と &gt;= と != と IS と IS
+NOT)に使用する照合関数を決定するための規則は以下のとおりです:
 
 <ol>
-<li>If either operand has an explicit collating function assignment using the
-postfix <a href="lang_expr.html#collateop">COLLATE operator</a>, then the
-explicit collating function is used for comparison, with precedence to the
-collating function of the left operand.</li>
+<li>いずれかのオペランドに、 後置 <a href="lang_expr.html#collateop">COLLATE 演算子</a>
+を使用した明示的な照合関数の割り当てがある場合、 明示的な照合関数が比較に使用され、 左側のオペランドの照合関数が優先されます。</li>
 
-<li>If either operand is a column, then the collating function of that column is
-used with precedence to the left operand.  For the purposes of the previous
-sentence, a column name preceded by one or more unary "+" operators and/or
-CAST operators is still considered a column name.
+<li>いずれかのオペランドが列の場合、 その列の照合関数が左側のオペランドに優先して使用されます。 1 つ以上の単項 "+" 演算子や CAST
+演算子が前に付いている列名も、 列名と見なされます。
 </li>
 
-<li>Otherwise, the BINARY collating function is used for comparison.
+<li>それ以外の場合は、 BINARY 照合関数が比較に使用されます。
 </li>
 </ol>
 
 <p>
-An operand of a comparison is considered to have an explicit collating
-function assignment (rule 1 above)  if any subexpression of the operand uses
-the postfix <a href="lang_expr.html#collateop">COLLATE operator</a>.  Thus,
-if a <a href="lang_expr.html#collateop">COLLATE operator</a> is used
-anywhere in a comparison expression, the collating function defined by that
-operator is used for string comparison regardless of what table columns
-might be a part of that expression.  If two or more <a
-href="lang_expr.html#collateop">COLLATE operator</a> subexpressions appear
-anywhere in a comparison, the left most explicit collating function is used
-regardless of how deeply the COLLATE operators are nested in the expression
-and regardless of how the expression is parenthesized.
+比較のオペランドは、 オペランドの部分式が後置 <a href="lang_expr.html#collateop">COLLATE 演算子</a>
+を使用する場合、 明示的な照合関数の割り当て(上記の規則 1)を持っていると見なされます。 したがって、 <a
+href="lang_expr.html#collateop">COLLATE 演算子</a> が比較式の任意の場所で使用されている場合、
+その照合演算子によって定義された照合関数が、 その式の一部であるテーブルの列のに関係なく、 文字列の比較に使用されます。 2 つ以上の <a
+href="lang_expr.html#collateop">COLLATE 演算子</a> の部分式が比較のどこかにある場合、 COLLATE
+演算子が式内でどれだけ深くネストされているかに関係なく、 また式がどのように括弧で囲まれているかに関係なく、
+最も左側にある明示的な照合関数が使用されます。
 </p>
 
 <p>
-The expression "x BETWEEN y and z" is logically equivalent to two
-comparisons "x &gt;= y AND x &lt;= z" and works with respect to collating
-functions as if it were two separate comparisons.  The expression "x IN
-(SELECT y ...)" is handled in the same way as the expression "x = y" for the
-purposes of determining the collating sequence.  The collating sequence used
-for expressions of the form "x IN (y, z, ...)" is the collating sequence of
-x.  If an explicit collating sequence is required on an IN operator it
-should be applied to the left operand, like this: "x COLLATE nocase IN (y,z,
-...)".
+式 "x BETWEEN y and z" は、 2 つの比較 "x &gt;= y AND x &lt;= z" と論理的に同等であり、
+照合関数に関しては、 2 つの別個の比較であるかのように機能します。 式 "x IN (SELECT y ...)" は、照合順序を決定する目的では、
+式 "x = y" と同じ方法で処理されます。 "x IN (y, z, ...)" という形式の式に使用される照合順序は、x の照合順序です。 IN
+演算子で明示的な照合シーケンスが必要な場合は、 "x COLLATE nocase IN (y,z, ...)"
+のように、左側のオペランドに適用する必要があります。
 </p>  
 
 <p>
-Terms of the ORDER BY clause that is part of a <a
-href="lang_select.html">SELECT</a> statement may be assigned a collating
-sequence using the <a href="lang_expr.html#collateop">COLLATE operator</a>,
-in which case the specified collating function is used for sorting.
-Otherwise, if the expression sorted by an ORDER BY clause is a column, then
-the collating sequence of the column is used to determine sort order. If the
-expression is not a column and has no COLLATE clause, then the BINARY
-collating sequence is used.
+<a href="lang_select.html">SELECT</a> ステートメントの一部である ORDER BY 句には、 <a
+href="lang_expr.html#collateop">COLLATE 演算子</a>を使用して照合順序を割り当てることができます。
+この場合、指定された照合関数が並べ替えに使用されます。 それ以外の場合、 ORDER BY 句によって並べ替えられた式が列である場合は、
+列の照合順序を使用して並べ替え順序が決定されます。 式が列ではなく、 COLLATE 句がない場合は、 BINARY 照合シーケンスが使用されます。
 </p>  
 
 <h2 id="collation_sequence_examples"><span>7.2. </span>照合シーケンス(Collation Sequence)の例</h2>
 <p>
-The examples below identify the collating sequences that would be used to
-determine the results of text comparisons that may be performed by various
-SQL statements. Note that a text comparison may not be required, and no
-collating sequence used, in the case of numeric, blob or NULL values.
+以下の例は、さまざまな SQL ステートメントによって実行される可能性のあるテキスト比較の結果を判別するために使用される照合順序を示しています。
+数値(numeric)または BLOB 値または NULL 値の場合、 テキスト比較は必要なく、 照合順序も使用されないことに注意してください。
 </p>
 <blockquote>
 <pre>
