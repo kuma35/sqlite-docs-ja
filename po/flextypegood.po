@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-15 22:17+0900\n"
-"PO-Revision-Date: 2023-03-19 03:05+0900\n"
+"PO-Revision-Date: 2023-03-19 03:31+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -327,7 +327,7 @@ msgid ""
 "datatype name in the column definition, but that preferred datatype is "
 "advisory, not mandatory.  The preferred datatype is call the \"column "
 "affinity\"."
-msgstr "データ型名(datatype names)を指定する場合、 それらは、 ほぼ任意のテキストにすることができます。 SQLite は、 列定義のデータ型名に基づいて列の優先データ型を推測しようとしますが、 その優先データ型は推奨であり、 必須ではありません。  推奨されるデータ型は、 \"column affinity\"(カラム・アフィニティ;列親和性)と呼ばれます。"
+msgstr "データ型名(datatype names)を指定する場合、 それらは、 ほぼ任意のテキストにすることができます。 SQLite は、 列定義のデータ型名に基づいて列の優先データ型を推測しようとしますが、 その優先データ型は推奨であり、 必須ではありません。  推奨されるデータ型は、 \"column affinity\"(列好相性)と呼ばれます。"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/flextypegood.html:188
