@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-16 09:59+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-21 10:21+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,115 +18,115 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: sedout/datatype3.html:6 sedout/datatype3.html:121
 msgid "Datatypes In SQLite"
-msgstr ""
+msgstr "Datatypes In SQLite"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/datatype3.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/datatype3.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/datatype3.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/datatype3.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/datatype3.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/datatype3.html:21
 msgid ""
 "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/datatype3.html:22 sedout/datatype3.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/datatype3.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/datatype3.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/datatype3.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/datatype3.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/datatype3.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/datatype3.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/datatype3.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/datatype3.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/datatype3.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/datatype3.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/datatype3.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/datatype3.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/datatype3.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/datatype3.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/datatype3.html:53
@@ -158,131 +157,131 @@ msgid ""
 "antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
 "{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
 "antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><div><div><div>
 #: sedout/datatype3.html:124
 msgid ""
 "<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
 "id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
-msgstr ""
+msgstr "<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:128
 msgid "<a href=\"#datatypes_in_sqlite\">1. Datatypes In SQLite</a>"
-msgstr ""
+msgstr "<a href=\"#datatypes_in_sqlite\">1. Datatypes In SQLite</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:129
 msgid ""
 "<a href=\"#storage_classes_and_datatypes\">2. Storage Classes and Datatypes</"
 "a>"
-msgstr ""
+msgstr "<a href=\"#storage_classes_and_datatypes\">2. 格納クラス(Storage Classes)とデータ型</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:130
 msgid "<a href=\"#boolean_datatype\">2.1. Boolean Datatype</a>"
-msgstr ""
+msgstr "<a href=\"#boolean_datatype\">2.1. Boolean Datatype</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:131
 msgid "<a href=\"#date_and_time_datatype\">2.2. Date and Time Datatype</a>"
-msgstr ""
+msgstr "<a href=\"#date_and_time_datatype\">2.2. Date and Time Datatype</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:132
 msgid "<a href=\"#type_affinity\">3. Type Affinity</a>"
-msgstr ""
+msgstr "<a href=\"#type_affinity\">3. 型好相性(Affinity)</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:133
 msgid ""
 "<a href=\"#determination_of_column_affinity\">3.1. Determination Of Column "
 "Affinity</a>"
-msgstr ""
+msgstr "<a href=\"#determination_of_column_affinity\">3.1. 列好相性(Column Affinity)の決定</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:134
 msgid "<a href=\"#affinity_name_examples\">3.1.1. Affinity Name Examples</a>"
-msgstr ""
+msgstr "<a href=\"#affinity_name_examples\">3.1.1. 好相性名の例</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:135
 msgid "<a href=\"#affinity_of_expressions\">3.2. Affinity Of Expressions</a>"
-msgstr ""
+msgstr "<a href=\"#affinity_of_expressions\">3.2. 式の好相性</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:136
 msgid ""
 "<a href=\"#column_affinity_for_views_and_subqueries\">3.3. Column Affinity "
 "For Views And Subqueries</a>"
-msgstr ""
+msgstr "<a href=\"#column_affinity_for_views_and_subqueries\">3.3. View とサブクエリの 列好相性</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:137
 msgid ""
 "<a href=\"#column_affinity_for_compound_views\">3.3.1. Column Affinity For "
 "Compound Views</a>"
-msgstr ""
+msgstr "<a href=\"#column_affinity_for_compound_views\">3.3.1. 複合Viewの列好相性</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:138
 msgid ""
 "<a href=\"#column_affinity_behavior_example\">3.4. Column Affinity Behavior "
 "Example</a>"
-msgstr ""
+msgstr "<a href=\"#column_affinity_behavior_example\">3.4. 列好相性の振る舞いの例</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:139
 msgid "<a href=\"#comparison_expressions\">4. Comparison Expressions</a>"
-msgstr ""
+msgstr "<a href=\"#comparison_expressions\">4. 比較式</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:140
 msgid "<a href=\"#sort_order\">4.1. Sort Order</a>"
-msgstr ""
+msgstr "<a href=\"#sort_order\">4.1. 並べ替え順</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:141
 msgid ""
 "<a href=\"#type_conversions_prior_to_comparison\">4.2. Type Conversions "
 "Prior To Comparison</a>"
-msgstr ""
+msgstr "<a href=\"#type_conversions_prior_to_comparison\">4.2. 比較前の型変換</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:142
 msgid "<a href=\"#comparison_example\">4.3. Comparison Example</a>"
-msgstr ""
+msgstr "<a href=\"#comparison_example\">4.3. 比較の例</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:143
 msgid "<a href=\"#operators\">5. Operators</a>"
-msgstr ""
+msgstr "<a href=\"#operators\">5. 演算子</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:144
 msgid ""
 "<a href=\"#sorting_grouping_and_compound_selects\">6. Sorting, Grouping and "
 "Compound SELECTs</a>"
-msgstr ""
+msgstr "<a href=\"#sorting_grouping_and_compound_selects\">6. 並べ替え(sorting)と集計(grouping)と複合(compound)SELECT</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:145
 msgid "<a href=\"#collating_sequences\">7. Collating Sequences</a>"
-msgstr ""
+msgstr "<a href=\"#collating_sequences\">7. 照合シーケンス(Collating Sequences)</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:146
 msgid ""
 "<a href=\"#assigning_collating_sequences_from_sql\">7.1. Assigning Collating "
 "Sequences from SQL</a>"
-msgstr ""
+msgstr "<a href=\"#assigning_collating_sequences_from_sql\">7.1. SQL から照合シーケンスを割り当てる</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/datatype3.html:147
 msgid ""
 "<a href=\"#collation_sequence_examples\">7.2. Collation Sequence Examples</a>"
-msgstr ""
+msgstr "<a href=\"#collation_sequence_examples\">7.2. 照合シーケンス(Collation Sequence)の例</a>"
 
 #. type: Content of: <html><body><div><div><script>
 #: sedout/datatype3.html:151
@@ -291,12 +290,12 @@ msgid ""
 "mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" )"
 "{ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub."
 "style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
-msgstr ""
+msgstr "function toggle_toc(){ var sub = document.getElementById(\"toc_sub\")  var mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" ){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/datatype3.html:169
 msgid "<span>1. </span>Datatypes In SQLite"
-msgstr ""
+msgstr "<span>1. </span>Datatypes In SQLite"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:170
@@ -305,7 +304,7 @@ msgid ""
 "far as we know) uses static, rigid typing.  With static typing, the datatype "
 "of a value is determined by its container - the particular column in which "
 "the value is stored."
-msgstr ""
+msgstr "ほとんどの SQL データベース・エンジン (私たちが知る限り、SQLite 以外のすべての SQL データベース・エンジン) は、 静的で厳格な型付けを使用します。 静的型付けでは、 値のデータ型はコンテナ(値が格納される特定の列)によって決定されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:175
@@ -319,7 +318,7 @@ msgid ""
 "are not possible in traditional rigidly typed databases.  <a "
 "href=\"flextypegood.html\">Flexible typing is a feature</a> of SQLite, not a "
 "bug."
-msgstr ""
+msgstr "SQLite は、 より一般的な動的型システムを使用します。 SQLite では、 値のデータ型はコンテナではなく、 値自体に関連付けられます。 SQLite の動的型システムは、 静的に型指定されたデータベースで機能する SQL ステートメントが SQLite でも同じように機能するという意味で、 他のデータベース・エンジンの、 より一般的な静的型システムと下位互換性があります。 ただし、SQLite の動的型付けにより、 従来の厳格に型付けされたデータベースでは不可能なことを行うことができます。 <a href=\"flextypegood.html\">柔軟な型付けは SQLite の機能</a>であり、 バグではありません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:184
@@ -328,51 +327,51 @@ msgid ""
 "href=\"stricttables.html\">STRICT tables</a> that do rigid type enforcement, "
 "for developers who prefer that kind of thing.  <a name=\"storageclasses\"></"
 "a>"
-msgstr ""
+msgstr "Update: バージョン 3.37.0 (2021-11-27) の時点で、 SQLite は厳格な型の強制を行う <a href=\"stricttables.html\">STRICT テーブル</a> を提供します。 そのようなことを好む開発者向けです。 <a name=\"storageclasses\"></a>"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/datatype3.html:190
 msgid "<span>2. </span>Storage Classes and Datatypes"
-msgstr ""
+msgstr "<span>2. </span>格納クラス(Storage Classes)とデータ型"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:192
 msgid ""
 "Each value stored in an SQLite database (or manipulated by the database "
 "engine) has one of the following storage classes:"
-msgstr ""
+msgstr "SQLite データベースに格納された(またはデータベース・エンジンによって操作された)各値には、 以下の格納クラス(storage classes)のいずれかがあります:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:195
 msgid "<b>NULL</b>.  The value is a NULL value."
-msgstr ""
+msgstr "<b>NULL</b>: 値は NULL 値です。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:198
 msgid ""
 "<b>INTEGER</b>. The value is a signed integer, stored in 0, 1, 2, 3, 4, 6, "
 "or 8 bytes depending on the magnitude of the value."
-msgstr ""
+msgstr "<b>INTEGER</b>: 値は符号付き整数で、 値の大きさ(magnitude )に応じて 0、1、2、3、4、6、8 バイトのいずれかのサイズで格納されます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:201
 msgid ""
 "<b>REAL</b>. The value is a floating point value, stored as an 8-byte IEEE "
 "floating point number."
-msgstr ""
+msgstr "<b>REAL</b>: 値は浮動小数点値で、 8 バイトの IEEE 浮動小数点数として格納されます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:204
 msgid ""
 "<b>TEXT</b>. The value is a text string, stored using the database encoding "
 "(UTF-8, UTF-16BE or UTF-16LE)."
-msgstr ""
+msgstr "<b>TEXT</b>: 値はテキスト文字列(string)で、 データベースのエンコーディング (UTF-8 または UTF-16BE または UTF-16LE) を使用して保存されます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:207
 msgid ""
 "<b>BLOB</b>. The value is a blob of data, stored exactly as it was input."
-msgstr ""
+msgstr "<b>BLOB</b>: 値はデータの塊(blob)であり、 入力されたとおりに保存されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:211
@@ -384,7 +383,7 @@ msgid ""
 "processing, they are converted to the most general datatype (8-byte signed "
 "integer).  And so for the most part, \"storage class\" is indistinguishable "
 "from \"datatype\" and the two terms can be used interchangeably."
-msgstr ""
+msgstr "格納クラス(storage class)は、 データ型よりも一般的です。  たとえば、 INTEGER 格納クラスには、 異なる長さの 7 つの異なる整数データ型が含まれています。 <a href=\"fileformat2.html#record_format\">これにより、 ディスク上で違いが生じます</a>。 しかし、 その INTEGER 値がディスクから読み取られ、 処理のためにメモリに読み込まれるとすぐに、最も一般的なデータ型(8バイトの符号付き整数)に変換されます。 そのため、 ほとんどの場合、「格納クラス」(storage class)は「データ型」と区別がつかず、 ２つの用語は同じ意味で使用できます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:221
@@ -392,7 +391,7 @@ msgid ""
 "Any column in an SQLite version 3 database, except an <a "
 "href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> column, may be "
 "used to store a value of any storage class."
-msgstr ""
+msgstr "<a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a>  列を除く SQLite バージョン 3 データベースの任意の列を使用して、 任意の格納クラス(storage class)の値を格納できます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:225
@@ -403,24 +402,24 @@ msgid ""
 "implicit storage class.  Under circumstances described below, the database "
 "engine may convert values between numeric storage classes (INTEGER and REAL) "
 "and TEXT during query execution."
-msgstr ""
+msgstr "SQL ステートメント・テキストに埋め込まれたリテラルであるか、 <a href=\"c3ref/stmt.html\">プリ・コンパイルされた SQL ステートメント</a>に結び付けされた(boun) <a href=\"lang_expr.html#varparam\">パラメーター</a>であるかに関係なく、 SQL ステートメント内のすべての値には、 暗黙的な格納クラス(implicit storage class)があります。 以下に説明する状況では、 データベース・エンジンは、 クエリの実行中に数値格納クラス (INTEGER や REAL) と TEXT の間で値を変換する場合があります。"
 
 #. type: Content of: <html><body><div>
 #: sedout/datatype3.html:234
 msgid "<a name=\"boolean\"></a>"
-msgstr ""
+msgstr "<a name=\"boolean\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/datatype3.html:236
 msgid "<span>2.1. </span>Boolean Datatype"
-msgstr ""
+msgstr "<span>2.1. </span>Boolean Datatype"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:238
 msgid ""
 "SQLite does not have a separate Boolean storage class.  Instead, Boolean "
 "values are stored as integers 0 (false) and 1 (true)."
-msgstr ""
+msgstr "SQLite には、 個別の Boolean 格納クラスはありません。 代わりに、 ブール値は整数 0 (false) や 1 (true) として格納されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:241
@@ -428,12 +427,12 @@ msgid ""
 "SQLite recognizes the keywords \"TRUE\" and \"FALSE\", as of version 3.23.0 "
 "(2018-04-02) but those keywords are really just alternative spellings for "
 "the integer literals 1 and 0 respectively.  <a name=\"datetime\"></a>"
-msgstr ""
+msgstr "バージョン 3.23.0 (2018-04-02) の時点で、 SQLite はキーワード \"TRUE\" と \"FALSE\" を認識しますが、 これらのキーワードは実際には整数リテラル 1 と 0 の代替記述(alternative spellings)にすぎません。 <a name=\"datetime\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/datatype3.html:248
 msgid "<span>2.2. </span>Date and Time Datatype"
-msgstr ""
+msgstr "<span>2.2. </span>Date and Time Datatype"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:250
@@ -442,12 +441,12 @@ msgid ""
 "times.  Instead, the built-in <a href=\"lang_datefunc.html\">Date And Time "
 "Functions</a> of SQLite are capable of storing dates and times as TEXT, "
 "REAL, or INTEGER values:"
-msgstr ""
+msgstr "SQLite には、 日付や時刻を格納するための格納クラスが用意されていません。  代わりに、SQLite の組み込みの <a href=\"lang_datefunc.html\">日付と時刻関数</a> は、 日付と時刻を TEXT または REAL または INTEGER 値として格納できます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:256
 msgid "<b>TEXT</b> as ISO8601 strings (\"YYYY-MM-DD HH:MM:SS.SSS\")."
-msgstr ""
+msgstr "<b>TEXT</b> 値では ISO8601 文字列 (\"YYYY-MM-DD HH:MM:SS.SSS\") として格納されます。"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:257
@@ -455,14 +454,14 @@ msgid ""
 "<b>REAL</b> as Julian day numbers, the number of days since noon in "
 "Greenwich on November 24, 4714 B.C. according to the proleptic Gregorian "
 "calendar."
-msgstr ""
+msgstr "<b>REAL</b> はユリウス通日数(Julian day numbers)として、 先発グレゴリオ暦では紀元前 4714 年 11 月 24 日のグリニッジ正午からの日数です。(訳注: wikipedia より; ユリウス通日はユリウス暦紀元前4713年1月1日（先発グレゴリオ暦では紀元前4714年11月24日、 西暦 -4713年11月24日）の正午（世界時）を元期（＝0日目）とし、 日の単位で数える。 ユリウス通日は天文時の伝統に従い、日の起点は正午である。したがって、世界時の正午に日数（の整数部分）が増加する。 単にユリウス日（ユリウスび）ともいう。時刻値を示すために一般には小数が付けられる。 例えば、協定世界時（UTC）での2023年3月20日16:42のユリウス通日の値は、おおむね2460024.2である。 ( https://ja.wikipedia.org/wiki/ユリウス通日 )"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/datatype3.html:260
 msgid ""
 "<b>INTEGER</b> as Unix Time, the number of seconds since 1970-01-01 00:00:00 "
 "UTC."
-msgstr ""
+msgstr "<b>INTEGER</b> 値 は Unix 時間として(Unix Time)、 1970-01-01 00:00:00 UTC からの秒数です。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:264
@@ -470,24 +469,24 @@ msgid ""
 "Applications can choose to store dates and times in any of these formats and "
 "freely convert between formats using the built-in <a href=\"lang_datefunc."
 "html\">date and time functions</a>."
-msgstr ""
+msgstr "アプリケーションは、 これらの形式のいずれかで日付と時刻を保存することを選択し、 組み込みの <a href=\"lang_datefunc.html\">日付と時刻関数</a> を使用して、 これらの形式の間で自由に変換できます。"
 
 #. type: Content of: <html><body><div>
 #: sedout/datatype3.html:269
 msgid "<a name=\"affinity\"></a>"
-msgstr ""
+msgstr "<a name=\"affinity\"></a>"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/datatype3.html:271
 msgid "<span>3. </span>Type Affinity"
-msgstr ""
+msgstr "<span>3. </span>型好相性(Affinity)"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:274
 msgid ""
 "SQL database engines that use rigid typing will usually try to automatically "
 "convert values to the appropriate datatype.  Consider this:"
-msgstr ""
+msgstr "厳密な型指定を使用する SQL データベース・エンジンは、 通常、 値を適切なデータ型に自動的に変換しようとします。 以下について考えてみましょう:"
 
 #. type: Content of: <html><body><div><blockquote><pre>
 #: sedout/datatype3.html:278
@@ -496,13 +495,15 @@ msgid ""
 "CREATE TABLE t1(a INT, b VARCHAR(10));\n"
 "INSERT INTO t1(a,b) VALUES('123',456);\n"
 msgstr ""
+"CREATE TABLE t1(a INT, b VARCHAR(10));\n"
+"INSERT INTO t1(a,b) VALUES('123',456);\n"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:283
 msgid ""
 "Rigidly-typed database will convert the string '123' into an integer 123 and "
 "the integer 456 into a string '456' prior to doing the insert."
-msgstr ""
+msgstr "厳密に型指定されたデータベースは、 挿入を行う前に文字列 '123' を整数 123 に、 整数 456 を文字列 '456' に変換します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:288
@@ -516,44 +517,44 @@ msgid ""
 "is just that some columns, given the choice, will prefer to use one storage "
 "class over another.  The preferred storage class for a column is called its "
 "\"affinity\"."
-msgstr ""
+msgstr "SQLite と他のデータベース・エンジンとの互換性を最大限に高め、 上記の例が他の SQL データベース・エンジンと同様に SQLite でも機能するように、 SQLite は列の「型好相性」(type affinity;その列に一番相性がいい(高い)格納クラス)の概念をサポートしています。 列の型好相性は、 その列に格納されるデータの推奨される型です。 ここで重要な点は、 型は必須ではなく推奨されるということです。 任意の列には、 任意の型のデータを格納できます。 選択肢が与えられた一部の列は、 ある格納クラスを別の格納クラスよりも好んで使用するだけです。  列の優先格納クラスは、「好相性」(affinity;アフィニティ)と呼ばれます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:300
 msgid ""
 "Each column in an SQLite 3 database is assigned one of the following type "
 "affinities:"
-msgstr ""
+msgstr "SQLite 3 データベースの各列には、 以下の型好相性(type affinities)のいずれかが割り当てられます:"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:303 sedout/datatype3.html:436
 #: sedout/datatype3.html:438
 msgid "TEXT"
-msgstr ""
+msgstr "TEXT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:304 sedout/datatype3.html:456
 #: sedout/datatype3.html:461
 msgid "NUMERIC"
-msgstr ""
+msgstr "NUMERIC"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:305 sedout/datatype3.html:418
 #: sedout/datatype3.html:426
 msgid "INTEGER"
-msgstr ""
+msgstr "INTEGER"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:306 sedout/datatype3.html:448
 #: sedout/datatype3.html:452
 msgid "REAL"
-msgstr ""
+msgstr "REAL"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:307 sedout/datatype3.html:442
 #: sedout/datatype3.html:444
 msgid "BLOB"
-msgstr ""
+msgstr "BLOB"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:310
@@ -561,7 +562,7 @@ msgid ""
 "(Historical note: The \"BLOB\" type affinity used to be called \"NONE\".  "
 "But that term was easy to confuse with \"no affinity\" and so it was "
 "renamed.)"
-msgstr ""
+msgstr "(歴史的なメモ:  \"BLOB\" 型の好相性は、 以前は \"NONE\" と呼ばれていました。しかし、この用語は 「好相性無し」と混同しやすいため、 名前が変更されました。)"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:314
@@ -569,7 +570,7 @@ msgid ""
 "A column with TEXT affinity stores all data using storage classes NULL, TEXT "
 "or BLOB. If numerical data is inserted into a column with TEXT affinity it "
 "is converted into text form before being stored."
-msgstr ""
+msgstr "TEXT 好相性を持つ列には、 格納クラス NULL または TEXT または BLOB を使用してすべてのデータが格納されます。 数値データが TEXT 好相性を持つ列に挿入されると、 格納される前にテキスト形式に変換されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:318
@@ -591,7 +592,7 @@ msgid ""
 "integer is inserted into a column with NUMERIC affinity, the value is "
 "converted into an integer.  No attempt is made to convert NULL or BLOB "
 "values."
-msgstr ""
+msgstr "NUMERIC 好相性を持つ列には、 5つの格納クラスすべてを使用する値が含まれる場合があります。 テキスト・データが NUMERIC 列に挿入されると、 テキストが整形式の整数または実数リテラルである場合、 テキストの格納クラスは (優先順に) INTEGER または REAL に変換されます。 TEXT 値が整形式の整数リテラルであり、 大きすぎて 64 ビットの符号付き整数に収まらない場合は、 REAL に変換されます。 TEXT と REAL の格納クラス間の変換では、 数値の最初の 15 桁の有効数字のみが保持されます。 TEXT 値が整形式の整数または実数リテラルでない場合、 値は TEXT として格納されます。 ここでは、16 進数の整数リテラルは整形式とは見なされず、TEXT として格納されます。 (これは、16 進整数リテラルが最初に SQLite に導入された<a href=\"releaselog/3_8_6.html\">バージョン 3.8.6</a>(2014-08-15)より前のバージョンの SQLite との歴史的な互換性のために行われます。)  正確に整数として表現できる浮動小数点値が NUMERIC 好相性を持つ列に挿入されると、 その値は整数に変換されます。 NULL または BLOB 値の変換は試行されません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:338
@@ -601,7 +602,7 @@ msgid ""
 "integer, the NUMERIC affinity will convert it into an integer. Hence, the "
 "string '3.0e+5' is stored in a column with NUMERIC affinity as the integer "
 "300000, not as the floating point value 300000.0."
-msgstr ""
+msgstr "文字列(string)は、 小数点 および/また は指数表記のある浮動小数点リテラルのように見えるかもしれませんが、 値が整数として表現できる限り、 NUMERIC 好相性はそれを整数に変換します。 したがって、 文字列 '3.0e+5' は、 浮動小数点値 300000.0 としてではなく、 整数 300000 として NUMERIC 好相性を持つ列に格納されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:345
@@ -611,7 +612,7 @@ msgid ""
 "only evident in a <a href=\"lang_expr.html#castexpr\">CAST expression</a>: "
 "The expression \"CAST(4.0 AS INT)\" returns an integer 4, whereas \"CAST(4.0 "
 "AS NUMERIC)\" leaves the value as a floating-point 4.0."
-msgstr ""
+msgstr "INTEGER 好相性を使用する列は、 NUMERIC アフィニティを使用する列と同一に振る舞います。 INTEGER と NUMERIC の好相性の違いは、 <a href=\"lang_expr.html#castexpr\">CAST 式</a>でのみ明らかです。 式 \"CAST(4.0 AS INT)\" は整数 4 を返しますが、\"CAST( 4.0 AS NUMERIC)\" は、 値を浮動小数点 4.0 のままにします。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:351
@@ -624,24 +625,24 @@ msgid ""
 "into floating point as the value is read out.  This optimization is "
 "completely invisible at the SQL level and can only be detected by examining "
 "the raw bits of the database file.)"
-msgstr ""
+msgstr "REAL 好相性を持つ列は、 整数値を強制的に浮動小数点表現にする点を除いて、 NUMERIC 好相性を持つ列のように振る舞います。 (内部の最適化として、 小数部分を持たず、 REAL 好相性を持つ列に格納された小さな浮動小数点値は、 使用するスペースを少なくするために整数としてディスクに書き込まれ、 値が読み取られると自動的に浮動小数点に変換されます。 最適化は SQL レベルでは全く見えず、 データベース・ファイルの生のビットを調べることによってのみ検出できます。)"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:361
 msgid ""
 "A column with affinity BLOB does not prefer one storage class over another "
 "and no attempt is made to coerce data from one storage class into another."
-msgstr ""
+msgstr "BLOB 好相性を持つ列は、 ある格納クラスを別の格納クラスより優先することはなく、 かつ、 ある格納クラスから別の格納クラスにデータを強制する試みは行われません。"
 
 #. type: Content of: <html><body><div>
 #: sedout/datatype3.html:365
 msgid "<a name=\"affname\"></a>"
-msgstr ""
+msgstr "<a name=\"affname\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/datatype3.html:367
 msgid "<span>3.1. </span>Determination Of Column Affinity"
-msgstr ""
+msgstr "<span>3.1. </span>列好相性(Column Affinity)の決定"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:369
@@ -649,14 +650,14 @@ msgid ""
 "For tables not declared as <a href=\"stricttables.html\">STRICT</a>, the "
 "affinity of a column is determined by the declared type of the column, "
 "according to the following rules in the order shown:"
-msgstr ""
+msgstr "<a href=\"stricttables.html\">STRICT</a> として宣言されていないテーブルの場合、列の好相性(こうあいしょう;affinity)は、 以下の規則に従って、 列の宣言された型によって決定されます。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: sedout/datatype3.html:374
 msgid ""
 "If the declared type contains the string \"INT\" then it is assigned INTEGER "
 "affinity."
-msgstr ""
+msgstr "宣言された型に文字列 \"INT\" が含まれている場合、 INTEGER 好相性(affinity)が割り当てられます。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: sedout/datatype3.html:377
@@ -664,26 +665,26 @@ msgid ""
 "If the declared type of the column contains any of the strings \"CHAR\", "
 "\"CLOB\", or \"TEXT\" then that column has TEXT affinity.  Notice that the "
 "type VARCHAR contains the string \"CHAR\" and is thus assigned TEXT affinity."
-msgstr ""
+msgstr "列の宣言された型に文字列 \"CHAR\" または  \"CLOB\" または  \"TEXT\" が含まれている場合、 その列には TEXT 好相性があります。 VARCHAR 型には文字列 \"CHAR\" が含まれているため、 TEXT 好相性が割り当てられていることに注意してください(訳注: CLOB;キャラクター・ラージ・オブジェクト。 OracleやIBM DB2とかにある型)。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: sedout/datatype3.html:382
 msgid ""
 "If the declared type for a column contains the string \"BLOB\" or if no type "
 "is specified then the column has affinity BLOB."
-msgstr ""
+msgstr "列の宣言された型に文字列 \"BLOB\" が含まれている場合、 または型が指定されていない場合、 列には BLOB 好相性があります。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: sedout/datatype3.html:386
 msgid ""
 "If the declared type for a column contains any of the strings \"REAL\", "
 "\"FLOA\", or \"DOUB\" then the column has REAL affinity."
-msgstr ""
+msgstr "列の宣言された型に文字列 \"REAL\" または \"FLOA\" または \"DOUB\" のいずれかが含まれている場合、 その列には REAL 好相性 があります。"
 
 #. type: Content of: <html><body><div><ol><li>
 #: sedout/datatype3.html:390
 msgid "Otherwise, the affinity is NUMERIC."
-msgstr ""
+msgstr "それ以外の場合は、 NUMERIC 好相性です。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:393
@@ -692,12 +693,12 @@ msgid ""
 "important.  A column whose declared type is \"CHARINT\" will match both "
 "rules 1 and 2 but the first rule takes precedence and so the column affinity "
 "will be INTEGER."
-msgstr ""
+msgstr "列の好相性を決定するルールの順序は重要であるということに注意してください。 宣言された型が \"CHARINT\" である列は、ルール 1 と 2 の両方にマッチングしますが、 最初のルールの方が優先されるため、 列の好相性は INTEGER になります。"
 
 #. type: Content of: <html><body><div><h3>
 #: sedout/datatype3.html:398
 msgid "<span>3.1.1. </span>Affinity Name Examples"
-msgstr ""
+msgstr "<span>3.1.1. </span>好相性名の例"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:400
@@ -710,172 +711,172 @@ msgid ""
 "by SQLite - SQLite does not impose any length restrictions (other than the "
 "large global <a href=\"limits.html#max_length\">SQLITE_MAX_LENGTH</a> limit) "
 "on the length of strings, BLOBs or numeric values."
-msgstr ""
+msgstr "以下の表は、 より伝統的なSQLの実装でよく使われるデータ型名が、 上記の5つの規則によってどれだけ好相性に変換されるかを示したものです。 注意: 型名に続く括弧内の数値引数 (例: \"VARCHAR(255)\") は SQLite によって無視されることに注意してください - SQLite は、 (グローバルの <a href=\"limits.html#max_length\">SQLITE_MAX_LENGTH</a> 制限を除き、)文字列の長さ、BLOBの長さ、数値の長さに長さ制限を課しません。"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><th>
 #: sedout/datatype3.html:411
 msgid "Example Typenames From The"
-msgstr ""
+msgstr "CREATE TABLE"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><th><br>
 #: sedout/datatype3.html:411
 msgid "CREATE TABLE Statement"
-msgstr ""
+msgstr "ステートメントまたは"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><th><br><br>
 #: sedout/datatype3.html:412
 msgid "or CAST Expression"
-msgstr ""
+msgstr "CAST 式からの型名の例"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><th>
 #: sedout/datatype3.html:413
 msgid "Resulting Affinity"
-msgstr ""
+msgstr "結果の好相性"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><th>
 #: sedout/datatype3.html:414
 msgid "Rule Used To Determine Affinity"
-msgstr ""
+msgstr "好相性の決定に使われた規則番号"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:417
 msgid "INT"
-msgstr ""
+msgstr "INT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br>
 #: sedout/datatype3.html:419
 msgid "TINYINT"
-msgstr ""
+msgstr "TINYINT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br>
 #: sedout/datatype3.html:420
 msgid "SMALLINT"
-msgstr ""
+msgstr "SMALLINT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br>
 #: sedout/datatype3.html:421
 msgid "MEDIUMINT"
-msgstr ""
+msgstr "MEDIUMINT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br><br>
 #: sedout/datatype3.html:422
 msgid "BIGINT"
-msgstr ""
+msgstr "BIGINT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br><br><br>
 #: sedout/datatype3.html:423
 msgid "UNSIGNED BIG INT"
-msgstr ""
+msgstr "UNSIGNED BIG INT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br><br><br><br>
 #: sedout/datatype3.html:424
 msgid "INT2"
-msgstr ""
+msgstr "INT2"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br><br><br><br><br>
 #: sedout/datatype3.html:425
 msgid "INT8"
-msgstr ""
+msgstr "INT8"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:427
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:430
 msgid "CHARACTER(20)"
-msgstr ""
+msgstr "CHARACTER(20)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br>
 #: sedout/datatype3.html:431
 msgid "VARCHAR(255)"
-msgstr ""
+msgstr "VARCHAR(255)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br>
 #: sedout/datatype3.html:432
 msgid "VARYING CHARACTER(255)"
-msgstr ""
+msgstr "VARYING CHARACTER(255)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br>
 #: sedout/datatype3.html:433
 msgid "NCHAR(55)"
-msgstr ""
+msgstr "NCHAR(55)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br>
 #: sedout/datatype3.html:434
 msgid "NATIVE CHARACTER(70)"
-msgstr ""
+msgstr "NATIVE CHARACTER(70)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br><br>
 #: sedout/datatype3.html:435
 msgid "NVARCHAR(100)"
-msgstr ""
+msgstr "NVARCHAR(100)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br><br><br><br>
 #: sedout/datatype3.html:437
 msgid "CLOB"
-msgstr ""
+msgstr "CLOB"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:439
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br>
 #: sedout/datatype3.html:443
 msgid "<i>no datatype specified</i>"
-msgstr ""
+msgstr "<i>データ型指定無し</i>"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:445
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br>
 #: sedout/datatype3.html:449
 msgid "DOUBLE"
-msgstr ""
+msgstr "DOUBLE"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br>
 #: sedout/datatype3.html:450
 msgid "DOUBLE PRECISION"
-msgstr ""
+msgstr "DOUBLE PRECISION"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br>
 #: sedout/datatype3.html:451
 msgid "FLOAT"
-msgstr ""
+msgstr "FLOAT"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:453
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br>
 #: sedout/datatype3.html:457
 msgid "DECIMAL(10,5)"
-msgstr ""
+msgstr "DECIMAL(10,5)"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br>
 #: sedout/datatype3.html:458
 msgid "BOOLEAN"
-msgstr ""
+msgstr "BOOLEAN"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br>
 #: sedout/datatype3.html:459
 msgid "DATE"
-msgstr ""
+msgstr "DATE"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td><br><br><br><br>
 #: sedout/datatype3.html:460
 msgid "DATETIME"
-msgstr ""
+msgstr "DATETIME"
 
 #. type: Content of: <html><body><div><blockquote><table><tr><td>
 #: sedout/datatype3.html:462
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:466
@@ -884,24 +885,24 @@ msgid ""
 "not REAL affinity, due to the \"INT\" at the end of \"POINT\".  And the "
 "declared type of \"STRING\" has an affinity of NUMERIC, not TEXT.  <a "
 "name=\"expraff\"></a>"
-msgstr ""
+msgstr "注意: \"FLOATING POINT\" と宣言された型は、 \"POINT\" の末尾に \"INT\" があるため、 REAL 好相性ではなく、 INTEGER 好相性 を与えることに注意してください。 そして \"STRING\" と宣言された型は、 TEXT ではなく NUMERIC 好相性があります。 <a name=\"expraff\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/datatype3.html:472
 msgid "<span>3.2. </span>Affinity Of Expressions"
-msgstr ""
+msgstr "<span>3.2. </span>式の好相性"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:474
 msgid ""
 "Every table column has a type affinity (one of BLOB, TEXT, INTEGER, REAL, or "
 "NUMERIC) but expressions do not necessarily have an affinity."
-msgstr ""
+msgstr "すべてのテーブル列には型の好相性(BLOB、TEXT、INTEGER、REAL、NUMERIC のいずれか) がありますが、 式には必ずしも好相性があるとは限りません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:477
 msgid "Expression affinity is determined by the following rules:"
-msgstr ""
+msgstr "式の好相性は、以下のルールによって決定されます:"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/datatype3.html:480
@@ -909,7 +910,7 @@ msgid ""
 "The right-hand operand of an IN or NOT IN operator has no affinity if the "
 "operand is a list, or has the same affinity as the affinity of the result "
 "set expression if the operand is a SELECT."
-msgstr ""
+msgstr "IN または NOT IN 演算子の右側のオペランドは、 オペランドがリストの場合は好相性(affinity)を持たず、 オペランドが SELECT の場合は結果セット式の好相性と同じ好相性を持ちます。"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/datatype3.html:485
@@ -917,7 +918,7 @@ msgid ""
 "When an expression is a simple reference to a column of a real table (not a "
 "<a href=\"lang_createview.html\">VIEW</a> or subquery) then the expression "
 "has the same affinity as the table column."
-msgstr ""
+msgstr "式が(<a href=\"lang_createview.html\">VIEW</a> またはサブクエリではない、)実際のテーブルの列への単純な参照である場合、 式はテーブルの列と同じ好相性を持ちます。"
 
 #. type: Content of: <html><body><div><p><ul><li><ul><li>
 #: sedout/datatype3.html:489
@@ -925,7 +926,7 @@ msgid ""
 "Parentheses around the column name are ignored.  Hence if X and Y.Z are "
 "column names, then (X) and (Y.Z) are also considered column names and have "
 "the affinity of the corresponding columns."
-msgstr ""
+msgstr "列名を囲む丸括弧(parentheses)は無視されます。 したがって、 X と Y.Z が列名の場合、 (X) と (Y.Z) も列名と見なされ、 対応する列の好相性があります。"
 
 #. type: Content of: <html><body><div><p><ul><li><ul><li>
 #: sedout/datatype3.html:493
@@ -934,7 +935,7 @@ msgid ""
 "operator, convert the column name into an expression which always has no "
 "affinity.  Hence even if X and Y.Z are column names, the expressions +X and "
 "+Y.Z are not column names and have no affinity."
-msgstr ""
+msgstr "no-op の \"+\" 単項演算子を含め、 列名に適用されるすべての演算子は、 列名を常に好相性のない式に変換します。  したがって、 X と Y.Z が列名であっても、 式 +X と +Y.Z は列名ではなく、 好相性はありません。"
 
 #. type: Content of: <html><body><div><p><ul><li><p>
 #: sedout/datatype3.html:499
@@ -942,30 +943,31 @@ msgid ""
 "An expression of the form \"CAST(<i>expr</i> AS <i>type</i>)\" has an "
 "affinity that is the same as a column with a declared type of \"<i>type</"
 "i>\"."
-msgstr ""
+msgstr "\"CAST(<i>expr</i> AS <i>type</i>)\" という形式の式には、 宣言された型 \"<i>type</i>\" を持つ列と同じ好相性があります。"
 
 #. type: Content of: <html><body><div><p><ul><li><p>
 #: sedout/datatype3.html:503
 msgid "A COLLATE operator has the same affinity as its left-hand side operand."
-msgstr ""
+msgstr "COLLATE 演算子は、 左側のオペランドと同じ好相性を持ちます。"
 
 #. type: Content of: <html><body><div><p><ul><li><p>
 #: sedout/datatype3.html:505
 msgid "Otherwise, an expression has no affinity."
-msgstr ""
+msgstr "それ以外の場合、 式には好相性がありません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:508
 msgid "<a name=\"affview\"></a>"
-msgstr ""
+msgstr "<a name=\"affview\"></a>"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/datatype3.html:510
 msgid "<span>3.3. </span>Column Affinity For Views And Subqueries"
-msgstr ""
+msgstr "<span>3.3. </span>View とサブクエリの 列好相性"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:512
+#, fuzzy
 msgid ""
 "The \"columns\" of a <a href=\"lang_createview.html\">VIEW</a> or FROM-"
 "clause subquery are really the expressions in the result set of the <a "
@@ -973,6 +975,8 @@ msgid ""
 "subquery.  Thus, the affinity for columns of a VIEW or subquery are "
 "determined by the expression affinity rules above.  Consider an example:"
 msgstr ""
+"<a href=\"lang_createview.html\">VIEW</a> または FROM 句のサブクエリの「列」は、実際には <a href=\"lang_select.html\">SELECT</a の結果セットの式です。 > VIEW またはサブクエリを実装するステートメント。 したがって、VIEW またはサブクエリの列のアフィニティは、上記の式のアフィニティ ルールによって決定されます。 例を考えてみましょう:\n"
+"The \"columns\" of a <a href=\"lang_createview.html\">VIEW</a> or FROM-clause subquery are really the expressions in the result set of the <a href=\"lang_select.html\">SELECT</a> statement that implements the VIEW or subquery.  Thus, the affinity for columns of a VIEW or subquery are determined by the expression affinity rules above.  Consider an example:"
 
 #. type: Content of: <html><body><div><p><blockquote><pre>
 #: sedout/datatype3.html:520
@@ -994,7 +998,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><h3>
 #: sedout/datatype3.html:532
 msgid "<span>3.3.1. </span>Column Affinity For Compound Views"
-msgstr ""
+msgstr "<span>3.3.1. </span>複合Viewの列好相性"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:534
@@ -1028,7 +1032,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/datatype3.html:556
 msgid "<span>3.4. </span>Column Affinity Behavior Example"
-msgstr ""
+msgstr "<span>3.4. </span>列好相性の振る舞いの例"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:558
@@ -1078,16 +1082,52 @@ msgid ""
 "SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;\n"
 "null|null|null|null|null\n"
 msgstr ""
+"CREATE TABLE t1(\n"
+"    t  TEXT,     -- TEXT好相性。規則2による\n"
+"    nu NUMERIC,  -- NUMERIC好相性。規則5による\n"
+"    i  INTEGER,  -- INTEGER好相性。規則1による\n"
+"    r  REAL,     -- REAL好相性。規則4による\n"
+"    no BLOB      -- 好相性なし。規則3による\n"
+");\n"
+"\n"
+"-- それぞれ TEXT, INTEGER, INTEGER, REAL, TEXT として格納される\n"
+"INSERT INTO t1 VALUES('500.0', '500.0', '500.0', '500.0', '500.0');\n"
+"SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;\n"
+"text|integer|integer|real|text\n"
+"\n"
+"-- それぞれ TEXT, INTEGER, INTEGER, REAL, REAL として格納される\n"
+"DELETE FROM t1;\n"
+"INSERT INTO t1 VALUES(500.0, 500.0, 500.0, 500.0, 500.0);\n"
+"SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;\n"
+"text|integer|integer|real|real\n"
+"\n"
+"-- それぞれ TEXT, INTEGER, INTEGER, REAL, INTEGER として格納される\n"
+"DELETE FROM t1;\n"
+"INSERT INTO t1 VALUES(500, 500, 500, 500, 500);\n"
+"SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;\n"
+"text|integer|integer|real|integer\n"
+"\n"
+"-- BLOB は、列の好相性に関係なく、常に BLOB として格納されます\n"
+"DELETE FROM t1;\n"
+"INSERT INTO t1 VALUES(x'0500', x'0500', x'0500', x'0500', x'0500');\n"
+"SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;\n"
+"blob|blob|blob|blob|blob\n"
+"\n"
+"-- NULL も好相性の影響を受けません\n"
+"DELETE FROM t1;\n"
+"INSERT INTO t1 VALUES(NULL,NULL,NULL,NULL,NULL);\n"
+"SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;\n"
+"null|null|null|null|null\n"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:602
 msgid "<a name=\"comparisons\"></a>"
-msgstr ""
+msgstr "<a name=\"comparisons\"></a>"
 
 #. type: Content of: <html><body><div><p><h1>
 #: sedout/datatype3.html:604
 msgid "<span>4. </span>Comparison Expressions"
-msgstr ""
+msgstr "<span>4. </span>比較式"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:606
@@ -1096,12 +1136,12 @@ msgid ""
 "\"=\", \"==\", \"&lt;\", \"&lt;=\", \"&gt;\", \"&gt;=\", \"!=\", \"\", "
 "\"IN\", \"NOT IN\", \"BETWEEN\", \"IS\", and \"IS NOT\", .  <a "
 "name=\"sortorder\"></a>"
-msgstr ""
+msgstr "SQLite バージョン 3 には、SQL 比較演算子の通常のセットがあります。 \"=\", \"==\", \"&lt;\", \"&lt;=\", \"&gt;\", \"&gt;=\", \"!=\", \"\", \"IN\", \"NOT IN\", \"BETWEEN\", \"IS\", \"IS NOT\" です。 (訳注: 念の為いうと、\"=&lt;\" とか  \"=&gt;\" とか無い) <a name=\"sortorder\"></a>"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/datatype3.html:612
 msgid "<span>4.1. </span>Sort Order"
-msgstr ""
+msgstr "<span>4.1. </span>並べ替え順"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:614
@@ -1141,12 +1181,12 @@ msgstr ""
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:632
 msgid "<a name=\"compaff\"></a>"
-msgstr ""
+msgstr "<a name=\"compaff\"></a>"
 
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/datatype3.html:634
 msgid "<span>4.2. </span>Type Conversions Prior To Comparison"
-msgstr ""
+msgstr "<span>4.2. </span>比較前の型変換"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:636
@@ -1213,7 +1253,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/datatype3.html:678
 msgid "<span>4.3. </span>Comparison Example"
-msgstr ""
+msgstr "<span>4.3. </span>比較の例"
 
 #. type: Content of: <html><body><div><p><blockquote><pre>
 #: sedout/datatype3.html:682
@@ -1275,6 +1315,61 @@ msgid ""
 "SELECT d &lt; '40', d &lt; '60', d &lt; '600' FROM t1;\n"
 "1|1|1\n"
 msgstr ""
+"CREATE TABLE t1(\n"
+"    a TEXT,      -- TEXT好相性\n"
+"    b NUMERIC,   -- NUMERIC好相性\n"
+"    c BLOB,      -- 好相性なし\n"
+"    d            -- 好相性なし\n"
+");\n"
+"\n"
+"-- 値は、それぞれ TEXT、INTEGER、TEXT、INTEGER として格納されるでしょう\n"
+"INSERT INTO t1 VALUES('500', '500', '500', 500);\n"
+"SELECT typeof(a), typeof(b), typeof(c), typeof(d) FROM t1;\n"
+"text|integer|text|integer\n"
+"\n"
+"-- 列 \"a\" にはTEXT好相性があるため、 \n"
+"-- 比較の右側の数値は、\n"
+"-- 比較が行われる前にTEXTに変換されます。\n"
+"SELECT a &lt; 40,   a &lt; 60,   a &lt; 600 FROM t1;\n"
+"0|1|1\n"
+"\n"
+"-- TEXT好相性が右側のオペランドに適用されますが、\n"
+"-- それらは既に TEXT であるため、 何もしません。 変換は発生しません。\n"
+"SELECT a &lt; '40', a &lt; '60', a &lt; '600' FROM t1;\n"
+"0|1|1\n"
+"\n"
+"-- 列 \"b\" には NUMERIC 好相性があるため、 右側のオペランドに\n"
+"-- NUMERIC 好相性が適用されます。 オペランドはすでに数値(NUMERIC)であるため、\n"
+"-- 好相性適用操作は行われず、 変換は発生しません。\n"
+"-- よって、 すべての値が数値的に比較されます。\n"
+"SELECT b &lt; 40,   b &lt; 60,   b &lt; 600 FROM t1;\n"
+"0|0|1\n"
+"\n"
+"-- 右側のオペランドにNUMERIC好相性が適用され、\n"
+"-- テキストから整数に変換されます。 それに続いて数値比較が行われます。\n"
+"SELECT b &lt; '40', b &lt; '60', b &lt; '600' FROM t1;\n"
+"0|0|1\n"
+"\n"
+"-- 好相性変換は発生しません。\n"
+"-- 右側の値はすべて格納クラス INTEGER を持ち、\n"
+"-- 常に左側の TEXT 値よりも小さいです。\n"
+"SELECT c &lt; 40,   c &lt; 60,   c &lt; 600 FROM t1;\n"
+"0|0|0\n"
+"\n"
+"-- 好相性変換は発生しません。 値は TEXT として比較されます。\n"
+"SELECT c &lt; '40', c &lt; '60', c &lt; '600' FROM t1;\n"
+"0|1|1\n"
+"\n"
+"-- 好相性変換は発生しません。\n"
+"-- 右側の値はすべて、\n"
+"-- 左側の INTEGER 値と数値的に比較する、 格納クラス INTEGER を持ちます。\n"
+"SELECT d &lt; 40,   d &lt; 60,   d &lt; 600 FROM t1;\n"
+"0|0|1\n"
+"\n"
+"-- 好相性変換は発生しません。\n"
+"-- 左側の INTEGER 値は、 常に右側の TEXT 値より小さくなります。\n"
+"SELECT d &lt; '40', d &lt; '60', d &lt; '600' FROM t1;\n"
+"1|1|1\n"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:740
@@ -1287,7 +1382,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><h1>
 #: sedout/datatype3.html:744
 msgid "<span>5. </span>Operators"
-msgstr ""
+msgstr "<span>5. </span>演算子"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:746
@@ -1319,7 +1414,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><h1>
 #: sedout/datatype3.html:771
 msgid "<span>6. </span>Sorting, Grouping and Compound SELECTs"
-msgstr ""
+msgstr "<span>6. </span>並べ替え(sorting)と集計(grouping)と複合(compound)SELECT"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:773
@@ -1352,12 +1447,12 @@ msgstr ""
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:791
 msgid "<a name=\"collation\"></a>"
-msgstr ""
+msgstr "<a name=\"collation\"></a>"
 
 #. type: Content of: <html><body><div><p><h1>
 #: sedout/datatype3.html:793
 msgid "<span>7. </span>Collating Sequences"
-msgstr ""
+msgstr "<span>7. </span>照合シーケンス(Collating Sequences)"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:795
@@ -1366,7 +1461,7 @@ msgid ""
 "function (two terms for the same thing) to determine which string is greater "
 "or if the two strings are equal.  SQLite has three built-in collating "
 "functions: BINARY, NOCASE, and RTRIM."
-msgstr ""
+msgstr "SQLite が 2 つの文字列を比較するとき、 照合シーケンス(collating sequence)または照合関数collating function (同じことを表す 2 つの用語) を使用して、 どちらの文字列が大きいか、 または 2 つの文字列が等しいかどうかを判断します。  SQLite には、 BINARY と NOCASE と RTRIM の 3 つの組み込み照合関数(collating functions)があります。"
 
 #. type: Content of: <html><body><div><p><ul><li>
 #: sedout/datatype3.html:802
@@ -1392,7 +1487,7 @@ msgstr ""
 msgid ""
 "<b>RTRIM</b> - The same as binary, except that trailing space characters are "
 "ignored."
-msgstr ""
+msgstr "<b>RTRIM</b> - 末尾のスペース文字が無視されることを除いて、 BINARYと同一です。 (訳注: Right TRIM → RTRIM)"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:817
@@ -1413,7 +1508,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><h2>
 #: sedout/datatype3.html:824
 msgid "<span>7.1. </span>Assigning Collating Sequences from SQL"
-msgstr ""
+msgstr "<span>7.1. </span>SQL から照合シーケンスを割り当てる"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:827
@@ -1428,7 +1523,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p>
 #: sedout/datatype3.html:834
 msgid "<a name=\"colrules\"></a>"
-msgstr ""
+msgstr "<a name=\"colrules\"></a>"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/datatype3.html:838
@@ -1507,7 +1602,7 @@ msgstr ""
 #. type: Content of: <html><body><div><p><p><h2>
 #: sedout/datatype3.html:897
 msgid "<span>7.2. </span>Collation Sequence Examples"
-msgstr ""
+msgstr "<span>7.2. </span>照合シーケンス(Collation Sequence)の例"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/datatype3.html:899
@@ -1581,3 +1676,68 @@ msgid ""
 "SELECT x FROM t1 ORDER BY c COLLATE NOCASE, x;\n"
 "--result 2 4 3 1\n"
 msgstr ""
+"CREATE TABLE t1(\n"
+"    x INTEGER PRIMARY KEY,\n"
+"    a,                 /* 照合シーケンス BINARY */\n"
+"    b COLLATE BINARY,  /* 照合シーケンス BINARY */\n"
+"    c COLLATE RTRIM,   /* 照合シーケンス RTRIM  */\n"
+"    d COLLATE NOCASE   /* 照合シーケンス NOCASE */\n"
+");\n"
+"                   /* x   a     b     c       d */\n"
+"INSERT INTO t1 VALUES(1,'abc','abc', 'abc  ','abc');\n"
+"INSERT INTO t1 VALUES(2,'abc','abc', 'abc',  'ABC');\n"
+"INSERT INTO t1 VALUES(3,'abc','abc', 'abc ', 'Abc');\n"
+"INSERT INTO t1 VALUES(4,'abc','abc ','ABC',  'abc');\n"
+"\n"
+"/* 訳注:\n"
+"1行目: c の後ろに空白2つ\n"
+"2行目: d 大文字ABC\n"
+"3行目: c 後ろ空白1つ、 d 大文字小文字混在\n"
+"4行目: b 後ろ空白1つ、 c 大文字ABC\n"
+"*/\n"
+"\n"
+"/* テキスト比較 a = b は、 BINARY 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 WHERE a = b ORDER BY x;\n"
+"--result 1 2 3\n"
+"\n"
+"/* テキスト比較 a = b は、 RTRIM 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 WHERE a = b COLLATE RTRIM ORDER BY x;\n"
+"--result 1 2 3 4\n"
+"\n"
+"/* テキスト比較 d = a は、NOCASE 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 WHERE d = a ORDER BY x;\n"
+"--result 1 2 3 4\n"
+"\n"
+"/* テキスト比較 a = d は、 BINARY 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 WHERE a = d ORDER BY x;\n"
+"--result 1 4\n"
+"\n"
+"/* テキスト比較 'abc' = c は、RTRIM 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 WHERE 'abc' = c ORDER BY x;\n"
+"--result 1 2 3\n"
+"\n"
+"/* テキスト比較 c = 'abc' は、 RTRIM 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 WHERE c = 'abc' ORDER BY x;\n"
+"--result 1 2 3\n"
+"\n"
+"/* グループ化は、 NOCASE 照合シーケンスを使用して実行されます。\n"
+"** (値 'abc' と 'ABC' と 'Abc' は同一グループに配置されます) */\n"
+"SELECT count(*) FROM t1 GROUP BY d ORDER BY 1;\n"
+"--result 4\n"
+"\n"
+"/* グループ化は、 BINARY 照合シーケンスを使用して実行されます。\n"
+"** 'abc' と 'ABC' と 'Abc' は異なるグループを形成します */\n"
+"SELECT count(*) FROM t1 GROUP BY (d || '') ORDER BY 1;\n"
+"--result 1 1 2\n"
+"\n"
+"/* ソートまたは列 c は、 RTRIM 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 ORDER BY c, x;\n"
+"--result 4 1 2 3\n"
+"\n"
+"/* (c||'') のソートは、 BINARY 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 ORDER BY (c||''), x;\n"
+"--result 4 2 3 1\n"
+"\n"
+"/* 列 c のソートは、 NOCASE 照合シーケンスを使用して実行されます。 */\n"
+"SELECT x FROM t1 ORDER BY c COLLATE NOCASE, x;\n"
+"--result 2 4 3 1\n"

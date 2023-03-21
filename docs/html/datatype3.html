@@ -86,33 +86,31 @@ Datatypes In SQLite
 <a onclick="toggle_toc()"> <span class="fancy_toc_mark"
 id="toc_mk">&#x25ba;</span> Table Of Contents </a>
 <div id="toc_sub"><div class="fancy-toc1"><a href="#datatypes_in_sqlite">1. Datatypes In SQLite</a></div>
-<div class="fancy-toc1"><a href="#storage_classes_and_datatypes">2. Storage Classes and
-Datatypes</a></div>
+<div class="fancy-toc1"><a href="#storage_classes_and_datatypes">2. 格納クラス(Storage Classes)とデータ型</a></div>
 <div class="fancy-toc2"><a href="#boolean_datatype">2.1. Boolean Datatype</a></div>
 <div class="fancy-toc2"><a href="#date_and_time_datatype">2.2. Date and Time Datatype</a></div>
-<div class="fancy-toc1"><a href="#type_affinity">3. Type Affinity</a></div>
-<div class="fancy-toc2"><a href="#determination_of_column_affinity">3.1. Determination Of Column
-Affinity</a></div>
-<div class="fancy-toc3"><a href="#affinity_name_examples">3.1.1. Affinity Name Examples</a></div>
-<div class="fancy-toc2"><a href="#affinity_of_expressions">3.2. Affinity Of Expressions</a></div>
-<div class="fancy-toc2"><a href="#column_affinity_for_views_and_subqueries">3.3. Column Affinity For
-Views And Subqueries</a></div>
-<div class="fancy-toc3"><a href="#column_affinity_for_compound_views">3.3.1. Column Affinity For
-Compound Views</a></div>
-<div class="fancy-toc2"><a href="#column_affinity_behavior_example">3.4. Column Affinity Behavior
-Example</a></div>
-<div class="fancy-toc1"><a href="#comparison_expressions">4. Comparison Expressions</a></div>
-<div class="fancy-toc2"><a href="#sort_order">4.1. Sort Order</a></div>
-<div class="fancy-toc2"><a href="#type_conversions_prior_to_comparison">4.2. Type Conversions Prior
-To Comparison</a></div>
-<div class="fancy-toc2"><a href="#comparison_example">4.3. Comparison Example</a></div>
-<div class="fancy-toc1"><a href="#operators">5. Operators</a></div>
-<div class="fancy-toc1"><a href="#sorting_grouping_and_compound_selects">6. Sorting, Grouping and
-Compound SELECTs</a></div>
-<div class="fancy-toc1"><a href="#collating_sequences">7. Collating Sequences</a></div>
-<div class="fancy-toc2"><a href="#assigning_collating_sequences_from_sql">7.1. Assigning Collating
-Sequences from SQL</a></div>
-<div class="fancy-toc2"><a href="#collation_sequence_examples">7.2. Collation Sequence Examples</a></div>
+<div class="fancy-toc1"><a href="#type_affinity">3. 型好相性(Affinity)</a></div>
+<div class="fancy-toc2"><a href="#determination_of_column_affinity">3.1. 列好相性(Column
+Affinity)の決定</a></div>
+<div class="fancy-toc3"><a href="#affinity_name_examples">3.1.1. 好相性名の例</a></div>
+<div class="fancy-toc2"><a href="#affinity_of_expressions">3.2. 式の好相性</a></div>
+<div class="fancy-toc2"><a href="#column_affinity_for_views_and_subqueries">3.3. View とサブクエリの
+列好相性</a></div>
+<div class="fancy-toc3"><a href="#column_affinity_for_compound_views">3.3.1. 複合Viewの列好相性</a></div>
+<div class="fancy-toc2"><a href="#column_affinity_behavior_example">3.4. 列好相性の振る舞いの例</a></div>
+<div class="fancy-toc1"><a href="#comparison_expressions">4. 比較式</a></div>
+<div class="fancy-toc2"><a href="#sort_order">4.1. 並べ替え順</a></div>
+<div class="fancy-toc2"><a href="#type_conversions_prior_to_comparison">4.2. 比較前の型変換</a></div>
+<div class="fancy-toc2"><a href="#comparison_example">4.3. 比較の例</a></div>
+<div class="fancy-toc1"><a href="#operators">5. 演算子</a></div>
+<div class="fancy-toc1"><a
+href="#sorting_grouping_and_compound_selects">6.
+並べ替え(sorting)と集計(grouping)と複合(compound)SELECT</a></div>
+<div class="fancy-toc1"><a href="#collating_sequences">7. 照合シーケンス(Collating Sequences)</a></div>
+<div class="fancy-toc2"><a href="#assigning_collating_sequences_from_sql">7.1. SQL
+から照合シーケンスを割り当てる</a></div>
+<div class="fancy-toc2"><a href="#collation_sequence_examples">7.2. 照合シーケンス(Collation
+Sequence)の例</a></div>
 </div>
 </div>
 <script>
@@ -128,104 +126,93 @@ sub.style.display = "none"; mk.innerHTML = "&#x25ba;"; } }
 
 
 <h1 id="datatypes_in_sqlite"><span>1. </span>Datatypes In SQLite</h1>
-<p>Most SQL database engines (every SQL database engine other than SQLite, as
-far as we know) uses static, rigid typing.  With static typing, the datatype
-of a value is determined by its container - the particular column in which
-the value is stored.</p>
+<p>ほとんどの SQL データベース・エンジン (私たちが知る限り、SQLite 以外のすべての SQL データベース・エンジン) は、
+静的で厳格な型付けを使用します。 静的型付けでは、 値のデータ型はコンテナ(値が格納される特定の列)によって決定されます。</p>
 
-<p>SQLite uses a more general dynamic type system.  In SQLite, the datatype of
-a value is associated with the value itself, not with its container.  The
-dynamic type system of SQLite is backwards compatible with the more common
-static type systems of other database engines in the sense that SQL
-statements that work on statically typed databases work the same way in
-SQLite.  However, the dynamic typing in SQLite allows it to do things which
-are not possible in traditional rigidly typed databases.  <a
-href="flextypegood.html">Flexible typing is a feature</a> of SQLite, not a
-bug.</p>
+<p>SQLite は、 より一般的な動的型システムを使用します。 SQLite では、 値のデータ型はコンテナではなく、 値自体に関連付けられます。
+SQLite の動的型システムは、 静的に型指定されたデータベースで機能する SQL ステートメントが SQLite
+でも同じように機能するという意味で、 他のデータベース・エンジンの、 より一般的な静的型システムと下位互換性があります。 ただし、SQLite
+の動的型付けにより、 従来の厳格に型付けされたデータベースでは不可能なことを行うことができます。 <a
+href="flextypegood.html">柔軟な型付けは SQLite の機能</a>であり、 バグではありません。</p>
 
-<p>Update: As of version 3.37.0 (2021-11-27), SQLite provides <a
-href="stricttables.html">STRICT tables</a> that do rigid type enforcement,
-for developers who prefer that kind of thing.  <a name="storageclasses"></a>
+<p>Update: バージョン 3.37.0 (2021-11-27) の時点で、 SQLite は厳格な型の強制を行う <a
+href="stricttables.html">STRICT テーブル</a> を提供します。 そのようなことを好む開発者向けです。 <a
+name="storageclasses"></a>
 
-</p><h1 id="storage_classes_and_datatypes"><span>2. </span>Storage Classes and Datatypes</h1>
+</p><h1 id="storage_classes_and_datatypes"><span>2. </span>格納クラス(Storage Classes)とデータ型</h1>
 
-<p>Each value stored in an SQLite database (or manipulated by the database
-engine) has one of the following storage classes:</p>
+<p>SQLite データベースに格納された(またはデータベース・エンジンによって操作された)各値には、 以下の格納クラス(storage
+classes)のいずれかがあります:</p>
 <ul>
-  <li><b>NULL</b>.  The value is a NULL value.
+  <li><b>NULL</b>: 値は NULL 値です。
 
-  </li><li><b>INTEGER</b>. The value is a signed integer, stored in 0, 1, 2, 3, 4, 6,
-or 8 bytes depending on the magnitude of the value.
+  </li><li><b>INTEGER</b>: 値は符号付き整数で、 値の大きさ(magnitude )に応じて 0、1、2、3、4、6、8
+バイトのいずれかのサイズで格納されます。
 
-  </li><li><b>REAL</b>. The value is a floating point value, stored as an 8-byte IEEE
-floating point number.
+  </li><li><b>REAL</b>: 値は浮動小数点値で、 8 バイトの IEEE 浮動小数点数として格納されます。
 
-  </li><li><b>TEXT</b>. The value is a text string, stored using the database encoding
-(UTF-8, UTF-16BE or UTF-16LE).
+  </li><li><b>TEXT</b>: 値はテキスト文字列(string)で、 データベースのエンコーディング (UTF-8 または UTF-16BE または
+UTF-16LE) を使用して保存されます。
 
-  </li><li><b>BLOB</b>. The value is a blob of data, stored exactly as it was input.
+  </li><li><b>BLOB</b>: 値はデータの塊(blob)であり、 入力されたとおりに保存されます。
 </li></ul>
 
-<p>A storage class is more general than a datatype.  The INTEGER storage class,
-for example, includes 7 different integer datatypes of different lengths.
-<a href="fileformat2.html#record_format">This makes a difference on
-disk.</a> But as soon as INTEGER values are read off of disk and into memory
-for processing, they are converted to the most general datatype (8-byte
-signed integer).  And so for the most part, "storage class" is
-indistinguishable from "datatype" and the two terms can be used
-interchangeably.</p>
+<p>格納クラス(storage class)は、 データ型よりも一般的です。  たとえば、 INTEGER 格納クラスには、 異なる長さの 7
+つの異なる整数データ型が含まれています。 <a href="fileformat2.html#record_format">これにより、
+ディスク上で違いが生じます</a>。 しかし、 その INTEGER 値がディスクから読み取られ、
+処理のためにメモリに読み込まれるとすぐに、最も一般的なデータ型(8バイトの符号付き整数)に変換されます。 そのため、
+ほとんどの場合、「格納クラス」(storage class)は「データ型」と区別がつかず、 ２つの用語は同じ意味で使用できます。</p>
 
-<p>Any column in an SQLite version 3 database, except an <a
-href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a> column, may be
-used to store a value of any storage class.</p>
+<p><a href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a>  列を除く SQLite
+バージョン 3 データベースの任意の列を使用して、 任意の格納クラス(storage class)の値を格納できます。</p>
 
-<p>All values in SQL statements, whether they are literals embedded in SQL
-statement text or <a href="lang_expr.html#varparam">parameters</a> bound to
-<a href="c3ref/stmt.html">precompiled SQL statements</a> have an implicit
-storage class.  Under circumstances described below, the database engine may
-convert values between numeric storage classes (INTEGER and REAL) and TEXT
-during query execution. 
+<p>SQL ステートメント・テキストに埋め込まれたリテラルであるか、 <a href="c3ref/stmt.html">プリ・コンパイルされた SQL
+ステートメント</a>に結び付けされた(boun) <a
+href="lang_expr.html#varparam">パラメーター</a>であるかに関係なく、 SQL ステートメント内のすべての値には、
+暗黙的な格納クラス(implicit storage class)があります。 以下に説明する状況では、 データベース・エンジンは、
+クエリの実行中に数値格納クラス (INTEGER や REAL) と TEXT の間で値を変換する場合があります。 
 </p>
 
 <a name="boolean"></a>
 
 <h2 id="boolean_datatype"><span>2.1. </span>Boolean Datatype</h2>
 
-<p>SQLite does not have a separate Boolean storage class.  Instead, Boolean
-values are stored as integers 0 (false) and 1 (true).</p>
+<p>SQLite には、 個別の Boolean 格納クラスはありません。 代わりに、 ブール値は整数 0 (false) や 1 (true)
+として格納されます。</p>
 
-<p>SQLite recognizes the keywords "TRUE" and "FALSE", as of version 3.23.0
-(2018-04-02) but those keywords are really just alternative spellings for
-the integer literals 1 and 0 respectively.  <a name="datetime"></a>
+<p>バージョン 3.23.0 (2018-04-02) の時点で、 SQLite はキーワード "TRUE" と "FALSE" を認識しますが、
+これらのキーワードは実際には整数リテラル 1 と 0 の代替記述(alternative spellings)にすぎません。 <a
+name="datetime"></a>
 
 </p><h2 id="date_and_time_datatype"><span>2.2. </span>Date and Time Datatype</h2>
 
-<p>SQLite does not have a storage class set aside for storing dates and/or
-times.  Instead, the built-in <a href="lang_datefunc.html">Date And Time
-Functions</a> of SQLite are capable of storing dates and times as TEXT,
-REAL, or INTEGER values:</p>
+<p>SQLite には、 日付や時刻を格納するための格納クラスが用意されていません。  代わりに、SQLite の組み込みの <a
+href="lang_datefunc.html">日付と時刻関数</a> は、 日付と時刻を TEXT または REAL または INTEGER
+値として格納できます。</p>
 
 <ul>
-<li><b>TEXT</b> as ISO8601 strings ("YYYY-MM-DD HH:MM:SS.SSS").
-</li><li><b>REAL</b> as Julian day numbers, the number of days since noon in
-Greenwich on November 24, 4714 B.C. according to the proleptic Gregorian
-calendar.
-</li><li><b>INTEGER</b> as Unix Time, the number of seconds since 1970-01-01 00:00:00
-UTC.
+<li><b>TEXT</b> 値では ISO8601 文字列 ("YYYY-MM-DD HH:MM:SS.SSS") として格納されます。
+</li><li><b>REAL</b> はユリウス通日数(Julian day numbers)として、 先発グレゴリオ暦では紀元前 4714 年 11 月 24
+日のグリニッジ正午からの日数です。(訳注: wikipedia より;
+ユリウス通日はユリウス暦紀元前4713年1月1日（先発グレゴリオ暦では紀元前4714年11月24日、 西暦
+-4713年11月24日）の正午（世界時）を元期（＝0日目）とし、 日の単位で数える。
+ユリウス通日は天文時の伝統に従い、日の起点は正午である。したがって、世界時の正午に日数（の整数部分）が増加する。
+単にユリウス日（ユリウスび）ともいう。時刻値を示すために一般には小数が付けられる。
+例えば、協定世界時（UTC）での2023年3月20日16:42のユリウス通日の値は、おおむね2460024.2である。 (
+https://ja.wikipedia.org/wiki/ユリウス通日 )
+</li><li><b>INTEGER</b> 値 は Unix 時間として(Unix Time)、 1970-01-01 00:00:00 UTC からの秒数です。
 </li></ul>
 
-<p>Applications can choose to store dates and times in any of these formats and
-freely convert between formats using the built-in <a
-href="lang_datefunc.html">date and time functions</a>.</p>
+<p>アプリケーションは、 これらの形式のいずれかで日付と時刻を保存することを選択し、 組み込みの <a
+href="lang_datefunc.html">日付と時刻関数</a> を使用して、 これらの形式の間で自由に変換できます。</p>
 
 
 <a name="affinity"></a>
 
-<h1 id="type_affinity"><span>3. </span>Type Affinity</h1>
+<h1 id="type_affinity"><span>3. </span>型好相性(Affinity)</h1>
 
 <p>
-SQL database engines that use rigid typing will usually try to automatically
-convert values to the appropriate datatype.  Consider this:
+厳密な型指定を使用する SQL データベース・エンジンは、 通常、 値を適切なデータ型に自動的に変換しようとします。 以下について考えてみましょう:
 
 </p><blockquote><pre>
 CREATE TABLE t1(a INT, b VARCHAR(10));
@@ -233,23 +220,17 @@ INSERT INTO t1(a,b) VALUES('123',456);
 </pre></blockquote>
 
 <p>
-Rigidly-typed database will convert the string '123' into an integer 123 and
-the integer 456 into a string '456' prior to doing the insert.
+厳密に型指定されたデータベースは、 挿入を行う前に文字列 '123' を整数 123 に、 整数 456 を文字列 '456' に変換します。
 
 </p><p>
-In order to maximize compatibility between SQLite and other database
-engines, and so that the example above will work on SQLite as it does on
-other SQL database engines, SQLite supports the concept of "type affinity"
-on columns.  The type affinity of a column is the recommended type for data
-stored in that column.  The important idea here is that the type is
-recommended, not required.  Any column can still store any type of data.  It
-is just that some columns, given the choice, will prefer to use one storage
-class over another.  The preferred storage class for a column is called its
-"affinity".
+SQLite と他のデータベース・エンジンとの互換性を最大限に高め、 上記の例が他の SQL データベース・エンジンと同様に SQLite
+でも機能するように、 SQLite は列の「型好相性」(type
+affinity;その列に一番相性がいい(高い)格納クラス)の概念をサポートしています。 列の型好相性は、 その列に格納されるデータの推奨される型です。
+ここで重要な点は、 型は必須ではなく推奨されるということです。 任意の列には、 任意の型のデータを格納できます。 選択肢が与えられた一部の列は、
+ある格納クラスを別の格納クラスよりも好んで使用するだけです。  列の優先格納クラスは、「好相性」(affinity;アフィニティ)と呼ばれます。
 </p>
 
-<p>Each column in an SQLite 3 database is assigned one of the following type
-affinities:</p>
+<p>SQLite 3 データベースの各列には、 以下の型好相性(type affinities)のいずれかが割り当てられます:</p>
 <ul>
 	<li>TEXT</li>
 	<li>NUMERIC</li>
@@ -258,102 +239,76 @@ affinities:</p>
 	<li>BLOB</li>
 </ul>
 
-<p>(Historical note: The "BLOB" type affinity used to be called "NONE".  But
-that term was easy to confuse with "no affinity" and so it was renamed.)
+<p>(歴史的なメモ:  "BLOB" 型の好相性は、 以前は "NONE" と呼ばれていました。しかし、この用語は 「好相性無し」と混同しやすいため、
+名前が変更されました。)
 
-</p><p>A column with TEXT affinity stores all data using storage classes NULL, TEXT
-or BLOB. If numerical data is inserted into a column with TEXT affinity it
-is converted into text form before being stored.</p>
+</p><p>TEXT 好相性を持つ列には、 格納クラス NULL または TEXT または BLOB を使用してすべてのデータが格納されます。 数値データが
+TEXT 好相性を持つ列に挿入されると、 格納される前にテキスト形式に変換されます。</p>
 
-<p>A column with NUMERIC affinity may contain values using all five storage
-classes.  When text data is inserted into a NUMERIC column, the storage
-class of the text is converted to INTEGER or REAL (in order of preference)
-if the text is a well-formed integer or real literal, respectively.  If the
-TEXT value is a well-formed integer literal that is too large to fit in a
-64-bit signed integer, it is converted to REAL.  For conversions between
-TEXT and REAL storage classes, only the first 15 significant decimal digits
-of the number are preserved.  If the TEXT value is not a well-formed integer
-or real literal, then the value is stored as TEXT.  For the purposes of this
-paragraph, hexadecimal integer literals are not considered well-formed and
-are stored as TEXT.  (This is done for historical compatibility with
-versions of SQLite prior to <a href="releaselog/3_8_6.html">version
-3.8.6</a> 2014-08-15 where hexadecimal integer literals were first
-introduced into SQLite.)  If a floating point value that can be represented
-exactly as an integer is inserted into a column with NUMERIC affinity, the
-value is converted into an integer.  No attempt is made to convert NULL or
-BLOB values.</p>
+<p>NUMERIC 好相性を持つ列には、 5つの格納クラスすべてを使用する値が含まれる場合があります。 テキスト・データが NUMERIC
+列に挿入されると、 テキストが整形式の整数または実数リテラルである場合、 テキストの格納クラスは (優先順に) INTEGER または REAL
+に変換されます。 TEXT 値が整形式の整数リテラルであり、 大きすぎて 64 ビットの符号付き整数に収まらない場合は、 REAL に変換されます。
+TEXT と REAL の格納クラス間の変換では、 数値の最初の 15 桁の有効数字のみが保持されます。 TEXT
+値が整形式の整数または実数リテラルでない場合、 値は TEXT として格納されます。 ここでは、16 進数の整数リテラルは整形式とは見なされず、TEXT
+として格納されます。 (これは、16 進整数リテラルが最初に SQLite に導入された<a
+href="releaselog/3_8_6.html">バージョン 3.8.6</a>(2014-08-15)より前のバージョンの SQLite
+との歴史的な互換性のために行われます。)  正確に整数として表現できる浮動小数点値が NUMERIC 好相性を持つ列に挿入されると、
+その値は整数に変換されます。 NULL または BLOB 値の変換は試行されません。</p>
 
-<p>A string might look like a floating-point literal with a decimal point
-and/or exponent notation but as long as the value can be expressed as an
-integer, the NUMERIC affinity will convert it into an integer. Hence, the
-string '3.0e+5' is stored in a column with NUMERIC affinity as the integer
-300000, not as the floating point value 300000.0.</p>
+<p>文字列(string)は、 小数点 および/また は指数表記のある浮動小数点リテラルのように見えるかもしれませんが、 値が整数として表現できる限り、
+NUMERIC 好相性はそれを整数に変換します。 したがって、 文字列 '3.0e+5' は、 浮動小数点値 300000.0 としてではなく、 整数
+300000 として NUMERIC 好相性を持つ列に格納されます。</p>
 
-<p>A column that uses INTEGER affinity behaves the same as a column with
-NUMERIC affinity.  The difference between INTEGER and NUMERIC affinity is
-only evident in a <a href="lang_expr.html#castexpr">CAST expression</a>: The
-expression "CAST(4.0 AS INT)" returns an integer 4, whereas "CAST(4.0 AS
-NUMERIC)" leaves the value as a floating-point 4.0.</p>
+<p>INTEGER 好相性を使用する列は、 NUMERIC アフィニティを使用する列と同一に振る舞います。 INTEGER と NUMERIC
+の好相性の違いは、 <a href="lang_expr.html#castexpr">CAST 式</a>でのみ明らかです。 式 "CAST(4.0
+AS INT)" は整数 4 を返しますが、"CAST( 4.0 AS NUMERIC)" は、 値を浮動小数点 4.0 のままにします。</p>
 
-<p>A column with REAL affinity behaves like a column with NUMERIC affinity
-except that it forces integer values into floating point representation.
-(As an internal optimization, small floating point values with no fractional
-component and stored in columns with REAL affinity are written to disk as
-integers in order to take up less space and are automatically converted back
-into floating point as the value is read out.  This optimization is
-completely invisible at the SQL level and can only be detected by examining
-the raw bits of the database file.)</p>
+<p>REAL 好相性を持つ列は、 整数値を強制的に浮動小数点表現にする点を除いて、 NUMERIC 好相性を持つ列のように振る舞います。
+(内部の最適化として、 小数部分を持たず、 REAL 好相性を持つ列に格納された小さな浮動小数点値は、
+使用するスペースを少なくするために整数としてディスクに書き込まれ、 値が読み取られると自動的に浮動小数点に変換されます。 最適化は SQL
+レベルでは全く見えず、 データベース・ファイルの生のビットを調べることによってのみ検出できます。)</p>
 
-<p>A column with affinity BLOB does not prefer one storage class over another
-and no attempt is made to coerce data from one storage class into another.</p>
+<p>BLOB 好相性を持つ列は、 ある格納クラスを別の格納クラスより優先することはなく、 かつ、
+ある格納クラスから別の格納クラスにデータを強制する試みは行われません。</p>
 
 <a name="affname"></a>
 
-<h2 id="determination_of_column_affinity"><span>3.1. </span>Determination Of Column Affinity</h2>
+<h2 id="determination_of_column_affinity"><span>3.1. </span>列好相性(Column Affinity)の決定</h2>
 
-<p>For tables not declared as <a href="stricttables.html">STRICT</a>, the
-affinity of a column is determined by the declared type of the column,
-according to the following rules in the order shown:</p>
+<p><a href="stricttables.html">STRICT</a>
+として宣言されていないテーブルの場合、列の好相性(こうあいしょう;affinity)は、 以下の規則に従って、 列の宣言された型によって決定されます。</p>
 
 <ol>
-  <li>If the declared type contains the string "INT" then it is assigned INTEGER
-affinity.
+  <li>宣言された型に文字列 "INT" が含まれている場合、 INTEGER 好相性(affinity)が割り当てられます。
 
-  </li><li>If the declared type of the column contains any of the strings "CHAR",
-"CLOB", or "TEXT" then that column has TEXT affinity.  Notice that the type
-VARCHAR contains the string "CHAR" and is thus assigned TEXT affinity.
+  </li><li>列の宣言された型に文字列 "CHAR" または  "CLOB" または  "TEXT" が含まれている場合、 その列には TEXT 好相性があります。
+VARCHAR 型には文字列 "CHAR" が含まれているため、 TEXT 好相性が割り当てられていることに注意してください(訳注:
+CLOB;キャラクター・ラージ・オブジェクト。 OracleやIBM DB2とかにある型)。
 
-  </li><li>If the declared type for a column contains the string "BLOB" or if no type
-is specified then the column has affinity BLOB.
+  </li><li>列の宣言された型に文字列 "BLOB" が含まれている場合、 または型が指定されていない場合、 列には BLOB 好相性があります。
 
-  </li><li>If the declared type for a column contains any of the strings "REAL",
-"FLOA", or "DOUB" then the column has REAL affinity.
+  </li><li>列の宣言された型に文字列 "REAL" または "FLOA" または "DOUB" のいずれかが含まれている場合、 その列には REAL 好相性
+があります。
 
-  </li><li>Otherwise, the affinity is NUMERIC.
+  </li><li>それ以外の場合は、 NUMERIC 好相性です。
 </li></ol>
 
-<p>Note that the order of the rules for determining column affinity is
-important.  A column whose declared type is "CHARINT" will match both rules
-1 and 2 but the first rule takes precedence and so the column affinity will
-be INTEGER.</p>
+<p>列の好相性を決定するルールの順序は重要であるということに注意してください。 宣言された型が "CHARINT" である列は、ルール 1 と 2
+の両方にマッチングしますが、 最初のルールの方が優先されるため、 列の好相性は INTEGER になります。</p>
 
-<h3 id="affinity_name_examples"><span>3.1.1. </span>Affinity Name Examples</h3>
+<h3 id="affinity_name_examples"><span>3.1.1. </span>好相性名の例</h3>
 
-<p>The following table shows how many common datatype names from more
-traditional SQL implementations are converted into affinities by the five
-rules of the previous section.  This table shows only a small subset of the
-datatype names that SQLite will accept.  Note that numeric arguments in
-parentheses that following the type name (ex: "VARCHAR(255)") are ignored by
-SQLite - SQLite does not impose any length restrictions (other than the
-large global <a href="limits.html#max_length">SQLITE_MAX_LENGTH</a> limit)
-on the length of strings, BLOBs or numeric values.</p>
+<p>以下の表は、 より伝統的なSQLの実装でよく使われるデータ型名が、 上記の5つの規則によってどれだけ好相性に変換されるかを示したものです。 注意:
+型名に続く括弧内の数値引数 (例: "VARCHAR(255)") は SQLite によって無視されることに注意してください - SQLite は、
+(グローバルの <a href="limits.html#max_length">SQLITE_MAX_LENGTH</a>
+制限を除き、)文字列の長さ、BLOBの長さ、数値の長さに長さ制限を課しません。</p>
 
 <blockquote> 
 <table border="1" cellpadding="5">
-<tr><th>Example Typenames From The<br>CREATE TABLE Statement<br>
-        or CAST Expression
-    </th><th>Resulting Affinity
-    </th><th>Rule Used To Determine Affinity
+<tr><th>CREATE TABLE<br>ステートメントまたは<br>
+        CAST 式からの型名の例
+    </th><th>結果の好相性
+    </th><th>好相性の決定に使われた規則番号
 
 </th></tr><tr><td align="center" valign="top">
   INT<br>
@@ -382,7 +337,7 @@ on the length of strings, BLOBs or numeric values.</p>
 
 </td></tr><tr><td align="center" valign="top">
   BLOB<br>
-  <i>no datatype specified</i>
+  <i>データ型指定無し</i>
 </td><td align="center">BLOB
 </td><td align="center">3
 
@@ -405,48 +360,42 @@ on the length of strings, BLOBs or numeric values.</p>
 </td></tr></table>
 </blockquote>
 
-<p>Note that a declared type of "FLOATING POINT" would give INTEGER affinity,
-not REAL affinity, due to the "INT" at the end of "POINT".  And the declared
-type of "STRING" has an affinity of NUMERIC, not TEXT.  <a
-name="expraff"></a>
+<p>注意: "FLOATING POINT" と宣言された型は、 "POINT" の末尾に "INT" があるため、 REAL 好相性ではなく、
+INTEGER 好相性 を与えることに注意してください。 そして "STRING" と宣言された型は、 TEXT ではなく NUMERIC
+好相性があります。 <a name="expraff"></a>
 
-</p><h2 id="affinity_of_expressions"><span>3.2. </span>Affinity Of Expressions</h2>
+</p><h2 id="affinity_of_expressions"><span>3.2. </span>式の好相性</h2>
 
-<p>Every table column has a type affinity (one of BLOB, TEXT, INTEGER, REAL, or
-NUMERIC) but expressions do not necessarily have an affinity.
+<p>すべてのテーブル列には型の好相性(BLOB、TEXT、INTEGER、REAL、NUMERIC のいずれか) がありますが、
+式には必ずしも好相性があるとは限りません。
 
-</p><p>Expression affinity is determined by the following rules:
+</p><p>式の好相性は、以下のルールによって決定されます:
 
 <ul>
-  <li>The right-hand operand of an IN or NOT IN operator has no affinity if the
-operand is a list, or has the same affinity as the affinity of the result
-set expression if the operand is a SELECT.
+  <li>IN または NOT IN 演算子の右側のオペランドは、 オペランドがリストの場合は好相性(affinity)を持たず、 オペランドが SELECT
+の場合は結果セット式の好相性と同じ好相性を持ちます。
 
-  </li><li>When an expression is a simple reference to a column of a real table (not a
-<a href="lang_createview.html">VIEW</a> or subquery) then the expression has
-the same affinity as the table column.
+  </li><li>式が(<a href="lang_createview.html">VIEW</a>
+またはサブクエリではない、)実際のテーブルの列への単純な参照である場合、 式はテーブルの列と同じ好相性を持ちます。
   <ul>
-  <li>Parentheses around the column name are ignored.  Hence if X and Y.Z are
-column names, then (X) and (Y.Z) are also considered column names and have
-the affinity of the corresponding columns.
+  <li>列名を囲む丸括弧(parentheses)は無視されます。 したがって、 X と Y.Z が列名の場合、 (X) と (Y.Z) も列名と見なされ、
+対応する列の好相性があります。
   </li><li>
-  Any operators applied to column names, including the no-op unary "+"
-operator, convert the column name into an expression which always has no
-affinity.  Hence even if X and Y.Z are column names, the expressions +X and
-+Y.Z are not column names and have no affinity.
+  no-op の "+" 単項演算子を含め、 列名に適用されるすべての演算子は、 列名を常に好相性のない式に変換します。  したがって、 X と Y.Z
+が列名であっても、 式 +X と +Y.Z は列名ではなく、 好相性はありません。
   </li></ul>
 
-  </li><li><p>An expression of the form "CAST(<i>expr</i> AS <i>type</i>)" has an affinity
-that is the same as a column with a declared type of "<i>type</i>".
+  </li><li><p>"CAST(<i>expr</i> AS <i>type</i>)" という形式の式には、 宣言された型 "<i>type</i>"
+を持つ列と同じ好相性があります。
 
-  </p></li><li><p>A COLLATE operator has the same affinity as its left-hand side operand.
+  </p></li><li><p>COLLATE 演算子は、 左側のオペランドと同じ好相性を持ちます。
 
-  </p></li><li><p>Otherwise, an expression has no affinity.
+  </p></li><li><p>それ以外の場合、 式には好相性がありません。
 </li></ul>
 
 <a name="affview"></a>
 
-<h2 id="column_affinity_for_views_and_subqueries"><span>3.3. </span>Column Affinity For Views And Subqueries</h2>
+<h2 id="column_affinity_for_views_and_subqueries"><span>3.3. </span>View とサブクエリの 列好相性</h2>
 
 <p>The "columns" of a <a href="lang_createview.html">VIEW</a> or FROM-clause
 subquery are really the expressions in the result set of the <a
@@ -464,7 +413,7 @@ CREATE VIEW v1(x,y,z) AS SELECT b, a+c, 42 FROM t1 WHERE b!=11;
 have no affinity, since those columns map into expression a+c and 42, and
 expressions always have no affinity.  <a name="affcompoundview"></a>
 
-</p><h3 id="column_affinity_for_compound_views"><span>3.3.1. </span>Column Affinity For Compound Views</h3>
+</p><h3 id="column_affinity_for_compound_views"><span>3.3.1. </span>複合Viewの列好相性</h3>
 
 <p>When the <a href="lang_select.html">SELECT</a> statement that implements a
 <a href="lang_createview.html">VIEW</a> or FROM-clause subquery is a <a
@@ -487,7 +436,7 @@ can lead to surprising and unintuitive results.  See, for example, <a
 href="https://sqlite.org/forum/forumpost/02d7be94d7">forum post
 02d7be94d7</a>.
 
-</p><h2 id="column_affinity_behavior_example"><span>3.4. </span>Column Affinity Behavior Example</h2>
+</p><h2 id="column_affinity_behavior_example"><span>3.4. </span>列好相性の振る舞いの例</h2>
 
 <p>The following SQL demonstrates how SQLite uses column affinity to do type
 conversions when values are inserted into a table.</p>
@@ -495,37 +444,37 @@ conversions when values are inserted into a table.</p>
 <blockquote>
 <pre>
 CREATE TABLE t1(
-    t  TEXT,     -- text affinity by rule 2
-    nu NUMERIC,  -- numeric affinity by rule 5
-    i  INTEGER,  -- integer affinity by rule 1
-    r  REAL,     -- real affinity by rule 4
-    no BLOB      -- no affinity by rule 3
+    t  TEXT,     -- TEXT好相性。規則2による
+    nu NUMERIC,  -- NUMERIC好相性。規則5による
+    i  INTEGER,  -- INTEGER好相性。規則1による
+    r  REAL,     -- REAL好相性。規則4による
+    no BLOB      -- 好相性なし。規則3による
 );
 
--- Values stored as TEXT, INTEGER, INTEGER, REAL, TEXT.
+-- それぞれ TEXT, INTEGER, INTEGER, REAL, TEXT として格納される
 INSERT INTO t1 VALUES('500.0', '500.0', '500.0', '500.0', '500.0');
 SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;
 text|integer|integer|real|text
 
--- Values stored as TEXT, INTEGER, INTEGER, REAL, REAL.
+-- それぞれ TEXT, INTEGER, INTEGER, REAL, REAL として格納される
 DELETE FROM t1;
 INSERT INTO t1 VALUES(500.0, 500.0, 500.0, 500.0, 500.0);
 SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;
 text|integer|integer|real|real
 
--- Values stored as TEXT, INTEGER, INTEGER, REAL, INTEGER.
+-- それぞれ TEXT, INTEGER, INTEGER, REAL, INTEGER として格納される
 DELETE FROM t1;
 INSERT INTO t1 VALUES(500, 500, 500, 500, 500);
 SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;
 text|integer|integer|real|integer
 
--- BLOBs are always stored as BLOBs regardless of column affinity.
+-- BLOB は、列の好相性に関係なく、常に BLOB として格納されます
 DELETE FROM t1;
 INSERT INTO t1 VALUES(x'0500', x'0500', x'0500', x'0500', x'0500');
 SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;
 blob|blob|blob|blob|blob
 
--- NULLs are also unaffected by affinity
+-- NULL も好相性の影響を受けません
 DELETE FROM t1;
 INSERT INTO t1 VALUES(NULL,NULL,NULL,NULL,NULL);
 SELECT typeof(t), typeof(nu), typeof(i), typeof(r), typeof(no) FROM t1;
@@ -535,13 +484,13 @@ null|null|null|null|null
 
 <a name="comparisons"></a>
 
-<h1 id="comparison_expressions"><span>4. </span>Comparison Expressions</h1>
+<h1 id="comparison_expressions"><span>4. </span>比較式</h1>
 
-<p>SQLite version 3 has the usual set of SQL comparison operators including
-"=", "==", "&lt;", "&lt;=", "&gt;", "&gt;=", "!=", "", "IN", "NOT IN",
-"BETWEEN", "IS", and "IS NOT", .  <a name="sortorder"></a>
+<p>SQLite バージョン 3 には、SQL 比較演算子の通常のセットがあります。 "=", "==", "&lt;", "&lt;=", "&gt;",
+"&gt;=", "!=", "", "IN", "NOT IN", "BETWEEN", "IS", "IS NOT" です。 (訳注:
+念の為いうと、"=&lt;" とか  "=&gt;" とか無い) <a name="sortorder"></a>
 
-</p><h2 id="sort_order"><span>4.1. </span>Sort Order</h2>
+</p><h2 id="sort_order"><span>4.1. </span>並べ替え順</h2>
 
 <p>The results of a comparison depend on the storage classes of the operands,
 according to the following rules:</p>
@@ -561,7 +510,7 @@ an appropriate collating sequence is used to determine the result.
 
 <a name="compaff"></a>
 
-<h2 id="type_conversions_prior_to_comparison"><span>4.2. </span>Type Conversions Prior To Comparison</h2>
+<h2 id="type_conversions_prior_to_comparison"><span>4.2. </span>比較前の型変換</h2>
 
 <p>SQLite may attempt to convert values between the storage classes INTEGER,
 REAL, and/or TEXT before performing a comparison.  Whether or not any
@@ -601,63 +550,63 @@ example) are considered to have no affinity, even if they happen to be
 column values or CAST expressions.  
 </p>
 
-<h2 id="comparison_example"><span>4.3. </span>Comparison Example</h2>
+<h2 id="comparison_example"><span>4.3. </span>比較の例</h2>
 
 <blockquote>
 <pre>
 CREATE TABLE t1(
-    a TEXT,      -- text affinity
-    b NUMERIC,   -- numeric affinity
-    c BLOB,      -- no affinity
-    d            -- no affinity
+    a TEXT,      -- TEXT好相性
+    b NUMERIC,   -- NUMERIC好相性
+    c BLOB,      -- 好相性なし
+    d            -- 好相性なし
 );
 
--- Values will be stored as TEXT, INTEGER, TEXT, and INTEGER respectively
+-- 値は、それぞれ TEXT、INTEGER、TEXT、INTEGER として格納されるでしょう
 INSERT INTO t1 VALUES('500', '500', '500', 500);
 SELECT typeof(a), typeof(b), typeof(c), typeof(d) FROM t1;
 text|integer|text|integer
 
--- Because column "a" has text affinity, numeric values on the
--- right-hand side of the comparisons are converted to text before
--- the comparison occurs.
+-- 列 "a" にはTEXT好相性があるため、 
+-- 比較の右側の数値は、
+-- 比較が行われる前にTEXTに変換されます。
 SELECT a &lt; 40,   a &lt; 60,   a &lt; 600 FROM t1;
 0|1|1
 
--- Text affinity is applied to the right-hand operands but since
--- they are already TEXT this is a no-op; no conversions occur.
+-- TEXT好相性が右側のオペランドに適用されますが、
+-- それらは既に TEXT であるため、 何もしません。 変換は発生しません。
 SELECT a &lt; '40', a &lt; '60', a &lt; '600' FROM t1;
 0|1|1
 
--- Column "b" has numeric affinity and so numeric affinity is applied
--- to the operands on the right.  Since the operands are already numeric,
--- the application of affinity is a no-op; no conversions occur.  All
--- values are compared numerically.
+-- 列 "b" には NUMERIC 好相性があるため、 右側のオペランドに
+-- NUMERIC 好相性が適用されます。 オペランドはすでに数値(NUMERIC)であるため、
+-- 好相性適用操作は行われず、 変換は発生しません。
+-- よって、 すべての値が数値的に比較されます。
 SELECT b &lt; 40,   b &lt; 60,   b &lt; 600 FROM t1;
 0|0|1
 
--- Numeric affinity is applied to operands on the right, converting them
--- from text to integers.  Then a numeric comparison occurs.
+-- 右側のオペランドにNUMERIC好相性が適用され、
+-- テキストから整数に変換されます。 それに続いて数値比較が行われます。
 SELECT b &lt; '40', b &lt; '60', b &lt; '600' FROM t1;
 0|0|1
 
--- No affinity conversions occur.  Right-hand side values all have
--- storage class INTEGER which are always less than the TEXT values
--- on the left.
+-- 好相性変換は発生しません。
+-- 右側の値はすべて格納クラス INTEGER を持ち、
+-- 常に左側の TEXT 値よりも小さいです。
 SELECT c &lt; 40,   c &lt; 60,   c &lt; 600 FROM t1;
 0|0|0
 
--- No affinity conversions occur.  Values are compared as TEXT.
+-- 好相性変換は発生しません。 値は TEXT として比較されます。
 SELECT c &lt; '40', c &lt; '60', c &lt; '600' FROM t1;
 0|1|1
 
--- No affinity conversions occur.  Right-hand side values all have
--- storage class INTEGER which compare numerically with the INTEGER
--- values on the left.
+-- 好相性変換は発生しません。
+-- 右側の値はすべて、
+-- 左側の INTEGER 値と数値的に比較する、 格納クラス INTEGER を持ちます。
 SELECT d &lt; 40,   d &lt; 60,   d &lt; 600 FROM t1;
 0|0|1
 
--- No affinity conversions occur.  INTEGER values on the left are
--- always less than TEXT values on the right.
+-- 好相性変換は発生しません。
+-- 左側の INTEGER 値は、 常に右側の TEXT 値より小さくなります。
 SELECT d &lt; '40', d &lt; '60', d &lt; '600' FROM t1;
 1|1|1
 </pre>
@@ -666,7 +615,7 @@ SELECT d &lt; '40', d &lt; '60', d &lt; '600' FROM t1;
 <p>All of the results in the example are the same if the comparisons are
 commuted - if expressions of the form "a&lt;40" are rewritten as "40&gt;a".
 
-</p><h1 id="operators"><span>5. </span>Operators</h1>
+</p><h1 id="operators"><span>5. </span>演算子</h1>
 
 <p>Mathematical operators (+, -, *, /, %, &lt;&lt;, &gt;&gt;, &amp;, and |)
 interpret both operands as if they were numbers.  STRING or BLOB operands
@@ -692,7 +641,7 @@ numeric and is not NULL is converted to 0 or 0.0.  Division by zero gives a
 result of NULL.
 </p>
 
-<h1 id="sorting_grouping_and_compound_selects"><span>6. </span>Sorting, Grouping and Compound SELECTs</h1>
+<h1 id="sorting_grouping_and_compound_selects"><span>6. </span>並べ替え(sorting)と集計(grouping)と複合(compound)SELECT</h1>
 
 <p>When query results are sorted by an ORDER BY clause, values with storage
 class NULL come first, followed by INTEGER and REAL values interspersed in
@@ -712,12 +661,11 @@ the values are compared as is.</p>
 
 <a name="collation"></a>
 
-<h1 id="collating_sequences"><span>7. </span>Collating Sequences</h1>
+<h1 id="collating_sequences"><span>7. </span>照合シーケンス(Collating Sequences)</h1>
 
-<p>When SQLite compares two strings, it uses a collating sequence or collating
-function (two terms for the same thing) to determine which string is greater
-or if the two strings are equal.  SQLite has three built-in collating
-functions: BINARY, NOCASE, and RTRIM.</p>
+<p>SQLite が 2 つの文字列を比較するとき、 照合シーケンス(collating sequence)または照合関数collating
+function (同じことを表す 2 つの用語) を使用して、 どちらの文字列が大きいか、 または 2 つの文字列が等しいかどうかを判断します。
+SQLite には、 BINARY と NOCASE と RTRIM の 3 つの組み込み照合関数(collating functions)があります。</p>
 
 <ul>
 <li><b>BINARY</b> - Compares string data using memcmp(), regardless of text
@@ -731,8 +679,7 @@ folding due to the size of the tables required.  Also note that any U+0000
 characters in the string are considered string terminators for comparison
 purposes.
 
-</li><li><b>RTRIM</b> - The same as binary, except that trailing space characters are
-ignored.</li>
+</li><li><b>RTRIM</b> - 末尾のスペース文字が無視されることを除いて、 BINARYと同一です。 (訳注: Right TRIM → RTRIM)</li>
 </ul>
 
 <p>An application can register additional collating functions using the <a
@@ -742,7 +689,7 @@ href="c3ref/create_collation.html">sqlite3_create_collation()</a> interface.</p>
 values are always compared numerically, and BLOBs are always compared
 byte-by-byte using memcmp().</p>
 
-<h2 id="assigning_collating_sequences_from_sql"><span>7.1. </span>Assigning Collating Sequences from SQL</h2>
+<h2 id="assigning_collating_sequences_from_sql"><span>7.1. </span>SQL から照合シーケンスを割り当てる</h2>
 
 <p>
 Every column of every table has an associated collating function.  If no
@@ -813,7 +760,7 @@ expression is not a column and has no COLLATE clause, then the BINARY
 collating sequence is used.
 </p>  
 
-<h2 id="collation_sequence_examples"><span>7.2. </span>Collation Sequence Examples</h2>
+<h2 id="collation_sequence_examples"><span>7.2. </span>照合シーケンス(Collation Sequence)の例</h2>
 <p>
 The examples below identify the collating sequences that would be used to
 determine the results of text comparisons that may be performed by various
@@ -824,60 +771,67 @@ collating sequence used, in the case of numeric, blob or NULL values.
 <pre>
 CREATE TABLE t1(
     x INTEGER PRIMARY KEY,
-    a,                 /* collating sequence BINARY */
-    b COLLATE BINARY,  /* collating sequence BINARY */
-    c COLLATE RTRIM,   /* collating sequence RTRIM  */
-    d COLLATE NOCASE   /* collating sequence NOCASE */
+    a,                 /* 照合シーケンス BINARY */
+    b COLLATE BINARY,  /* 照合シーケンス BINARY */
+    c COLLATE RTRIM,   /* 照合シーケンス RTRIM  */
+    d COLLATE NOCASE   /* 照合シーケンス NOCASE */
 );
                    /* x   a     b     c       d */
 INSERT INTO t1 VALUES(1,'abc','abc', 'abc  ','abc');
 INSERT INTO t1 VALUES(2,'abc','abc', 'abc',  'ABC');
 INSERT INTO t1 VALUES(3,'abc','abc', 'abc ', 'Abc');
 INSERT INTO t1 VALUES(4,'abc','abc ','ABC',  'abc');
- 
-/* Text comparison a=b is performed using the BINARY collating sequence. */
+
+/* 訳注:
+1行目: c の後ろに空白2つ
+2行目: d 大文字ABC
+3行目: c 後ろ空白1つ、 d 大文字小文字混在
+4行目: b 後ろ空白1つ、 c 大文字ABC
+*/
+
+/* テキスト比較 a = b は、 BINARY 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 WHERE a = b ORDER BY x;
 --result 1 2 3
 
-/* Text comparison a=b is performed using the RTRIM collating sequence. */
+/* テキスト比較 a = b は、 RTRIM 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 WHERE a = b COLLATE RTRIM ORDER BY x;
 --result 1 2 3 4
 
-/* Text comparison d=a is performed using the NOCASE collating sequence. */
+/* テキスト比較 d = a は、NOCASE 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 WHERE d = a ORDER BY x;
 --result 1 2 3 4
 
-/* Text comparison a=d is performed using the BINARY collating sequence. */
+/* テキスト比較 a = d は、 BINARY 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 WHERE a = d ORDER BY x;
 --result 1 4
 
-/* Text comparison 'abc'=c is performed using the RTRIM collating sequence. */
+/* テキスト比較 'abc' = c は、RTRIM 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 WHERE 'abc' = c ORDER BY x;
 --result 1 2 3
 
-/* Text comparison c='abc' is performed using the RTRIM collating sequence. */
+/* テキスト比較 c = 'abc' は、 RTRIM 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 WHERE c = 'abc' ORDER BY x;
 --result 1 2 3
 
-/* Grouping is performed using the NOCASE collating sequence (Values
-** 'abc', 'ABC', and 'Abc' are placed in the same group). */
+/* グループ化は、 NOCASE 照合シーケンスを使用して実行されます。
+** (値 'abc' と 'ABC' と 'Abc' は同一グループに配置されます) */
 SELECT count(*) FROM t1 GROUP BY d ORDER BY 1;
 --result 4
 
-/* Grouping is performed using the BINARY collating sequence.  'abc' and
-** 'ABC' and 'Abc' form different groups */
+/* グループ化は、 BINARY 照合シーケンスを使用して実行されます。
+** 'abc' と 'ABC' と 'Abc' は異なるグループを形成します */
 SELECT count(*) FROM t1 GROUP BY (d || '') ORDER BY 1;
 --result 1 1 2
 
-/* Sorting or column c is performed using the RTRIM collating sequence. */
+/* ソートまたは列 c は、 RTRIM 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 ORDER BY c, x;
 --result 4 1 2 3
 
-/* Sorting of (c||'') is performed using the BINARY collating sequence. */
+/* (c||'') のソートは、 BINARY 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 ORDER BY (c||''), x;
 --result 4 2 3 1
 
-/* Sorting of column c is performed using the NOCASE collating sequence. */
+/* 列 c のソートは、 NOCASE 照合シーケンスを使用して実行されます。 */
 SELECT x FROM t1 ORDER BY c COLLATE NOCASE, x;
 --result 2 4 3 1
 </pre>
