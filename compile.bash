@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/bash -x
 PROJ=${HOME}/work/sqlite-docs-ja
 SEDOUT_DIR=${PROJ}/sedout
 PO_DIR=${PROJ}/po
