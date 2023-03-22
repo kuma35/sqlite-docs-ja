@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-15 23:04+0900\n"
-"PO-Revision-Date: 2023-03-16 10:30+0900\n"
+"PO-Revision-Date: 2023-03-22 18:47+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -23,7 +23,7 @@ msgstr "SQLite Home Page"
 #. type: Content of: <html><body><div><a>
 #: sedout/index.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/index.html:12
@@ -33,221 +33,221 @@ msgstr "SQLite"
 #. type: Content of: <html><body><div><div>
 #: sedout/index.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/index.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/index.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/index.html:21
 msgid ""
 "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/index.html:22 sedout/index.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/index.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/index.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/index.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/index.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/index.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/index.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/index.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/index.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/index.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/index.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/index.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/index.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/index.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/index.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><p><p><p><div><h3>
 #: sedout/index.html:123 sedout/index.html:199
 msgid "Common Links"
-msgstr ""
+msgstr "関連リンク"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:125 sedout/index.html:201
 msgid "<a href=\"features.html\">Features</a>"
-msgstr ""
+msgstr "<a href=\"features.html\">機能</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:126 sedout/index.html:202
 msgid "<a href=\"whentouse.html\">When to use SQLite</a>"
-msgstr ""
+msgstr "<a href=\"whentouse.html\">SQLiteを使用すべき時</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:127 sedout/index.html:203
 msgid "<a href=\"quickstart.html\">Getting Started</a>"
-msgstr ""
+msgstr "<a href=\"quickstart.html\">入門</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:128 sedout/index.html:204
 msgid "<a href=\"https://sqlite.org/fiddle\">Try it live!</a>"
-msgstr ""
+msgstr "<a href=\"https://sqlite.org/fiddle\">Web上で試す(別サイト)</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:129 sedout/index.html:205
 msgid "<a href=\"chronology.html\">Prior Releases</a>"
-msgstr ""
+msgstr "<a href=\"chronology.html\">過去のリリース</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li>
 #: sedout/index.html:130 sedout/index.html:206
 msgid "<a href=\"lang.html\">SQL Syntax</a>"
-msgstr ""
+msgstr "<a href=\"lang.html\">SQL 文法</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li>
 #: sedout/index.html:132 sedout/index.html:208
 msgid "<a href=\"pragma.html#toc\">Pragmas</a>"
-msgstr ""
+msgstr "<a href=\"pragma.html#toc\">プラグマ</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li>
 #: sedout/index.html:133 sedout/index.html:209
 msgid "<a href=\"lang_corefunc.html\">SQL functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_corefunc.html\">SQL 関数</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li>
 #: sedout/index.html:134 sedout/index.html:210
 msgid "<a href=\"lang_datefunc.html\">Date &amp; time functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_datefunc.html\">日付と時刻 関数</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li>
 #: sedout/index.html:135 sedout/index.html:211
 msgid "<a href=\"lang_aggfunc.html#aggfunclist\">Aggregate functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_aggfunc.html#aggfunclist\">集計(aggregate)関数</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li><li>
 #: sedout/index.html:136 sedout/index.html:212
 msgid "<a href=\"windowfunctions.html#biwinfunc\">Window functions</a>"
-msgstr ""
+msgstr "<a href=\"windowfunctions.html#biwinfunc\">window 関数</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li><li><li>
 #: sedout/index.html:137 sedout/index.html:213
 msgid "<a href=\"lang_mathfunc.html\">Math functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_mathfunc.html\">算術関数</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/index.html:138 sedout/index.html:214
 msgid "<a href=\"json1.html\">JSON functions</a>"
-msgstr ""
+msgstr "<a href=\"json1.html\">JSON 関数</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li>
 #: sedout/index.html:141 sedout/index.html:217
 msgid "<a href=\"c3ref/intro.html\">C/C++ Interface Spec</a>"
-msgstr ""
+msgstr "<a href=\"c3ref/intro.html\">C/C++ インターフェイス仕様</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li>
 #: sedout/index.html:143 sedout/index.html:219
 msgid "<a href=\"cintro.html\">Introduction</a>"
-msgstr ""
+msgstr "<a href=\"cintro.html\">C/C++インターフェイス 導入</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li>
 #: sedout/index.html:144 sedout/index.html:220
 msgid "<a href=\"c3ref/funclist.html\">List of C-language APIs</a>"
-msgstr ""
+msgstr "<a href=\"c3ref/funclist.html\">C言語API リスト</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li>
 #: sedout/index.html:147 sedout/index.html:223
 msgid "<a href=\"tclsqlite.html\">The TCL Interface Spec</a>"
-msgstr ""
+msgstr "<a href=\"tclsqlite.html\">TCL インターフェイス仕様</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:148 sedout/index.html:224
 msgid "<a href=\"quirks.html\">Quirks and Gotchas</a>"
-msgstr ""
+msgstr "<a href=\"quirks.html\">癖と落とし穴</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:149 sedout/index.html:225
 msgid "<a href=\"faq.html\">Frequently Asked Questions</a>"
-msgstr ""
+msgstr "<a href=\"faq.html\">F.A.Q.</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:150 sedout/index.html:226
 msgid ""
 "<a href=\"http://www.sqlite.org/src/timeline?n=100&y=ci\">Commit History</a>"
-msgstr ""
+msgstr "<a href=\"http://www.sqlite.org/src/timeline?n=100&y=ci\">コミット履歴</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:151 sedout/index.html:227
 msgid "<a href=\"http://www.sqlite.org/src/wiki?name=Bug+Reports\">Bugs</a>"
-msgstr ""
+msgstr "<a href=\"http://www.sqlite.org/src/wiki?name=Bug+Reports\">バグ</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:152 sedout/index.html:228
 msgid "<a href=\"news.html\">News</a>"
-msgstr ""
+msgstr "<a href=\"news.html\">ニュース</a>"
 
 #. type: Content of: <html><body><h3>
 #: sedout/index.html:157
 msgid "What Is SQLite?"
-msgstr ""
+msgstr "SQLite とは何か？"
 
 #. type: Content of: <html><body><p>
 #: sedout/index.html:159
@@ -260,7 +260,7 @@ msgid ""
 "engine in the world.  SQLite is built into all mobile phones and most "
 "computers and comes bundled inside countless other applications that people "
 "use every day.  <a href=\"about.html\">More Information...</a>"
-msgstr ""
+msgstr "SQLite は、 <a href=\"footprint.html\">小さくて</a>、 <a href=\"fasterthanfs.html\">高速で</a>、 <a href=\"selfcontained.html\">自己完結型で</a>、 <a href=\"hirely.html\">高信頼性</a>で、 <a href=\"fullsql.html\">フル機能</a>の SQL データベース・エンジンを実装する C 言語ライブラリです。 SQLite は、 世界で<a href=\"mostdeployed.html\">最も使用されている</a>データベース・エンジンです。 SQLite は、 すべての携帯電話とほとんどのコンピューターに組み込まれており、 人々が毎日使用する無数の他のアプリケーションにバンドルされています。 <a href=\"about.html\">詳しくはコチラ</a>"
 
 #. type: Content of: <html><body><p><p>
 #: sedout/index.html:173
@@ -274,7 +274,7 @@ msgid ""
 "archival format for data <a href=\"locrsf.html\">&#91;4&#93;</a>.  There are "
 "over 1 trillion (1e12)  SQLite databases in active use <a "
 "href=\"mostdeployed.html\">&#91;5&#93;</a>."
-msgstr ""
+msgstr "SQLite ファイル形式は安定しており、クロスプラットフォームで下位互換性があり、開発者は 2050 年までそれを維持することを約束しています。SQLite データベース ファイルは、 システム間でリッチ・コンテンツを転送するためのコンテナーとして(<a href=\"aff_short.html\">&#91;1&#93;</a> <a href=\"sqlar.html\">&#91;2&#93;</a> <a href=\"appfileformat.html\">&#91;3&#93;</a>)、 そして、 データの長期アーカイブ形式として(<a href=\"locrsf.html\">&#91;4&#93;</a>)、 一般的に使用されます。 1兆 (1e12) を超える SQLite データベースがアクティブに使用されています(<a href=\"mostdeployed.html\">&#91;5&#93;</a>)。"
 
 #. type: Content of: <html><body><p><p><p>
 #: sedout/index.html:189
@@ -282,12 +282,12 @@ msgid ""
 "SQLite <a href=\"https://sqlite.org/src\">source code</a> is in the <a "
 "href=\"copyright.html\">public-domain</a> and is free to everyone to use for "
 "any purpose."
-msgstr ""
+msgstr "SQLite の<a href=\"https://sqlite.org/src\">ソース・コード</a>は<a href=\"copyright.html\">パブリック・ドメイン</a>で、誰でも自由に目的を問わず使用できます。"
 
 #. type: Content of: <html><body><p><p><p><h3>
 #: sedout/index.html:193
 msgid "Latest Release"
-msgstr ""
+msgstr "最新リリース"
 
 #. type: Content of: <html><body><p><p><p>
 #: sedout/index.html:194
@@ -295,26 +295,26 @@ msgid ""
 "<a href=\"releaselog/3_41_1.html\">Version 3.41.1</a> (2023-03-10).  <a "
 "class=\"button\" href=\"download.html\">Download</a> <a class=\"button\" "
 "href=\"chronology.html\">Prior Releases</a>"
-msgstr ""
+msgstr "<a href=\"releaselog/3_41_1.html\">Version 3.41.1</a> (2023-03-10).  <a class=\"button\" href=\"download.html\">ダウンロード</a> <a class=\"button\" href=\"chronology.html\">過去のリリース</a>"
 
 #. type: Content of: <html><body><p><p><p><br><hr><p>
 #: sedout/index.html:235
 msgid ""
 "Ongoing development and support of SQLite is made possible in part by <a "
 "href=\"consortium.html\">SQLite Consortium</a> members, including:"
-msgstr ""
+msgstr "SQLite の継続的な開発とサポートは、一部は以下の <a href=\"consortium.html\">SQLite コンソーシアム</a> のメンバーによって実現されています:"
 
 #. type: Content of: <html><body><p><p><p><br><hr>
 #: sedout/index.html:237
 msgid "<a name=\"consortium_members\"></a>"
-msgstr ""
+msgstr "<a name=\"consortium_members\"></a>"
 
 #. type: Content of: <html><body><p><p><p><br><hr><style>
 #: sedout/index.html:239
 msgid ""
 "#sponsors { margin:auto; width:80%; } .onesponsor a img { width:200px; max-"
 "width:200px; padding:1ex; }"
-msgstr ""
+msgstr "#sponsors { margin:auto; width:80%; } .onesponsor a img { width:200px; max-width:200px; padding:1ex; }"
 
 #. type: Content of: <html><body><p><p><p><br><hr><br><hr><p>
 #: sedout/index.html:291
@@ -322,4 +322,4 @@ msgid ""
 "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
 "honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
 "pages/index.in?m=c6a3d10c19\">2023-03-10 11:42:23</a> UTC </i></small>"
-msgstr ""
+msgstr "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/pages/index.in?m=c6a3d10c19\">2023-03-10 11:42:23</a> UTC </i></small>"

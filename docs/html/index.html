@@ -122,113 +122,106 @@ antiRobotDefense();
 
 
 <div class="rightsidebar desktoponly border2px">
-<h3 align="center">Common Links</h3>
+<h3 align="center">関連リンク</h3>
 <ul class=nounderline>
-<li> <a href="features.html">Features</a> </li>
-<li> <a href="whentouse.html">When to use SQLite</a> </li>
-<li> <a href="quickstart.html">Getting Started</a> </li>
-<li> <a href="https://sqlite.org/fiddle">Try it live!</a></li>
-<li> <a href="chronology.html">Prior Releases</a>
-<li> <a href="lang.html">SQL Syntax</a>
+<li> <a href="features.html">機能</a> </li>
+<li> <a href="whentouse.html">SQLiteを使用すべき時</a> </li>
+<li> <a href="quickstart.html">入門</a> </li>
+<li> <a href="https://sqlite.org/fiddle">Web上で試す(別サイト)</a></li>
+<li> <a href="chronology.html">過去のリリース</a>
+<li> <a href="lang.html">SQL 文法</a>
 <ul>
-<li> <a href="pragma.html#toc">Pragmas</a>
-<li> <a href="lang_corefunc.html">SQL functions</a>
-<li> <a href="lang_datefunc.html">Date &amp; time functions</a>
-<li> <a href="lang_aggfunc.html#aggfunclist">Aggregate functions</a>
-<li> <a href="windowfunctions.html#biwinfunc">Window functions</a>
-<li> <a href="lang_mathfunc.html">Math functions</a>
-<li> <a href="json1.html">JSON functions</a>
+<li> <a href="pragma.html#toc">プラグマ</a>
+<li> <a href="lang_corefunc.html">SQL 関数</a>
+<li> <a href="lang_datefunc.html">日付と時刻 関数</a>
+<li> <a href="lang_aggfunc.html#aggfunclist">集計(aggregate)関数</a>
+<li> <a href="windowfunctions.html#biwinfunc">window 関数</a>
+<li> <a href="lang_mathfunc.html">算術関数</a>
+<li> <a href="json1.html">JSON 関数</a>
 </ul>
 </li>
-<li> <a href="c3ref/intro.html">C/C++ Interface Spec</a>
+<li> <a href="c3ref/intro.html">C/C++ インターフェイス仕様</a>
 <ul>
-<li> <a href="cintro.html">Introduction</a>
-<li> <a href="c3ref/funclist.html">List of C-language APIs</a>
+<li> <a href="cintro.html">C/C++インターフェイス 導入</a>
+<li> <a href="c3ref/funclist.html">C言語API リスト</a>
 </ul>
 </li>
-<li> <a href="tclsqlite.html">The TCL Interface Spec</a>
-<li> <a href="quirks.html">Quirks and Gotchas</a> </li>
-<li> <a href="faq.html">Frequently Asked Questions</a> </li>
-<li> <a href="http://www.sqlite.org/src/timeline?n=100&y=ci">Commit History</a> </li>
-<li> <a href="http://www.sqlite.org/src/wiki?name=Bug+Reports">Bugs</a> </li>
-<li> <a href="news.html">News</a> </li>
+<li> <a href="tclsqlite.html">TCL インターフェイス仕様</a>
+<li> <a href="quirks.html">癖と落とし穴</a> </li>
+<li> <a href="faq.html">F.A.Q.</a> </li>
+<li> <a href="http://www.sqlite.org/src/timeline?n=100&y=ci">コミット履歴</a> </li>
+<li> <a href="http://www.sqlite.org/src/wiki?name=Bug+Reports">バグ</a> </li>
+<li> <a href="news.html">ニュース</a> </li>
 </ul>
 
 </div>
 
-<h3>What Is SQLite?</h3>
+<h3>SQLite とは何か？</h3>
 
-<p>SQLite is a C-language library that implements a <a
-href="footprint.html">small</a>, <a href="fasterthanfs.html">fast</a>, <a
-href="selfcontained.html">self-contained</a>, <a
-href="hirely.html">high-reliability</a>, <a
-href="fullsql.html">full-featured</a>, SQL database engine.  SQLite is the
-<a href="mostdeployed.html">most used</a> database engine in the world.
-SQLite is built into all mobile phones and most computers and comes bundled
-inside countless other applications that people use every day.  <a
-href="about.html">More Information...</a>
+<p>SQLite は、 <a href="footprint.html">小さくて</a>、 <a
+href="fasterthanfs.html">高速で</a>、 <a href="selfcontained.html">自己完結型で</a>、
+<a href="hirely.html">高信頼性</a>で、 <a href="fullsql.html">フル機能</a>の SQL
+データベース・エンジンを実装する C 言語ライブラリです。 SQLite は、 世界で<a
+href="mostdeployed.html">最も使用されている</a>データベース・エンジンです。 SQLite は、
+すべての携帯電話とほとんどのコンピューターに組み込まれており、 人々が毎日使用する無数の他のアプリケーションにバンドルされています。 <a
+href="about.html">詳しくはコチラ</a>
 
 <p>
-The SQLite <a href="fileformat2.html">file format</a> is stable,
-cross-platform, and backwards compatible and the developers pledge to keep
-it that way <a href="lts.html">through the year 2050</a>.  SQLite database
-files are commonly used as containers to transfer rich content between
-systems <a href="aff_short.html">&#91;1&#93;</a> <a
-href="sqlar.html">&#91;2&#93;</a> <a
-href="appfileformat.html">&#91;3&#93;</a> and as a long-term archival format
-for data <a href="locrsf.html">&#91;4&#93;</a>.  There are over 1 trillion
-(1e12)  SQLite databases in active use <a
-href="mostdeployed.html">&#91;5&#93;</a>.
+SQLite ファイル形式は安定しており、クロスプラットフォームで下位互換性があり、開発者は 2050
+年までそれを維持することを約束しています。SQLite データベース ファイルは、 システム間でリッチ・コンテンツを転送するためのコンテナーとして(<a
+href="aff_short.html">&#91;1&#93;</a> <a href="sqlar.html">&#91;2&#93;</a>
+<a href="appfileformat.html">&#91;3&#93;</a>)、 そして、 データの長期アーカイブ形式として(<a
+href="locrsf.html">&#91;4&#93;</a>)、 一般的に使用されます。 1兆 (1e12) を超える SQLite
+データベースがアクティブに使用されています(<a href="mostdeployed.html">&#91;5&#93;</a>)。
 
 <p>
-SQLite <a href="https://sqlite.org/src">source code</a> is in the <a
-href="copyright.html">public-domain</a> and is free to everyone to use for
-any purpose.
+SQLite の<a href="https://sqlite.org/src">ソース・コード</a>は<a
+href="copyright.html">パブリック・ドメイン</a>で、誰でも自由に目的を問わず使用できます。
 
-<h3>Latest Release</h3>
+<h3>最新リリース</h3>
 <a href="releaselog/3_41_1.html">Version 3.41.1</a> (2023-03-10).  <a
-class="button" href="download.html">Download</a> <a class="button"
-href="chronology.html">Prior Releases</a>
+class="button" href="download.html">ダウンロード</a> <a class="button"
+href="chronology.html">過去のリリース</a>
 
 <div class="mobileonly">
-<h3>Common Links</h3>
+<h3>関連リンク</h3>
 <ul class=nounderline>
-<li> <a href="features.html">Features</a> </li>
-<li> <a href="whentouse.html">When to use SQLite</a> </li>
-<li> <a href="quickstart.html">Getting Started</a> </li>
-<li> <a href="https://sqlite.org/fiddle">Try it live!</a></li>
-<li> <a href="chronology.html">Prior Releases</a>
-<li> <a href="lang.html">SQL Syntax</a>
+<li> <a href="features.html">機能</a> </li>
+<li> <a href="whentouse.html">SQLiteを使用すべき時</a> </li>
+<li> <a href="quickstart.html">入門</a> </li>
+<li> <a href="https://sqlite.org/fiddle">Web上で試す(別サイト)</a></li>
+<li> <a href="chronology.html">過去のリリース</a>
+<li> <a href="lang.html">SQL 文法</a>
 <ul>
-<li> <a href="pragma.html#toc">Pragmas</a>
-<li> <a href="lang_corefunc.html">SQL functions</a>
-<li> <a href="lang_datefunc.html">Date &amp; time functions</a>
-<li> <a href="lang_aggfunc.html#aggfunclist">Aggregate functions</a>
-<li> <a href="windowfunctions.html#biwinfunc">Window functions</a>
-<li> <a href="lang_mathfunc.html">Math functions</a>
-<li> <a href="json1.html">JSON functions</a>
+<li> <a href="pragma.html#toc">プラグマ</a>
+<li> <a href="lang_corefunc.html">SQL 関数</a>
+<li> <a href="lang_datefunc.html">日付と時刻 関数</a>
+<li> <a href="lang_aggfunc.html#aggfunclist">集計(aggregate)関数</a>
+<li> <a href="windowfunctions.html#biwinfunc">window 関数</a>
+<li> <a href="lang_mathfunc.html">算術関数</a>
+<li> <a href="json1.html">JSON 関数</a>
 </ul>
 </li>
-<li> <a href="c3ref/intro.html">C/C++ Interface Spec</a>
+<li> <a href="c3ref/intro.html">C/C++ インターフェイス仕様</a>
 <ul>
-<li> <a href="cintro.html">Introduction</a>
-<li> <a href="c3ref/funclist.html">List of C-language APIs</a>
+<li> <a href="cintro.html">C/C++インターフェイス 導入</a>
+<li> <a href="c3ref/funclist.html">C言語API リスト</a>
 </ul>
 </li>
-<li> <a href="tclsqlite.html">The TCL Interface Spec</a>
-<li> <a href="quirks.html">Quirks and Gotchas</a> </li>
-<li> <a href="faq.html">Frequently Asked Questions</a> </li>
-<li> <a href="http://www.sqlite.org/src/timeline?n=100&y=ci">Commit History</a> </li>
-<li> <a href="http://www.sqlite.org/src/wiki?name=Bug+Reports">Bugs</a> </li>
-<li> <a href="news.html">News</a> </li>
+<li> <a href="tclsqlite.html">TCL インターフェイス仕様</a>
+<li> <a href="quirks.html">癖と落とし穴</a> </li>
+<li> <a href="faq.html">F.A.Q.</a> </li>
+<li> <a href="http://www.sqlite.org/src/timeline?n=100&y=ci">コミット履歴</a> </li>
+<li> <a href="http://www.sqlite.org/src/wiki?name=Bug+Reports">バグ</a> </li>
+<li> <a href="news.html">ニュース</a> </li>
 </ul>
 
 </div>
 
 <br clear="both">
 <hr class="xhr">
-<p>Ongoing development and support of SQLite is made possible in part by <a
-href="consortium.html">SQLite Consortium</a> members, including:</p>
+<p>SQLite の継続的な開発とサポートは、一部は以下の <a href="consortium.html">SQLite コンソーシアム</a>
+のメンバーによって実現されています:</p>
 <a name="consortium_members"></a>
 <style>
 #sponsors { margin:auto; width:80%; } .onesponsor a img { width:200px;
