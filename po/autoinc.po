@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-14 21:17+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-22 16:26+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,115 +18,115 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: sedout/autoinc.html:6 sedout/autoinc.html:121
 msgid "SQLite Autoincrement"
-msgstr ""
+msgstr "SQLite Autoincrement"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/autoinc.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/autoinc.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/autoinc.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/autoinc.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/autoinc.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/autoinc.html:21
 msgid ""
 "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/autoinc.html:22 sedout/autoinc.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/autoinc.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/autoinc.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/autoinc.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/autoinc.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/autoinc.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/autoinc.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/autoinc.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/autoinc.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/autoinc.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/autoinc.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/autoinc.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/autoinc.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/autoinc.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/autoinc.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/autoinc.html:53
@@ -158,12 +157,12 @@ msgid ""
 "antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
 "{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
 "antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/autoinc.html:128
 msgid "<span>1. </span>Summary"
-msgstr ""
+msgstr "<span>1. </span>Summary"
 
 #. type: Content of: <html><body><div><ol><li><p>
 #: sedout/autoinc.html:132
@@ -171,7 +170,7 @@ msgid ""
 "The AUTOINCREMENT keyword imposes extra CPU, memory, disk space, and disk I/"
 "O overhead and should be avoided if not strictly needed.  It is usually not "
 "needed."
-msgstr ""
+msgstr "AUTOINCREMENT キーワードは、 余分な CPUやメモリやディスク・スペースやディスク I/O オーバーヘッドを課すため、 厳密に必要でない場合は避ける必要があります。 通常は必要ありません。"
 
 #. type: Content of: <html><body><div><ol><li><p>
 #: sedout/autoinc.html:136
@@ -180,7 +179,7 @@ msgid ""
 "href=\"lang_createtable.html#rowid\">ROWID</a> (except in <a "
 "href=\"withoutrowid.html\">WITHOUT ROWID</a> tables) which is always a 64-"
 "bit signed integer."
-msgstr ""
+msgstr "SQLite では、 INTEGER PRIMARY KEY 型の列(column)は ( <a href=\"withoutrowid.html\">WITHOUT ROWID</a> であるテーブルを除く) <a href=\"lang_createtable.html#rowid\">ROWID</a> のエイリアスで、常に 64 ビットの符号付き整数です。"
 
 #. type: Content of: <html><body><div><ol><li><p>
 #: sedout/autoinc.html:139
@@ -190,7 +189,7 @@ msgid ""
 "automatically with an unused integer, usually one more than the largest "
 "ROWID currently in use.  This is true regardless of whether or not the "
 "AUTOINCREMENT keyword is used."
-msgstr ""
+msgstr "<a href=\"lang_insert.html\">INSERT</a> で、 ROWID または INTEGER PRIMARY KEY 列(column)に値が明示的に指定されていない場合、 未使用の整数 (通常は現在使用中の ROWID の最大値より 1 大きい値)が自動的に入力されます。 これは、 AUTOINCREMENT キーワードが使用されているかどうかに関係なく当てはまります。"
 
 #. type: Content of: <html><body><div><ol><li><p>
 #: sedout/autoinc.html:145
@@ -199,12 +198,12 @@ msgid ""
 "the automatic ROWID assignment algorithm to prevent the reuse of ROWIDs over "
 "the lifetime of the database.  In other words, the purpose of AUTOINCREMENT "
 "is to prevent the reuse of ROWIDs from previously deleted rows."
-msgstr ""
+msgstr "INTEGER PRIMARY KEY の後に AUTOINCREMENT キーワードを指定した場合、 自動 ROWID 割り当てアルゴリズムが変更され、 データベースの存続期間中は ROWID が再利用されなくなります。 つまり、 AUTOINCREMENT の目的は、 以前に削除された行からの ROWID の再利用を防ぐことです。"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/autoinc.html:152
 msgid "<span>2. </span>Background"
-msgstr ""
+msgstr "<span>2. </span>Background"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:155
@@ -213,7 +212,7 @@ msgid ""
 "href=\"lang_createtable.html#rowid\">ROWID</a> which is unique among all "
 "rows in the same table.  (<a href=\"withoutrowid.html\">WITHOUT ROWID</a> "
 "tables are the exception.)"
-msgstr ""
+msgstr "SQLite では、 通常、 テーブルの行(rows)には 64 ビットの符号付き整数の <a href=\"lang_createtable.html#rowid\">ROWID</a> があり、 同一のテーブル内のすべての行に対して一意(unique)です。 ( <a href=\"withoutrowid.html\">WITHOUT ROWID</a> テーブルは例外です。)"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:161
@@ -222,7 +221,7 @@ msgid ""
 "names ROWID, _ROWID_, or OID.  Except if you declare an ordinary table "
 "column to use one of those special names, then the use of that name will "
 "refer to the declared column not to the internal ROWID."
-msgstr ""
+msgstr "特別な列名(column names) ROWID または_ROWID_ または OID のいずれかを使用して、 SQLite テーブルの ROWID にアクセスできます。 これらの特別な列名のいずれかを使用するように通常の表(table)の列(columns)を宣言する場合を除き、 通常の列名を使用すると、 内部 ROWID ではなく、 宣言した列(column)が参照されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:169
@@ -233,7 +232,7 @@ msgid ""
 "the original three names described above or the name given to the <a "
 "href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> column.  All "
 "these names are aliases for one another and work equally well in any context."
-msgstr ""
+msgstr "テーブルに <a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> 型の列(column)が含まれている場合、 その列(column)は ROWID のエイリアスになります。 そして、 上記のエイリアス元の 3 つの特別な列名、または <a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> 列に付けられた名前の、 4 つの異なる列名のいずれかを使用して ROWID にアクセスできます。 これらの列名はすべて互いのエイリアスであり、 どのようなコンテキストでも同じように機能します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:177
@@ -242,7 +241,7 @@ msgid ""
 "specified as part of the INSERT statement or it can be assigned "
 "automatically by the database engine.  To specify a ROWID manually, just "
 "include it in the list of values to be inserted.  For example:"
-msgstr ""
+msgstr "新しい行(row)が SQLite テーブルに挿入(insert)されるとき、 ROWID は INSERT ステートメントの一部として指定するか、 データベース・エンジンによって自動的に割り当てることができます。 ROWID を手動で指定するには、 挿入する値のリストに含めるだけです。 例えば以下のようにします:"
 
 #. type: Content of: <html><body><div><div><pre>
 #: sedout/autoinc.html:183
@@ -251,6 +250,8 @@ msgid ""
 "CREATE TABLE test1(a INT, b TEXT);\n"
 "INSERT INTO test1(rowid, a, b) VALUES(123, 5, 'hello');\n"
 msgstr ""
+"CREATE TABLE test1(a INT, b TEXT);\n"
+"INSERT INTO test1(rowid, a, b) VALUES(123, 5, 'hello');\n"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:188
@@ -267,7 +268,7 @@ msgid ""
 "href=\"rescode.html#full\">SQLITE_FULL</a> error.  If no negative ROWID "
 "values are inserted explicitly, then automatically generated ROWID values "
 "will always be greater than zero."
-msgstr ""
+msgstr "挿入(insert)時に ROWID が指定されていない場合、 または指定された ROWID の値が NULL の場合、 適切な ROWID が自動的に作成されます。 通常のアルゴリズムでは、新しく作成された行(row) に、挿入前のテーブル内の最大の ROWID よりも 1 大きい ROWID を指定します。 テーブルが最初の空の場合、 1 の ROWID が使用されます。 最大の ROWID が可能な最大の整数 (9223372036854775807) と等しい場合、 データベース・エンジンは、 以前に使用されていない正の整数を見つけるまで、 正の候補の ROWID をランダムに選択(pickup)し始めます。 適切な回数試行しても未使用の ROWID が見つからない場合、 挿入操作は <a href=\"rescode.html#full\">SQLITE_FULL</a> エラーで失敗します。 負の ROWID 値が明示的に挿入されない限り、 自動的に生成される ROWID 値は常にゼロより大きくなります。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:204
@@ -279,12 +280,12 @@ msgid ""
 "possible ROWID, then ROWIDs from previously deleted rows might be reused "
 "when creating new rows and newly created ROWIDs might not be in strictly "
 "ascending order."
-msgstr ""
+msgstr "前述の通常の ROWID 選択アルゴリズムは、 最大の ROWID 値を使用せず、 最大の ROWID を持つテーブル内のエントリを削除しない限り、 単調に増加する一意の ROWID を生成します。 行を削除したり、 最大の ROWID を持つ行を作成したりすると、 以前に削除された行の ROWID が新しい行の作成時に再利用され、 新しく作成された ROWID が厳密に昇順でなくなる可能性があります。"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/autoinc.html:214
 msgid "<span>3. </span>The AUTOINCREMENT Keyword"
-msgstr ""
+msgstr "<span>3. </span>The AUTOINCREMENT Keyword"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:217
@@ -298,7 +299,7 @@ msgid ""
 "to insert a new row will fail with an SQLITE_FULL error.  Only ROWID values "
 "from previous transactions that were committed are considered.  ROWID values "
 "that were rolled back are ignored and can be reused."
-msgstr ""
+msgstr "列の型が INTEGER PRIMARY KEY AUTOINCREMENT の場合、 わずかに異なる ROWID 選択アルゴリズムが使用されます。 新しい行に選択された ROWID は、 同じテーブルに以前存在した最大の ROWID より少なくとも 1 大きいです。  表にデータが含まれていない場合は、 ROWID として 1 が使用されます。 可能な最大の ROWID が以前に挿入されている場合、 新しい INSERT は許可されず、 新しい行を挿入しようとすると SQLITE_FULL エラーで失敗します。 コミットされた以前のトランザクションの ROWID 値のみが考慮されます。 ロールバックされた ROWID 値は無視され、再利用できます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:231
@@ -313,7 +314,7 @@ msgid ""
 "generation algorithm.  Make sure you know what you are doing before you "
 "undertake such changes.  The sqlite_sequence table does not track ROWID "
 "changes associated with UPDATE statement, only INSERT statements."
-msgstr ""
+msgstr "SQLite は、 \"<a href=\"fileformat2.html#seqtab\">sqlite_sequence</a>\" という名前の<a href=\"fileformat2.html#intschema\">内部テーブル</a>を使用して最大の ROWID を追跡します。 AUTOINCREMENT 列を含む通常のテーブルが作成されるたびに、 sqlite_sequence テーブルが作成され、 自動的に初期化されます。 sqlite_sequence テーブルの内容は、 通常の UPDATE や INSERT や DELETE ステートメントを使用して変更できます。 ただし、 このテーブルを変更すると、 AUTOINCREMENT キー生成アルゴリズムが混乱する可能性があります。 そのような変更を行う前に、 自分が何をしようとしているのかを確認してください。 sqlite_sequence テーブルは、 UPDATE ステートメントに関連付けられた ROWID の変更を追跡せず、 INSERT ステートメントのみを追跡します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:245
@@ -327,7 +328,7 @@ msgid ""
 "not need these properties, you should probably stay with the default "
 "behavior since the use of AUTOINCREMENT requires additional work to be done "
 "as each row is inserted and thus causes INSERTs to run a little slower."
-msgstr ""
+msgstr "AUTOINCREMENT キーワードによって実装される振る舞いは、 デフォルトの振る舞いとは微妙に異なります。  AUTOINCREMENT を使用すると、 自動的に選択された ROWID を持つ行は、 同じデータベース内の同じテーブルによって以前に使用されたことのない ROWID を持つことが保証されます。 また、 自動生成された ROWID は、 単調に増加することが保証されています。  これらは、 特定のアプリケーションでは重要な特性です。 ただし、 アプリケーションがこれらの特性を必要としない場合は、 おそらくデフォルトの動作のままにしておく必要があります。 これは、AUTOINCREMENT を使用すると、 各行が挿入されるたびに追加の作業を行う必要があり、 INSERT の実行が少し遅くなるからです。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:256
@@ -339,7 +340,7 @@ msgid ""
 "resulting in gaps in the ROWID sequence.  AUTOINCREMENT guarantees that "
 "automatically chosen ROWIDs will be increasing but not that they will be "
 "sequential."
-msgstr ""
+msgstr "「単調に増加する」(monotonically increasing)とは、 ROWID が常に正確に 1 増加することを意味するものではないことに注意してください。  1 つは通常の増分です。 ただし、 (たとえば) 一意性制約が原因で挿入が失敗した場合、 失敗した挿入試行の ROWID が後続の挿入で再利用されず、 ROWID シーケンスにギャップが生じる可能性があります。  AUTOINCREMENT は、 自動的に選択された ROWID が増加することは保証しますが、 連続することは保証しません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:264
@@ -350,7 +351,7 @@ msgid ""
 "PRIMARY KEY.  Any attempt to use AUTOINCREMENT on a <a href=\"withoutrowid."
 "html\">WITHOUT ROWID</a> table or on a column other than the INTEGER PRIMARY "
 "KEY column results in an error."
-msgstr ""
+msgstr "AUTOINCREMENT キーワードは ROWID 選択アルゴリズムの振る舞いを変更するため、  <a href=\"withoutrowid.html\">WITHOUT ROWID</a> テーブルまたは INTEGER PRIMARY KEY 以外のテーブル列では AUTOINCREMENT を使用できません。  <a href=\"withoutrowid.html\">WITHOUT ROWID</a> テーブルまたは INTEGER PRIMARY KEY 列以外の列で AUTOINCREMENT を使用しようとすると、 エラーが発生します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/autoinc.html:269
@@ -358,4 +359,4 @@ msgid ""
 "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/"
 "honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/"
 "pages/autoinc.in?m=bd2decf99d\">2022-01-08 05:02:57</a> UTC </i></small>"
-msgstr ""
+msgstr "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/pages/autoinc.in?m=bd2decf99d\">2022-01-08 05:02:57</a> UTC </i></small>"

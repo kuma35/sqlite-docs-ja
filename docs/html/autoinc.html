@@ -91,58 +91,49 @@ SQLite Autoincrement
 
 <ol type="1">
 <li><p>
-  The AUTOINCREMENT keyword imposes extra CPU, memory, disk space, and disk
-I/O overhead and should be avoided if not strictly needed.  It is usually
-not needed.
+  AUTOINCREMENT キーワードは、 余分な CPUやメモリやディスク・スペースやディスク I/O オーバーヘッドを課すため、
+厳密に必要でない場合は避ける必要があります。 通常は必要ありません。
 </p></li><li><p>
-  In SQLite, a column with type INTEGER PRIMARY KEY is an alias for the <a
-href="lang_createtable.html#rowid">ROWID</a> (except in <a
-href="withoutrowid.html">WITHOUT ROWID</a> tables) which is always a 64-bit
-signed integer.
+  SQLite では、 INTEGER PRIMARY KEY 型の列(column)は ( <a
+href="withoutrowid.html">WITHOUT ROWID</a> であるテーブルを除く) <a
+href="lang_createtable.html#rowid">ROWID</a> のエイリアスで、常に 64 ビットの符号付き整数です。
 </p></li><li><p>
-  On an <a href="lang_insert.html">INSERT</a>, if the ROWID or INTEGER PRIMARY
-KEY column is not explicitly given a value, then it will be filled
-automatically with an unused integer, usually one more than the largest
-ROWID currently in use.  This is true regardless of whether or not the
-AUTOINCREMENT keyword is used.
+  <a href="lang_insert.html">INSERT</a> で、 ROWID または INTEGER PRIMARY KEY
+列(column)に値が明示的に指定されていない場合、 未使用の整数 (通常は現在使用中の ROWID の最大値より 1
+大きい値)が自動的に入力されます。 これは、 AUTOINCREMENT キーワードが使用されているかどうかに関係なく当てはまります。
 </p></li><li><p>
-  If the AUTOINCREMENT keyword appears after INTEGER PRIMARY KEY, that changes
-the automatic ROWID assignment algorithm to prevent the reuse of ROWIDs over
-the lifetime of the database.  In other words, the purpose of AUTOINCREMENT
-is to prevent the reuse of ROWIDs from previously deleted rows.
-</p></li></ol>
+  INTEGER PRIMARY KEY の後に AUTOINCREMENT キーワードを指定した場合、 自動 ROWID
+割り当てアルゴリズムが変更され、 データベースの存続期間中は ROWID が再利用されなくなります。 つまり、 AUTOINCREMENT の目的は、
+以前に削除された行からの ROWID の再利用を防ぐことです。
+</li></ol>
 
 <h1 id="background"><span>2. </span>Background</h1>
 
 <p>
-In SQLite, table rows normally have a 64-bit signed integer <a
-href="lang_createtable.html#rowid">ROWID</a> which is unique among all rows
-in the same table.  (<a href="withoutrowid.html">WITHOUT ROWID</a> tables
-are the exception.)
+SQLite では、 通常、 テーブルの行(rows)には 64 ビットの符号付き整数の <a
+href="lang_createtable.html#rowid">ROWID</a> があり、
+同一のテーブル内のすべての行に対して一意(unique)です。 ( <a href="withoutrowid.html">WITHOUT
+ROWID</a> テーブルは例外です。)
 </p>
 
 <p>
-You can access the ROWID of an SQLite table using one of the special column
-names ROWID, _ROWID_, or OID.  Except if you declare an ordinary table
-column to use one of those special names, then the use of that name will
-refer to the declared column not to the internal ROWID.
+特別な列名(column names) ROWID または_ROWID_ または OID のいずれかを使用して、 SQLite テーブルの ROWID
+にアクセスできます。 これらの特別な列名のいずれかを使用するように通常の表(table)の列(columns)を宣言する場合を除き、
+通常の列名を使用すると、 内部 ROWID ではなく、 宣言した列(column)が参照されます。
 </p>
 
 <p>
-If a table contains a column of type <a
-href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a>, then that column
-becomes an alias for the ROWID.  You can then access the ROWID using any of
-four different names, the original three names described above or the name
-given to the <a href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a>
-column.  All these names are aliases for one another and work equally well
-in any context.
+テーブルに <a href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a>
+型の列(column)が含まれている場合、 その列(column)は ROWID のエイリアスになります。 そして、 上記のエイリアス元の 3
+つの特別な列名、または <a href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a>
+列に付けられた名前の、 4 つの異なる列名のいずれかを使用して ROWID にアクセスできます。 これらの列名はすべて互いのエイリアスであり、
+どのようなコンテキストでも同じように機能します。
 </p>
 
 <p>
-When a new row is inserted into an SQLite table, the ROWID can either be
-specified as part of the INSERT statement or it can be assigned
-automatically by the database engine.  To specify a ROWID manually, just
-include it in the list of values to be inserted.  For example:
+新しい行(row)が SQLite テーブルに挿入(insert)されるとき、 ROWID は INSERT ステートメントの一部として指定するか、
+データベース・エンジンによって自動的に割り当てることができます。 ROWID を手動で指定するには、 挿入する値のリストに含めるだけです。
+例えば以下のようにします:
 </p>
 
 <div class="codeblock"><pre>CREATE TABLE test1(a INT, b TEXT);
@@ -150,85 +141,61 @@ INSERT INTO test1(rowid, a, b) VALUES(123, 5, 'hello');
 </pre></div>
 
 <p>
-If no ROWID is specified on the insert, or if the specified ROWID has a
-value of NULL, then an appropriate ROWID is created automatically.  The
-usual algorithm is to give the newly created row a ROWID that is one larger
-than the largest ROWID in the table prior to the insert.  If the table is
-initially empty, then a ROWID of 1 is used.  If the largest ROWID is equal
-to the largest possible integer (9223372036854775807) then the database
-engine starts picking positive candidate ROWIDs at random until it finds one
-that is not previously used.  If no unused ROWID can be found after a
-reasonable number of attempts, the insert operation fails with an <a
-href="rescode.html#full">SQLITE_FULL</a> error.  If no negative ROWID values
-are inserted explicitly, then automatically generated ROWID values will
-always be greater than zero.
+挿入(insert)時に ROWID が指定されていない場合、 または指定された ROWID の値が NULL の場合、 適切な ROWID
+が自動的に作成されます。 通常のアルゴリズムでは、新しく作成された行(row) に、挿入前のテーブル内の最大の ROWID よりも 1 大きい
+ROWID を指定します。 テーブルが最初の空の場合、 1 の ROWID が使用されます。 最大の ROWID が可能な最大の整数
+(9223372036854775807) と等しい場合、 データベース・エンジンは、 以前に使用されていない正の整数を見つけるまで、 正の候補の
+ROWID をランダムに選択(pickup)し始めます。 適切な回数試行しても未使用の ROWID が見つからない場合、 挿入操作は <a
+href="rescode.html#full">SQLITE_FULL</a> エラーで失敗します。 負の ROWID 値が明示的に挿入されない限り、
+自動的に生成される ROWID 値は常にゼロより大きくなります。
 </p>
 
 <p>
-The normal ROWID selection algorithm described above will generate
-monotonically increasing unique ROWIDs as long as you never use the maximum
-ROWID value and you never delete the entry in the table with the largest
-ROWID.  If you ever delete rows or if you ever create a row with the maximum
-possible ROWID, then ROWIDs from previously deleted rows might be reused
-when creating new rows and newly created ROWIDs might not be in strictly
-ascending order.
+前述の通常の ROWID 選択アルゴリズムは、 最大の ROWID 値を使用せず、 最大の ROWID を持つテーブル内のエントリを削除しない限り、
+単調に増加する一意の ROWID を生成します。 行を削除したり、 最大の ROWID を持つ行を作成したりすると、 以前に削除された行の ROWID
+が新しい行の作成時に再利用され、 新しく作成された ROWID が厳密に昇順でなくなる可能性があります。
 </p>
 
 
 <h1 id="the_autoincrement_keyword"><span>3. </span>The AUTOINCREMENT Keyword</h1>
 
 <p>
-If a column has the type INTEGER PRIMARY KEY AUTOINCREMENT then a slightly
-different ROWID selection algorithm is used.  The ROWID chosen for the new
-row is at least one larger than the largest ROWID that has ever before
-existed in that same table.  If the table has never before contained any
-data, then a ROWID of 1 is used.  If the largest possible ROWID has
-previously been inserted, then new INSERTs are not allowed and any attempt
-to insert a new row will fail with an SQLITE_FULL error.  Only ROWID values
-from previous transactions that were committed are considered.  ROWID values
-that were rolled back are ignored and can be reused.
+列の型が INTEGER PRIMARY KEY AUTOINCREMENT の場合、 わずかに異なる ROWID 選択アルゴリズムが使用されます。
+新しい行に選択された ROWID は、 同じテーブルに以前存在した最大の ROWID より少なくとも 1 大きいです。
+表にデータが含まれていない場合は、 ROWID として 1 が使用されます。 可能な最大の ROWID が以前に挿入されている場合、 新しい
+INSERT は許可されず、 新しい行を挿入しようとすると SQLITE_FULL エラーで失敗します。 コミットされた以前のトランザクションの
+ROWID 値のみが考慮されます。 ロールバックされた ROWID 値は無視され、再利用できます。
 </p>
 
 <p>
-SQLite keeps track of the largest ROWID using an <a
-href="fileformat2.html#intschema">internal table</a> named "<a
-href="fileformat2.html#seqtab">sqlite_sequence</a>".  The sqlite_sequence
-table is created and initialized automatically whenever a normal table that
-contains an AUTOINCREMENT column is created.  The content of the
-sqlite_sequence table can be modified using ordinary UPDATE, INSERT, and
-DELETE statements.  But making modifications to this table will likely
-perturb the AUTOINCREMENT key generation algorithm.  Make sure you know what
-you are doing before you undertake such changes.  The sqlite_sequence table
-does not track ROWID changes associated with UPDATE statement, only INSERT
-statements.
+SQLite は、 "<a href="fileformat2.html#seqtab">sqlite_sequence</a>" という名前の<a
+href="fileformat2.html#intschema">内部テーブル</a>を使用して最大の ROWID を追跡します。
+AUTOINCREMENT 列を含む通常のテーブルが作成されるたびに、 sqlite_sequence テーブルが作成され、 自動的に初期化されます。
+sqlite_sequence テーブルの内容は、 通常の UPDATE や INSERT や DELETE ステートメントを使用して変更できます。
+ただし、 このテーブルを変更すると、 AUTOINCREMENT キー生成アルゴリズムが混乱する可能性があります。 そのような変更を行う前に、
+自分が何をしようとしているのかを確認してください。 sqlite_sequence テーブルは、 UPDATE ステートメントに関連付けられた
+ROWID の変更を追跡せず、 INSERT ステートメントのみを追跡します。
 </p>
 
 <p>
-The behavior implemented by the AUTOINCREMENT keyword is subtly different
-from the default behavior.  With AUTOINCREMENT, rows with automatically
-selected ROWIDs are guaranteed to have ROWIDs that have never been used
-before by the same table in the same database.  And the automatically
-generated ROWIDs are guaranteed to be monotonically increasing.  These are
-important properties in certain applications.  But if your application does
-not need these properties, you should probably stay with the default
-behavior since the use of AUTOINCREMENT requires additional work to be done
-as each row is inserted and thus causes INSERTs to run a little slower.
+AUTOINCREMENT キーワードによって実装される振る舞いは、 デフォルトの振る舞いとは微妙に異なります。  AUTOINCREMENT
+を使用すると、 自動的に選択された ROWID を持つ行は、 同じデータベース内の同じテーブルによって以前に使用されたことのない ROWID
+を持つことが保証されます。 また、 自動生成された ROWID は、 単調に増加することが保証されています。  これらは、
+特定のアプリケーションでは重要な特性です。 ただし、 アプリケーションがこれらの特性を必要としない場合は、
+おそらくデフォルトの動作のままにしておく必要があります。 これは、AUTOINCREMENT を使用すると、
+各行が挿入されるたびに追加の作業を行う必要があり、 INSERT の実行が少し遅くなるからです。
 </p>
 
-<p>Note that "monotonically increasing" does not imply that the ROWID always
-increases by exactly one.  One is the usual increment.  However, if an
-insert fails due to (for example) a uniqueness constraint, the ROWID of the
-failed insertion attempt might not be reused on subsequent inserts,
-resulting in gaps in the ROWID sequence.  AUTOINCREMENT guarantees that
-automatically chosen ROWIDs will be increasing but not that they will be
-sequential.</p>
+<p>「単調に増加する」(monotonically increasing)とは、 ROWID が常に正確に 1
+増加することを意味するものではないことに注意してください。  1 つは通常の増分です。 ただし、 (たとえば) 一意性制約が原因で挿入が失敗した場合、
+失敗した挿入試行の ROWID が後続の挿入で再利用されず、 ROWID シーケンスにギャップが生じる可能性があります。  AUTOINCREMENT
+は、 自動的に選択された ROWID が増加することは保証しますが、 連続することは保証しません。</p>
 
-<p>Because AUTOINCREMENT keyword changes the behavior of the ROWID selection
-algorithm, AUTOINCREMENT is not allowed on <a
-href="withoutrowid.html">WITHOUT ROWID</a> tables or on any table column
-other than INTEGER PRIMARY KEY.  Any attempt to use AUTOINCREMENT on a <a
-href="withoutrowid.html">WITHOUT ROWID</a> table or on a column other than
-the INTEGER PRIMARY KEY column results in an error.</p>
+<p>AUTOINCREMENT キーワードは ROWID 選択アルゴリズムの振る舞いを変更するため、  <a
+href="withoutrowid.html">WITHOUT ROWID</a> テーブルまたは INTEGER PRIMARY KEY
+以外のテーブル列では AUTOINCREMENT を使用できません。  <a href="withoutrowid.html">WITHOUT
+ROWID</a> テーブルまたは INTEGER PRIMARY KEY 列以外の列で AUTOINCREMENT を使用しようとすると、
+エラーが発生します。</p>
 <p align="center"><small><i>This page last modified on <a
 href="https://sqlite.org/docsrc/honeypot" id="mtimelink"
 data-href="https://sqlite.org/docsrc/finfo/pages/autoinc.in?m=bd2decf99d">2022-01-08
