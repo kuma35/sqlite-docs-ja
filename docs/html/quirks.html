@@ -58,7 +58,7 @@ document.getElementById("searchmenu"); if( w.style.display=="block" ){
 w.style.display = "none"; } else { w.style.display = "block";
 setTimeout(function(){ document.getElementById("searchbox").focus()  }, 30);
 } } function div_off(nm){document.getElementById(nm).style.display="none";}
-window.onbeforeunload = function(e){div_off("submenu");} /* Disable the
+window.onbeforeunload = function(e){div_off("submenu");}; /* Disable the
 Search feature if we are not operating from CGI, since */ /* Search is
 accomplished using CGI and will not work without it. */ if( !location.origin
 || !location.origin.match || !location.origin.match(/http/) ){
@@ -72,9 +72,9 @@ antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j =
 document.getElementById("mtimelink"); if(j && j.hasAttribute("data-href"))
 j.href=j.getAttribute("data-href"); } function antiRobotDefense(){
 document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo();
-document.body.onmousedown=null; } document.body.onmousemove=function(){
-antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }
-setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)
+document.body.onmousedown=null; }; document.body.onmousemove=function(){
+antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; };
+setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);
 antiRobotGo(); } antiRobotDefense();
 </script>
 <div class=fancy>
@@ -119,8 +119,8 @@ href="#nul_characters_are_allowed_in_text_strings">12.
 </div>
 </div>
 <script>
-function toggle_toc(){ var sub = document.getElementById("toc_sub")  var mk
-= document.getElementById("toc_mk")  if( sub.style.display!="block" ){
+function toggle_toc(){ var sub = document.getElementById("toc_sub");  var mk
+= document.getElementById("toc_mk");  if( sub.style.display!="block" ){
 sub.style.display = "block"; mk.innerHTML = "&#x25bc;"; } else {
 sub.style.display = "none"; mk.innerHTML = "&#x25ba;"; } }
 </script>
