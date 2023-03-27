@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-15 23:12+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-28 06:10+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,114 +18,114 @@ msgstr ""
 #. type: Content of: <html><head><meta><meta><link><title>
 #: sedout/limits.html:6
 msgid "Implementation Limits For SQLite"
-msgstr ""
+msgstr "SQLite の実装上の制限"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/limits.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/limits.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/limits.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/limits.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/limits.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/limits.html:21
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/limits.html:22 sedout/limits.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/limits.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/limits.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/limits.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/limits.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/limits.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/limits.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/limits.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/limits.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/limits.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/limits.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/limits.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/limits.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/limits.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/limits.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/limits.html:53
@@ -157,12 +156,12 @@ msgid ""
 "document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
 "document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
 "antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");}; /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; }; document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }; setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><h2>
 #: sedout/limits.html:121
 msgid "Limits In SQLite"
-msgstr ""
+msgstr "SQLite の制限"
 
 #. type: Content of: <html><body><p>
 #: sedout/limits.html:124
@@ -170,7 +169,7 @@ msgid ""
 "\"Limits\" in the context of this article means sizes or quantities that can "
 "not be exceeded.  We are concerned with things like the maximum number of "
 "bytes in a BLOB or the maximum number of columns in a table."
-msgstr ""
+msgstr "この記事の文脈における「制限」(Limits)とは、 超えることができないサイズまたは数量を意味します。 BLOBの最大バイト数やテーブルの最大列数などが気になるところでしょう。"
 
 #. type: Content of: <html><body><p>
 #: sedout/limits.html:131
@@ -180,7 +179,7 @@ msgid ""
 "space has limits of some kind.  But in SQLite, those limits were not well "
 "defined.  The policy was that if it would fit in memory and you could count "
 "it with a 32-bit integer, then it should work."
-msgstr ""
+msgstr "SQLiteはもともと、 任意の制限を避けるという方針で設計されています。  もちろん、 メモリやディスク容量が有限のマシン上で動作するプログラムには、 ある種の限界があります。 しかし、 SQLiteでは、その限界はよく定義されていませんでした。 メモリに収まり、32ビット整数でカウントできるのであれば、 それは動作するはずだという方針だったのです。"
 
 #. type: Content of: <html><body><p>
 #: sedout/limits.html:142
@@ -191,7 +190,7 @@ msgid ""
 "versions of SQLite since about release 3.5.8 (2008-04-16)  have well-defined "
 "limits, and those limits are tested as part of the <a "
 "href=\"testing.html\">test suite</a>."
-msgstr ""
+msgstr "残念ながら、 制限なしのポリシーは問題を引き起こすことが示されています。 上限が明確に定義されていなかったため、 テストが行われず、 SQLite を極端な使い方をするとバグが発見されることがよくありました。 このため、リリース 3.5.8 (2008-04-16) 以降のバージョンの SQLite には明確に定義された制限があり、それらの制限は <a href=\"testing.html\">テスト・スイート</a>の一部としてテストされています。"
 
 #. type: Content of: <html><body><p>
 #: sedout/limits.html:152
@@ -204,7 +203,7 @@ msgid ""
 "SQLite with much lower limits to avoid excess resource utilization in the "
 "event of bug in higher-level SQL statement generators or to help thwart "
 "attackers who inject malicious SQL statements."
-msgstr ""
+msgstr "この記事では、 SQLite の制限と、 特定のアプリケーション向けにカスタマイズする方法を定義します。 通常、 制限のデフォルト設定は非常に大きく、 ほとんどすべてのアプリケーションに適しています。  一部のアプリケーションでは、 あちこちで制限を増やしたい場合がありますが、 そのような必要性はまれであると予想されます。 より一般的には、 アプリケーションは、 高レベルの SQL ステートメント・ジェネレーターにバグが発生した場合に過剰なリソースの使用を回避するため、 または、 悪意のある SQL ステートメントを挿入する攻撃者を阻止するために、 はるかに低い制限で SQLite を再コンパイルすることを望む場合があります。"
 
 #. type: Content of: <html><body><p>
 #: sedout/limits.html:164
@@ -223,12 +222,12 @@ msgid ""
 "databases managed by trusted code to be unconstrained while simultaneously "
 "placing tight limitations on databases created or controlled by untrusted "
 "external code in order to help prevent a denial of service attack."
-msgstr ""
+msgstr "一部の制限は、 <a href=\"c3ref/limit.html\">sqlite3_limit()</a> インターフェイスを使用して、 そのインターフェイスに定義された<a href=\"c3ref/c_limit_attached.html#sqlitelimitlength\">制限カテゴリ</a>の 1 つを使用して、 実行時に接続ごとに変更できます。 ランタイム制限は、 複数のデータベースを持つアプリケーション用に設計されており、 その一部は内部使用のみであり、 他のデータベースは潜在的に敵対的な外部エージェントによって影響または制御される可能性があります。  たとえば、Web ブラウザー・アプリケーションは内部データベースを使用して過去のページ・ビューを追跡する場合がありますが、 インターネットからダウンロードした JavaScript アプリケーションによって作成および制御される 1 つ以上の別個のデータベースを持っている場合があります。 <a href=\"c3ref/limit.html\">sqlite3_limit()</a> インターフェースにより、 信頼できるコードによって管理される内部データベースを制約なしにすると同時に、 サービス拒否攻撃を防ぐために、 信頼できない外部コードによって作成または制御されるデータベースに厳しい制限を課すことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:182
 msgid "<a name=\"max_length\"></a>"
-msgstr ""
+msgstr "<a name=\"max_length\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:183
@@ -238,12 +237,12 @@ msgid ""
 "SQLITE_MAX_LENGTH.  The default value of this macro is 1 billion (1 thousand "
 "million or 1,000,000,000).  You can raise or lower this value at "
 "compile-time using a command-line option like this:"
-msgstr ""
+msgstr "<b>文字列(string)または BLOB の最大長</b> SQLite の文字列(string)または BLOB の最大バイト数は、 プリプロセッサ・マクロ SQLITE_MAX_LENGTH によって定義されます。 このマクロのデフォルト値は 10 億 (1,000,000,000)(訳注: 約953Mバイト)です。 あなたは以下のようなコマンドライン・オプションを使用して、 コンパイル時にこの値を増減できます:"
 
 #. type: Content of: <html><body><ol><li><blockquote>
 #: sedout/limits.html:193
 msgid "-DSQLITE_MAX_LENGTH=123456789"
-msgstr ""
+msgstr "-DSQLITE_MAX_LENGTH=123456789"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:196
@@ -261,54 +260,54 @@ msgid ""
 "<a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitlength\">SQLITE_LIMIT_LENGTH</a>,size) "
 "interface."
-msgstr ""
+msgstr "現在の実装では、2<small><sup>31</sup></small>-1 または 2147483647 までの文字列長または BLOB 長のみがサポートされます。 また、 hex() などの一部の組み込み関数は、この制限長に達するよりかなり前に失敗する可能性があります。 セキュリティが重要なアプリケーションでは、 文字列と BLOB の最大長を増やさないことが最善です。 実際、 可能な場合は、文字列とBLOBの最大長を数百万の範囲に減らすことをお勧めします。 SQLite の INSERT および SELECT 処理の一部で、 データベース内の各行の完全な内容が単一の BLOB としてエンコードされます。 したがって、SQLITE_MAX_LENGTH パラメータは、 行の最大バイト数も決定します。 文字列または BLOB の最大長は、 実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitlength\">SQLITE_LIMIT_LENGTH</a>,size) インターフェイスを使用して減らすことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:217
 msgid "<a name=\"max_column\"></a>"
-msgstr ""
+msgstr "<a name=\"max_column\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:218
 msgid ""
 "<b>Maximum Number Of Columns</b> The SQLITE_MAX_COLUMN compile-time "
 "parameter is used to set an upper bound on:"
-msgstr ""
+msgstr "<b>列の最大値</b> SQLITE_MAX_COLUMN コンパイル時パラメーターは、以下の上限を設定するために使用されます:"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:226
 msgid "The number of columns in a table"
-msgstr ""
+msgstr "テーブルの列数"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:227
 msgid "The number of columns in an index"
-msgstr ""
+msgstr "インデックスの列数"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:228
 msgid "The number of columns in a view"
-msgstr ""
+msgstr "ビューの列数"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:229
 msgid "The number of terms in the SET clause of an UPDATE statement"
-msgstr ""
+msgstr "UPDATE ステートメントの SET 句内の term の数"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:230
 msgid "The number of columns in the result set of a SELECT statement"
-msgstr ""
+msgstr "SELECT ステートメントの結果セットの列数"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:231
 msgid "The number of terms in a GROUP BY or ORDER BY clause"
-msgstr ""
+msgstr "GROUP BY または ORDER BY 句内の term の数"
 
 #. type: Content of: <html><body><ol><li><ul><li>
 #: sedout/limits.html:232
 msgid "The number of values in an INSERT statement"
-msgstr ""
+msgstr "INSERT ステートメントの values の数"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:236
@@ -327,11 +326,13 @@ msgid ""
 "href=\"c3ref/c_limit_attached.html#sqlitelimitcolumn\">SQLITE_LIMIT_COLUMN</a>,size) "
 "interface."
 msgstr ""
+"SQLITE_MAX_COLUMN のデフォルト設定は 2000 です。コンパイル時に値を 32767 まで大きく変更できます。一方、 多くの経験豊富なデータベース設計者は、 適切に正規化されたデータベースでは、 テーブルに 100 列を超える列が必要になることは決してないと主張します。 ほとんどのアプリケーションでは、列の数は少なく、せいぜい数十個です。 SQLite コード・ジェネレーターでは、 O(N&sup2;) (N は列の数) の数のアルゴリズムを使用する箇所があります。\n"
+"そのため、SQLITE_MAX_COLUMN を非常に大きな数に再定義し、 多数の列を使用する SQL を生成すると、 <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitcolumn\">SQLITE_LIMIT_COLUMN</a>,size) <a href=\"c3ref/prepare.html\">sqlite3_prepare_v2()</a> の実行が遅くなることがあります。 列の最大数は、実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitcolumn\">SQLITE_LIMIT_COLUMN</a>,size) インターフェイスを使用して減らすことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:257
 msgid "<a name=\"max_sql_length\"></a>"
-msgstr ""
+msgstr "<a name=\"max_sql_length\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:258
@@ -344,12 +345,12 @@ msgid ""
 "should not do that anyway.  Use host <a "
 "href=\"lang_expr.html#varparam\">parameters</a> for your data.  Prepare "
 "short SQL statements like this:"
-msgstr ""
+msgstr "<b>SQL ステートメントの最大長</b> SQL ステートメントのテキストの最大バイト数は SQLITE_MAX_SQL_LENGTH に制限されており、 デフォルトは 1,000,000,000 です。 SQL ステートメントの長さが 百万バイトに制限されている場合、 明らかに数百万バイトの文字列を INSERT ステートメント内にリテラルとして埋め込んで挿入することはできません。 しかし、あなたは、 とにかくそれを行うべきではありません。 あなたのデータのためにホスト <a href=\"lang_expr.html#varparam\">パラメーター</a> を使用してください。  以下のような短い SQL ステートメントを準備してください:"
 
 #. type: Content of: <html><body><ol><li><blockquote>
 #: sedout/limits.html:274
 msgid "INSERT INTO tab1 VALUES(?,?,?);"
-msgstr ""
+msgstr "INSERT INTO tab1 VALUES(?,?,?);"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:278
@@ -363,7 +364,7 @@ msgid ""
 "href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitsqllength\">SQLITE_LIMIT_SQL_LENGTH</a>,size) "
 "interface."
-msgstr ""
+msgstr "次に、 <a href=\"c3ref/bind_blob.html\">sqlite3_bind_XXXX()</a> 関数を使用して、 あなたの大きな文字列値を SQL ステートメントに結び付け(bind)します。 結び付け(binding)を使用すると、 文字列内の引用符をエスケープする必要がなくなり、 SQL インジェクション攻撃のリスクが軽減されます。  また、 大きな文字列を解析したりコピーしたりする必要がないため、 実行速度も速くなります。 SQL ステートメントの最大長は、 実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitsqllength\">SQLITE_LIMIT_SQL_LENGTH</a>,size) インターフェイスを使用して減らすことができます。"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:289
@@ -375,12 +376,12 @@ msgid ""
 "planner algorithm</a> and so even a large join can be <a "
 "href=\"c3ref/prepare.html\">prepared</a> quickly.  Hence, there is no "
 "mechanism to raise or lower the limit on the number of tables in a join."
-msgstr ""
+msgstr "<b>結合内のテーブル数の最大値</b> SQLite は、 64個を超えるテーブルを含む結合をサポートしていません。 この制限は、SQLite コード・ジェネレーターがクエリー・オプティマイザーで結合テーブル１つごとに 1 ビットであるビットマップを使用するという事実から生じます。 SQLite は効率的な <a href=\"queryplanner-ng.html\">クエリ・プランナー・アルゴリズム</a> を使用するため、 大規模な結合でもすばやく <a href=\"c3ref/prepare.html\">prepared</a> できます。 したがって、 結合内のテーブル数の制限を増減するメカニズムはありません。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:303
 msgid "<a name=\"max_expr_depth\"></a>"
-msgstr ""
+msgstr "<a name=\"max_expr_depth\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:304
@@ -402,13 +403,15 @@ msgid ""
 "href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitexprdepth\">SQLITE_LIMIT_EXPR_DEPTH</a>,size) "
 "is a no-op."
-msgstr ""
+msgstr "<b>式ツリーの最大深さ</b> SQLite は、処理のために式をツリーとしてパースします。コード生成中、SQLite はこのツリーを再帰的にたどります。したがって、スタック・スペースを使いすぎないように、式ツリーの深さは制限されます。 SQLITE_MAX_EXPR_DEPTH パラメーターは、式ツリーの最大深さを決定します。 値が 0 の場合、制限は適用されません。現在の実装のデフォルト値は 1000 です。SQLITE_MAX_EXPR_DEPTH が最初に正の値である場合、 <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitexprdepth\">SQLITE_LIMIT_EXPR_DEPTH</a>,size) インターフェイスを使用して、 実行時に式ツリーの最大深度を下げることができます。 つまり、 式の深さにコンパイル時に設定した制限がすでにある場合、 実行時に最大の式の深さを下げることができます。 コンパイル時に SQLITE_MAX_EXPR_DEPTH が 0 に設定されている場合 (式の深さが無制限の場合)、 <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitexprdepth\">SQLITE_LIMIT_EXPR_DEPTH</a>,size) は何もしません(no-op)。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:330
 msgid "<a name=\"max_function_arg\"></a>"
-msgstr ""
+msgstr "<a name=\"max_function_arg\"></a>"
 
+# security exploits
+# 「エクスプロイト・コード」のように組み合わせて使うことが多いのですが、アプリケーションなどの脆弱（ぜいじゃく）性を悪用して攻撃を行うコードやソフトウェアなどを指します。
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:331
 msgid ""
@@ -425,12 +428,12 @@ msgid ""
 "run-time using the <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitfunctionarg\">SQLITE_LIMIT_FUNCTION_ARG</a>,size) "
 "interface."
-msgstr ""
+msgstr "<b>関数の引数の数の最大値</b> SQLITE_MAX_FUNCTION_ARG パラメータは、SQL 関数に渡すことができるパラメータの最大個数を決定します。この制限のデフォルト値は 100 です。SQLite は、数千個のパラメータを持つ関数でも動作するはずです。しかし、数個以上のパラメータを持つ関数を呼び出そうとする人は、実際には、有益な仕事をするのではなく、SQLite を使用するシステムのセキュリティの脆弱性攻撃プログラムを作っていると思われるため、このパラメーターを比較的低く設定されています。関数への引数の数は、 signed character で格納されることがあります。そのため、SQLITE_MAX_FUNCTION_ARG には 127 という厳しい上限があります。関数の引数の最大数は、実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitfunctionarg\">SQLITE_LIMIT_FUNCTION_ARG</a>,size) インターフェイスを使用して減らすことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:351
 msgid "<a name=\"max_compound_select\"></a>"
-msgstr ""
+msgstr "<a name=\"max_compound_select\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:352
@@ -449,12 +452,12 @@ msgid ""
 "href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitcompoundselect\">SQLITE_LIMIT_COMPOUND_SELECT</a>,size) "
 "interface."
-msgstr ""
+msgstr "<b>複合 SELECT 文内の term の個数の最大値</b> 複合 SELECT 文は、演算子 UNION または UNION ALL または EXCEPT または INTERSECT によって接続された 2 つ以上の SELECT 文です。複合 <a href=\"lang_select.html\">SELECT</a> 内の個々の SELECT 文を \"term\" と呼びます。 SQLite のコード・ジェネレーターは、 再帰アルゴリズムを使用して複合 SELECT 文を処理します。したがって、スタックのサイズを制限するために、複合 SELECT 内の term の数を制限します。 term の最大個数は SQLITE_MAX_COMPOUND_SELECT で、デフォルトは 500 です。実際には、複合 SELECT の term の数が 1 桁を超えることはほとんどないため、 これは寛大な割り当てであると考えています。 <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitcompoundselect\">SQLITE_LIMIT_COMPOUND_SELECT</a>,size) インターフェイスを使用して、 実行時に複合 SELECT の term の最大個数を減らすことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:375
 msgid "<a name=\"max_like_pattern_length\"></a>"
-msgstr ""
+msgstr "<a name=\"max_like_pattern_length\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:376
@@ -478,12 +481,12 @@ msgid ""
 "href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitlikepatternlength\">SQLITE_LIMIT_LIKE_PATTERN_LENGTH</a>,size) "
 "interface."
-msgstr ""
+msgstr "<b>LIKE パターン や GLOB パターンの最大長さ</b> SQLite のデフォルトの <a href=\"lang_expr.html#like\">LIKE</a> 実装と <a href=\"lang_expr.html#glob\">GLOB</a> 実装で使用されるパターン・マッチング・アルゴリズムは、 病的な、ある特定のケースでは O(N&sup2;) (N はパターン内の文字数) な性能になってしまう事があります。独自の LIKE パターン や GLOB パターンが指定可能に事による、悪意のある者からのサービス拒否攻撃(Dos攻撃;denial-of-service attacks)を回避するために、LIKE または GLOB パターンの長さは SQLITE_MAX_LIKE_PATTERN_LENGTH バイトに制限されています。この制限のデフォルト値は 50000 です。 最新のワークステーションは、50000 バイトの異常な LIKE または GLOB パターンでさえも比較的迅速に評価できます。 サービス拒否攻撃の問題は、 パターンの長さが数百万バイトに達した場合にのみ発生します。しかしながら、 最も有用な LIKE または GLOB パターンの長さはせいぜい数十バイトであるため、パラノイア的なアプリケーション開発者は、外部ユーザーが任意のパターンを生成できることを知っている場合、このパラメータを数百の範囲にまで減らしたいと思うかもしれません。LIKE パターン や GLOB パターンの最大長は、実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitlikepatternlength\">SQLITE_LIMIT_LIKE_PATTERN_LENGTH</a>,size) インターフェイスを使用して減らすことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:399
 msgid "<a name=\"max_variable_number\"></a>"
-msgstr ""
+msgstr "<a name=\"max_variable_number\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:400
@@ -509,12 +512,12 @@ msgid ""
 "run-time using the <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitvariablenumber\">SQLITE_LIMIT_VARIABLE_NUMBER</a>,size) "
 "interface."
-msgstr ""
+msgstr "<b>単一の SQL 文内のホスト・パラメータの最大値</b> ホスト・<a href=\"lang_expr.html#varparam\">パラメータ</a>は、 <a href=\"c3ref/bind_blob.html\">sqlite3_bind_XXXX()</a> インターフェイスの 1 つを使用して入力される SQL ステートメントのプレースホルダです。多くの SQL プログラマーは、クエスチョン・マーク(\"?\") をホスト・パラメータとして使用することに慣れています。 SQLite は、 \":\" または \"$\" または \"@\" で始まる名前付きホスト・パラメータや、 \"?123\" 形式の番号付きホスト・パラメータもサポートしています。SQLite ステートメントの各ホスト・パラメータには番号が割り当てられます。通常、数値は 1 から始まり、新しいパラメータごとに 1 ずつ増加します。ただし、 \"?123\" 形式を使用する場合、ホスト・パラメータ番号はクエスチョン・マークに続く番号です。SQLite は、1 から、使用される最大のホスト・パラメータ番号までの、すべてのホスト・パラメータを保持するためのスペースを割り当てます。したがって、 ?1000000000 のようなホスト・パラメータを含む SQL 文には、ギガバイトのストレージが必要になります。これは、ホスト・マシンのリソースを容易に圧迫してしまう可能性があります。過剰なメモリ割り当てを防ぐためのホスト・パラメータ番号の最大値が SQLITE_MAX_VARIABLE_NUMBER です。これは、バージョン 3.32.0 (2020-05-22) より前の SQLite の場合は 999で、3.32.0 より後の SQLite バージョンの場合は 32766 にデフォルト設定されます。最大ホスト・パラメータ数は、実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitvariablenumber\">SQLITE_LIMIT_VARIABLE_NUMBER</a>,size) インターフェイスを使用して下げることができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:433
 msgid "<a name=\"max_trigger_depth\"></a>"
-msgstr ""
+msgstr "<a name=\"max_trigger_depth\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:434
@@ -533,12 +536,12 @@ msgid ""
 "recursive_triggers</a>.  The SQLITE_MAX_TRIGGER_DEPTH is only meaningful if "
 "recursive triggers are enabled.  The default maximum trigger recursion depth "
 "is 1000."
-msgstr ""
+msgstr "<b>トリガーの再帰の最大深さ</b> SQLite は、再帰的なトリガーを含む文が無制限の量のメモリを使用するのを防ぐために、トリガーの再帰の深さを制限します。SQLite <a href=\"releaselog/3_6_18.html\">バージョン 3.6.18</a> (2009-09-11) より前では、トリガーは再帰的ではなかったため、この制限は無意味でした。 <a href=\"releaselog/3_6_18.html\">バージョン 3.6.18</a> 以降、再帰トリガーがサポートされましたが、 PRAGMA recursive_triggers 文を使用して明示的に有効にする必要がありました。 <a href=\"releaselog/3_7_0.html\">バージョン 3.7.0</a> (2009-09-11) 以降、再帰トリガーはデフォルトで有効になっていますが、 PRAGMA recursive_triggers を使用して手動で無効にすることができます。 SQLITE_MAX_TRIGGER_DEPTH は、再帰トリガーが有効になっている場合にのみ意味があります。デフォルトのトリガーの再帰の最大深さは 1000 です。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:453
 msgid "<a name=\"max_attached\"></a>"
-msgstr ""
+msgstr "<a name=\"max_attached\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:454
@@ -554,12 +557,12 @@ msgid ""
 "href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a "
 "href=\"c3ref/c_limit_attached.html#sqlitelimitattached\">SQLITE_LIMIT_ATTACHED</a>,size) "
 "interface."
-msgstr ""
+msgstr "<b>同時に接続(attach)されるデータベースの最大数</b> <a href=\"lang_attach.html\">ATTACH</a> 文は、2 つ以上のデータベースを同一のデータベース接続に関連付けて、それらが単一のデータベースであるかのように動作できるようにする SQLite 拡張機能です。同時に接続(attach)されるデータベースの数は SQLITE_MAX_ATTACHED の値に制限され、 デフォルトでは10に設定されています。接続(attach)されたデータベースの最大数を 125 を超えて増やすことはできません。接続(attach)されたデータベースの最大数は、 実行時に <a href=\"c3ref/limit.html\">sqlite3_limit</a>(db,<a href=\"c3ref/c_limit_attached.html#sqlitelimitattached\">SQLITE_LIMIT_ATTACHED</a>,size) インターフェイスを使用して減らすことができます。"
 
 #. type: Content of: <html><body><ol>
 #: sedout/limits.html:468
 msgid "<a name=\"max_page_count\"></a>"
-msgstr ""
+msgstr "<a name=\"max_page_count\"></a>"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:469
@@ -575,7 +578,7 @@ msgid ""
 "maximum SQLite database size of about 281 terabytes.  The <a "
 "href=\"pragma.html#pragma_max_page_count\"> max_page_count PRAGMA</a> can be "
 "used to raise or lower this limit at run-time."
-msgstr ""
+msgstr "<b>データベース・ファイルの最大ページ数</b> SQLite では、データベース・ファイルのサイズを制限して、データベース・ファイルが大きくなりすぎてディスク領域を消費しすぎないようにすることができます。 通常は 1073741823 に設定されている SQLITE_MAX_PAGE_COUNT パラメータは、1 つのデータベース・ファイルで許可される最大ページ数です。 データベース・ファイルがこれよりも大きくなるような新しいデータを挿入しようとすると、 SQLITE_FULL が返されます。 SQLITE_MAX_PAGE_COUNT の最大設定値は 4294967294 です。ページ・サイズを最大の 65536 で使用すると、SQLite データベースの最大サイズは約 281 テラバイトになります。 <a href=\"pragma.html#pragma_max_page_count\"> max_page_count PRAGMA</a> を使用して、実行時にこの制限を増減できます。"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:492
@@ -586,7 +589,7 @@ msgid ""
 "of 281 terabytes will be reached first.  A 281 terabytes database can hold "
 "no more than approximately 2e+13 rows, and then only if there are no indices "
 "and if each row contains very little data."
-msgstr ""
+msgstr "<b>テーブルの最大行数</b> テーブル内の理論上の最大行数は 2<sup><small>64</small></sup> (18446744073709551616 または約 1.8e+19) です。先にデータベースの最大サイズである 281 テラバイトに到達してしまうため、この制限に達することはありません。281 テラバイトのデータベースが保持できる行数は約 2e+13 行までで、インデックスがなく、かつ、 各行に含まれるデータが非常に少ない場合に限られます。"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:501
@@ -604,7 +607,7 @@ msgid ""
 "of the underlying filesystem (which is usually much less than the maximum "
 "theoretical database size) and when a database is unable to grow due to disk "
 "space exhaustion."
-msgstr ""
+msgstr "<b>データベースの最大サイズ</b> すべてのデータベースは、1 つまたは複数の「ページ」(page)で構成されています。 1 つのデータベース内では、すべてのページは同じサイズですが、データベースごとでは、512 から 65536 までの 2 のべき乗のページ・サイズにすることができます。データベース・ファイルの最大ページ数は 4294967294 ページで、そのページ・サイズが最大の 65536 バイトの場合、約 1.4e+14 バイト (281 テラバイト(TB)、または 256 テビバイト(TiB)、または 281474 ギガバイト(GB) または 256,000 ギビバイト(KiB)) の最大のデータベース・サイズになります。 SQLite の開発者達はこの制限に達することができるハードウェアにアクセスできないため、この特定の上限はテストされていません。 しかし、データベースが基盤となるファイル・システムの最大ファイル・サイズ (通常、理論上の最大データベース・サイズよりもはるかに小さい) に到達達したとき、そして、 ディスク領域の枯渇のためにデータベースが拡張できないときに、SQLite が正しく正常に動作することがテストによって確認済です。"
 
 #. type: Content of: <html><body><ol><li>
 #: sedout/limits.html:518
@@ -620,7 +623,7 @@ msgid ""
 "parsed and a parse tree for the schema is held in memory.  That means that "
 "database connection startup time and initial memory usage is proportional to "
 "the size of the schema."
-msgstr ""
+msgstr "<b>スキーマ内のテーブルの最大個数</b> 各テーブルと各インデックスには、 データベース・ファイル内に少なくとも 1 ページが必要です。この「インデックス」とは、<a href=\\\"lang_createindex.html\\\">CREATE INDEX</a> 文を使用して明示的に作成されたインデックス、または UNIQUE や PRIMARY KEY 制約によって作成された暗黙的なインデックスを意味します。データベース・ファイルの最大ページ数は 2147483646 (20 億強) であるため、 これはスキーマ内のテーブルとインデックスの数の上限でもあります。データベースが開かれるたびに、スキーマ全体がスキャンおよびパースされ、スキーマのパース・ツリーがメモリに保持されます。つまり、データベース接続の起動にかかる時間と初期メモリ使用量は、スキーマのサイズに比例します。"
 
 #. type: Content of: <html><body><p>
 #: sedout/limits.html:534
@@ -629,4 +632,4 @@ msgid ""
 "href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
 "data-href=\"https://sqlite.org/docsrc/finfo/pages/limits.in?m=896d3c205a\">2022-04-18 "
 "02:55:50</a> UTC </i></small>"
-msgstr ""
+msgstr "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/pages/limits.in?m=896d3c205a\">2022-04-18 02:55:50</a> UTC </i></small>"

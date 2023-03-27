@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link href="sqlite.css" rel="stylesheet">
-<title>Implementation Limits For SQLite</title>
+<title>SQLite の実装上の制限</title>
 
 <!-- path= -->
 </head>
@@ -58,7 +58,7 @@ document.getElementById("searchmenu"); if( w.style.display=="block" ){
 w.style.display = "none"; } else { w.style.display = "block";
 setTimeout(function(){ document.getElementById("searchbox").focus()  }, 30);
 } } function div_off(nm){document.getElementById(nm).style.display="none";}
-window.onbeforeunload = function(e){div_off("submenu");} /* Disable the
+window.onbeforeunload = function(e){div_off("submenu");}; /* Disable the
 Search feature if we are not operating from CGI, since */ /* Search is
 accomplished using CGI and will not work without it. */ if( !location.origin
 || !location.origin.match || !location.origin.match(/http/) ){
@@ -72,134 +72,111 @@ antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j =
 document.getElementById("mtimelink"); if(j && j.hasAttribute("data-href"))
 j.href=j.getAttribute("data-href"); } function antiRobotDefense(){
 document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo();
-document.body.onmousedown=null; } document.body.onmousemove=function(){
-antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }
-setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)
+document.body.onmousedown=null; }; document.body.onmousemove=function(){
+antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; };
+setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);
 antiRobotGo(); } antiRobotDefense();
 </script>
 
 
 
-<h2>Limits In SQLite</h2>
+<h2>SQLite の制限</h2>
 
 <p>
-"Limits" in the context of this article means sizes or quantities that can
-not be exceeded.  We are concerned with things like the maximum number of
-bytes in a BLOB or the maximum number of columns in a table.
+この記事の文脈における「制限」(Limits)とは、 超えることができないサイズまたは数量を意味します。
+BLOBの最大バイト数やテーブルの最大列数などが気になるところでしょう。
 </p>
 
 <p>
-SQLite was originally designed with a policy of avoiding arbitrary limits.
-Of course, every program that runs on a machine with finite memory and disk
-space has limits of some kind.  But in SQLite, those limits were not well
-defined.  The policy was that if it would fit in memory and you could count
-it with a 32-bit integer, then it should work.
+SQLiteはもともと、 任意の制限を避けるという方針で設計されています。  もちろん、 メモリやディスク容量が有限のマシン上で動作するプログラムには、
+ある種の限界があります。 しかし、 SQLiteでは、その限界はよく定義されていませんでした。
+メモリに収まり、32ビット整数でカウントできるのであれば、 それは動作するはずだという方針だったのです。
 </p>
 
 <p>
-Unfortunately, the no-limits policy has been shown to create problems.
-Because the upper bounds were not well defined, they were not tested, and
-bugs were often found when pushing SQLite to extremes.  For this reason,
-versions of SQLite since about release 3.5.8 (2008-04-16)  have well-defined
-limits, and those limits are tested as part of the <a
-href="testing.html">test suite</a>.
+残念ながら、 制限なしのポリシーは問題を引き起こすことが示されています。 上限が明確に定義されていなかったため、 テストが行われず、 SQLite
+を極端な使い方をするとバグが発見されることがよくありました。 このため、リリース 3.5.8 (2008-04-16) 以降のバージョンの SQLite
+には明確に定義された制限があり、それらの制限は <a href="testing.html">テスト・スイート</a>の一部としてテストされています。
 </p>
 
 <p>
-This article defines what the limits of SQLite are and how they can be
-customized for specific applications.  The default settings for limits are
-normally quite large and adequate for almost every application.  Some
-applications may want to increase a limit here or there, but we expect such
-needs to be rare.  More commonly, an application might want to recompile
-SQLite with much lower limits to avoid excess resource utilization in the
-event of bug in higher-level SQL statement generators or to help thwart
-attackers who inject malicious SQL statements.
+この記事では、 SQLite の制限と、 特定のアプリケーション向けにカスタマイズする方法を定義します。 通常、 制限のデフォルト設定は非常に大きく、
+ほとんどすべてのアプリケーションに適しています。  一部のアプリケーションでは、 あちこちで制限を増やしたい場合がありますが、
+そのような必要性はまれであると予想されます。 より一般的には、 アプリケーションは、 高レベルの SQL
+ステートメント・ジェネレーターにバグが発生した場合に過剰なリソースの使用を回避するため、 または、 悪意のある SQL
+ステートメントを挿入する攻撃者を阻止するために、 はるかに低い制限で SQLite を再コンパイルすることを望む場合があります。
 </p>
 
 <p>
-Some limits can be changed at run-time on a per-connection basis using the
-<a href="c3ref/limit.html">sqlite3_limit()</a> interface with one of the <a
-href="c3ref/c_limit_attached.html#sqlitelimitlength">limit categories</a>
-defined for that interface.  Run-time limits are designed for applications
-that have multiple databases, some of which are for internal use only and
-others which can be influenced or controlled by potentially hostile external
-agents.  For example, a web browser application might use an internal
-database to track historical page views but have one or more separate
-databases that are created and controlled by javascript applications that
-are downloaded from the internet.  The <a
-href="c3ref/limit.html">sqlite3_limit()</a> interface allows internal
-databases managed by trusted code to be unconstrained while simultaneously
-placing tight limitations on databases created or controlled by untrusted
-external code in order to help prevent a denial of service attack.
+一部の制限は、 <a href="c3ref/limit.html">sqlite3_limit()</a> インターフェイスを使用して、
+そのインターフェイスに定義された<a
+href="c3ref/c_limit_attached.html#sqlitelimitlength">制限カテゴリ</a>の 1 つを使用して、
+実行時に接続ごとに変更できます。 ランタイム制限は、 複数のデータベースを持つアプリケーション用に設計されており、 その一部は内部使用のみであり、
+他のデータベースは潜在的に敵対的な外部エージェントによって影響または制御される可能性があります。  たとえば、Web
+ブラウザー・アプリケーションは内部データベースを使用して過去のページ・ビューを追跡する場合がありますが、 インターネットからダウンロードした
+JavaScript アプリケーションによって作成および制御される 1 つ以上の別個のデータベースを持っている場合があります。 <a
+href="c3ref/limit.html">sqlite3_limit()</a> インターフェースにより、
+信頼できるコードによって管理される内部データベースを制約なしにすると同時に、 サービス拒否攻撃を防ぐために、
+信頼できない外部コードによって作成または制御されるデータベースに厳しい制限を課すことができます。
 </p>
 
 
 <ol>
 <a name="max_length"></a>
-<li><b>Maximum length of a string or BLOB</b> The maximum number of bytes in a
-string or BLOB in SQLite is defined by the preprocessor macro
-SQLITE_MAX_LENGTH.  The default value of this macro is 1 billion (1 thousand
-million or 1,000,000,000).  You can raise or lower this value at
-compile-time using a command-line option like this:
+<li><b>文字列(string)または BLOB の最大長</b> SQLite の文字列(string)または BLOB の最大バイト数は、
+プリプロセッサ・マクロ SQLITE_MAX_LENGTH によって定義されます。 このマクロのデフォルト値は 10 億
+(1,000,000,000)(訳注: 約953Mバイト)です。 あなたは以下のようなコマンドライン・オプションを使用して、
+コンパイル時にこの値を増減できます:
 
 
 <blockquote>-DSQLITE_MAX_LENGTH=123456789</blockquote>
 
 
-The current implementation will only support a string or BLOB length up to
-2<small><sup>31</sup></small>-1 or 2147483647.  And some built-in functions
-such as hex() might fail well before that point.  In security-sensitive
-applications it is best not to try to increase the maximum string and blob
-length.  In fact, you might do well to lower the maximum string and blob
-length to something more in the range of a few million if that is possible.
-During part of SQLite's INSERT and SELECT processing, the complete content
-of each row in the database is encoded as a single BLOB.  So the
-SQLITE_MAX_LENGTH parameter also determines the maximum number of bytes in a
-row.  The maximum string or BLOB length can be lowered at run-time using the
-<a href="c3ref/limit.html">sqlite3_limit</a>(db,<a
+現在の実装では、2<small><sup>31</sup></small>-1 または 2147483647 までの文字列長または BLOB
+長のみがサポートされます。 また、 hex() などの一部の組み込み関数は、この制限長に達するよりかなり前に失敗する可能性があります。
+セキュリティが重要なアプリケーションでは、 文字列と BLOB の最大長を増やさないことが最善です。 実際、
+可能な場合は、文字列とBLOBの最大長を数百万の範囲に減らすことをお勧めします。 SQLite の INSERT および SELECT 処理の一部で、
+データベース内の各行の完全な内容が単一の BLOB としてエンコードされます。 したがって、SQLITE_MAX_LENGTH パラメータは、
+行の最大バイト数も決定します。 文字列または BLOB の最大長は、 実行時に <a
+href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitlength">SQLITE_LIMIT_LENGTH</a>,size)
-interface.
+インターフェイスを使用して減らすことができます。
 
 </li><a name="max_column"></a>
-<li><b>Maximum Number Of Columns</b> The SQLITE_MAX_COLUMN compile-time
-parameter is used to set an upper bound on:
+<li><b>列の最大値</b> SQLITE_MAX_COLUMN コンパイル時パラメーターは、以下の上限を設定するために使用されます:
 
 
 <ul>
-<li>The number of columns in a table</li>
-<li>The number of columns in an index</li>
-<li>The number of columns in a view</li>
-<li>The number of terms in the SET clause of an UPDATE statement</li>
-<li>The number of columns in the result set of a SELECT statement</li>
-<li>The number of terms in a GROUP BY or ORDER BY clause</li>
-<li>The number of values in an INSERT statement</li>
+<li>テーブルの列数</li>
+<li>インデックスの列数</li>
+<li>ビューの列数</li>
+<li>UPDATE ステートメントの SET 句内の term の数</li>
+<li>SELECT ステートメントの結果セットの列数</li>
+<li>GROUP BY または ORDER BY 句内の term の数</li>
+<li>INSERT ステートメントの values の数</li>
 </ul>
 
 
-The default setting for SQLITE_MAX_COLUMN is 2000.  You can change it at
-compile time to values as large as 32767. On the other hand, many
-experienced database designers will argue that a well-normalized database
-will never need more than 100 columns in a table.  In most applications, the
-number of columns is small - a few dozen.  There are places in the SQLite
-code generator that use algorithms that are O(N&sup2;) where N is the number
-of columns.  So if you redefine SQLITE_MAX_COLUMN to be a really huge number
-and you generate SQL that uses a large number of columns, you may find that
-<a href="c3ref/prepare.html">sqlite3_prepare_v2()</a> runs slowly.  The
-maximum number of columns can be lowered at run-time using the <a
+SQLITE_MAX_COLUMN のデフォルト設定は 2000 です。コンパイル時に値を 32767 まで大きく変更できます。一方、
+多くの経験豊富なデータベース設計者は、 適切に正規化されたデータベースでは、 テーブルに 100 列を超える列が必要になることは決してないと主張します。
+ほとんどのアプリケーションでは、列の数は少なく、せいぜい数十個です。 SQLite コード・ジェネレーターでは、 O(N&sup2;) (N は列の数)
+の数のアルゴリズムを使用する箇所があります。
+そのため、SQLITE_MAX_COLUMN を非常に大きな数に再定義し、 多数の列を使用する SQL を生成すると、 <a
 href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitcolumn">SQLITE_LIMIT_COLUMN</a>,size)
-interface.
+<a href="c3ref/prepare.html">sqlite3_prepare_v2()</a> の実行が遅くなることがあります。
+列の最大数は、実行時に <a href="c3ref/limit.html">sqlite3_limit</a>(db,<a
+href="c3ref/c_limit_attached.html#sqlitelimitcolumn">SQLITE_LIMIT_COLUMN</a>,size)
+インターフェイスを使用して減らすことができます。
 
 
 </li><a name="max_sql_length"></a>
-<li><b>Maximum Length Of An SQL Statement</b> The maximum number of bytes in the
-text of an SQL statement is limited to SQLITE_MAX_SQL_LENGTH which defaults
-to 1,000,000,000.  If an SQL statement is limited to be a million bytes in
-length, then obviously you will not be able to insert multi-million byte
-strings by embedding them as literals inside of INSERT statements.  But you
-should not do that anyway.  Use host <a
-href="lang_expr.html#varparam">parameters</a> for your data.  Prepare short
-SQL statements like this:
+<li><b>SQL ステートメントの最大長</b> SQL ステートメントのテキストの最大バイト数は SQLITE_MAX_SQL_LENGTH
+に制限されており、 デフォルトは 1,000,000,000 です。 SQL ステートメントの長さが 百万バイトに制限されている場合、
+明らかに数百万バイトの文字列を INSERT ステートメント内にリテラルとして埋め込んで挿入することはできません。 しかし、あなたは、
+とにかくそれを行うべきではありません。 あなたのデータのためにホスト <a
+href="lang_expr.html#varparam">パラメーター</a> を使用してください。  以下のような短い SQL
+ステートメントを準備してください:
 
 
 <blockquote>
@@ -207,192 +184,141 @@ INSERT INTO tab1 VALUES(?,?,?);
 </blockquote>
 
 
-Then use the <a href="c3ref/bind_blob.html">sqlite3_bind_XXXX()</a>
-functions to bind your large string values to the SQL statement.  The use of
-binding obviates the need to escape quote characters in the string, reducing
-the risk of SQL injection attacks.  It also runs faster since the large
-string does not need to be parsed or copied as much.  The maximum length of
-an SQL statement can be lowered at run-time using the <a
+次に、 <a href="c3ref/bind_blob.html">sqlite3_bind_XXXX()</a> 関数を使用して、
+あなたの大きな文字列値を SQL ステートメントに結び付け(bind)します。 結び付け(binding)を使用すると、
+文字列内の引用符をエスケープする必要がなくなり、 SQL インジェクション攻撃のリスクが軽減されます。  また、
+大きな文字列を解析したりコピーしたりする必要がないため、 実行速度も速くなります。 SQL ステートメントの最大長は、 実行時に <a
 href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitsqllength">SQLITE_LIMIT_SQL_LENGTH</a>,size)
-interface.
+インターフェイスを使用して減らすことができます。
 
-</li><li><b>Maximum Number Of Tables In A Join</b> SQLite does not support joins
-containing more than 64 tables.  This limit arises from the fact that the
-SQLite code generator uses bitmaps with one bit per join-table in the query
-optimizer.  SQLite uses an efficient <a href="queryplanner-ng.html">query
-planner algorithm</a> and so even a large join can be <a
-href="c3ref/prepare.html">prepared</a> quickly.  Hence, there is no
-mechanism to raise or lower the limit on the number of tables in a join.
+</li><li><b>結合内のテーブル数の最大値</b> SQLite は、 64個を超えるテーブルを含む結合をサポートしていません。 この制限は、SQLite
+コード・ジェネレーターがクエリー・オプティマイザーで結合テーブル１つごとに 1 ビットであるビットマップを使用するという事実から生じます。 SQLite
+は効率的な <a href="queryplanner-ng.html">クエリ・プランナー・アルゴリズム</a> を使用するため、
+大規模な結合でもすばやく <a href="c3ref/prepare.html">prepared</a> できます。 したがって、
+結合内のテーブル数の制限を増減するメカニズムはありません。
 
 </li><a name="max_expr_depth"></a>
-<li><b>Maximum Depth Of An Expression Tree</b> SQLite parses expressions into a
-tree for processing.  During code generation, SQLite walks this tree
-recursively.  The depth of expression trees is therefore limited in order to
-avoid using too much stack space.  The SQLITE_MAX_EXPR_DEPTH parameter
-determines the maximum expression tree depth.  If the value is 0, then no
-limit is enforced.  The current implementation has a default value of 1000.
-The maximum depth of an expression tree can be lowered at run-time using the
-<a href="c3ref/limit.html">sqlite3_limit</a>(db,<a
-href="c3ref/c_limit_attached.html#sqlitelimitexprdepth">SQLITE_LIMIT_EXPR_DEPTH</a>,size)
-interface if the SQLITE_MAX_EXPR_DEPTH is initially positive.  In other
-words, the maximum expression depth can be lowered at run-time if there is
-already a compile-time limit on the expression depth.  If
-SQLITE_MAX_EXPR_DEPTH is set to 0 at compile time (if the depth of
-expressions is unlimited) then the <a
+<li><b>式ツリーの最大深さ</b> SQLite は、処理のために式をツリーとしてパースします。コード生成中、SQLite
+はこのツリーを再帰的にたどります。したがって、スタック・スペースを使いすぎないように、式ツリーの深さは制限されます。
+SQLITE_MAX_EXPR_DEPTH パラメーターは、式ツリーの最大深さを決定します。 値が 0
+の場合、制限は適用されません。現在の実装のデフォルト値は 1000 です。SQLITE_MAX_EXPR_DEPTH が最初に正の値である場合、 <a
 href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitexprdepth">SQLITE_LIMIT_EXPR_DEPTH</a>,size)
-is a no-op.
+インターフェイスを使用して、 実行時に式ツリーの最大深度を下げることができます。 つまり、 式の深さにコンパイル時に設定した制限がすでにある場合、
+実行時に最大の式の深さを下げることができます。 コンパイル時に SQLITE_MAX_EXPR_DEPTH が 0 に設定されている場合
+(式の深さが無制限の場合)、 <a href="c3ref/limit.html">sqlite3_limit</a>(db,<a
+href="c3ref/c_limit_attached.html#sqlitelimitexprdepth">SQLITE_LIMIT_EXPR_DEPTH</a>,size)
+は何もしません(no-op)。
 
 
 
 </li><a name="max_function_arg"></a>
-<li><b>Maximum Number Of Arguments On A Function</b> The SQLITE_MAX_FUNCTION_ARG
-parameter determines the maximum number of parameters that can be passed to
-an SQL function.  The default value of this limit is 100.  SQLite should
-work with functions that have thousands of parameters.  However, we suspect
-that anybody who tries to invoke a function with more than a few parameters
-is really trying to find security exploits in systems that use SQLite, not
-do useful work, and so for that reason we have set this parameter relatively
-low.  The number of arguments to a function is sometimes stored in a signed
-character.  So there is a hard upper bound on SQLITE_MAX_FUNCTION_ARG of
-127.  The maximum number of arguments in a function can be lowered at
-run-time using the <a href="c3ref/limit.html">sqlite3_limit</a>(db,<a
+<li><b>関数の引数の数の最大値</b> SQLITE_MAX_FUNCTION_ARG パラメータは、SQL
+関数に渡すことができるパラメータの最大個数を決定します。この制限のデフォルト値は 100 です。SQLite
+は、数千個のパラメータを持つ関数でも動作するはずです。しかし、数個以上のパラメータを持つ関数を呼び出そうとする人は、実際には、有益な仕事をするのではなく、SQLite
+を使用するシステムのセキュリティの脆弱性攻撃プログラムを作っていると思われるため、このパラメーターを比較的低く設定されています。関数への引数の数は、
+signed character で格納されることがあります。そのため、SQLITE_MAX_FUNCTION_ARG には 127
+という厳しい上限があります。関数の引数の最大数は、実行時に <a
+href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitfunctionarg">SQLITE_LIMIT_FUNCTION_ARG</a>,size)
-interface.
+インターフェイスを使用して減らすことができます。
 
 </li><a name="max_compound_select"></a>
-<li><b>Maximum Number Of Terms In A Compound SELECT Statement</b> A compound <a
-href="lang_select.html">SELECT</a> statement is two or more SELECT
-statements connected by operators UNION, UNION ALL, EXCEPT, or INTERSECT.
-We call each individual SELECT statement within a compound SELECT a "term".
-The code generator in SQLite processes compound SELECT statements using a
-recursive algorithm.  In order to limit the size of the stack, we therefore
-limit the number of terms in a compound SELECT.  The maximum number of terms
-is SQLITE_MAX_COMPOUND_SELECT which defaults to 500.  We think this is a
-generous allotment since in practice we almost never see the number of terms
-in a compound select exceed single digits.  The maximum number of compound
-SELECT terms can be lowered at run-time using the <a
+<li><b>複合 SELECT 文内の term の個数の最大値</b> 複合 SELECT 文は、演算子 UNION または UNION ALL または
+EXCEPT または INTERSECT によって接続された 2 つ以上の SELECT 文です。複合 <a
+href="lang_select.html">SELECT</a> 内の個々の SELECT 文を "term" と呼びます。 SQLite
+のコード・ジェネレーターは、 再帰アルゴリズムを使用して複合 SELECT 文を処理します。したがって、スタックのサイズを制限するために、複合
+SELECT 内の term の数を制限します。 term の最大個数は SQLITE_MAX_COMPOUND_SELECT で、デフォルトは 500
+です。実際には、複合 SELECT の term の数が 1 桁を超えることはほとんどないため、 これは寛大な割り当てであると考えています。 <a
 href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitcompoundselect">SQLITE_LIMIT_COMPOUND_SELECT</a>,size)
-interface.
+インターフェイスを使用して、 実行時に複合 SELECT の term の最大個数を減らすことができます。
 
 
 
 </li><a name="max_like_pattern_length"></a>
-<li><b>Maximum Length Of A LIKE Or GLOB Pattern</b> The pattern matching
-algorithm used in the default <a href="lang_expr.html#like">LIKE</a> and <a
-href="lang_expr.html#glob">GLOB</a> implementation of SQLite can exhibit
-O(N&sup2;) performance (where N is the number of characters in the pattern)
-for certain pathological cases.  To avoid denial-of-service attacks from
-miscreants who are able to specify their own LIKE or GLOB patterns, the
-length of the LIKE or GLOB pattern is limited to
-SQLITE_MAX_LIKE_PATTERN_LENGTH bytes.  The default value of this limit is
-50000.  A modern workstation can evaluate even a pathological LIKE or GLOB
-pattern of 50000 bytes relatively quickly.  The denial of service problem
-only comes into play when the pattern length gets into millions of bytes.
-Nevertheless, since most useful LIKE or GLOB patterns are at most a few
-dozen bytes in length, paranoid application developers may want to reduce
-this parameter to something in the range of a few hundred if they know that
-external users are able to generate arbitrary patterns.  The maximum length
-of a LIKE or GLOB pattern can be lowered at run-time using the <a
+<li><b>LIKE パターン や GLOB パターンの最大長さ</b> SQLite のデフォルトの <a
+href="lang_expr.html#like">LIKE</a> 実装と <a
+href="lang_expr.html#glob">GLOB</a> 実装で使用されるパターン・マッチング・アルゴリズムは、
+病的な、ある特定のケースでは O(N&sup2;) (N はパターン内の文字数) な性能になってしまう事があります。独自の LIKE パターン や
+GLOB パターンが指定可能に事による、悪意のある者からのサービス拒否攻撃(Dos攻撃;denial-of-service
+attacks)を回避するために、LIKE または GLOB パターンの長さは SQLITE_MAX_LIKE_PATTERN_LENGTH
+バイトに制限されています。この制限のデフォルト値は 50000 です。 最新のワークステーションは、50000 バイトの異常な LIKE または
+GLOB パターンでさえも比較的迅速に評価できます。 サービス拒否攻撃の問題は、
+パターンの長さが数百万バイトに達した場合にのみ発生します。しかしながら、 最も有用な LIKE または GLOB
+パターンの長さはせいぜい数十バイトであるため、パラノイア的なアプリケーション開発者は、外部ユーザーが任意のパターンを生成できることを知っている場合、このパラメータを数百の範囲にまで減らしたいと思うかもしれません。LIKE
+パターン や GLOB パターンの最大長は、実行時に <a
 href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitlikepatternlength">SQLITE_LIMIT_LIKE_PATTERN_LENGTH</a>,size)
-interface.
+インターフェイスを使用して減らすことができます。
 
 </li><a name="max_variable_number"></a>
-<li><b>Maximum Number Of Host Parameters In A Single SQL Statement</b> A host <a
-href="lang_expr.html#varparam">parameter</a> is a place-holder in an SQL
-statement that is filled in using one of the <a
-href="c3ref/bind_blob.html">sqlite3_bind_XXXX()</a> interfaces.  Many SQL
-programmers are familiar with using a question mark ("?") as a host
-parameter.  SQLite also supports named host parameters prefaced by ":", "$",
-or "@" and numbered host parameters of the form "?123".  Each host parameter
-in an SQLite statement is assigned a number.  The numbers normally begin
-with 1 and increase by one with each new parameter.  However, when the
-"?123" form is used, the host parameter number is the number that follows
-the question mark.  SQLite allocates space to hold all host parameters
-between 1 and the largest host parameter number used.  Hence, an SQL
-statement that contains a host parameter like ?1000000000 would require
-gigabytes of storage.  This could easily overwhelm the resources of the host
-machine.  To prevent excessive memory allocations, the maximum value of a
-host parameter number is SQLITE_MAX_VARIABLE_NUMBER, which defaults to 999
-for SQLite versions prior to 3.32.0 (2020-05-22)  or 32766 for SQLite
-versions after 3.32.0.  The maximum host parameter number can be lowered at
-run-time using the <a href="c3ref/limit.html">sqlite3_limit</a>(db,<a
+<li><b>単一の SQL 文内のホスト・パラメータの最大値</b> ホスト・<a
+href="lang_expr.html#varparam">パラメータ</a>は、 <a
+href="c3ref/bind_blob.html">sqlite3_bind_XXXX()</a> インターフェイスの 1 つを使用して入力される
+SQL ステートメントのプレースホルダです。多くの SQL プログラマーは、クエスチョン・マーク("?")
+をホスト・パラメータとして使用することに慣れています。 SQLite は、 ":" または "$" または "@"
+で始まる名前付きホスト・パラメータや、 "?123" 形式の番号付きホスト・パラメータもサポートしています。SQLite
+ステートメントの各ホスト・パラメータには番号が割り当てられます。通常、数値は 1 から始まり、新しいパラメータごとに 1 ずつ増加します。ただし、
+"?123" 形式を使用する場合、ホスト・パラメータ番号はクエスチョン・マークに続く番号です。SQLite は、1
+から、使用される最大のホスト・パラメータ番号までの、すべてのホスト・パラメータを保持するためのスペースを割り当てます。したがって、
+?1000000000 のようなホスト・パラメータを含む SQL
+文には、ギガバイトのストレージが必要になります。これは、ホスト・マシンのリソースを容易に圧迫してしまう可能性があります。過剰なメモリ割り当てを防ぐためのホスト・パラメータ番号の最大値が
+SQLITE_MAX_VARIABLE_NUMBER です。これは、バージョン 3.32.0 (2020-05-22) より前の SQLite の場合は
+999で、3.32.0 より後の SQLite バージョンの場合は 32766 にデフォルト設定されます。最大ホスト・パラメータ数は、実行時に <a
+href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitvariablenumber">SQLITE_LIMIT_VARIABLE_NUMBER</a>,size)
-interface.
+インターフェイスを使用して下げることができます。
 
 </li><a name="max_trigger_depth"></a>
-<li><b>Maximum Depth Of Trigger Recursion</b> SQLite limits the depth of
-recursion of triggers in order to prevent a statement involving recursive
-triggers from using an unbounded amount of memory.  Prior to SQLite <a
-href="releaselog/3_6_18.html">version 3.6.18</a> (2009-09-11), triggers were
-not recursive and so this limit was meaningless.  Beginning with version
-3.6.18, recursive triggers were supported but had to be explicitly enabled
-using the <a href="pragma.html#pragma_recursive_triggers">PRAGMA
-recursive_triggers</a> statement.  Beginning with <a
-href="releaselog/3_7_0.html">version 3.7.0</a> (2009-09-11), recursive
-triggers are enabled by default but can be manually disabled using <a
-href="pragma.html#pragma_recursive_triggers">PRAGMA recursive_triggers</a>.
-The SQLITE_MAX_TRIGGER_DEPTH is only meaningful if recursive triggers are
-enabled.  The default maximum trigger recursion depth is 1000.
+<li><b>トリガーの再帰の最大深さ</b> SQLite
+は、再帰的なトリガーを含む文が無制限の量のメモリを使用するのを防ぐために、トリガーの再帰の深さを制限します。SQLite <a
+href="releaselog/3_6_18.html">バージョン 3.6.18</a> (2009-09-11)
+より前では、トリガーは再帰的ではなかったため、この制限は無意味でした。 <a href="releaselog/3_6_18.html">バージョン
+3.6.18</a> 以降、再帰トリガーがサポートされましたが、 PRAGMA recursive_triggers
+文を使用して明示的に有効にする必要がありました。 <a href="releaselog/3_7_0.html">バージョン 3.7.0</a>
+(2009-09-11) 以降、再帰トリガーはデフォルトで有効になっていますが、 PRAGMA recursive_triggers
+を使用して手動で無効にすることができます。 SQLITE_MAX_TRIGGER_DEPTH
+は、再帰トリガーが有効になっている場合にのみ意味があります。デフォルトのトリガーの再帰の最大深さは 1000 です。
 </li><a name="max_attached"></a>
-<li><b>Maximum Number Of Attached Databases</b> The <a
-href="lang_attach.html">ATTACH</a> statement is an SQLite extension that
-allows two or more databases to be associated to the same database
-connection and to operate as if they were a single database.  The number of
-simultaneously attached databases is limited to SQLITE_MAX_ATTACHED which is
-set to 10 by default.  The maximum number of attached databases cannot be
-increased above 125.  The maximum number of attached databases can be
-lowered at run-time using the <a
+<li><b>同時に接続(attach)されるデータベースの最大数</b> <a href="lang_attach.html">ATTACH</a> 文は、2
+つ以上のデータベースを同一のデータベース接続に関連付けて、それらが単一のデータベースであるかのように動作できるようにする SQLite
+拡張機能です。同時に接続(attach)されるデータベースの数は SQLITE_MAX_ATTACHED の値に制限され、
+デフォルトでは10に設定されています。接続(attach)されたデータベースの最大数を 125
+を超えて増やすことはできません。接続(attach)されたデータベースの最大数は、 実行時に <a
 href="c3ref/limit.html">sqlite3_limit</a>(db,<a
 href="c3ref/c_limit_attached.html#sqlitelimitattached">SQLITE_LIMIT_ATTACHED</a>,size)
-interface.
+インターフェイスを使用して減らすことができます。
 
 </li><a name="max_page_count"></a>
-<li><b>Maximum Number Of Pages In A Database File</b> SQLite is able to limit
-the size of a database file to prevent the database file from growing too
-large and consuming too much disk space.  The SQLITE_MAX_PAGE_COUNT
-parameter, which is normally set to 1073741823, is the maximum number of
-pages allowed in a single database file.  An attempt to insert new data that
-would cause the database file to grow larger than this will return
-SQLITE_FULL.  The largest possible setting for SQLITE_MAX_PAGE_COUNT is
-4294967294.  When used with the maximum page size of 65536, this gives a
-maximum SQLite database size of about 281 terabytes.  The <a
-href="pragma.html#pragma_max_page_count"> max_page_count PRAGMA</a> can be
-used to raise or lower this limit at run-time.
+<li><b>データベース・ファイルの最大ページ数</b> SQLite
+では、データベース・ファイルのサイズを制限して、データベース・ファイルが大きくなりすぎてディスク領域を消費しすぎないようにすることができます。 通常は
+1073741823 に設定されている SQLITE_MAX_PAGE_COUNT パラメータは、1
+つのデータベース・ファイルで許可される最大ページ数です。 データベース・ファイルがこれよりも大きくなるような新しいデータを挿入しようとすると、
+SQLITE_FULL が返されます。 SQLITE_MAX_PAGE_COUNT の最大設定値は 4294967294 です。ページ・サイズを最大の
+65536 で使用すると、SQLite データベースの最大サイズは約 281 テラバイトになります。 <a
+href="pragma.html#pragma_max_page_count"> max_page_count PRAGMA</a>
+を使用して、実行時にこの制限を増減できます。
 
-</li><li><b>Maximum Number Of Rows In A Table</b> The theoretical maximum number of
-rows in a table is 2<sup><small>64</small></sup> (18446744073709551616 or
-about 1.8e+19).  This limit is unreachable since the maximum database size
-of 281 terabytes will be reached first.  A 281 terabytes database can hold
-no more than approximately 2e+13 rows, and then only if there are no indices
-and if each row contains very little data.
-</li><li><b>Maximum Database Size</b> Every database consists of one or more
-"pages".  Within a single database, every page is the same size, but
-different databases can have page sizes that are powers of two between 512
-and 65536, inclusive.  The maximum size of a database file is 4294967294
-pages.  At the maximum page size of 65536 bytes, this translates into a
-maximum database size of approximately 1.4e+14 bytes (281 terabytes, or 256
-tebibytes, or 281474 gigabytes or 256,000 gibibytes).  This particular upper
-bound is untested since the developers do not have access to hardware
-capable of reaching this limit.  However, tests do verify that SQLite
-behaves correctly and sanely when a database reaches the maximum file size
-of the underlying filesystem (which is usually much less than the maximum
-theoretical database size) and when a database is unable to grow due to disk
-space exhaustion.
-</li><li><b>Maximum Number Of Tables In A Schema</b> Each table and index requires at
-least one page in the database file.  An "index" in the previous sentence
-means an index created explicitly using a <a
-href="lang_createindex.html">CREATE INDEX</a> statement or implicit indices
-created by UNIQUE and PRIMARY KEY constraints.  Since the maximum number of
-pages in a database file is 2147483646 (a little over 2 billion) this is
-also then an upper bound on the number of tables and indices in a schema.
-Whenever a database is opened, the entire schema is scanned and parsed and a
-parse tree for the schema is held in memory.  That means that database
-connection startup time and initial memory usage is proportional to the size
-of the schema.
+</li><li><b>テーブルの最大行数</b> テーブル内の理論上の最大行数は 2<sup><small>64</small></sup>
+(18446744073709551616 または約 1.8e+19) です。先にデータベースの最大サイズである 281
+テラバイトに到達してしまうため、この制限に達することはありません。281 テラバイトのデータベースが保持できる行数は約 2e+13
+行までで、インデックスがなく、かつ、 各行に含まれるデータが非常に少ない場合に限られます。
+</li><li><b>データベースの最大サイズ</b> すべてのデータベースは、1 つまたは複数の「ページ」(page)で構成されています。 1
+つのデータベース内では、すべてのページは同じサイズですが、データベースごとでは、512 から 65536 までの 2
+のべき乗のページ・サイズにすることができます。データベース・ファイルの最大ページ数は 4294967294 ページで、そのページ・サイズが最大の
+65536 バイトの場合、約 1.4e+14 バイト (281 テラバイト(TB)、または 256 テビバイト(TiB)、または 281474
+ギガバイト(GB) または 256,000 ギビバイト(KiB)) の最大のデータベース・サイズになります。 SQLite
+の開発者達はこの制限に達することができるハードウェアにアクセスできないため、この特定の上限はテストされていません。
+しかし、データベースが基盤となるファイル・システムの最大ファイル・サイズ (通常、理論上の最大データベース・サイズよりもはるかに小さい)
+に到達達したとき、そして、 ディスク領域の枯渇のためにデータベースが拡張できないときに、SQLite
+が正しく正常に動作することがテストによって確認済です。
+</li><li><b>スキーマ内のテーブルの最大個数</b> 各テーブルと各インデックスには、 データベース・ファイル内に少なくとも 1
+ページが必要です。この「インデックス」とは、<a href=\"lang_createindex.html\">CREATE INDEX</a>
+文を使用して明示的に作成されたインデックス、または UNIQUE や PRIMARY KEY
+制約によって作成された暗黙的なインデックスを意味します。データベース・ファイルの最大ページ数は 2147483646 (20 億強) であるため、
+これはスキーマ内のテーブルとインデックスの数の上限でもあります。データベースが開かれるたびに、スキーマ全体がスキャンおよびパースされ、スキーマのパース・ツリーがメモリに保持されます。つまり、データベース接続の起動にかかる時間と初期メモリ使用量は、スキーマのサイズに比例します。
 </li>
 </ol>
 <p align="center"><small><i>This page last modified on <a
