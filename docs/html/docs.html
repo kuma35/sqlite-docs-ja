@@ -81,36 +81,36 @@ antiRobotGo(); } antiRobotDefense();
 
 
 <div class="rightsidebar desktoponly border2px">
-<h3 align="center">Common Links</h3>
+<h3 align="center">共通リンク集</h3>
 <ul class=nounderline>
-<li> <a href="features.html">Features</a> </li>
-<li> <a href="whentouse.html">When to use SQLite</a> </li>
-<li> <a href="quickstart.html">Getting Started</a> </li>
-<li> <a href="https://sqlite.org/fiddle">Try it live!</a></li>
-<li> <a href="chronology.html">Prior Releases</a>
-<li> <a href="lang.html">SQL Syntax</a>
+<li> <a href="features.html">特長</a> </li>
+<li> <a href="whentouse.html">SQLiteを使用すべき時</a> </li>
+<li> <a href="quickstart.html">入門</a> </li>
+<li> <a href="https://sqlite.org/fiddle">Web上で試す(別サイト)</a></li>
+<li> <a href="chronology.html">過去のリリース</a>
+<li> <a href="lang.html">SQL 文法</a>
 <ul>
-<li> <a href="pragma.html#toc">Pragmas</a>
-<li> <a href="lang_corefunc.html">SQL functions</a>
-<li> <a href="lang_datefunc.html">Date &amp; time functions</a>
-<li> <a href="lang_aggfunc.html#aggfunclist">Aggregate functions</a>
-<li> <a href="windowfunctions.html#biwinfunc">Window functions</a>
-<li> <a href="lang_mathfunc.html">Math functions</a>
-<li> <a href="json1.html">JSON functions</a>
+<li> <a href="pragma.html#toc">プラグマ</a>
+<li> <a href="lang_corefunc.html">SQL 関数</a>
+<li> <a href="lang_datefunc.html">日付と時刻の関数</a>
+<li> <a href="lang_aggfunc.html#aggfunclist">集計(aggregate)関数</a>
+<li> <a href="windowfunctions.html#biwinfunc">window 関数</a>
+<li> <a href="lang_mathfunc.html">算術関数</a>
+<li> <a href="json1.html">JSON 関数</a>
 </ul>
 </li>
-<li> <a href="c3ref/intro.html">C/C++ Interface Spec</a>
+<li> <a href="c3ref/intro.html">C/C++ インターフェース仕様</a>
 <ul>
-<li> <a href="cintro.html">Introduction</a>
-<li> <a href="c3ref/funclist.html">List of C-language APIs</a>
+<li> <a href="cintro.html">はじめに(C/C++インターフェイス)</a>
+<li> <a href="c3ref/funclist.html">C言語 API の一覧</a>
 </ul>
 </li>
-<li> <a href="tclsqlite.html">The TCL Interface Spec</a>
-<li> <a href="quirks.html">Quirks and Gotchas</a> </li>
-<li> <a href="faq.html">Frequently Asked Questions</a> </li>
-<li> <a href="http://www.sqlite.org/src/timeline?n=100&y=ci">Commit History</a> </li>
-<li> <a href="http://www.sqlite.org/src/wiki?name=Bug+Reports">Bugs</a> </li>
-<li> <a href="news.html">News</a> </li>
+<li> <a href="tclsqlite.html">TCL インターフェース仕様</a>
+<li> <a href="quirks.html">癖と落とし穴</a> </li>
+<li> <a href="faq.html">よくある質問(FAQ)</a> </li>
+<li> <a href="http://www.sqlite.org/src/timeline?n=100&y=ci">コミット履歴</a> </li>
+<li> <a href="http://www.sqlite.org/src/wiki?name=Bug+Reports">バグ</a> </li>
+<li> <a href="news.html">ニュース</a> </li>
 </ul>
 
 </div>
@@ -127,33 +127,32 @@ value="Go"/>
 </div>
 <style>
 .showhide { margin-left: 0; padding-left: 0; list-style-type: none; }
-.showhide &gt; li { padding-left: 1em; text-indent: -1em; } .showhide &gt;
-li li { padding-left: 0; text-indent: 0; padding-top: 1ex; padding-bottom:
-1ex; } .showhide ul { display: none; list-style-type: disc; } .showhide &gt;
-li &gt; a { text-decoration: none; color: black; cursor: pointer; } .sh_mark
-{ float: left; width: 1em; } .sh_link { font-weight: bold; } .docsearch {
-margin: auto; width: 450px; padding-bottom: 1.5em; }
+.showhide > li { padding-left: 1em; text-indent: -1em; } .showhide > li li {
+padding-left: 0; text-indent: 0; padding-top: 1ex; padding-bottom: 1ex; }
+.showhide ul { display: none; list-style-type: disc; } .showhide > li > a {
+text-decoration: none; color: black; cursor: pointer; } .sh_mark { float:
+left; width: 1em; } .sh_link { font-weight: bold; } .docsearch { margin:
+auto; width: 450px; padding-bottom: 1.5em; }
 </style>
 <script>
-function showhide(n){ var ul = document.getElementById("sh_sub_"+n)  var mk
-= document.getElementById("sh_mark_"+n)  if( ul.style.display!="block" ){
+function showhide(n){ var ul = document.getElementById("sh_sub_"+n); var mk
+= document.getElementById("sh_mark_"+n);  if( ul.style.display!="block" ){
 ul.style.display = "block"; mk.innerHTML = "&#x25bc;"; } else {
-ul.style.display = "none"; mk.innerHTML = "&#x25ba;"; } } if(
+ul.style.display = "none"; mk.innerHTML = "&#x25ba;";}}; if(
 !location.origin || !location.origin.match || !location.origin.match(/http/)
 ){ document.getElementById("docsearch").style.display = "none"; }
 </script>
 
 <ul class="showhide">
 <li><a onclick='showhide(1)'><span class='sh_mark'
-id='sh_mark_1'>&#x25bc;</span> Document Lists And Indexes</a>
+id='sh_mark_1'>&#x25bc;</span> 文書一覧と索引</a>
 <ul id='sh_sub_1' style='display:block;'>
-<li><a class='sh_link' href='doclist.html'>Alphabetical Listing Of All
-Documents</a>
-<li><a class='sh_link' href='keyword_index.html'>Website Keyword Index</a>
-<li><a class='sh_link' href='sitemap.html'>Permuted Title Index</a>
+<li><a class='sh_link' href='doclist.html'>全ての文書のアルファベット順一覧</a>
+<li><a class='sh_link' href='keyword_index.html'>このサイト内のキーワードの索引</a>
+<li><a class='sh_link' href='sitemap.html'>表題索引</a>
 </ul>
 <li><a onclick='showhide(2)'><span class='sh_mark'
-id='sh_mark_2'>&#x25ba;</span> Overview Documents</a>
+id='sh_mark_2'>&#x25ba;</span> 概要</a>
 <ul id='sh_sub_2'>
 <li><a class='sh_link' href='about.html'>About SQLite</a> <span
 class='desktoponly'>&rarr; A high-level overview of what SQLite is and why
@@ -166,31 +165,27 @@ client/server database engine might be a better choice.  </span>
 class='desktoponly'>&rarr; This document enumerates and describes some of
 the features of SQLite that make it different from other SQL database
 engines.  </span>
-<li><a class='sh_link' href='quirks.html'>Quirks of SQLite</a> <span
-class='desktoponly'>&rarr; This document is a short list of some unusual
-features of SQLite that tend to cause misunderstandings and confusion.  The
-list includes both deliberate innovations and "misfeatures" that are
-retained only for backwards compatibility.  </span>
+<li><a class='sh_link' href='quirks.html'>SQLite の癖</a> <span
+class='desktoponly'>&rarr; この文書は、代表的な、誤解や混乱を引き起こしがちなSQLiteの普通でない機能のリストです。
+このリストには、意図的な革新と、後方互換性のためだけに保持されている「誤った機能」の両方が含まれています。 </span>
 <li><a class='sh_link' href='testing.html'>How SQLite Is Tested</a> <span
 class='desktoponly'>&rarr; The reliability and robustness of SQLite is
 achieved in large part by thorough and careful testing.  This document
 identifies the many tests that occur before every release of SQLite.
 </span>
 <li><a class='sh_link' href='copyright.html'>Copyright</a> <span
-class='desktoponly'>&rarr; SQLite is in the public domain.  This document
-describes what that means and the implications for contributors.  </span>
-<li><a class='sh_link' href='faq.html'>Frequently Asked Questions</a> <span
-class='desktoponly'>&rarr; The title of the document says all...  </span>
-<li><a class='sh_link' href='books.html'>Books About SQLite</a> <span
-class='desktoponly'>&rarr; A list of independently written books about
-SQLite.  </span>
+class='desktoponly'>&rarr; SQLite はパブリック・ドメインです。
+このドキュメントでは、それが何を意味し、そしてそれが貢献者(contributors)にどんな影響を与えるかついて説明します。 </span>
+<li><a class='sh_link' href='faq.html'>よくある質問(FAQ)</a> <span
+class='desktoponly'>&rarr; よくある質問と回答です。 </span>
+<li><a class='sh_link' href='books.html'>SQLite 関連図書</a> <span
+class='desktoponly'>&rarr; SQLite について独自に書かれた(英文の)書籍の一覧。  </span>
 </ul>
 <li><a onclick='showhide(3)'><span class='sh_mark'
-id='sh_mark_3'>&#x25ba;</span> Programming Interfaces</a>
+id='sh_mark_3'>&#x25ba;</span> プログラミング・インターフェース</a>
 <ul id='sh_sub_3'>
-<li><a class='sh_link' href='quickstart.html'>SQLite In 5 Minutes Or Less</a>
-<span class='desktoponly'>&rarr; A very quick introduction to programming
-with SQLite.  </span>
+<li><a class='sh_link' href='quickstart.html'>5分で分かる SQLite </a> <span
+class='desktoponly'>&rarr; SQLite を使用したプログラミングを簡単に紹介。 </span>
 <li><a class='sh_link' href='cintro.html'>Introduction to the C/C++ API </a>
 <span class='desktoponly'>&rarr; This document introduces the C/C++
 API. Users should read this document before the C/C++ API Reference Guide

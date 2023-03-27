@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-16 16:20+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-03-28 07:01+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,115 +18,115 @@ msgstr ""
 #. type: Content of: <html><head><meta><meta><link><title>
 #: sedout/docs.html:6
 msgid "SQLite Documentation"
-msgstr ""
+msgstr "SQLite Documentation"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/docs.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/docs.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/docs.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/docs.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/docs.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/docs.html:21
 msgid ""
 "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/docs.html:22 sedout/docs.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/docs.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/docs.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/docs.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/docs.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/docs.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/docs.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/docs.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><form><select>
 #: sedout/docs.html:43 sedout/docs.html:159
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><form><select><option>
 #: sedout/docs.html:44 sedout/docs.html:160
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><form><select><option>
 #: sedout/docs.html:45 sedout/docs.html:161
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/docs.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/docs.html:53
@@ -158,123 +157,123 @@ msgid ""
 "antiRobotGo(); document.body.onmousemove=null; } setTimeout(function()"
 "{ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } "
 "antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");} /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; } document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><div><h3>
 #: sedout/docs.html:122
 msgid "Common Links"
-msgstr ""
+msgstr "共通リンク集"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:124
 msgid "<a href=\"features.html\">Features</a>"
-msgstr ""
+msgstr "<a href=\"features.html\">特長</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:125
 msgid "<a href=\"whentouse.html\">When to use SQLite</a>"
-msgstr ""
+msgstr "<a href=\"whentouse.html\">SQLiteを使用すべき時</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:126
 msgid "<a href=\"quickstart.html\">Getting Started</a>"
-msgstr ""
+msgstr "<a href=\"quickstart.html\">入門</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:127
 msgid "<a href=\"https://sqlite.org/fiddle\">Try it live!</a>"
-msgstr ""
+msgstr "<a href=\"https://sqlite.org/fiddle\">Web上で試す(別サイト)</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:128
 msgid "<a href=\"chronology.html\">Prior Releases</a>"
-msgstr ""
+msgstr "<a href=\"chronology.html\">過去のリリース</a>"
 
 #. type: Content of: <html><body><div><ul><li><li>
 #: sedout/docs.html:129
 msgid "<a href=\"lang.html\">SQL Syntax</a>"
-msgstr ""
+msgstr "<a href=\"lang.html\">SQL 文法</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li>
 #: sedout/docs.html:131
 msgid "<a href=\"pragma.html#toc\">Pragmas</a>"
-msgstr ""
+msgstr "<a href=\"pragma.html#toc\">プラグマ</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li>
 #: sedout/docs.html:132
 msgid "<a href=\"lang_corefunc.html\">SQL functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_corefunc.html\">SQL 関数</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li><li>
 #: sedout/docs.html:133
 msgid "<a href=\"lang_datefunc.html\">Date &amp; time functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_datefunc.html\">日付と時刻の関数</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li>
 #: sedout/docs.html:134
 msgid "<a href=\"lang_aggfunc.html#aggfunclist\">Aggregate functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_aggfunc.html#aggfunclist\">集計(aggregate)関数</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:135
 msgid "<a href=\"windowfunctions.html#biwinfunc\">Window functions</a>"
-msgstr ""
+msgstr "<a href=\"windowfunctions.html#biwinfunc\">window 関数</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:136
 msgid "<a href=\"lang_mathfunc.html\">Math functions</a>"
-msgstr ""
+msgstr "<a href=\"lang_mathfunc.html\">算術関数</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:137
 msgid "<a href=\"json1.html\">JSON functions</a>"
-msgstr ""
+msgstr "<a href=\"json1.html\">JSON 関数</a>"
 
 #. type: Content of: <html><body><div><ul><li><li>
 #: sedout/docs.html:140
 msgid "<a href=\"c3ref/intro.html\">C/C++ Interface Spec</a>"
-msgstr ""
+msgstr "<a href=\"c3ref/intro.html\">C/C++ インターフェース仕様</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li>
 #: sedout/docs.html:142
 msgid "<a href=\"cintro.html\">Introduction</a>"
-msgstr ""
+msgstr "<a href=\"cintro.html\">はじめに(C/C++インターフェイス)</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><ul><li><li>
 #: sedout/docs.html:143
 msgid "<a href=\"c3ref/funclist.html\">List of C-language APIs</a>"
-msgstr ""
+msgstr "<a href=\"c3ref/funclist.html\">C言語 API の一覧</a>"
 
 #. type: Content of: <html><body><div><ul><li><li>
 #: sedout/docs.html:146
 msgid "<a href=\"tclsqlite.html\">The TCL Interface Spec</a>"
-msgstr ""
+msgstr "<a href=\"tclsqlite.html\">TCL インターフェース仕様</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><li>
 #: sedout/docs.html:147
 msgid "<a href=\"quirks.html\">Quirks and Gotchas</a>"
-msgstr ""
+msgstr "<a href=\"quirks.html\">癖と落とし穴</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><li>
 #: sedout/docs.html:148
 msgid "<a href=\"faq.html\">Frequently Asked Questions</a>"
-msgstr ""
+msgstr "<a href=\"faq.html\">よくある質問(FAQ)</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><li>
 #: sedout/docs.html:149
 msgid ""
 "<a href=\"http://www.sqlite.org/src/timeline?n=100&y=ci\">Commit History</a>"
-msgstr ""
+msgstr "<a href=\"http://www.sqlite.org/src/timeline?n=100&y=ci\">コミット履歴</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><li>
 #: sedout/docs.html:150
 msgid "<a href=\"http://www.sqlite.org/src/wiki?name=Bug+Reports\">Bugs</a>"
-msgstr ""
+msgstr "<a href=\"http://www.sqlite.org/src/wiki?name=Bug+Reports\">バグ</a>"
 
 #. type: Content of: <html><body><div><ul><li><li><li>
 #: sedout/docs.html:151
 msgid "<a href=\"news.html\">News</a>"
-msgstr ""
+msgstr "<a href=\"news.html\">ニュース</a>"
 
 #. type: Content of: <html><body><h2>
 #: sedout/docs.html:156
@@ -286,8 +285,9 @@ msgstr ""
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\"/> <input "
 "type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\"/> <input type=\"submit\" value=\"Go\"/>"
 
+# (po4aが) &gt; にしちゃってたので > に修正
 #. type: Content of: <html><body><style>
 #: sedout/docs.html:168
 msgid ""
@@ -298,8 +298,9 @@ msgid ""
 "li &gt; a { text-decoration: none; color: black; cursor: pointer; } .sh_mark "
 "{ float: left; width: 1em; } .sh_link { font-weight: bold; } .docsearch "
 "{ margin: auto; width: 450px; padding-bottom: 1.5em; }"
-msgstr ""
+msgstr ".showhide { margin-left: 0; padding-left: 0; list-style-type: none; } .showhide > li { padding-left: 1em; text-indent: -1em; } .showhide > li li { padding-left: 0; text-indent: 0; padding-top: 1ex; padding-bottom: 1ex; } .showhide ul { display: none; list-style-type: disc; } .showhide > li > a { text-decoration: none; color: black; cursor: pointer; } .sh_mark { float: left; width: 1em; } .sh_link { font-weight: bold; } .docsearch { margin: auto; width: 450px; padding-bottom: 1.5em; }"
 
+# 改行無くなっちゃうので必要な箇所に ; 追加
 #. type: Content of: <html><body><script>
 #: sedout/docs.html:206
 msgid ""
@@ -309,38 +310,38 @@ msgid ""
 "else { ul.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } } if( !"
 "location.origin || !location.origin.match || !location.origin.match(/http/) )"
 "{ document.getElementById(\"docsearch\").style.display = \"none\"; }"
-msgstr ""
+msgstr "function showhide(n){ var ul = document.getElementById(\"sh_sub_\"+n); var mk = document.getElementById(\"sh_mark_\"+n);  if( ul.style.display!=\"block\" ){ ul.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { ul.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\";}}; if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"docsearch\").style.display = \"none\"; }"
 
 #. type: Content of: <html><body><ul><li>
 #: sedout/docs.html:223
 msgid ""
 "<a onclick='showhide(1)'><span class='sh_mark' id='sh_mark_1'>&#x25bc;</"
 "span> Document Lists And Indexes</a>"
-msgstr ""
+msgstr "<a onclick='showhide(1)'><span class='sh_mark' id='sh_mark_1'>&#x25bc;</span> 文書一覧と索引</a>"
 
 #. type: Content of: <html><body><ul><li><ul><li>
 #: sedout/docs.html:225
 msgid ""
 "<a class='sh_link' href='doclist.html'>Alphabetical Listing Of All "
 "Documents</a>"
-msgstr ""
+msgstr "<a class='sh_link' href='doclist.html'>全ての文書のアルファベット順一覧</a>"
 
 #. type: Content of: <html><body><ul><li><ul><li><li>
 #: sedout/docs.html:226
 msgid "<a class='sh_link' href='keyword_index.html'>Website Keyword Index</a>"
-msgstr ""
+msgstr "<a class='sh_link' href='keyword_index.html'>このサイト内のキーワードの索引</a>"
 
 #. type: Content of: <html><body><ul><li><ul><li><li><li>
 #: sedout/docs.html:227
 msgid "<a class='sh_link' href='sitemap.html'>Permuted Title Index</a>"
-msgstr ""
+msgstr "<a class='sh_link' href='sitemap.html'>表題索引</a>"
 
 #. type: Content of: <html><body><ul><li><li>
 #: sedout/docs.html:229
 msgid ""
 "<a onclick='showhide(2)'><span class='sh_mark' id='sh_mark_2'>&#x25ba;</"
 "span> Overview Documents</a>"
-msgstr ""
+msgstr "<a onclick='showhide(2)'><span class='sh_mark' id='sh_mark_2'>&#x25ba;</span> 概要</a>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li>
 #: sedout/docs.html:231
@@ -376,7 +377,7 @@ msgid ""
 "features of SQLite that tend to cause misunderstandings and confusion.  The "
 "list includes both deliberate innovations and \"misfeatures\" that are "
 "retained only for backwards compatibility.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='quirks.html'>SQLite の癖</a> <span class='desktoponly'>&rarr; この文書は、代表的な、誤解や混乱を引き起こしがちなSQLiteの普通でない機能のリストです。 このリストには、意図的な革新と、後方互換性のためだけに保持されている「誤った機能」の両方が含まれています。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:254
@@ -393,14 +394,14 @@ msgid ""
 "<a class='sh_link' href='copyright.html'>Copyright</a> <span "
 "class='desktoponly'>&rarr; SQLite is in the public domain.  This document "
 "describes what that means and the implications for contributors.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='copyright.html'>Copyright</a> <span class='desktoponly'>&rarr; SQLite はパブリック・ドメインです。 このドキュメントでは、それが何を意味し、そしてそれが貢献者(contributors)にどんな影響を与えるかついて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:265
 msgid ""
 "<a class='sh_link' href='faq.html'>Frequently Asked Questions</a> <span "
 "class='desktoponly'>&rarr; The title of the document says all...  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='faq.html'>よくある質問(FAQ)</a> <span class='desktoponly'>&rarr; よくある質問と回答です。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:269
@@ -408,14 +409,14 @@ msgid ""
 "<a class='sh_link' href='books.html'>Books About SQLite</a> <span "
 "class='desktoponly'>&rarr; A list of independently written books about "
 "SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='books.html'>SQLite 関連図書</a> <span class='desktoponly'>&rarr; SQLite について独自に書かれた(英文の)書籍の一覧。  </span>"
 
 #. type: Content of: <html><body><ul><li><li><li>
 #: sedout/docs.html:274
 msgid ""
 "<a onclick='showhide(3)'><span class='sh_mark' id='sh_mark_3'>&#x25ba;</"
 "span> Programming Interfaces</a>"
-msgstr ""
+msgstr "<a onclick='showhide(3)'><span class='sh_mark' id='sh_mark_3'>&#x25ba;</span> プログラミング・インターフェース</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li>
 #: sedout/docs.html:276
@@ -423,7 +424,7 @@ msgid ""
 "<a class='sh_link' href='quickstart.html'>SQLite In 5 Minutes Or Less</a> "
 "<span class='desktoponly'>&rarr; A very quick introduction to programming "
 "with SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='quickstart.html'>5分で分かる SQLite </a> <span class='desktoponly'>&rarr; SQLite を使用したプログラミングを簡単に紹介。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li>
 #: sedout/docs.html:280

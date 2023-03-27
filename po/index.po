@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-15 23:04+0900\n"
-"PO-Revision-Date: 2023-03-22 18:47+0900\n"
+"PO-Revision-Date: 2023-03-28 06:32+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -131,12 +131,12 @@ msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> 
 #. type: Content of: <html><body><p><p><p><div><h3>
 #: sedout/index.html:123 sedout/index.html:199
 msgid "Common Links"
-msgstr "関連リンク"
+msgstr "関連リンク集"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:125 sedout/index.html:201
 msgid "<a href=\"features.html\">Features</a>"
-msgstr "<a href=\"features.html\">機能</a>"
+msgstr "<a href=\"features.html\">特長</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li>
 #: sedout/index.html:126 sedout/index.html:202
@@ -206,12 +206,12 @@ msgstr "<a href=\"c3ref/intro.html\">C/C++ インターフェイス仕様</a>"
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li>
 #: sedout/index.html:143 sedout/index.html:219
 msgid "<a href=\"cintro.html\">Introduction</a>"
-msgstr "<a href=\"cintro.html\">C/C++インターフェイス 導入</a>"
+msgstr "<a href=\"cintro.html\">はじめに(C/C++インターフェイス)</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><ul><li><li>
 #: sedout/index.html:144 sedout/index.html:220
 msgid "<a href=\"c3ref/funclist.html\">List of C-language APIs</a>"
-msgstr "<a href=\"c3ref/funclist.html\">C言語API リスト</a>"
+msgstr "<a href=\"c3ref/funclist.html\">C言語APIの一覧</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li>
 #: sedout/index.html:147 sedout/index.html:223
@@ -226,7 +226,7 @@ msgstr "<a href=\"quirks.html\">癖と落とし穴</a>"
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:149 sedout/index.html:225
 msgid "<a href=\"faq.html\">Frequently Asked Questions</a>"
-msgstr "<a href=\"faq.html\">F.A.Q.</a>"
+msgstr "<a href=\"faq.html\">よくある質問(FAQ)</a>"
 
 #. type: Content of: <html><body><p><p><p><div><ul><li><li><li>
 #: sedout/index.html:150 sedout/index.html:226
