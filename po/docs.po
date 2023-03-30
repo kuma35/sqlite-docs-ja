@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-16 16:20+0900\n"
-"PO-Revision-Date: 2023-03-28 07:01+0900\n"
+"PO-Revision-Date: 2023-03-31 03:04+0900\n"
 "Last-Translator: kuma35\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -167,7 +167,7 @@ msgstr "共通リンク集"
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:124
 msgid "<a href=\"features.html\">Features</a>"
-msgstr "<a href=\"features.html\">特長</a>"
+msgstr "<a href=\"features.html\">特徴</a>"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/docs.html:125
@@ -278,7 +278,7 @@ msgstr "<a href=\"news.html\">ニュース</a>"
 #. type: Content of: <html><body><h2>
 #: sedout/docs.html:156
 msgid "Documentation"
-msgstr ""
+msgstr "Documentation"
 
 #. type: Content of: <html><body><div><form>
 #: sedout/docs.html:162
@@ -349,7 +349,7 @@ msgid ""
 "<a class='sh_link' href='about.html'>About SQLite</a> <span "
 "class='desktoponly'>&rarr; A high-level overview of what SQLite is and why "
 "you might be interested in using it.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='about.html'>SQLite について</a> <span class='desktoponly'>&rarr; SQLiteとは何かについて俯瞰し、 あなたが SQLite を使ってみたいと思う理由についてご説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li>
 #: sedout/docs.html:236
@@ -358,7 +358,7 @@ msgid ""
 "<span class='desktoponly'>&rarr; This document describes situations where "
 "SQLite is an appropriate database engine to use versus situations where a "
 "client/server database engine might be a better choice.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='whentouse.html'>SQLite の適切な利用</a> <span class='desktoponly'>&rarr; この文書では、 利用するのに適切なデータベース エンジンが SQLite である状況と、クライアント/サーバー データベース・エンジンの方が適している状況について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li>
 #: sedout/docs.html:242
@@ -367,7 +367,7 @@ msgid ""
 "class='desktoponly'>&rarr; This document enumerates and describes some of "
 "the features of SQLite that make it different from other SQL database "
 "engines.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='different.html'>特徴的な機能</a> <span class='desktoponly'>&rarr; この文書では、 他の SQL データベース・エンジンとは異なる SQLite の特長のいくつかを挙げて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li><li>
 #: sedout/docs.html:247
@@ -386,7 +386,7 @@ msgid ""
 "class='desktoponly'>&rarr; The reliability and robustness of SQLite is "
 "achieved in large part by thorough and careful testing.  This document "
 "identifies the many tests that occur before every release of SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='testing.html'>SQLite のテスト方法</a> <span class='desktoponly'>&rarr; SQLite の信頼性と堅牢性の多くは徹底的かつ慎重なテストに立脚しています。 この文書では、 SQLite のすべてのリリース前に行われる多くのテストについて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:260
@@ -394,7 +394,7 @@ msgid ""
 "<a class='sh_link' href='copyright.html'>Copyright</a> <span "
 "class='desktoponly'>&rarr; SQLite is in the public domain.  This document "
 "describes what that means and the implications for contributors.  </span>"
-msgstr "<a class='sh_link' href='copyright.html'>Copyright</a> <span class='desktoponly'>&rarr; SQLite はパブリック・ドメインです。 このドキュメントでは、それが何を意味し、そしてそれが貢献者(contributors)にどんな影響を与えるかついて説明します。 </span>"
+msgstr "<a class='sh_link' href='copyright.html'>Copyright</a> <span class='desktoponly'>&rarr; SQLite はパブリック・ドメインです。 この文書では、それが何を意味し、そしてそれが貢献者(contributors)にどんな影響を与えるかついて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:265
@@ -433,7 +433,7 @@ msgid ""
 "<span class='desktoponly'>&rarr; This document introduces the C/C++ API. "
 "Users should read this document before the C/C++ API Reference Guide linked "
 "below.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='cintro.html'>C/C++ API の紹介</a> <span class='desktoponly'>&rarr; この文書では、 C/C++ API について紹介します。 ユーザーは、 以下にリンクされている C/C++ API リファレンス・ガイドを読む前にこの文書を読む必要があります。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li>
 #: sedout/docs.html:285
@@ -441,7 +441,7 @@ msgid ""
 "<a class='sh_link' href='howtocompile.html'>How To Compile SQLite</a> <span "
 "class='desktoponly'>&rarr; Instructions and hints for compiling SQLite C "
 "code and integrating that code with your own application.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='howtocompile.html'>SQLite のコンパイル方法</a> <span class='desktoponly'>&rarr; SQLite の C 言語のソース・コードをコンパイルし、そのソース・コードを独自のアプリケーションに統合するための手順とヒント。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:290
@@ -449,7 +449,7 @@ msgid ""
 "<a class='sh_link' href='c3ref/intro.html'>C/C++ API Reference</a> <span "
 "class='desktoponly'>&rarr; This document describes each API function "
 "separately.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='c3ref/intro.html'>C/C++ API リファレンス</a> <span class='desktoponly'>&rarr; この文書では、各 API 関数について個別に説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:294
@@ -457,7 +457,7 @@ msgid ""
 "<a class='sh_link' href='rescode.html'>Result and Error Codes</a> <span "
 "class='desktoponly'>&rarr; A description of the meanings of the numeric "
 "result codes returned by various C/C++ interfaces.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='rescode.html'>結果(result)コードとエラー・コード</a> <span class='desktoponly'>&rarr; さまざまな C/C++ インターフェイスによって返される数値結果コードの意味の説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:299
@@ -465,7 +465,7 @@ msgid ""
 "<a class='sh_link' href='lang.html'>SQL Syntax</a> <span "
 "class='desktoponly'>&rarr; This document describes the SQL language that is "
 "understood by SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='lang.html'>SQL 文法</a> <span class='desktoponly'>&rarr; この文書では、 SQLite が理解できる SQL 言語について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:304
@@ -473,7 +473,7 @@ msgid ""
 "<a class='sh_link' href='pragma.html'>Pragma commands</a> <span "
 "class='desktoponly'>&rarr; This document describes SQLite performance tuning "
 "options and other special purpose database commands.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='pragma.html'>プラグマ命令</a> <span class='desktoponly'>&rarr; この文書では、SQLite のパフォーマンス・チューニング・オプションと、その他の特殊用途のデータベース・コマンドについて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:309
@@ -481,7 +481,7 @@ msgid ""
 "<a class='sh_link' href='lang_corefunc.html'>Core SQL Functions</a> <span "
 "class='desktoponly'>&rarr; General-purpose built-in scalar SQL functions.  </"
 "span>"
-msgstr ""
+msgstr "<a class='sh_link' href='lang_corefunc.html'>SQL コア関数</a> <span class='desktoponly'>&rarr;  汎用組み込みのスカラー SQL 関数(訳注:スカラー関数;入力引数をとり、単一値結果を返す関数)。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:313
@@ -489,7 +489,7 @@ msgid ""
 "<a class='sh_link' href='lang_aggfunc.html'>Aggregate SQL Functions</a> "
 "<span class='desktoponly'>&rarr; General-purpose built-in aggregate SQL "
 "functions.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='lang_aggfunc.html'>SQl 集計関数</a> <span class='desktoponly'>&rarr; 汎用組み込みの集計用 SQL 関数。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:317
@@ -497,14 +497,14 @@ msgid ""
 "<a class='sh_link' href='lang_datefunc.html'>Date and Time SQL Functions</a> "
 "<span class='desktoponly'>&rarr; SQL functions for manipulating dates and "
 "times.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='lang_datefunc.html'>SQL 日付と時刻の関数</a> <span class='desktoponly'>&rarr; 日付と時刻を操作するための SQL 関数。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:321
 msgid ""
 "<a class='sh_link' href='windowfunctions.html'>Window Functions</a> <span "
 "class='desktoponly'>&rarr; SQL Window functions.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='windowfunctions.html'>window 関数</a> <span class='desktoponly'>&rarr; SQL Window 関数。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:325
@@ -512,14 +512,14 @@ msgid ""
 "<a class='sh_link' href='gencol.html'>Generated Columns</a> <span "
 "class='desktoponly'>&rarr; Stored and virtual columns in table definitions.  "
 "</span>"
-msgstr ""
+msgstr "<a class='sh_link' href='gencol.html'>生成された列(columns)について</a> <span class='desktoponly'>&rarr; テーブル定義での格納列(stored columns)と仮想列(virtual columns)。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:329
 msgid ""
 "<a class='sh_link' href='http://system.data.sqlite.org/'>System.Data.SQLite</"
 "a> <span class='desktoponly'>&rarr; C#/.NET bindings for SQLite </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='http://system.data.sqlite.org/'>System.Data.SQLite</a> <span class='desktoponly'>&rarr; SQLite の C#/.NET バインディング </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:333
@@ -527,7 +527,7 @@ msgid ""
 "<a class='sh_link' href='tclsqlite.html'>Tcl API</a> <span "
 "class='desktoponly'>&rarr; A description of the TCL interface bindings for "
 "SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='tclsqlite.html'>Tcl API</a> <span class='desktoponly'>&rarr; SQLite の TCL インターフェース・バインディングの説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:337
@@ -537,14 +537,14 @@ msgid ""
 "manifest typing, where the type of a value is associated with the value "
 "itself, not the column that it is stored in.  This page describes data "
 "typing for SQLite version 3 in further detail.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='datatype3.html'>データ型</a> <span class='desktoponly'>&rarr; SQLite バージョン 3 では、 明白な型付け( manifest typing)の概念が導入されています。 値の型は、 値が格納されている列ではなく、 値自体に関連付けられています。この文書では、 SQLite バージョン 3 のデータ型付けについて詳しく説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li>
 #: sedout/docs.html:345
 msgid ""
 "<a onclick='showhide(4)'><span class='sh_mark' id='sh_mark_4'>&#x25ba;</"
 "span> Extensions</a>"
-msgstr ""
+msgstr "<a onclick='showhide(4)'><span class='sh_mark' id='sh_mark_4'>&#x25ba;</span> 拡張機能</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li>
 #: sedout/docs.html:347
@@ -552,7 +552,7 @@ msgid ""
 "<a class='sh_link' href='json1.html'>Json1 - JSON Integration</a> <span "
 "class='desktoponly'>&rarr; SQL functions for creating, parsing, and querying "
 "JSON content.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='json1.html'>Json1 - JSON 統合</a> <span class='desktoponly'>&rarr; JSON コンテンツを作成やパースや検索(query)するための SQL 関数。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li>
 #: sedout/docs.html:351
@@ -560,7 +560,7 @@ msgid ""
 "<a class='sh_link' href='fts5.html'>FTS5 - Full Text Search</a> <span "
 "class='desktoponly'>&rarr; A description of the SQLite Full Text Search "
 "(FTS5) extension.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='fts5.html'>FTS5 - 全文検索</a> <span class='desktoponly'>&rarr; SQLite 全文検索(FTS5)拡張機能の説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:355
@@ -568,7 +568,7 @@ msgid ""
 "<a class='sh_link' href='fts3.html'>FTS3 - Full Text Search</a> <span "
 "class='desktoponly'>&rarr; A description of the SQLite Full Text Search "
 "(FTS3) extension.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='fts3.html'>FTS3 - 全文検索</a> <span class='desktoponly'>&rarr; SQLite 全文検索(FTS3)拡張機能の説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:359
@@ -577,7 +577,7 @@ msgid ""
 "class='desktoponly'>&rarr; A description of the SQLite R-Tree extension. An "
 "R-Tree is a specialized data structure that supports fast multi-dimensional "
 "range queries often used in geospatial systems.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='rtree.html'>R-Tree モジュール</a> <span class='desktoponly'>&rarr; SQLite R-Tree 拡張機能の説明。 R-Tree 地理空間システム(geospatial systems)でよく使用される高速な多次元範囲クエリ(multi-dimensional range queries)をサポートする特殊なデータ構造です。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:365
@@ -587,7 +587,7 @@ msgid ""
 "database to be captured in a compact file which can be reverted on the "
 "original database (to implement \"undo\") or transferred and applied to "
 "another similar database.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='sessionintro.html'>Sessions</a> <span class='desktoponly'>&rarr; Sessions 拡張機能を使用すると、 SQLite データベースへの変更をコンパクトなファイルに捉えて、 元のデータベースに戻したり(\"undo\" (アンドゥ;元に戻す) の実装)、 別の同様のデータベースに転送して適用することができます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:372
@@ -596,7 +596,7 @@ msgid ""
 "<span class='desktoponly'>&rarr; A general overview on how run-time loadable "
 "extensions work, how they are compiled, and how developers can create their "
 "own run-time loadable extensions for SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='loadext.html'>実行時ロード可能拡張機能</a> <span class='desktoponly'>&rarr; 実行時ロード可能拡張機能(run-time loadable extensions)の仕組みや、コンパイル方法や、開発者が独自の実行時ロード可能拡張機能を作成する方法に関する一般的な概要。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:378
@@ -605,7 +605,7 @@ msgid ""
 "Bindings</a> <span class='desktoponly'>&rarr; Information on how to deploy "
 "your own private copy of SQLite on Android, bypassing the built-in SQLite, "
 "but using the same Java interface.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='http://sqlite.org/android/'>SQLite Android Bindings</a> <span class='desktoponly'>&rarr; 組み込みの SQLite をバイパスし、しかし、 同一の Java インターフェースを使用して、 SQLite の独自のプライベート・コピーを Android にデプロイする方法に関する情報。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:384
@@ -614,7 +614,7 @@ msgid ""
 "class='desktoponly'>&rarr; The DBSTAT virtual table reports on the sizes and "
 "geometries of tables storing content in an SQLite database, and is the basis "
 "for the [sqlite3_analyzer] utility program.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='dbstat.html'>dbstat 仮想テーブル</a> <span class='desktoponly'>&rarr; DBSTAT 仮想テーブルは、SQLite データベースにコンテンツを格納するテーブルのサイズとジオメトリについて報告し、 [sqlite3_analyzer] ユーティリティ・プログラムで利用されます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:390
@@ -623,7 +623,7 @@ msgid ""
 "class='desktoponly'>&rarr; The CSV virtual table allows SQLite to directly "
 "read and query [https://www.ietf.org/rfc/rfc4180.txt|RFC 4180] formatted "
 "files.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='csv.html'>CSV 仮想テーブル</a> <span class='desktoponly'>&rarr; CSV 仮想テーブルにより、 SQLite は [https://www.ietf.org/rfc/rfc4180.txt|RFC 4180] 形式のファイルの直接読み取りとクエリができます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:395
@@ -631,7 +631,7 @@ msgid ""
 "<a class='sh_link' href='carray.html'>Carray</a> <span "
 "class='desktoponly'>&rarr; CARRAY is a [table-valued function] that allows C-"
 "language arrays to be used in SQL queries.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='carray.html'>Carray</a> <span class='desktoponly'>&rarr; CARRAY は、C 言語の配列を SQL クエリで使用できるようにする [テーブル値関数](table-valued function) です。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:400
@@ -639,7 +639,7 @@ msgid ""
 "<a class='sh_link' href='series.html'>generate_series</a> <span "
 "class='desktoponly'>&rarr; A description of the generate_series() [table-"
 "valued function].  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='series.html'>generate_series</a> <span class='desktoponly'>&rarr; generate_series() [テーブル値関数](table-valued function) の説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:404
@@ -647,14 +647,14 @@ msgid ""
 "<a class='sh_link' href='spellfix1.html'>Spellfix1</a> <span "
 "class='desktoponly'>&rarr; The spellfix1 extension is an experiment in doing "
 "spelling correction for [full-text search].  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='spellfix1.html'>Spellfix1</a> <span class='desktoponly'>&rarr; spellfix1 拡張機能は [全文検索] にてスペル修正を行う試みです。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li>
 #: sedout/docs.html:410
 msgid ""
 "<a onclick='showhide(5)'><span class='sh_mark' id='sh_mark_5'>&#x25ba;</"
 "span> Features</a>"
-msgstr ""
+msgstr "<a onclick='showhide(5)'><span class='sh_mark' id='sh_mark_5'>&#x25ba;</span> 特徴</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li>
 #: sedout/docs.html:412
@@ -662,7 +662,7 @@ msgid ""
 "<a class='sh_link' href='shortnames.html'>8+3 Filenames</a> <span "
 "class='desktoponly'>&rarr; How to make SQLite work on filesystems that only "
 "support 8+3 filenames.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='shortnames.html'>8+3 ファイル名</a> <span class='desktoponly'>&rarr; 8+3 ファイル名のみをサポートするファイルシステムで SQLite を動作させる方法。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li>
 #: sedout/docs.html:417
@@ -671,7 +671,7 @@ msgid ""
 "class='desktoponly'>&rarr; A description of the AUTOINCREMENT keyword in "
 "SQLite, what it does, why it is sometimes useful, and why it should be "
 "avoided if not strictly necessary.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='autoinc.html'>Autoincrement</a> <span class='desktoponly'>&rarr; SQLite の AUTOINCREMENT キーワードの説明と、その機能と、役立つ場合がある理由と、厳密に必要でない場合は避けるべき理由。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:423
@@ -681,7 +681,7 @@ msgid ""
 "interface] can be used to copy content from a disk file into an in-memory "
 "database or vice versa and it can make a hot backup of a live database.  "
 "This application note gives examples of how.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='backup.html'>バックアップ API</a> <span class='desktoponly'>&rarr; [sqlite3_backup_init | online-backup インターフェース] を使用して、 コンテンツをディスク・ファイルからメモリ内データベースにコピーしたり、その逆をしたり、ライブ・データベースのホット・バックアップを作成したりできます。 このアプリケーション・ノートでは、その方法の例を示します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:430
@@ -692,7 +692,7 @@ msgid ""
 "operation.  Embedded applications are encouraged to enable the error and "
 "warning log to help with debugging application problems that arise in the "
 "field.  This document explains how to do that.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='errlog.html'>エラーと警告のログ</a> <span class='desktoponly'>&rarr; SQLite は、操作中の、疑わしいイベントやエラー・イベントに関する情報を取得する「エラーと警告のログ」(error and warning log)設計をサポートしています。 組み込みアプリケーションでは、 現場で発生したアプリケーションの問題のデバッグに役立つように、 エラー・ログと警告ログを有効にすることをお勧めします。 この文書では、その方法について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:438
@@ -700,7 +700,7 @@ msgid ""
 "<a class='sh_link' href='foreignkeys.html'>Foreign Key Support</a> <span "
 "class='desktoponly'>&rarr; This document describes the support for foreign "
 "key constraints introduced in version 3.6.19.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='foreignkeys.html'>外部キー(foreign key) サポート</a> <span class='desktoponly'>&rarr; この文書では、バージョン 3.6.19 で導入された外部キー制約のサポートについて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:443
@@ -708,7 +708,7 @@ msgid ""
 "<a class='sh_link' href='expridx.html'>Indexes On Expressions</a> <span "
 "class='desktoponly'>&rarr; Notes on how to create indexes on expressions "
 "instead of just individual columns.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='expridx.html'>式に対するインデックス</a> <span class='desktoponly'>&rarr; 個々の列だけでなく、式でインデックスを作成する方法に関するメモ。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:448
@@ -718,7 +718,7 @@ msgid ""
 "BLOBs directly in the database, or store them in files and just record the "
 "filename in the database? This document seeks to shed light on that "
 "question.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='intern-v-extern-blob.html'>大きなデータの、内部格納 V.S. 外部格納</a> <span class='desktoponly'>&rarr; 大きな BLOB をデータベース内に直接保存するべきか？、または、ファイルに保存してファイル名だけをデータベースに記録するべきか？ この文書は、 その問いに光を当てようとするものです。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:454
@@ -728,7 +728,7 @@ msgid ""
 "(the maximum length of a string or blob, the maximum size of a database, the "
 "maximum number of tables in a database, etc.) and how these limits can be "
 "altered at compile-time and run-time.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='limits.html'>SQLite の制限</a> <span class='desktoponly'>&rarr この文書では、SQLite の制限 (文字列または blob の最大長や、データベースの最大サイズや、データベース内のテーブルの最大数など)と、 コンパイル時および実行時にこれらの制限を変更する方法について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:461
@@ -737,7 +737,7 @@ msgid ""
 "class='desktoponly'>&rarr; SQLite supports memory-mapped I/O.  Learn how to "
 "enable memory-mapped I/O and about the various advantages and disadvantages "
 "to using memory-mapped I/O in this document.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='mmap.html'>Memory-Mapped I/O</a> <span class='desktoponly'>&rarr; SQLite はメモリ・マップド I/O(memory-mapped I/O) をサポートしています。 この文書では、メモリ・マップド I/O を有効にする方法と、メモリ・マップド I/O を使用することのさまざまな利点と欠点について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:467
@@ -746,7 +746,7 @@ msgid ""
 "SQLite</a> <span class='desktoponly'>&rarr; SQLite is safe to use in multi-"
 "threaded programs.  This document provides the details and hints on how to "
 "maximize performance.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='threadsafe.html'>マルチスレッド・プログラムと SQLite</a> <span class='desktoponly'>&rarr; SQLite は、マルチスレッド・ログラムで安全に使用できます。 この文書では、パフォーマンスを最大化する方法の詳細とヒントを提供します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:472
@@ -756,7 +756,7 @@ msgid ""
 "different ways.  The SQL standards are ambiguous.  This (circa 2003) "
 "document describes how SQLite handles NULLs in comparison with other SQL "
 "database engines.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='nulls.html'>Null Handling</a> <span class='desktoponly'>&rarr; SQL データベース・エンジンが異なれば、 NULL の処理方法も異なります。 SQL 標準はあいまいです。 この文書は、 (2003年当時、)他の SQL データベース・エンジンと比較しての、 SQLite の NULL の処理方法について説明しています。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:478
@@ -765,7 +765,7 @@ msgid ""
 "class='desktoponly'>&rarr; A partial index is an index that only covers a "
 "subset of the rows in a table.  Learn how to use partial indexes in SQLite "
 "from this document.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='partialindex.html'>部分インデックス</a> <span class='desktoponly'>&rarr; 部分インデックス(partial index)は、テーブル内の行のサブセットのみをカバーするインデックスです。 この文書で SQLite で部分インデックスを使用する方法を学びます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:483
@@ -774,7 +774,7 @@ msgid ""
 "class='desktoponly'>&rarr; Version 3.3.0 and later supports the ability for "
 "two or more database connections to share the same page and schema cache.  "
 "This feature is useful for certain specialized applications.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='sharedcache.html'>共有キャッシュ・モード</a> <span class='desktoponly'>&rarr; バージョン 3.3.0 以降では、2 つ以上のデータベース接続が同一の、ページとスキーマ・キャッシュを共有する機能がサポートされています。 この機能は、特定の特殊なアプリケーションに役立ちます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:489
@@ -783,7 +783,7 @@ msgid ""
 "class='desktoponly'>&rarr; The \"unlock notify\" feature can be used in "
 "conjunction with [shared cache mode] to more efficiently manage resource "
 "conflict (database table locks).  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='unlock_notify.html'>ロック解除通知</a> <span class='desktoponly'>&rarr; 「ロック解除通知」(unlock notify)機能を [共有キャッシュ・モード](shared cache mode)と組み合わせて使用すると、リソースの競合(データベース・テーブルのロック)をより効率的に管理できます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:495
@@ -792,7 +792,7 @@ msgid ""
 "class='desktoponly'>&rarr; The names of database files can be specified "
 "using either an ordinary filename or a URI.  Using URI filenames provides "
 "additional capabilities, as this document describes.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='uri.html'>URI ファイル名</a> <span class='desktoponly'>&rarr; データベース・ファイルの名前は、通常のファイル名または URI を使用して指定できます。 この文書で説明されているように、URI ファイル名を使用すると、追加機能が提供されます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:501
@@ -800,7 +800,7 @@ msgid ""
 "<a class='sh_link' href='withoutrowid.html'>WITHOUT ROWID Tables</a> <span "
 "class='desktoponly'>&rarr; The WITHOUT ROWID optimization is a option that "
 "can sometimes result in smaller and faster databases.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='withoutrowid.html'>WITHOUT ROWID テーブル</a> <span class='desktoponly'>&rarr; WITHOUT ROWID 最適化は、 場合によってはデータベースをより小さく高速にできるプションです。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:506
@@ -810,14 +810,14 @@ msgid ""
 "offers more concurrency and is often faster than the default rollback "
 "transactions.  This document explains how to use WAL mode for improved "
 "performance.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='wal.html'>先行書き込みログ(WAL)モード</a> <span class='desktoponly'>&rarr; 先行書き込みログ(write-ahead log)を使用したトランザクション制御は、 より多くの並行性を提供し、 多くの場合、デフォルトのロールバック・トランザクションよりも高速です。 この文書では、パフォーマンスを向上させるために WAL モードを使用する方法について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li>
 #: sedout/docs.html:513
 msgid ""
 "<a onclick='showhide(6)'><span class='sh_mark' id='sh_mark_6'>&#x25ba;</"
 "span> Tools</a>"
-msgstr ""
+msgstr "<a onclick='showhide(6)'><span class='sh_mark' id='sh_mark_6'>&#x25ba;</span> ツール</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li>
 #: sedout/docs.html:515
@@ -826,7 +826,7 @@ msgid ""
 "<span class='desktoponly'>&rarr; Notes on using the \"sqlite3.exe\" command-"
 "line interface that can be used to create, modify, and query arbitrary "
 "SQLite database files.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='cli.html'>コマンドライン・シェル(sqlite3.exe)</a> <span class='desktoponly'>&rarr; 任意の SQLite データベース・ファイルの作成や変更やクエリに使用できる \"sqlite3.exe\" コマンド・ライン・インターフェイスの使用に関する注意事項。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li>
 #: sedout/docs.html:521
@@ -836,7 +836,7 @@ msgid ""
 "program reads an SQLite database and outputs a file showing the space used "
 "by each table and index and other statistics.  Built using the [dbstat "
 "virtual table].  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='sqlanalyze.html'>SQLite データベース・アナライザー(sqlite3_analyzer.exe)</a> <span class='desktoponly'>&rarr; このスタンドアロン・プログラムは、 SQLite データベースを読み取り、 各テーブルやインデックスに使用される領域や、その他の統計を示すファイルを出力します。 これは [dbstat 仮想テーブル] を使用して構築されます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:527
@@ -845,7 +845,7 @@ msgid ""
 "The \"Resumable Bulk Update\" utility program allows a batch of changes to "
 "be applied to a remote database running on embedded hardware in a way that "
 "is resumeable and does not interrupt ongoing operation.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='rbu.html'>RBU</a> <span class='desktoponly'>&rarr; \"Resumable Bulk Update\" ユーティリティ・プログラムを使用すると、組み込みハードウェアで実行されているリモート・データベースに、再開可能で、かつ、進行中の操作を中断しない方法で変更のバッチを適用できます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:533
@@ -854,7 +854,7 @@ msgid ""
 "a> <span class='desktoponly'>&rarr; This stand-alone program compares two "
 "SQLite database files and outputs the SQL needed to convert one into the "
 "other.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='sqldiff.html'>SQLite データベース diff (sqldiff.exe)</a> <span class='desktoponly'>&rarr; このスタンドアロン・プログラムは、2 つの SQLite データベース ファイルを比較し、一方を他方に変換するために必要な SQL を出力します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:538
@@ -862,7 +862,7 @@ msgid ""
 "<a class='sh_link' href='dbhash.html'>Database Hash (dbhash.exe)</a> <span "
 "class='desktoponly'>&rarr; This program demonstrates how to compute a hash "
 "over the content of an SQLite database.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='dbhash.html'>データベース・ハッシュ(dbhash.exe)</a> <span class='desktoponly'>&rarr; このプログラムは、SQLite データベースのコンテンツに対してハッシュ値を計算する方法をデモします。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:543
@@ -871,7 +871,7 @@ msgid ""
 "class='desktoponly'>&rarr; The Fossil Version Control System is a "
 "distributed VCS designed specifically to support SQLite development.  Fossil "
 "uses SQLite as for storage.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='http://www.fossil-scm.org/'>Fossil</a> <span class='desktoponly'>&rarr; Fossil バージョン管理システムは、SQLite 開発をサポートするために特別に設計された分散型 VCS です。 Fossil はストレージとして SQLite を使用します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:548
@@ -879,14 +879,14 @@ msgid ""
 "<a class='sh_link' href='http://www.sqlite.org/sqlar/'>SQLite Archiver "
 "(sqlar.exe)</a> <span class='desktoponly'>&rarr; A ZIP-like archive program "
 "that uses SQLite for storage.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='http://www.sqlite.org/sqlar/'>SQLite アーカイバ (sqlar.exe)</a> <span class='desktoponly'>&rarr; ストレージに SQLite を使用する ZIP ライクなアーカイブ・プログラム。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:553
 msgid ""
 "<a onclick='showhide(7)'><span class='sh_mark' id='sh_mark_7'>&#x25ba;</"
 "span> Advocacy</a>"
-msgstr ""
+msgstr "<a onclick='showhide(7)'><span class='sh_mark' id='sh_mark_7'>&#x25ba;</span> SQLite ヨイショ記事(advocacy)</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><ul><li>
 #: sedout/docs.html:555
@@ -895,7 +895,7 @@ msgid ""
 "Format</a> <span class='desktoponly'>&rarr; This article advocates using "
 "SQLite as an application file format in place of XML or JSON or a \"pile-of-"
 "file\".  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='appfileformat.html'>アプリケーション用ファイル・フォーマットとしての SQLite </a> <span class='desktoponly'>&rarr; この記事では、アプリケーションのファイル形式として、XML や JSON、または「たくさんのファイル」(pile-of-file)の代わりに SQLite を使用することを推奨しています。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><ul><li><li>
 #: sedout/docs.html:560
@@ -904,7 +904,7 @@ msgid ""
 "class='desktoponly'>&rarr; This page lists a small subset of the many "
 "thousands of devices and application programs that make use of SQLite.  </"
 "span>"
-msgstr ""
+msgstr "<a class='sh_link' href='famous.html'>SQLite 採用例</a> <span class='desktoponly'>&rarr; この文書には、SQLite を利用する何千ものデバイスとアプリケーション・プログラムの極々一部がリストされています。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:565
@@ -913,14 +913,14 @@ msgid ""
 "a> <span class='desktoponly'>&rarr; This article points out that reading "
 "blobs out of an SQLite database is often faster than reading the same blobs "
 "from individual files in the filesystem.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='fasterthanfs.html'>ファイルシステムからよりも 35% 高速です</a> <span class='desktoponly'>&rarr; この記事では、多くの場合、SQLite データベースから BLOB を読み取る方が、ファイル・システム内の個々のファイルから同じ BLOB を読み取るよりも高速であることを指摘しています。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:572
 msgid ""
 "<a onclick='showhide(8)'><span class='sh_mark' id='sh_mark_8'>&#x25ba;</"
 "span> Technical and Design Documentation</a>"
-msgstr ""
+msgstr "<a onclick='showhide(8)'><span class='sh_mark' id='sh_mark_8'>&#x25ba;</span> 技術的(techinical)および設計(design)文書</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li>
 #: sedout/docs.html:574
@@ -930,7 +930,7 @@ msgid ""
 "database corruption.  But application, OS, and hardware bugs can still "
 "result in corrupt database files.  This article describes many of the ways "
 "that SQLite database files can go corrupt.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='howtocorrupt.html'>データベースの破損が発生する仕組み</a> <span class='desktoponly'>&rarr; SQLite は、データベースの破損に対して非常に耐性があります。 ただし、アプリケーションやOSやハードウェアのバグにより、データベース・ファイルが破損する可能性があります。 この記事では、SQLite データベース・ファイルが破損するさまざまな原因について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li>
 #: sedout/docs.html:581
@@ -941,7 +941,7 @@ msgid ""
 "describes the many kinds of temporary files that SQLite uses and offers "
 "suggestions for avoiding them on systems where creating a temporary file is "
 "an expensive operation.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='tempfiles.html'>SQLite が使用する一時ファイル</a> <span class='desktoponly'>&rarr; SQLite は、特定の SQL 文トを処理するときに、さまざまな一時ファイル(temporary files)を使用する可能性があります。この文書では、SQLite が使用する多くの種類の一時ファイルについて説明し、一時ファイルの作成が高価な操作であるシステムでそれらを回避するための提案を行います。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:589
@@ -950,7 +950,7 @@ msgid ""
 "class='desktoponly'>&rarr; SQLite normally stores content in a disk file.  "
 "However, it can also be used as an in-memory database engine.  This document "
 "explains how.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='inmemorydb.html'>インメモリ・データベース</a> <span class='desktoponly'>&rarr; SQLite は通常、内容をディスク・ファイルに保存します。 ただし、インメモリ・データベース・エンジンとしても使用できます。 この文書では、その方法について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:594
@@ -959,7 +959,7 @@ msgid ""
 "Commit</a> <span class='desktoponly'>&rarr; A description of the logic "
 "within SQLite that implements transactions with atomic commit, even in the "
 "face of power failures.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='atomiccommit.html'>SQLite のアトミック・コミット実装方法</a> <span class='desktoponly'>&rarr; 電源の障害に直面した場合でも、アトミック・コミットを使用してトランザクションを実現する SQLite 内ロジックの説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:600
@@ -970,7 +970,7 @@ msgid ""
 "usage requirements of the application and that is robust against out-of-"
 "memory conditions and leak-free.  This document provides the details.  </"
 "span>"
-msgstr ""
+msgstr "<a class='sh_link' href='malloc.html'>SQLite での動的メモリ割り当て</a> <span class='desktoponly'>&rarr; SQLite には、アプリケーションのメモリ使用要件を満たすように構成およびカスタマイズできる洗練されたメモリ割り当てサブシステムがあり、メモリ不足の状態に対して堅牢、かつ、メモリリークがありません。 この文書はその詳細を提供します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:607
@@ -978,17 +978,17 @@ msgid ""
 "<a class='sh_link' href='custombuild.html'>Customizing And Porting SQLite</"
 "a> <span class='desktoponly'>&rarr; This document explains how to customize "
 "the build of SQLite and how to port SQLite to new platforms.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='custombuild.html'>SQLite のカスタマイズと移植</a> <span class='desktoponly'>&rarr; この文書では、SQLite のビルドをカスタマイズする方法と、 SQLite を新しいプラットフォームに移植する方法について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><a>
 #: sedout/docs.html:612
 msgid "<a class='sh_link' href='lockingv3.html'>Locking And Concurrency"
-msgstr ""
+msgstr "<a class='sh_link' href='lockingv3.html'>SQLite バージョン 3 の"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><a><br>
 #: sedout/docs.html:612
 msgid "In SQLite Version 3"
-msgstr ""
+msgstr "ロック(locking)と同時実行性(concurrency)"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:613
@@ -996,7 +996,7 @@ msgid ""
 "<span class='desktoponly'>&rarr; A description of how the new locking code "
 "in version 3 increases concurrency and decreases the problem of writer "
 "starvation.  </span>"
-msgstr ""
+msgstr "<span class='desktoponly'>&rarr; バージョン 3 の新しいロックのプログラムが、どのように同時実行性を高め、そして、 どのように書き込みスレッド飢餓問題(problem of writer starvation)を軽減するかについての説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:617
@@ -1006,7 +1006,7 @@ msgid ""
 "\"serializable\" what exactly does that mean? How and when are changes made "
 "visible within the same database connection and to other database "
 "connections? </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='isolation.html'>SQLite の アイソレーションレベル</a> <span class='desktoponly'>&rarr; SQLite トランザクションが「シリアル化可能」(serializable)であると言うとき、 それは正確には何を意味するのでしょうか?  同一データベース接続内および他のデータベース接続に対して、変更がいつ、どのように可視化されるのでしょうか？ </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:623
@@ -1014,7 +1014,7 @@ msgid ""
 "<a class='sh_link' href='optoverview.html'>Overview Of The Optimizer</a> "
 "<span class='desktoponly'>&rarr; A quick overview of the various query "
 "optimizations that are attempted by the SQLite code generator.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='optoverview.html'>最適化の概要</a> <span class='desktoponly'>&rarr; SQLite コード・ジェネレーターによって試行されるさまざまなクエリの最適化に関する簡単な概要。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:628
@@ -1023,7 +1023,7 @@ msgid ""
 "Planner</a> <span class='desktoponly'>&rarr; Additional information about "
 "the SQLite query planner, and in particular the redesign of the query "
 "planner that occurred for version 3.8.0.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='queryplanner-ng.html'>次世代 クエリー・プランナー</a> <span class='desktoponly'>&rarr; SQLite クエリ・プランナーに関する追加情報、 特にバージョン 3.8.0 で発生したクエリ・プランナーの再設計について。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:633
@@ -1031,7 +1031,7 @@ msgid ""
 "<a class='sh_link' href='arch.html'>Architecture</a> <span "
 "class='desktoponly'>&rarr; An architectural overview of the SQLite library, "
 "useful for those who want to hack the code.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='arch.html'>アーキテクチャ</a> <span class='desktoponly'>&rarr; コードをハックしたい人に役立つ、 SQLite ライブラリのアーキテクチャの概要。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:638
@@ -1041,7 +1041,7 @@ msgid ""
 "description of the various opcodes that the VDBE understands.  Programmers "
 "can use this document as a reference to better understand the output of "
 "EXPLAIN listings from SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='opcode.html'>VDBE オペコード</a> <span class='desktoponly'>&rarr; この文書は、VDBE が理解できる、 さまざまなオペコードの、 自動生成された説明です。 プログラマは、 この文書をリファレンスとして使用して、 SQLite からの EXPLAIN リストの出力をよりよく理解できます。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:645
@@ -1051,7 +1051,7 @@ msgid ""
 "SQLite core and the underlying operating system.  Learn more about how the "
 "VFS object works and how to create new VFS objects from this article.  </"
 "span>"
-msgstr ""
+msgstr "<a class='sh_link' href='vfs.html'>仮想ファイルシステム</a> <span class='desktoponly'>&rarr; \"VFS\" オブジェクトは、SQLite コアと、基盤となるオペレーティング・システムの間のインターフェイスです。 VFS オブジェクトの仕組みと、新しい VFS オブジェクトの作成方法については、この記事を参照してください。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:651
@@ -1060,7 +1060,7 @@ msgid ""
 "class='desktoponly'>&rarr; This article describes the virtual table "
 "mechanism and API in SQLite and how it can be used to add new capabilities "
 "to the core SQLite library.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='vtab.html'>仮想テーブル</a> <span class='desktoponly'>&rarr; この記事では、 SQLite の仮想テーブルのカニズムと API について説明し、それを使用してコア SQLite ライブラリに新しい機能を追加する方法について説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:656
@@ -1069,7 +1069,7 @@ msgid ""
 "class='desktoponly'>&rarr; A description of the format used for SQLite "
 "database and journal files, and other details required to create software to "
 "read and write SQLite databases without using SQLite.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='fileformat2.html'>SQLite ファイル形式</a> <span class='desktoponly'>&rarr; SQLite データベースとジャーナル・ファイルに使用される形式の説明と、SQLite を使用せずに SQLite データベースを読み書きするソフトウェアを作成するために必要なその他の詳細。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:662
@@ -1078,7 +1078,7 @@ msgid ""
 "class='desktoponly'>&rarr; This document describes the compile time options "
 "that may be set to modify the default behavior of the library or omit "
 "optional features in order to reduce binary size.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='compile.html'>コンパイル時オプション</a> <span class='desktoponly'>&rarr; この文書では、ライブラリのデフォルトの振る舞いを変更したり、バイナリ・サイズを縮小するためにオプション機能を省略したりするために設定できるコンパイル時のオプションについて説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:668
@@ -1087,7 +1087,7 @@ msgid ""
 "SQLite</a> <span class='desktoponly'>&rarr; A description of how to compile "
 "your own SQLite for Android (bypassing the SQLite that is built into "
 "Android) together with code and makefiles.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='https://sqlite.org/android/'>SQLite の Android バインディング</a> <span class='desktoponly'>&rarr; Android 用の独自の SQLite を (Android に組み込まれている SQLite をバイパスして) コンパイルする方法とコードと makefile の説明。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:674
@@ -1095,14 +1095,14 @@ msgid ""
 "<a class='sh_link' href='debugging.html'>Debugging Hints</a> <span "
 "class='desktoponly'>&rarr; A list of tricks and techniques used to trace, "
 "examine, and understand the operation of the core SQLite library.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='debugging.html'>SQLite ライブラリをデバッグする時のヒント</a> <span class='desktoponly'>&rarr; コア SQLite ライブラリの操作をトレースや調査や理解するために使用されるトリックとテクニックの一覧。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:680
 msgid ""
 "<a onclick='showhide(9)'><span class='sh_mark' id='sh_mark_9'>&#x25ba;</"
 "span> Upgrading SQLite, Backwards Compatibility</a>"
-msgstr ""
+msgstr "<a onclick='showhide(9)'><span class='sh_mark' id='sh_mark_9'>&#x25ba;</span> SQLite のアップグレードと下位互換性</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li>
 #: sedout/docs.html:682
@@ -1110,7 +1110,7 @@ msgid ""
 "<a class='sh_link' href='35to36.html'>Moving From SQLite 3.5 to 3.6</a> "
 "<span class='desktoponly'>&rarr; A document describing the differences "
 "between SQLite version 3.5.9 and 3.6.0.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='35to36.html'>SQLite 3.5 から 3.6 への移行</a> <span class='desktoponly'>&rarr; SQLite バージョン 3.5.9 と 3.6.0 の違いを説明する文書。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li>
 #: sedout/docs.html:687
@@ -1118,7 +1118,7 @@ msgid ""
 "<a class='sh_link' href='34to35.html'>Moving From SQLite 3.4 to 3.5</a> "
 "<span class='desktoponly'>&rarr; A document describing the differences "
 "between SQLite version 3.4.2 and 3.5.0.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='34to35.html'>SQLite 3.4 から 3.5 への移行</a> <span class='desktoponly'>&rarr; SQLite バージョン 3.4.2 と 3.5.0 の違いを説明する文書。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:692
@@ -1126,7 +1126,7 @@ msgid ""
 "<a class='sh_link' href='changes.html'>Release History</a> <span "
 "class='desktoponly'>&rarr; A chronology of SQLite releases going back to "
 "version 1.0.0 </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='changes.html'>リリース履歴</a> <span class='desktoponly'>&rarr; バージョン 1.0.0 まで遡れる SQLite リリース履歴 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:696
@@ -1135,7 +1135,7 @@ msgid ""
 "class='desktoponly'>&rarr; This document details all of the incompatible "
 "changes to the SQLite file format that have occurred since version 1.0.0.  </"
 "span>"
-msgstr ""
+msgstr "<a class='sh_link' href='formatchng.html'>下位互換性</a> <span class='desktoponly'>&rarr; この文書では、 バージョン 1.0.0 以降に発生した、 SQLite ファイル形式に対する互換性の無い全ての変更について詳しく説明します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:701
@@ -1144,14 +1144,14 @@ msgid ""
 "class='desktoponly'>&rarr; This document suggests procedures for maintaining "
 "a private branch or fork of SQLite and keeping that branch or fork in sync "
 "with the public SQLite source tree.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='privatebranch.html'>プライベート・ブランチ</a> <span class='desktoponly'>&rarr; この文書では、SQLite のプライベート・ブランチまたはフォークを維持し、そのブランチまたはフォークをパブリック SQLite ソース・ツリーと同期させる手順を提案します。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li>
 #: sedout/docs.html:708
 msgid ""
 "<a onclick='showhide(10)'><span class='sh_mark' id='sh_mark_10'>&#x25ba;</"
 "span> Obsolete Documents</a>"
-msgstr ""
+msgstr "<a onclick='showhide(10)'><span class='sh_mark' id='sh_mark_10'>&#x25ba;</span> 旧文書</a>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li>
 #: sedout/docs.html:710
@@ -1162,7 +1162,7 @@ msgid ""
 "more responsive by delegating database writes to a background thread.  "
 "<i>NB: This extension is deprecated.  [WAL mode] is recommended as a "
 "replacement.</i> </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='asyncvfs.html'>非同期 IO モード</a> <span class='desktoponly'>&rarr; この文書では、SQLite と共に開発された非同期 IO 拡張機能について説明します。 非同期 IO を使用すると、データベースの書き込みをバックグラウンド・スレッドに委任することで、SQLite の応答性が向上したように見える場合があります。 <i>注意！ この拡張機能は非推奨になりました。代わりに [WAL モード] が推奨されます。</i> </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li>
 #: sedout/docs.html:717
@@ -1170,7 +1170,7 @@ msgid ""
 "<a class='sh_link' href='c_interface.html'>Version 2 C/C++ API</a> <span "
 "class='desktoponly'>&rarr; A description of the C/C++ interface bindings for "
 "SQLite through version 2.8 </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='c_interface.html'>バージョン 2 の C/C++ API</a> <span class='desktoponly'>&rarr; バージョン 2.8 までの SQLite の C/C++ インターフェイス・バインディングの説明 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li>
 #: sedout/docs.html:722
@@ -1178,7 +1178,7 @@ msgid ""
 "<a class='sh_link' href='datatypes.html'>Version 2 DataTypes </a> <span "
 "class='desktoponly'>&rarr; A description of how SQLite version 2 handles SQL "
 "datatypes.  Short summary: Everything is a string.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='datatypes.html'>バージョン 2 のデータ型 </a> <span class='desktoponly'>&rarr; SQLite バージョン 2 が SQL データ型を処理する方法の説明。それは一言で言うと、「すべては文字列です」 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li>
 #: sedout/docs.html:727
@@ -1188,7 +1188,7 @@ msgid ""
 "the actual work of executing SQL statements.  This page describes the "
 "principles of operation for the VDBE in SQLite version 2.7.  This is "
 "essential reading for anyone who want to modify the SQLite sources.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='vdbe.html'>VDBE チュートリアル</a> <span class='desktoponly'>&rarr; VDBE は、SQL 文を実行する実際の作業を行う SQLite 内のサブシステムです。 この文書では、SQLite バージョン 2.7 での VDBE の動作原理について説明します。 これは、SQLite ソースを変更したい人にとっては必読です。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li>
 #: sedout/docs.html:734
@@ -1196,7 +1196,7 @@ msgid ""
 "<a class='sh_link' href='version3.html'>SQLite Version 3</a> <span "
 "class='desktoponly'>&rarr; A summary of the changes between SQLite version "
 "2.8 and SQLite version 3.0.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='version3.html'>SQLite バージョン 3</a> <span class='desktoponly'>&rarr; SQLite バージョン 2.8 から SQLite バージョン 3.0 の変更点の概要。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li>
 #: sedout/docs.html:738
@@ -1204,7 +1204,7 @@ msgid ""
 "<a class='sh_link' href='capi3.html'>Version 3 C/C++ API</a> <span "
 "class='desktoponly'>&rarr; A summary of the API related changes between "
 "SQLite version 2.8 and SQLite version 3.0.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='capi3.html'>バージョン 3 の C/C++ API</a> <span class='desktoponly'>&rarr; SQLite バージョン 2.8 から SQLite バージョン 3.0 への API 関連の変更の概要。 </span>"
 
 #. type: Content of: <html><body><ul><li><li><li><li><li><li><li><li><li><li><ul><li><li><li><li><li><li><li>
 #: sedout/docs.html:743
@@ -1212,4 +1212,4 @@ msgid ""
 "<a class='sh_link' href='speed.html'>Speed Comparison</a> <span "
 "class='desktoponly'>&rarr; The speed of version 2.7.6 of SQLite is compared "
 "against PostgreSQL and MySQL.  </span>"
-msgstr ""
+msgstr "<a class='sh_link' href='speed.html'>速度比較</a> <span class='desktoponly'>&rarr; SQLite バージョン 2.7.6 の速度を PostgreSQL や MySQL と比較します。 </span>"
