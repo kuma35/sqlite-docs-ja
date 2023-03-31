@@ -58,7 +58,7 @@ document.getElementById("searchmenu"); if( w.style.display=="block" ){
 w.style.display = "none"; } else { w.style.display = "block";
 setTimeout(function(){ document.getElementById("searchbox").focus()  }, 30);
 } } function div_off(nm){document.getElementById(nm).style.display="none";}
-window.onbeforeunload = function(e){div_off("submenu");} /* Disable the
+window.onbeforeunload = function(e){div_off("submenu");}; /* Disable the
 Search feature if we are not operating from CGI, since */ /* Search is
 accomplished using CGI and will not work without it. */ if( !location.origin
 || !location.origin.match || !location.origin.match(/http/) ){
@@ -72,9 +72,9 @@ antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j =
 document.getElementById("mtimelink"); if(j && j.hasAttribute("data-href"))
 j.href=j.getAttribute("data-href"); } function antiRobotDefense(){
 document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo();
-document.body.onmousedown=null; } document.body.onmousemove=function(){
-antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }
-setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)
+document.body.onmousedown=null; }; document.body.onmousemove=function(){
+antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; };
+setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);
 antiRobotGo(); } antiRobotDefense();
 </script>
 <div class=fancy>
@@ -85,17 +85,16 @@ The Schema Table
 <div class="fancy_toc">
 <a onclick="toggle_toc()"> <span class="fancy_toc_mark"
 id="toc_mk">&#x25ba;</span> Table Of Contents </a>
-<div id="toc_sub"><div class="fancy-toc1"><a href="#introduction">1. Introduction</a></div>
-<div class="fancy-toc1"><a href="#alternative_names">2. Alternative Names</a></div>
-<div class="fancy-toc1"><a href="#interpretation_of_the_schema_table">3. Interpretation Of The
-Schema Table</a></div>
-<div class="fancy-toc1"><a href="#creation_and_modification_of_the_schema_table">4. Creation and
-Modification Of The Schema Table</a></div>
+<div id="toc_sub"><div class="fancy-toc1"><a href="#introduction">1. 入門</a></div>
+<div class="fancy-toc1"><a href="#alternative_names">2.  sqlite_schema の代替テーブル名</a></div>
+<div class="fancy-toc1"><a href="#interpretation_of_the_schema_table">3. スキーマ・テーブルの説明</a></div>
+<div class="fancy-toc1"><a
+href="#creation_and_modification_of_the_schema_table">4. スキーマ・テーブルの作成と変更</a></div>
 </div>
 </div>
 <script>
-function toggle_toc(){ var sub = document.getElementById("toc_sub")  var mk
-= document.getElementById("toc_mk")  if( sub.style.display!="block" ){
+function toggle_toc(){ var sub = document.getElementById("toc_sub"); var mk
+= document.getElementById("toc_mk"); if( sub.style.display!="block" ){
 sub.style.display = "block"; mk.innerHTML = "&#x25bc;"; } else {
 sub.style.display = "none"; mk.innerHTML = "&#x25ba;"; } }
 </script>
@@ -105,12 +104,11 @@ sub.style.display = "none"; mk.innerHTML = "&#x25ba;"; } }
 
 
 
-<h1 id="introduction"><span>1. </span>Introduction</h1>
+<h1 id="introduction"><span>1. </span>入門</h1>
 
-<p>Every SQLite database contains a single "schema table" that stores the
-schema for that database.  The schema for a database is a description of all
-of the other tables, indexes, triggers, and views that are contained within
-the database.  The schema table looks like this:
+<p>すべての SQLite データベースには、そのデータベースのスキーマを格納する単一の「スキーマ・テーブル」(schema table)が含まれています。
+データベースのスキーマは、データベース内に含まれる他のすべてのテーブルやインデックスやトリガーやビューの記述です。
+スキーマ・テーブルは以下のようになっています:
 
 </p><blockquote><pre>
 CREATE TABLE sqlite_schema(
@@ -122,19 +120,16 @@ CREATE TABLE sqlite_schema(
 );
 </pre></blockquote>
 
-<p>The sqlite_schema table contains one row for each table, index, view, and
-trigger (collectively "objects") in the schema, except there is no entry for
-the sqlite_schema table itself.  See the <a
-href="fileformat2.html#ffschema">schema storage</a> subsection of the <a
-href="fileformat2.html">file format</a> documentation for additional
-information on how SQLite uses the sqlite_schema table internally.
+<p>sqlite_schema テーブルには、スキーマ内のテーブルとインデックスとビューとトリガー(まとめて「オブジェクト」(objects)という)ごとに
+1 つの行が含まれますが、 sqlite_schema テーブル自体のエントリはありません。 SQLite が sqlite_schema
+テーブルを内部で使用する方法の追加情報については、 <a href="fileformat2.html">file format</a> 文書の <a
+href="fileformat2.html#ffschema">schema storage</a> サブセクションを参照してください。
 
-</p><h1 id="alternative_names"><span>2. </span>Alternative Names</h1>
+</p><h1 id="alternative_names"><span>2. </span> sqlite_schema の代替テーブル名</h1>
 
-<p>The schema table can always be referenced using the name "sqlite_schema",
-especially if qualifed by the schema name like "main.sqlite_schema" or
-"temp.sqlite_schema".  But for historical compatibility, some alternative
-names are also recognized, including:
+<p>スキーマ テーブルは、特に "main.sqlite_schema" や "temp.sqlite_schema"
+などのスキーマ名で修飾されている場合は特に、 "sqlite_schema" という名前を使用して常に参照できます。
+ただし、歴史的な互換性のために、以下のいくつかの代替名も認識されます:
 
 <ol>
 <li> sqlite_master
@@ -143,104 +138,84 @@ names are also recognized, including:
 </li></ol>
 
 <p>
-Alternatives (2) and (3) only work for the TEMP database associated with
-each database connection, but alternative (1) works anywhere.  For
-historical reasons, callbacks from the <a
-href="c3ref/set_authorizer.html">sqlite3_set_authorizer()</a> interface
-always refer to the schema table using names (1) or (3).
+その (2) および その (3) は、各データベース接続に関連付けられた TEMP データベースに対してのみ機能しますが、 その (1)
+はどこでも機能します。 歴史的な理由から、 <a
+href="c3ref/set_authorizer.html">sqlite3_set_authorizer()</a>
+インターフェイスからのコールバックは、 常に その (1) の名前またはその (3) の名前を使用してスキーマ・テーブルを参照します。
 
-</p><h1 id="interpretation_of_the_schema_table"><span>3. </span>Interpretation Of The Schema Table</h1>
+</p><h1 id="interpretation_of_the_schema_table"><span>3. </span>スキーマ・テーブルの説明</h1>
 
-<p>The meanings of the fields of the schema table are as follows:
+<p>スキーマ・テーブルの各フィールドの意味は以下のとおり:
 
 <dl>
 <dt><b>type</b></dt>
 <dd>
-The sqlite_schema.type column will be one of the following text strings:
-'table', 'index', 'view', or 'trigger' according to the type of object
-defined.  The 'table' string is used for both ordinary and <a
-href="vtab.html">virtual tables</a>.
+sqlite_schema.type 列(column)は、定義されたオブジェクトのタイプに応じて、 'table', 'index', 'view',
+'trigger'  のいずれかのテキスト文字列になります。 'table' 文字列は、通常のテーブルと<a
+href="vtab.html">仮想テーブル</a>の両方で使われます。
 </dd>
 
 <dt><b>name</b></dt><dt>
 </dt><dd>
-The sqlite_schema.name column will hold the name of the object.  (<a
-href="lang_createtable.html#uniqueconst">UNIQUE</a> and <a
-href="lang_createtable.html#primkeyconst">PRIMARY KEY</a> constraints on
-tables cause SQLite to create <a href="fileformat2.html#intschema">internal
-indexes</a> with names of the form "sqlite_autoindex_TABLE_N" where TABLE is
-replaced by the name of the table that contains the constraint and N is an
-integer beginning with 1 and increasing by one with each constraint seen in
-the table definition.  In a <a href="withoutrowid.html">WITHOUT ROWID</a>
-table, there is no sqlite_schema entry for the PRIMARY KEY, but the
-"sqlite_autoindex_TABLE_N" name is set aside for the PRIMARY KEY as if the
-sqlite_schema entry did exist.  This will affect the numbering of subsequent
-UNIQUE constraints.  The "sqlite_autoindex_TABLE_N" name is never allocated
-for an <a href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a>, either
-in rowid tables or WITHOUT ROWID tables.
+sqlite_schema.name 列には、オブジェクトの名前が保持されます。(テーブルに対する <a
+href="lang_createtable.html#uniqueconst">UNIQUE</a> 制約や <a
+href="lang_createtable.html#primkeyconst">PRIMARY KEY</a> 制約により、SQLite は
+"sqlite_autoindex_TABLE_N" という形式の名前を持つ内部インデックスを作成します。ここで、 TABLE
+は制約を含むテーブルの名前に置き換えられ、 N は 1 から始まる、テーブルの定義にあらわれる制約ごとに 1 ずつ増加する整数です。 <a
+href="withoutrowid.html">WITHOUT ROWID</a> テーブルには、PRIMARY KEY の
+sqlite_schema エントリがありませんが、 sqlite_schema エントリが存在するかのように、
+"sqlite_autoindex_TABLE_N" という名前の内部インデックスが PRIMARY KEY のために確保されます。これは、後続の
+UNIQUE 制約の番号付けに影響します。 ROWID テーブルまたは WITHOUT ROWID テーブルの <a
+href="lang_createtable.html#rowid">INTEGER PRIMARY KEY</a> には
+"sqlite_autoindex_TABLE_N" という名前の内部インデックスが割り当てられることはありません。)
 
 </dd>
 
 <dt><b>tbl_name</b></dt>
 <dd>
-The sqlite_schema.tbl_name column holds the name of a table or view that the
-object is associated with.  For a table or view, the tbl_name column is a
-copy of the name column.  For an index, the tbl_name is the name of the
-table that is indexed.  For a trigger, the tbl_name column stores the name
-of the table or view that causes the trigger to fire.
+sqlite_schema.tbl_name 列(column)は、オブジェクトが関連付けられているテーブルまたはビューの名前を保持します。
+テーブルまたはビューの場合、 tbl_name 列は name 列のコピーです。 インデックスの場合、 tbl_name
+はインデックスが作成されたテーブルの名前です。 トリガーの場合、tbl_name 列には、 トリガーを起動するテーブルまたはビューの名前が格納されます。
 </dd>
 
 <dt><b>rootpage</b></dt>
 <dd>
-The sqlite_schema.rootpage column stores the page number of the root b-tree
-page for tables and indexes.  For rows that define views, triggers, and
-virtual tables, the rootpage column is 0 or NULL.
+sqlite_schema.rootpage 列には、テーブルとインデックスの b-tree のルート のページ番号が格納されます。
+ビューやトリガーや仮想テーブルを定義する行の場合、 rootpage 列は 0 または NULL です。
 </dd>
 
 <dt><b>sql</b></dt>
 <dd>
-The sqlite_schema.sql column stores SQL text that describes the object.
-This SQL text is a <a href="lang_createtable.html">CREATE TABLE</a>, <a
-href="lang_createvtab.html">CREATE VIRTUAL TABLE</a>, <a
-href="lang_createindex.html">CREATE INDEX</a>, <a
-href="lang_createview.html">CREATE VIEW</a>, or <a
-href="lang_createtrigger.html">CREATE TRIGGER</a> statement that if
-evaluated against the database file when it is the main database of a <a
-href="c3ref/sqlite3.html">database connection</a> would recreate the
-object.  The text is usually a copy of the original statement used to create
-the object but with normalizations applied so that the text conforms to the
-following rules:
+sqlite_schema.sql 列(column)には、オブジェクトをあらわす SQL テキストが格納されます。 この SQL テキストは、 <a
+href="lang_createtable.html">CREATE TABLE</a> または <a
+href="lang_createvtab.html">CREATE VIRTUAL TABLE</a> または  <a
+href="lang_createindex.html">CREATE INDEX</a> または <a
+href="lang_createview.html">CREATE VIEW</a> または <a
+href="lang_createtrigger.html">CREATE TRIGGER</a> 文であり、<a
+href="c3ref/sqlite3.html">データベース接続(connection)</a>の main
+データベースである場合にデータベース・ファイルに対して評価されると、オブジェクトが再作成されます。テキストは通常、オブジェクトの作成に使用された元のSQL文のコピーですが、テキストには以下の規則に準拠するように正規化が適用されます:
 
 <ul>
-<li>The CREATE, TABLE, VIEW, TRIGGER, and INDEX keywords at the beginning of the
-statement are converted to all upper case letters.
-</li><li>The TEMP or TEMPORARY keyword is removed if it occurs after the initial
-CREATE keyword.
-</li><li>Any database name qualifier that occurs prior to the name of the object
-being created is removed.
-</li><li>Leading spaces are removed.
-</li><li>All spaces following the first two keywords are converted into a single
-space.
+<li>文の先頭にある CREATE と TABLE と VIEW と TRIGGER と INDEX キーワードは、すべて大文字に変換されます。
+</li><li>TEMP または TEMPORARY キーワードが、最初にあらわれる CREATE キーワードよりの後に出現した場合、削除されます。
+</li><li>作成されるオブジェクトの名前の前にあるデータベース名修飾子(database name qualifier)はすべて削除されます。
+</li><li>先行する空白は削除されます。
+</li><li>最初の 2 つのキーワード以降の全ての空白達は、それぞれ単一の空白に変換されます。
 </li></ul>
 
-The text in the sqlite_schema.sql column is a copy of the original CREATE
-statement text that created the object, except normalized as described above
-and as modified by subsequent <a href="lang_altertable.html">ALTER TABLE</a>
-statements.  The sqlite_schema.sql is NULL for the <a
-href="fileformat2.html#intschema">internal indexes</a> that are
-automatically created by <a
-href="lang_createtable.html#uniqueconst">UNIQUE</a> or <a
-href="lang_createtable.html#primkeyconst">PRIMARY KEY</a> constraints.
+sqlite_schema.sql 列(column)のテキストは、上記のように正規化さたり、その後の <a
+href="lang_altertable.html">ALTER TABLE</a>
+文によって変更されたものを除き、オブジェクトを作成した元のCREATE文テキストのコピーです。 <a
+href="lang_createtable.html#uniqueconst">UNIQUE</a> 制約または <a
+href="lang_createtable.html#primkeyconst">PRIMARY KEY</a>
+制約によって自動的に作成される内部インデックスでは sqlite_schema.sql は NULL です。
 </dd>
 </dl>
 
-<h1 id="creation_and_modification_of_the_schema_table"><span>4. </span>Creation and Modification Of The Schema Table</h1>
+<h1 id="creation_and_modification_of_the_schema_table"><span>4. </span>スキーマ・テーブルの作成と変更</h1>
 
-<p>SQLite creates the schema table upon database creation and modifies its
-content as SQLite users submit DDL statements for execution. There is no
-need for users to modify it under normal circumstances, and they bear the
-risk of <a href="howtocorrupt.html#cfgerr">database corruption</a> if they
-do modify it.
+<p>SQLite は、データベースの作成時にスキーマ・テーブルを作成し、SQLite ユーザーが実行のたの DDL 文を送ると、 SQLite
+がスキーマ・テーブルの内容を変更します。 通常、ユーザーが変更する必要はありません。ユーザーが変更すると、データベースが破損するリスクがあります。
 </p><p align="center"><small><i>This page last modified on <a
 href="https://sqlite.org/docsrc/honeypot" id="mtimelink"
 data-href="https://sqlite.org/docsrc/finfo/pages/schematab.in?m=09b9236153">2022-04-18

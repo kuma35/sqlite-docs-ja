@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-16 15:52+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-04-01 05:16+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,114 +18,114 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: sedout/schematab.html:6 sedout/schematab.html:121
 msgid "The Schema Table"
-msgstr ""
+msgstr "The Schema Table"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/schematab.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/schematab.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/schematab.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/schematab.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/schematab.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/schematab.html:21
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/schematab.html:22 sedout/schematab.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/schematab.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/schematab.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/schematab.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/schematab.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/schematab.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/schematab.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/schematab.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/schematab.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/schematab.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/schematab.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/schematab.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/schematab.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/schematab.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/schematab.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/schematab.html:53
@@ -157,38 +156,38 @@ msgid ""
 "document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
 "document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
 "antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");}; /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; }; document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }; setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><div><div><div>
 #: sedout/schematab.html:124
 msgid ""
 "<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" "
 "id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
-msgstr ""
+msgstr "<a onclick=\"toggle_toc()\"> <span class=\"fancy_toc_mark\" id=\"toc_mk\">&#x25ba;</span> Table Of Contents </a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/schematab.html:128
 msgid "<a href=\"#introduction\">1. Introduction</a>"
-msgstr ""
+msgstr "<a href=\"#introduction\">1. 入門</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/schematab.html:129
 msgid "<a href=\"#alternative_names\">2. Alternative Names</a>"
-msgstr ""
+msgstr "<a href=\"#alternative_names\">2.  sqlite_schema の代替テーブル名</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/schematab.html:130
 msgid ""
 "<a href=\"#interpretation_of_the_schema_table\">3. Interpretation Of The "
 "Schema Table</a>"
-msgstr ""
+msgstr "<a href=\"#interpretation_of_the_schema_table\">3. スキーマ・テーブルの説明</a>"
 
 #. type: Content of: <html><body><div><div><div><div><div>
 #: sedout/schematab.html:131
 msgid ""
 "<a href=\"#creation_and_modification_of_the_schema_table\">4. Creation and "
 "Modification Of The Schema Table</a>"
-msgstr ""
+msgstr "<a href=\"#creation_and_modification_of_the_schema_table\">4. スキーマ・テーブルの作成と変更</a>"
 
 #. type: Content of: <html><body><div><div><script>
 #: sedout/schematab.html:135
@@ -197,12 +196,12 @@ msgid ""
 "mk = document.getElementById(\"toc_mk\")  if( sub.style.display!=\"block\" "
 "){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { "
 "sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
-msgstr ""
+msgstr "function toggle_toc(){ var sub = document.getElementById(\"toc_sub\"); var mk = document.getElementById(\"toc_mk\"); if( sub.style.display!=\"block\" ){ sub.style.display = \"block\"; mk.innerHTML = \"&#x25bc;\"; } else { sub.style.display = \"none\"; mk.innerHTML = \"&#x25ba;\"; } }"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/schematab.html:153
 msgid "<span>1. </span>Introduction"
-msgstr ""
+msgstr "<span>1. </span>入門"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/schematab.html:155
@@ -211,7 +210,7 @@ msgid ""
 "schema for that database.  The schema for a database is a description of all "
 "of the other tables, indexes, triggers, and views that are contained within "
 "the database.  The schema table looks like this:"
-msgstr ""
+msgstr "すべての SQLite データベースには、そのデータベースのスキーマを格納する単一の「スキーマ・テーブル」(schema table)が含まれています。 データベースのスキーマは、データベース内に含まれる他のすべてのテーブルやインデックスやトリガーやビューの記述です。 スキーマ・テーブルは以下のようになっています:"
 
 #. type: Content of: <html><body><div><blockquote><pre>
 #: sedout/schematab.html:161
@@ -225,6 +224,13 @@ msgid ""
 "  sql text\n"
 ");\n"
 msgstr ""
+"CREATE TABLE sqlite_schema(\n"
+"  type text,\n"
+"  name text,\n"
+"  tbl_name text,\n"
+"  rootpage integer,\n"
+"  sql text\n"
+");\n"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/schematab.html:170
@@ -235,12 +241,12 @@ msgid ""
 "href=\"fileformat2.html#ffschema\">schema storage</a> subsection of the <a "
 "href=\"fileformat2.html\">file format</a> documentation for additional "
 "information on how SQLite uses the sqlite_schema table internally."
-msgstr ""
+msgstr "sqlite_schema テーブルには、スキーマ内のテーブルとインデックスとビューとトリガー(まとめて「オブジェクト」(objects)という)ごとに  1 つの行が含まれますが、 sqlite_schema テーブル自体のエントリはありません。 SQLite が sqlite_schema テーブルを内部で使用する方法の追加情報については、 <a href=\"fileformat2.html\">file format</a> 文書の <a href=\"fileformat2.html#ffschema\">schema storage</a> サブセクションを参照してください。"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/schematab.html:177
 msgid "<span>2. </span>Alternative Names"
-msgstr ""
+msgstr "<span>2. </span> sqlite_schema の代替テーブル名"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/schematab.html:179
@@ -249,22 +255,22 @@ msgid ""
 "especially if qualifed by the schema name like \"main.sqlite_schema\" or "
 "\"temp.sqlite_schema\".  But for historical compatibility, some alternative "
 "names are also recognized, including:"
-msgstr ""
+msgstr "スキーマ テーブルは、特に \"main.sqlite_schema\" や \"temp.sqlite_schema\" などのスキーマ名で修飾されている場合は特に、 \"sqlite_schema\" という名前を使用して常に参照できます。 ただし、歴史的な互換性のために、以下のいくつかの代替名も認識されます:"
 
 #. type: Content of: <html><body><div><p><ol><li>
 #: sedout/schematab.html:185
 msgid "sqlite_master"
-msgstr ""
+msgstr "sqlite_master"
 
 #. type: Content of: <html><body><div><p><ol><li>
 #: sedout/schematab.html:186
 msgid "sqlite_temp_schema"
-msgstr ""
+msgstr "sqlite_temp_schema"
 
 #. type: Content of: <html><body><div><p><ol><li>
 #: sedout/schematab.html:187
 msgid "sqlite_temp_master"
-msgstr ""
+msgstr "sqlite_temp_master"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/schematab.html:191
@@ -274,22 +280,22 @@ msgid ""
 "historical reasons, callbacks from the <a "
 "href=\"c3ref/set_authorizer.html\">sqlite3_set_authorizer()</a> interface "
 "always refer to the schema table using names (1) or (3)."
-msgstr ""
+msgstr "その (2) および その (3) は、各データベース接続に関連付けられた TEMP データベースに対してのみ機能しますが、 その (1) はどこでも機能します。 歴史的な理由から、 <a href=\"c3ref/set_authorizer.html\">sqlite3_set_authorizer()</a> インターフェイスからのコールバックは、 常に その (1) の名前またはその (3) の名前を使用してスキーマ・テーブルを参照します。"
 
 #. type: Content of: <html><body><div><p><h1>
 #: sedout/schematab.html:196
 msgid "<span>3. </span>Interpretation Of The Schema Table"
-msgstr ""
+msgstr "<span>3. </span>スキーマ・テーブルの説明"
 
 #. type: Content of: <html><body><div><p><p>
 #: sedout/schematab.html:198
 msgid "The meanings of the fields of the schema table are as follows:"
-msgstr ""
+msgstr "スキーマ・テーブルの各フィールドの意味は以下のとおり:"
 
 #. type: Content of: <html><body><div><p><p><dl><dt>
 #: sedout/schematab.html:201
 msgid "<b>type</b>"
-msgstr ""
+msgstr "<b>type</b>"
 
 #. type: Content of: <html><body><div><p><p><dl><dd>
 #: sedout/schematab.html:203
@@ -298,12 +304,12 @@ msgid ""
 "'table', 'index', 'view', or 'trigger' according to the type of object "
 "defined.  The 'table' string is used for both ordinary and <a "
 "href=\"vtab.html\">virtual tables</a>."
-msgstr ""
+msgstr "sqlite_schema.type 列(column)は、定義されたオブジェクトのタイプに応じて、 'table', 'index', 'view', 'trigger'  のいずれかのテキスト文字列になります。 'table' 文字列は、通常のテーブルと<a href=\"vtab.html\">仮想テーブル</a>の両方で使われます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dt>
 #: sedout/schematab.html:209
 msgid "<b>name</b>"
-msgstr ""
+msgstr "<b>name</b>"
 
 #. type: Content of: <html><body><div><p><p><dl><dd>
 #: sedout/schematab.html:211
@@ -323,12 +329,12 @@ msgid ""
 "UNIQUE constraints.  The \"sqlite_autoindex_TABLE_N\" name is never "
 "allocated for an <a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY "
 "KEY</a>, either in rowid tables or WITHOUT ROWID tables."
-msgstr ""
+msgstr "sqlite_schema.name 列には、オブジェクトの名前が保持されます。(テーブルに対する <a href=\"lang_createtable.html#uniqueconst\">UNIQUE</a> 制約や <a href=\"lang_createtable.html#primkeyconst\">PRIMARY KEY</a> 制約により、SQLite は \"sqlite_autoindex_TABLE_N\" という形式の名前を持つ内部インデックスを作成します。ここで、 TABLE は制約を含むテーブルの名前に置き換えられ、 N は 1 から始まる、テーブルの定義にあらわれる制約ごとに 1 ずつ増加する整数です。 <a href=\"withoutrowid.html\">WITHOUT ROWID</a> テーブルには、PRIMARY KEY の sqlite_schema エントリがありませんが、 sqlite_schema エントリが存在するかのように、 \"sqlite_autoindex_TABLE_N\" という名前の内部インデックスが PRIMARY KEY のために確保されます。これは、後続の UNIQUE 制約の番号付けに影響します。 ROWID テーブルまたは WITHOUT ROWID テーブルの <a href=\"lang_createtable.html#rowid\">INTEGER PRIMARY KEY</a> には \"sqlite_autoindex_TABLE_N\" という名前の内部インデックスが割り当てられることはありません。)"
 
 #. type: Content of: <html><body><div><p><p><dl><dt>
 #: sedout/schematab.html:226
 msgid "<b>tbl_name</b>"
-msgstr ""
+msgstr "<b>tbl_name</b>"
 
 #. type: Content of: <html><body><div><p><p><dl><dd>
 #: sedout/schematab.html:228
@@ -338,12 +344,12 @@ msgid ""
 "copy of the name column.  For an index, the tbl_name is the name of the "
 "table that is indexed.  For a trigger, the tbl_name column stores the name "
 "of the table or view that causes the trigger to fire."
-msgstr ""
+msgstr "sqlite_schema.tbl_name 列(column)は、オブジェクトが関連付けられているテーブルまたはビューの名前を保持します。 テーブルまたはビューの場合、 tbl_name 列は name 列のコピーです。 インデックスの場合、 tbl_name はインデックスが作成されたテーブルの名前です。 トリガーの場合、tbl_name 列には、 トリガーを起動するテーブルまたはビューの名前が格納されます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dt>
 #: sedout/schematab.html:236
 msgid "<b>rootpage</b>"
-msgstr ""
+msgstr "<b>rootpage</b>"
 
 #. type: Content of: <html><body><div><p><p><dl><dd>
 #: sedout/schematab.html:238
@@ -351,12 +357,12 @@ msgid ""
 "The sqlite_schema.rootpage column stores the page number of the root b-tree "
 "page for tables and indexes.  For rows that define views, triggers, and "
 "virtual tables, the rootpage column is 0 or NULL."
-msgstr ""
+msgstr "sqlite_schema.rootpage 列には、テーブルとインデックスの b-tree のルート のページ番号が格納されます。 ビューやトリガーや仮想テーブルを定義する行の場合、 rootpage 列は 0 または NULL です。"
 
 #. type: Content of: <html><body><div><p><p><dl><dt>
 #: sedout/schematab.html:243
 msgid "<b>sql</b>"
-msgstr ""
+msgstr "<b>sql</b>"
 
 #. type: Content of: <html><body><div><p><p><dl><dd>
 #: sedout/schematab.html:245
@@ -372,40 +378,40 @@ msgid ""
 "object.  The text is usually a copy of the original statement used to create "
 "the object but with normalizations applied so that the text conforms to the "
 "following rules:"
-msgstr ""
+msgstr "sqlite_schema.sql 列(column)には、オブジェクトをあらわす SQL テキストが格納されます。 この SQL テキストは、 <a href=\"lang_createtable.html\">CREATE TABLE</a> または <a href=\"lang_createvtab.html\">CREATE VIRTUAL TABLE</a> または  <a href=\"lang_createindex.html\">CREATE INDEX</a> または <a href=\"lang_createview.html\">CREATE VIEW</a> または <a href=\"lang_createtrigger.html\">CREATE TRIGGER</a> 文であり、<a href=\"c3ref/sqlite3.html\">データベース接続(connection)</a>の main データベースである場合にデータベース・ファイルに対して評価されると、オブジェクトが再作成されます。テキストは通常、オブジェクトの作成に使用された元のSQL文のコピーですが、テキストには以下の規則に準拠するように正規化が適用されます:"
 
 #. type: Content of: <html><body><div><p><p><dl><dd><ul><li>
 #: sedout/schematab.html:255
 msgid ""
 "The CREATE, TABLE, VIEW, TRIGGER, and INDEX keywords at the beginning of the "
 "statement are converted to all upper case letters."
-msgstr ""
+msgstr "文の先頭にある CREATE と TABLE と VIEW と TRIGGER と INDEX キーワードは、すべて大文字に変換されます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dd><ul><li>
 #: sedout/schematab.html:257
 msgid ""
 "The TEMP or TEMPORARY keyword is removed if it occurs after the initial "
 "CREATE keyword."
-msgstr ""
+msgstr "TEMP または TEMPORARY キーワードが、最初にあらわれる CREATE キーワードよりの後に出現した場合、削除されます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dd><ul><li>
 #: sedout/schematab.html:259
 msgid ""
 "Any database name qualifier that occurs prior to the name of the object "
 "being created is removed."
-msgstr ""
+msgstr "作成されるオブジェクトの名前の前にあるデータベース名修飾子(database name qualifier)はすべて削除されます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dd><ul><li>
 #: sedout/schematab.html:261
 msgid "Leading spaces are removed."
-msgstr ""
+msgstr "先行する空白は削除されます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dd><ul><li>
 #: sedout/schematab.html:262
 msgid ""
 "All spaces following the first two keywords are converted into a single "
 "space."
-msgstr ""
+msgstr "最初の 2 つのキーワード以降の全ての空白達は、それぞれ単一の空白に変換されます。"
 
 #. type: Content of: <html><body><div><p><p><dl><dd>
 #: sedout/schematab.html:266
@@ -418,12 +424,12 @@ msgid ""
 "automatically created by <a "
 "href=\"lang_createtable.html#uniqueconst\">UNIQUE</a> or <a "
 "href=\"lang_createtable.html#primkeyconst\">PRIMARY KEY</a> constraints."
-msgstr ""
+msgstr "sqlite_schema.sql 列(column)のテキストは、上記のように正規化さたり、その後の <a href=\"lang_altertable.html\">ALTER TABLE</a> 文によって変更されたものを除き、オブジェクトを作成した元のCREATE文テキストのコピーです。 <a href=\"lang_createtable.html#uniqueconst\">UNIQUE</a> 制約または <a href=\"lang_createtable.html#primkeyconst\">PRIMARY KEY</a> 制約によって自動的に作成される内部インデックスでは sqlite_schema.sql は NULL です。"
 
 #. type: Content of: <html><body><div><p><p><h1>
 #: sedout/schematab.html:274
 msgid "<span>4. </span>Creation and Modification Of The Schema Table"
-msgstr ""
+msgstr "<span>4. </span>スキーマ・テーブルの作成と変更"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/schematab.html:276
@@ -433,7 +439,7 @@ msgid ""
 "need for users to modify it under normal circumstances, and they bear the "
 "risk of <a href=\"howtocorrupt.html#cfgerr\">database corruption</a> if they "
 "do modify it."
-msgstr ""
+msgstr "SQLite は、データベースの作成時にスキーマ・テーブルを作成し、SQLite ユーザーが実行のたの DDL 文を送ると、 SQLite がスキーマ・テーブルの内容を変更します。 通常、ユーザーが変更する必要はありません。ユーザーが変更すると、データベースが破損するリスクがあります。"
 
 #. type: Content of: <html><body><div><p><p><p>
 #: sedout/schematab.html:280
@@ -442,4 +448,4 @@ msgid ""
 "href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
 "data-href=\"https://sqlite.org/docsrc/finfo/pages/schematab.in?m=09b9236153\">2022-04-18 "
 "02:55:50</a> UTC </i></small>"
-msgstr ""
+msgstr "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/pages/schematab.in?m=09b9236153\">2022-04-18 02:55:50</a> UTC </i></small>"
