@@ -58,7 +58,7 @@ document.getElementById("searchmenu"); if( w.style.display=="block" ){
 w.style.display = "none"; } else { w.style.display = "block";
 setTimeout(function(){ document.getElementById("searchbox").focus()  }, 30);
 } } function div_off(nm){document.getElementById(nm).style.display="none";}
-window.onbeforeunload = function(e){div_off("submenu");} /* Disable the
+window.onbeforeunload = function(e){div_off("submenu");}; /* Disable the
 Search feature if we are not operating from CGI, since */ /* Search is
 accomplished using CGI and will not work without it. */ if( !location.origin
 || !location.origin.match || !location.origin.match(/http/) ){
@@ -72,9 +72,9 @@ antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j =
 document.getElementById("mtimelink"); if(j && j.hasAttribute("data-href"))
 j.href=j.getAttribute("data-href"); } function antiRobotDefense(){
 document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo();
-document.body.onmousedown=null; } document.body.onmousemove=function(){
-antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }
-setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100)
+document.body.onmousedown=null; }; document.body.onmousemove=function(){
+antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; };
+setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);
 antiRobotGo(); } antiRobotDefense();
 </script>
 <div class=fancy>
@@ -87,7 +87,7 @@ Transaction
 
 
 
-<h1 id="transaction_control_syntax"><span>1. </span>Transaction Control Syntax</h1>
+<h1 id="transaction_control_syntax"><span>1. </span>トランザクション制御文法</h1>
 
 <p><b><a href="syntax/begin-stmt.html">begin-stmt:</a></b> <button
 id='xe414e5c1' onclick='hideorshow("xe414e5c1","xf7b9c104")'>hide</button></p>
@@ -210,198 +210,168 @@ id='x908cc22b' onclick='hideorshow("x908cc22b","x2982a3ff")'>hide</button></p>
 </div>
 
 
-<h1 id="transactions"><span>2. </span>Transactions</h1>
+<h1 id="transactions"><span>2. </span>トランザクション</h1>
 
 <p>
-No reads or writes occur except within a transaction.  Any command that
-accesses the database (basically, any SQL command, except a few <a
-href="pragma.html#syntax">PRAGMA</a> statements)  will automatically start a
-transaction if one is not already in effect.  Automatically started
-transactions are committed when the last SQL statement finishes.
+トランザクション内除き、読み取りやは書き込みは発生しません。 データベースにアクセスするすべてのコマンド(基本的に、 いくつかの <a
+href="pragma.html#syntax">PRAGMA</a> 文を除くすべての SQL
+コマンド)は、トランザクションがまだ有効になっていない場合、自動的にトランザクションを開始します。 最後の SQL
+文が終了すると、開始されたトランザクションは自動的にコミットされます。
 </p>
 
 <p>
-Transactions can be started manually using the BEGIN command.  Such
-transactions usually persist until the next COMMIT or ROLLBACK command.  But
-a transaction will also ROLLBACK if the database is closed or if an error
-occurs and the ROLLBACK conflict resolution algorithm is specified.  See the
-documentation on the <a href="lang_conflict.html">ON CONFLICT</a> clause for
-additional information about the ROLLBACK conflict resolution algorithm.
+トランザクションは、 BEGIN コマンドを使用して手動で開始できます。 このようなトランザクションは通常、 次の COMMIT または
+ROLLBACK コマンドまで存続します。しかし、 データベースが閉じられている場合、またはエラーが発生し、かつ、 ROLLBACK
+競合解決アルゴリズムが指定されている場合、 トランザクションは ROLLBACK も実行します。 ROLLBACK
+競合解決アルゴリズムの詳細については、 <a href="lang_conflict.html">ON CONFLICT</a>
+句に関する文書を参照してください。
 </p>
 
 <p>
-END TRANSACTION is an alias for COMMIT.
+END TRANSACTION は COMMIT の別名(alias)です。
 </p>
 
-<p> Transactions created using BEGIN...COMMIT do not nest.  For nested
-transactions, use the <a href="lang_savepoint.html">SAVEPOINT</a> and <a
-href="lang_savepoint.html">RELEASE</a> commands.  The "TO SAVEPOINT <span
-class='yyterm'>name</span>" clause of the ROLLBACK command shown in the
-syntax diagram above is only applicable to <a
-href="lang_savepoint.html">SAVEPOINT</a> transactions.  An attempt to invoke
-the BEGIN command within a transaction will fail with an error, regardless
-of whether the transaction was started by <a
-href="lang_savepoint.html">SAVEPOINT</a> or a prior BEGIN.  The COMMIT
-command and the ROLLBACK command without the TO clause work the same on <a
-href="lang_savepoint.html">SAVEPOINT</a> transactions as they do with
-transactions started by BEGIN.</p>
+<p> BEGIN...COMMIT を使用して作成されたトランザクションはネスト(入れ子)しません。 ネスト(入れ子)されたトランザクションには <a
+href="lang_savepoint.html">SAVEPOINT</a> と <a
+href="lang_savepoint.html">RELEASE</a> コマンドを使用します。 上記構文図の ROLLBACK コマンドの "TO
+SAVEPOINT <span class='yyterm'>name</span>" は <a
+href="lang_savepoint.html">SAVEPOINT</a> トランザクションにのみ適用されます。 トランザクション内で BEGIN
+コマンドを呼び出そうとすると、 トランザクションが <a href="lang_savepoint.html">SAVEPOINT</a>
+によって開始されたか、あるいは以前の BEGIN によって開始されたかに関係なく、エラーで失敗します。 TO 句を指定しない COMMIT コマンドと
+ROLLBACK コマンドは、BEGIN によって開始されたトランザクションの場合と同様に、 <a
+href="lang_savepoint.html">SAVEPOINT</a> トランザクションでも同じように機能します。</p>
 
-<h2 id="read_transactions_versus_write_transactions"><span>2.1. </span>Read transactions versus write transactions</h2>
+<h2 id="read_transactions_versus_write_transactions"><span>2.1. </span>読み取りトランザクション V.S 書き込みトランザクション</h2>
 
-<p>SQLite supports multiple simultaneous read transactions coming from separate
-database connections, possibly in separate threads or processes, but only
-one simultaneous write transaction.
+<p>SQLite は、
+別々のデータベース接続からの複数の同時読み取りトランザクションをサポートし、読み取りトランザクションは別々のスレッドまたはプロセスである可能性がありますが、
+同時書き込みトランザクションは 1 つだけです。
 </p><p>
 
-</p><p>A read transaction is used for reading only.  A write transaction allows
-both reading and writing.  A read transaction is started by a SELECT
-statement, and a write transaction is started by statements like CREATE,
-DELETE, DROP, INSERT, or UPDATE (collectively "write statements").  If a
-write statement occurs while a read transaction is active, then the read
-transaction is upgraded to a write transaction if possible.  If some other
-database connection has already modified the database or is already in the
-process of modifying the database, then upgrading to a write transaction is
-not possible and the write statement will fail with <a
-href="rescode.html#busy">SQLITE_BUSY</a>.
+</p><p>読み取りトランザクションは読み取り専用です。 書き込みトランザクションでは、読み取りと書き込みの両方が可能です。 読み取りトランザクションは
+SELECT ステートメントによって開始され、 書き込みトランザクションは CREATE、DELETE、DROP、INSERT、UPDATE などの文
+(まとめて「書き込み文」(write statements)と呼ぶ)によって開始されます。
+読み取りトランザクションがアクティブなときに書き込み文が発生した場合、
+可能であれば、読み取りトランザクションは書き込みトランザクションにアップグレードされます。
+他のデータベース接続が既にデータベースを変更しているか、データベースを変更中の場合、
+書き込みトランザクションへのアップグレードは不可能であり、書き込みステートメントは <a
+href="rescode.html#busy">SQLITE_BUSY</a> で失敗します。
 </p>
 
 <p>
-While a read transaction is active, any changes to the database that are
-implemented by separate database connections will not be seen by the
-database connection that started the read transaction.  If database
-connection X is holding a read transaction, it is possible that some other
-database connection Y might change the content of the database while X's
-transaction is still open, however X will not be able to see those changes
-until after the transaction ends.  While its read transaction is active, X
-will continue to see an historic snapshot of the database prior to the
-changes implemented by Y.
+読み取りトランザクションがアクティブである間、 別のデータベース接続によって行われたデータベースへの変更は、
+読み取りトランザクションを開始したデータベース接続に現れません。 データベース接続 X が読み取りトランザクションを保持している場合、 X
+のトランザクションがまだ開いている間に他のデータベース接続 Y がデータベースの内容を変更する可能性がありますが、 X
+はトランザクションが終了するまでそれらの変更を確認できません。 読み取りトランザクションがアクティブである間、X は、Y
+によって変更される前のデータベースの履歴スナップショットを引き続き表示します。
 </p>
 
 
 <a name="immediate"></a>
 
-<h2 id="deferred_immediate_and_exclusive_transactions"><span>2.2. </span>DEFERRED, IMMEDIATE, and EXCLUSIVE transactions</h2>
+<h2 id="deferred_immediate_and_exclusive_transactions"><span>2.2. </span>DEFERRED トランザクションと IMMEDIATE トランザクションと EXCLUSIVE トランザクション</h2>
 
 <p>
-Transactions can be DEFERRED, IMMEDIATE, or EXCLUSIVE.  The default
-transaction behavior is DEFERRED.
+トランザクションは、 DEFERRED (意味:延期・据え置き) または IMMEDIATE (意味:即時) または EXCLUSIVE
+(意味:排他的) のいずれかにできます。 デフォルトのトランザクションの振る舞いは DEFERRED です。
 </p>
 
 <p>
-DEFERRED means that the transaction does not actually start until the
-database is first accessed.  Internally, the BEGIN DEFERRED statement merely
-sets a flag on the database connection that turns off the automatic commit
-that would normally occur when the last statement finishes.  This causes the
-transaction that is automatically started to persist until an explicit
-COMMIT or ROLLBACK or until a rollback is provoked by an error or an ON
-CONFLICT ROLLBACK clause.  If the first statement after BEGIN DEFERRED is a
-SELECT, then a read transaction is started.  Subsequent write statements
-will upgrade the transaction to a write transaction if possible, or return
-SQLITE_BUSY.  If the first statement after BEGIN DEFERRED is a write
-statement, then a write transaction is started.
+DEFERRED は、 データベースが最初にアクセスされるまでトランザクションが実際には開始されないことを意味します。 内部的には、 BEGIN
+DEFERRED 文は、 最後の文が終了したときに通常発生する自動コミットをオフにするフラグをデータベース接続に設定するだけです。 これにより、
+自動的に開始されたトランザクションは、 明示的な COMMIT または ROLLBACK まで、またはエラーまたは ON CONFLICT
+ROLLBACK 句によってロールバックが引き起こされるまで持続します。 BEGIN DEFERRED の後の最初の文が SELECT の場合、
+読み取りトランザクションが開始されます。 後続の書き込み文は、可能であればトランザクションを書き込みトランザクションにアップグレードするか、
+SQLITE_BUSY を返します。 BEGIN DEFERRED の後の最初の文が書き込み文である場合、書き込みトランザクションが開始されます。
 </p>
 
 <p>
-IMMEDIATE cause the database connection to start a new write immediately,
-without waiting for a write statement.  The BEGIN IMMEDIATE might fail with
-<a href="rescode.html#busy">SQLITE_BUSY</a> if another write transaction is
-already active on another database connection.
+IMMEDIATE は、書き込み文まで待つことをせずに、データベース接続が新しい書き込みを即座開始するようにします。
+別のデータベース接続で別の書き込みトランザクションが既にアクティブになっている場合、 BEGIN IMMEDIATE は <a
+href="rescode.html#busy">SQLITE_BUSY</a> で失敗する可能性があります。
 </p>
 
 <p>
-EXCLUSIVE is similar to IMMEDIATE in that a write transaction is started
-immediately.  EXCLUSIVE and IMMEDIATE are the same in <a href="wal.html">WAL
-mode</a>, but in other journaling modes, EXCLUSIVE prevents other database
-connections from reading the database while the transaction is underway.
+EXCLUSIVE は、書き込みトランザクションが即座に開始されるという点で IMMEDIATE に似ています。 EXCLUSIVE と
+IMMEDIATE は <a href="wal.html">WAL モード</a>では全く同じですが、
+他のジャーナリング・モード(journaling modes)で EXCLUSIVE
+を使用すると、トランザクションの進行中は他のデータベース接続がデータベースを読み取ることができなくなります。
 </p>
 
-<h2 id="implicit_versus_explicit_transactions"><span>2.3. </span>Implicit versus explicit transactions</h2>
+<h2 id="implicit_versus_explicit_transactions"><span>2.3. </span>暗黙のトランザクション V.S. 明示的トランザクション</h2>
 
 <p>
-An implicit transaction (a transaction that is started automatically, not a
-transaction started by BEGIN) is committed automatically when the last
-active statement finishes.  A statement finishes when its last cursor
-closes, which is guaranteed to happen when the prepared statement is <a
-href="c3ref/reset.html">reset</a> or <a
-href="c3ref/finalize.html">finalized</a>.  Some statements might "finish"
-for the purpose of transaction control prior to being reset or finalized,
-but there is no guarantee of this.  The only way to ensure that a statement
-has "finished" is to invoke <a href="c3ref/reset.html">sqlite3_reset()</a>
-or <a href="c3ref/finalize.html">sqlite3_finalize()</a> on that statement.
-An open <a href="c3ref/blob.html">sqlite3_blob</a> used for incremental BLOB
-I/O also counts as an unfinished statement.  The <a
-href="c3ref/blob.html">sqlite3_blob</a> finishes when it is <a
-href="c3ref/blob_close.html">closed</a>.
-</p>
-
-<p>
-The explicit COMMIT command runs immediately, even if there are pending <a
-href="lang_select.html">SELECT</a> statements.  However, if there are
-pending write operations, the COMMIT command will fail with an error code <a
-href="rescode.html#busy">SQLITE_BUSY</a>.
+暗黙のトランザクション (BEGIN によって開始されるトランザクションではなく、自動的に開始されるトランザクション)
+は、最後のアクティブなSQL文(statement)が終了すると自動的にコミットされます。
+SQL文(statement)は最後のカーソルが閉じたときに終了します。 自動的なコミットは、準備済 SQL 文(prepared
+statement)が <a href="c3ref/reset.html">reset</a> または <a
+href="c3ref/finalize.html">finalize</a> されたときに起こることが保証されています。
+一部のSQL文(statement)は、トランザクション制御の目的で、 reset または finalize
+される前に終了する場合がありますが、その際に自動的にコミットされる保証はありません。 SQL文(statement)が finish
+したことを確認する唯一の方法は、そのSQL文(statement)で <a
+href="c3ref/reset.html">sqlite3_reset()</a> または <a
+href="c3ref/finalize.html">sqlite3_finalize()</a> を呼び出すことです。インクリメンタル BLOB
+I/O に使用される、開いている <a href="c3ref/blob.html">sqlite3_blob</a>
+も、未完了のSQL文(statement)としてカウントされます。 <a href="c3ref/blob.html">sqlite3_blob</a>
+は、 <a href="c3ref/blob_close.html">BLOB を閉じた</a>ときに終了します。
 </p>
 
 <p>
-An attempt to execute COMMIT might also result in an <a
-href="rescode.html#busy">SQLITE_BUSY</a> return code if an another thread or
-process has an open read connection.  When COMMIT fails in this way, the
-transaction remains active and the COMMIT can be retried later after the
-reader has had a chance to clear.
+保留中の <a href="lang_select.html">SELECT</a> 文がある場合でも、 明示的な COMMIT
+コマンドは即座に実行されます。 ただし、 保留中の書き込み操作がある場合、COMMIT コマンドはエラー・コード <a
+href="rescode.html#busy">SQLITE_BUSY</a> で失敗します。
 </p>
 
 <p>
-In very old versions of SQLite (before version 3.7.11 - 2012-03-20)  the
-ROLLBACK will fail with an error code <a
-href="rescode.html#busy">SQLITE_BUSY</a> if there are any pending queries.
-In more recent versions of SQLite, the ROLLBACK will proceed and pending
-statements will often be aborted, causing them to return an <a
-href="rescode.html#abort">SQLITE_ABORT</a> or <a
-href="rescode.html#abort_rollback">SQLITE_ABORT_ROLLBACK</a> error.  In
-SQLite version 3.8.8 (2015-01-16) and later, a pending read will continue
-functioning after the ROLLBACK as long as the ROLLBACK does not modify the
-database schema.
+別のスレッドまたはプロセスが開いている読み取り接続を開いている場合、 COMMIT を実行しようとすると、 <a
+href="rescode.html#busy">SQLITE_BUSY</a> リターン・コードが返されることもあります。 この方法で COMMIT
+が失敗した場合、 トランザクションはアクティブなままであり、 読み取り接続側のクリア後の機会で COMMIT を再試行できます。
 </p>
 
 <p>
-If <a href="pragma.html#pragma_journal_mode">PRAGMA journal_mode</a> is set
-to OFF (thus disabling the rollback journal file) then the behavior of the
-ROLLBACK command is undefined.
+非常に古いバージョンの SQLite (バージョン 3.7.11、2012/03/20より前) では、 保留中のクエリ(pending
+queries)がある場合、 ROLLBACK はエラー・コード <a href="rescode.html#busy">SQLITE_BUSY</a>
+で失敗します。 SQLite の最近のバージョンでは、 ROLLBACK が続行され、
+保留中(pending)のSQL文(statement)が中止されることが多く、 <a
+href="rescode.html#abort">SQLITE_ABORT</a> または <a
+href="rescode.html#abort_rollback">SQLITE_ABORT_ROLLBACK</a> エラーが返されます。
+SQLite バージョン 3.8.8 (2015-01-16) 以降では、 保留中(pending)の読み取りは、 ROLLBACK
+がデータベース・スキーマを変更しない限り、 ROLLBACK の後も引き続き機能します。
 </p>
 
-<h1 id="response_to_errors_within_a_transaction"><span>3. </span>Response To Errors Within A Transaction</h1>
+<p>
+<a href="pragma.html#pragma_journal_mode">PRAGMA journal_mode</a> が OFF
+に設定されている(つまり、ロールバック・ジャーナル・ファイルが無効になっている) 場合、 ROLLBACK コマンドの動作は未定義です。
+</p>
 
-<p> If certain kinds of errors occur within a transaction, the transaction may
-or may not be rolled back automatically.  The errors that can cause an
-automatic rollback include:</p>
+<h1 id="response_to_errors_within_a_transaction"><span>3. </span>トランザクション内エラーへの対応</h1>
+
+<p> トランザクション内で特定の種類のエラーが発生した場合、トランザクションは自動的にロールバックされる場合とされない場合があります。
+自動ロールバックを引き起こす可能性のあるエラーには、以下のものがあります:</p>
 
 <ul>
-<li> <a href="rescode.html#full">SQLITE_FULL</a>: database or disk full
-</li><li> <a href="rescode.html#ioerr">SQLITE_IOERR</a>: disk I/O error
-</li><li> <a href="rescode.html#busy">SQLITE_BUSY</a>: database in use by another
-process
-</li><li> <a href="rescode.html#nomem">SQLITE_NOMEM</a>: out of memory
+<li> <a href="rescode.html#full">SQLITE_FULL</a>: データベースまたはディスクが満杯(full)です
+</li><li> <a href="rescode.html#ioerr">SQLITE_IOERR</a>: ディスク I/O エラーです
+</li><li> <a href="rescode.html#busy">SQLITE_BUSY</a>: 別のプロセスで使用中のデータベースです
+</li><li> <a href="rescode.html#nomem">SQLITE_NOMEM</a>: メモリーが足りません。
 </li></ul>
 
 <p>
-For all of these errors, SQLite attempts to undo just the one statement it
-was working on and leave changes from prior statements within the same
-transaction intact and continue with the transaction.  However, depending on
-the statement being evaluated and the point at which the error occurs, it
-might be necessary for SQLite to rollback and cancel the entire
-transaction.  An application can tell which course of action SQLite took by
-using the <a href="c3ref/get_autocommit.html">sqlite3_get_autocommit()</a>
-C-language interface.</p>
+これらすべてのエラーに対して、 SQLite は、作業していた 1 つのSQL文(statement)を元に戻し(undo)、
+同じトランザクション内のそれ以前のSQL文(statement)からの変更をそのままにして、 トランザクションを続行しようとします。
+ただし、評価されるSQL文(statement)とエラーが発生する箇所によっては、 SQLite
+がトランザクション全体をロールバックしてキャンセルする必要がある場合があります。 アプリケーションは、 C 言語インターフェースの<a
+href="c3ref/get_autocommit.html">sqlite3_get_autocommit()</a> を使用して、 SQLite
+が実行した一連のアクションを知ることができます。</p>
 
-<p>It is recommended that applications respond to the errors listed above by
-explicitly issuing a ROLLBACK command.  If the transaction has already been
-rolled back automatically by the error response, then the ROLLBACK command
-will fail with an error, but no harm is caused by this.</p>
+<p>アプリケーションでは、 上記のようなエラーに対して、 明示的にROLLBACKコマンドを発行して対応することが推奨されます。
+エラー処理によってトランザクションがすでに自動的にロールバックされている場合、
+ROLLBACKコマンドはエラーで失敗するけれども、これによる害はありません。</p>
 
-<p>Future versions of SQLite may extend the list of errors which might cause
-automatic transaction rollback.  Future versions of SQLite might change the
-error response.  In particular, we may choose to simplify the interface in
-future versions of SQLite by causing the errors above to force an
-unconditional rollback.</p>
+<p>SQLite の将来のバージョンでは、
+自動トランザクション・ロールバックを引き起こす可能性あるエラーに対応するエラーのリストが拡張される可能性があります。 SQLite
+の将来のバージョンでは、エラー処理が変更される可能性があります。 特に、 SQLite の将来のバージョンでは、
+上記のエラーを発生させて無条件のロールバックを強制することにより、 インターフェイスを簡素化することを選択する可能性があります。</p>
 <p align="center"><small><i>This page last modified on <a
 href="https://sqlite.org/docsrc/honeypot" id="mtimelink"
 data-href="https://sqlite.org/docsrc/finfo/pages/lang_transaction.in?m=44e02f89eb">2022-01-08

@@ -3,15 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: sqlite-docs-ja 0.0\n"
 "POT-Creation-Date: 2023-03-15 23:12+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2023-04-02 08:00+0900\n"
+"Last-Translator: kuma35\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,114 +18,114 @@ msgstr ""
 #. type: Content of: <html><body><div><div><div>
 #: sedout/lang_transaction.html:6 sedout/lang_transaction.html:121
 msgid "Transaction"
-msgstr ""
+msgstr "Transaction"
 
 #. type: Content of: <html><body><div><a>
 #: sedout/lang_transaction.html:11
 msgid "<a href=\"index.html\">"
-msgstr ""
+msgstr "<a href=\"index.html\">"
 
 #. type: Attribute 'alt' of: <html><body><div><a><img>
 #: sedout/lang_transaction.html:12
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #. type: Content of: <html><body><div><div>
 #: sedout/lang_transaction.html:16
 msgid "Small. Fast. Reliable."
-msgstr ""
+msgstr "Small. Fast. Reliable."
 
 #. type: Content of: <html><body><div><div><br>
 #: sedout/lang_transaction.html:16
 msgid "Choose any three."
-msgstr ""
+msgstr "Choose any three."
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/lang_transaction.html:20
 msgid "<a href=\"index.html\">Home</a>"
-msgstr ""
+msgstr "<a href=\"index.html\">Home</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/lang_transaction.html:21
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_div(\"submenu\")'>Menu</a>"
 
 #. type: Content of: <html><body><div><div><ul><li>
 #: sedout/lang_transaction.html:22 sedout/lang_transaction.html:34
 msgid "<a href='about.html'>About</a>"
-msgstr ""
+msgstr "<a href='about.html'>About</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/lang_transaction.html:23
 msgid "<a href=\"docs.html\">Documentation</a>"
-msgstr ""
+msgstr "<a href=\"docs.html\">Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/lang_transaction.html:24
 msgid "<a href=\"download.html\">Download</a>"
-msgstr ""
+msgstr "<a href=\"download.html\">Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li>
 #: sedout/lang_transaction.html:25
 msgid "<a href='copyright.html'>License</a>"
-msgstr ""
+msgstr "<a href='copyright.html'>License</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li>
 #: sedout/lang_transaction.html:26
 msgid "<a href=\"support.html\">Support</a>"
-msgstr ""
+msgstr "<a href=\"support.html\">Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li>
 #: sedout/lang_transaction.html:27
 msgid "<a href=\"prosupport.html\">Purchase</a>"
-msgstr ""
+msgstr "<a href=\"prosupport.html\">Purchase</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li><li><li><li><li>
 #: sedout/lang_transaction.html:29
 msgid "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
-msgstr ""
+msgstr "<a href=\"javascript:void(0)\" onclick='toggle_search()'>Search</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li>
 #: sedout/lang_transaction.html:35
 msgid "<a href='docs.html'>Documentation</a>"
-msgstr ""
+msgstr "<a href='docs.html'>Documentation</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li>
 #: sedout/lang_transaction.html:36
 msgid "<a href='download.html'>Download</a>"
-msgstr ""
+msgstr "<a href='download.html'>Download</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li>
 #: sedout/lang_transaction.html:37
 msgid "<a href='support.html'>Support</a>"
-msgstr ""
+msgstr "<a href='support.html'>Support</a>"
 
 #. type: Content of: <html><body><div><div><ul><li><li><li><li><li>
 #: sedout/lang_transaction.html:38
 msgid "<a href='prosupport.html'>Purchase</a>"
-msgstr ""
+msgstr "<a href='prosupport.html'>Purchase</a>"
 
 #. type: Content of: <html><body><div><div><form><select>
 #: sedout/lang_transaction.html:43
 msgid "<select name=\"s\" id=\"searchtype\">"
-msgstr ""
+msgstr "<select name=\"s\" id=\"searchtype\">"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/lang_transaction.html:44
 msgid "Search Documentation"
-msgstr ""
+msgstr "Search Documentation"
 
 #. type: Content of: <html><body><div><div><form><select><option>
 #: sedout/lang_transaction.html:45
 msgid "Search Changelog"
-msgstr ""
+msgstr "Search Changelog"
 
 #. type: Content of: <html><body><div><div><form>
 #: sedout/lang_transaction.html:46
 msgid ""
 "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> "
 "<input type=\"submit\" value=\"Go\"/>"
-msgstr ""
+msgstr "</select> <input type=\"text\" name=\"q\" id=\"searchbox\" value=\"\"/> <input type=\"submit\" value=\"Go\"/>"
 
 #. type: Content of: <html><body><script>
 #: sedout/lang_transaction.html:53
@@ -157,12 +156,12 @@ msgid ""
 "document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); "
 "document.body.onmousemove=null; } setTimeout(function(){ antiRobot |= 1; "
 "antiRobotGo(); }, 100)  antiRobotGo(); } antiRobotDefense();"
-msgstr ""
+msgstr "function toggle_div(nm) { var w = document.getElementById(nm); if( w.style.display==\"block\" ){ w.style.display = \"none\"; }else{ w.style.display = \"block\"; } } function toggle_search() { var w = document.getElementById(\"searchmenu\"); if( w.style.display==\"block\" ){ w.style.display = \"none\"; } else { w.style.display = \"block\"; setTimeout(function(){ document.getElementById(\"searchbox\").focus()  }, 30); } } function div_off(nm){document.getElementById(nm).style.display=\"none\";} window.onbeforeunload = function(e){div_off(\"submenu\");}; /* Disable the Search feature if we are not operating from CGI, since */ /* Search is accomplished using CGI and will not work without it. */ if( !location.origin || !location.origin.match || !location.origin.match(/http/) ){ document.getElementById(\"search_menubutton\").style.display = \"none\"; } /* Used by the Hide/Show button beside syntax diagrams, to toggle the */ function hideorshow(btn,obj){ var x = document.getElementById(obj); var b = document.getElementById(btn); if( x.style.display!='none' ){ x.style.display = 'none'; b.innerHTML='show'; }else{ x.style.display = ''; b.innerHTML='hide'; } return false; } var antiRobot = 0; function antiRobotGo(){ if( antiRobot!=3 ) return; antiRobot = 7; var j = document.getElementById(\"mtimelink\"); if(j && j.hasAttribute(\"data-href\")) j.href=j.getAttribute(\"data-href\"); } function antiRobotDefense(){ document.body.onmousedown=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousedown=null; }; document.body.onmousemove=function(){ antiRobot |= 2; antiRobotGo(); document.body.onmousemove=null; }; setTimeout(function(){ antiRobot |= 1; antiRobotGo(); }, 100);  antiRobotGo(); } antiRobotDefense();"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/lang_transaction.html:128
 msgid "<span>1. </span>Transaction Control Syntax"
-msgstr ""
+msgstr "<span>1. </span>トランザクション制御文法"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:130
@@ -170,33 +169,33 @@ msgid ""
 "<b><a href=\"syntax/begin-stmt.html\">begin-stmt:</a></b> <button "
 "id='xe414e5c1' "
 "onclick='hideorshow(\"xe414e5c1\",\"xf7b9c104\")'>hide</button>"
-msgstr ""
+msgstr "<b><a href=\"syntax/begin-stmt.html\">begin-stmt:</a></b> <button id='xe414e5c1' onclick='hideorshow(\"xe414e5c1\",\"xf7b9c104\")'>hide</button>"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:138
 msgid "BEGIN"
-msgstr ""
+msgstr "BEGIN"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:144
 msgid "EXCLUSIVE"
-msgstr ""
+msgstr "EXCLUSIVE"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:152 sedout/lang_transaction.html:192
 #: sedout/lang_transaction.html:221
 msgid "TRANSACTION"
-msgstr ""
+msgstr "TRANSACTION"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:163
 msgid "DEFERRED"
-msgstr ""
+msgstr "DEFERRED"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:170
 msgid "IMMEDIATE"
-msgstr ""
+msgstr "IMMEDIATE"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:177
@@ -204,17 +203,17 @@ msgid ""
 "<b><a href=\"syntax/commit-stmt.html\">commit-stmt:</a></b> <button "
 "id='x2b8fc0fd' "
 "onclick='hideorshow(\"x2b8fc0fd\",\"xb3d5e3ac\")'>hide</button>"
-msgstr ""
+msgstr "<b><a href=\"syntax/commit-stmt.html\">commit-stmt:</a></b> <button id='x2b8fc0fd' onclick='hideorshow(\"x2b8fc0fd\",\"xb3d5e3ac\")'>hide</button>"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:187
 msgid "COMMIT"
-msgstr ""
+msgstr "COMMIT"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:197
 msgid "END"
-msgstr ""
+msgstr "END"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:209
@@ -222,32 +221,32 @@ msgid ""
 "<b><a href=\"syntax/rollback-stmt.html\">rollback-stmt:</a></b> <button "
 "id='x908cc22b' "
 "onclick='hideorshow(\"x908cc22b\",\"x2982a3ff\")'>hide</button>"
-msgstr ""
+msgstr "<b><a href=\"syntax/rollback-stmt.html\">rollback-stmt:</a></b> <button id='x908cc22b' onclick='hideorshow(\"x908cc22b\",\"x2982a3ff\")'>hide</button>"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:217
 msgid "ROLLBACK"
-msgstr ""
+msgstr "ROLLBACK"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:225
 msgid "TO"
-msgstr ""
+msgstr "TO"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:229
 msgid "SAVEPOINT"
-msgstr ""
+msgstr "SAVEPOINT"
 
 #. type: Content of: <html><body><div><div><div><svg><text>
 #: sedout/lang_transaction.html:233
 msgid "savepoint-name"
-msgstr ""
+msgstr "savepoint-name"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/lang_transaction.html:251
 msgid "<span>2. </span>Transactions"
-msgstr ""
+msgstr "<span>2. </span>トランザクション"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:254
@@ -257,7 +256,7 @@ msgid ""
 "href=\"pragma.html#syntax\">PRAGMA</a> statements)  will automatically start "
 "a transaction if one is not already in effect.  Automatically started "
 "transactions are committed when the last SQL statement finishes."
-msgstr ""
+msgstr "トランザクション内除き、読み取りやは書き込みは発生しません。 データベースにアクセスするすべてのコマンド(基本的に、 いくつかの <a href=\"pragma.html#syntax\">PRAGMA</a> 文を除くすべての SQL コマンド)は、トランザクションがまだ有効になっていない場合、自動的にトランザクションを開始します。 最後の SQL 文が終了すると、開始されたトランザクションは自動的にコミットされます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:263
@@ -268,12 +267,12 @@ msgid ""
 "occurs and the ROLLBACK conflict resolution algorithm is specified.  See the "
 "documentation on the <a href=\"lang_conflict.html\">ON CONFLICT</a> clause "
 "for additional information about the ROLLBACK conflict resolution algorithm."
-msgstr ""
+msgstr "トランザクションは、 BEGIN コマンドを使用して手動で開始できます。 このようなトランザクションは通常、 次の COMMIT または ROLLBACK コマンドまで存続します。しかし、 データベースが閉じられている場合、またはエラーが発生し、かつ、 ROLLBACK 競合解決アルゴリズムが指定されている場合、 トランザクションは ROLLBACK も実行します。 ROLLBACK 競合解決アルゴリズムの詳細については、 <a href=\"lang_conflict.html\">ON CONFLICT</a> 句に関する文書を参照してください。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:274
 msgid "END TRANSACTION is an alias for COMMIT."
-msgstr ""
+msgstr "END TRANSACTION は COMMIT の別名(alias)です。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:277
@@ -290,12 +289,12 @@ msgid ""
 "command and the ROLLBACK command without the TO clause work the same on <a "
 "href=\"lang_savepoint.html\">SAVEPOINT</a> transactions as they do with "
 "transactions started by BEGIN."
-msgstr ""
+msgstr "BEGIN...COMMIT を使用して作成されたトランザクションはネスト(入れ子)しません。 ネスト(入れ子)されたトランザクションには <a href=\"lang_savepoint.html\">SAVEPOINT</a> と <a href=\"lang_savepoint.html\">RELEASE</a> コマンドを使用します。 上記構文図の ROLLBACK コマンドの \"TO SAVEPOINT <span class='yyterm'>name</span>\" は <a href=\"lang_savepoint.html\">SAVEPOINT</a> トランザクションにのみ適用されます。 トランザクション内で BEGIN コマンドを呼び出そうとすると、 トランザクションが <a href=\"lang_savepoint.html\">SAVEPOINT</a> によって開始されたか、あるいは以前の BEGIN によって開始されたかに関係なく、エラーで失敗します。 TO 句を指定しない COMMIT コマンドと ROLLBACK コマンドは、BEGIN によって開始されたトランザクションの場合と同様に、 <a href=\"lang_savepoint.html\">SAVEPOINT</a> トランザクションでも同じように機能します。"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/lang_transaction.html:288
 msgid "<span>2.1. </span>Read transactions versus write transactions"
-msgstr ""
+msgstr "<span>2.1. </span>読み取りトランザクション V.S 書き込みトランザクション"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:290
@@ -303,7 +302,7 @@ msgid ""
 "SQLite supports multiple simultaneous read transactions coming from separate "
 "database connections, possibly in separate threads or processes, but only "
 "one simultaneous write transaction."
-msgstr ""
+msgstr "SQLite は、 別々のデータベース接続からの複数の同時読み取りトランザクションをサポートし、読み取りトランザクションは別々のスレッドまたはプロセスである可能性がありますが、 同時書き込みトランザクションは 1 つだけです。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:295
@@ -318,7 +317,7 @@ msgid ""
 "process of modifying the database, then upgrading to a write transaction is "
 "not possible and the write statement will fail with <a "
 "href=\"rescode.html#busy\">SQLITE_BUSY</a>."
-msgstr ""
+msgstr "読み取りトランザクションは読み取り専用です。 書き込みトランザクションでは、読み取りと書き込みの両方が可能です。 読み取りトランザクションは SELECT ステートメントによって開始され、 書き込みトランザクションは CREATE、DELETE、DROP、INSERT、UPDATE などの文 (まとめて「書き込み文」(write statements)と呼ぶ)によって開始されます。 読み取りトランザクションがアクティブなときに書き込み文が発生した場合、 可能であれば、読み取りトランザクションは書き込みトランザクションにアップグレードされます。 他のデータベース接続が既にデータベースを変更しているか、データベースを変更中の場合、 書き込みトランザクションへのアップグレードは不可能であり、書き込みステートメントは <a href=\"rescode.html#busy\">SQLITE_BUSY</a> で失敗します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:308
@@ -332,24 +331,24 @@ msgid ""
 "until after the transaction ends.  While its read transaction is active, X "
 "will continue to see an historic snapshot of the database prior to the "
 "changes implemented by Y."
-msgstr ""
+msgstr "読み取りトランザクションがアクティブである間、 別のデータベース接続によって行われたデータベースへの変更は、 読み取りトランザクションを開始したデータベース接続に現れません。 データベース接続 X が読み取りトランザクションを保持している場合、 X のトランザクションがまだ開いている間に他のデータベース接続 Y がデータベースの内容を変更する可能性がありますが、 X はトランザクションが終了するまでそれらの変更を確認できません。 読み取りトランザクションがアクティブである間、X は、Y によって変更される前のデータベースの履歴スナップショットを引き続き表示します。"
 
 #. type: Content of: <html><body><div>
 #: sedout/lang_transaction.html:320
 msgid "<a name=\"immediate\"></a>"
-msgstr ""
+msgstr "<a name=\"immediate\"></a>"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/lang_transaction.html:322
 msgid "<span>2.2. </span>DEFERRED, IMMEDIATE, and EXCLUSIVE transactions"
-msgstr ""
+msgstr "<span>2.2. </span>DEFERRED トランザクションと IMMEDIATE トランザクションと EXCLUSIVE トランザクション"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:325
 msgid ""
 "Transactions can be DEFERRED, IMMEDIATE, or EXCLUSIVE.  The default "
 "transaction behavior is DEFERRED."
-msgstr ""
+msgstr "トランザクションは、 DEFERRED (意味:延期・据え置き) または IMMEDIATE (意味:即時) または EXCLUSIVE (意味:排他的) のいずれかにできます。 デフォルトのトランザクションの振る舞いは DEFERRED です。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:330
@@ -365,7 +364,7 @@ msgid ""
 "will upgrade the transaction to a write transaction if possible, or return "
 "SQLITE_BUSY.  If the first statement after BEGIN DEFERRED is a write "
 "statement, then a write transaction is started."
-msgstr ""
+msgstr "DEFERRED は、 データベースが最初にアクセスされるまでトランザクションが実際には開始されないことを意味します。 内部的には、 BEGIN DEFERRED 文は、 最後の文が終了したときに通常発生する自動コミットをオフにするフラグをデータベース接続に設定するだけです。 これにより、 自動的に開始されたトランザクションは、 明示的な COMMIT または ROLLBACK まで、またはエラーまたは ON CONFLICT ROLLBACK 句によってロールバックが引き起こされるまで持続します。 BEGIN DEFERRED の後の最初の文が SELECT の場合、 読み取りトランザクションが開始されます。 後続の書き込み文は、可能であればトランザクションを書き込みトランザクションにアップグレードするか、 SQLITE_BUSY を返します。 BEGIN DEFERRED の後の最初の文が書き込み文である場合、書き込みトランザクションが開始されます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:346
@@ -374,7 +373,7 @@ msgid ""
 "without waiting for a write statement.  The BEGIN IMMEDIATE might fail with "
 "<a href=\"rescode.html#busy\">SQLITE_BUSY</a> if another write transaction "
 "is already active on another database connection."
-msgstr ""
+msgstr "IMMEDIATE は、書き込み文まで待つことをせずに、データベース接続が新しい書き込みを即座開始するようにします。  別のデータベース接続で別の書き込みトランザクションが既にアクティブになっている場合、 BEGIN IMMEDIATE は <a href=\"rescode.html#busy\">SQLITE_BUSY</a> で失敗する可能性があります。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:353
@@ -384,12 +383,12 @@ msgid ""
 "href=\"wal.html\">WAL mode</a>, but in other journaling modes, EXCLUSIVE "
 "prevents other database connections from reading the database while the "
 "transaction is underway."
-msgstr ""
+msgstr "EXCLUSIVE は、書き込みトランザクションが即座に開始されるという点で IMMEDIATE に似ています。 EXCLUSIVE と IMMEDIATE は <a href=\"wal.html\">WAL モード</a>では全く同じですが、 他のジャーナリング・モード(journaling modes)で EXCLUSIVE を使用すると、トランザクションの進行中は他のデータベース接続がデータベースを読み取ることができなくなります。"
 
 #. type: Content of: <html><body><div><h2>
 #: sedout/lang_transaction.html:360
 msgid "<span>2.3. </span>Implicit versus explicit transactions"
-msgstr ""
+msgstr "<span>2.3. </span>暗黙のトランザクション V.S. 明示的トランザクション"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:363
@@ -409,7 +408,7 @@ msgid ""
 "I/O also counts as an unfinished statement.  The <a "
 "href=\"c3ref/blob.html\">sqlite3_blob</a> finishes when it is <a "
 "href=\"c3ref/blob_close.html\">closed</a>."
-msgstr ""
+msgstr "暗黙のトランザクション (BEGIN によって開始されるトランザクションではなく、自動的に開始されるトランザクション) は、最後のアクティブなSQL文(statement)が終了すると自動的にコミットされます。 SQL文(statement)は最後のカーソルが閉じたときに終了します。 自動的なコミットは、準備済 SQL 文(prepared statement)が <a href=\"c3ref/reset.html\">reset</a> または <a href=\"c3ref/finalize.html\">finalize</a> されたときに起こることが保証されています。 一部のSQL文(statement)は、トランザクション制御の目的で、 reset または finalize される前に終了する場合がありますが、その際に自動的にコミットされる保証はありません。 SQL文(statement)が finish したことを確認する唯一の方法は、そのSQL文(statement)で <a href=\"c3ref/reset.html\">sqlite3_reset()</a> または <a href=\"c3ref/finalize.html\">sqlite3_finalize()</a> を呼び出すことです。インクリメンタル BLOB I/O に使用される、開いている <a href=\"c3ref/blob.html\">sqlite3_blob</a> も、未完了のSQL文(statement)としてカウントされます。 <a href=\"c3ref/blob.html\">sqlite3_blob</a> は、 <a href=\"c3ref/blob_close.html\">BLOB を閉じた</a>ときに終了します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:378
@@ -418,7 +417,7 @@ msgid ""
 "href=\"lang_select.html\">SELECT</a> statements.  However, if there are "
 "pending write operations, the COMMIT command will fail with an error code <a "
 "href=\"rescode.html#busy\">SQLITE_BUSY</a>."
-msgstr ""
+msgstr "保留中の <a href=\"lang_select.html\">SELECT</a> 文がある場合でも、 明示的な COMMIT コマンドは即座に実行されます。 ただし、 保留中の書き込み操作がある場合、COMMIT コマンドはエラー・コード <a href=\"rescode.html#busy\">SQLITE_BUSY</a> で失敗します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:385
@@ -428,7 +427,7 @@ msgid ""
 "or process has an open read connection.  When COMMIT fails in this way, the "
 "transaction remains active and the COMMIT can be retried later after the "
 "reader has had a chance to clear."
-msgstr ""
+msgstr "別のスレッドまたはプロセスが開いている読み取り接続を開いている場合、 COMMIT を実行しようとすると、 <a href=\"rescode.html#busy\">SQLITE_BUSY</a> リターン・コードが返されることもあります。 この方法で COMMIT が失敗した場合、 トランザクションはアクティブなままであり、 読み取り接続側のクリア後の機会で COMMIT を再試行できます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:393
@@ -443,7 +442,7 @@ msgid ""
 "SQLite version 3.8.8 (2015-01-16) and later, a pending read will continue "
 "functioning after the ROLLBACK as long as the ROLLBACK does not modify the "
 "database schema."
-msgstr ""
+msgstr "非常に古いバージョンの SQLite (バージョン 3.7.11、2012/03/20より前) では、 保留中のクエリ(pending queries)がある場合、 ROLLBACK はエラー・コード <a href=\"rescode.html#busy\">SQLITE_BUSY</a> で失敗します。 SQLite の最近のバージョンでは、 ROLLBACK が続行され、 保留中(pending)のSQL文(statement)が中止されることが多く、 <a href=\"rescode.html#abort\">SQLITE_ABORT</a> または <a href=\"rescode.html#abort_rollback\">SQLITE_ABORT_ROLLBACK</a> エラーが返されます。 SQLite バージョン 3.8.8 (2015-01-16) 以降では、 保留中(pending)の読み取りは、 ROLLBACK がデータベース・スキーマを変更しない限り、 ROLLBACK の後も引き続き機能します。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:406
@@ -451,12 +450,12 @@ msgid ""
 "If <a href=\"pragma.html#pragma_journal_mode\">PRAGMA journal_mode</a> is "
 "set to OFF (thus disabling the rollback journal file) then the behavior of "
 "the ROLLBACK command is undefined."
-msgstr ""
+msgstr "<a href=\"pragma.html#pragma_journal_mode\">PRAGMA journal_mode</a> が OFF に設定されている(つまり、ロールバック・ジャーナル・ファイルが無効になっている) 場合、 ROLLBACK コマンドの動作は未定義です。"
 
 #. type: Content of: <html><body><div><h1>
 #: sedout/lang_transaction.html:410
 msgid "<span>3. </span>Response To Errors Within A Transaction"
-msgstr ""
+msgstr "<span>3. </span>トランザクション内エラーへの対応"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:412
@@ -464,29 +463,29 @@ msgid ""
 "If certain kinds of errors occur within a transaction, the transaction may "
 "or may not be rolled back automatically.  The errors that can cause an "
 "automatic rollback include:"
-msgstr ""
+msgstr "トランザクション内で特定の種類のエラーが発生した場合、トランザクションは自動的にロールバックされる場合とされない場合があります。 自動ロールバックを引き起こす可能性のあるエラーには、以下のものがあります:"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/lang_transaction.html:417
 msgid "<a href=\"rescode.html#full\">SQLITE_FULL</a>: database or disk full"
-msgstr ""
+msgstr "<a href=\"rescode.html#full\">SQLITE_FULL</a>: データベースまたはディスクが満杯(full)です"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/lang_transaction.html:418
 msgid "<a href=\"rescode.html#ioerr\">SQLITE_IOERR</a>: disk I/O error"
-msgstr ""
+msgstr "<a href=\"rescode.html#ioerr\">SQLITE_IOERR</a>: ディスク I/O エラーです"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/lang_transaction.html:419
 msgid ""
 "<a href=\"rescode.html#busy\">SQLITE_BUSY</a>: database in use by another "
 "process"
-msgstr ""
+msgstr "<a href=\"rescode.html#busy\">SQLITE_BUSY</a>: 別のプロセスで使用中のデータベースです"
 
 #. type: Content of: <html><body><div><ul><li>
 #: sedout/lang_transaction.html:420
 msgid "<a href=\"rescode.html#nomem\">SQLITE_NOMEM</a>: out of memory"
-msgstr ""
+msgstr "<a href=\"rescode.html#nomem\">SQLITE_NOMEM</a>: メモリーが足りません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:424
@@ -499,7 +498,7 @@ msgid ""
 "transaction.  An application can tell which course of action SQLite took by "
 "using the <a href=\"c3ref/get_autocommit.html\">sqlite3_get_autocommit()</a> "
 "C-language interface."
-msgstr ""
+msgstr "これらすべてのエラーに対して、 SQLite は、作業していた 1 つのSQL文(statement)を元に戻し(undo)、 同じトランザクション内のそれ以前のSQL文(statement)からの変更をそのままにして、 トランザクションを続行しようとします。 ただし、評価されるSQL文(statement)とエラーが発生する箇所によっては、 SQLite がトランザクション全体をロールバックしてキャンセルする必要がある場合があります。 アプリケーションは、 C 言語インターフェースの<a href=\"c3ref/get_autocommit.html\">sqlite3_get_autocommit()</a> を使用して、 SQLite が実行した一連のアクションを知ることができます。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:433
@@ -508,7 +507,7 @@ msgid ""
 "explicitly issuing a ROLLBACK command.  If the transaction has already been "
 "rolled back automatically by the error response, then the ROLLBACK command "
 "will fail with an error, but no harm is caused by this."
-msgstr ""
+msgstr "アプリケーションでは、 上記のようなエラーに対して、 明示的にROLLBACKコマンドを発行して対応することが推奨されます。 エラー処理によってトランザクションがすでに自動的にロールバックされている場合、 ROLLBACKコマンドはエラーで失敗するけれども、これによる害はありません。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:439
@@ -518,7 +517,7 @@ msgid ""
 "error response.  In particular, we may choose to simplify the interface in "
 "future versions of SQLite by causing the errors above to force an "
 "unconditional rollback."
-msgstr ""
+msgstr "SQLite の将来のバージョンでは、 自動トランザクション・ロールバックを引き起こす可能性あるエラーに対応するエラーのリストが拡張される可能性があります。 SQLite の将来のバージョンでは、エラー処理が変更される可能性があります。 特に、 SQLite の将来のバージョンでは、 上記のエラーを発生させて無条件のロールバックを強制することにより、 インターフェイスを簡素化することを選択する可能性があります。"
 
 #. type: Content of: <html><body><div><p>
 #: sedout/lang_transaction.html:444
@@ -527,4 +526,4 @@ msgid ""
 "href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" "
 "data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_transaction.in?m=44e02f89eb\">2022-01-08 "
 "05:02:57</a> UTC </i></small>"
-msgstr ""
+msgstr "<small><i>This page last modified on <a href=\"https://sqlite.org/docsrc/honeypot\" id=\"mtimelink\" data-href=\"https://sqlite.org/docsrc/finfo/pages/lang_transaction.in?m=44e02f89eb\">2022-01-08 05:02:57</a> UTC </i></small>"
